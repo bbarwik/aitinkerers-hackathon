@@ -21,33 +21,38 @@ Game developers rely on player feedback to improve their games, but:
 
 GameSight AI watches gameplay videos and extracts structured feedback automatically:
 
-- **Sentiment analysis** — detect frustration, excitement, boredom, confusion from both audio reactions and visual behavior
-- **Key moment detection** — timestamped events where players struggle, celebrate, get stuck, or disengage
-- **Mechanic engagement tracking** — what game features players interact with most, what they skip
-- **UI/UX friction points** — where players hesitate, misclick, or look confused
+- **Player emotion detection** — facial expressions, body language, and posture from facecam (frustration, joy, confusion, boredom) combined with audio tone analysis
+- **Frustration & stop-risk analysis** — why players stop playing: difficulty spikes, unclear objectives, broken mechanics
+- **Clarity & learnability** — where the game fails to communicate: missed cues, confusing UI, wrong mental models
+- **Delight & engagement** — what keeps players playing: satisfying mechanics, exploration, mastery moments
+- **Technical quality** — visible bugs, performance issues, audio glitches with reproduction context
 - **Verbal feedback extraction** — what players say out loud (commentary, complaints, praise)
 - **Cross-video aggregation** — "73% of players got frustrated at the bridge section", "most praised feature: combat system"
 
 ### How It Works
 
 ```
-YouTube/Video URL --> Download --> Chunk (5-10 min segments) --> Gemini 3 Flash Analysis --> Structured JSON --> FastAPI serves results
+MP4 Video --> ffmpeg chunk (5min, 1min overlap) --> Upload to Gemini Files API
+  --> Timeline Agent (sequential, 1 FPS) --> builds session map
+  --> Specialist Agents (parallel, 5 FPS HIGH) --> 4 agents per chunk via warmup+fork
+  --> Deduplicate overlaps --> Aggregate report --> SQLite + FastAPI
 ```
 
-1. **Input:** YouTube URLs, direct video uploads, or any video source
-2. **Download & Chunk:** yt-dlp downloads videos, ffmpeg splits into analyzable segments
-3. **AI Analysis:** Each chunk is uploaded to Gemini 3 Flash via Files API, analyzed with structured output prompts
-4. **Structured Output:** Pydantic models define the exact feedback schema — Gemini returns typed JSON
-5. **Aggregation:** Cross-video insights are computed from individual analyses
-6. **API:** FastAPI serves results for dashboards and integrations
+1. **Input:** Local MP4 or YouTube URL (30-60 min gameplay video)
+2. **Chunk:** Local: ffmpeg splits into 5-min segments with 1-min overlap. YouTube: logical chunking via server-side `start_offset/end_offset` (no download needed)
+3. **Timeline:** Sequential analysis at 1 FPS builds the session structure
+4. **Specialist Analysis:** 4 agents analyze each chunk in parallel at 5 FPS, observing gameplay, audio, and player facecam expressions
+5. **Dedup:** Ownership-window algorithm removes duplicate events from overlapping chunks
+6. **Report:** Deterministic aggregation into structured VideoReport
+7. **API:** FastAPI serves results
 
 ### Business Model
 
 **Target:** Game studios during testing phases (alpha/beta testing, paid playtesting programs).
 
 **Integration:** Minimal — the system only needs video input from players. No SDK integration into the game engine required. Works with:
-- Screen recordings from testers
-- YouTube/Twitch gameplay videos
+- Screen recordings from testers (local MP4)
+- YouTube gameplay videos (paste URL — no download needed, analyzed directly via Gemini API)
 - Streaming captures
 - Any video source
 
@@ -63,11 +68,12 @@ YouTube/Video URL --> Download --> Chunk (5-10 min segments) --> Gemini 3 Flash 
 
 **Why Gemini 3 Flash:**
 - 1M token context window — handles up to ~1 hour of video per request
-- Native multimodal: analyzes video frames (1 FPS) + audio simultaneously
-- Efficient video tokenization: 70 tokens/frame (vs 258 in older models)
+- Native multimodal: analyzes video frames + audio + facecam simultaneously
+- HIGH resolution mode (280 tok/frame) at 5 FPS captures fast gameplay action and player expressions
+- Detects facial expressions, body language, and posture from facecam overlays
 - Structured JSON output via Pydantic `response_schema`
 - `thinking_level` parameter for controlling reasoning depth
-- Cost: ~$0.003/min of video at default resolution (~$3.00 for entire 100-video demo)
+- Cost: ~$0.17/chunk at 5 FPS HIGH (5-min chunk with 4 parallel agents)
 
 ### Backend
 | Component | Technology | Version | Purpose |
@@ -179,25 +185,20 @@ gamesight/
 The core output schema for each video chunk analysis:
 
 ```python
-class KeyMoment(BaseModel):
-    timestamp: str          # MM:SS format
-    event_type: Literal["frustration", "excitement", "confusion",
-                         "boredom", "achievement", "discovery"]
-    description: str        # What happened
-    evidence: str           # Observable audio/visual evidence
-    severity: int           # 1-10 scale
+## Multi-Agent Analysis Pipeline
 
-class GameplayFeedback(BaseModel):
-    overall_sentiment: Literal["positive", "neutral", "negative", "mixed"]
-    engagement_score: int                    # 1-10
-    key_moments: list[KeyMoment]
-    frustration_points: list[KeyMoment]
-    praised_features: list[str]
-    criticized_features: list[str]
-    ui_ux_issues: list[str]
-    player_commentary_summary: str
-    time_spent_breakdown: dict[str, float]   # % time on: combat, exploration, menu, etc.
-    recommendations: list[str]               # Actionable suggestions for devs
+The system uses **5 specialized AI agents** that analyze each video chunk in parallel:
+
+1. **Timeline Agent** — maps the session structure (phases, events, progression)
+2. **Friction Agent** — detects frustration, stop-playing risk, difficulty spikes
+3. **Clarity Agent** — finds confusion, unclear objectives, UX friction
+4. **Delight Agent** — identifies engagement, mastery, positive moments
+5. **Quality Agent** — spots bugs, performance issues, technical problems
+
+Each agent observes three evidence channels:
+- **Visual gameplay** — on-screen actions, game state, UI interactions
+- **Audio** — player voice, tone, reactions, game audio
+- **Player face/body** — facial expressions, posture, gestures from facecam overlay
 ```
 
 ---
@@ -267,9 +268,9 @@ result: GameplayFeedback = response.parsed
 
 | Feature | GameSight AI | PlaytestCloud | GameAnalytics | Unity Analytics |
 |---------|-------------|---------------|---------------|-----------------|
-| Video analysis | Multimodal (frames + audio) | Transcript-only | None | None |
-| Visual cue detection | Yes | No | No | No |
-| Audio sentiment | Yes (tone, emotion) | Speech-to-text only | No | No |
+| Video analysis | Multimodal (frames + audio + facecam) | Transcript-only | None | None |
+| Player emotion (face/body) | Yes (expressions, posture, gestures) | No | No | No |
+| Audio sentiment | Yes (tone, emotion, speech) | Speech-to-text only | No | No |
 | Integration effort | Zero (just video) | SDK + panel | SDK | SDK |
 | Structured output | Typed JSON schemas | PDF reports | Dashboards | Dashboards |
 | Self-hosted | Yes | No | No | No |

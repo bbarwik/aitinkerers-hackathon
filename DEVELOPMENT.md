@@ -494,6 +494,7 @@ class KeyMoment(BaseModel):
     event_type: EventType = Field(description="Type of gameplay event detected")
     description: str = Field(description="What happened in 1-2 sentences")
     evidence: str = Field(description="Observable audio/visual evidence supporting this classification")
+    player_expression: str | None = Field(description="Facecam: facial expression, posture, gestures. None if no facecam visible")
     player_emotion: EmotionLabel = Field(description="Detected player emotion at this moment")
     severity: int = Field(description="Impact severity from 1 (minor) to 10 (critical)", ge=1, le=10)
 
@@ -610,17 +611,21 @@ class AggregatedInsights(BaseModel):
 SYSTEM_PROMPT = """You are GameSight AI, an expert gameplay analyst for game studios.
 
 You watch gameplay videos and extract structured feedback that helps game developers
-improve their games. You analyze BOTH the visual gameplay AND the player's audio
-reactions (voice, tone, emotions).
+improve their games. You analyze three evidence channels:
+- Visual gameplay: on-screen actions, game state, UI interactions
+- Audio: player voice, tone, reactions, game audio
+- Player face/body: if a facecam or webcam overlay is visible, observe facial expressions,
+  posture changes, gestures (leaning forward, head in hands, fist pump, etc.)
 
 Your analysis principles:
 - Be specific: reference exact timestamps, exact on-screen events, exact player quotes
-- Distinguish between visual evidence (what you see) and audio evidence (what you hear)
+- Distinguish between visual evidence, audio evidence, and player expression evidence
 - Focus on actionable insights that game developers can act on
 - Rate severity honestly: a minor camera issue is 2/10, a game-breaking bug is 9/10
 - If the player says nothing, note it — silence during intense moments can indicate focus OR disengagement
 - Don't invent moments that aren't there. If the segment is uneventful, say so with fewer key_moments
-- If no player audio is present, analyze only visual gameplay behavior"""
+- If no player audio is present, analyze only visual gameplay behavior
+- If no facecam is visible, skip body/face observations"""
 ```
 
 ### Analysis Prompt
@@ -637,10 +642,10 @@ For each key moment you identify:
 4. Rate the severity/impact (1-10)
 
 Pay special attention to:
-- **Frustration signals:** repeated failed attempts, sighs, cursing, pausing, menu-checking
-- **Confusion signals:** aimless wandering, re-reading UI elements, hesitation, asking "what do I do?"
-- **Excitement signals:** leaning forward, exclaiming, rapid actions, "oh wow", "that's cool"
-- **Boredom signals:** long pauses, tabbing out, monotone voice, repetitive actions
+- **Frustration signals:** repeated failed attempts, sighs, cursing, pausing, menu-checking, facecam: furrowed brow, head shaking, head in hands
+- **Confusion signals:** aimless wandering, re-reading UI elements, hesitation, asking "what do I do?", facecam: squinting, confused expression
+- **Excitement signals:** leaning forward, exclaiming, rapid actions, "oh wow", "that's cool", facecam: smiling, wide eyes, fist pump
+- **Boredom signals:** long pauses, tabbing out, monotone voice, repetitive actions, facecam: looking away, slumped posture
 - **UI/UX friction:** hovering over wrong buttons, misinterpreting icons, missing prompts
 - **Verbal feedback:** any direct commentary about game features, difficulty, fun, or problems
 
