@@ -41,3 +41,5 @@ class ResearchDiscoverRequest(BaseModel):
     game_name: str = Field(min_length=1, max_length=100)
     refresh: bool = False
     period: str = Field(default="month", pattern="^(day|week|month|all)$")
+    date_from: datetime | None = Field(default=None, description="Custom range start (overrides period)")
+    date_to: datetime | None = Field(default=None, description="Custom range end (overrides period)")

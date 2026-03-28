@@ -16,7 +16,10 @@ async def discover_videos(request: Request, payload: ResearchDiscoverRequest) ->
     discoverer = request.app.state.research_discoverer
     try:
         return await asyncio.wait_for(
-            discoverer.discover(payload.game_name, refresh=payload.refresh, period=payload.period),
+            discoverer.discover(
+                payload.game_name, refresh=payload.refresh, period=payload.period,
+                date_from=payload.date_from, date_to=payload.date_to,
+            ),
             timeout=120,
         )
     except asyncio.TimeoutError:
@@ -42,7 +45,10 @@ async def discover_videos_stream(request: Request, payload: ResearchDiscoverRequ
             await progress_queue.put(message)
 
         async def run_discovery() -> DiscoveryResult:
-            return await discoverer.discover(payload.game_name, refresh=payload.refresh, period=payload.period, on_progress=on_progress)
+            return await discoverer.discover(
+                payload.game_name, refresh=payload.refresh, period=payload.period,
+                date_from=payload.date_from, date_to=payload.date_to, on_progress=on_progress,
+            )
 
         task = asyncio.create_task(run_discovery())
 

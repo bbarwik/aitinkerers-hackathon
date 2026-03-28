@@ -1,10 +1,11 @@
 import { useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 import { ProgressLog } from "@/components/progress-log"
 import { ResultsView } from "@/components/results-view"
 import { useDiscover } from "@/hooks/use-discover"
-import { Gamepad2, Search, RefreshCw, AlertCircle, Calendar } from "lucide-react"
+import { Gamepad2, Search, RefreshCw, AlertCircle, Calendar, X } from "lucide-react"
 
 const PERIODS = [
   { value: "day", label: "24h" },
@@ -16,17 +17,31 @@ const PERIODS = [
 export function App() {
   const [gameName, setGameName] = useState("")
   const [period, setPeriod] = useState("month")
+  const [dateFrom, setDateFrom] = useState("")
+  const [dateTo, setDateTo] = useState("")
   const { status, progress, result, error, discover, reset } = useDiscover()
+
+  const handlePeriod = (value: string) => {
+    setPeriod(value)
+    setDateFrom("")
+    setDateTo("")
+  }
+
+  const handleDateChange = (from: string, to: string) => {
+    setDateFrom(from)
+    setDateTo(to)
+    if (from || to) setPeriod("")
+  }
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     const name = gameName.trim()
-    if (name) discover(name, false, period)
+    if (name) discover(name, false, period || "all", dateFrom || undefined, dateTo || undefined)
   }
 
   const handleRefresh = () => {
     const name = gameName.trim()
-    if (name) discover(name, true, period)
+    if (name) discover(name, true, period || "all", dateFrom || undefined, dateTo || undefined)
   }
 
   return (
@@ -81,7 +96,7 @@ export function App() {
             {PERIODS.map((p) => (
               <button
                 key={p.value}
-                onClick={() => setPeriod(p.value)}
+                onClick={() => handlePeriod(p.value)}
                 className={`rounded-md px-2.5 py-1 text-xs font-medium transition-colors ${
                   period === p.value
                     ? "bg-primary text-primary-foreground"
@@ -91,6 +106,51 @@ export function App() {
                 {p.label}
               </button>
             ))}
+
+            <Popover>
+              <PopoverTrigger asChild>
+                <button
+                  className={`rounded-md px-2.5 py-1 text-xs font-medium transition-colors ${
+                    !period
+                      ? "bg-primary text-primary-foreground"
+                      : "text-muted-foreground hover:text-foreground"
+                  }`}
+                >
+                  {!period && dateFrom
+                    ? `${dateFrom}${dateTo ? ` – ${dateTo}` : ""}`
+                    : "Custom"}
+                </button>
+              </PopoverTrigger>
+              <PopoverContent className="w-auto p-3" align="end">
+                <div className="flex flex-col gap-2">
+                  <label className="text-xs font-medium text-muted-foreground">Date range</label>
+                  <div className="flex items-center gap-2">
+                    <input
+                      type="date"
+                      value={dateFrom}
+                      onChange={(e) => handleDateChange(e.target.value, dateTo)}
+                      className="rounded-md border bg-transparent px-2.5 py-1.5 text-sm outline-none focus:ring-1 focus:ring-ring"
+                    />
+                    <span className="text-sm text-muted-foreground">to</span>
+                    <input
+                      type="date"
+                      value={dateTo}
+                      onChange={(e) => handleDateChange(dateFrom, e.target.value)}
+                      className="rounded-md border bg-transparent px-2.5 py-1.5 text-sm outline-none focus:ring-1 focus:ring-ring"
+                    />
+                  </div>
+                  {(dateFrom || dateTo) && (
+                    <button
+                      onClick={() => handlePeriod("month")}
+                      className="flex items-center gap-1 self-end text-xs text-muted-foreground hover:text-foreground"
+                    >
+                      <X className="h-3 w-3" />
+                      Clear
+                    </button>
+                  )}
+                </div>
+              </PopoverContent>
+            </Popover>
           </div>
         </div>
       </header>

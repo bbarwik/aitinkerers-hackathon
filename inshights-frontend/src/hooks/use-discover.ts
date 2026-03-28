@@ -49,18 +49,29 @@ export function useDiscover() {
   })
   const abortRef = useRef<AbortController | null>(null)
 
-  const discover = useCallback(async (gameName: string, refresh = false, period = "month") => {
+  const discover = useCallback(
+    async (
+      gameName: string,
+      refresh = false,
+      period = "month",
+      dateFrom?: string,
+      dateTo?: string,
+    ) => {
     abortRef.current?.abort()
     const controller = new AbortController()
     abortRef.current = controller
 
     setState({ status: "loading", progress: [], result: null, error: null })
 
+    const body: Record<string, unknown> = { game_name: gameName, refresh, period }
+    if (dateFrom) body.date_from = `${dateFrom}T00:00:00Z`
+    if (dateTo) body.date_to = `${dateTo}T23:59:59Z`
+
     try {
       const resp = await fetch("/api/research/discover/stream", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ game_name: gameName, refresh, period }),
+        body: JSON.stringify(body),
         signal: controller.signal,
       })
 

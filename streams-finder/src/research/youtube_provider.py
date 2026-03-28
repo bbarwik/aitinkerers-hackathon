@@ -4,6 +4,7 @@ from datetime import datetime, timezone
 
 import httpx
 import yt_dlp
+from yt_dlp.utils import DateRange
 
 from .models import DiscoveredVideo, Platform
 
@@ -32,7 +33,9 @@ class YouTubeProvider:
             self.ydl_opts["cookiefile"] = cookies_path
             logger.info("YouTube cookies loaded from %s", cookies_path)
 
-    def search(self, queries: list[str]) -> list[DiscoveredVideo]:
+    def search(
+        self, queries: list[str], date_from: datetime | None = None, date_to: datetime | None = None,
+    ) -> list[DiscoveredVideo]:
         """Search YouTube for each query. Synchronous — caller wraps in asyncio.to_thread()."""
         videos: list[DiscoveredVideo] = []
         seen_ids: set[str] = set()
@@ -42,7 +45,7 @@ class YouTubeProvider:
             results: list[DiscoveredVideo] = []
             if not ytdlp_failed:
                 try:
-                    results = self._search_ytdlp(query)
+                    results = self._search_ytdlp(query, date_from, date_to)
                 except Exception as e:
                     err_msg = str(e)
                     if "Sign in to confirm" in err_msg or "bot" in err_msg.lower():
@@ -53,7 +56,7 @@ class YouTubeProvider:
 
             if not results and self.youtube_api_key:
                 try:
-                    results = self._search_api(query)
+                    results = self._search_api(query, date_from, date_to)
                 except Exception as e:
                     logger.warning("YouTube API search failed for query '%s': %s", query, e)
 
@@ -69,9 +72,27 @@ class YouTubeProvider:
 
     # --- yt-dlp search ---
 
-    def _search_ytdlp(self, query: str) -> list[DiscoveredVideo]:
-        search_url = f"ytsearch{self.results_per_query}:{query}"
-        with yt_dlp.YoutubeDL(self.ydl_opts) as ydl:
+    def _search_ytdlp(
+        self, query: str, date_from: datetime | None = None, date_to: datetime | None = None,
+    ) -> list[DiscoveredVideo]:
+        # Append YouTube's after:/before: search operators for server-side filtering,
+        # and overfetch since daterange post-filter may discard some results
+        date_query = query
+        if date_from:
+            date_query += f" after:{date_from.strftime('%Y-%m-%d')}"
+        if date_to:
+            date_query += f" before:{date_to.strftime('%Y-%m-%d')}"
+
+        fetch_count = self.results_per_query * 3 if (date_from or date_to) else self.results_per_query
+        search_url = f"ytsearch{fetch_count}:{date_query}"
+
+        opts = dict(self.ydl_opts)
+        if date_from or date_to:
+            start = date_from.strftime("%Y%m%d") if date_from else None
+            end = date_to.strftime("%Y%m%d") if date_to else None
+            opts["daterange"] = DateRange(start=start, end=end)
+
+        with yt_dlp.YoutubeDL(opts) as ydl:
             info = ydl.extract_info(search_url, download=False)
 
         entries = (info or {}).get("entries") or []
@@ -110,18 +131,25 @@ class YouTubeProvider:
 
     # --- YouTube Data API v3 fallback ---
 
-    def _search_api(self, query: str) -> list[DiscoveredVideo]:
+    def _search_api(
+        self, query: str, date_from: datetime | None = None, date_to: datetime | None = None,
+    ) -> list[DiscoveredVideo]:
         """Search via YouTube Data API v3. Costs 100 quota units per call."""
         # Step 1: search for video IDs
+        params: dict[str, str | int] = {
+            "part": "snippet",
+            "q": query,
+            "type": "video",
+            "maxResults": min(self.results_per_query, 50),
+            "key": self.youtube_api_key,
+        }
+        if date_from:
+            params["publishedAfter"] = date_from.strftime("%Y-%m-%dT%H:%M:%SZ")
+        if date_to:
+            params["publishedBefore"] = date_to.strftime("%Y-%m-%dT%H:%M:%SZ")
         search_resp = httpx.get(
             f"{YOUTUBE_API_URL}/search",
-            params={
-                "part": "snippet",
-                "q": query,
-                "type": "video",
-                "maxResults": min(self.results_per_query, 50),
-                "key": self.youtube_api_key,
-            },
+            params=params,
             timeout=15,
         )
         search_resp.raise_for_status()

@@ -3,7 +3,7 @@ import logging
 import re
 from collections import Counter
 from collections.abc import Callable, Coroutine
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 from .models import DiscoveredVideo, DiscoveryResult
 from .query_generator import QueryGenerator
@@ -39,11 +39,30 @@ class ResearchDiscoverer:
         self.recent_limit = recent_limit
         self._cache: dict[str, DiscoveryResult] = {}
 
-    async def discover(self, game_name: str, *, refresh: bool = False, period: str = "month", on_progress: ProgressCallback | None = None) -> DiscoveryResult:
+    async def discover(
+        self,
+        game_name: str,
+        *,
+        refresh: bool = False,
+        period: str = "month",
+        date_from: datetime | None = None,
+        date_to: datetime | None = None,
+        on_progress: ProgressCallback | None = None,
+    ) -> DiscoveryResult:
         async def progress(msg: str) -> None:
             logger.info(msg)
             if on_progress:
                 await on_progress(msg)
+
+        # Resolve effective date range — custom dates override period
+        if date_from or date_to:
+            eff_from = date_from
+            eff_to = date_to
+            twitch_period = "all"
+        else:
+            eff_from = self._period_cutoff(period)
+            eff_to = None
+            twitch_period = period
 
         cache_key = game_name.strip().casefold()
         if not refresh and cache_key in self._cache:
@@ -77,9 +96,9 @@ class ResearchDiscoverer:
         await progress(f"Searching {' + '.join(sources)} in parallel...")
 
         tasks: list[asyncio.Task] = []
-        tasks.append(asyncio.create_task(asyncio.to_thread(self.youtube.search, queries)))
+        tasks.append(asyncio.create_task(asyncio.to_thread(self.youtube.search, queries, eff_from, eff_to)))
         if self.twitch:
-            tasks.append(asyncio.create_task(self.twitch.search(game_name, period=period)))
+            tasks.append(asyncio.create_task(self.twitch.search(game_name, period=twitch_period)))
 
         results = await asyncio.gather(*tasks, return_exceptions=True)
 
@@ -113,7 +132,7 @@ class ResearchDiscoverer:
         # Dedupe, filter, rank
         await progress(f"Processing {len(all_videos)} total candidates...")
         deduped = self._deduplicate(all_videos)
-        filtered = self._filter(deduped)
+        filtered = self._filter(deduped, date_from=eff_from, date_to=eff_to)
         await progress(f"After filtering: {len(filtered)} videos (from {len(deduped)} unique)")
 
         popular = sorted(filtered, key=lambda v: v.view_count or 0, reverse=True)[: self.popular_limit]
@@ -148,12 +167,26 @@ class ResearchDiscoverer:
                 result.append(v)
         return result
 
-    def _filter(self, videos: list[DiscoveredVideo]) -> list[DiscoveredVideo]:
+    def _filter(
+        self, videos: list[DiscoveredVideo], date_from: datetime | None = None, date_to: datetime | None = None,
+    ) -> list[DiscoveredVideo]:
         result: list[DiscoveredVideo] = []
         for v in videos:
             if v.duration_seconds is not None and not (self.min_duration <= v.duration_seconds <= self.max_duration):
                 continue
             if EXCLUDE_TITLE_PATTERN.search(v.title):
                 continue
+            if date_from and v.published_at and v.published_at < date_from:
+                continue
+            if date_to and v.published_at and v.published_at > date_to:
+                continue
             result.append(v)
         return result
+
+    @staticmethod
+    def _period_cutoff(period: str) -> datetime | None:
+        if period == "all":
+            return None
+        deltas = {"day": timedelta(days=1), "week": timedelta(weeks=1), "month": timedelta(days=30)}
+        delta = deltas.get(period)
+        return datetime.now(timezone.utc) - delta if delta else None
