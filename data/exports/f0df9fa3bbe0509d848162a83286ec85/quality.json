@@ -1,0 +1,29 @@
+[
+  {
+    "agent_kind": "quality",
+    "source_label": "animation",
+    "absolute_seconds": 996.0,
+    "absolute_timestamp": "16:36",
+    "summary": "animation issue: NPC facial tentacles clipping through shoulder and collar mesh during Ending a dialogue or trade interaction with Omeluum.",
+    "game_context": "Ending a dialogue or trade interaction with Omeluum.",
+    "evidence": [
+      "NPC facial tentacles clipping through shoulder and collar mesh",
+      "None",
+      "Player reaction: Not noticed; player was focused on closing the trade menu.",
+      "Scene: Close-up dialogue with Omeluum in the Ebonlake Grotto."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 4,
+    "segment_label": "ebonlake_grotto_exploration",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

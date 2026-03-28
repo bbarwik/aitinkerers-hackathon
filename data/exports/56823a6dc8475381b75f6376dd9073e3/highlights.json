@@ -1,0 +1,214 @@
+{
+  "video_id": "56823a6dc8475381b75f6376dd9073e3",
+  "total_moments_analyzed": 63,
+  "highlights": [
+    {
+      "rank": 1,
+      "absolute_timestamp": "18:41",
+      "absolute_seconds": 1121.0,
+      "clip_start_seconds": 1111.0,
+      "clip_end_seconds": 1131.0,
+      "category": "retry_loop",
+      "headline": "3 attempts at intellect_devourer_ambush, outcome: succeeded",
+      "why_important": "Severity 6/10, confidence 80%",
+      "evidence": [
+        "Attempt 1: failed (Analytical; continues to click around the target area.)",
+        "Attempt 2: failed (Stable; methodical attempts to find sightline.)",
+        "Attempt 3: succeeded (Focused; persistent clicking until path is found.)",
+        "Frustration: stable"
+      ],
+      "importance_score": 12.48,
+      "corroborating_agents": [
+        "quality",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 2,
+      "absolute_timestamp": "17:28",
+      "absolute_seconds": 1048.0,
+      "clip_start_seconds": 1038.0,
+      "clip_end_seconds": 1058.0,
+      "category": "player_delight",
+      "headline": "This phase demonstrates absolute mastery over the game's buffing and summoning systems. The player is meticulously build",
+      "why_important": "Severity 7/10, confidence 80%",
+      "evidence": [
+        "Rapid purposeful inputs",
+        "Strategic stacking of mutually exclusive resources",
+        "High-value spell slot expenditure",
+        "Focused silence",
+        "Scene: On a narrow root-path in the Morphie Pool, selecting high-level spells from the action bar."
+      ],
+      "importance_score": 8.96,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 3,
+      "absolute_timestamp": "10:40",
+      "absolute_seconds": 640.0,
+      "clip_start_seconds": 630.0,
+      "clip_end_seconds": 650.0,
+      "category": "retry_loop",
+      "headline": "3 attempts at morphie_pool_navigation, outcome: succeeded",
+      "why_important": "Severity 6/10, confidence 50%",
+      "evidence": [
+        "Attempt 1: failed (Methodical; attempts multiple clicks to find a pathing route.)",
+        "Attempt 2: failed (Analytical; observes the 'Not enough space' error message.)",
+        "Attempt 3: succeeded (Neutral focus; immediately proceeds to move other characters once path is found.)",
+        "Frustration: stable"
+      ],
+      "importance_score": 7.8,
+      "corroborating_agents": []
+    },
+    {
+      "rank": 4,
+      "absolute_timestamp": "12:43",
+      "absolute_seconds": 763.0,
+      "clip_start_seconds": 753.0,
+      "clip_end_seconds": 773.0,
+      "category": "player_delight",
+      "headline": "This discovery validates the player's slow, methodical movement pace. The immediate reward of gold and a 'Personal Note'",
+      "why_important": "Severity 5/10, confidence 95%",
+      "evidence": [
+        "Immediate redirection of movement to the hidden prompt",
+        "Intentional interaction with the 'Dirt Mound' to dig up loot",
+        "Systematic looting of the resulting chest",
+        "Focused silence",
+        "Scene: On a rocky ledge in the Morphic Pool, Aidan succeeds on a Survival Check to reveal a hidden Dirt Mound."
+      ],
+      "importance_score": 7.6,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 5,
+      "absolute_timestamp": "1:58",
+      "absolute_seconds": 118.0,
+      "clip_start_seconds": 108.0,
+      "clip_end_seconds": 128.0,
+      "category": "player_delight",
+      "headline": "This phase demonstrates the player's high level of mastery over the UI and party roles, as they intuitively know which s",
+      "why_important": "Severity 7/10, confidence 65%",
+      "evidence": [
+        "Rapid purposeful inputs",
+        "High-frequency item manipulation",
+        "Efficient use of shift-clicking and drag-and-drop systems",
+        "Focused silence",
+        "Scene: Elfsong Tavern campsite, management of character inventory screens."
+      ],
+      "importance_score": 7.28,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 6,
+      "absolute_timestamp": "5:05",
+      "absolute_seconds": 305.0,
+      "clip_start_seconds": 295.0,
+      "clip_end_seconds": 315.0,
+      "category": "player_delight",
+      "headline": "This shows high mastery over the game's inventory systems. The player uses sub-containers to solve the 'cluttered invent",
+      "why_important": "Severity 7/10, confidence 65%",
+      "evidence": [
+        "Rapid purposeful inputs",
+        "Efficient mass-selection of items",
+        "Strategic organization of consumable resources",
+        "Focused silence",
+        "Scene: Character inventory screen at the Elfsong Tavern campsite, specifically managing a backpack within the main inventory."
+      ],
+      "importance_score": 7.28,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 7,
+      "absolute_timestamp": "8:35",
+      "absolute_seconds": 515.0,
+      "clip_start_seconds": 505.0,
+      "clip_end_seconds": 525.0,
+      "category": "player_delight",
+      "headline": "The cinematic effectively builds narrative tension and rewards the player for reaching the endgame zone. The visual dist",
+      "why_important": "Severity 7/10, confidence 65%",
+      "evidence": [
+        "Uninterrupted viewing of cinematic",
+        "Focused pause during high-distortion visual effects",
+        "Focused silence",
+        "Scene: Morphic Pool, during the psychic confrontation with the Elder Brain vision."
+      ],
+      "importance_score": 7.28,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 8,
+      "absolute_timestamp": "15:32",
+      "absolute_seconds": 932.0,
+      "clip_start_seconds": 922.0,
+      "clip_end_seconds": 942.0,
+      "category": "player_delight",
+      "headline": "This shows a tight feedback loop of looting and crafting. The player demonstrates mastery of the secondary game systems,",
+      "why_important": "Severity 7/10, confidence 65%",
+      "evidence": [
+        "Rapid purposeful menu navigation",
+        "Immediate conversion of looted Intellect Devourer Cerebellums into alchemy components",
+        "Focused silence",
+        "Scene: The alchemy menu where Aidan is extracting suspensions and brewing new potions."
+      ],
+      "importance_score": 7.28,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 9,
+      "absolute_timestamp": "16:15",
+      "absolute_seconds": 975.0,
+      "clip_start_seconds": 965.0,
+      "clip_end_seconds": 985.0,
+      "category": "player_delight",
+      "headline": "The atmospheric build-up is highly immersive. The use of actual status effects on the party members' portraits creates a",
+      "why_important": "Severity 7/10, confidence 65%",
+      "evidence": [
+        "Steady forward progress despite eerie environmental feedback",
+        "Observing the 'Mindbroken' and 'Crowned' status effects on party members",
+        "Focused silence during heavy narrative whispers",
+        "Scene: A narrow, root-filled passage leading deeper into the Pool as psychic status effects manifest."
+      ],
+      "importance_score": 7.28,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 10,
+      "absolute_timestamp": "19:21",
+      "absolute_seconds": 1161.0,
+      "clip_start_seconds": 1151.0,
+      "clip_end_seconds": 1171.0,
+      "category": "player_delight",
+      "headline": "This is the mechanical payoff for the previous inventory and preparation phases. Seeing the party's high damage output (",
+      "why_important": "Severity 7/10, confidence 65%",
+      "evidence": [
+        "Rapid character cycling",
+        "Successful high-damage output",
+        "Clearance of small-threat enemies",
+        "Focused silence",
+        "Scene: The center of the pool combat area where Karlach executes a melee attack on an Intellect Devourer."
+      ],
+      "importance_score": 7.28,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    }
+  ],
+  "one_line_verdict": "3 attempts at intellect_devourer_ambush, outcome: succeeded"
+}

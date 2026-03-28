@@ -1,0 +1,278 @@
+[
+  {
+    "agent_kind": "clarity",
+    "source_label": "tutorial_gap",
+    "absolute_seconds": 190.0,
+    "absolute_timestamp": "3:10",
+    "summary": "Clearer notification during character creation or first inventory opening regarding the specific starting gear package for the Bard class.",
+    "game_context": "Equip starting gear and prepare for the first combat encounter.",
+    "evidence": [
+      "Opening inventory",
+      "Hovering over empty melee weapon slot",
+      "Checking ranged weapon (Hand Crossbow)",
+      "Disbelief",
+      "Uncertain tone",
+      "Scene: Dumpard opens the inventory screen immediately after waking up in the nautiloid pod to check equipment.",
+      "Quote: Wait, do bards not start with any sort of melee weapon? Holy shit, I really am in hell."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 0,
+    "segment_label": "nautiloid_escape",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "delight",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "tutorial_gap",
+    "absolute_seconds": 270.0,
+    "absolute_timestamp": "4:30",
+    "summary": "A prominent tutorial or UI callout explaining the 'Ritual' tag's specific benefits (zero spell slot cost out of combat).",
+    "game_context": "Utilize ritual spells to buff the party for free during exploration.",
+    "evidence": [
+      "Repeatedly hovering over the 'Ritual' tag in tooltips",
+      " Rapidly applying the Longstrider buff to all party members",
+      "Surprised tone",
+      "Self-deprecating laughter",
+      "Scene: On the Ravaged Beach, the player is reviewing their action bar and hovering over ritual spells like Longstrider and Speak with Animals.",
+      "Quote: Am I just a fucking idiot? Has everybody been using ritual spells and just never told me? I feel silly for saying this, but I don't know if I've really ever regularly used spells like Longstrider and... getting a boost to your movement speed like always... and it doesn't cost a spell slot or need concentration. I don't know, that's crazy. 2000 hours, man, I really gotta start reading things, huh?"
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 1,
+    "segment_label": "level_up_bard",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "misleading_affordance",
+    "absolute_seconds": 485.0,
+    "absolute_timestamp": "8:05",
+    "summary": "Clarity on the narrative or approval reward for performing specific class-based checks in isolated scenarios.",
+    "game_context": "Understand the narrative or mechanical incentive for choosing a skill-check dialogue option.",
+    "evidence": [
+      "Hovering over the [BARD][DECEPTION] dialogue choice",
+      "Skeptical tone",
+      "Uncertainty",
+      "Scene: Inside the burning building at Waukeen's Rest, interacting with the trapped NPC Benryn and viewing dialogue options.",
+      "Quote: I have no idea what the point of that would be because nobody else can see us."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 1,
+    "segment_label": "zhentarim_hideout",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "poor_feedback",
+    "absolute_seconds": 620.0,
+    "absolute_timestamp": "10:20",
+    "summary": "Clearer visual feedback or a 'Death Saving Throw' mechanic for essential quest NPCs during large-scale brawls to allow player intervention before permanent death.",
+    "game_context": "Successfully protect or locate the primary quest NPC for the Act 2 storyline.",
+    "evidence": [
+      "Inspecting the dead body UI",
+      "Selecting the 'Can't be Resurrected' prompt repeatedly",
+      "Shock",
+      "Frustrated tone",
+      "Scene: Discovering Halsin's non-revivable corpse in the Shattered Sanctum after the goblin camp raid.",
+      "Quote: Halsin died. Not only have I never had that happen, but I have no way of fixing it. You can't revive him... I'm also locked out of fixing the shadow-cursed lands."
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 2,
+    "segment_label": "shattered_sanctum",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "poor_feedback",
+    "absolute_seconds": 656.0,
+    "absolute_timestamp": "10:56",
+    "summary": "Immediate real-time feedback or a 'Warning: Tenet Violation' UI indicator when a player is about to perform an action that will break their oath.",
+    "game_context": "Uphold the specific tenets of the chosen Paladin Oath during combat.",
+    "evidence": [
+      "Red glowing effect on character model",
+      "Reviewing combat log",
+      "Confusion",
+      "Incredulous tone",
+      "Scene: Immediately following the goblin combat, the 'Oath Broken' condition appears on Lae'zel.",
+      "Quote: How on earth did killing some goblins break Lae'zel's oath?"
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 2,
+    "segment_label": null,
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "poor_feedback",
+    "absolute_seconds": 717.0,
+    "absolute_timestamp": "11:57",
+    "summary": "A 'Retreating' status icon or explicit combat log entry explaining that the enemy has fled the current encounter rather than just shifting phases.",
+    "game_context": "Understand the creature is retreating to reappear later in exploration.",
+    "evidence": [
+      "Creature disappears from the combat initiative",
+      "Camera searching for the burrowed target",
+      "Uncertainty",
+      "Scene: The Bulette combat encounter in the Underdark where the creature burrows away at low health.",
+      "Quote: I thought it was like a two-phase fight."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 2,
+    "segment_label": "underdark_exploration",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "delight",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "misleading_affordance",
+    "absolute_seconds": 853.0,
+    "absolute_timestamp": "14:13",
+    "summary": "Consistency between the item's name/flavor text (Hill Giant) and the actual mechanical numerical bonus provided.",
+    "game_context": "Equip the item to set Strength to a value consistent with a Hill Giant (traditionally 21 in D&D/BG3 lore).",
+    "evidence": [
+      "Hovering over the Strength score (19)",
+      "On-screen text overlay stating: 'Hill Giants have 21 STR, this is a club of Werebear STR (they have 19 STR)'",
+      "Annoyed tone",
+      "Disappointment",
+      "Scene: Reviewing character stats in the inventory screen after acquiring the 'Club of Hill Giant Strength' in the Arcane Tower.",
+      "Quote: It's really annoying that it doesn't give you Hill Giant strength, but whatever."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 3,
+    "segment_label": "shadow_cursed_lands",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "friction",
+      "quality",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "other",
+    "absolute_seconds": 1010.0,
+    "absolute_timestamp": "16:50",
+    "summary": "A slight delay or confirmation on the final 'action' dialogue choice to prevent accidental skipping of major visual payoffs.",
+    "game_context": "Complete the dialogue to witness the narrative/visual resolution of the boss encounter.",
+    "evidence": [
+      "Rapidly clicking through dialogue options",
+      "Screen suddenly transitioning to the loot UI",
+      "Regretful tone",
+      "Scene: Final dialogue sequence with Thisobald Thorm at the Waning Moon.",
+      "Quote: I accidentally skipped through the last bit of his dialogue so I missed him exploding."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 4,
+    "segment_label": "moonrise_exploration",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "poor_feedback",
+    "absolute_seconds": 1124.0,
+    "absolute_timestamp": "18:44",
+    "summary": "Proper visual persistence and collision feedback for the boss model during environmental interactions.",
+    "game_context": "Use the environmental hammer to damage the boss and see the resulting animation.",
+    "evidence": [
+      "Activating the Forge Lever",
+      "Boss model (Grym) briefly flickering or glitching out of view",
+      "Camera panning to an empty space where the boss should be",
+      "Sudden distress",
+      "Frustrated yelling",
+      "Incredulous tone",
+      "Scene: The Adamantine Forge during the boss fight with Grym.",
+      "Quote: He just fucking disappeared when I hit the switch! Larian, for the love of all that is holy, fix your game please!"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 4,
+    "segment_label": "adamantine_forge_grym",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "delight",
+      "friction",
+      "quality",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

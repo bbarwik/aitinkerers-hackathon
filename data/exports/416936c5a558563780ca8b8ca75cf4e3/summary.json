@@ -1,0 +1,49 @@
+{
+  "video_id": "416936c5a558563780ca8b8ca75cf4e3",
+  "game_title": "Baldur's Gate 3",
+  "game_key": "baldur_s_gate_3",
+  "duration_seconds": 1200.0,
+  "chunk_count": 5,
+  "overall_friction": "moderate",
+  "overall_engagement": "signature",
+  "overall_stop_risk": "low",
+  "bug_count": 6,
+  "avg_sentiment": 4.84,
+  "sentiment_by_segment": {
+    "intro_and_rules": 8.0,
+    "difficulty_setup": 5.0,
+    "character_creation": 2.0,
+    "nautiloid_escape": 5.5,
+    "ravaged_beach": 1.0,
+    "emerald_grove_gate": 6.0,
+    "level_up_ranger": 8.0,
+    "risen_road_cave": 7.0,
+    "campsite": -5.0,
+    "grove_gate_defense": 4.0,
+    "kagha_investigation": 7.0,
+    "kagha_confrontation": 2.0,
+    "character_progression": 8.0,
+    "owlbear_nest": 9.0,
+    "camp_rest": 9.0,
+    "goblin_camp_exterior": 4.0,
+    "shattered_sanctum": 3.67
+  },
+  "total_retry_sequences": 2,
+  "first_attempt_failure_count": 2,
+  "notable_quotes": [
+    "We can basically turn the game into Honor Mode minus the one-save one-life rule.",
+    "All right, we couldn't get up there.",
+    "But we could still get XP from combat just by sitting back in safety and watching as allies fell one by one.",
+    "Wyll? Wyll? I'm not gonna sugarcoat it, this sucks. Our companion collection being incomplete because our level 1 wizard is now useless... Wyll didn't make it back to camp.",
+    "Our familiars were incredibly weak. Really they were useful just for applying status effects... and they weren't even remotely threatening."
+  ],
+  "session_health_score": 65,
+  "priority_actions": [
+    "Fix Wyll's camp spawning logic to prevent NPC disappearance after the Grove gate battle.",
+    "Adjust the damage and physics impact of the 'Unstable Statue' in the Shattered Sanctum to ensure it meaningfully damages targets.",
+    "Add a race-specific jump distance warning to the trajectory UI to reduce 'Too High' error spam for small-stature races.",
+    "Optimize Mage Hand initiative rolls or animation speed to prevent clunky transitions during stealth-to-combat ambushes.",
+    "Review the 'outside of combat' summoning restriction to reduce the 'short rest loop' tedium described by players at 11:02."
+  ],
+  "top_highlight": "Wyll? Wyll? I'm not gonna sugarcoat it, this sucks. Our companion collection being incomplete because our level 1 wizard is now useless... Wyll didn't make it back to camp."
+}

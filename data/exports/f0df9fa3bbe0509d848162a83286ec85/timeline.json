@@ -1,0 +1,797 @@
+{
+  "video_id": "f0df9fa3bbe0509d848162a83286ec85",
+  "game_title": "Baldur's Gate 3",
+  "session_arc": "[0:00-5:00] The segment starts with a neutral, automated vibe during the intro, transitioning into a relaxed and somewhat distracted state as the player begins the game while multitasking with a meal.\n[4:00-9:00] The player remains in a relaxed, casual state, focused on administrative tasks like looting and inventory management while chatting with friends.\n[8:00-13:00] The player remains relaxed and focused on looting and inventory management throughout the segment, with a brief moment of excitement after a quick combat encounter.\n[12:00-17:00] The player maintains a casual, conversational tone throughout, moving from focused looting to lighthearted banter at the camp and concluding with satisfaction after finding useful gear for their party.\n[16:00-20:00] The player remains in a calm and focused state throughout the segment, showing brief moments of surprise and satisfaction when finding good items for trade. The tone is relaxed as they handle party management and crafting.",
+  "chunk_summaries": [
+    "The stream begins with a pre-recorded 'Stream Starting Soon' bumper accompanied by a robotic voice interacting with chat. Once live, the player explores a decrepit, purple-glowing village in Baldur's Gate 3, scavenging for resources and adjusting technical settings.",
+    "The player and their party members are scavenging the Decrepit Village for loot, including barrels and chests, while discussing their next objective. A brief encounter with a remaining enemy occurs, which the other player quickly resolves while Alice continues to manage her inventory.",
+    "Alice and her group continue to explore and loot the Decrepit Village in the Underdark, gathering various items and managing their inventory. They briefly encounter and kill a nearby enemy, then continue looting the surroundings, eventually deciding to return to camp to organize their belongings.",
+    "The player transitions from exploring the Decrepit Village to the Ebonlake Grotto. During this transition, they visit the campsite to manage party members and then proceed to trade with Blurg and Omeluum for new equipment.",
+    "Alice and her party continue their visit to the Ebonlake Grotto, where they conclude their trades with Omeluum and Blurg. They then interact with Derryth Bonecloak, acquiring several useful items and elixirs before wrapping up the segment with alchemy and some light exploration in the surrounding area."
+  ],
+  "objectives": [
+    "Transition from stream start to active gameplay, focusing on early exploration and resource collection in a new area.",
+    "Loot the area for resources and determine the next destination in the Underdark.",
+    "Loot the Decrepit Village and manage inventory before proceeding to the next location.",
+    "Relocate to the Ebonlake Grotto and upgrade party gear through trading.",
+    "Complete trades and manage inventory in the Ebonlake Grotto to prepare for the next phase of the Underdark journey."
+  ],
+  "active_threads": [
+    "Decrepit Village Exploration",
+    "Twitch Extension Issues",
+    "Reaching the Myconid Colony",
+    "Inventory Overload",
+    "Inventory Management",
+    "Exploring the Underdark",
+    "Myconid Colony Quests",
+    "Gearing Up the Party",
+    "Underdark Exploration",
+    "Party Optimization"
+  ],
+  "events": [
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 0.0,
+      "absolute_timestamp": "0:00",
+      "relative_timestamp": "0:00",
+      "visual_observation": "Static 'Stream Starting Soon' graphic with social media handles and chat box.",
+      "audio_observation": "Upbeat electronic music playing.",
+      "player_expression": null,
+      "event_description": "The stream begins with a waiting screen and background music.",
+      "phase_kind": "idle",
+      "significance": "routine",
+      "segment_label": "stream_intro"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 161.0,
+      "absolute_timestamp": "2:41",
+      "relative_timestamp": "2:41",
+      "visual_observation": "The waiting screen remains, but a robotic voice-to-text system reads chat messages.",
+      "audio_observation": "An AI voice reads messages about ad breaks and 'mystery eggs'.",
+      "player_expression": null,
+      "event_description": "An automated AI bot interacts with the chat audience during the pre-stream wait.",
+      "phase_kind": "dialogue",
+      "significance": "notable",
+      "segment_label": "stream_intro"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 211.0,
+      "absolute_timestamp": "3:31",
+      "relative_timestamp": "3:31",
+      "visual_observation": "Gameplay footage of Baldur's Gate 3 appears, showing three characters in a ruined village.",
+      "audio_observation": "Atmospheric game sounds and heavy breathing from the player.",
+      "player_expression": null,
+      "event_description": "The player transitions into the game world, appearing in the 'Decrepit Village'.",
+      "phase_kind": "exploration",
+      "significance": "pivotal",
+      "segment_label": "decrepit_village"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 238.0,
+      "absolute_timestamp": "3:58",
+      "relative_timestamp": "3:58",
+      "visual_observation": "A 'Mage Hand disappeared' notification pops up; the player stands near purple crystals.",
+      "audio_observation": "Player says 'Mage Hand disappeared' and starts eating loudly.",
+      "player_expression": null,
+      "event_description": "The player experiences a minor status change and begins eating while playing.",
+      "phase_kind": "idle",
+      "significance": "routine",
+      "segment_label": "decrepit_village"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 313.0,
+      "absolute_timestamp": "5:13",
+      "relative_timestamp": "1:13",
+      "visual_observation": "The player opens the world map.",
+      "audio_observation": "The teammates discuss their previous progress and where to go next, mentioning the Myconid Colony.",
+      "player_expression": null,
+      "event_description": "The party coordinates their next objective while reviewing the map.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "underdark_navigation"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 390.0,
+      "absolute_timestamp": "6:30",
+      "relative_timestamp": "2:30",
+      "visual_observation": "The party loots several corpses near a campfire.",
+      "audio_observation": "One teammate mentions they are in a fight with a character named Lurgan.",
+      "player_expression": null,
+      "event_description": "An unexpected combat encounter begins for one party member while others continue looting.",
+      "phase_kind": "exploration",
+      "significance": "notable",
+      "segment_label": "decrepit_village_exploration"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 439.0,
+      "absolute_timestamp": "7:19",
+      "relative_timestamp": "3:19",
+      "visual_observation": "The player opens their inventory menu.",
+      "audio_observation": "The player and teammate discuss the enemy's behavior and the accidental start of the fight.",
+      "player_expression": null,
+      "event_description": "Alice manages her inventory and equipment while her teammate finishes the fight.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "inventory_management"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 514.0,
+      "absolute_timestamp": "8:34",
+      "relative_timestamp": "0:34",
+      "visual_observation": "The party continues to explore the Decrepit Village, looting more containers and investigating the area.",
+      "audio_observation": "The players continue their conversation about the game and their next steps.",
+      "player_expression": null,
+      "event_description": "Alice and her party explore and loot the remaining parts of the village.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "decrepit_village_exploration"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 641.0,
+      "absolute_timestamp": "10:41",
+      "relative_timestamp": "2:41",
+      "visual_observation": "Alice re-opens the inventory menu and begins organizing and sending items to camp.",
+      "audio_observation": "Alice and another player discuss their inventory management and plans for the next session.",
+      "player_expression": null,
+      "event_description": "Alice organizes her inventory and prepares to return to camp.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "inventory_management"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 787.0,
+      "absolute_timestamp": "13:07",
+      "relative_timestamp": "1:07",
+      "visual_observation": "The party is at a campsite filled with giant mushrooms and a campfire.",
+      "audio_observation": "The player mentions needing to find Wyll.",
+      "player_expression": "No facecam visible.",
+      "event_description": "The player enters the campsite to interact with party members.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "campsite"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 805.0,
+      "absolute_timestamp": "13:25",
+      "relative_timestamp": "1:25",
+      "visual_observation": "Alice is in a dialogue screen with Wyll.",
+      "audio_observation": "Dialogue between Alice and Wyll regarding him joining the party.",
+      "player_expression": "No facecam visible.",
+      "event_description": "Alice cycles Wyll out and then back into the party through dialogue options.",
+      "phase_kind": "dialogue",
+      "significance": "notable",
+      "segment_label": "campsite"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 887.0,
+      "absolute_timestamp": "14:47",
+      "relative_timestamp": "2:47",
+      "visual_observation": "Alice is in the Ebonlake Grotto, a vibrant, mushroom-filled area.",
+      "audio_observation": "The player announces their arrival at the Myconid Colony.",
+      "player_expression": "No facecam visible.",
+      "event_description": "The party fast travels to the Myconid Colony in Ebonlake Grotto.",
+      "phase_kind": "exploration",
+      "significance": "pivotal",
+      "segment_label": "ebonlake_grotto"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 919.0,
+      "absolute_timestamp": "15:19",
+      "relative_timestamp": "3:19",
+      "visual_observation": "Alice initiates dialogue with Blurg, a red-skinned NPC.",
+      "audio_observation": "Blurg welcomes the party and offers trade.",
+      "player_expression": "No facecam visible.",
+      "event_description": "The player engages in trade with Blurg to sell loot and browse wares.",
+      "phase_kind": "dialogue",
+      "significance": "routine",
+      "segment_label": "ebonlake_grotto"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 956.0,
+      "absolute_timestamp": "15:56",
+      "relative_timestamp": "3:56",
+      "visual_observation": "A trade menu with Omeluum, a Mind Flayer, is open.",
+      "audio_observation": "The player expresses surprise at Omeluum's inventory items.",
+      "player_expression": "No facecam visible.",
+      "event_description": "Alice buys 'Boots of Stormy Clamour' from Omeluum for Wyll.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "ebonlake_grotto"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 994.0,
+      "absolute_timestamp": "16:34",
+      "relative_timestamp": "0:34",
+      "visual_observation": "Alice closes the trade menu and begins walking through the Ebonlake Grotto.",
+      "audio_observation": "Omeluum: 'May your travels be safe and swift.'",
+      "player_expression": null,
+      "event_description": "Alice leaves the conversation with Omeluum and explores the immediate vicinity.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "ebonlake_grotto_exploration"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 999.0,
+      "absolute_timestamp": "16:39",
+      "relative_timestamp": "0:39",
+      "visual_observation": "The character inventory screen is open for Wyll, where the new boots are being equipped.",
+      "audio_observation": "Alice: 'Because Wyll needed boots... Granted they would work good on Karlach too.'",
+      "player_expression": null,
+      "event_description": "Alice equips the newly purchased boots on Wyll and updates the party's gear.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "inventory_management"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1041.0,
+      "absolute_timestamp": "17:21",
+      "relative_timestamp": "1:21",
+      "visual_observation": "A dialogue scene with Derryth Bonecloak is shown, transitioning into the trade menu.",
+      "audio_observation": "Derryth Bonecloak: 'No point in lingering now I've got the noblestalk.'",
+      "player_expression": null,
+      "event_description": "Alice begins trading with Derryth Bonecloak for additional supplies and equipment.",
+      "phase_kind": "dialogue",
+      "significance": "routine",
+      "segment_label": "ebonlake_grotto_trading"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1068.0,
+      "absolute_timestamp": "17:48",
+      "relative_timestamp": "1:48",
+      "visual_observation": "The trade menu shows 'Insufficient Gold' as Alice tries to buy several items at once.",
+      "audio_observation": "Alice: 'Oh no, I do not have enough gold on me.'",
+      "player_expression": null,
+      "event_description": "Alice manages her gold and items to finalize the trade with Derryth.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "ebonlake_grotto_trading"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1159.0,
+      "absolute_timestamp": "19:19",
+      "relative_timestamp": "3:19",
+      "visual_observation": "The alchemy menu is open, showing various potions and elixirs being crafted.",
+      "audio_observation": "No player audio",
+      "player_expression": null,
+      "event_description": "Alice uses the alchemy system to create several potions and elixirs from gathered ingredients.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "alchemy_crafting"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1192.0,
+      "absolute_timestamp": "19:52",
+      "relative_timestamp": "3:52",
+      "visual_observation": "Alice is walking through a cave-like area with blue glowing crystals.",
+      "audio_observation": "Alice: 'I have slain the creature called Glub-a-glub-a-glub...'",
+      "player_expression": null,
+      "event_description": "Alice explores the surroundings of the Ebonlake Grotto, encountering some dead creatures and loot.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "ebonlake_grotto_exploration"
+    }
+  ],
+  "thread_records": [
+    {
+      "source_chunk_index": 0,
+      "thread_name": "Decrepit Village Exploration",
+      "evidence": "The player is actively moving through ruins and collecting items.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 0,
+      "thread_name": "Twitch Extension Issues",
+      "evidence": "The player mentions the companion app doesn't work and needs removal.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 1,
+      "thread_name": "Reaching the Myconid Colony",
+      "evidence": "The party explicitly discusses heading there next in their conversation.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 1,
+      "thread_name": "Inventory Overload",
+      "evidence": "Alice mentions being 'encumbered' several times while looting.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 2,
+      "thread_name": "Inventory Management",
+      "evidence": "Alice is still organizing her inventory and sending items to camp at the end of the segment.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 2,
+      "thread_name": "Exploring the Underdark",
+      "evidence": "The party is still in the Underdark and has yet to reach their next major objective.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 3,
+      "thread_name": "Myconid Colony Quests",
+      "evidence": "The player has arrived at the colony and begun interacting with key NPCs.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 3,
+      "thread_name": "Gearing Up the Party",
+      "evidence": "Alice is actively buying new equipment and managing character sheets.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 4,
+      "thread_name": "Underdark Exploration",
+      "evidence": "The player has finished trading and is beginning to move out of the Ebonlake Grotto.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 4,
+      "thread_name": "Party Optimization",
+      "evidence": "New items have been acquired and equipped, but more exploration is needed to test their effectiveness.",
+      "current_status": "active"
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_index": 0,
+      "start_seconds": 0.0,
+      "end_seconds": 300.0,
+      "result": {
+        "chunk_summary": "The stream begins with a pre-recorded 'Stream Starting Soon' bumper accompanied by a robotic voice interacting with chat. Once live, the player explores a decrepit, purple-glowing village in Baldur's Gate 3, scavenging for resources and adjusting technical settings.",
+        "player_objective": "Transition from stream start to active gameplay, focusing on early exploration and resource collection in a new area.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "Static 'Stream Starting Soon' graphic with social media handles and chat box.",
+            "audio_observation": "Upbeat electronic music playing.",
+            "player_expression": null,
+            "event_description": "The stream begins with a waiting screen and background music.",
+            "phase_kind": "idle",
+            "significance": "routine",
+            "segment_label": "stream_intro"
+          },
+          {
+            "relative_timestamp": "2:41",
+            "visual_observation": "The waiting screen remains, but a robotic voice-to-text system reads chat messages.",
+            "audio_observation": "An AI voice reads messages about ad breaks and 'mystery eggs'.",
+            "player_expression": null,
+            "event_description": "An automated AI bot interacts with the chat audience during the pre-stream wait.",
+            "phase_kind": "dialogue",
+            "significance": "notable",
+            "segment_label": "stream_intro"
+          },
+          {
+            "relative_timestamp": "3:31",
+            "visual_observation": "Gameplay footage of Baldur's Gate 3 appears, showing three characters in a ruined village.",
+            "audio_observation": "Atmospheric game sounds and heavy breathing from the player.",
+            "player_expression": null,
+            "event_description": "The player transitions into the game world, appearing in the 'Decrepit Village'.",
+            "phase_kind": "exploration",
+            "significance": "pivotal",
+            "segment_label": "decrepit_village"
+          },
+          {
+            "relative_timestamp": "3:58",
+            "visual_observation": "A 'Mage Hand disappeared' notification pops up; the player stands near purple crystals.",
+            "audio_observation": "Player says 'Mage Hand disappeared' and starts eating loudly.",
+            "player_expression": null,
+            "event_description": "The player experiences a minor status change and begins eating while playing.",
+            "phase_kind": "idle",
+            "significance": "routine",
+            "segment_label": "decrepit_village"
+          },
+          {
+            "relative_timestamp": "4:30",
+            "visual_observation": "Character Ziri picks up an Ink Pot and Quill; inventory notifications appear.",
+            "audio_observation": "Loud chewing sounds continue as the player explores.",
+            "player_expression": null,
+            "event_description": "The player scavenges mundane items while managing their real-world environment.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "decrepit_village"
+          },
+          {
+            "relative_timestamp": "4:37",
+            "visual_observation": "Player moves the camera around the ruins, looking for interactable objects.",
+            "audio_observation": "Player mentions needing to remove a companion app from Twitch.",
+            "player_expression": null,
+            "event_description": "The player discusses technical stream maintenance while continuing to explore the ruins.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "decrepit_village"
+          }
+        ],
+        "emotional_trajectory": "The segment starts with a neutral, automated vibe during the intro, transitioning into a relaxed and somewhat distracted state as the player begins the game while multitasking with a meal.",
+        "pacing_breakdown": "The first 70% of the segment is dedicated to an idle stream introduction. The remaining 30% is slow-paced exploration and inventory management in the game world.",
+        "carryover_threads": [
+          {
+            "thread_name": "Decrepit Village Exploration",
+            "evidence": "The player is actively moving through ruins and collecting items.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Twitch Extension Issues",
+            "evidence": "The player mentions the companion app doesn't work and needs removal.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": false
+      }
+    },
+    {
+      "chunk_index": 1,
+      "start_seconds": 240.0,
+      "end_seconds": 540.0,
+      "result": {
+        "chunk_summary": "The player and their party members are scavenging the Decrepit Village for loot, including barrels and chests, while discussing their next objective. A brief encounter with a remaining enemy occurs, which the other player quickly resolves while Alice continues to manage her inventory.",
+        "player_objective": "Loot the area for resources and determine the next destination in the Underdark.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The party is in a purple-glowing village interior.",
+            "audio_observation": "The player mentions a 'Mage Hand' has disappeared and continues to eat.",
+            "player_expression": null,
+            "event_description": "The player begins the segment scavenging resources while casually chatting with a teammate.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "decrepit_village_exploration"
+          },
+          {
+            "relative_timestamp": "1:13",
+            "visual_observation": "The player opens the world map.",
+            "audio_observation": "The teammates discuss their previous progress and where to go next, mentioning the Myconid Colony.",
+            "player_expression": null,
+            "event_description": "The party coordinates their next objective while reviewing the map.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "underdark_navigation"
+          },
+          {
+            "relative_timestamp": "2:30",
+            "visual_observation": "The party loots several corpses near a campfire.",
+            "audio_observation": "One teammate mentions they are in a fight with a character named Lurgan.",
+            "player_expression": null,
+            "event_description": "An unexpected combat encounter begins for one party member while others continue looting.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "decrepit_village_exploration"
+          },
+          {
+            "relative_timestamp": "3:19",
+            "visual_observation": "The player opens their inventory menu.",
+            "audio_observation": "The player and teammate discuss the enemy's behavior and the accidental start of the fight.",
+            "player_expression": null,
+            "event_description": "Alice manages her inventory and equipment while her teammate finishes the fight.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "inventory_management"
+          },
+          {
+            "relative_timestamp": "4:30",
+            "visual_observation": "The player loots a 'Rotting Basket' and finds various items including a pickaxe.",
+            "audio_observation": "The player mentions they are finishing looting the beach area.",
+            "player_expression": null,
+            "event_description": "The player continues the systematic looting of the village area.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "decrepit_village_exploration"
+          }
+        ],
+        "emotional_trajectory": "The player remains in a relaxed, casual state, focused on administrative tasks like looting and inventory management while chatting with friends.",
+        "pacing_breakdown": "Approximately 60% of the time is spent on exploration and looting, while 40% is dedicated to menu navigation and inventory management.",
+        "carryover_threads": [
+          {
+            "thread_name": "Reaching the Myconid Colony",
+            "evidence": "The party explicitly discusses heading there next in their conversation.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Inventory Overload",
+            "evidence": "Alice mentions being 'encumbered' several times while looting.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": false
+      }
+    },
+    {
+      "chunk_index": 2,
+      "start_seconds": 480.0,
+      "end_seconds": 780.0,
+      "result": {
+        "chunk_summary": "Alice and her group continue to explore and loot the Decrepit Village in the Underdark, gathering various items and managing their inventory. They briefly encounter and kill a nearby enemy, then continue looting the surroundings, eventually deciding to return to camp to organize their belongings.",
+        "player_objective": "Loot the Decrepit Village and manage inventory before proceeding to the next location.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player is in the inventory menu, looking at Alice's and Wyll's belongings.",
+            "audio_observation": "Alice and another player are talking about the game's mechanics.",
+            "player_expression": null,
+            "event_description": "Alice is managing her inventory while discussing gameplay with a friend.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "inventory_management"
+          },
+          {
+            "relative_timestamp": "0:02",
+            "visual_observation": "The player exits the inventory and walks around the Decrepit Village, looting containers and corpses.",
+            "audio_observation": "Alice and another player are discussing the enemies they've encountered.",
+            "player_expression": null,
+            "event_description": "Alice explores the area and loots items from various sources.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "decrepit_village_exploration"
+          },
+          {
+            "relative_timestamp": "0:26",
+            "visual_observation": "The party kills a nearby enemy, Corvus Major, and gains 40 XP.",
+            "audio_observation": "The players celebrate the quick kill.",
+            "player_expression": null,
+            "event_description": "The party quickly dispatches an enemy and continues their exploration.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "decrepit_village_combat"
+          },
+          {
+            "relative_timestamp": "0:34",
+            "visual_observation": "The party continues to explore the Decrepit Village, looting more containers and investigating the area.",
+            "audio_observation": "The players continue their conversation about the game and their next steps.",
+            "player_expression": null,
+            "event_description": "Alice and her party explore and loot the remaining parts of the village.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "decrepit_village_exploration"
+          },
+          {
+            "relative_timestamp": "2:41",
+            "visual_observation": "Alice re-opens the inventory menu and begins organizing and sending items to camp.",
+            "audio_observation": "Alice and another player discuss their inventory management and plans for the next session.",
+            "player_expression": null,
+            "event_description": "Alice organizes her inventory and prepares to return to camp.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "inventory_management"
+          }
+        ],
+        "emotional_trajectory": "The player remains relaxed and focused on looting and inventory management throughout the segment, with a brief moment of excitement after a quick combat encounter.",
+        "pacing_breakdown": "The segment is divided between exploration and looting (70%) and inventory management (30%).",
+        "carryover_threads": [
+          {
+            "thread_name": "Inventory Management",
+            "evidence": "Alice is still organizing her inventory and sending items to camp at the end of the segment.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Exploring the Underdark",
+            "evidence": "The party is still in the Underdark and has yet to reach their next major objective.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": false
+      }
+    },
+    {
+      "chunk_index": 3,
+      "start_seconds": 720.0,
+      "end_seconds": 1020.0,
+      "result": {
+        "chunk_summary": "The player transitions from exploring the Decrepit Village to the Ebonlake Grotto. During this transition, they visit the campsite to manage party members and then proceed to trade with Blurg and Omeluum for new equipment.",
+        "player_objective": "Relocate to the Ebonlake Grotto and upgrade party gear through trading.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The party is on a wooden bridge in a dark cave environment.",
+            "audio_observation": "The player is discussing the utility of certain spells with a companion.",
+            "player_expression": "No facecam visible.",
+            "event_description": "The player concludes exploration of the bridge area in the Decrepit Village.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "decrepit_village"
+          },
+          {
+            "relative_timestamp": "0:26",
+            "visual_observation": "The inventory menu is open, showing various items like 'Rotten Fish' and 'Rotten Mushroom'.",
+            "audio_observation": "The player and their companion joke about keeping water bottles for another character.",
+            "player_expression": "No facecam visible.",
+            "event_description": "Alice performs inventory management before deciding to return to camp.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "inventory_management"
+          },
+          {
+            "relative_timestamp": "1:07",
+            "visual_observation": "The party is at a campsite filled with giant mushrooms and a campfire.",
+            "audio_observation": "The player mentions needing to find Wyll.",
+            "player_expression": "No facecam visible.",
+            "event_description": "The player enters the campsite to interact with party members.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "campsite"
+          },
+          {
+            "relative_timestamp": "1:25",
+            "visual_observation": "Alice is in a dialogue screen with Wyll.",
+            "audio_observation": "Dialogue between Alice and Wyll regarding him joining the party.",
+            "player_expression": "No facecam visible.",
+            "event_description": "Alice cycles Wyll out and then back into the party through dialogue options.",
+            "phase_kind": "dialogue",
+            "significance": "notable",
+            "segment_label": "campsite"
+          },
+          {
+            "relative_timestamp": "2:47",
+            "visual_observation": "Alice is in the Ebonlake Grotto, a vibrant, mushroom-filled area.",
+            "audio_observation": "The player announces their arrival at the Myconid Colony.",
+            "player_expression": "No facecam visible.",
+            "event_description": "The party fast travels to the Myconid Colony in Ebonlake Grotto.",
+            "phase_kind": "exploration",
+            "significance": "pivotal",
+            "segment_label": "ebonlake_grotto"
+          },
+          {
+            "relative_timestamp": "3:19",
+            "visual_observation": "Alice initiates dialogue with Blurg, a red-skinned NPC.",
+            "audio_observation": "Blurg welcomes the party and offers trade.",
+            "player_expression": "No facecam visible.",
+            "event_description": "The player engages in trade with Blurg to sell loot and browse wares.",
+            "phase_kind": "dialogue",
+            "significance": "routine",
+            "segment_label": "ebonlake_grotto"
+          },
+          {
+            "relative_timestamp": "3:56",
+            "visual_observation": "A trade menu with Omeluum, a Mind Flayer, is open.",
+            "audio_observation": "The player expresses surprise at Omeluum's inventory items.",
+            "player_expression": "No facecam visible.",
+            "event_description": "Alice buys 'Boots of Stormy Clamour' from Omeluum for Wyll.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "ebonlake_grotto"
+          },
+          {
+            "relative_timestamp": "4:40",
+            "visual_observation": "The character sheet for Wyll is open, and new boots are being equipped.",
+            "audio_observation": "The player notes that Wyll needed new boots.",
+            "player_expression": "No facecam visible.",
+            "event_description": "The player equips the newly purchased boots on Wyll.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "inventory_management"
+          }
+        ],
+        "emotional_trajectory": "The player maintains a casual, conversational tone throughout, moving from focused looting to lighthearted banter at the camp and concluding with satisfaction after finding useful gear for their party.",
+        "pacing_breakdown": "Approximately 40% of the segment is spent in menus (inventory and trading), 30% on exploration and travel, and 30% in character dialogues.",
+        "carryover_threads": [
+          {
+            "thread_name": "Myconid Colony Quests",
+            "evidence": "The player has arrived at the colony and begun interacting with key NPCs.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Gearing Up the Party",
+            "evidence": "Alice is actively buying new equipment and managing character sheets.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": false
+      }
+    },
+    {
+      "chunk_index": 4,
+      "start_seconds": 960.0,
+      "end_seconds": 1200.0,
+      "result": {
+        "chunk_summary": "Alice and her party continue their visit to the Ebonlake Grotto, where they conclude their trades with Omeluum and Blurg. They then interact with Derryth Bonecloak, acquiring several useful items and elixirs before wrapping up the segment with alchemy and some light exploration in the surrounding area.",
+        "player_objective": "Complete trades and manage inventory in the Ebonlake Grotto to prepare for the next phase of the Underdark journey.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The trade menu with Omeluum is open, showing various magical items and scrolls.",
+            "audio_observation": "Alice: 'Really? He has those? The Boots of Stormy Clamour?'",
+            "player_expression": null,
+            "event_description": "Alice discovers and purchases the Boots of Stormy Clamour from Omeluum.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "ebonlake_grotto_trading"
+          },
+          {
+            "relative_timestamp": "0:34",
+            "visual_observation": "Alice closes the trade menu and begins walking through the Ebonlake Grotto.",
+            "audio_observation": "Omeluum: 'May your travels be safe and swift.'",
+            "player_expression": null,
+            "event_description": "Alice leaves the conversation with Omeluum and explores the immediate vicinity.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "ebonlake_grotto_exploration"
+          },
+          {
+            "relative_timestamp": "0:39",
+            "visual_observation": "The character inventory screen is open for Wyll, where the new boots are being equipped.",
+            "audio_observation": "Alice: 'Because Wyll needed boots... Granted they would work good on Karlach too.'",
+            "player_expression": null,
+            "event_description": "Alice equips the newly purchased boots on Wyll and updates the party's gear.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "inventory_management"
+          },
+          {
+            "relative_timestamp": "1:21",
+            "visual_observation": "A dialogue scene with Derryth Bonecloak is shown, transitioning into the trade menu.",
+            "audio_observation": "Derryth Bonecloak: 'No point in lingering now I've got the noblestalk.'",
+            "player_expression": null,
+            "event_description": "Alice begins trading with Derryth Bonecloak for additional supplies and equipment.",
+            "phase_kind": "dialogue",
+            "significance": "routine",
+            "segment_label": "ebonlake_grotto_trading"
+          },
+          {
+            "relative_timestamp": "1:48",
+            "visual_observation": "The trade menu shows 'Insufficient Gold' as Alice tries to buy several items at once.",
+            "audio_observation": "Alice: 'Oh no, I do not have enough gold on me.'",
+            "player_expression": null,
+            "event_description": "Alice manages her gold and items to finalize the trade with Derryth.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "ebonlake_grotto_trading"
+          },
+          {
+            "relative_timestamp": "3:19",
+            "visual_observation": "The alchemy menu is open, showing various potions and elixirs being crafted.",
+            "audio_observation": "No player audio",
+            "player_expression": null,
+            "event_description": "Alice uses the alchemy system to create several potions and elixirs from gathered ingredients.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "alchemy_crafting"
+          },
+          {
+            "relative_timestamp": "3:52",
+            "visual_observation": "Alice is walking through a cave-like area with blue glowing crystals.",
+            "audio_observation": "Alice: 'I have slain the creature called Glub-a-glub-a-glub...'",
+            "player_expression": null,
+            "event_description": "Alice explores the surroundings of the Ebonlake Grotto, encountering some dead creatures and loot.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "ebonlake_grotto_exploration"
+          }
+        ],
+        "emotional_trajectory": "The player remains in a calm and focused state throughout the segment, showing brief moments of surprise and satisfaction when finding good items for trade. The tone is relaxed as they handle party management and crafting.",
+        "pacing_breakdown": "The majority of this chunk (approximately 75%) is spent in menus for trading, inventory management, and alchemy. The remaining 25% is spent on character dialogues and short periods of exploration within the Ebonlake Grotto.",
+        "carryover_threads": [
+          {
+            "thread_name": "Underdark Exploration",
+            "evidence": "The player has finished trading and is beginning to move out of the Ebonlake Grotto.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Party Optimization",
+            "evidence": "New items have been acquired and equipped, but more exploration is needed to test their effectiveness.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": false
+      }
+    }
+  ]
+}

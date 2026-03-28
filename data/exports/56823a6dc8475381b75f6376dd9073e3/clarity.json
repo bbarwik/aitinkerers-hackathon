@@ -1,0 +1,139 @@
+[
+  {
+    "agent_kind": "clarity",
+    "source_label": "misleading_affordance",
+    "absolute_seconds": 640.0,
+    "absolute_timestamp": "10:40",
+    "summary": "Clearer visual distinction between 'climbable' slopes and decorative rock geometry.",
+    "game_context": "The player wants to find a path up to the higher elevation to explore for loot.",
+    "evidence": [
+      "Repeated clicking on a steep rocky incline",
+      "Red 'Can't get there' feedback message appears on screen",
+      "Scene: Morphic Pool, near the starting wreckage, clicking on a rocky ledge to the left of the bridge."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 2,
+    "segment_label": "morphie_pool_bridge",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "poor_feedback",
+    "absolute_seconds": 748.0,
+    "absolute_timestamp": "12:28",
+    "summary": "Better targeting snapping or a clearer 'landing zone' indicator for tactical movement spells on uneven terrain.",
+    "game_context": "Use a teleportation ability to bypass a gap and reach a higher platform.",
+    "evidence": [
+      "Cursor scanning the ledge surface",
+      "Multiple red error messages: 'Not enough space' and 'Target is blocked!'",
+      "Repeated repositioning of the targeting reticle",
+      "Rapid clicking sounds",
+      "Scene: Morphic Pool, attempting to use 'Shadow Teleportation' to move Jaheira to a high ledge across a gap."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 2,
+    "segment_label": "morphie_pool_exploration",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "delight",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "misleading_affordance",
+    "absolute_seconds": 902.0,
+    "absolute_timestamp": "15:02",
+    "summary": "Visual distinction between 'decorative' rock geometry and 'traversable' terrain maps.",
+    "game_context": "Walk directly down a visually traversable slope to reach lootable corpses.",
+    "evidence": [
+      "Brief red 'Can't get there' feedback message",
+      "Character pathing takes a sharp detour away from the clicked location",
+      "Player repositioning the camera to find a lower-click point",
+      "Scene: Descending from a high ledge toward a group of Intellect Devourer corpses near the water's edge."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 3,
+    "segment_label": "morphie_pool_exploration",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "friction"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "poor_feedback",
+    "absolute_seconds": 1050.0,
+    "absolute_timestamp": "17:30",
+    "summary": "Better terrain snapping or clearer UI indicators for valid placement on organic, uneven geometry.",
+    "game_context": "Cast the large-radius AoE buff 'Heroes' Feast' on the gathered party.",
+    "evidence": [
+      "Cursor scanning uneven terrain",
+      "Red 'Not enough space' error message appears briefly",
+      "Scene: Narrow organic ledge in the Morphic Pool while preparing to cast 'Heroes' Feast'."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 4,
+    "segment_label": "party_buffing",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "poor_feedback",
+    "absolute_seconds": 1090.0,
+    "absolute_timestamp": "18:10",
+    "summary": "More lenient 'landing zone' validation for summons in cramped environments.",
+    "game_context": "Summon a celestial ally to join the party before engaging the visible enemies.",
+    "evidence": [
+      "Cursor scanning the ground",
+      "Multiple 'Not enough space' feedback messages",
+      "Scene: On the same ledge path while attempting to summon a 'Planar Ally' (Deva)."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 4,
+    "segment_label": "intellect_devourer_ambush",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

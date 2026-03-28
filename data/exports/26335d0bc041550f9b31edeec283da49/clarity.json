@@ -1,0 +1,58 @@
+[
+  {
+    "agent_kind": "clarity",
+    "source_label": "poor_feedback",
+    "absolute_seconds": 994.0,
+    "absolute_timestamp": "16:34",
+    "summary": "Clearer visual indication of vertical/architectural line-of-sight blockers before committing movement.",
+    "game_context": "Cast a ranged spell at the Soul Pillar from an elevated position.",
+    "evidence": [
+      "UI displays 'Path is interrupted' in red",
+      "Red targeting line shows obstruction by staircase architecture",
+      "Player repeatedly clicks around the target area trying to force a path",
+      "Player eventually moves character down the stairs to a flatter area",
+      "Sound of repeated failed interaction clicks",
+      "Dramatic boss music continues",
+      "Scene: Aidan is positioned on the stairs, attempting to target a Soul Pillar with Guiding Bolt."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 4,
+    "segment_label": null,
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "confusing_ui",
+    "absolute_seconds": 1155.0,
+    "absolute_timestamp": "19:15",
+    "summary": "Range indicator on the hotbar icon that updates based on the current selected character's position relative to the cursor.",
+    "game_context": "Target a specific reinforcement on the far side of the room.",
+    "evidence": [
+      "UI displays 'Target is too far!'",
+      "Player drags the targeting reticle across multiple enemies",
+      "Player hovers over Raphael, then back to the cambion, then settles on Raphael",
+      "Sound of UI error buzzer for range",
+      "Scene: Astarion (Aidan) is targeting a distant Vengeful Cambion with Eldritch Blast."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 4,
+    "segment_label": "raphael_boss_fight",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

@@ -1,0 +1,218 @@
+{
+  "video_id": "416936c5a558563780ca8b8ca75cf4e3",
+  "total_moments_analyzed": 89,
+  "highlights": [
+    {
+      "rank": 1,
+      "absolute_timestamp": "8:13",
+      "absolute_seconds": 493.0,
+      "clip_start_seconds": 483.0,
+      "clip_end_seconds": 503.0,
+      "category": "player_feedback",
+      "headline": "Wyll? Wyll? I'm not gonna sugarcoat it, this sucks. Our companion collection being incomplete because our level 1 wizard",
+      "why_important": "Severity 8/10, confidence 100%",
+      "evidence": [
+        "Tone: frustrated",
+        "Category: complaint",
+        "Actionable: Address the NPC persistence logic to prevent essential companions from disappearing between world transitions or after specific combat triggers."
+      ],
+      "importance_score": 15.84,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "quality",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 2,
+      "absolute_timestamp": "14:18",
+      "absolute_seconds": 858.0,
+      "clip_start_seconds": 848.0,
+      "clip_end_seconds": 868.0,
+      "category": "player_feedback",
+      "headline": "Yeah baby! That's what I've been waiting for! That's what it's all about! Woo!",
+      "why_important": "Severity 10/10, confidence 90%",
+      "evidence": [
+        "Tone: excited",
+        "Category: reaction"
+      ],
+      "importance_score": 14.4,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 3,
+      "absolute_timestamp": "18:15",
+      "absolute_seconds": 1095.0,
+      "clip_start_seconds": 1085.0,
+      "clip_end_seconds": 1105.0,
+      "category": "player_feedback",
+      "headline": "Strike!",
+      "why_important": "Severity 10/10, confidence 90%",
+      "evidence": [
+        "Tone: excited",
+        "Category: reaction"
+      ],
+      "importance_score": 14.4,
+      "corroborating_agents": [
+        "delight",
+        "quality"
+      ]
+    },
+    {
+      "rank": 4,
+      "absolute_timestamp": "16:10",
+      "absolute_seconds": 970.0,
+      "clip_start_seconds": 960.0,
+      "clip_end_seconds": 980.0,
+      "category": "player_delight",
+      "headline": "The player enjoys the sandbox discovery. They found a high-impact way to deal damage that adheres to their ruleset while",
+      "why_important": "Severity 7/10, confidence 100%",
+      "evidence": [
+        "Purposeful positioning of Mage Hand",
+        "Statue asset falling and crushing multiple NPCs",
+        "VFX of the impact",
+        "Laughing",
+        "Sarcastic commentary"
+      ],
+      "importance_score": 14.0,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "quality",
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 5,
+      "absolute_timestamp": "4:16",
+      "absolute_seconds": 256.0,
+      "clip_start_seconds": 246.0,
+      "clip_end_seconds": 266.0,
+      "category": "player_delight",
+      "headline": "The player demonstrates mastery over the game's physics engine and sandbox systems to overcome a friction point, resulti",
+      "why_important": "Severity 7/10, confidence 95%",
+      "evidence": [
+        "Collecting and stacking wooden crates from the environment",
+        "Climbing the improvised staircase to reach the ledge",
+        "Triumphant tone",
+        "Laughter",
+        "Scene: The Ravaged Beach where a high ledge is unreachable by jumping."
+      ],
+      "importance_score": 10.64,
+      "corroborating_agents": [
+        "friction",
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 6,
+      "absolute_timestamp": "12:06",
+      "absolute_seconds": 726.0,
+      "clip_start_seconds": 716.0,
+      "clip_end_seconds": 736.0,
+      "category": "player_feedback",
+      "headline": "Zevlor rewarded us with Hellrider's Pride. Meaning any time we healed someone now they also got three turns of physical ",
+      "why_important": "Severity 6/10, confidence 100%",
+      "evidence": [
+        "Tone: excited",
+        "Category: praise"
+      ],
+      "importance_score": 10.26,
+      "corroborating_agents": [
+        "delight",
+        "quality",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 7,
+      "absolute_timestamp": "10:07",
+      "absolute_seconds": 607.0,
+      "clip_start_seconds": 597.0,
+      "clip_end_seconds": 617.0,
+      "category": "player_delight",
+      "headline": "Strategic mastery. The player identifies a powerful synergy between their gear and their pet-only combat strategy, incre",
+      "why_important": "Severity 7/10, confidence 80%",
+      "evidence": [
+        "Hovering over the item tooltip",
+        "Immediate mental calculation of gear synergies",
+        "Inserting a meme graphic of the Pope holding the item",
+        "Excited pitch",
+        "Instructional tone"
+      ],
+      "importance_score": 8.96,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 8,
+      "absolute_timestamp": "19:51",
+      "absolute_seconds": 1191.0,
+      "clip_start_seconds": 1181.0,
+      "clip_end_seconds": 1200.0,
+      "category": "player_delight",
+      "headline": "Discovery and narrative payoff. Finding the 'Legendary Druid' who can fight in bear form is a significant progression wi",
+      "why_important": "Severity 7/10, confidence 80%",
+      "evidence": [
+        "Cinematic animation of the bear shifting into an elf",
+        "Successful dialogue completion",
+        "XP gain notification",
+        "Mock-surprised tone",
+        "Laughter"
+      ],
+      "importance_score": 8.96,
+      "corroborating_agents": [
+        "quality",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 9,
+      "absolute_timestamp": "10:45",
+      "absolute_seconds": 645.0,
+      "clip_start_seconds": 635.0,
+      "clip_end_seconds": 655.0,
+      "category": "sentiment_swing",
+      "headline": "Receiving high-value 'prizes' from Zevlor and Mol.",
+      "why_important": "Severity 9/10, confidence 65%",
+      "evidence": [
+        "Trigger: Receiving high-value 'prizes' from Zevlor and Mol.",
+        "Visual: Receiving the Ring of Protection and Hellrider's Pride gear items.",
+        "Audio: Deep satisfaction in voice, emphasizing the gear as a major power spike."
+      ],
+      "importance_score": 8.19,
+      "corroborating_agents": [
+        "verbal"
+      ]
+    },
+    {
+      "rank": 10,
+      "absolute_timestamp": "2:45",
+      "absolute_seconds": 165.0,
+      "clip_start_seconds": 155.0,
+      "clip_end_seconds": 175.0,
+      "category": "sentiment_swing",
+      "headline": "Recruiting the intellect devourer 'Us' on the Nautiloid.",
+      "why_important": "Severity 7/10, confidence 80%",
+      "evidence": [
+        "Trigger: Recruiting the intellect devourer 'Us' on the Nautiloid.",
+        "Visual: Successful interaction with the brain creature.",
+        "Audio: Satisfied tone, referring to the creature as an \"adorable brain buddy\"."
+      ],
+      "importance_score": 7.84,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ]
+    }
+  ],
+  "one_line_verdict": "Wyll? Wyll? I'm not gonna sugarcoat it, this sucks. Our companion collection being incomplete because our level 1 wizard is now useless... Wyll didn't make it back to camp."
+}

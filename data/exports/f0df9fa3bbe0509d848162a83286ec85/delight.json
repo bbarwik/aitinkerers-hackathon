@@ -1,0 +1,325 @@
+[
+  {
+    "agent_kind": "delight",
+    "source_label": "exploration",
+    "absolute_seconds": 313.0,
+    "absolute_timestamp": "5:13",
+    "summary": "The party is moving beyond the immediate looting to long-term navigation, showing a shared curiosity about the Myconid Colony and the Underdark's layout.",
+    "game_context": "Coordination with party members on the next objective after clearing the immediate area.",
+    "evidence": [
+      "Voluntary map navigation",
+      "Pinging map locations",
+      "Focused discussion about objectives",
+      "Scene: The player has the world map open and is navigating the area around the Underdark - Beach and Decrepit Village.",
+      "Quote: So where we going?"
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 1,
+    "segment_label": "underdark_navigation",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "progression",
+    "absolute_seconds": 454.0,
+    "absolute_timestamp": "7:34",
+    "summary": "Finding rare loot in a mundane scavenging loop provides a hit of progression dopamine and rewards the player's thoroughness in looting every barrel and corpse.",
+    "game_context": "Discovering a Rare +2 armor upgrade while scavenging.",
+    "evidence": [
+      "Focused menu hovering",
+      "Stat comparison",
+      "Pause in casual chatter",
+      "Scene: Inside the character inventory menu, inspecting the newly acquired 'Drow Studded Leather Armor'."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 1,
+    "segment_label": "inventory_management",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "other",
+    "absolute_seconds": 480.0,
+    "absolute_timestamp": "8:00",
+    "summary": "The casual social mastery of the group allows them to treat unexpected combat as a humorous anecdote rather than a point of friction.",
+    "game_context": "Reacting to a teammate's accidental agro of an NPC.",
+    "evidence": [
+      "Continuing looting during teammate's combat explanation",
+      "Lighthearted tone during social banter",
+      "Scene: The player is looting a corpse near a campfire while a teammate explains how an accidental fight started.",
+      "Quote: He made them mad, that makes sense."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 1,
+    "segment_label": null,
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "progression",
+    "absolute_seconds": 510.0,
+    "absolute_timestamp": "8:30",
+    "summary": "The player appreciates the efficient gain of experience points for a fight they barely had to participate in, maintaining the flow of exploration.",
+    "game_context": "The quick resolution of a minor combat encounter resulting in easy progression.",
+    "evidence": [
+      "XP gain notification",
+      "Resuming looting immediately",
+      "Lighthearted laugh",
+      "Satisfied tone",
+      "Scene: Near a campfire in the Decrepit Village after a teammate kills the remaining enemy, Corvus Major.",
+      "Quote: That was 40 experience."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 2,
+    "segment_label": "decrepit_village_exploration",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "clarity",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "discovery",
+    "absolute_seconds": 645.0,
+    "absolute_timestamp": "10:45",
+    "summary": "The combination of the environmental ping and the need for a tactical jump rewards the player's spatial awareness and curiosity.",
+    "game_context": "Discovering hidden loot on a vertical platform triggered by a passive perception ping.",
+    "evidence": [
+      "Purposeful jumping maneuver",
+      "Highlighting a hidden nest",
+      "Acquiring a Gold Necklace",
+      "Intrigued tone",
+      "Focused silence while navigating",
+      "Scene: On a high wooden platform in the Decrepit Village after a successful perception check.",
+      "Quote: Something over there."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 2,
+    "segment_label": "inventory_management",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "clarity",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "exploration",
+    "absolute_seconds": 670.0,
+    "absolute_timestamp": "11:10",
+    "summary": "The immediate visual feedback of the group check succeeding piques the player's interest and provides a 'treasure hunting' feel.",
+    "game_context": "Succeeding a group survival check to reveal a buried dirt mound.",
+    "evidence": [
+      "Survival check success beam",
+      "Immediate camera rotation toward the ping",
+      "Selecting the 'Use' prompt to dig",
+      "Heightened curiosity in tone",
+      "Scene: Standing on a wooden bridge near a beam of light in the village ruins.",
+      "Quote: That's curious."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 2,
+    "segment_label": "inventory_management",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 858.0,
+    "absolute_timestamp": "14:18",
+    "summary": "The player demonstrates mastery over the 'prep' phase of the game loop, utilizing ritual spells to optimize the party's movement speed without consuming spell slots, which provides a long-term efficiency boost.",
+    "game_context": "Systematically pre-buffing the entire party before venturing back out.",
+    "evidence": [
+      "Rapid menu inputs to select party members",
+      "Successive casting of Longstrider on multiple characters",
+      "Calm, efficient tone",
+      "Rhythmic sound effects of repeated spellcasting",
+      "Scene: At the campsite, Alice is preparing to leave with Wyll and Ziri.",
+      "Quote: Longstrider II... upcast... finish selection."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 3,
+    "segment_label": "ebonlake_grotto",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "discovery",
+    "absolute_seconds": 971.0,
+    "absolute_timestamp": "16:11",
+    "summary": "This is a high-discovery moment where the player's knowledge of the game's itemization (meta-mastery) meets a rewarding random or fixed vendor drop, providing immediate progression satisfaction.",
+    "game_context": "Discovering a specific, highly-desired item in a merchant's inventory.",
+    "evidence": [
+      "Quickly scanning vendor inventory",
+      "Hovering over the 'Boots of Stormy Clamour' immediately",
+      "Sudden increase in volume",
+      "Genuine surprise in tone",
+      "Scene: Opening the trade menu with Omeluum in the Ebonlake Grotto.",
+      "Quote: Oh he has those? Oh what? He has what? The Boots of Stormy Clamour? Oh my god... I bought them."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 3,
+    "segment_label": "ebonlake_grotto",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 999.0,
+    "absolute_timestamp": "16:39",
+    "summary": "This shows party optimization mastery. The player isn't just buying items; she is identifying specific weaknesses (Wyll's lack of boots) and resolving them while thinking about alternative builds (Karlach).",
+    "game_context": "The player equips the newly purchased boots and considers the tactical distribution of gear across her party.",
+    "evidence": [
+      "Deliberate item comparison",
+      "Immediate equipping of new boots",
+      "Satisfied, calm tone",
+      "Explanatory narration",
+      "Scene: Character inventory screen for Wyll.",
+      "Quote: Because Wyll needed boots... Granted they would work good on Karlach too."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 4,
+    "segment_label": "inventory_management",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 1159.0,
+    "absolute_timestamp": "19:19",
+    "summary": "This is a moment of resource mastery. After chunks of meticulous looting, the player experiences the payoff of having a vast library of ingredients to craft high-tier buffs like 'Potion of Speed' and 'Elixir of Heroism'.",
+    "game_context": "Alice utilizes the alchemy system to convert her stockpiled ingredients into useful consumables.",
+    "evidence": [
+      "Rapid clicking through crafting recipes",
+      "Systematic creation of multiple Elixirs and Potions",
+      "Focused silence",
+      "Steady rhythmic input sounds",
+      "Scene: The Alchemy interface screen."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 4,
+    "segment_label": "alchemy_crafting",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "humor",
+    "absolute_seconds": 1192.0,
+    "absolute_timestamp": "19:52",
+    "summary": "The player is back in a flow state, using humor to narrative her own progress. This indicates a high level of comfort and enjoyment with the world's atmosphere.",
+    "game_context": "Resuming exploration after a long management phase.",
+    "evidence": [
+      "Voluntary exploration off the main path",
+      "Looting enemy corpses",
+      "Lighthearted tone",
+      "Playful mock-narration",
+      "Scene: Walking through a cavern filled with blue glowing crystals.",
+      "Quote: I have slain the creature called Glub-a-glub-a-glub..."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 4,
+    "segment_label": "ebonlake_grotto_exploration",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

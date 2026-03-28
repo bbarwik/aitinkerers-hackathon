@@ -1,0 +1,29 @@
+[
+  {
+    "agent_kind": "retry",
+    "source_label": "nautiloid_combat",
+    "absolute_seconds": 207.0,
+    "absolute_timestamp": "3:27",
+    "summary": "2 attempts at nautiloid_combat, outcome: succeeded",
+    "game_context": "Nautiloid ship",
+    "evidence": [
+      "Attempt 1: failed (Sarcastic and slightly frustrated; player remarks, 'And my game crashed. Dope.')",
+      "Attempt 2: succeeded (No audible reaction; player proceeds to the next scene.)",
+      "Frustration: stable"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 0,
+    "segment_label": "nautiloid_combat",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "friction",
+      "quality"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": 2,
+    "retry_quit_signal": false,
+    "retry_final_outcome": "succeeded",
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

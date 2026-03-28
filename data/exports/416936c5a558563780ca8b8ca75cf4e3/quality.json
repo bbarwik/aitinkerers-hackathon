@@ -1,0 +1,179 @@
+[
+  {
+    "agent_kind": "quality",
+    "source_label": "gameplay_logic",
+    "absolute_seconds": 493.0,
+    "absolute_timestamp": "8:13",
+    "summary": "gameplay logic issue: NPC model missing from designated camp area, Wyll's tent and assets failed to spawn in the hub during Following the battle at the Emerald Grove gate, the player recruits or progresses Wyll's initial meeting and then performs a Long Rest to level up. The NPC fails to appear at the campsite hub.",
+    "game_context": "Following the battle at the Emerald Grove gate, the player recruits or progresses Wyll's initial meeting and then performs a Long Rest to level up. The NPC fails to appear at the campsite hub.",
+    "evidence": [
+      "NPC model missing from designated camp area",
+      "Wyll's tent and assets failed to spawn in the hub",
+      "None",
+      "Player reaction: Noticed and commented",
+      "Scene: The campsite at night and morning during the leveling transition.",
+      "Quote: Wyll? Wyll?",
+      "Quote: I'm not gonna sugarcoat it, this sucks.",
+      "Quote: But Wyll... never actually made it to camp."
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 1,
+    "segment_label": "campsite",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "graphics",
+    "absolute_seconds": 721.0,
+    "absolute_timestamp": "12:01",
+    "summary": "graphics issue: Clipping (Kagha's hair clips through her left shoulder armor and cloak) during NPC dialogue cinematic triggered by completing the 'Investigate Kagha' quest line.",
+    "game_context": "NPC dialogue cinematic triggered by completing the 'Investigate Kagha' quest line.",
+    "evidence": [
+      "Clipping (Kagha's hair clips through her left shoulder armor and cloak)",
+      "None",
+      "Player reaction: Ignored",
+      "Scene: Close-up dialogue cinematic with Kagha in the Inner Sanctum after the Shadow Druid confrontation."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 2,
+    "segment_label": null,
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "graphics",
+    "absolute_seconds": 891.0,
+    "absolute_timestamp": "14:51",
+    "summary": "graphics issue: Clipping (The player character's fingers and palms pass entirely through the metal geometry of the Hellrider's Pride gauntlets during the arms-crossed idle animation) during Equipping oversized gauntlet armor (Hellrider's Pride) on a Gnome character and triggering a dialogue cinematic that uses the standard 'crossed arms' pose.",
+    "game_context": "Equipping oversized gauntlet armor (Hellrider's Pride) on a Gnome character and triggering a dialogue cinematic that uses the standard 'crossed arms' pose.",
+    "evidence": [
+      "Clipping (The player character's fingers and palms pass entirely through the metal geometry of the Hellrider's Pride gauntlets during the arms-crossed idle animation)",
+      "None",
+      "Player reaction: ignored",
+      "Scene: Exterior Goblin Camp during dialogue with Krolla the goblin."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": "goblin_camp_exterior",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "physics",
+    "absolute_seconds": 961.0,
+    "absolute_timestamp": "16:01",
+    "summary": "physics issue: Erratic physics (The large stone statue breaks into numerous fragments that bounce with low-gravity behavior, with several large chunks passing through NPCs without dealing damage or applying force) during Using a ranged attack to break the 'Unstable Statue' while characters are standing directly beneath it.",
+    "game_context": "Using a ranged attack to break the 'Unstable Statue' while characters are standing directly beneath it.",
+    "evidence": [
+      "Erratic physics (The large stone statue breaks into numerous fragments that bounce with low-gravity behavior, with several large chunks passing through NPCs without dealing damage or applying force)",
+      "None",
+      "Player reaction: noticed and commented",
+      "Scene: Shattered Sanctum, Priestess Gut's throne room.",
+      "Quote: I didn't realize the statues here were made of styrofoam."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": "shattered_sanctum",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "friction",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "collision",
+    "absolute_seconds": 1107.0,
+    "absolute_timestamp": "18:27",
+    "summary": "collision issue: Clipping (Character's legs and feet disappear into the solid stone floor geometry) during The gnome player character (Ash Ketchum) is hit by a high-force attack (Absolute Power) and slides back against sloping stone stairs.",
+    "game_context": "The gnome player character (Ash Ketchum) is hit by a high-force attack (Absolute Power) and slides back against sloping stone stairs.",
+    "evidence": [
+      "Clipping (Character's legs and feet disappear into the solid stone floor geometry)",
+      "None",
+      "Player reaction: ignored",
+      "Scene: Dror Ragzlin's throne room during a combat sequence involving a knockback effect."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 4,
+    "segment_label": "goblin_camp_assassination",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "animation",
+    "absolute_seconds": 1182.0,
+    "absolute_timestamp": "19:42",
+    "summary": "animation issue: Ragdoll jitter (The corpse's arm vibrates rapidly/spasms against the ground) during Dialogue cutscene following the combat where the goblin children were killed.",
+    "game_context": "Dialogue cutscene following the combat where the goblin children were killed.",
+    "evidence": [
+      "Ragdoll jitter (The corpse's arm vibrates rapidly/spasms against the ground)",
+      "None",
+      "Player reaction: ignored",
+      "Scene: The Worg Pens after combat, focusing on a goblin child corpse."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 4,
+    "segment_label": "worg_pens",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "agent_kind": "delight",
+    "source_label": "discovery",
+    "absolute_seconds": 54.0,
+    "absolute_timestamp": "0:54",
+    "summary": "The discovery rewards the player's thorough exploration with narrative depth that clarifies character motivations and raises stakes right before a potential point of no return.",
+    "game_context": "The player discovers a detailed interrogation log between two major antagonists (Gortash and the Emperor).",
+    "evidence": [
+      "Voluntary exploration of non-critical path lore",
+      "Focused pause to read multiple pages",
+      "Focused silence",
+      "Scene: Underdark dock area, reading 'The Emperor as Interrogated by Gortash, Part 1'."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 0,
+    "segment_label": "underdark_exploration",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 118.0,
+    "absolute_timestamp": "1:58",
+    "summary": "This phase demonstrates the player's high level of mastery over the UI and party roles, as they intuitively know which scrolls (like Mage Armor for Wyll at 02:24) belong with each character without hesitation.",
+    "game_context": "The player begins redistributing a large collection of items from the camp chest to specific party members.",
+    "evidence": [
+      "Rapid purposeful inputs",
+      "High-frequency item manipulation",
+      "Efficient use of shift-clicking and drag-and-drop systems",
+      "Focused silence",
+      "Scene: Elfsong Tavern campsite, management of character inventory screens."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 0,
+    "segment_label": "elfsong_tavern_camp",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 305.0,
+    "absolute_timestamp": "5:05",
+    "summary": "This shows high mastery over the game's inventory systems. The player uses sub-containers to solve the 'cluttered inventory' problem common in CRPGs, deriving satisfaction from strategic readiness and organizational control before a major boss encounter.",
+    "game_context": "The player is consolidating dozens of magical scrolls into a single backpack to create a 'combat kit' for the final journey.",
+    "evidence": [
+      "Rapid purposeful inputs",
+      "Efficient mass-selection of items",
+      "Strategic organization of consumable resources",
+      "Focused silence",
+      "Scene: Character inventory screen at the Elfsong Tavern campsite, specifically managing a backpack within the main inventory."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 1,
+    "segment_label": "camp_inventory_management",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "story",
+    "absolute_seconds": 471.0,
+    "absolute_timestamp": "7:51",
+    "summary": "The moment effectively transitions the gameplay from the slow, methodical 'Preparation' phase to the high-stakes 'Action' phase. The sudden destruction of the boat serves as a strong narrative signal that the player is now fully committed to the endgame.",
+    "game_context": "The calm boat journey is violently interrupted as a massive purple-glowing stalactite falls from the ceiling, smashing the vessel.",
+    "evidence": [
+      "Uninterrupted viewing of cinematic",
+      "Focused pause during high-action sequence",
+      "Focused silence",
+      "Scene: Cinematic cutscene of the party traveling by boat through a dark, misty cavern in the Underdark."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 1,
+    "segment_label": "boat_journey",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "story",
+    "absolute_seconds": 515.0,
+    "absolute_timestamp": "8:35",
+    "summary": "The cinematic effectively builds narrative tension and rewards the player for reaching the endgame zone. The visual distortion and 'Elder Brain's Influence' thread are brought to the forefront, validating the high stakes.",
+    "game_context": "The player reaches the destination and is immediately overwhelmed by the psychic presence of the Elder Brain, which pulses with purple light and distorted voices.",
+    "evidence": [
+      "Uninterrupted viewing of cinematic",
+      "Focused pause during high-distortion visual effects",
+      "Focused silence",
+      "Scene: Morphic Pool, during the psychic confrontation with the Elder Brain vision."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 2,
+    "segment_label": "elder_brain_vision",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 672.0,
+    "absolute_timestamp": "11:12",
+    "summary": "This shows a high degree of mastery over exploration mechanics. The player knows Scratch can find hidden treasure mounds, demonstrating a proactive approach to maximizing resources in the final stages of the game.",
+    "game_context": "The player uses the 'Find Familiar: Scratch' ability immediately upon starting active exploration in the new zone.",
+    "evidence": [
+      "Strategic spell selection",
+      "Voluntary exploration beyond the direct path",
+      "Focused silence",
+      "Scene: Morphic Pool shore, summoning a familiar."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 2,
+    "segment_label": "morphie_pool",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "discovery",
+    "absolute_seconds": 763.0,
+    "absolute_timestamp": "12:43",
+    "summary": "This discovery validates the player's slow, methodical movement pace. The immediate reward of gold and a 'Personal Note' reinforces the 'leave no stone unturned' playstyle established in earlier chunks.",
+    "game_context": "The player is rewarded for their thorough exploration when a hidden survival check reveals a buried treasure chest.",
+    "evidence": [
+      "Immediate redirection of movement to the hidden prompt",
+      "Intentional interaction with the 'Dirt Mound' to dig up loot",
+      "Systematic looting of the resulting chest",
+      "Focused silence",
+      "Scene: On a rocky ledge in the Morphic Pool, Aidan succeeds on a Survival Check to reveal a hidden Dirt Mound."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 3,
+    "segment_label": "morphie_pool_exploration",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "story",
+    "absolute_seconds": 855.0,
+    "absolute_timestamp": "14:15",
+    "summary": "The documents provide narrative context for why the crates are there, connecting the current isolated cave to the broader political intrigue of Baldur's Gate.",
+    "game_context": "The player finds a stash of smuggling contraband including notes detailing the logistics of movement in the Upper City.",
+    "evidence": [
+      "Voluntary pause to read full pages of text",
+      "Careful scrolling through the 'Ledge of Contraband Goods' note",
+      "Focused silence",
+      "Scene: A campsite area within the cave where the player discovers and reads several lore documents."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 3,
+    "segment_label": "morphie_pool_exploration",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 932.0,
+    "absolute_timestamp": "15:32",
+    "summary": "This shows a tight feedback loop of looting and crafting. The player demonstrates mastery of the secondary game systems, ensuring the party is at maximum potency right before the next encounter.",
+    "game_context": "After looting several Intellect Devourers, the player immediately opens the alchemy UI to process the ingredients.",
+    "evidence": [
+      "Rapid purposeful menu navigation",
+      "Immediate conversion of looted Intellect Devourer Cerebellums into alchemy components",
+      "Focused silence",
+      "Scene: The alchemy menu where Aidan is extracting suspensions and brewing new potions."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 3,
+    "segment_label": "morphie_pool_exploration",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "visual_design",
+    "absolute_seconds": 975.0,
+    "absolute_timestamp": "16:15",
+    "summary": "The atmospheric build-up is highly immersive. The use of actual status effects on the party members' portraits creates a sense of mechanical dread that mirrors the narrative stakes.",
+    "game_context": "The player enters a zone of high psychic pressure, signaled by whispers and UI text describing the party as 'Controlled' and 'Dominated'.",
+    "evidence": [
+      "Steady forward progress despite eerie environmental feedback",
+      "Observing the 'Mindbroken' and 'Crowned' status effects on party members",
+      "Focused silence during heavy narrative whispers",
+      "Scene: A narrow, root-filled passage leading deeper into the Pool as psychic status effects manifest."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 3,
+    "segment_label": "morphie_pool_exploration",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 1048.0,
+    "absolute_timestamp": "17:28",
+    "summary": "This phase demonstrates absolute mastery over the game's buffing and summoning systems. The player is meticulously building an 'unstoppable' state for the party, deriving satisfaction from the strategic readiness required for the endgame area.",
+    "game_context": "The player prepares the party by casting 'Heroes' Feast' and summoning a Deva and a Dryad simultaneously.",
+    "evidence": [
+      "Rapid purposeful inputs",
+      "Strategic stacking of mutually exclusive resources",
+      "High-value spell slot expenditure",
+      "Focused silence",
+      "Scene: On a narrow root-path in the Morphie Pool, selecting high-level spells from the action bar."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 4,
+    "segment_label": "party_buffing",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "clarity",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "story",
+    "absolute_seconds": 1098.0,
+    "absolute_timestamp": "18:18",
+    "summary": "The narrative scale (story) validates the player's intensive preparation. The high-quality voice acting and environmental sound design create a peak atmospheric moment that signals the start of a major challenge.",
+    "game_context": "The transition from the buffing ritual to the active ambush, punctuated by the Elder Brain's 'HUNT. CHASE. DEVOUR.' dialogue.",
+    "evidence": [
+      "Immediate transition from exploration to combat targeting",
+      "Observing environmental pool hazards",
+      "Focused silence during heavy narrative audio",
+      "Scene: Entering the acid pool area as the Elder Brain's voice booms across the cavern."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 4,
+    "segment_label": "intellect_devourer_ambush",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "clarity",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "combat",
+    "absolute_seconds": 1161.0,
+    "absolute_timestamp": "19:21",
+    "summary": "This is the mechanical payoff for the previous inventory and preparation phases. Seeing the party's high damage output (combat) immediately resolve threats confirms the effectiveness of the player's strategy.",
+    "game_context": "Karlach uses a Main Hand Attack to deal critical damage, efficiently removing an enemy from the turn order.",
+    "evidence": [
+      "Rapid character cycling",
+      "Successful high-damage output",
+      "Clearance of small-threat enemies",
+      "Focused silence",
+      "Scene: The center of the pool combat area where Karlach executes a melee attack on an Intellect Devourer."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 4,
+    "segment_label": "intellect_devourer_ambush",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

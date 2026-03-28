@@ -1,0 +1,163 @@
+[
+  {
+    "agent_kind": "friction",
+    "source_label": "other",
+    "absolute_seconds": 207.0,
+    "absolute_timestamp": "3:27",
+    "summary": "The player rolled a natural 1 on a crucial early-game lockpick attempt.",
+    "game_context": "Sleight of Hand check to open the first major dungeon entrance.",
+    "evidence": [
+      "D20 roll results in a 1",
+      "Critical Failure UI animation",
+      "Abrupt transition away from the door",
+      "Disappointed tone",
+      "Scene: Attempting to pick the lock on the heavy door to the Overgrown Ruins.",
+      "Quote: Womp womp."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "ravaged_beach",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "controls",
+    "absolute_seconds": 261.0,
+    "absolute_timestamp": "4:21",
+    "summary": "The Forest Gnome race has a significantly shorter jump distance/height, making standard ledges insurmountable.",
+    "game_context": "Environmental traversal at the Ravaged Beach cliffs.",
+    "evidence": [
+      "Repeated 'Too high!' UI error messages",
+      "Character standing still looking at the obstacle",
+      "Menu navigation to go back to camp",
+      "Concerned vocal tone",
+      "Scene: Standing at the base of a ledge that the Gnome character is unable to jump over.",
+      "Quote: Was I doomed just because we were vertically challenged?"
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 0,
+    "segment_label": "ravaged_beach",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "bug",
+    "absolute_seconds": 499.0,
+    "absolute_timestamp": "8:19",
+    "summary": "The NPC Wyll failed to spawn at the player's campsite despite being recruited, representing a sequence break or game bug.",
+    "game_context": "Recruiting the companion Wyll.",
+    "evidence": [
+      "Rapidly opening and closing party management menus",
+      "Character running frantically between empty tents",
+      "Opening the Save/Load menu to inspect prior save states",
+      "Frustrated vocal tone",
+      "Sharp intake of breath",
+      "Scene: Campsite following the Emerald Grove gate battle.",
+      "Quote: I'm not gonna sugarcoat this, this sucks.",
+      "Quote: Wyll either got lost or fell down a well... because he never actually made it to camp."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 1,
+    "segment_label": "campsite",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "quality",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "other",
+    "absolute_seconds": 964.0,
+    "absolute_timestamp": "16:04",
+    "summary": "The player utilized a large environmental object for a strategic kill, but the physics and damage output were underwhelming compared to the object's visual scale.",
+    "game_context": "Environmental trap interaction in the Shattered Sanctum.",
+    "evidence": [
+      "Large statue crumbles into small fragments",
+      "Target enemies take minimal damage and remain standing",
+      "Priestess Gut health bar shows 34/40 remaining",
+      "Sarcastic vocal tone",
+      "Deadpan delivery",
+      "Scene: The Shattered Sanctum, attempting to drop a massive stone statue on Priestess Gut and her guards.",
+      "Quote: Oh, my bad. I didn't realize the statues here were made of styrofoam."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": "shattered_sanctum",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "quality",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "controls",
+    "absolute_seconds": 971.0,
+    "absolute_timestamp": "16:11",
+    "summary": "Input delay or long animation time for the Mage Hand's action, causing the player's 'tag-team' maneuver to feel clunky.",
+    "game_context": "Summon utility during a timed ambush.",
+    "evidence": [
+      "Mage Hand appears on screen",
+      "Delay between the hand's arrival and the object interaction UI appearing",
+      "Dismissive tone",
+      "Scene: Activating the Mage Hand summon to drop the statue during the Priestess Gut ambush.",
+      "Quote: Our Mage Hand was a little slow."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": "shattered_sanctum",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "quality",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

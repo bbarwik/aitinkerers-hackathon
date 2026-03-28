@@ -584,6 +584,8 @@ async def run_chunk_agents(
             results.append(result)
         except GeminiSafetyError:
             logger.warning("Skipping chunk %s because Gemini blocked it for safety.", chunk.index)
+        except (ValueError, ValidationError) as exc:
+            logger.warning("Skipping chunk %s due to validation error: %s", chunk.index, exc)
 
     return results
 

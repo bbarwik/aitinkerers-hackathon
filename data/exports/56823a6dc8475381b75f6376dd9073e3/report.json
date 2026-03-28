@@ -1,0 +1,2080 @@
+{
+  "video_id": "56823a6dc8475381b75f6376dd9073e3",
+  "filename": "HOCstACMGOo.youtube",
+  "duration_seconds": 1200.0,
+  "chunk_count": 5,
+  "game_title": "Baldur's Gate 3",
+  "game_key": "baldur_s_gate_3",
+  "session_arc": "[0:00-5:00] The player maintains a calm and focused demeanor throughout, transitioning from methodical exploration and looting to a very high level of concentration during the inventory management phase.\n[4:00-9:00] The player remains deeply focused and analytical during the initial inventory phase. There is a sense of anticipation as they leave camp and commit to the journey. The final minutes transition into cinematic immersion as they witness the boat crash and the high-stakes confrontation with the Elder Brain.\n[8:00-13:00] The segment begins with a sense of survival and atmospheric tension, peaking during the high-stakes psychic confrontation with the Elder Brain. After the vision, the player shifts into a state of cautious, methodical exploration and environmental problem-solving.\n[12:00-17:00] The player remains in a state of quiet, focused concentration. There is a sense of methodical exploration and resource gathering, with no visible or audible emotional outbursts. The atmosphere is tense and atmospheric, especially during the final minute when psychic whispers and effects intensify.\n[16:00-20:00] The segment begins with methodical focus during exploration, punctuated by a brief moment of tension during the psychic event. This shifts into a phase of high tactical concentration as the player buffs the party. The final portion is characterized by energetic, decisive action as the combat encounter begins and the player executes their strategy.",
+  "friction_moments": [
+    {
+      "agent_kind": "friction",
+      "source_label": "controls",
+      "absolute_seconds": 748.0,
+      "absolute_timestamp": "12:28",
+      "summary": "The game's restrictive teleportation targeting logic on irregular cave geometry makes finding a valid landing spot difficult.",
+      "game_context": "The player is attempting to use a high-value consumable scroll to reposition their party across complex, uneven terrain.",
+      "evidence": [
+        "Multiple rapid targeting attempts",
+        "Error messages displayed: 'Not enough space' and 'Target is blocked'",
+        "Silence",
+        "Scene: On a cliffside path in the Morphic Pool area, attempting to use a 'Scroll of Dimension Door' to bypass environmental obstacles."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 2,
+      "segment_label": "morphie_pool_exploration",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "controls",
+      "absolute_seconds": 902.0,
+      "absolute_timestamp": "15:02",
+      "summary": "The character's pathfinding is blocked by small environmental rocks/debris between them and the target.",
+      "game_context": "Character pathfinding to interactable objects in cramped spaces.",
+      "evidence": [
+        "Red error message 'Can't get there' appears twice",
+        "Character stalls briefly against environment collision",
+        "Scene: Aidan attempting to loot a wooden crate located in a narrow corner near a campsite."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 3,
+      "segment_label": "morphie_pool_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "clarity"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "clarity_moments": [
+    {
+      "agent_kind": "clarity",
+      "source_label": "misleading_affordance",
+      "absolute_seconds": 640.0,
+      "absolute_timestamp": "10:40",
+      "summary": "Clearer visual distinction between 'climbable' slopes and decorative rock geometry.",
+      "game_context": "The player wants to find a path up to the higher elevation to explore for loot.",
+      "evidence": [
+        "Repeated clicking on a steep rocky incline",
+        "Red 'Can't get there' feedback message appears on screen",
+        "Scene: Morphic Pool, near the starting wreckage, clicking on a rocky ledge to the left of the bridge."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 2,
+      "segment_label": "morphie_pool_bridge",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "poor_feedback",
+      "absolute_seconds": 748.0,
+      "absolute_timestamp": "12:28",
+      "summary": "Better targeting snapping or a clearer 'landing zone' indicator for tactical movement spells on uneven terrain.",
+      "game_context": "Use a teleportation ability to bypass a gap and reach a higher platform.",
+      "evidence": [
+        "Cursor scanning the ledge surface",
+        "Multiple red error messages: 'Not enough space' and 'Target is blocked!'",
+        "Repeated repositioning of the targeting reticle",
+        "Rapid clicking sounds",
+        "Scene: Morphic Pool, attempting to use 'Shadow Teleportation' to move Jaheira to a high ledge across a gap."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 2,
+      "segment_label": "morphie_pool_exploration",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "delight",
+        "friction",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "misleading_affordance",
+      "absolute_seconds": 902.0,
+      "absolute_timestamp": "15:02",
+      "summary": "Visual distinction between 'decorative' rock geometry and 'traversable' terrain maps.",
+      "game_context": "Walk directly down a visually traversable slope to reach lootable corpses.",
+      "evidence": [
+        "Brief red 'Can't get there' feedback message",
+        "Character pathing takes a sharp detour away from the clicked location",
+        "Player repositioning the camera to find a lower-click point",
+        "Scene: Descending from a high ledge toward a group of Intellect Devourer corpses near the water's edge."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 3,
+      "segment_label": "morphie_pool_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "friction"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "poor_feedback",
+      "absolute_seconds": 1050.0,
+      "absolute_timestamp": "17:30",
+      "summary": "Better terrain snapping or clearer UI indicators for valid placement on organic, uneven geometry.",
+      "game_context": "Cast the large-radius AoE buff 'Heroes' Feast' on the gathered party.",
+      "evidence": [
+        "Cursor scanning uneven terrain",
+        "Red 'Not enough space' error message appears briefly",
+        "Scene: Narrow organic ledge in the Morphic Pool while preparing to cast 'Heroes' Feast'."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 4,
+      "segment_label": "party_buffing",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "poor_feedback",
+      "absolute_seconds": 1090.0,
+      "absolute_timestamp": "18:10",
+      "summary": "More lenient 'landing zone' validation for summons in cramped environments.",
+      "game_context": "Summon a celestial ally to join the party before engaging the visible enemies.",
+      "evidence": [
+        "Cursor scanning the ground",
+        "Multiple 'Not enough space' feedback messages",
+        "Scene: On the same ledge path while attempting to summon a 'Planar Ally' (Deva)."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 4,
+      "segment_label": "intellect_devourer_ambush",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "delight_moments": [
+    {
+      "agent_kind": "delight",
+      "source_label": "discovery",
+      "absolute_seconds": 54.0,
+      "absolute_timestamp": "0:54",
+      "summary": "The discovery rewards the player's thorough exploration with narrative depth that clarifies character motivations and raises stakes right before a potential point of no return.",
+      "game_context": "The player discovers a detailed interrogation log between two major antagonists (Gortash and the Emperor).",
+      "evidence": [
+        "Voluntary exploration of non-critical path lore",
+        "Focused pause to read multiple pages",
+        "Focused silence",
+        "Scene: Underdark dock area, reading 'The Emperor as Interrogated by Gortash, Part 1'."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 0,
+      "segment_label": "underdark_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "mastery",
+      "absolute_seconds": 118.0,
+      "absolute_timestamp": "1:58",
+      "summary": "This phase demonstrates the player's high level of mastery over the UI and party roles, as they intuitively know which scrolls (like Mage Armor for Wyll at 02:24) belong with each character without hesitation.",
+      "game_context": "The player begins redistributing a large collection of items from the camp chest to specific party members.",
+      "evidence": [
+        "Rapid purposeful inputs",
+        "High-frequency item manipulation",
+        "Efficient use of shift-clicking and drag-and-drop systems",
+        "Focused silence",
+        "Scene: Elfsong Tavern campsite, management of character inventory screens."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 0,
+      "segment_label": "elfsong_tavern_camp",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "mastery",
+      "absolute_seconds": 305.0,
+      "absolute_timestamp": "5:05",
+      "summary": "This shows high mastery over the game's inventory systems. The player uses sub-containers to solve the 'cluttered inventory' problem common in CRPGs, deriving satisfaction from strategic readiness and organizational control before a major boss encounter.",
+      "game_context": "The player is consolidating dozens of magical scrolls into a single backpack to create a 'combat kit' for the final journey.",
+      "evidence": [
+        "Rapid purposeful inputs",
+        "Efficient mass-selection of items",
+        "Strategic organization of consumable resources",
+        "Focused silence",
+        "Scene: Character inventory screen at the Elfsong Tavern campsite, specifically managing a backpack within the main inventory."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 1,
+      "segment_label": "camp_inventory_management",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "story",
+      "absolute_seconds": 471.0,
+      "absolute_timestamp": "7:51",
+      "summary": "The moment effectively transitions the gameplay from the slow, methodical 'Preparation' phase to the high-stakes 'Action' phase. The sudden destruction of the boat serves as a strong narrative signal that the player is now fully committed to the endgame.",
+      "game_context": "The calm boat journey is violently interrupted as a massive purple-glowing stalactite falls from the ceiling, smashing the vessel.",
+      "evidence": [
+        "Uninterrupted viewing of cinematic",
+        "Focused pause during high-action sequence",
+        "Focused silence",
+        "Scene: Cinematic cutscene of the party traveling by boat through a dark, misty cavern in the Underdark."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 1,
+      "segment_label": "boat_journey",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "story",
+      "absolute_seconds": 515.0,
+      "absolute_timestamp": "8:35",
+      "summary": "The cinematic effectively builds narrative tension and rewards the player for reaching the endgame zone. The visual distortion and 'Elder Brain's Influence' thread are brought to the forefront, validating the high stakes.",
+      "game_context": "The player reaches the destination and is immediately overwhelmed by the psychic presence of the Elder Brain, which pulses with purple light and distorted voices.",
+      "evidence": [
+        "Uninterrupted viewing of cinematic",
+        "Focused pause during high-distortion visual effects",
+        "Focused silence",
+        "Scene: Morphic Pool, during the psychic confrontation with the Elder Brain vision."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 2,
+      "segment_label": "elder_brain_vision",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "mastery",
+      "absolute_seconds": 672.0,
+      "absolute_timestamp": "11:12",
+      "summary": "This shows a high degree of mastery over exploration mechanics. The player knows Scratch can find hidden treasure mounds, demonstrating a proactive approach to maximizing resources in the final stages of the game.",
+      "game_context": "The player uses the 'Find Familiar: Scratch' ability immediately upon starting active exploration in the new zone.",
+      "evidence": [
+        "Strategic spell selection",
+        "Voluntary exploration beyond the direct path",
+        "Focused silence",
+        "Scene: Morphic Pool shore, summoning a familiar."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 2,
+      "segment_label": "morphie_pool",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "discovery",
+      "absolute_seconds": 763.0,
+      "absolute_timestamp": "12:43",
+      "summary": "This discovery validates the player's slow, methodical movement pace. The immediate reward of gold and a 'Personal Note' reinforces the 'leave no stone unturned' playstyle established in earlier chunks.",
+      "game_context": "The player is rewarded for their thorough exploration when a hidden survival check reveals a buried treasure chest.",
+      "evidence": [
+        "Immediate redirection of movement to the hidden prompt",
+        "Intentional interaction with the 'Dirt Mound' to dig up loot",
+        "Systematic looting of the resulting chest",
+        "Focused silence",
+        "Scene: On a rocky ledge in the Morphic Pool, Aidan succeeds on a Survival Check to reveal a hidden Dirt Mound."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 3,
+      "segment_label": "morphie_pool_exploration",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "story",
+      "absolute_seconds": 855.0,
+      "absolute_timestamp": "14:15",
+      "summary": "The documents provide narrative context for why the crates are there, connecting the current isolated cave to the broader political intrigue of Baldur's Gate.",
+      "game_context": "The player finds a stash of smuggling contraband including notes detailing the logistics of movement in the Upper City.",
+      "evidence": [
+        "Voluntary pause to read full pages of text",
+        "Careful scrolling through the 'Ledge of Contraband Goods' note",
+        "Focused silence",
+        "Scene: A campsite area within the cave where the player discovers and reads several lore documents."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 3,
+      "segment_label": "morphie_pool_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "mastery",
+      "absolute_seconds": 932.0,
+      "absolute_timestamp": "15:32",
+      "summary": "This shows a tight feedback loop of looting and crafting. The player demonstrates mastery of the secondary game systems, ensuring the party is at maximum potency right before the next encounter.",
+      "game_context": "After looting several Intellect Devourers, the player immediately opens the alchemy UI to process the ingredients.",
+      "evidence": [
+        "Rapid purposeful menu navigation",
+        "Immediate conversion of looted Intellect Devourer Cerebellums into alchemy components",
+        "Focused silence",
+        "Scene: The alchemy menu where Aidan is extracting suspensions and brewing new potions."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 3,
+      "segment_label": "morphie_pool_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "visual_design",
+      "absolute_seconds": 975.0,
+      "absolute_timestamp": "16:15",
+      "summary": "The atmospheric build-up is highly immersive. The use of actual status effects on the party members' portraits creates a sense of mechanical dread that mirrors the narrative stakes.",
+      "game_context": "The player enters a zone of high psychic pressure, signaled by whispers and UI text describing the party as 'Controlled' and 'Dominated'.",
+      "evidence": [
+        "Steady forward progress despite eerie environmental feedback",
+        "Observing the 'Mindbroken' and 'Crowned' status effects on party members",
+        "Focused silence during heavy narrative whispers",
+        "Scene: A narrow, root-filled passage leading deeper into the Pool as psychic status effects manifest."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 3,
+      "segment_label": "morphie_pool_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "mastery",
+      "absolute_seconds": 1048.0,
+      "absolute_timestamp": "17:28",
+      "summary": "This phase demonstrates absolute mastery over the game's buffing and summoning systems. The player is meticulously building an 'unstoppable' state for the party, deriving satisfaction from the strategic readiness required for the endgame area.",
+      "game_context": "The player prepares the party by casting 'Heroes' Feast' and summoning a Deva and a Dryad simultaneously.",
+      "evidence": [
+        "Rapid purposeful inputs",
+        "Strategic stacking of mutually exclusive resources",
+        "High-value spell slot expenditure",
+        "Focused silence",
+        "Scene: On a narrow root-path in the Morphie Pool, selecting high-level spells from the action bar."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 4,
+      "segment_label": "party_buffing",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "story",
+      "absolute_seconds": 1098.0,
+      "absolute_timestamp": "18:18",
+      "summary": "The narrative scale (story) validates the player's intensive preparation. The high-quality voice acting and environmental sound design create a peak atmospheric moment that signals the start of a major challenge.",
+      "game_context": "The transition from the buffing ritual to the active ambush, punctuated by the Elder Brain's 'HUNT. CHASE. DEVOUR.' dialogue.",
+      "evidence": [
+        "Immediate transition from exploration to combat targeting",
+        "Observing environmental pool hazards",
+        "Focused silence during heavy narrative audio",
+        "Scene: Entering the acid pool area as the Elder Brain's voice booms across the cavern."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 4,
+      "segment_label": "intellect_devourer_ambush",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "combat",
+      "absolute_seconds": 1161.0,
+      "absolute_timestamp": "19:21",
+      "summary": "This is the mechanical payoff for the previous inventory and preparation phases. Seeing the party's high damage output (combat) immediately resolve threats confirms the effectiveness of the player's strategy.",
+      "game_context": "Karlach uses a Main Hand Attack to deal critical damage, efficiently removing an enemy from the turn order.",
+      "evidence": [
+        "Rapid character cycling",
+        "Successful high-damage output",
+        "Clearance of small-threat enemies",
+        "Focused silence",
+        "Scene: The center of the pool combat area where Karlach executes a melee attack on an Intellect Devourer."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 4,
+      "segment_label": "intellect_devourer_ambush",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "quality_issues": [
+    {
+      "agent_kind": "quality",
+      "source_label": "graphics",
+      "absolute_seconds": 1068.0,
+      "absolute_timestamp": "17:48",
+      "summary": "graphics issue: Camera clipping through overhanging environment assets, Visual obstruction by cave wall geometry during The party is moving through cramped, vertical cave architecture with the auto-follow camera active.",
+      "game_context": "The party is moving through cramped, vertical cave architecture with the auto-follow camera active.",
+      "evidence": [
+        "Camera clipping through overhanging environment assets",
+        "Visual obstruction by cave wall geometry",
+        "None",
+        "Player reaction: Ignored",
+        "Scene: Narrow root bridge and vertical paths in the Morphic Pool."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "party_buffing",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "quality",
+      "source_label": "collision",
+      "absolute_seconds": 1132.0,
+      "absolute_timestamp": "18:52",
+      "summary": "collision issue: Line-of-sight indicator intermittently flashing red/white despite clear visual path during Attempting to target an Intellect Glutton located inside a recessed pool (Caustic Brine) from a higher elevation.",
+      "game_context": "Attempting to target an Intellect Glutton located inside a recessed pool (Caustic Brine) from a higher elevation.",
+      "evidence": [
+        "Line-of-sight indicator intermittently flashing red/white despite clear visual path",
+        "None",
+        "Player reaction: Noticed; player repositioned the character to regain targeting.",
+        "Scene: Combat encounter in the Morphic Pool, aiming at enemies in caustic pits."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 4,
+      "segment_label": "intellect_devourer_ambush",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "retry",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "sentiment_moments": [
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 0.0,
+      "absolute_timestamp": "0:00",
+      "summary": "Reviewing quest objectives and party status.",
+      "game_context": "Player opening quest journal and primary character inventory.",
+      "evidence": [
+        "Trigger: Reviewing quest objectives and party status.",
+        "Visual: Player opening quest journal and primary character inventory.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 0,
+      "segment_label": "underdark_exploration",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 30.0,
+      "absolute_timestamp": "0:30",
+      "summary": "Systematic looting of the dock area.",
+      "game_context": "Walking character to each chest and skeleton to gather items.",
+      "evidence": [
+        "Trigger: Systematic looting of the dock area.",
+        "Visual: Walking character to each chest and skeleton to gather items.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 0,
+      "segment_label": "underdark_exploration",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 60.0,
+      "absolute_timestamp": "1:00",
+      "summary": "Reading lore book 'Evading the Elder Brain'.",
+      "game_context": "Pages of the book are visible as the player pauses to read.",
+      "evidence": [
+        "Trigger: Reading lore book 'Evading the Elder Brain'.",
+        "Visual: Pages of the book are visible as the player pauses to read.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 0,
+      "segment_label": "underdark_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 90.0,
+      "absolute_timestamp": "1:30",
+      "summary": "Encountering the 'Point of No Return' warning prompt.",
+      "game_context": "Player hesitates at the skiff, reads the warning, and chooses to fast travel instead.",
+      "evidence": [
+        "Trigger: Encountering the 'Point of No Return' warning prompt.",
+        "Visual: Player hesitates at the skiff, reads the warning, and chooses to fast travel instead.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 0,
+      "segment_label": "underdark_exploration",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 120.0,
+      "absolute_timestamp": "2:00",
+      "summary": "Starting deep inventory sorting at camp.",
+      "game_context": "Navigating between different party member inventories to redistribute items.",
+      "evidence": [
+        "Trigger: Starting deep inventory sorting at camp.",
+        "Visual: Navigating between different party member inventories to redistribute items.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 0,
+      "segment_label": "elfsong_tavern_camp",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 150.0,
+      "absolute_timestamp": "2:30",
+      "summary": "Detailed review of spell scrolls.",
+      "game_context": "Hovering over multiple scroll icons to read descriptions.",
+      "evidence": [
+        "Trigger: Detailed review of spell scrolls.",
+        "Visual: Hovering over multiple scroll icons to read descriptions.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 0,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 180.0,
+      "absolute_timestamp": "3:00",
+      "summary": "Transferring items to Gale.",
+      "game_context": "Using context menus to send specific scrolls to character inventories.",
+      "evidence": [
+        "Trigger: Transferring items to Gale.",
+        "Visual: Using context menus to send specific scrolls to character inventories.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 0,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 210.0,
+      "absolute_timestamp": "3:30",
+      "summary": "Equipping gear and sorting alchemy ingredients.",
+      "game_context": "Player character switching equipment and organizing the bottom row of inventory.",
+      "evidence": [
+        "Trigger: Equipping gear and sorting alchemy ingredients.",
+        "Visual: Player character switching equipment and organizing the bottom row of inventory.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 0,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 240.0,
+      "absolute_timestamp": "4:00",
+      "summary": "Mass redistribution of potions.",
+      "game_context": "Moving elixirs and healing potions to active party members.",
+      "evidence": [
+        "Trigger: Mass redistribution of potions.",
+        "Visual: Moving elixirs and healing potions to active party members.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 0,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 273.0,
+      "absolute_timestamp": "4:33",
+      "summary": "Opening the Traveler's Chest to reveal a massive, organized hoard of items.",
+      "game_context": "Exploration/Menu: Accessing a grid of over 100 high-value items for final selection.",
+      "evidence": [
+        "Trigger: Opening the Traveler's Chest to reveal a massive, organized hoard of items.",
+        "Visual: Exploration/Menu: Accessing a grid of over 100 high-value items for final selection.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 1,
+      "segment_label": "camp_inventory_management",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 305.0,
+      "absolute_timestamp": "5:05",
+      "summary": "Consolidating 20+ magical scrolls into a single backpack for party utility.",
+      "game_context": "Exploration/Menu: Efficiently shift-clicking and dragging items to clean up inventory clutter.",
+      "evidence": [
+        "Trigger: Consolidating 20+ magical scrolls into a single backpack for party utility.",
+        "Visual: Exploration/Menu: Efficiently shift-clicking and dragging items to clean up inventory clutter.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 1,
+      "segment_label": "camp_inventory_management",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 345.0,
+      "absolute_timestamp": "5:45",
+      "summary": "Detailed auditing of quest items including notes, diaries, and keys.",
+      "game_context": "Exploration/Menu: Hovering over lore documents and specific keys from Raphael's estate.",
+      "evidence": [
+        "Trigger: Detailed auditing of quest items including notes, diaries, and keys.",
+        "Visual: Exploration/Menu: Hovering over lore documents and specific keys from Raphael's estate.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 1,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 397.0,
+      "absolute_timestamp": "6:37",
+      "summary": "Travel from camp back to the Underdark docks to resume the quest.",
+      "game_context": "Progress: Fast travel transition and approaching the skiff interaction point.",
+      "evidence": [
+        "Trigger: Travel from camp back to the Underdark docks to resume the quest.",
+        "Visual: Progress: Fast travel transition and approaching the skiff interaction point.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 1,
+      "segment_label": "underdark_docks",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 436.0,
+      "absolute_timestamp": "7:16",
+      "summary": "Loading screen transition into the next major zone.",
+      "game_context": "Stalling: Game load screen showing multi-headed serpent art.",
+      "evidence": [
+        "Trigger: Loading screen transition into the next major zone.",
+        "Visual: Stalling: Game load screen showing multi-headed serpent art.",
+        "Audio: Silent",
+        "Silence type: idle"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 1,
+      "segment_label": "undercity_ruins_transition",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 458.0,
+      "absolute_timestamp": "7:38",
+      "summary": "Atmospheric cinematic showing the party rowing through foggy caverns.",
+      "game_context": "Discovery: Cinematic immersion and high-quality environment rendering.",
+      "evidence": [
+        "Trigger: Atmospheric cinematic showing the party rowing through foggy caverns.",
+        "Visual: Discovery: Cinematic immersion and high-quality environment rendering.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 1,
+      "segment_label": "boat_journey",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 471.0,
+      "absolute_timestamp": "7:51",
+      "summary": "Dramatic boat destruction scene as a glowing stalactite falls from the ceiling.",
+      "game_context": "Success: High-stakes cinematic action beat with impressive particle effects.",
+      "evidence": [
+        "Trigger: Dramatic boat destruction scene as a glowing stalactite falls from the ceiling.",
+        "Visual: Success: High-stakes cinematic action beat with impressive particle effects.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 1,
+      "segment_label": "boat_journey",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 3,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 515.0,
+      "absolute_timestamp": "8:35",
+      "summary": "Triggering the Elder Brain cinematic vision.",
+      "game_context": "Discovery: Cinematic cutscene with heavy purple psychic distortion effects and close-up views of the brain.",
+      "evidence": [
+        "Trigger: Triggering the Elder Brain cinematic vision.",
+        "Visual: Discovery: Cinematic cutscene with heavy purple psychic distortion effects and close-up views of the brain.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 2,
+      "segment_label": "elder_brain_vision",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 3,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 545.0,
+      "absolute_timestamp": "9:05",
+      "summary": "End of vision and immediate party commentary on the brain's power.",
+      "game_context": "Success: The party is safe on land and regrouping after the psychic shock.",
+      "evidence": [
+        "Trigger: End of vision and immediate party commentary on the brain's power.",
+        "Visual: Success: The party is safe on land and regrouping after the psychic shock.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 2,
+      "segment_label": "morphie_pool",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 575.0,
+      "absolute_timestamp": "9:35",
+      "summary": "Systematic looting of the entrance to the Morphie Pool.",
+      "game_context": "Exploration: Opening a wooden crate and chest to gather resources before moving forward.",
+      "evidence": [
+        "Trigger: Systematic looting of the entrance to the Morphie Pool.",
+        "Visual: Exploration: Opening a wooden crate and chest to gather resources before moving forward.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 2,
+      "segment_label": "morphie_pool",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 610.0,
+      "absolute_timestamp": "10:10",
+      "summary": "Encountering floating psychic manifestations while crossing the bridge.",
+      "game_context": "Discovery: Narrative text 'WAITING,' 'PREPARING,' and 'EVOLVING' appears above party members.",
+      "evidence": [
+        "Trigger: Encountering floating psychic manifestations while crossing the bridge.",
+        "Visual: Discovery: Narrative text 'WAITING,' 'PREPARING,' and 'EVOLVING' appears above party members.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 2,
+      "segment_label": "morphie_pool_bridge",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 640.0,
+      "absolute_timestamp": "10:40",
+      "summary": "Methodically crossing the narrow wooden bridge.",
+      "game_context": "Progress: Moving carefully through a high-atmosphere, foggy area.",
+      "evidence": [
+        "Trigger: Methodically crossing the narrow wooden bridge.",
+        "Visual: Progress: Moving carefully through a high-atmosphere, foggy area.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 2,
+      "segment_label": "morphie_pool_bridge",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "clarity"
+      ],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 670.0,
+      "absolute_timestamp": "11:10",
+      "summary": "Using 'Find Familiar: Scratch' to aid in exploration.",
+      "game_context": "Mastery: Activating a specialized utility spell to help find hidden environmental secrets.",
+      "evidence": [
+        "Trigger: Using 'Find Familiar: Scratch' to aid in exploration.",
+        "Visual: Mastery: Activating a specialized utility spell to help find hidden environmental secrets.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 2,
+      "segment_label": "morphie_pool",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 700.0,
+      "absolute_timestamp": "11:40",
+      "summary": "Navigating the cliffside path and identifying a blocked jump.",
+      "game_context": "Stalling: The character checks a ledge but the pathing is initially obstructed.",
+      "evidence": [
+        "Trigger: Navigating the cliffside path and identifying a blocked jump.",
+        "Visual: Stalling: The character checks a ledge but the pathing is initially obstructed.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 2,
+      "segment_label": "morphie_pool_navigation",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 735.0,
+      "absolute_timestamp": "12:15",
+      "summary": "Solving the navigation puzzle with 'Shadow Teleportation'.",
+      "game_context": "Success: Using a character-specific ability to bypass the obstructed ledge.",
+      "evidence": [
+        "Trigger: Solving the navigation puzzle with 'Shadow Teleportation'.",
+        "Visual: Success: Using a character-specific ability to bypass the obstructed ledge.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 2,
+      "segment_label": "morphie_pool_navigation",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 763.0,
+      "absolute_timestamp": "12:43",
+      "summary": "Successful Survival Check and discovery of a buried Dirt Mound.",
+      "game_context": "Success: The party detects a secret, and Aidan begins digging up a chest.",
+      "evidence": [
+        "Trigger: Successful Survival Check and discovery of a buried Dirt Mound.",
+        "Visual: Success: The party detects a secret, and Aidan begins digging up a chest.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 3,
+      "segment_label": "morphie_pool_exploration",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "friction"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 795.0,
+      "absolute_timestamp": "13:15",
+      "summary": "Manual navigation and jumping across cave gaps.",
+      "game_context": "Progress: Characters grunting and jumping successfully to reach new ledges.",
+      "evidence": [
+        "Trigger: Manual navigation and jumping across cave gaps.",
+        "Visual: Progress: Characters grunting and jumping successfully to reach new ledges.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 3,
+      "segment_label": "morphie_pool_exploration",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 825.0,
+      "absolute_timestamp": "13:45",
+      "summary": "Opening a wooden chest and finding narrative lore.",
+      "game_context": "Discovery: Looting gold and reading a personal note.",
+      "evidence": [
+        "Trigger: Opening a wooden chest and finding narrative lore.",
+        "Visual: Discovery: Looting gold and reading a personal note.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 3,
+      "segment_label": "morphie_pool_exploration",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 855.0,
+      "absolute_timestamp": "14:15",
+      "summary": "Finding a campsite within the cave with significant loot.",
+      "game_context": "Discovery: Opening a Metal Trunk containing gold and specialized arrows.",
+      "evidence": [
+        "Trigger: Finding a campsite within the cave with significant loot.",
+        "Visual: Discovery: Opening a Metal Trunk containing gold and specialized arrows.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 3,
+      "segment_label": "morphie_pool_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 885.0,
+      "absolute_timestamp": "14:45",
+      "summary": "Gathering rare alchemy ingredients from Intellect Devourers.",
+      "game_context": "Exploration: Harvesting Cerebellums from corpses found on the path.",
+      "evidence": [
+        "Trigger: Gathering rare alchemy ingredients from Intellect Devourers.",
+        "Visual: Exploration: Harvesting Cerebellums from corpses found on the path.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 3,
+      "segment_label": "morphie_pool_exploration",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 932.0,
+      "absolute_timestamp": "15:32",
+      "summary": "Opening the Alchemy menu to brew utility potions.",
+      "game_context": "Mastery: Efficiently clicking 'Extract All Ingredients' and brewing a Potion of Animal Speaking.",
+      "evidence": [
+        "Trigger: Opening the Alchemy menu to brew utility potions.",
+        "Visual: Mastery: Efficiently clicking 'Extract All Ingredients' and brewing a Potion of Animal Speaking.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 3,
+      "segment_label": "morphie_pool_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 975.0,
+      "absolute_timestamp": "16:15",
+      "summary": "Transition into a scripted psychic event passage.",
+      "game_context": "Discovery: Floating text like 'DOMINATED' appears as the camera zooms in.",
+      "evidence": [
+        "Trigger: Transition into a scripted psychic event passage.",
+        "Visual: Discovery: Floating text like 'DOMINATED' appears as the camera zooms in.",
+        "Audio: Silent",
+        "Silence type: tense"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 3,
+      "segment_label": "morphie_pool_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 1005.0,
+      "absolute_timestamp": "16:45",
+      "summary": "A psychic event triggers with the Elder Brain's voice echoing 'Dominated... controlled...'.",
+      "game_context": "Discovery: The player pauses slightly to experience the atmospheric narrative distortion effects.",
+      "evidence": [
+        "Trigger: A psychic event triggers with the Elder Brain's voice echoing 'Dominated... controlled...'.",
+        "Visual: Discovery: The player pauses slightly to experience the atmospheric narrative distortion effects.",
+        "Audio: Silent",
+        "Silence type: tense"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "morphie_pool_exploration",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 1035.0,
+      "absolute_timestamp": "17:15",
+      "summary": "Continuing through the narrow cavern path and looting skeletons.",
+      "game_context": "Exploration: Routine progress and resource gathering in a high-atmosphere environment.",
+      "evidence": [
+        "Trigger: Continuing through the narrow cavern path and looting skeletons.",
+        "Visual: Exploration: Routine progress and resource gathering in a high-atmosphere environment.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 4,
+      "segment_label": "party_buffing",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "clarity",
+        "delight"
+      ],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 1065.0,
+      "absolute_timestamp": "17:45",
+      "summary": "Commencing a major buffing phase with 'Heroes' Feast' and 'Aid'.",
+      "game_context": "Mastery: Using high-level spell slots to maximize party HP and immunities before a major battle.",
+      "evidence": [
+        "Trigger: Commencing a major buffing phase with 'Heroes' Feast' and 'Aid'.",
+        "Visual: Mastery: Using high-level spell slots to maximize party HP and immunities before a major battle.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "party_buffing",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "clarity",
+        "quality"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 1095.0,
+      "absolute_timestamp": "18:15",
+      "summary": "Summoning a Dryad, Wood Woad, and a high-level Deva ally.",
+      "game_context": "Mastery: Strategic expansion of the party's action economy by summoning multiple powerful allies.",
+      "evidence": [
+        "Trigger: Summoning a Dryad, Wood Woad, and a high-level Deva ally.",
+        "Visual: Mastery: Strategic expansion of the party's action economy by summoning multiple powerful allies.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "intellect_devourer_ambush",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "clarity",
+        "delight"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "triumphant",
+      "absolute_seconds": 1125.0,
+      "absolute_timestamp": "18:45",
+      "summary": "Combat ambush start accompanied by the Elder Brain's boom: 'HUNT. CHASE. DEVOUR.'",
+      "game_context": "Success: The player successfully reaches the next major encounter and triggers the narrative payoff.",
+      "evidence": [
+        "Trigger: Combat ambush start accompanied by the Elder Brain's boom: 'HUNT. CHASE. DEVOUR.'",
+        "Visual: Success: The player successfully reaches the next major encounter and triggers the narrative payoff.",
+        "Audio: Silent",
+        "Silence type: tense"
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 4,
+      "segment_label": "intellect_devourer_ambush",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "quality",
+        "retry"
+      ],
+      "sentiment_raw_score": 3,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 1155.0,
+      "absolute_timestamp": "19:15",
+      "summary": "The summoned Deva uses a mace attack to deal heavy radiant damage to an Intellect Glutton.",
+      "game_context": "Success: Direct tactical execution of the summons prepared in the previous phase.",
+      "evidence": [
+        "Trigger: The summoned Deva uses a mace attack to deal heavy radiant damage to an Intellect Glutton.",
+        "Visual: Success: Direct tactical execution of the summons prepared in the previous phase.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "intellect_devourer_ambush",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 1185.0,
+      "absolute_timestamp": "19:45",
+      "summary": "Karlach lands a high-damage melee strike, crushing an Intellect Devourer.",
+      "game_context": "Success: Routine combat efficiency as the player begins thinning the enemy group.",
+      "evidence": [
+        "Trigger: Karlach lands a high-damage melee strike, crushing an Intellect Devourer.",
+        "Visual: Success: Routine combat efficiency as the player begins thinning the enemy group.",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "intellect_devourer_ambush",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "retry_moments": [
+    {
+      "agent_kind": "retry",
+      "source_label": "morphie_pool_navigation",
+      "absolute_seconds": 640.0,
+      "absolute_timestamp": "10:40",
+      "summary": "3 attempts at morphie_pool_navigation, outcome: succeeded",
+      "game_context": "Rocky cliffs overlooking the Morphic Pool",
+      "evidence": [
+        "Attempt 1: failed (Methodical; attempts multiple clicks to find a pathing route.)",
+        "Attempt 2: failed (Analytical; observes the 'Not enough space' error message.)",
+        "Attempt 3: succeeded (Neutral focus; immediately proceeds to move other characters once path is found.)",
+        "Frustration: stable"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 2,
+      "segment_label": "morphie_pool_navigation",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": 3,
+      "retry_quit_signal": false,
+      "retry_final_outcome": "succeeded",
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "retry",
+      "source_label": "morphie_pool_jump",
+      "absolute_seconds": 790.0,
+      "absolute_timestamp": "13:10",
+      "summary": "2 attempts at morphie_pool_jump, outcome: succeeded",
+      "game_context": "Narrow ledge path overlooking the Morphic Pool water",
+      "evidence": [
+        "Attempt 1: failed (None; rapid correction.)",
+        "Attempt 2: succeeded (Proceeds with party movement.)",
+        "Frustration: stable"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 3,
+      "segment_label": "morphie_pool_jump",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": 2,
+      "retry_quit_signal": false,
+      "retry_final_outcome": "succeeded",
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "retry",
+      "source_label": "intellect_devourer_ambush",
+      "absolute_seconds": 1121.0,
+      "absolute_timestamp": "18:41",
+      "summary": "3 attempts at intellect_devourer_ambush, outcome: succeeded",
+      "game_context": "Morphic Pool rocky path near green pools",
+      "evidence": [
+        "Attempt 1: failed (Analytical; continues to click around the target area.)",
+        "Attempt 2: failed (Stable; methodical attempts to find sightline.)",
+        "Attempt 3: succeeded (Focused; persistent clicking until path is found.)",
+        "Frustration: stable"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 4,
+      "segment_label": "intellect_devourer_ambush",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "quality",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": 3,
+      "retry_quit_signal": false,
+      "retry_final_outcome": "succeeded",
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "verbal_moments": [],
+  "top_stop_risk_drivers": [
+    "controls"
+  ],
+  "top_praised_features": [
+    "mastery",
+    "story",
+    "discovery",
+    "visual_design",
+    "combat"
+  ],
+  "top_clarity_fixes": [
+    "Clearer visual distinction between 'climbable' slopes and decorative rock geometry.",
+    "Better targeting snapping or a clearer 'landing zone' indicator for tactical movement spells on uneven terrain.",
+    "Visual distinction between 'decorative' rock geometry and 'traversable' terrain maps.",
+    "Better terrain snapping or clearer UI indicators for valid placement on organic, uneven geometry.",
+    "More lenient 'landing zone' validation for summons in cramped environments."
+  ],
+  "bug_count": 2,
+  "overall_friction": "minor",
+  "overall_engagement": "strong",
+  "overall_stop_risk": "none",
+  "recommendations": [
+    "Reduce control issues in the highest-risk gameplay beats.",
+    "Prioritize this communication fix: Clearer visual distinction between 'climbable' slopes and decorative rock geometry.",
+    "Prioritize this communication fix: Better targeting snapping or a clearer 'landing zone' indicator for tactical movement spells on uneven terrain.",
+    "Triage the 2 visible technical issues surfaced during the session.",
+    "Protect and expand the strongest positives: mastery, story, discovery."
+  ],
+  "avg_sentiment": 1.32,
+  "sentiment_by_segment": {
+    "underdark_exploration": 1.0,
+    "elfsong_tavern_camp": 1.0,
+    "camp_inventory_management": 1.0,
+    "underdark_docks": 0.0,
+    "undercity_ruins_transition": 0.0,
+    "boat_journey": 2.5,
+    "elder_brain_vision": 3.0,
+    "morphie_pool": 1.0,
+    "morphie_pool_bridge": 1.5,
+    "morphie_pool_navigation": 1.0,
+    "morphie_pool_exploration": 1.38,
+    "party_buffing": 1.5,
+    "intellect_devourer_ambush": 2.25
+  },
+  "total_retry_sequences": 3,
+  "first_attempt_failure_count": 3,
+  "notable_quotes": [],
+  "segments_encountered": [
+    "boat_journey",
+    "camp_inventory_management",
+    "elder_brain_vision",
+    "elfsong_tavern_camp",
+    "intellect_devourer_ambush",
+    "morphie_pool",
+    "morphie_pool_bridge",
+    "morphie_pool_exploration",
+    "morphie_pool_navigation",
+    "party_buffing",
+    "undercity_ruins_transition",
+    "underdark_docks",
+    "underdark_exploration"
+  ],
+  "highlights": {
+    "video_id": "56823a6dc8475381b75f6376dd9073e3",
+    "total_moments_analyzed": 63,
+    "highlights": [
+      {
+        "rank": 1,
+        "absolute_timestamp": "18:41",
+        "absolute_seconds": 1121.0,
+        "clip_start_seconds": 1111.0,
+        "clip_end_seconds": 1131.0,
+        "category": "retry_loop",
+        "headline": "3 attempts at intellect_devourer_ambush, outcome: succeeded",
+        "why_important": "Severity 6/10, confidence 80%",
+        "evidence": [
+          "Attempt 1: failed (Analytical; continues to click around the target area.)",
+          "Attempt 2: failed (Stable; methodical attempts to find sightline.)",
+          "Attempt 3: succeeded (Focused; persistent clicking until path is found.)",
+          "Frustration: stable"
+        ],
+        "importance_score": 12.48,
+        "corroborating_agents": [
+          "quality",
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 2,
+        "absolute_timestamp": "17:28",
+        "absolute_seconds": 1048.0,
+        "clip_start_seconds": 1038.0,
+        "clip_end_seconds": 1058.0,
+        "category": "player_delight",
+        "headline": "This phase demonstrates absolute mastery over the game's buffing and summoning systems. The player is meticulously build",
+        "why_important": "Severity 7/10, confidence 80%",
+        "evidence": [
+          "Rapid purposeful inputs",
+          "Strategic stacking of mutually exclusive resources",
+          "High-value spell slot expenditure",
+          "Focused silence",
+          "Scene: On a narrow root-path in the Morphie Pool, selecting high-level spells from the action bar."
+        ],
+        "importance_score": 8.96,
+        "corroborating_agents": [
+          "clarity",
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 3,
+        "absolute_timestamp": "10:40",
+        "absolute_seconds": 640.0,
+        "clip_start_seconds": 630.0,
+        "clip_end_seconds": 650.0,
+        "category": "retry_loop",
+        "headline": "3 attempts at morphie_pool_navigation, outcome: succeeded",
+        "why_important": "Severity 6/10, confidence 50%",
+        "evidence": [
+          "Attempt 1: failed (Methodical; attempts multiple clicks to find a pathing route.)",
+          "Attempt 2: failed (Analytical; observes the 'Not enough space' error message.)",
+          "Attempt 3: succeeded (Neutral focus; immediately proceeds to move other characters once path is found.)",
+          "Frustration: stable"
+        ],
+        "importance_score": 7.8,
+        "corroborating_agents": []
+      },
+      {
+        "rank": 4,
+        "absolute_timestamp": "12:43",
+        "absolute_seconds": 763.0,
+        "clip_start_seconds": 753.0,
+        "clip_end_seconds": 773.0,
+        "category": "player_delight",
+        "headline": "This discovery validates the player's slow, methodical movement pace. The immediate reward of gold and a 'Personal Note'",
+        "why_important": "Severity 5/10, confidence 95%",
+        "evidence": [
+          "Immediate redirection of movement to the hidden prompt",
+          "Intentional interaction with the 'Dirt Mound' to dig up loot",
+          "Systematic looting of the resulting chest",
+          "Focused silence",
+          "Scene: On a rocky ledge in the Morphic Pool, Aidan succeeds on a Survival Check to reveal a hidden Dirt Mound."
+        ],
+        "importance_score": 7.6,
+        "corroborating_agents": [
+          "clarity",
+          "friction",
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 5,
+        "absolute_timestamp": "1:58",
+        "absolute_seconds": 118.0,
+        "clip_start_seconds": 108.0,
+        "clip_end_seconds": 128.0,
+        "category": "player_delight",
+        "headline": "This phase demonstrates the player's high level of mastery over the UI and party roles, as they intuitively know which s",
+        "why_important": "Severity 7/10, confidence 65%",
+        "evidence": [
+          "Rapid purposeful inputs",
+          "High-frequency item manipulation",
+          "Efficient use of shift-clicking and drag-and-drop systems",
+          "Focused silence",
+          "Scene: Elfsong Tavern campsite, management of character inventory screens."
+        ],
+        "importance_score": 7.28,
+        "corroborating_agents": [
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 6,
+        "absolute_timestamp": "5:05",
+        "absolute_seconds": 305.0,
+        "clip_start_seconds": 295.0,
+        "clip_end_seconds": 315.0,
+        "category": "player_delight",
+        "headline": "This shows high mastery over the game's inventory systems. The player uses sub-containers to solve the 'cluttered invent",
+        "why_important": "Severity 7/10, confidence 65%",
+        "evidence": [
+          "Rapid purposeful inputs",
+          "Efficient mass-selection of items",
+          "Strategic organization of consumable resources",
+          "Focused silence",
+          "Scene: Character inventory screen at the Elfsong Tavern campsite, specifically managing a backpack within the main inventory."
+        ],
+        "importance_score": 7.28,
+        "corroborating_agents": [
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 7,
+        "absolute_timestamp": "8:35",
+        "absolute_seconds": 515.0,
+        "clip_start_seconds": 505.0,
+        "clip_end_seconds": 525.0,
+        "category": "player_delight",
+        "headline": "The cinematic effectively builds narrative tension and rewards the player for reaching the endgame zone. The visual dist",
+        "why_important": "Severity 7/10, confidence 65%",
+        "evidence": [
+          "Uninterrupted viewing of cinematic",
+          "Focused pause during high-distortion visual effects",
+          "Focused silence",
+          "Scene: Morphic Pool, during the psychic confrontation with the Elder Brain vision."
+        ],
+        "importance_score": 7.28,
+        "corroborating_agents": [
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 8,
+        "absolute_timestamp": "15:32",
+        "absolute_seconds": 932.0,
+        "clip_start_seconds": 922.0,
+        "clip_end_seconds": 942.0,
+        "category": "player_delight",
+        "headline": "This shows a tight feedback loop of looting and crafting. The player demonstrates mastery of the secondary game systems,",
+        "why_important": "Severity 7/10, confidence 65%",
+        "evidence": [
+          "Rapid purposeful menu navigation",
+          "Immediate conversion of looted Intellect Devourer Cerebellums into alchemy components",
+          "Focused silence",
+          "Scene: The alchemy menu where Aidan is extracting suspensions and brewing new potions."
+        ],
+        "importance_score": 7.28,
+        "corroborating_agents": [
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 9,
+        "absolute_timestamp": "16:15",
+        "absolute_seconds": 975.0,
+        "clip_start_seconds": 965.0,
+        "clip_end_seconds": 985.0,
+        "category": "player_delight",
+        "headline": "The atmospheric build-up is highly immersive. The use of actual status effects on the party members' portraits creates a",
+        "why_important": "Severity 7/10, confidence 65%",
+        "evidence": [
+          "Steady forward progress despite eerie environmental feedback",
+          "Observing the 'Mindbroken' and 'Crowned' status effects on party members",
+          "Focused silence during heavy narrative whispers",
+          "Scene: A narrow, root-filled passage leading deeper into the Pool as psychic status effects manifest."
+        ],
+        "importance_score": 7.28,
+        "corroborating_agents": [
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 10,
+        "absolute_timestamp": "19:21",
+        "absolute_seconds": 1161.0,
+        "clip_start_seconds": 1151.0,
+        "clip_end_seconds": 1171.0,
+        "category": "player_delight",
+        "headline": "This is the mechanical payoff for the previous inventory and preparation phases. Seeing the party's high damage output (",
+        "why_important": "Severity 7/10, confidence 65%",
+        "evidence": [
+          "Rapid character cycling",
+          "Successful high-damage output",
+          "Clearance of small-threat enemies",
+          "Focused silence",
+          "Scene: The center of the pool combat area where Karlach executes a melee attack on an Intellect Devourer."
+        ],
+        "importance_score": 7.28,
+        "corroborating_agents": [
+          "sentiment"
+        ]
+      }
+    ],
+    "one_line_verdict": "3 attempts at intellect_devourer_ambush, outcome: succeeded"
+  },
+  "executive": {
+    "executive_summary": "This session focused on late-game preparation and the initial traversal of the Morphic Pool. The player spent the first third of the session performing high-density inventory management and alchemy at camp before a narrative transition via boat into the endgame zone. Exploration was methodical, prioritizing lore discovery and resource accumulation through hidden environmental checks.",
+    "key_findings": [
+      {
+        "evidence_summary": "At 12:28, 17:30, and 18:10, the player encountered multiple 'Not enough space' and 'Target is blocked' errors while attempting to use Dimension Door, Heroes' Feast, and Planar Ally. These failures occurred specifically on the irregular, organic geometry of the Morphic Pool, requiring repeated reticles scanning to find a valid pixel.",
+        "affected_timestamps": [
+          "12:28",
+          "17:30",
+          "18:10"
+        ],
+        "finding": "Restrictive targeting logic for summons and large-radius spells on organic terrain creates significant tactical friction.",
+        "recommended_action": "Relax the collision volume requirements or implement better terrain snapping for large-scale spell and summon placement on uneven geometry.",
+        "severity": "important"
+      },
+      {
+        "evidence_summary": "A retry loop at 18:41 (3 attempts) was caused by a flickering line-of-sight indicator at 18:52. The player was unable to reliably target enemies in the caustic pools despite having a clear visual path, leading to character repositioning to bypass the targeting bug.",
+        "affected_timestamps": [
+          "18:41",
+          "18:52"
+        ],
+        "finding": "Inconsistent line-of-sight calculations for enemies in recessed environmental hazards (caustic pits) disrupt combat flow.",
+        "recommended_action": "Audit line-of-sight volumes for the caustic pits in the Morphic Pool to ensure projectiles and spells are not blocked by the pit edges.",
+        "severity": "important"
+      },
+      {
+        "evidence_summary": "At 10:40, the player entered a 3-attempt retry loop trying to navigate a slope that appeared climbable but was purely decorative rock geometry. Similar pathfinding stalls occurred at 15:02 due to small environmental debris.",
+        "affected_timestamps": [
+          "10:40",
+          "15:02"
+        ],
+        "finding": "Poor visual distinction between traversable terrain and decorative rock assets causes pathing confusion.",
+        "recommended_action": "Adjust the navmesh or visual textures to clearly communicate non-traversable steep inclines.",
+        "severity": "notable"
+      },
+      {
+        "evidence_summary": "The player demonstrated high mastery at 1:58 and 5:05, using sub-containers to organize 20+ scrolls and potions. This preparation directly fueled a 'triumphant' sentiment spike at 18:45 when the buffed party engaged in combat.",
+        "affected_timestamps": [
+          "01:58",
+          "05:05",
+          "18:45"
+        ],
+        "finding": "Inventory organization systems provide a high sense of agency that validates the preparation-to-combat loop.",
+        "recommended_action": "Protect the current backpack-in-inventory nesting functionality as it is critical for high-level player organization.",
+        "severity": "notable"
+      }
+    ],
+    "priority_actions": [
+      "Increase the placement tolerance for 'Planar Ally' and 'Heroes Feast' on organic terrain to prevent 'Not enough space' errors.",
+      "Fix the line-of-sight flickering for targets located in Morphic Pool caustic pits.",
+      "Refine the navmesh around the 10:40 rocky incline to prevent players from attempting to click on non-traversable slopes.",
+      "Add a camera volume offset to prevent the clipping observed at 17:48 in narrow cavern passages."
+    ],
+    "cross_dimensional_insight": "The player's high engagement with the 'mastery' dimension during inventory and buffing phases (1:58-5:05 and 17:28) appears to act as a frustration buffer; despite experiencing technical targeting friction and 3-attempt retry loops immediately after, the player's sentiment remained 'focused' and 'stable' rather than dipping into frustration, suggesting that deep tactical preparation increases tolerance for control-based friction.",
+    "session_health_score": 88
+  },
+  "agent_coverage": [
+    {
+      "chunk_index": 0,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    },
+    {
+      "chunk_index": 1,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    },
+    {
+      "chunk_index": 2,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    },
+    {
+      "chunk_index": 3,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    },
+    {
+      "chunk_index": 4,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    }
+  ]
+}

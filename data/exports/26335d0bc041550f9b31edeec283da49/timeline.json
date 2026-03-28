@@ -1,0 +1,888 @@
+{
+  "video_id": "26335d0bc041550f9b31edeec283da49",
+  "game_title": "Baldur's Gate 3",
+  "session_arc": "[0:00-5:00] The segment starts with a calculated, tense preparation phase. As the player moves through the doors, the tension peaks with the arrival of the antagonist, shifting into a dramatic and high-stakes cinematic confrontation.\n[4:00-9:00] The segment builds from cinematic tension during the dialogue to a high-energy, focused state as the complex boss battle commences. The dramatic shift in music and visual spectacle of Raphael's transformation raises the stakes for the player.\n[8:00-13:00] The segment maintains a high-stress, tactical focus. There is a sense of urgency as the player balances offensive actions against the Soul Pillars with the need for constant healing and crowd control as more reinforcements join the fray.\n[12:00-17:00] The segment maintains a high level of tactical focus and tension. The player is deeply engaged in the complex mechanics of the boss fight, with moments of increased stress as Raphael unleashes his most powerful attacks. There's a sense of calculated progress as they chip away at the Soul Pillars and reinforcements.\n[16:00-20:00] The segment maintains a high-intensity, focused state throughout the boss fight. There are moments of tactical satisfaction as cambions are banished or defeated, and a significant sense of progress and relief as the Soul Pillars are finally destroyed one by one. The complexity of managing multiple summons and party members keeps the engagement high.",
+  "chunk_summaries": [
+    "The player prepares for a final confrontation in the House of Hope by casting multiple high-level defensive and support spells. Upon entering the main chamber, a cutscene triggers where Raphael confronts the party, leading to a dramatic dialogue sequence involving Hope and the demon Yurgir.",
+    "The dialogue sequence with Raphael concludes with his transformation into a devil form, initiating a large-scale boss battle in the House of Hope. The player begins the combat phase by targeting the Soul Pillars and focusing damage on Raphael's cambion reinforcements.",
+    "The battle against Raphael continues with the player focusing on destroying the remaining Soul Pillars and managing the large number of reinforcements. The player utilizes various summons and defensive spells to maintain control of the battlefield while enduring significant damage from Raphael's attacks.",
+    "The player continues the intense battle against Raphael, focusing on destroying the remaining Soul Pillars and managing his reinforcements. They utilize a mix of powerful spells and physical attacks from their party and summons to maintain control.",
+    "The player continues the intense boss fight against Raphael in the House of Hope. They focus on destroying the final Soul Pillars while managing reinforcements and keeping the party healed, eventually taking down several cambions and damaging Raphael himself."
+  ],
+  "objectives": [
+    "To confront Raphael in the House of Hope and likely engage in a boss battle.",
+    "To defeat Raphael and his minions in the House of Hope boss fight.",
+    "To destroy the remaining Soul Pillars and defeat Raphael's reinforcements while keeping the party alive.",
+    "To destroy the Soul Pillars and defeat Raphael and his minions.",
+    "To destroy the remaining Soul Pillars and defeat Raphael and his minions."
+  ],
+  "active_threads": [
+    "Raphael Boss Fight",
+    "Hope's Fate",
+    "Soul Pillar Destruction"
+  ],
+  "events": [
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 0.0,
+      "absolute_timestamp": "0:00",
+      "relative_timestamp": "0:00",
+      "visual_observation": "The player party is gathered at the top of a staircase in a grand, ornate interior.",
+      "audio_observation": "Ambient game music and sound effects of spells being prepared.",
+      "player_expression": null,
+      "event_description": "The player begins a lengthy sequence of pre-combat buffing, casting spells like Aid and Heroes' Feast.",
+      "phase_kind": "other",
+      "significance": "routine",
+      "segment_label": "house_of_hope_foyer"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 60.0,
+      "absolute_timestamp": "1:00",
+      "relative_timestamp": "1:00",
+      "visual_observation": "The character Alden approaches a large, ornate set of iron doors.",
+      "audio_observation": "Alden says, 'Here we go.'",
+      "player_expression": null,
+      "event_description": "The player opens the doors to the main hall, signaling the transition to the boss encounter.",
+      "phase_kind": "exploration",
+      "significance": "notable",
+      "segment_label": "house_of_hope_foyer"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 114.0,
+      "absolute_timestamp": "1:54",
+      "relative_timestamp": "1:54",
+      "visual_observation": "A cinematic cutscene begins as the party enters the center of the hall.",
+      "audio_observation": "Narrator describes the air becoming thicker as Raphael approaches.",
+      "player_expression": null,
+      "event_description": "Raphael appears in a flash of light, initiating the final confrontation cutscene.",
+      "phase_kind": "cutscene",
+      "significance": "pivotal",
+      "segment_label": "raphael_confrontation"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 134.0,
+      "absolute_timestamp": "2:14",
+      "relative_timestamp": "2:14",
+      "visual_observation": "A massive, red-skinned demon, Yurgir, steps out behind Raphael.",
+      "audio_observation": "Heavy thuds of Yurgir's footsteps and dramatic music swell.",
+      "player_expression": null,
+      "event_description": "The reveal of Yurgir adds a secondary threat to the upcoming battle.",
+      "phase_kind": "cutscene",
+      "significance": "notable",
+      "segment_label": "raphael_confrontation"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 180.0,
+      "absolute_timestamp": "3:00",
+      "relative_timestamp": "3:00",
+      "visual_observation": "Dialogue options appear on screen for the player to respond to Raphael.",
+      "audio_observation": "Raphael delivers a monologue about order and decorum in his house.",
+      "player_expression": null,
+      "event_description": "The player reaches a choice point in the dialogue with Raphael.",
+      "phase_kind": "dialogue",
+      "significance": "notable",
+      "segment_label": "raphael_confrontation"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 299.0,
+      "absolute_timestamp": "4:59",
+      "relative_timestamp": "0:59",
+      "visual_observation": "Dialogue choice menu appearing over the player character in armor.",
+      "audio_observation": "No player audio",
+      "player_expression": null,
+      "event_description": "The player selects a defiant dialogue option before the fight begins.",
+      "phase_kind": "dialogue",
+      "significance": "notable",
+      "segment_label": "house_of_hope_boss"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 378.0,
+      "absolute_timestamp": "6:18",
+      "relative_timestamp": "2:18",
+      "visual_observation": "Raphael transforms into a large, winged devil in a burst of fire.",
+      "audio_observation": "Loud orchestral music with operatic vocals.",
+      "player_expression": null,
+      "event_description": "Raphael transforms into his true form, signaling the start of the battle.",
+      "phase_kind": "cutscene",
+      "significance": "pivotal",
+      "segment_label": "house_of_hope_boss"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 392.0,
+      "absolute_timestamp": "6:32",
+      "relative_timestamp": "2:32",
+      "visual_observation": "Initiative order shown at the top; the player selects a spell from the hotbar.",
+      "audio_observation": "Musical score continues with lyrics about 'all mortal lives'.",
+      "player_expression": null,
+      "event_description": "Combat begins, and the player begins managing their party's first turns.",
+      "phase_kind": "combat",
+      "significance": "pivotal",
+      "segment_label": "house_of_hope_boss"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 430.0,
+      "absolute_timestamp": "7:10",
+      "relative_timestamp": "3:10",
+      "visual_observation": "Shadowheart casts a spiritual weapon; it targets a Soul Pillar.",
+      "audio_observation": "No player audio",
+      "player_expression": null,
+      "event_description": "The player prioritizes attacking the Soul Pillars to weaken Raphael's defenses.",
+      "phase_kind": "combat",
+      "significance": "notable",
+      "segment_label": "house_of_hope_boss"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 513.0,
+      "absolute_timestamp": "8:33",
+      "relative_timestamp": "0:33",
+      "visual_observation": "The character Aidan uses Divine Smite on a Vengeful Cambion.",
+      "audio_observation": "Sound of heavy metal impact and magical energy.",
+      "player_expression": null,
+      "event_description": "Aidan engages a cambion reinforcement with high-damage melee attacks.",
+      "phase_kind": "boss",
+      "significance": "routine",
+      "segment_label": "raphael_boss_fight"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 545.0,
+      "absolute_timestamp": "9:05",
+      "relative_timestamp": "1:05",
+      "visual_observation": "Shadowheart uses a reaction, Improved Warding Flare, against an incoming attack.",
+      "audio_observation": "Sound of a magical barrier activating.",
+      "player_expression": null,
+      "event_description": "The player manages enemy turns by utilizing character reactions to mitigate damage.",
+      "phase_kind": "boss",
+      "significance": "routine",
+      "segment_label": "raphael_boss_fight"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 570.0,
+      "absolute_timestamp": "9:30",
+      "relative_timestamp": "1:30",
+      "visual_observation": "The player summons an Earth Elemental.",
+      "audio_observation": "Sound of rumbling stone and magical summoning.",
+      "player_expression": null,
+      "event_description": "The player brings in new summons to bolster their field presence.",
+      "phase_kind": "boss",
+      "significance": "notable",
+      "segment_label": "raphael_boss_fight"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 632.0,
+      "absolute_timestamp": "10:32",
+      "relative_timestamp": "2:32",
+      "visual_observation": "Shadowheart casts Mass Healing Word to restore HP to multiple party members.",
+      "audio_observation": "Sound of divine healing magic.",
+      "player_expression": null,
+      "event_description": "The player prioritizes party health as Raphael's damage begins to accumulate.",
+      "phase_kind": "boss",
+      "significance": "routine",
+      "segment_label": "raphael_boss_fight"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 655.0,
+      "absolute_timestamp": "10:55",
+      "relative_timestamp": "2:55",
+      "visual_observation": "The player uses Banishment on a reinforcement enemy.",
+      "audio_observation": "Sound of the banishment spell taking effect.",
+      "player_expression": null,
+      "event_description": "The player attempts to temporarily remove a reinforcement from the fight to reduce incoming pressure.",
+      "phase_kind": "boss",
+      "significance": "notable",
+      "segment_label": "raphael_boss_fight"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 793.0,
+      "absolute_timestamp": "13:13",
+      "relative_timestamp": "1:13",
+      "visual_observation": "The player opens the inventory and spell menu for Shadowheart.",
+      "audio_observation": "Game sound effects of menus opening and closing.",
+      "player_expression": null,
+      "event_description": "The player carefully manages Shadowheart's inventory and spells during the battle.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "raphael_boss_fight"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 823.0,
+      "absolute_timestamp": "13:43",
+      "relative_timestamp": "1:43",
+      "visual_observation": "Karlach uses Reckless Attack and Searing Smite on a Vengeful Cambion.",
+      "audio_observation": "Combat sound effects and character voice lines.",
+      "player_expression": null,
+      "event_description": "Karlach delivers a powerful series of attacks to a reinforcement.",
+      "phase_kind": "boss",
+      "significance": "notable",
+      "segment_label": "raphael_boss_fight"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 851.0,
+      "absolute_timestamp": "14:11",
+      "relative_timestamp": "2:11",
+      "visual_observation": "A summoned Deva uses Worldly Feast on a Soul Pillar, followed by multiple attacks.",
+      "audio_observation": "Sound of the Deva's spells and physical hits.",
+      "player_expression": null,
+      "event_description": "The summoned Deva deals significant damage to a Soul Pillar.",
+      "phase_kind": "boss",
+      "significance": "notable",
+      "segment_label": "raphael_boss_fight"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 914.0,
+      "absolute_timestamp": "15:14",
+      "relative_timestamp": "3:14",
+      "visual_observation": "Shadowheart uses an Elixir of Fire Resistance and then a summoned Dryad attacks a Soul Pillar.",
+      "audio_observation": "Sound of drinking an elixir and the Dryad's attacks.",
+      "player_expression": null,
+      "event_description": "The player continues to manage their party's health and damage output against the pillars.",
+      "phase_kind": "boss",
+      "significance": "routine",
+      "segment_label": "raphael_boss_fight"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 928.0,
+      "absolute_timestamp": "15:28",
+      "relative_timestamp": "3:28",
+      "visual_observation": "Raphael casts Invocation of Eternal Debt, followed by Flames of Avernus.",
+      "audio_observation": "Raphael's dramatic voice line: 'You should never have come here.' and the sound of his powerful spells.",
+      "player_expression": null,
+      "event_description": "Raphael unleashes a devastating area-of-effect attack on the party and their summons.",
+      "phase_kind": "boss",
+      "significance": "pivotal",
+      "segment_label": "raphael_boss_fight"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 961.0,
+      "absolute_timestamp": "16:01",
+      "relative_timestamp": "4:01",
+      "visual_observation": "Yurgir attacks a Vengeful Cambion, then an Earth Elemental delivers a multi-hit attack.",
+      "audio_observation": "Sound of Yurgir's jump and the Earth Elemental's powerful strikes.",
+      "player_expression": null,
+      "event_description": "The player's allies continue to thin out the number of reinforcements.",
+      "phase_kind": "boss",
+      "significance": "notable",
+      "segment_label": "raphael_boss_fight"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1025.0,
+      "absolute_timestamp": "17:05",
+      "relative_timestamp": "1:05",
+      "visual_observation": "Hope casts a powerful glowing blue spell that hits several party members and summons.",
+      "audio_observation": "Hope shouts a spell incantation. No player audio.",
+      "player_expression": null,
+      "event_description": "Hope uses a mass healing spell to restore health to the party and their summons.",
+      "phase_kind": "boss",
+      "significance": "notable",
+      "segment_label": "raphael_boss_fight"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1062.0,
+      "absolute_timestamp": "17:42",
+      "relative_timestamp": "1:42",
+      "visual_observation": "Shadowheart casts 'Danse Macabre', and several ghouls emerge from the ground around a Soul Pillar.",
+      "audio_observation": "Shadowheart shouts 'Impara Morsus!' followed by the sounds of ghouls rising. No player audio.",
+      "player_expression": null,
+      "event_description": "Shadowheart summons a group of ghouls to assist in the fight against the Soul Pillars.",
+      "phase_kind": "boss",
+      "significance": "notable",
+      "segment_label": "raphael_boss_fight"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1082.0,
+      "absolute_timestamp": "18:02",
+      "relative_timestamp": "2:02",
+      "visual_observation": "Karlach uses a series of melee attacks against a Vengeful Cambion.",
+      "audio_observation": "Karlach says 'This is gonna feel good' followed by the sounds of heavy weapon impacts. No player audio.",
+      "player_expression": null,
+      "event_description": "Karlach focuses her physical damage on one of Raphael's reinforcements.",
+      "phase_kind": "boss",
+      "significance": "routine",
+      "segment_label": "raphael_boss_fight"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1125.0,
+      "absolute_timestamp": "18:45",
+      "relative_timestamp": "2:45",
+      "visual_observation": "A Soul Pillar is destroyed in a large green explosion of energy.",
+      "audio_observation": "The sound of a heavy structure crumbling and magical energy dissipating. No player audio.",
+      "player_expression": null,
+      "event_description": "The player successfully destroys another Soul Pillar, weakening Raphael.",
+      "phase_kind": "boss",
+      "significance": "pivotal",
+      "segment_label": "raphael_boss_fight"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1140.0,
+      "absolute_timestamp": "19:00",
+      "relative_timestamp": "3:00",
+      "visual_observation": "Another Soul Pillar is destroyed, leaving only one remaining.",
+      "audio_observation": "Magical explosion and crumbling sounds. No player audio.",
+      "player_expression": null,
+      "event_description": "A second Soul Pillar in this chunk is destroyed, further reducing Raphael's power.",
+      "phase_kind": "boss",
+      "significance": "pivotal",
+      "segment_label": "raphael_boss_fight"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1185.0,
+      "absolute_timestamp": "19:45",
+      "relative_timestamp": "3:45",
+      "visual_observation": "The player's character, Astarion, uses Eldritch Blast and ranged attacks on Raphael and the final Soul Pillar.",
+      "audio_observation": "Magical blasts and the sounds of arrows hitting stone and flesh. No player audio.",
+      "player_expression": null,
+      "event_description": "Astarion targets Raphael and the final Soul Pillar with ranged attacks as the fight enters its final stages.",
+      "phase_kind": "boss",
+      "significance": "routine",
+      "segment_label": "raphael_boss_fight"
+    }
+  ],
+  "thread_records": [
+    {
+      "source_chunk_index": 0,
+      "thread_name": "Raphael Boss Fight",
+      "evidence": "The cinematic confrontation is directly leading into an encounter with Raphael and his allies.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 0,
+      "thread_name": "Hope's Fate",
+      "evidence": "Raphael threatens Hope directly during the dialogue, suggesting her survival is at stake.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 1,
+      "thread_name": "Raphael Boss Fight",
+      "evidence": "The battle has just begun with multiple enemies and pillars active.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 1,
+      "thread_name": "Soul Pillar Destruction",
+      "evidence": "The player is actively targeting the pillars but most are still standing.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 2,
+      "thread_name": "Raphael Boss Fight",
+      "evidence": "Raphael and several of his minions remain active on the battlefield.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 2,
+      "thread_name": "Soul Pillar Destruction",
+      "evidence": "At least one Soul Pillar is still standing at the end of the chunk.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 3,
+      "thread_name": "Raphael Boss Fight",
+      "evidence": "Raphael is still alive and the battle is ongoing.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 3,
+      "thread_name": "Soul Pillar Destruction",
+      "evidence": "One or more Soul Pillars likely still remain active.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 4,
+      "thread_name": "Raphael Boss Fight",
+      "evidence": "Raphael is still active and the final Soul Pillar is being targeted.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 4,
+      "thread_name": "Soul Pillar Destruction",
+      "evidence": "One Soul Pillar remains at the end of the segment.",
+      "current_status": "active"
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_index": 0,
+      "start_seconds": 0.0,
+      "end_seconds": 300.0,
+      "result": {
+        "chunk_summary": "The player prepares for a final confrontation in the House of Hope by casting multiple high-level defensive and support spells. Upon entering the main chamber, a cutscene triggers where Raphael confronts the party, leading to a dramatic dialogue sequence involving Hope and the demon Yurgir.",
+        "player_objective": "To confront Raphael in the House of Hope and likely engage in a boss battle.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player party is gathered at the top of a staircase in a grand, ornate interior.",
+            "audio_observation": "Ambient game music and sound effects of spells being prepared.",
+            "player_expression": null,
+            "event_description": "The player begins a lengthy sequence of pre-combat buffing, casting spells like Aid and Heroes' Feast.",
+            "phase_kind": "other",
+            "significance": "routine",
+            "segment_label": "house_of_hope_foyer"
+          },
+          {
+            "relative_timestamp": "1:00",
+            "visual_observation": "The character Alden approaches a large, ornate set of iron doors.",
+            "audio_observation": "Alden says, 'Here we go.'",
+            "player_expression": null,
+            "event_description": "The player opens the doors to the main hall, signaling the transition to the boss encounter.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "house_of_hope_foyer"
+          },
+          {
+            "relative_timestamp": "1:54",
+            "visual_observation": "A cinematic cutscene begins as the party enters the center of the hall.",
+            "audio_observation": "Narrator describes the air becoming thicker as Raphael approaches.",
+            "player_expression": null,
+            "event_description": "Raphael appears in a flash of light, initiating the final confrontation cutscene.",
+            "phase_kind": "cutscene",
+            "significance": "pivotal",
+            "segment_label": "raphael_confrontation"
+          },
+          {
+            "relative_timestamp": "2:14",
+            "visual_observation": "A massive, red-skinned demon, Yurgir, steps out behind Raphael.",
+            "audio_observation": "Heavy thuds of Yurgir's footsteps and dramatic music swell.",
+            "player_expression": null,
+            "event_description": "The reveal of Yurgir adds a secondary threat to the upcoming battle.",
+            "phase_kind": "cutscene",
+            "significance": "notable",
+            "segment_label": "raphael_confrontation"
+          },
+          {
+            "relative_timestamp": "3:00",
+            "visual_observation": "Dialogue options appear on screen for the player to respond to Raphael.",
+            "audio_observation": "Raphael delivers a monologue about order and decorum in his house.",
+            "player_expression": null,
+            "event_description": "The player reaches a choice point in the dialogue with Raphael.",
+            "phase_kind": "dialogue",
+            "significance": "notable",
+            "segment_label": "raphael_confrontation"
+          },
+          {
+            "relative_timestamp": "4:39",
+            "visual_observation": "Hope speaks up against Raphael, looking defiant.",
+            "audio_observation": "Hope shouts, 'This isn't a rebellion... I'm revolting!'",
+            "player_expression": null,
+            "event_description": "Hope's outburst marks the final escalation of the scene before combat likely begins.",
+            "phase_kind": "cutscene",
+            "significance": "notable",
+            "segment_label": "raphael_confrontation"
+          }
+        ],
+        "emotional_trajectory": "The segment starts with a calculated, tense preparation phase. As the player moves through the doors, the tension peaks with the arrival of the antagonist, shifting into a dramatic and high-stakes cinematic confrontation.",
+        "pacing_breakdown": "Preparation and buffing take up approximately 35% of the time, movement and exploration 5%, and the cutscene/dialogue sequence the remaining 60%.",
+        "carryover_threads": [
+          {
+            "thread_name": "Raphael Boss Fight",
+            "evidence": "The cinematic confrontation is directly leading into an encounter with Raphael and his allies.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Hope's Fate",
+            "evidence": "Raphael threatens Hope directly during the dialogue, suggesting her survival is at stake.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 1,
+      "start_seconds": 240.0,
+      "end_seconds": 540.0,
+      "result": {
+        "chunk_summary": "The dialogue sequence with Raphael concludes with his transformation into a devil form, initiating a large-scale boss battle in the House of Hope. The player begins the combat phase by targeting the Soul Pillars and focusing damage on Raphael's cambion reinforcements.",
+        "player_objective": "To defeat Raphael and his minions in the House of Hope boss fight.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "Raphael speaking in a cinematic close-up.",
+            "audio_observation": "Raphael's voice acting, dramatic music.",
+            "player_expression": null,
+            "event_description": "Raphael continues his villainous monologue, threatening the player and Hope.",
+            "phase_kind": "dialogue",
+            "significance": "routine",
+            "segment_label": "house_of_hope_boss"
+          },
+          {
+            "relative_timestamp": "0:59",
+            "visual_observation": "Dialogue choice menu appearing over the player character in armor.",
+            "audio_observation": "No player audio",
+            "player_expression": null,
+            "event_description": "The player selects a defiant dialogue option before the fight begins.",
+            "phase_kind": "dialogue",
+            "significance": "notable",
+            "segment_label": "house_of_hope_boss"
+          },
+          {
+            "relative_timestamp": "2:18",
+            "visual_observation": "Raphael transforms into a large, winged devil in a burst of fire.",
+            "audio_observation": "Loud orchestral music with operatic vocals.",
+            "player_expression": null,
+            "event_description": "Raphael transforms into his true form, signaling the start of the battle.",
+            "phase_kind": "cutscene",
+            "significance": "pivotal",
+            "segment_label": "house_of_hope_boss"
+          },
+          {
+            "relative_timestamp": "2:32",
+            "visual_observation": "Initiative order shown at the top; the player selects a spell from the hotbar.",
+            "audio_observation": "Musical score continues with lyrics about 'all mortal lives'.",
+            "player_expression": null,
+            "event_description": "Combat begins, and the player begins managing their party's first turns.",
+            "phase_kind": "combat",
+            "significance": "pivotal",
+            "segment_label": "house_of_hope_boss"
+          },
+          {
+            "relative_timestamp": "3:10",
+            "visual_observation": "Shadowheart casts a spiritual weapon; it targets a Soul Pillar.",
+            "audio_observation": "No player audio",
+            "player_expression": null,
+            "event_description": "The player prioritizes attacking the Soul Pillars to weaken Raphael's defenses.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "house_of_hope_boss"
+          },
+          {
+            "relative_timestamp": "4:47",
+            "visual_observation": "Player opens the character inventory menu for Aidan.",
+            "audio_observation": "No player audio",
+            "player_expression": null,
+            "event_description": "The player checks items and buffs mid-combat.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "house_of_hope_boss"
+          }
+        ],
+        "emotional_trajectory": "The segment builds from cinematic tension during the dialogue to a high-energy, focused state as the complex boss battle commences. The dramatic shift in music and visual spectacle of Raphael's transformation raises the stakes for the player.",
+        "pacing_breakdown": "The chunk is distributed as 50% dialogue/cutscene, 45% tactical combat, and 5% menu management.",
+        "carryover_threads": [
+          {
+            "thread_name": "Raphael Boss Fight",
+            "evidence": "The battle has just begun with multiple enemies and pillars active.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Soul Pillar Destruction",
+            "evidence": "The player is actively targeting the pillars but most are still standing.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 2,
+      "start_seconds": 480.0,
+      "end_seconds": 780.0,
+      "result": {
+        "chunk_summary": "The battle against Raphael continues with the player focusing on destroying the remaining Soul Pillars and managing the large number of reinforcements. The player utilizes various summons and defensive spells to maintain control of the battlefield while enduring significant damage from Raphael's attacks.",
+        "player_objective": "To destroy the remaining Soul Pillars and defeat Raphael's reinforcements while keeping the party alive.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player targets a Soul Pillar with an Air Elemental's Gushing Air attack.",
+            "audio_observation": "The boss battle music continues with operatic vocals.",
+            "player_expression": null,
+            "event_description": "The player begins the chunk by continuing to focus damage on the Soul Pillars to weaken Raphael.",
+            "phase_kind": "boss",
+            "significance": "routine",
+            "segment_label": "raphael_boss_fight"
+          },
+          {
+            "relative_timestamp": "0:33",
+            "visual_observation": "The character Aidan uses Divine Smite on a Vengeful Cambion.",
+            "audio_observation": "Sound of heavy metal impact and magical energy.",
+            "player_expression": null,
+            "event_description": "Aidan engages a cambion reinforcement with high-damage melee attacks.",
+            "phase_kind": "boss",
+            "significance": "routine",
+            "segment_label": "raphael_boss_fight"
+          },
+          {
+            "relative_timestamp": "1:05",
+            "visual_observation": "Shadowheart uses a reaction, Improved Warding Flare, against an incoming attack.",
+            "audio_observation": "Sound of a magical barrier activating.",
+            "player_expression": null,
+            "event_description": "The player manages enemy turns by utilizing character reactions to mitigate damage.",
+            "phase_kind": "boss",
+            "significance": "routine",
+            "segment_label": "raphael_boss_fight"
+          },
+          {
+            "relative_timestamp": "1:30",
+            "visual_observation": "The player summons an Earth Elemental.",
+            "audio_observation": "Sound of rumbling stone and magical summoning.",
+            "player_expression": null,
+            "event_description": "The player brings in new summons to bolster their field presence.",
+            "phase_kind": "boss",
+            "significance": "notable",
+            "segment_label": "raphael_boss_fight"
+          },
+          {
+            "relative_timestamp": "2:32",
+            "visual_observation": "Shadowheart casts Mass Healing Word to restore HP to multiple party members.",
+            "audio_observation": "Sound of divine healing magic.",
+            "player_expression": null,
+            "event_description": "The player prioritizes party health as Raphael's damage begins to accumulate.",
+            "phase_kind": "boss",
+            "significance": "routine",
+            "segment_label": "raphael_boss_fight"
+          },
+          {
+            "relative_timestamp": "2:55",
+            "visual_observation": "The player uses Banishment on a reinforcement enemy.",
+            "audio_observation": "Sound of the banishment spell taking effect.",
+            "player_expression": null,
+            "event_description": "The player attempts to temporarily remove a reinforcement from the fight to reduce incoming pressure.",
+            "phase_kind": "boss",
+            "significance": "notable",
+            "segment_label": "raphael_boss_fight"
+          }
+        ],
+        "emotional_trajectory": "The segment maintains a high-stress, tactical focus. There is a sense of urgency as the player balances offensive actions against the Soul Pillars with the need for constant healing and crowd control as more reinforcements join the fray.",
+        "pacing_breakdown": "The segment is entirely dedicated to the complex boss battle (100%), with brief pauses for spell selection and tactical movement.",
+        "carryover_threads": [
+          {
+            "thread_name": "Raphael Boss Fight",
+            "evidence": "Raphael and several of his minions remain active on the battlefield.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Soul Pillar Destruction",
+            "evidence": "At least one Soul Pillar is still standing at the end of the chunk.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 3,
+      "start_seconds": 720.0,
+      "end_seconds": 1020.0,
+      "result": {
+        "chunk_summary": "The player continues the intense battle against Raphael, focusing on destroying the remaining Soul Pillars and managing his reinforcements. They utilize a mix of powerful spells and physical attacks from their party and summons to maintain control.",
+        "player_objective": "To destroy the Soul Pillars and defeat Raphael and his minions.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player is in the midst of the Raphael boss fight, with multiple party members and summons positioned around the chamber.",
+            "audio_observation": "The dramatic boss fight music is playing.",
+            "player_expression": null,
+            "event_description": "The player's party and summons take their turns, focusing on damaging the Soul Pillars and Raphael's cambion reinforcements.",
+            "phase_kind": "boss",
+            "significance": "routine",
+            "segment_label": "raphael_boss_fight"
+          },
+          {
+            "relative_timestamp": "1:13",
+            "visual_observation": "The player opens the inventory and spell menu for Shadowheart.",
+            "audio_observation": "Game sound effects of menus opening and closing.",
+            "player_expression": null,
+            "event_description": "The player carefully manages Shadowheart's inventory and spells during the battle.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "raphael_boss_fight"
+          },
+          {
+            "relative_timestamp": "1:43",
+            "visual_observation": "Karlach uses Reckless Attack and Searing Smite on a Vengeful Cambion.",
+            "audio_observation": "Combat sound effects and character voice lines.",
+            "player_expression": null,
+            "event_description": "Karlach delivers a powerful series of attacks to a reinforcement.",
+            "phase_kind": "boss",
+            "significance": "notable",
+            "segment_label": "raphael_boss_fight"
+          },
+          {
+            "relative_timestamp": "2:11",
+            "visual_observation": "A summoned Deva uses Worldly Feast on a Soul Pillar, followed by multiple attacks.",
+            "audio_observation": "Sound of the Deva's spells and physical hits.",
+            "player_expression": null,
+            "event_description": "The summoned Deva deals significant damage to a Soul Pillar.",
+            "phase_kind": "boss",
+            "significance": "notable",
+            "segment_label": "raphael_boss_fight"
+          },
+          {
+            "relative_timestamp": "3:14",
+            "visual_observation": "Shadowheart uses an Elixir of Fire Resistance and then a summoned Dryad attacks a Soul Pillar.",
+            "audio_observation": "Sound of drinking an elixir and the Dryad's attacks.",
+            "player_expression": null,
+            "event_description": "The player continues to manage their party's health and damage output against the pillars.",
+            "phase_kind": "boss",
+            "significance": "routine",
+            "segment_label": "raphael_boss_fight"
+          },
+          {
+            "relative_timestamp": "3:28",
+            "visual_observation": "Raphael casts Invocation of Eternal Debt, followed by Flames of Avernus.",
+            "audio_observation": "Raphael's dramatic voice line: 'You should never have come here.' and the sound of his powerful spells.",
+            "player_expression": null,
+            "event_description": "Raphael unleashes a devastating area-of-effect attack on the party and their summons.",
+            "phase_kind": "boss",
+            "significance": "pivotal",
+            "segment_label": "raphael_boss_fight"
+          },
+          {
+            "relative_timestamp": "4:01",
+            "visual_observation": "Yurgir attacks a Vengeful Cambion, then an Earth Elemental delivers a multi-hit attack.",
+            "audio_observation": "Sound of Yurgir's jump and the Earth Elemental's powerful strikes.",
+            "player_expression": null,
+            "event_description": "The player's allies continue to thin out the number of reinforcements.",
+            "phase_kind": "boss",
+            "significance": "notable",
+            "segment_label": "raphael_boss_fight"
+          }
+        ],
+        "emotional_trajectory": "The segment maintains a high level of tactical focus and tension. The player is deeply engaged in the complex mechanics of the boss fight, with moments of increased stress as Raphael unleashes his most powerful attacks. There's a sense of calculated progress as they chip away at the Soul Pillars and reinforcements.",
+        "pacing_breakdown": "The segment is dominated by intense boss combat (95%), with a small portion dedicated to inventory and spell management in menus (5%).",
+        "carryover_threads": [
+          {
+            "thread_name": "Raphael Boss Fight",
+            "evidence": "Raphael is still alive and the battle is ongoing.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Soul Pillar Destruction",
+            "evidence": "One or more Soul Pillars likely still remain active.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 4,
+      "start_seconds": 960.0,
+      "end_seconds": 1200.0,
+      "result": {
+        "chunk_summary": "The player continues the intense boss fight against Raphael in the House of Hope. They focus on destroying the final Soul Pillars while managing reinforcements and keeping the party healed, eventually taking down several cambions and damaging Raphael himself.",
+        "player_objective": "To destroy the remaining Soul Pillars and defeat Raphael and his minions.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The Earth Elemental summon is attacking a Vengeful Cambion. The battlefield is littered with bodies and green soul energy.",
+            "audio_observation": "The operatic boss music continues with intense vocals. No player audio.",
+            "player_expression": null,
+            "event_description": "The Earth Elemental summon attacks a Vengeful Cambion to start the segment.",
+            "phase_kind": "boss",
+            "significance": "routine",
+            "segment_label": "raphael_boss_fight"
+          },
+          {
+            "relative_timestamp": "0:15",
+            "visual_observation": "The player is controlling Hope and has the 'Revoke Guest Status' spell selected, hovering over a cambion.",
+            "audio_observation": "Operatic boss music. No player audio.",
+            "player_expression": null,
+            "event_description": "The player uses Hope's unique ability to banish a cambion reinforcement from the fight.",
+            "phase_kind": "boss",
+            "significance": "notable",
+            "segment_label": "raphael_boss_fight"
+          },
+          {
+            "relative_timestamp": "1:05",
+            "visual_observation": "Hope casts a powerful glowing blue spell that hits several party members and summons.",
+            "audio_observation": "Hope shouts a spell incantation. No player audio.",
+            "player_expression": null,
+            "event_description": "Hope uses a mass healing spell to restore health to the party and their summons.",
+            "phase_kind": "boss",
+            "significance": "notable",
+            "segment_label": "raphael_boss_fight"
+          },
+          {
+            "relative_timestamp": "1:42",
+            "visual_observation": "Shadowheart casts 'Danse Macabre', and several ghouls emerge from the ground around a Soul Pillar.",
+            "audio_observation": "Shadowheart shouts 'Impara Morsus!' followed by the sounds of ghouls rising. No player audio.",
+            "player_expression": null,
+            "event_description": "Shadowheart summons a group of ghouls to assist in the fight against the Soul Pillars.",
+            "phase_kind": "boss",
+            "significance": "notable",
+            "segment_label": "raphael_boss_fight"
+          },
+          {
+            "relative_timestamp": "2:02",
+            "visual_observation": "Karlach uses a series of melee attacks against a Vengeful Cambion.",
+            "audio_observation": "Karlach says 'This is gonna feel good' followed by the sounds of heavy weapon impacts. No player audio.",
+            "player_expression": null,
+            "event_description": "Karlach focuses her physical damage on one of Raphael's reinforcements.",
+            "phase_kind": "boss",
+            "significance": "routine",
+            "segment_label": "raphael_boss_fight"
+          },
+          {
+            "relative_timestamp": "2:45",
+            "visual_observation": "A Soul Pillar is destroyed in a large green explosion of energy.",
+            "audio_observation": "The sound of a heavy structure crumbling and magical energy dissipating. No player audio.",
+            "player_expression": null,
+            "event_description": "The player successfully destroys another Soul Pillar, weakening Raphael.",
+            "phase_kind": "boss",
+            "significance": "pivotal",
+            "segment_label": "raphael_boss_fight"
+          },
+          {
+            "relative_timestamp": "3:00",
+            "visual_observation": "Another Soul Pillar is destroyed, leaving only one remaining.",
+            "audio_observation": "Magical explosion and crumbling sounds. No player audio.",
+            "player_expression": null,
+            "event_description": "A second Soul Pillar in this chunk is destroyed, further reducing Raphael's power.",
+            "phase_kind": "boss",
+            "significance": "pivotal",
+            "segment_label": "raphael_boss_fight"
+          },
+          {
+            "relative_timestamp": "3:45",
+            "visual_observation": "The player's character, Astarion, uses Eldritch Blast and ranged attacks on Raphael and the final Soul Pillar.",
+            "audio_observation": "Magical blasts and the sounds of arrows hitting stone and flesh. No player audio.",
+            "player_expression": null,
+            "event_description": "Astarion targets Raphael and the final Soul Pillar with ranged attacks as the fight enters its final stages.",
+            "phase_kind": "boss",
+            "significance": "routine",
+            "segment_label": "raphael_boss_fight"
+          }
+        ],
+        "emotional_trajectory": "The segment maintains a high-intensity, focused state throughout the boss fight. There are moments of tactical satisfaction as cambions are banished or defeated, and a significant sense of progress and relief as the Soul Pillars are finally destroyed one by one. The complexity of managing multiple summons and party members keeps the engagement high.",
+        "pacing_breakdown": "The entire segment is dedicated to the Raphael boss battle (100%), with tactical pauses for spell and ability selection within the turn-based combat system.",
+        "carryover_threads": [
+          {
+            "thread_name": "Raphael Boss Fight",
+            "evidence": "Raphael is still active and the final Soul Pillar is being targeted.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Soul Pillar Destruction",
+            "evidence": "One Soul Pillar remains at the end of the segment.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "agent_kind": "quality",
+    "source_label": "graphics",
+    "absolute_seconds": 1068.0,
+    "absolute_timestamp": "17:48",
+    "summary": "graphics issue: Camera clipping through overhanging environment assets, Visual obstruction by cave wall geometry during The party is moving through cramped, vertical cave architecture with the auto-follow camera active.",
+    "game_context": "The party is moving through cramped, vertical cave architecture with the auto-follow camera active.",
+    "evidence": [
+      "Camera clipping through overhanging environment assets",
+      "Visual obstruction by cave wall geometry",
+      "None",
+      "Player reaction: Ignored",
+      "Scene: Narrow root bridge and vertical paths in the Morphic Pool."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 4,
+    "segment_label": "party_buffing",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "collision",
+    "absolute_seconds": 1132.0,
+    "absolute_timestamp": "18:52",
+    "summary": "collision issue: Line-of-sight indicator intermittently flashing red/white despite clear visual path during Attempting to target an Intellect Glutton located inside a recessed pool (Caustic Brine) from a higher elevation.",
+    "game_context": "Attempting to target an Intellect Glutton located inside a recessed pool (Caustic Brine) from a higher elevation.",
+    "evidence": [
+      "Line-of-sight indicator intermittently flashing red/white despite clear visual path",
+      "None",
+      "Player reaction: Noticed; player repositioned the character to regain targeting.",
+      "Scene: Combat encounter in the Morphic Pool, aiming at enemies in caustic pits."
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 4,
+    "segment_label": "intellect_devourer_ambush",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "retry",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "video_id": "f0df9fa3bbe0509d848162a83286ec85",
+  "game_title": "Baldur's Gate 3",
+  "game_key": "baldur_s_gate_3",
+  "duration_seconds": 1200.0,
+  "chunk_count": 5,
+  "overall_friction": "minor",
+  "overall_engagement": "clear",
+  "overall_stop_risk": "none",
+  "bug_count": 1,
+  "avg_sentiment": 0.7,
+  "sentiment_by_segment": {
+    "stream_intro": 0.0,
+    "decrepit_village": 0.0,
+    "underdark_navigation": -0.5,
+    "decrepit_village_exploration": 0.33,
+    "inventory_management": 1.4,
+    "campsite": 1.0,
+    "ebonlake_grotto": 2.67,
+    "ebonlake_grotto_trading": 0.0,
+    "alchemy_crafting": 1.0,
+    "ebonlake_grotto_exploration": 1.0
+  },
+  "total_retry_sequences": 2,
+  "first_attempt_failure_count": 2,
+  "notable_quotes": [
+    "Wait, what am I missing?",
+    "I didn't realize he actually aggroed, I thought he didn't know what went on down there.",
+    "No, he always doesn't come down for the fight. He doesn't come down for the fight. I thought he left. But I never knew he stayed up here. I thought he left.",
+    "That's why I like having... being a caster that knows, um, Ray of Frost as a cantrip. Because you can just put all the fire out.",
+    "Oh no, I do not have enough gold on me."
+  ],
+  "session_health_score": 82,
+  "priority_actions": [
+    "Add 'Total Transaction Cost vs. Current Gold' preview to trade menus.",
+    "Improve landing zone snapping and visual feedback for the Jump action on vertical terrain.",
+    "Add 'Out of Reach' status text to tooltips for suspended environmental containers.",
+    "Increase the visual contrast or highlight pulse for small interactable loot in cluttered Underdark environments.",
+    "Fix facial tentacle clipping on Omeluum's character model during dialogue transitions (observed at 16:36)."
+  ],
+  "top_highlight": "3 attempts at ebonlake_grotto_trading, outcome: succeeded"
+}

@@ -1,0 +1,936 @@
+{
+  "video_id": "56823a6dc8475381b75f6376dd9073e3",
+  "game_title": "Baldur's Gate 3",
+  "session_arc": "[0:00-5:00] The player maintains a calm and focused demeanor throughout, transitioning from methodical exploration and looting to a very high level of concentration during the inventory management phase.\n[4:00-9:00] The player remains deeply focused and analytical during the initial inventory phase. There is a sense of anticipation as they leave camp and commit to the journey. The final minutes transition into cinematic immersion as they witness the boat crash and the high-stakes confrontation with the Elder Brain.\n[8:00-13:00] The segment begins with a sense of survival and atmospheric tension, peaking during the high-stakes psychic confrontation with the Elder Brain. After the vision, the player shifts into a state of cautious, methodical exploration and environmental problem-solving.\n[12:00-17:00] The player remains in a state of quiet, focused concentration. There is a sense of methodical exploration and resource gathering, with no visible or audible emotional outbursts. The atmosphere is tense and atmospheric, especially during the final minute when psychic whispers and effects intensify.\n[16:00-20:00] The segment begins with methodical focus during exploration, punctuated by a brief moment of tension during the psychic event. This shifts into a phase of high tactical concentration as the player buffs the party. The final portion is characterized by energetic, decisive action as the combat encounter begins and the player executes their strategy.",
+  "chunk_summaries": [
+    "The player begins by exploring a dock area in the Underdark, gathering loot from crates and skeletons. After reading a book titled 'Evading the Elder Brain' and discovering a waypoint, they travel back to their campsite at the Elfsong Tavern. The rest of the segment is spent in extensive inventory management, redistributing items like potions, scrolls, and equipment among the party members.",
+    "The player concludes an extensive inventory and party management session at the campsite, carefully redistributing high-value items, scrolls, and equipment. They then travel back to the Underdark docks and proceed by boat towards the 'Undercity Ruins,' triggering a dramatic cutscene where their boat is destroyed and they encounter the Elder Brain in a psychic confrontation.",
+    "The player emerges from a shipwreck into the 'Morphie Pool,' where they experience a chilling psychic encounter with the Elder Brain. After the confrontation, they cautiously explore the surrounding area, looting chests and using character abilities like 'Shadow Teleportation' to navigate the treacherous environment.",
+    "The player navigates the treacherous Morphie Pool, utilizing 'Misty Step' and 'Shadow Teleportation' to traverse gaps and bypass environmental hazards. They encounter several 'Intellect Devourers' and continue to loot the area, discovering notes and various magical resources.",
+    "The player continues their cautious exploration of the Morphie Pool, triggered by more psychic whispers from the Elder Brain. After carefully buffing the party with spells like 'Heroes' Feast' and summoning allies, they enter a combat encounter with a large group of Intellect Devourers and Gluttons."
+  ],
+  "objectives": [
+    "Loot the Underdark ruins and manage the party's inventory at the campsite to prepare for future encounters.",
+    "Complete party preparation and inventory management before progressing past the point of no return in the Underdark to reach the Undercity Ruins.",
+    "Explore the Morphie Pool area, loot resources, and navigate past environmental hazards following a psychic confrontation with the Elder Brain.",
+    "Explore the Morphie Pool area, navigate past obstacles, and gather resources while avoiding environmental hazards.",
+    "Navigate the Morphie Pool and engage the hostile Intellect Devourers encountered along the path."
+  ],
+  "active_threads": [
+    "Underdark Point of No Return",
+    "Party Preparation",
+    "Elder Brain Confrontation",
+    "Elder Brain's Influence",
+    "Reaching the Heart of the Ruins",
+    "Morphie Pool Navigation",
+    "Psychic Influence",
+    "Intellect Devourer Combat"
+  ],
+  "events": [
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 0.0,
+      "absolute_timestamp": "0:00",
+      "relative_timestamp": "0:00",
+      "visual_observation": "Player character in a dark, stone environment next to a wooden platform.",
+      "audio_observation": "Ambient environmental sounds, clinking of armor.",
+      "player_expression": null,
+      "event_description": "The player opens the quest journal and inventory to check current status and items.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "underdark_exploration"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 13.0,
+      "absolute_timestamp": "0:13",
+      "relative_timestamp": "0:13",
+      "visual_observation": "The party walks down a wooden ramp toward a dock.",
+      "audio_observation": "Character says, 'Don't waste a step.'",
+      "player_expression": null,
+      "event_description": "The player begins exploring the dock area and looting nearby wooden chests.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "underdark_exploration"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 52.0,
+      "absolute_timestamp": "0:52",
+      "relative_timestamp": "0:52",
+      "visual_observation": "A book on a table is opened, displaying several pages of text.",
+      "audio_observation": "Sound of pages turning.",
+      "player_expression": null,
+      "event_description": "The player reads a lore book called 'Evading the Elder Brain'.",
+      "phase_kind": "exploration",
+      "significance": "notable",
+      "segment_label": "underdark_exploration"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 81.0,
+      "absolute_timestamp": "1:21",
+      "relative_timestamp": "1:21",
+      "visual_observation": "A prompt appears on screen asking if the player wishes to proceed, warning of a point of no return.",
+      "audio_observation": "Character says, 'Here goes nothing.'",
+      "player_expression": null,
+      "event_description": "The player interacts with a skiff and decides not to proceed yet, instead traveling to camp.",
+      "phase_kind": "dialogue",
+      "significance": "pivotal",
+      "segment_label": "underdark_exploration"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 104.0,
+      "absolute_timestamp": "1:44",
+      "relative_timestamp": "1:44",
+      "visual_observation": "The screen fades to black and reloads into a lavish room with red curtains.",
+      "audio_observation": "Transition music and sound effects.",
+      "player_expression": null,
+      "event_description": "The player fast-travels to the Elfsong Tavern campsite.",
+      "phase_kind": "loading",
+      "significance": "notable",
+      "segment_label": "elfsong_tavern_camp"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 118.0,
+      "absolute_timestamp": "1:58",
+      "relative_timestamp": "1:58",
+      "visual_observation": "The character inventory screen is open, showing various party members.",
+      "audio_observation": "Background tavern music and singing.",
+      "player_expression": null,
+      "event_description": "The player begins a long session of inventory management, moving items between characters.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "elfsong_tavern_camp"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 273.0,
+      "absolute_timestamp": "4:33",
+      "relative_timestamp": "0:33",
+      "visual_observation": "The traveler's chest is open, showing a vast array of collected items.",
+      "audio_observation": "Inventory clicking sounds continue.",
+      "player_expression": null,
+      "event_description": "The player begins sorting through their main storage chest, moving specific items into their active inventory.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "camp_inventory_management"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 305.0,
+      "absolute_timestamp": "5:05",
+      "relative_timestamp": "1:05",
+      "visual_observation": "The player is moving multiple spell scrolls into a backpack in their inventory.",
+      "audio_observation": "Rapid mouse clicks and inventory sound effects.",
+      "player_expression": null,
+      "event_description": "A large number of magical scrolls are organized and consolidated into a single container for easier access.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "camp_inventory_management"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 397.0,
+      "absolute_timestamp": "6:37",
+      "relative_timestamp": "2:37",
+      "visual_observation": "The campsite disappears, replaced by the Underdark docks. A prompt warns of a 'point of no return.'",
+      "audio_observation": "Transition audio and environmental sounds from the Underdark.",
+      "player_expression": null,
+      "event_description": "The player travels from camp back to the Underdark and interacts with the boat to proceed to the next major area.",
+      "phase_kind": "exploration",
+      "significance": "pivotal",
+      "segment_label": "underdark_docks"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 436.0,
+      "absolute_timestamp": "7:16",
+      "relative_timestamp": "3:16",
+      "visual_observation": "A loading screen showing a multi-headed serpent-like creature is visible.",
+      "audio_observation": "Loading screen ambient music.",
+      "player_expression": null,
+      "event_description": "The game loads the next area, the Undercity Ruins.",
+      "phase_kind": "loading",
+      "significance": "routine",
+      "segment_label": "undercity_ruins_transition"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 458.0,
+      "absolute_timestamp": "7:38",
+      "relative_timestamp": "3:38",
+      "visual_observation": "The party is seen rowing a boat through a dark, foggy cavern.",
+      "audio_observation": "Rhythmic splashing of oars and a narrator's voice.",
+      "player_expression": null,
+      "event_description": "A cinematic sequence begins showing the party's journey by water into the ruins.",
+      "phase_kind": "cutscene",
+      "significance": "notable",
+      "segment_label": "boat_journey"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 471.0,
+      "absolute_timestamp": "7:51",
+      "relative_timestamp": "3:51",
+      "visual_observation": "A massive purple-glowing stalactite falls from the ceiling, smashing the party's boat.",
+      "audio_observation": "Loud crashing and splintering wood sounds.",
+      "player_expression": null,
+      "event_description": "The boat is destroyed by a falling stalactite, casting the party into the water.",
+      "phase_kind": "cutscene",
+      "significance": "pivotal",
+      "segment_label": "boat_journey"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 515.0,
+      "absolute_timestamp": "8:35",
+      "relative_timestamp": "0:35",
+      "visual_observation": "The player and their party walk through a dark, foggy area; the screen pulses with a purple psychic effect.",
+      "audio_observation": "Deep, resonating voice of the Elder Brain; cinematic, tense music.",
+      "player_expression": null,
+      "event_description": "The party experiences a psychic vision and confrontation with the Elder Brain.",
+      "phase_kind": "cutscene",
+      "significance": "pivotal",
+      "segment_label": "elder_brain_vision"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 565.0,
+      "absolute_timestamp": "9:25",
+      "relative_timestamp": "1:25",
+      "visual_observation": "The player opens a crate and a wooden chest near some stone structures.",
+      "audio_observation": "Looting sounds, the party members commenting on the Elder Brain's presence.",
+      "player_expression": null,
+      "event_description": "The player methodically loots the immediate area around the Morphie Pool entrance.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "morphie_pool"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 610.0,
+      "absolute_timestamp": "10:10",
+      "relative_timestamp": "2:10",
+      "visual_observation": "Floating text labels like 'WAITING,' 'PREPARING,' and 'EVOLVING' appear over characters as they cross a bridge.",
+      "audio_observation": "Eerie, whispered voices echoing the floating text.",
+      "player_expression": null,
+      "event_description": "The party experiences further psychic manifestations while traversing a narrow bridge.",
+      "phase_kind": "exploration",
+      "significance": "notable",
+      "segment_label": "morphie_pool_bridge"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 670.0,
+      "absolute_timestamp": "11:10",
+      "relative_timestamp": "3:10",
+      "visual_observation": "The player selects the 'Find Familiar: Scratch' spell from the action bar and summons the dog.",
+      "audio_observation": "Magical spell sound effect followed by a dog's bark.",
+      "player_expression": null,
+      "event_description": "The player summons Scratch to aid in finding hidden items while exploring.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "morphie_pool"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 720.0,
+      "absolute_timestamp": "12:00",
+      "relative_timestamp": "4:00",
+      "visual_observation": "The player attempts to reach a ledge but is blocked; they use 'Shadow Teleportation' to move a party member across a gap.",
+      "audio_observation": "Character dialogue regarding the difficulty of the path; magical teleportation sound.",
+      "player_expression": null,
+      "event_description": "The player uses magical abilities to overcome environmental navigation challenges.",
+      "phase_kind": "exploration",
+      "significance": "notable",
+      "segment_label": "morphie_pool_navigation"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 763.0,
+      "absolute_timestamp": "12:43",
+      "relative_timestamp": "0:43",
+      "visual_observation": "The character 'Aidan' succeeds on a 'Survival Check' and begins digging up a 'Dirt Mound'.",
+      "audio_observation": "Character dialogue: 'That might be worth a look.' Digging sound effects.",
+      "player_expression": null,
+      "event_description": "The player discovers and loots a buried chest containing gold, potions, and a personal note.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "morphie_pool_exploration"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 789.0,
+      "absolute_timestamp": "13:09",
+      "relative_timestamp": "1:09",
+      "visual_observation": "The player character 'Aidan' uses a 'Jump' action to cross a gap, followed by other party members.",
+      "audio_observation": "Character dialogue: 'Lighter on my feet.' Grunting sound effects from jumping.",
+      "player_expression": null,
+      "event_description": "The party continues navigating the cave by jumping across gaps and exploring ledges.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "morphie_pool_exploration"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 855.0,
+      "absolute_timestamp": "14:15",
+      "relative_timestamp": "2:15",
+      "visual_observation": "The player opens a 'Metal Trunk' and loots several items, including a 'Ledge of Contraband Goods' note.",
+      "audio_observation": "No player audio; paper rustling sound effects.",
+      "player_expression": null,
+      "event_description": "The player loots a campsite area within the cave, gathering gold, arrows, and narrative documents.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "morphie_pool_exploration"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 883.0,
+      "absolute_timestamp": "14:43",
+      "relative_timestamp": "2:43",
+      "visual_observation": "The player discovers several 'Intellect Devourer' corpses and loots them for 'Intellect Devourer Cerebellum'.",
+      "audio_observation": "Atmospheric cave sounds; no player audio.",
+      "player_expression": null,
+      "event_description": "The player gathers alchemy ingredients from the remains of defeated creatures in the cave.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "morphie_pool_exploration"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 932.0,
+      "absolute_timestamp": "15:32",
+      "relative_timestamp": "3:32",
+      "visual_observation": "The player opens the 'Alchemy' menu for character 'Aidan' and extracts ingredients.",
+      "audio_observation": "Menu interaction sound effects; no player audio.",
+      "player_expression": null,
+      "event_description": "The player performs alchemy to convert gathered ingredients into useful potions and elixirs.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "morphie_pool_exploration"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 975.0,
+      "absolute_timestamp": "16:15",
+      "relative_timestamp": "4:15",
+      "visual_observation": "The player party moves through a narrow passage where several 'Intellect Devourers' are visible but inactive.",
+      "audio_observation": "Eerie, echoing psychic whispers; no player audio.",
+      "player_expression": null,
+      "event_description": "The player experiences atmospheric psychic effects ('Dominated', 'Controlled', 'Crowned') while moving deeper into the cave system.",
+      "phase_kind": "exploration",
+      "significance": "pivotal",
+      "segment_label": "morphie_pool_exploration"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1048.0,
+      "absolute_timestamp": "17:28",
+      "relative_timestamp": "1:28",
+      "visual_observation": "Shadowheart casts multiple high-level spells, including 'Heroes' Feast'.",
+      "audio_observation": "Incantations in Latin-esque game language; sound effects for magical buffs.",
+      "player_expression": null,
+      "event_description": "The player prepares for an upcoming challenge by casting long-term buffs and summoning a Dryad and a Deva.",
+      "phase_kind": "exploration",
+      "significance": "notable",
+      "segment_label": "party_buffing"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1098.0,
+      "absolute_timestamp": "18:18",
+      "relative_timestamp": "2:18",
+      "visual_observation": "A 'Commence Battle!' prompt appears as Intellect Devourers are spotted.",
+      "audio_observation": "The Elder Brain's voice booms: 'HUNT. CHASE. DEVOUR.'",
+      "player_expression": null,
+      "event_description": "Combat begins against a group of Intellect Devourers and Gluttons in a pool-filled area.",
+      "phase_kind": "combat",
+      "significance": "pivotal",
+      "segment_label": "intellect_devourer_ambush"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1120.0,
+      "absolute_timestamp": "18:40",
+      "relative_timestamp": "2:40",
+      "visual_observation": "The Deva summon attacks an Intellect Glutton with a mace.",
+      "audio_observation": "Melee impact sounds; spell sound effects.",
+      "player_expression": null,
+      "event_description": "The player uses their summoned Deva to engage the enemies and deal significant radiant damage.",
+      "phase_kind": "combat",
+      "significance": "routine",
+      "segment_label": "intellect_devourer_ambush"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1159.0,
+      "absolute_timestamp": "19:19",
+      "relative_timestamp": "3:19",
+      "visual_observation": "Karlach uses a melee attack to crush an Intellect Devourer.",
+      "audio_observation": "Grunts of exertion; meaty impact sounds.",
+      "player_expression": null,
+      "event_description": "The player uses Karlach's high physical damage to eliminate the smaller enemies in the group.",
+      "phase_kind": "combat",
+      "significance": "routine",
+      "segment_label": "intellect_devourer_ambush"
+    }
+  ],
+  "thread_records": [
+    {
+      "source_chunk_index": 0,
+      "thread_name": "Underdark Point of No Return",
+      "evidence": "The player interacted with the skiff and saw the warning prompt but did not enter yet.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 0,
+      "thread_name": "Party Preparation",
+      "evidence": "Extensive redistribution of potions and scrolls is ongoing.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 1,
+      "thread_name": "Underdark Point of No Return",
+      "evidence": "The player accepted the prompt to proceed to the Undercity Ruins, which locks them out of certain camp actions.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 1,
+      "thread_name": "Elder Brain Confrontation",
+      "evidence": "The segment ends mid-psychic interaction with the Elder Brain.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 2,
+      "thread_name": "Elder Brain's Influence",
+      "evidence": "Floating text and party dialogue indicate the brain is watching and evolving.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 2,
+      "thread_name": "Reaching the Heart of the Ruins",
+      "evidence": "The player is navigating complex terrain to find a way deeper into the Morphie Pool area.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 3,
+      "thread_name": "Morphie Pool Navigation",
+      "evidence": "The player is still moving through the cave system and has not reached a definitive exit or objective.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 3,
+      "thread_name": "Psychic Influence",
+      "evidence": "The player just experienced psychic status effects and heard whispers, suggesting a narrative event is imminent.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 4,
+      "thread_name": "Intellect Devourer Combat",
+      "evidence": "The combat encounter is ongoing as the segment ends, with several enemies still alive.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 4,
+      "thread_name": "Elder Brain's Influence",
+      "evidence": "The psychic whispers continue to trigger as the player progresses deeper into the area.",
+      "current_status": "active"
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_index": 0,
+      "start_seconds": 0.0,
+      "end_seconds": 300.0,
+      "result": {
+        "chunk_summary": "The player begins by exploring a dock area in the Underdark, gathering loot from crates and skeletons. After reading a book titled 'Evading the Elder Brain' and discovering a waypoint, they travel back to their campsite at the Elfsong Tavern. The rest of the segment is spent in extensive inventory management, redistributing items like potions, scrolls, and equipment among the party members.",
+        "player_objective": "Loot the Underdark ruins and manage the party's inventory at the campsite to prepare for future encounters.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "Player character in a dark, stone environment next to a wooden platform.",
+            "audio_observation": "Ambient environmental sounds, clinking of armor.",
+            "player_expression": null,
+            "event_description": "The player opens the quest journal and inventory to check current status and items.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "underdark_exploration"
+          },
+          {
+            "relative_timestamp": "0:13",
+            "visual_observation": "The party walks down a wooden ramp toward a dock.",
+            "audio_observation": "Character says, 'Don't waste a step.'",
+            "player_expression": null,
+            "event_description": "The player begins exploring the dock area and looting nearby wooden chests.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "underdark_exploration"
+          },
+          {
+            "relative_timestamp": "0:52",
+            "visual_observation": "A book on a table is opened, displaying several pages of text.",
+            "audio_observation": "Sound of pages turning.",
+            "player_expression": null,
+            "event_description": "The player reads a lore book called 'Evading the Elder Brain'.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "underdark_exploration"
+          },
+          {
+            "relative_timestamp": "1:21",
+            "visual_observation": "A prompt appears on screen asking if the player wishes to proceed, warning of a point of no return.",
+            "audio_observation": "Character says, 'Here goes nothing.'",
+            "player_expression": null,
+            "event_description": "The player interacts with a skiff and decides not to proceed yet, instead traveling to camp.",
+            "phase_kind": "dialogue",
+            "significance": "pivotal",
+            "segment_label": "underdark_exploration"
+          },
+          {
+            "relative_timestamp": "1:44",
+            "visual_observation": "The screen fades to black and reloads into a lavish room with red curtains.",
+            "audio_observation": "Transition music and sound effects.",
+            "player_expression": null,
+            "event_description": "The player fast-travels to the Elfsong Tavern campsite.",
+            "phase_kind": "loading",
+            "significance": "notable",
+            "segment_label": "elfsong_tavern_camp"
+          },
+          {
+            "relative_timestamp": "1:58",
+            "visual_observation": "The character inventory screen is open, showing various party members.",
+            "audio_observation": "Background tavern music and singing.",
+            "player_expression": null,
+            "event_description": "The player begins a long session of inventory management, moving items between characters.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "elfsong_tavern_camp"
+          },
+          {
+            "relative_timestamp": "4:33",
+            "visual_observation": "The player opens a 'Traveler's Chest' containing a large number of items.",
+            "audio_observation": "Tavern singing continues.",
+            "player_expression": null,
+            "event_description": "The player accesses stored items in the camp chest to further organize their inventory.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "elfsong_tavern_camp"
+          }
+        ],
+        "emotional_trajectory": "The player maintains a calm and focused demeanor throughout, transitioning from methodical exploration and looting to a very high level of concentration during the inventory management phase.",
+        "pacing_breakdown": "The segment is divided between active exploration and looting in the Underdark (about 30%), a brief loading transition (5%), and a significant amount of time dedicated to inventory and party management at the camp (65%).",
+        "carryover_threads": [
+          {
+            "thread_name": "Underdark Point of No Return",
+            "evidence": "The player interacted with the skiff and saw the warning prompt but did not enter yet.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Party Preparation",
+            "evidence": "Extensive redistribution of potions and scrolls is ongoing.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": false
+      }
+    },
+    {
+      "chunk_index": 1,
+      "start_seconds": 240.0,
+      "end_seconds": 540.0,
+      "result": {
+        "chunk_summary": "The player concludes an extensive inventory and party management session at the campsite, carefully redistributing high-value items, scrolls, and equipment. They then travel back to the Underdark docks and proceed by boat towards the 'Undercity Ruins,' triggering a dramatic cutscene where their boat is destroyed and they encounter the Elder Brain in a psychic confrontation.",
+        "player_objective": "Complete party preparation and inventory management before progressing past the point of no return in the Underdark to reach the Undercity Ruins.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player is in the party inventory menu at the Elfsong Tavern campsite.",
+            "audio_observation": "Ambient tavern music and occasional inventory click sounds.",
+            "player_expression": null,
+            "event_description": "The player continues the detailed process of redistributing potions and magical items among party members.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "camp_inventory_management"
+          },
+          {
+            "relative_timestamp": "0:33",
+            "visual_observation": "The traveler's chest is open, showing a vast array of collected items.",
+            "audio_observation": "Inventory clicking sounds continue.",
+            "player_expression": null,
+            "event_description": "The player begins sorting through their main storage chest, moving specific items into their active inventory.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "camp_inventory_management"
+          },
+          {
+            "relative_timestamp": "1:05",
+            "visual_observation": "The player is moving multiple spell scrolls into a backpack in their inventory.",
+            "audio_observation": "Rapid mouse clicks and inventory sound effects.",
+            "player_expression": null,
+            "event_description": "A large number of magical scrolls are organized and consolidated into a single container for easier access.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "camp_inventory_management"
+          },
+          {
+            "relative_timestamp": "2:37",
+            "visual_observation": "The campsite disappears, replaced by the Underdark docks. A prompt warns of a 'point of no return.'",
+            "audio_observation": "Transition audio and environmental sounds from the Underdark.",
+            "player_expression": null,
+            "event_description": "The player travels from camp back to the Underdark and interacts with the boat to proceed to the next major area.",
+            "phase_kind": "exploration",
+            "significance": "pivotal",
+            "segment_label": "underdark_docks"
+          },
+          {
+            "relative_timestamp": "3:16",
+            "visual_observation": "A loading screen showing a multi-headed serpent-like creature is visible.",
+            "audio_observation": "Loading screen ambient music.",
+            "player_expression": null,
+            "event_description": "The game loads the next area, the Undercity Ruins.",
+            "phase_kind": "loading",
+            "significance": "routine",
+            "segment_label": "undercity_ruins_transition"
+          },
+          {
+            "relative_timestamp": "3:38",
+            "visual_observation": "The party is seen rowing a boat through a dark, foggy cavern.",
+            "audio_observation": "Rhythmic splashing of oars and a narrator's voice.",
+            "player_expression": null,
+            "event_description": "A cinematic sequence begins showing the party's journey by water into the ruins.",
+            "phase_kind": "cutscene",
+            "significance": "notable",
+            "segment_label": "boat_journey"
+          },
+          {
+            "relative_timestamp": "3:51",
+            "visual_observation": "A massive purple-glowing stalactite falls from the ceiling, smashing the party's boat.",
+            "audio_observation": "Loud crashing and splintering wood sounds.",
+            "player_expression": null,
+            "event_description": "The boat is destroyed by a falling stalactite, casting the party into the water.",
+            "phase_kind": "cutscene",
+            "significance": "pivotal",
+            "segment_label": "boat_journey"
+          },
+          {
+            "relative_timestamp": "4:34",
+            "visual_observation": "The player character is standing on a dark shore when a massive, pulsating Elder Brain appears.",
+            "audio_observation": "The Elder Brain's voice echoes with a psychic distortion effect.",
+            "player_expression": null,
+            "event_description": "The party reaches the ruins and immediately encounters the Elder Brain, which communicates through a psychic vision.",
+            "phase_kind": "dialogue",
+            "significance": "pivotal",
+            "segment_label": "elder_brain_confrontation"
+          }
+        ],
+        "emotional_trajectory": "The player remains deeply focused and analytical during the initial inventory phase. There is a sense of anticipation as they leave camp and commit to the journey. The final minutes transition into cinematic immersion as they witness the boat crash and the high-stakes confrontation with the Elder Brain.",
+        "pacing_breakdown": "The first 52% of the chunk is dedicated to detailed menu-based inventory management at camp. A brief 13% transition involves traveling and loading, followed by a final 35% that is entirely cinematic cutscenes and narrative-heavy dialogue.",
+        "carryover_threads": [
+          {
+            "thread_name": "Underdark Point of No Return",
+            "evidence": "The player accepted the prompt to proceed to the Undercity Ruins, which locks them out of certain camp actions.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Elder Brain Confrontation",
+            "evidence": "The segment ends mid-psychic interaction with the Elder Brain.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 2,
+      "start_seconds": 480.0,
+      "end_seconds": 780.0,
+      "result": {
+        "chunk_summary": "The player emerges from a shipwreck into the 'Morphie Pool,' where they experience a chilling psychic encounter with the Elder Brain. After the confrontation, they cautiously explore the surrounding area, looting chests and using character abilities like 'Shadow Teleportation' to navigate the treacherous environment.",
+        "player_objective": "Explore the Morphie Pool area, loot resources, and navigate past environmental hazards following a psychic confrontation with the Elder Brain.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player character is seen swimming through dark, murky water and climbing onto a shore.",
+            "audio_observation": "Splashing sounds of water, ambient cave echoes.",
+            "player_expression": null,
+            "event_description": "The player character reaches the shore of the Morphie Pool after the boat crash.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "morphie_pool"
+          },
+          {
+            "relative_timestamp": "0:35",
+            "visual_observation": "The player and their party walk through a dark, foggy area; the screen pulses with a purple psychic effect.",
+            "audio_observation": "Deep, resonating voice of the Elder Brain; cinematic, tense music.",
+            "player_expression": null,
+            "event_description": "The party experiences a psychic vision and confrontation with the Elder Brain.",
+            "phase_kind": "cutscene",
+            "significance": "pivotal",
+            "segment_label": "elder_brain_vision"
+          },
+          {
+            "relative_timestamp": "1:25",
+            "visual_observation": "The player opens a crate and a wooden chest near some stone structures.",
+            "audio_observation": "Looting sounds, the party members commenting on the Elder Brain's presence.",
+            "player_expression": null,
+            "event_description": "The player methodically loots the immediate area around the Morphie Pool entrance.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "morphie_pool"
+          },
+          {
+            "relative_timestamp": "2:10",
+            "visual_observation": "Floating text labels like 'WAITING,' 'PREPARING,' and 'EVOLVING' appear over characters as they cross a bridge.",
+            "audio_observation": "Eerie, whispered voices echoing the floating text.",
+            "player_expression": null,
+            "event_description": "The party experiences further psychic manifestations while traversing a narrow bridge.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "morphie_pool_bridge"
+          },
+          {
+            "relative_timestamp": "3:10",
+            "visual_observation": "The player selects the 'Find Familiar: Scratch' spell from the action bar and summons the dog.",
+            "audio_observation": "Magical spell sound effect followed by a dog's bark.",
+            "player_expression": null,
+            "event_description": "The player summons Scratch to aid in finding hidden items while exploring.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "morphie_pool"
+          },
+          {
+            "relative_timestamp": "4:00",
+            "visual_observation": "The player attempts to reach a ledge but is blocked; they use 'Shadow Teleportation' to move a party member across a gap.",
+            "audio_observation": "Character dialogue regarding the difficulty of the path; magical teleportation sound.",
+            "player_expression": null,
+            "event_description": "The player uses magical abilities to overcome environmental navigation challenges.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "morphie_pool_navigation"
+          },
+          {
+            "relative_timestamp": "4:50",
+            "visual_observation": "A character digs into a 'Dirt Mound' to reveal a buried chest.",
+            "audio_observation": "Digging sounds, followed by the clinking of loot.",
+            "player_expression": null,
+            "event_description": "The player successfully discovers a buried chest after a successful survival check.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "morphie_pool"
+          }
+        ],
+        "emotional_trajectory": "The segment begins with a sense of survival and atmospheric tension, peaking during the high-stakes psychic confrontation with the Elder Brain. After the vision, the player shifts into a state of cautious, methodical exploration and environmental problem-solving.",
+        "pacing_breakdown": "The segment is heavily weighted towards exploration (75%), interspersed with a significant narrative-driven cutscene (15%), and minor menu interactions for spell selection and looting (10%).",
+        "carryover_threads": [
+          {
+            "thread_name": "Elder Brain's Influence",
+            "evidence": "Floating text and party dialogue indicate the brain is watching and evolving.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Reaching the Heart of the Ruins",
+            "evidence": "The player is navigating complex terrain to find a way deeper into the Morphie Pool area.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 3,
+      "start_seconds": 720.0,
+      "end_seconds": 1020.0,
+      "result": {
+        "chunk_summary": "The player navigates the treacherous Morphie Pool, utilizing 'Misty Step' and 'Shadow Teleportation' to traverse gaps and bypass environmental hazards. They encounter several 'Intellect Devourers' and continue to loot the area, discovering notes and various magical resources.",
+        "player_objective": "Explore the Morphie Pool area, navigate past obstacles, and gather resources while avoiding environmental hazards.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player is in a dark cave area labeled 'Morphie Pool'. Character 'Shadowheart' is selected.",
+            "audio_observation": "No player audio; background atmospheric game sounds (water dripping, low hum).",
+            "player_expression": null,
+            "event_description": "The player manages Shadowheart's inventory, moving items such as the 'Stuffed Owlbear Toy' and 'Scroll of Ray of Sickness'.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "morphie_pool_exploration"
+          },
+          {
+            "relative_timestamp": "0:27",
+            "visual_observation": "Character 'Shadowheart' uses the 'Misty Step' spell to teleport across a gap in the cave.",
+            "audio_observation": "Spell-casting sound effects; no player audio.",
+            "player_expression": null,
+            "event_description": "The player uses 'Misty Step' to bypass a broken bridge and reach a new section of the Morphie Pool.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "morphie_pool_exploration"
+          },
+          {
+            "relative_timestamp": "0:43",
+            "visual_observation": "The character 'Aidan' succeeds on a 'Survival Check' and begins digging up a 'Dirt Mound'.",
+            "audio_observation": "Character dialogue: 'That might be worth a look.' Digging sound effects.",
+            "player_expression": null,
+            "event_description": "The player discovers and loots a buried chest containing gold, potions, and a personal note.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "morphie_pool_exploration"
+          },
+          {
+            "relative_timestamp": "1:09",
+            "visual_observation": "The player character 'Aidan' uses a 'Jump' action to cross a gap, followed by other party members.",
+            "audio_observation": "Character dialogue: 'Lighter on my feet.' Grunting sound effects from jumping.",
+            "player_expression": null,
+            "event_description": "The party continues navigating the cave by jumping across gaps and exploring ledges.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "morphie_pool_exploration"
+          },
+          {
+            "relative_timestamp": "2:15",
+            "visual_observation": "The player opens a 'Metal Trunk' and loots several items, including a 'Ledge of Contraband Goods' note.",
+            "audio_observation": "No player audio; paper rustling sound effects.",
+            "player_expression": null,
+            "event_description": "The player loots a campsite area within the cave, gathering gold, arrows, and narrative documents.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "morphie_pool_exploration"
+          },
+          {
+            "relative_timestamp": "2:43",
+            "visual_observation": "The player discovers several 'Intellect Devourer' corpses and loots them for 'Intellect Devourer Cerebellum'.",
+            "audio_observation": "Atmospheric cave sounds; no player audio.",
+            "player_expression": null,
+            "event_description": "The player gathers alchemy ingredients from the remains of defeated creatures in the cave.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "morphie_pool_exploration"
+          },
+          {
+            "relative_timestamp": "3:32",
+            "visual_observation": "The player opens the 'Alchemy' menu for character 'Aidan' and extracts ingredients.",
+            "audio_observation": "Menu interaction sound effects; no player audio.",
+            "player_expression": null,
+            "event_description": "The player performs alchemy to convert gathered ingredients into useful potions and elixirs.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "morphie_pool_exploration"
+          },
+          {
+            "relative_timestamp": "4:15",
+            "visual_observation": "The player party moves through a narrow passage where several 'Intellect Devourers' are visible but inactive.",
+            "audio_observation": "Eerie, echoing psychic whispers; no player audio.",
+            "player_expression": null,
+            "event_description": "The player experiences atmospheric psychic effects ('Dominated', 'Controlled', 'Crowned') while moving deeper into the cave system.",
+            "phase_kind": "exploration",
+            "significance": "pivotal",
+            "segment_label": "morphie_pool_exploration"
+          }
+        ],
+        "emotional_trajectory": "The player remains in a state of quiet, focused concentration. There is a sense of methodical exploration and resource gathering, with no visible or audible emotional outbursts. The atmosphere is tense and atmospheric, especially during the final minute when psychic whispers and effects intensify.",
+        "pacing_breakdown": "The segment is predominantly focused on exploration (80%), including environmental navigation through jumping and teleportation. Small portions are dedicated to menu-based inventory management and alchemy (15%), with the remaining 5% being the onset of a scripted psychic environmental event.",
+        "carryover_threads": [
+          {
+            "thread_name": "Morphie Pool Navigation",
+            "evidence": "The player is still moving through the cave system and has not reached a definitive exit or objective.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Psychic Influence",
+            "evidence": "The player just experienced psychic status effects and heard whispers, suggesting a narrative event is imminent.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": false
+      }
+    },
+    {
+      "chunk_index": 4,
+      "start_seconds": 960.0,
+      "end_seconds": 1200.0,
+      "result": {
+        "chunk_summary": "The player continues their cautious exploration of the Morphie Pool, triggered by more psychic whispers from the Elder Brain. After carefully buffing the party with spells like 'Heroes' Feast' and summoning allies, they enter a combat encounter with a large group of Intellect Devourers and Gluttons.",
+        "player_objective": "Navigate the Morphie Pool and engage the hostile Intellect Devourers encountered along the path.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The party is walking along a dark, organic-looking path in the Underdark.",
+            "audio_observation": "Ambient environmental sounds; quiet character movement.",
+            "player_expression": null,
+            "event_description": "The player methodically explores the area, looting headless corpses and following the path forward.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "morphie_pool_exploration"
+          },
+          {
+            "relative_timestamp": "0:16",
+            "visual_observation": "The screen distorts with psychic energy as the party moves forward.",
+            "audio_observation": "Whispering, layered voices say: 'Dominated... controlled... crowned.'",
+            "player_expression": null,
+            "event_description": "Another psychic event from the Elder Brain triggers as the player reaches a new section of the path.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "elder_brain_influence"
+          },
+          {
+            "relative_timestamp": "1:28",
+            "visual_observation": "Shadowheart casts multiple high-level spells, including 'Heroes' Feast'.",
+            "audio_observation": "Incantations in Latin-esque game language; sound effects for magical buffs.",
+            "player_expression": null,
+            "event_description": "The player prepares for an upcoming challenge by casting long-term buffs and summoning a Dryad and a Deva.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "party_buffing"
+          },
+          {
+            "relative_timestamp": "2:18",
+            "visual_observation": "A 'Commence Battle!' prompt appears as Intellect Devourers are spotted.",
+            "audio_observation": "The Elder Brain's voice booms: 'HUNT. CHASE. DEVOUR.'",
+            "player_expression": null,
+            "event_description": "Combat begins against a group of Intellect Devourers and Gluttons in a pool-filled area.",
+            "phase_kind": "combat",
+            "significance": "pivotal",
+            "segment_label": "intellect_devourer_ambush"
+          },
+          {
+            "relative_timestamp": "2:40",
+            "visual_observation": "The Deva summon attacks an Intellect Glutton with a mace.",
+            "audio_observation": "Melee impact sounds; spell sound effects.",
+            "player_expression": null,
+            "event_description": "The player uses their summoned Deva to engage the enemies and deal significant radiant damage.",
+            "phase_kind": "combat",
+            "significance": "routine",
+            "segment_label": "intellect_devourer_ambush"
+          },
+          {
+            "relative_timestamp": "3:19",
+            "visual_observation": "Karlach uses a melee attack to crush an Intellect Devourer.",
+            "audio_observation": "Grunts of exertion; meaty impact sounds.",
+            "player_expression": null,
+            "event_description": "The player uses Karlach's high physical damage to eliminate the smaller enemies in the group.",
+            "phase_kind": "combat",
+            "significance": "routine",
+            "segment_label": "intellect_devourer_ambush"
+          }
+        ],
+        "emotional_trajectory": "The segment begins with methodical focus during exploration, punctuated by a brief moment of tension during the psychic event. This shifts into a phase of high tactical concentration as the player buffs the party. The final portion is characterized by energetic, decisive action as the combat encounter begins and the player executes their strategy.",
+        "pacing_breakdown": "The first 35% of the segment is exploration and looting. The middle 25% is dedicated to tactical preparation and spellcasting. The final 40% is active turn-based combat.",
+        "carryover_threads": [
+          {
+            "thread_name": "Intellect Devourer Combat",
+            "evidence": "The combat encounter is ongoing as the segment ends, with several enemies still alive.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Elder Brain's Influence",
+            "evidence": "The psychic whispers continue to trigger as the player progresses deeper into the area.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    }
+  ]
+}

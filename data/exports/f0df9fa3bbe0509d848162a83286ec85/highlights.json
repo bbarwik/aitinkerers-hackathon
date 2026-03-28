@@ -1,0 +1,219 @@
+{
+  "video_id": "f0df9fa3bbe0509d848162a83286ec85",
+  "total_moments_analyzed": 83,
+  "highlights": [
+    {
+      "rank": 1,
+      "absolute_timestamp": "17:48",
+      "absolute_seconds": 1068.0,
+      "clip_start_seconds": 1058.0,
+      "clip_end_seconds": 1078.0,
+      "category": "retry_loop",
+      "headline": "3 attempts at ebonlake_grotto_trading, outcome: succeeded",
+      "why_important": "Severity 6/10, confidence 100%",
+      "evidence": [
+        "Attempt 1: failed (Alice expresses surprise and verbally acknowledges her lack of funds: 'Oh no, I do not have enough gold on me.')",
+        "Attempt 2: failed (The player remains calm but focused, realizing they are still short on gold and continues to sift through their inventory for items to sell.)",
+        "Attempt 3: succeeded (Satisfaction as the trade completes, allowing her to move on to crafting.)",
+        "Frustration: stable"
+      ],
+      "importance_score": 17.16,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 2,
+      "absolute_timestamp": "16:11",
+      "absolute_seconds": 971.0,
+      "clip_start_seconds": 961.0,
+      "clip_end_seconds": 981.0,
+      "category": "player_delight",
+      "headline": "This is a high-discovery moment where the player's knowledge of the game's itemization (meta-mastery) meets a rewarding ",
+      "why_important": "Severity 7/10, confidence 95%",
+      "evidence": [
+        "Quickly scanning vendor inventory",
+        "Hovering over the 'Boots of Stormy Clamour' immediately",
+        "Sudden increase in volume",
+        "Genuine surprise in tone",
+        "Scene: Opening the trade menu with Omeluum in the Ebonlake Grotto."
+      ],
+      "importance_score": 10.64,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 3,
+      "absolute_timestamp": "10:41",
+      "absolute_seconds": 641.0,
+      "clip_start_seconds": 631.0,
+      "clip_end_seconds": 651.0,
+      "category": "retry_loop",
+      "headline": "4 attempts at decrepit_village_navigation, outcome: succeeded",
+      "why_important": "Severity 8/10, confidence 50%",
+      "evidence": [
+        "Attempt 1: failed (The player continues a calm, casual conversation with a teammate about their previous rest at camp.)",
+        "Attempt 2: failed (No observable change in posture or tone; conversation remains steady.)",
+        "Attempt 3: failed (Player is unfazed, continuing to recount previous gameplay sessions.)",
+        "Attempt 4: succeeded (Continues with the narrative without acknowledging the navigational difficulty.)",
+        "Frustration: stable"
+      ],
+      "importance_score": 10.4,
+      "corroborating_agents": []
+    },
+    {
+      "rank": 4,
+      "absolute_timestamp": "7:34",
+      "absolute_seconds": 454.0,
+      "clip_start_seconds": 444.0,
+      "clip_end_seconds": 464.0,
+      "category": "player_delight",
+      "headline": "Finding rare loot in a mundane scavenging loop provides a hit of progression dopamine and rewards the player's thoroughn",
+      "why_important": "Severity 5/10, confidence 80%",
+      "evidence": [
+        "Focused menu hovering",
+        "Stat comparison",
+        "Pause in casual chatter",
+        "Scene: Inside the character inventory menu, inspecting the newly acquired 'Drow Studded Leather Armor'."
+      ],
+      "importance_score": 6.4,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 5,
+      "absolute_timestamp": "19:19",
+      "absolute_seconds": 1159.0,
+      "clip_start_seconds": 1149.0,
+      "clip_end_seconds": 1169.0,
+      "category": "player_delight",
+      "headline": "This is a moment of resource mastery. After chunks of meticulous looting, the player experiences the payoff of having a ",
+      "why_important": "Severity 5/10, confidence 80%",
+      "evidence": [
+        "Rapid clicking through crafting recipes",
+        "Systematic creation of multiple Elixirs and Potions",
+        "Focused silence",
+        "Steady rhythmic input sounds",
+        "Scene: The Alchemy interface screen."
+      ],
+      "importance_score": 6.4,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 6,
+      "absolute_timestamp": "19:51",
+      "absolute_seconds": 1191.0,
+      "clip_start_seconds": 1181.0,
+      "clip_end_seconds": 1200.0,
+      "category": "player_feedback",
+      "headline": "I have slain the creature called Glub-a-glub-a-glub...",
+      "why_important": "Severity 4/10, confidence 90%",
+      "evidence": [
+        "Tone: amused",
+        "Category: reaction"
+      ],
+      "importance_score": 5.76,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 7,
+      "absolute_timestamp": "4:54",
+      "absolute_seconds": 294.0,
+      "clip_start_seconds": 284.0,
+      "clip_end_seconds": 304.0,
+      "category": "clarity_failure",
+      "headline": "Clearer visual contrast for small interactable loot items against the cluttered background.",
+      "why_important": "Severity 3/10, confidence 95%",
+      "evidence": [
+        "Rapid camera rotation within a tiny radius",
+        "Repeatedly highlighting the same few empty containers",
+        "Hesitant tone",
+        "Soft muttering",
+        "Scene: Alice is exploring a small ruined shack filled with barrels and purple crystals."
+      ],
+      "importance_score": 5.7,
+      "corroborating_agents": [
+        "friction",
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 8,
+      "absolute_timestamp": "14:18",
+      "absolute_seconds": 858.0,
+      "clip_start_seconds": 848.0,
+      "clip_end_seconds": 868.0,
+      "category": "player_delight",
+      "headline": "The player demonstrates mastery over the 'prep' phase of the game loop, utilizing ritual spells to optimize the party's ",
+      "why_important": "Severity 5/10, confidence 65%",
+      "evidence": [
+        "Rapid menu inputs to select party members",
+        "Successive casting of Longstrider on multiple characters",
+        "Calm, efficient tone",
+        "Rhythmic sound effects of repeated spellcasting",
+        "Scene: At the campsite, Alice is preparing to leave with Wyll and Ziri."
+      ],
+      "importance_score": 5.2,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 9,
+      "absolute_timestamp": "8:18",
+      "absolute_seconds": 498.0,
+      "clip_start_seconds": 488.0,
+      "clip_end_seconds": 508.0,
+      "category": "clarity_failure",
+      "headline": "Indication that the container is 'Too high' or 'Out of reach' before attempting the interaction.",
+      "why_important": "Severity 3/10, confidence 80%",
+      "evidence": [
+        "Hovering the cursor over the container several times",
+        "The UI displays the 'Use' prompt",
+        "Character moves in small circles directly underneath the item",
+        "Abrupt silence from the player while teammates continue talking",
+        "Scene: Alice is standing near a wooden scaffolding, looking up at a 'Rope Netting' container suspended in the air."
+      ],
+      "importance_score": 4.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 10,
+      "absolute_timestamp": "12:11",
+      "absolute_seconds": 731.0,
+      "clip_start_seconds": 721.0,
+      "clip_end_seconds": 741.0,
+      "category": "player_feedback",
+      "headline": "That's why I like having... being a caster that knows, um, Ray of Frost as a cantrip. Because you can just put all the f",
+      "why_important": "Severity 4/10, confidence 75%",
+      "evidence": [
+        "Tone: neutral",
+        "Category: praise",
+        "Actionable: Players highly value spells and cantrips with non-combat environmental utility; consider expanding these types of interactive elements."
+      ],
+      "importance_score": 4.68,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    }
+  ],
+  "one_line_verdict": "3 attempts at ebonlake_grotto_trading, outcome: succeeded"
+}

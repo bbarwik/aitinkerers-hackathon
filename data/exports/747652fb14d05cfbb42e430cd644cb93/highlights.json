@@ -1,0 +1,231 @@
+{
+  "video_id": "747652fb14d05cfbb42e430cd644cb93",
+  "total_moments_analyzed": 92,
+  "highlights": [
+    {
+      "rank": 1,
+      "absolute_timestamp": "8:58",
+      "absolute_seconds": 538.0,
+      "clip_start_seconds": 528.0,
+      "clip_end_seconds": 548.0,
+      "category": "critical_friction",
+      "headline": "A file access error prevents the mod from updating while the game process is active.",
+      "why_important": "Severity 9/10, confidence 100%",
+      "evidence": [
+        "Windows error popup appearing over game UI",
+        "Mod progress bar stalling",
+        "Repetitive clicking on the same mod entry",
+        "Sharp, frustrated intake of breath",
+        "Aggressive keyboard/mouse sounds"
+      ],
+      "importance_score": 23.76,
+      "corroborating_agents": [
+        "clarity",
+        "quality",
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 2,
+      "absolute_timestamp": "9:45",
+      "absolute_seconds": 585.0,
+      "clip_start_seconds": 575.0,
+      "clip_end_seconds": 595.0,
+      "category": "bug",
+      "headline": "other issue: Error pop-up message: 'Failed to join: installed mods do not match the session's mods you're trying to join",
+      "why_important": "Severity 9/10, confidence 100%",
+      "evidence": [
+        "Error pop-up message: 'Failed to join: installed mods do not match the session's mods you're trying to join.'",
+        "None",
+        "Player reaction: Noticed and commented",
+        "Scene: Loading screen after attempting to join a multiplayer lobby.",
+        "Quote: Okay, let's see."
+      ],
+      "importance_score": 21.78,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 3,
+      "absolute_timestamp": "4:28",
+      "absolute_seconds": 268.0,
+      "clip_start_seconds": 258.0,
+      "clip_end_seconds": 278.0,
+      "category": "critical_friction",
+      "headline": "Unexpected server connection timeout/game crash.",
+      "why_important": "Severity 9/10, confidence 95%",
+      "evidence": [
+        "Loading screen interruption",
+        "Server timeout error message",
+        "Abrupt transition to main menu",
+        "Shocked tone",
+        "Disappointed exhale"
+      ],
+      "importance_score": 20.52,
+      "corroborating_agents": [
+        "clarity",
+        "quality",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 4,
+      "absolute_timestamp": "11:40",
+      "absolute_seconds": 700.0,
+      "clip_start_seconds": 690.0,
+      "clip_end_seconds": 710.0,
+      "category": "critical_friction",
+      "headline": "Technical hurdles became too disruptive for the live broadcast.",
+      "why_important": "Severity 9/10, confidence 80%",
+      "evidence": [
+        "Display of 'Be Right Back' text on screen",
+        "Player characters disappearing from view",
+        "Cursor moving off-screen to the streaming software",
+        "Defeated, apologetic tone",
+        "Game music volume lowering"
+      ],
+      "importance_score": 17.28,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 5,
+      "absolute_timestamp": "11:10",
+      "absolute_seconds": 670.0,
+      "clip_start_seconds": 660.0,
+      "clip_end_seconds": 680.0,
+      "category": "critical_friction",
+      "headline": "Unclear logic regarding which mod version (Updated vs. Downgraded) is required for the multiplayer lobby.",
+      "why_important": "Severity 7/10, confidence 95%",
+      "evidence": [
+        "Cycling through Enable/Disable/Update/Downgrade buttons",
+        "Menu spam (rapidly opening and closing the same sub-menu)",
+        "Scrolling through long mod descriptions looking for fix instructions",
+        "Strained, tired voice",
+        "Extended silence while reading"
+      ],
+      "importance_score": 15.96,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 6,
+      "absolute_timestamp": "19:43",
+      "absolute_seconds": 1183.0,
+      "clip_start_seconds": 1173.0,
+      "clip_end_seconds": 1193.0,
+      "category": "critical_friction",
+      "headline": "The player is forced to repeat mundane exploration tasks because progress was lost during the earlier technical crashes.",
+      "why_important": "Severity 5/10, confidence 100%",
+      "evidence": [
+        "Opening empty wooden crates",
+        "Retracing steps through the bloody courtyard",
+        "Confused tone",
+        "Resigned sigh",
+        "Scene: Courtyard of Rosymorn Monastery, looting containers previously cleared before the session crashes."
+      ],
+      "importance_score": 13.2,
+      "corroborating_agents": [
+        "clarity",
+        "retry",
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 7,
+      "absolute_timestamp": "8:21",
+      "absolute_seconds": 501.0,
+      "clip_start_seconds": 491.0,
+      "clip_end_seconds": 511.0,
+      "category": "bug",
+      "headline": "ui rendering issue: Version mismatch for 'FaerunColors' and 'Fate Series Archer' mods, Mandatory update progress bar dur",
+      "why_important": "Severity 6/10, confidence 95%",
+      "evidence": [
+        "Version mismatch for 'FaerunColors' and 'Fate Series Archer' mods",
+        "Mandatory update progress bar",
+        "None",
+        "Player reaction: Noticed and commented",
+        "Scene: Mod Verification screen after attempting to rejoin the lobby."
+      ],
+      "importance_score": 12.54,
+      "corroborating_agents": [
+        "clarity",
+        "retry",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 8,
+      "absolute_timestamp": "14:35",
+      "absolute_seconds": 875.0,
+      "clip_start_seconds": 865.0,
+      "clip_end_seconds": 885.0,
+      "category": "critical_friction",
+      "headline": "Ambiguity in which residual files are causing the 'Failed to Join' error from the previous segment.",
+      "why_important": "Severity 5/10, confidence 95%",
+      "evidence": [
+        "Static 'Be Right Back' overlay",
+        "Hesitant tone",
+        "Uncertainty in decision making",
+        "Scene: Locating mod files in the local directory.",
+        "Expression: Not visible (BRB screen active)"
+      ],
+      "importance_score": 11.4,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 9,
+      "absolute_timestamp": "3:13",
+      "absolute_seconds": 193.0,
+      "clip_start_seconds": 183.0,
+      "clip_end_seconds": 203.0,
+      "category": "retry_loop",
+      "headline": "4 attempts at ruin_navigation_jumps, outcome: succeeded",
+      "why_important": "Severity 8/10, confidence 50%",
+      "evidence": [
+        "Attempt 1: failed (Determined; the player is looking for a path down that avoids fall damage.)",
+        "Attempt 2: failed (Slight frustration, muttering 'damn it' as the jump path is blocked by environment geometry.)",
+        "Attempt 3: succeeded (Relief; manages to land a character on the mid-level ledge.)",
+        "Attempt 4: succeeded (Neutral; successfully jumps the rest of the party into the interior room.)",
+        "Frustration: stable"
+      ],
+      "importance_score": 10.4,
+      "corroborating_agents": []
+    },
+    {
+      "rank": 10,
+      "absolute_timestamp": "5:10",
+      "absolute_seconds": 310.0,
+      "clip_start_seconds": 300.0,
+      "clip_end_seconds": 320.0,
+      "category": "player_feedback",
+      "headline": "Does that mean we're gonna have to retrace our steps again? Because we hadn't saved after grabbing that... probably.",
+      "why_important": "Severity 8/10, confidence 75%",
+      "evidence": [
+        "Tone: resigned",
+        "Category: complaint",
+        "Actionable: Automatically trigger a checkpoint save upon the acquisition of unique or quest-critical items to protect player progress from technical failures."
+      ],
+      "importance_score": 9.36,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    }
+  ],
+  "one_line_verdict": "A file access error prevents the mod from updating while the game process is active."
+}

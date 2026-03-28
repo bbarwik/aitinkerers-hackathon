@@ -1,0 +1,191 @@
+[
+  {
+    "agent_kind": "clarity",
+    "source_label": "misleading_affordance",
+    "absolute_seconds": 214.0,
+    "absolute_timestamp": "3:34",
+    "summary": "While the trajectory line turns red, the game lacks a persistent indicator that specific traversal points are race-locked (Gnome/Halfling) for jumping until the player actively targets them.",
+    "game_context": "Jump up the ledge to continue exploration toward the Overgrown Ruins.",
+    "evidence": [
+      "Red jump trajectory line",
+      "Error message text reading 'Too high!'",
+      "Error message text reading 'Path is interrupted!'",
+      "Dismissive narrator laugh",
+      "Resolute tone",
+      "Scene: A high rocky ledge on the Ravaged Beach near the crashed Nautiloid.",
+      "Quote: All right, we couldn't get up there.",
+      "Quote: No, we just needed to grab some boxes from camp."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 0,
+    "segment_label": "ravaged_beach",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "friction",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "other",
+    "absolute_seconds": 493.0,
+    "absolute_timestamp": "8:13",
+    "summary": "The game provides no indicator if an NPC is traveling to camp or has been permanently removed due to a sequence break.",
+    "game_context": "Recruit Wyll to the camp after the Grove gate fight to add him to the 'Pok\u00e9dex' roster.",
+    "evidence": [
+      "Wandering around the camp perimeter",
+      "Repeatedly spinning the camera to look behind tents",
+      "Opening the party selection menu and hovering over empty slots",
+      "Uncertain tone",
+      "Frustrated delivery",
+      "Scene: The campsite during the day where the player character is running around searching for Wyll.",
+      "Quote: I'm not gonna sugarcoat it, this sucks. Not because of our companion collection being incomplete, but because... Will? Will? Where's Will?"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 1,
+    "segment_label": "campsite",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "friction",
+      "quality",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "misleading_affordance",
+    "absolute_seconds": 963.0,
+    "absolute_timestamp": "16:03",
+    "summary": "The game lacks a clear indicator for 'environmental damage potential' before triggering high-risk physics interactions, leading to a mismatch between visual weight and mechanical impact.",
+    "game_context": "The player expected the large environmental statue trap to deal more significant or lethal damage to the clustered enemies below.",
+    "evidence": [
+      "Statue collapses into smaller debris",
+      "Enemies survive the initial impact with varying HP levels",
+      "Character standing on the rafters observing the damage",
+      "Sarcastic tone",
+      "Slightly surprised pitch",
+      "Scene: The Shattered Sanctum inside the Goblin Camp, immediately after the player drops a stone statue on Priestess Gut and her guards.",
+      "Quote: Oh, my bad. I didn't realize the statues here were made of styrofoam."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 3,
+    "segment_label": "shattered_sanctum",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "delight",
+      "friction",
+      "quality",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "poor_feedback",
+    "absolute_seconds": 971.0,
+    "absolute_timestamp": "16:11",
+    "summary": "The game does not clearly communicate the initiative/speed stats of summons before they are cast in a combat zone.",
+    "game_context": "The player intended for the Mage Hand to act quickly to set up or trigger environmental objects.",
+    "evidence": [
+      "Initiative bar showing Mage Hand late in the order",
+      "UI hovering over Mage Hand actions",
+      "Muttered observation",
+      "Scene: Combat initiative sequence in the Shattered Sanctum, focusing on the Mage Hand summon's turn order.",
+      "Quote: Our mage hand was a little slow."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 3,
+    "segment_label": "shattered_sanctum",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "delight",
+      "friction",
+      "quality",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "poor_feedback",
+    "absolute_seconds": 1041.0,
+    "absolute_timestamp": "17:21",
+    "summary": "A more distinct visual highlight on the corpse (VFX) would signal why the voice is speaking at that specific moment.",
+    "game_context": "The player should understand they need to loot or interact with the corpse specifically to address the Illithid tadpole narrative.",
+    "evidence": [
+      "Character standing still",
+      "Dialogue subtitle for narrator voice appears",
+      "High-pitched confusion",
+      "Uncertain prompt",
+      "Scene: Standing over the corpse of Priestess Gut as the narrator's voice prompts the player about a parasite.",
+      "Quote: What?"
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 4,
+    "segment_label": "goblin_camp_assassination",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "other",
+    "absolute_seconds": 1131.0,
+    "absolute_timestamp": "18:51",
+    "summary": "Faction-specific UI markers (like icons for 'Temporary Ally') would clarify why certain 'allies' aren't under the player's direct control.",
+    "game_context": "The game expects the player to understand that 'freed' allies exist in a neutral/volatile faction state rather than a full recruitment state.",
+    "evidence": [
+      "Yellow neutral outlines on spiders",
+      "Spiders attacking traders but not formal party members",
+      "Cursor hovering over neutral spiders",
+      "Analytical tone",
+      "Mild frustration",
+      "Scene: A dark corner of the Sanctum where the player is attempting to manage the giant spiders freed from the pit.",
+      "Quote: But the smaller spider was by all means still a giant spider."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 4,
+    "segment_label": "goblin_camp_assassination",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

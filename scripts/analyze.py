@@ -24,7 +24,6 @@ def build_parser() -> argparse.ArgumentParser:
     analyze.add_argument("--duration-seconds", dest="duration_seconds", type=float, default=None, help="Duration override for YouTube")
     analyze.add_argument("--max-duration", dest="max_duration_seconds", type=float, default=None, help="Max duration to analyze in seconds (default: 3600)")
     analyze.add_argument("--keep-chunks", action="store_true", help="Keep local ffmpeg chunk files after analysis")
-    analyze.add_argument("--parallel", dest="parallel", type=int, default=1, help="Number of videos to process in parallel (default: 1)")
 
     # --- study ---
     study = sub.add_parser("study", help="Run cross-video study for a game")
@@ -56,21 +55,18 @@ async def _run_analyze(args: argparse.Namespace) -> int:
         max_duration_seconds=max_dur,
     )
     repository = Repository(settings.database_path)
-    parallel = max(1, args.parallel)
-    semaphore = asyncio.Semaphore(parallel)
     sources: list[str] = args.sources
     results: dict[str, str] = {}
 
     async def _process_one(source: str) -> None:
-        async with semaphore:
-            logger.info("Starting analysis: %s", source)
-            try:
-                processed = await analyze_and_store(client, repository, source, config)
-                results[source] = f"OK  video_id={processed.video.video_id}"
-                logger.info("Completed: %s → video_id=%s", source, processed.video.video_id)
-            except Exception as exc:
-                results[source] = f"FAILED: {exc}"
-                logger.error("Failed: %s → %s", source, exc)
+        logger.info("Starting analysis: %s", source)
+        try:
+            processed = await analyze_and_store(client, repository, source, config)
+            results[source] = f"OK  video_id={processed.video.video_id}"
+            logger.info("Completed: %s → video_id=%s", source, processed.video.video_id)
+        except Exception as exc:
+            results[source] = f"FAILED: {exc}"
+            logger.error("Failed: %s → %s", source, exc)
 
     try:
         await asyncio.gather(*(_process_one(s) for s in sources))
@@ -127,7 +123,6 @@ async def _main() -> int:
         args.duration_seconds = args.duration_seconds_compat
         args.max_duration_seconds = args.max_duration_seconds_compat
         args.keep_chunks = args.keep_chunks_compat
-        args.parallel = 1
         if not args.game_title:
             print("Error: --game-title is required", file=sys.stderr)
             return 1

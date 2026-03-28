@@ -1,0 +1,79 @@
+[
+  {
+    "agent_kind": "retry",
+    "source_label": "morphie_pool_navigation",
+    "absolute_seconds": 640.0,
+    "absolute_timestamp": "10:40",
+    "summary": "3 attempts at morphie_pool_navigation, outcome: succeeded",
+    "game_context": "Rocky cliffs overlooking the Morphic Pool",
+    "evidence": [
+      "Attempt 1: failed (Methodical; attempts multiple clicks to find a pathing route.)",
+      "Attempt 2: failed (Analytical; observes the 'Not enough space' error message.)",
+      "Attempt 3: succeeded (Neutral focus; immediately proceeds to move other characters once path is found.)",
+      "Frustration: stable"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 2,
+    "segment_label": "morphie_pool_navigation",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": 3,
+    "retry_quit_signal": false,
+    "retry_final_outcome": "succeeded",
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "retry",
+    "source_label": "morphie_pool_jump",
+    "absolute_seconds": 790.0,
+    "absolute_timestamp": "13:10",
+    "summary": "2 attempts at morphie_pool_jump, outcome: succeeded",
+    "game_context": "Narrow ledge path overlooking the Morphic Pool water",
+    "evidence": [
+      "Attempt 1: failed (None; rapid correction.)",
+      "Attempt 2: succeeded (Proceeds with party movement.)",
+      "Frustration: stable"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 3,
+    "segment_label": "morphie_pool_jump",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": 2,
+    "retry_quit_signal": false,
+    "retry_final_outcome": "succeeded",
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "retry",
+    "source_label": "intellect_devourer_ambush",
+    "absolute_seconds": 1121.0,
+    "absolute_timestamp": "18:41",
+    "summary": "3 attempts at intellect_devourer_ambush, outcome: succeeded",
+    "game_context": "Morphic Pool rocky path near green pools",
+    "evidence": [
+      "Attempt 1: failed (Analytical; continues to click around the target area.)",
+      "Attempt 2: failed (Stable; methodical attempts to find sightline.)",
+      "Attempt 3: succeeded (Focused; persistent clicking until path is found.)",
+      "Frustration: stable"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 4,
+    "segment_label": "intellect_devourer_ambush",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "quality",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": 3,
+    "retry_quit_signal": false,
+    "retry_final_outcome": "succeeded",
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

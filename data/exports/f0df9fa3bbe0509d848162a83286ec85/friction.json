@@ -1,0 +1,151 @@
+[
+  {
+    "agent_kind": "friction",
+    "source_label": "other",
+    "absolute_seconds": 277.0,
+    "absolute_timestamp": "4:37",
+    "summary": "The player is distracted by a non-functional stream extension that is failing to integrate with the gameplay session.",
+    "game_context": "Twitch stream extension setup",
+    "evidence": [
+      "Character stands idle",
+      "Slow camera rotation",
+      "Heavy breathing",
+      "Matter-of-fact tone",
+      "Scene: Exploring a ruined interior house in the Decrepit Village.",
+      "Quote: Oh, I need to remember to remove that companion app off of Twitch because it doesn't work with..."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": null,
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "camera",
+    "absolute_seconds": 294.0,
+    "absolute_timestamp": "4:54",
+    "summary": "The visual density and lighting of the ruins make it difficult for the player to confirm they have completely cleared a room of loot.",
+    "game_context": "Searching for hidden or missed interactable objects",
+    "evidence": [
+      "Jerky camera scanning",
+      "Character circling a small area repeatedly",
+      "Confused tone",
+      "Scene: Examining a small corner of a ruined structure near purple crystals.",
+      "Quote: Wait, what am I missing?"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": "underdark_navigation",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "repetition",
+    "absolute_seconds": 400.0,
+    "absolute_timestamp": "6:40",
+    "summary": "The player reaches their maximum carry weight after picking up heavy items like pickaxes and crates, triggering a movement penalty.",
+    "game_context": "Inventory weight capacity mechanic",
+    "evidence": [
+      "Encumbered condition text appears",
+      "Character movement speed immediately slows to a crawl",
+      "Slightly annoyed tone",
+      "Scene: Looting corpses near a campfire on the lower level of the village.",
+      "Quote: That's not good."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": "decrepit_village_exploration",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "repetition",
+    "absolute_seconds": 541.0,
+    "absolute_timestamp": "9:01",
+    "summary": "The accumulation of mundane items like pickaxes and crates continues to trigger movement penalties, forcing the player to spend more time in menus than in the game world.",
+    "game_context": "Carry weight capacity mechanics",
+    "evidence": [
+      "Encumbered status remains visible",
+      "Slow character walk speed",
+      "Frequent menu opening",
+      "Flat, tired tone",
+      "Scene: Inside a ruined house in the Decrepit Village, Alice is searching through sacks and barrels.",
+      "Quote: I'm still encumbered."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 2,
+    "segment_label": "decrepit_village_exploration",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "other",
+    "absolute_seconds": 1068.0,
+    "absolute_timestamp": "17:48",
+    "summary": "The player attempted to purchase a large batch of high-value consumables (Potions of Greater Healing, Elixirs) simultaneously, exceeding her current liquid gold amount.",
+    "game_context": "Trade and Currency Economy",
+    "evidence": [
+      "\"Insufficient Gold\" system error window appearing over the trade menu",
+      "Transaction blocked despite items being selected",
+      "Defeated, sighing tone",
+      "Scene: Trade menu with Derryth Bonecloak after selecting several expensive elixirs and potions.",
+      "Quote: Oh no, I do not have enough gold on me."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 4,
+    "segment_label": "ebonlake_grotto_trading",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "retry",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

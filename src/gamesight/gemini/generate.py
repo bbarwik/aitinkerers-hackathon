@@ -1,4 +1,6 @@
 import asyncio
+import logging
+import re
 from typing import Any, TypeVar
 
 import google.genai as genai
@@ -8,6 +10,8 @@ from pydantic import BaseModel
 from gamesight.config import DEFAULT_MODEL_ID, LLM_RETRY_DELAYS_SECONDS
 from gamesight.gemini.debug import log_interaction
 from gamesight.schemas.video import ChunkInfo
+
+logger = logging.getLogger(__name__)
 
 ModelT = TypeVar("ModelT", bound=BaseModel)
 THINKING_LEVELS: dict[str, types.ThinkingLevel] = {
@@ -91,6 +95,15 @@ def _build_generate_config(
     return types.GenerateContentConfig(**config_kwargs)
 
 
+def _extract_retry_delay(exc: errors.ClientError) -> float | None:
+    """Extract suggested retry delay from a 429 error message."""
+    msg = str(exc)
+    match = re.search(r"retry in ([\d.]+)s", msg, re.IGNORECASE)
+    if match:
+        return float(match.group(1))
+    return None
+
+
 async def _generate_with_retry(
     client: genai.Client,
     *,
@@ -137,6 +150,12 @@ async def _generate_with_retry(
         except errors.ClientError as exc:
             if exc.code == 429:
                 last_error = exc
+                suggested_delay = _extract_retry_delay(exc)
+                if suggested_delay and attempt_index < len(retry_delays):
+                    delay = max(suggested_delay + 5, retry_delays[attempt_index])
+                    logger.warning("Rate limited (429), waiting %.0fs (suggested %.0fs)", delay, suggested_delay)
+                    await asyncio.sleep(delay)
+                    continue
             elif exc.code == 400:
                 raise
             else:
@@ -144,7 +163,9 @@ async def _generate_with_retry(
 
         if attempt_index >= len(retry_delays):
             break
-        await asyncio.sleep(retry_delays[attempt_index])
+        delay = retry_delays[attempt_index]
+        logger.warning("Retrying Gemini call in %ds (attempt %d/%d)", delay, attempt_index + 1, len(retry_delays))
+        await asyncio.sleep(delay)
 
     raise RuntimeError(f"Gemini generation failed after retries: {last_error}")
 

@@ -1,0 +1,952 @@
+{
+  "video_id": "416936c5a558563780ca8b8ca75cf4e3",
+  "game_title": "Baldur's Gate 3",
+  "session_arc": "[0:00-5:00] The segment starts with high energy and creative excitement during the rule-setting and character creation. It shifts into a more analytical and problem-solving tone as the player encounters the limitations of their chosen race and challenge rules, culminating in a humorous satisfaction when they bypass obstacles through unconventional means.\n[4:00-9:00] The player moves from frustration with early-game movement and combat limitations to excitement upon reaching level 3 and unlocking powerful new summons. This high is briefly interrupted by frustration over a potential bug with an NPC, but the segment ends on a high-energy note during a sponsored segment.\n[8:00-13:00] The segment begins with a determined and slightly frustrated tone as the player reloads a save to fix a missed recruitment. This transitions into strategic focus and satisfaction as goals are met. The energy peaks during the confrontation with Kagha and the discovery of the Owlbear, setting up high stakes for the next segment.\n[12:00-17:00] The segment begins with high tension and focus during the challenging Owlbear boss fight, followed by a surge of triumphant joy upon victory and the recruitment of Scratch. This energy remains high but shifts toward a more cunning and strategic tone as the player infiltrates the Goblin Camp and executes their first assassination, ending on a note of calculated success.\n[16:00-20:00] The segment maintains a high level of strategic excitement and dark humor. It begins with the satisfaction of a successful, albeit chaotic, assassination. This shifts into a brief moment of narrative intrigue with the mention of the parasite, followed by more tactical satisfaction during the fight with Minthara. The discovery and recruitment of Halsin provide a high-energy and triumphant conclusion to the segment.",
+  "chunk_summaries": [
+    "The player outlines the rules for a 'pets-only' run of Baldur's Gate 3, mimicking Pok\u00e9mon mechanics by relying solely on summons and pets for damage. After creating a Forest Gnome Ranger character named 'Ash Ketchum', the player navigates the initial Nautiloid ship sequence and begins exploring the beach on Honor Mode settings.",
+    "The player overcomes early progression hurdles by using environmental objects to navigate, and successfully reaches level 3. This allows them to specialize as a Beast Master Ranger, significantly expanding their roster of pets and summons to include more powerful allies like the 'Cheeky Quasit' and various beast companions.",
+    "The player successfully recruits Wyll by reloading an earlier save and ensuring he survives the battle at the Grove's gate. They then navigate various side quests and challenges, including exposing Kagha's alliance with the Shadow Druids, before finally facing off against their first legendary boss: the Owlbear Mother.",
+    "The player successfully defeats the Owlbear Mother and her mate, securing the Owlbear Cub as a potential future ally. After celebrating at camp and unlocking Scratch as a familiar, they infiltrate the Goblin Camp, using strategic environmental kills and animal allies to eliminate Priestess Gut.",
+    "The player continues their infiltration of the Goblin Camp, successfully assassinating Priestess Gut and Minthara with the help of various pets and some strategic, if occasionally chaotic, environmental manipulation. The segment ends with the recruitment of Halsin, who joins the party to finish off the remaining goblin leadership."
+  ],
+  "objectives": [
+    "Complete Baldur's Gate 3 using only pets, summons, and familiars to deal damage while playing on a custom difficulty that mimics Honor Mode.",
+    "Reach level 3 to unlock more powerful summons and pets while navigating the world using limited movement and combat abilities.",
+    "Recruit Wyll, secure powerful gear from Zevlor, and defeat the Owlbear Mother to gain experience and potentially a new pet.",
+    "Defeat the Owlbear Mother, recruit Scratch, and begin the assassination of the Goblin leaders.",
+    "Assassinate the three Goblin Leaders using only pets and summons to deal damage."
+  ],
+  "active_threads": [
+    "Leveling to 3",
+    "The Pok\u00e9dex",
+    "Finding Wyll",
+    "The Iron Flask",
+    "Defeating the Owlbear Mother",
+    "The Owlbear Cub",
+    "Defeating the Goblins",
+    "Eliminating the Goblin Leaders",
+    "The Owlbear Cub's Recruitment",
+    "The Illithid Parasite",
+    "Defeating Dror Ragzlin"
+  ],
+  "events": [
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 0.0,
+      "absolute_timestamp": "0:00",
+      "relative_timestamp": "0:00",
+      "visual_observation": "War Thunder splash screen followed by a montage of Baldur's Gate 3 creatures and companions.",
+      "audio_observation": "Narrator introduces the concept of a 'pets-only' run.",
+      "player_expression": null,
+      "event_description": "The player establishes the challenge rules: only pets/summons can deal damage, and they must fill a 'Pok\u00e9dex' of summons.",
+      "phase_kind": "other",
+      "significance": "pivotal",
+      "segment_label": "intro_and_rules"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 80.0,
+      "absolute_timestamp": "1:20",
+      "relative_timestamp": "1:20",
+      "visual_observation": "Custom difficulty menu showing 'Honor Ruleset' and various adjusted sliders.",
+      "audio_observation": "Narrator explains why they are using custom difficulty instead of a standard Honor Mode save.",
+      "player_expression": null,
+      "event_description": "The player configures a custom high-difficulty setting to mimic Honor Mode's mechanical changes without the single-save restriction.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "difficulty_setup"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 111.0,
+      "absolute_timestamp": "1:51",
+      "relative_timestamp": "1:51",
+      "visual_observation": "Character creation screen showing a small, child-like Forest Gnome Ranger.",
+      "audio_observation": "Narrator explains the choice of race and class for the challenge.",
+      "player_expression": null,
+      "event_description": "The player creates 'Ash Ketchum', a Forest Gnome Ranger, utilizing the 'Speak with Animals' and 'Beast Tamer' traits.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "character_creation"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 157.0,
+      "absolute_timestamp": "2:37",
+      "relative_timestamp": "2:37",
+      "visual_observation": "Cinematic and gameplay of the player extracting the 'Us' intellect devourer on the Nautiloid.",
+      "audio_observation": "Narrator introduces 'Us' as the first 'Pok\u00e9mon' of the run.",
+      "player_expression": null,
+      "event_description": "The player recruits 'Us', an intellect devourer, to bypass the initial inability to summon familiars.",
+      "phase_kind": "dialogue",
+      "significance": "notable",
+      "segment_label": "nautiloid_escape"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 199.0,
+      "absolute_timestamp": "3:19",
+      "relative_timestamp": "3:19",
+      "visual_observation": "Combat on the beach against Intellect Devourers and exploration of the Ravaged Beach.",
+      "audio_observation": "A Pok\u00e9mon-style battle theme plays during a brief combat montage.",
+      "player_expression": null,
+      "event_description": "The player reaches the beach after the crash and attempts to navigate the terrain using a Raven familiar to explore ahead.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "ravaged_beach"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 256.0,
+      "absolute_timestamp": "4:16",
+      "relative_timestamp": "4:16",
+      "visual_observation": "The player character stacks wooden crates to climb a high ledge after being unable to reach it normally.",
+      "audio_observation": "Narrator explains the 'out of the box' solution for the gnome's height disadvantage.",
+      "player_expression": null,
+      "event_description": "The player uses environmental objects to overcome a verticality obstacle that the small gnome character couldn't jump.",
+      "phase_kind": "puzzle",
+      "significance": "notable",
+      "segment_label": "ravaged_beach"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 272.0,
+      "absolute_timestamp": "4:32",
+      "relative_timestamp": "0:32",
+      "visual_observation": "A group of goblins and NPCs are fighting in front of a gate.",
+      "audio_observation": "The player expresses satisfaction at gaining experience by letting allies die in combat.",
+      "player_expression": "None",
+      "event_description": "The player reaches level 3 by observing a combat encounter and letting NPCs take the damage.",
+      "phase_kind": "combat",
+      "significance": "notable",
+      "segment_label": "emerald_grove_gate"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 303.0,
+      "absolute_timestamp": "5:03",
+      "relative_timestamp": "1:03",
+      "visual_observation": "The level-up screen for the Ranger class is shown, selecting Beast Master.",
+      "audio_observation": "The player celebrates reaching level 3 and unlocking real summons.",
+      "player_expression": "None",
+      "event_description": "The player levels up to 3 and selects the Beast Master subclass to unlock powerful companions.",
+      "phase_kind": "menu",
+      "significance": "pivotal",
+      "segment_label": "level_up_ranger"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 313.0,
+      "absolute_timestamp": "5:13",
+      "relative_timestamp": "1:13",
+      "visual_observation": "The player is exploring a basement with a casket.",
+      "audio_observation": "The player describes finding a special summon scroll for a Quasit named Shovel.",
+      "player_expression": "None",
+      "event_description": "The player finds and permanently learns the 'Find Familiar: Cheeky Quasit' spell using a level in Wizard.",
+      "phase_kind": "exploration",
+      "significance": "pivotal",
+      "segment_label": "blighted_village_cellar"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 409.0,
+      "absolute_timestamp": "6:49",
+      "relative_timestamp": "2:49",
+      "visual_observation": "A group of Gnolls are seen on a hillside near a cave entrance.",
+      "audio_observation": "The player discusses the 'Amazing chest ahead' note and the difficulty of the upcoming gnoll fight.",
+      "player_expression": "None",
+      "event_description": "The player uses Illithid powers to manipulate the Gnoll leader into fighting for them and then killing herself.",
+      "phase_kind": "combat",
+      "significance": "notable",
+      "segment_label": "risen_road_cave"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 469.0,
+      "absolute_timestamp": "7:49",
+      "relative_timestamp": "3:49",
+      "visual_observation": "The player loots a decorative iron flask from a chest.",
+      "audio_observation": "The player compares the Iron Flask to a 'Pok\u00e9ball' and decides to save it for later.",
+      "player_expression": "None",
+      "event_description": "The player acquires the Iron Flask, which contains a powerful creature, following the Pok\u00e9mon theme.",
+      "phase_kind": "exploration",
+      "significance": "notable",
+      "segment_label": "risen_road_cave"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 493.0,
+      "absolute_timestamp": "8:13",
+      "relative_timestamp": "4:13",
+      "visual_observation": "The player is running through camp looking for the NPC Wyll.",
+      "audio_observation": "The player expresses frustration as Wyll has disappeared due to a bug or sequence break.",
+      "player_expression": "None",
+      "event_description": "The player realizes Wyll is missing from camp, potentially hindering their 'Pok\u00e9dex' completion.",
+      "phase_kind": "idle",
+      "significance": "notable",
+      "segment_label": "campsite"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 526.0,
+      "absolute_timestamp": "8:46",
+      "relative_timestamp": "0:46",
+      "visual_observation": "The player is in a combat sequence at the entrance to the Druid Grove.",
+      "audio_observation": "The player describes their strategy of using pets as fodder while NPCs do the heavy lifting.",
+      "player_expression": null,
+      "event_description": "The player successfully defends the Druid Grove while keeping Wyll alive.",
+      "phase_kind": "combat",
+      "significance": "notable",
+      "segment_label": "grove_gate_defense"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 540.0,
+      "absolute_timestamp": "9:00",
+      "relative_timestamp": "1:00",
+      "visual_observation": "Wyll is seen standing at the player's campsite.",
+      "audio_observation": "The player expresses satisfaction that Wyll is finally in camp.",
+      "player_expression": null,
+      "event_description": "Wyll is successfully recruited and added to the player's camp.",
+      "phase_kind": "cutscene",
+      "significance": "notable",
+      "segment_label": "recruiting_wyll"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 565.0,
+      "absolute_timestamp": "9:25",
+      "relative_timestamp": "1:25",
+      "visual_observation": "The player's character is exploring a swampy area near a large tree.",
+      "audio_observation": "The player explains their plan to find evidence of Kagha's betrayal.",
+      "player_expression": null,
+      "event_description": "The player finds incriminating evidence against Kagha in a swampy alcove.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "kagha_investigation"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 580.0,
+      "absolute_timestamp": "9:40",
+      "relative_timestamp": "1:40",
+      "visual_observation": "A dialogue screen with Kagha, followed by a combat sequence against Shadow Druids in rat form.",
+      "audio_observation": "The player narrates the confrontation and the beginning of the battle.",
+      "player_expression": null,
+      "event_description": "The player confronts Kagha, revealing the Shadow Druids' plot and triggering a fight.",
+      "phase_kind": "combat",
+      "significance": "pivotal",
+      "segment_label": "kagha_confrontation"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 618.0,
+      "absolute_timestamp": "10:18",
+      "relative_timestamp": "2:18",
+      "visual_observation": "The level-up screen is shown for the player's character.",
+      "audio_observation": "The player discusses their choice of feat at level 4.",
+      "player_expression": null,
+      "event_description": "The player reaches level 4 and selects the 'Magic Initiate: Sorcerer' feat.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "character_progression"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 640.0,
+      "absolute_timestamp": "10:40",
+      "relative_timestamp": "2:40",
+      "visual_observation": "The player enters a cave and encounters an Owlbear and its cub.",
+      "audio_observation": "The player identifies the Owlbear as their first legendary boss encounter.",
+      "player_expression": null,
+      "event_description": "The player enters the Owlbear nest and prepares for a boss fight.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "owlbear_nest"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 855.0,
+      "absolute_timestamp": "14:15",
+      "relative_timestamp": "2:15",
+      "visual_observation": "The player's character is at a campfire, then seen playing with a white dog named Scratch.",
+      "audio_observation": "The player celebrates the victory over the Owlbears and the recruitment of Scratch, accompanied by a humorous 'Charlie' reaction clip.",
+      "player_expression": null,
+      "event_description": "The player rests at camp, celebrating their hard-won victory and officially adding Scratch to their roster of 'Pok\u00e9mon'.",
+      "phase_kind": "dialogue",
+      "significance": "notable",
+      "segment_label": "camp_rest"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 880.0,
+      "absolute_timestamp": "14:40",
+      "relative_timestamp": "2:40",
+      "visual_observation": "The player is in a ruined courtyard area populated by goblins. The Owlbear Cub is seen being chased by goblins.",
+      "audio_observation": "The player describes the 'chicken-chasing' game and their plan to use 'Speak with Animals' to cheat.",
+      "player_expression": null,
+      "event_description": "The player arrives at the Goblin Camp and uses social manipulation and animal communication to win a rigged game, further securing the Owlbear Cub's trust.",
+      "phase_kind": "exploration",
+      "significance": "notable",
+      "segment_label": "goblin_camp_exterior"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 945.0,
+      "absolute_timestamp": "15:45",
+      "relative_timestamp": "3:45",
+      "visual_observation": "The player is inside a large temple-like structure, observing a goblin priestess on a raised platform.",
+      "audio_observation": "The player identifies Priestess Gut as their first target and outlines their plan to use environmental traps and special potions.",
+      "player_expression": null,
+      "event_description": "The player enters the Shattered Sanctum and begins scouting the first of the three goblin leaders.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "shattered_sanctum"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 975.0,
+      "absolute_timestamp": "16:15",
+      "relative_timestamp": "4:15",
+      "visual_observation": "A large statue falls on several goblins. The player's boar and spider summons are actively attacking.",
+      "audio_observation": "The player humorously critiques the effectiveness of the falling statue and the 'slow' response of their Mage Hand.",
+      "player_expression": null,
+      "event_description": "The player initiates combat against Priestess Gut, using a falling statue trap and their team of pets to quickly overwhelm the guards.",
+      "phase_kind": "combat",
+      "significance": "notable",
+      "segment_label": "shattered_sanctum"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1043.0,
+      "absolute_timestamp": "17:23",
+      "relative_timestamp": "1:23",
+      "visual_observation": "The player's character is standing over the body of Priestess Gut as a mysterious voice speaks about an Illithid parasite.",
+      "audio_observation": "The player's commentary expresses a mix of confusion and humor as they encounter the narrator's voice.",
+      "player_expression": "The player has a look of mild surprise and amusement.",
+      "event_description": "Priestess Gut is defeated, and the player is introduced to the concept of Illithid parasites.",
+      "phase_kind": "cutscene",
+      "significance": "pivotal",
+      "segment_label": "goblin_camp_assassination"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1092.0,
+      "absolute_timestamp": "18:12",
+      "relative_timestamp": "2:12",
+      "visual_observation": "A turn-based combat sequence involving the player's pets and several goblins and traders in a dark room.",
+      "audio_observation": "The player narrates the chaotic nature of the fight and the recruitment of the spiders.",
+      "player_expression": "The player looks engaged and is smiling as they describe the 'tag-team wrestling'.",
+      "event_description": "The player uses the giant spiders from the pit to help eliminate goblins and the second leader, Minthara.",
+      "phase_kind": "combat",
+      "significance": "notable",
+      "segment_label": "goblin_camp_assassination"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1152.0,
+      "absolute_timestamp": "19:12",
+      "relative_timestamp": "3:12",
+      "visual_observation": "The player's character is invisible and moving through the temple, with a 'Twelve Seconds Later' title card transition.",
+      "audio_observation": "The player describes the process of resetting and buffing the pets for the final leader fight.",
+      "player_expression": "The player looks determined and focused on the strategy.",
+      "event_description": "The player prepares for the final boss fight against Dror Ragzlin by buffing their pets and positioning them.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "goblin_camp_assassination"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1172.0,
+      "absolute_timestamp": "19:32",
+      "relative_timestamp": "3:32",
+      "visual_observation": "A cutscene shows a large brown bear in a cage being teased by goblin children.",
+      "audio_observation": "The player narrates the discovery of the bear and their decision to free it.",
+      "player_expression": "The player looks amused and curious about the bear.",
+      "event_description": "The player finds and frees Halsin, who is disguised as a bear in the Worg Pens.",
+      "phase_kind": "dialogue",
+      "significance": "pivotal",
+      "segment_label": "worg_pens"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1191.0,
+      "absolute_timestamp": "19:51",
+      "relative_timestamp": "3:51",
+      "visual_observation": "Halsin transforms from a bear back into a tall elf during a cutscene.",
+      "audio_observation": "The player reacts with mock surprise to Halsin's identity.",
+      "player_expression": "The player is grinning and clearly enjoying the narrative beat.",
+      "event_description": "Halsin reveals his true identity and agrees to help the player defeat the remaining goblin leadership.",
+      "phase_kind": "cutscene",
+      "significance": "pivotal",
+      "segment_label": "worg_pens"
+    }
+  ],
+  "thread_records": [
+    {
+      "source_chunk_index": 0,
+      "thread_name": "Leveling to 3",
+      "evidence": "The player mentions they need to hit level 3 to expand their summon options.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 0,
+      "thread_name": "The Pok\u00e9dex",
+      "evidence": "The player is actively looking for new summons and scrolls to add to their roster.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 1,
+      "thread_name": "Finding Wyll",
+      "evidence": "The player notes Wyll is missing from camp after a reload and expressed concern about it.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 1,
+      "thread_name": "The Iron Flask",
+      "evidence": "The player explicitly stated they are saving this 'Pok\u00e9ball' for an emergency.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 2,
+      "thread_name": "Defeating the Owlbear Mother",
+      "evidence": "The segment ends just as the combat with the Owlbear Mother begins.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 2,
+      "thread_name": "The Owlbear Cub",
+      "evidence": "The player specifically mentions needing to rescue 'Albert' (the cub).",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 2,
+      "thread_name": "Defeating the Goblins",
+      "evidence": "The player mentions being ready to take on the goblins once their gear is set.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 3,
+      "thread_name": "Eliminating the Goblin Leaders",
+      "evidence": "Two of the three goblin leaders, Dror Ragzlin and Minthara, are still alive.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 3,
+      "thread_name": "The Owlbear Cub's Recruitment",
+      "evidence": "The player has won the cub but it has not yet arrived at their camp.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 3,
+      "thread_name": "The Illithid Parasite",
+      "evidence": "A mysterious voice prompts the player to examine the parasite on Gut's corpse.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 4,
+      "thread_name": "Defeating Dror Ragzlin",
+      "evidence": "Halsin has just joined the party to help take down the final leader.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 4,
+      "thread_name": "The Illithid Parasite",
+      "evidence": "The mysterious voice mentioned a parasite in Priestess Gut's corpse.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 4,
+      "thread_name": "The Owlbear Cub's Recruitment",
+      "evidence": "The cub has been encountered but has not yet joined the camp.",
+      "current_status": "active"
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_index": 0,
+      "start_seconds": 0.0,
+      "end_seconds": 300.0,
+      "result": {
+        "chunk_summary": "The player outlines the rules for a 'pets-only' run of Baldur's Gate 3, mimicking Pok\u00e9mon mechanics by relying solely on summons and pets for damage. After creating a Forest Gnome Ranger character named 'Ash Ketchum', the player navigates the initial Nautiloid ship sequence and begins exploring the beach on Honor Mode settings.",
+        "player_objective": "Complete Baldur's Gate 3 using only pets, summons, and familiars to deal damage while playing on a custom difficulty that mimics Honor Mode.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "War Thunder splash screen followed by a montage of Baldur's Gate 3 creatures and companions.",
+            "audio_observation": "Narrator introduces the concept of a 'pets-only' run.",
+            "player_expression": null,
+            "event_description": "The player establishes the challenge rules: only pets/summons can deal damage, and they must fill a 'Pok\u00e9dex' of summons.",
+            "phase_kind": "other",
+            "significance": "pivotal",
+            "segment_label": "intro_and_rules"
+          },
+          {
+            "relative_timestamp": "1:20",
+            "visual_observation": "Custom difficulty menu showing 'Honor Ruleset' and various adjusted sliders.",
+            "audio_observation": "Narrator explains why they are using custom difficulty instead of a standard Honor Mode save.",
+            "player_expression": null,
+            "event_description": "The player configures a custom high-difficulty setting to mimic Honor Mode's mechanical changes without the single-save restriction.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "difficulty_setup"
+          },
+          {
+            "relative_timestamp": "1:51",
+            "visual_observation": "Character creation screen showing a small, child-like Forest Gnome Ranger.",
+            "audio_observation": "Narrator explains the choice of race and class for the challenge.",
+            "player_expression": null,
+            "event_description": "The player creates 'Ash Ketchum', a Forest Gnome Ranger, utilizing the 'Speak with Animals' and 'Beast Tamer' traits.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "character_creation"
+          },
+          {
+            "relative_timestamp": "2:37",
+            "visual_observation": "Cinematic and gameplay of the player extracting the 'Us' intellect devourer on the Nautiloid.",
+            "audio_observation": "Narrator introduces 'Us' as the first 'Pok\u00e9mon' of the run.",
+            "player_expression": null,
+            "event_description": "The player recruits 'Us', an intellect devourer, to bypass the initial inability to summon familiars.",
+            "phase_kind": "dialogue",
+            "significance": "notable",
+            "segment_label": "nautiloid_escape"
+          },
+          {
+            "relative_timestamp": "3:19",
+            "visual_observation": "Combat on the beach against Intellect Devourers and exploration of the Ravaged Beach.",
+            "audio_observation": "A Pok\u00e9mon-style battle theme plays during a brief combat montage.",
+            "player_expression": null,
+            "event_description": "The player reaches the beach after the crash and attempts to navigate the terrain using a Raven familiar to explore ahead.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "ravaged_beach"
+          },
+          {
+            "relative_timestamp": "4:16",
+            "visual_observation": "The player character stacks wooden crates to climb a high ledge after being unable to reach it normally.",
+            "audio_observation": "Narrator explains the 'out of the box' solution for the gnome's height disadvantage.",
+            "player_expression": null,
+            "event_description": "The player uses environmental objects to overcome a verticality obstacle that the small gnome character couldn't jump.",
+            "phase_kind": "puzzle",
+            "significance": "notable",
+            "segment_label": "ravaged_beach"
+          },
+          {
+            "relative_timestamp": "4:32",
+            "visual_observation": "Combat at the Emerald Grove gate involving Goblins and Aradin's party.",
+            "audio_observation": "Narrator notes that they are gaining XP by simply watching allies and pets fight.",
+            "player_expression": null,
+            "event_description": "The player reaches the Grove gate and lets the NPCs and pets handle the combat to gain experience.",
+            "phase_kind": "combat",
+            "significance": "routine",
+            "segment_label": "emerald_grove_gate"
+          }
+        ],
+        "emotional_trajectory": "The segment starts with high energy and creative excitement during the rule-setting and character creation. It shifts into a more analytical and problem-solving tone as the player encounters the limitations of their chosen race and challenge rules, culminating in a humorous satisfaction when they bypass obstacles through unconventional means.",
+        "pacing_breakdown": "Approximately 40% of the segment is spent in menus and character creation. 30% is dedicated to introductory explanation and rule-setting. Exploration and environmental puzzle-solving make up 20%, while active combat and cutscenes take up the remaining 10%.",
+        "carryover_threads": [
+          {
+            "thread_name": "Leveling to 3",
+            "evidence": "The player mentions they need to hit level 3 to expand their summon options.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "The Pok\u00e9dex",
+            "evidence": "The player is actively looking for new summons and scrolls to add to their roster.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 1,
+      "start_seconds": 240.0,
+      "end_seconds": 540.0,
+      "result": {
+        "chunk_summary": "The player overcomes early progression hurdles by using environmental objects to navigate, and successfully reaches level 3. This allows them to specialize as a Beast Master Ranger, significantly expanding their roster of pets and summons to include more powerful allies like the 'Cheeky Quasit' and various beast companions.",
+        "player_objective": "Reach level 3 to unlock more powerful summons and pets while navigating the world using limited movement and combat abilities.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player is navigating a cliffside using their Raven familiar to scout.",
+            "audio_observation": "The player explains the limitations of using only pets for exploration, noting they cannot activate waypoints or engage in dialogue.",
+            "player_expression": "None",
+            "event_description": "The player discovers that pets alone cannot progress the story or unlock fast travel points.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "overgrown_ruins"
+          },
+          {
+            "relative_timestamp": "0:25",
+            "visual_observation": "The gnome character is stacking wooden crates at the base of a cliff.",
+            "audio_observation": "The player humorously notes their character is 'vertically challenged' and needs an 'out-of-the-box' solution.",
+            "player_expression": "None",
+            "event_description": "The player uses stacked crates to bypass a vertical traversal obstacle they couldn't jump over.",
+            "phase_kind": "puzzle",
+            "significance": "notable",
+            "segment_label": "overgrown_ruins"
+          },
+          {
+            "relative_timestamp": "0:32",
+            "visual_observation": "A group of goblins and NPCs are fighting in front of a gate.",
+            "audio_observation": "The player expresses satisfaction at gaining experience by letting allies die in combat.",
+            "player_expression": "None",
+            "event_description": "The player reaches level 3 by observing a combat encounter and letting NPCs take the damage.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "emerald_grove_gate"
+          },
+          {
+            "relative_timestamp": "1:03",
+            "visual_observation": "The level-up screen for the Ranger class is shown, selecting Beast Master.",
+            "audio_observation": "The player celebrates reaching level 3 and unlocking real summons.",
+            "player_expression": "None",
+            "event_description": "The player levels up to 3 and selects the Beast Master subclass to unlock powerful companions.",
+            "phase_kind": "menu",
+            "significance": "pivotal",
+            "segment_label": "level_up_ranger"
+          },
+          {
+            "relative_timestamp": "1:13",
+            "visual_observation": "The player is exploring a basement with a casket.",
+            "audio_observation": "The player describes finding a special summon scroll for a Quasit named Shovel.",
+            "player_expression": "None",
+            "event_description": "The player finds and permanently learns the 'Find Familiar: Cheeky Quasit' spell using a level in Wizard.",
+            "phase_kind": "exploration",
+            "significance": "pivotal",
+            "segment_label": "blighted_village_cellar"
+          },
+          {
+            "relative_timestamp": "2:49",
+            "visual_observation": "A group of Gnolls are seen on a hillside near a cave entrance.",
+            "audio_observation": "The player discusses the 'Amazing chest ahead' note and the difficulty of the upcoming gnoll fight.",
+            "player_expression": "None",
+            "event_description": "The player uses Illithid powers to manipulate the Gnoll leader into fighting for them and then killing herself.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "risen_road_cave"
+          },
+          {
+            "relative_timestamp": "3:49",
+            "visual_observation": "The player loots a decorative iron flask from a chest.",
+            "audio_observation": "The player compares the Iron Flask to a 'Pok\u00e9ball' and decides to save it for later.",
+            "player_expression": "None",
+            "event_description": "The player acquires the Iron Flask, which contains a powerful creature, following the Pok\u00e9mon theme.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "risen_road_cave"
+          },
+          {
+            "relative_timestamp": "4:13",
+            "visual_observation": "The player is running through camp looking for the NPC Wyll.",
+            "audio_observation": "The player expresses frustration as Wyll has disappeared due to a bug or sequence break.",
+            "player_expression": "None",
+            "event_description": "The player realizes Wyll is missing from camp, potentially hindering their 'Pok\u00e9dex' completion.",
+            "phase_kind": "idle",
+            "significance": "notable",
+            "segment_label": "campsite"
+          }
+        ],
+        "emotional_trajectory": "The player moves from frustration with early-game movement and combat limitations to excitement upon reaching level 3 and unlocking powerful new summons. This high is briefly interrupted by frustration over a potential bug with an NPC, but the segment ends on a high-energy note during a sponsored segment.",
+        "pacing_breakdown": "The segment is evenly split, with approximately 30% exploration, 25% combat (including strategic manipulation), 20% menu/leveling management, 15% dedicated to a sponsored advertisement, and 10% environmental puzzle-solving.",
+        "carryover_threads": [
+          {
+            "thread_name": "Finding Wyll",
+            "evidence": "The player notes Wyll is missing from camp after a reload and expressed concern about it.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "The Iron Flask",
+            "evidence": "The player explicitly stated they are saving this 'Pok\u00e9ball' for an emergency.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 2,
+      "start_seconds": 480.0,
+      "end_seconds": 780.0,
+      "result": {
+        "chunk_summary": "The player successfully recruits Wyll by reloading an earlier save and ensuring he survives the battle at the Grove's gate. They then navigate various side quests and challenges, including exposing Kagha's alliance with the Shadow Druids, before finally facing off against their first legendary boss: the Owlbear Mother.",
+        "player_objective": "Recruit Wyll, secure powerful gear from Zevlor, and defeat the Owlbear Mother to gain experience and potentially a new pet.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player is shown various menus and then reloads an earlier save file.",
+            "audio_observation": "The player explains the need to reload a save to successfully recruit Wyll.",
+            "player_expression": null,
+            "event_description": "The player reloads an earlier save to fix a bug and ensure Wyll is recruited.",
+            "phase_kind": "menu",
+            "significance": "pivotal",
+            "segment_label": "recruiting_wyll"
+          },
+          {
+            "relative_timestamp": "0:46",
+            "visual_observation": "The player is in a combat sequence at the entrance to the Druid Grove.",
+            "audio_observation": "The player describes their strategy of using pets as fodder while NPCs do the heavy lifting.",
+            "player_expression": null,
+            "event_description": "The player successfully defends the Druid Grove while keeping Wyll alive.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "grove_gate_defense"
+          },
+          {
+            "relative_timestamp": "1:00",
+            "visual_observation": "Wyll is seen standing at the player's campsite.",
+            "audio_observation": "The player expresses satisfaction that Wyll is finally in camp.",
+            "player_expression": null,
+            "event_description": "Wyll is successfully recruited and added to the player's camp.",
+            "phase_kind": "cutscene",
+            "significance": "notable",
+            "segment_label": "recruiting_wyll"
+          },
+          {
+            "relative_timestamp": "1:25",
+            "visual_observation": "The player's character is exploring a swampy area near a large tree.",
+            "audio_observation": "The player explains their plan to find evidence of Kagha's betrayal.",
+            "player_expression": null,
+            "event_description": "The player finds incriminating evidence against Kagha in a swampy alcove.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "kagha_investigation"
+          },
+          {
+            "relative_timestamp": "1:40",
+            "visual_observation": "A dialogue screen with Kagha, followed by a combat sequence against Shadow Druids in rat form.",
+            "audio_observation": "The player narrates the confrontation and the beginning of the battle.",
+            "player_expression": null,
+            "event_description": "The player confronts Kagha, revealing the Shadow Druids' plot and triggering a fight.",
+            "phase_kind": "combat",
+            "significance": "pivotal",
+            "segment_label": "kagha_confrontation"
+          },
+          {
+            "relative_timestamp": "2:18",
+            "visual_observation": "The level-up screen is shown for the player's character.",
+            "audio_observation": "The player discusses their choice of feat at level 4.",
+            "player_expression": null,
+            "event_description": "The player reaches level 4 and selects the 'Magic Initiate: Sorcerer' feat.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "character_progression"
+          },
+          {
+            "relative_timestamp": "2:40",
+            "visual_observation": "The player enters a cave and encounters an Owlbear and its cub.",
+            "audio_observation": "The player identifies the Owlbear as their first legendary boss encounter.",
+            "player_expression": null,
+            "event_description": "The player enters the Owlbear nest and prepares for a boss fight.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "owlbear_nest"
+          }
+        ],
+        "emotional_trajectory": "The segment begins with a determined and slightly frustrated tone as the player reloads a save to fix a missed recruitment. This transitions into strategic focus and satisfaction as goals are met. The energy peaks during the confrontation with Kagha and the discovery of the Owlbear, setting up high stakes for the next segment.",
+        "pacing_breakdown": "The segment is balanced across various activities: combat (35%), exploration and side-questing (30%), menus and leveling (20%), and dialogue/cutscenes (15%). The pace feels steady as the player systematically ticks off objectives.",
+        "carryover_threads": [
+          {
+            "thread_name": "Defeating the Owlbear Mother",
+            "evidence": "The segment ends just as the combat with the Owlbear Mother begins.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "The Owlbear Cub",
+            "evidence": "The player specifically mentions needing to rescue 'Albert' (the cub).",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Defeating the Goblins",
+            "evidence": "The player mentions being ready to take on the goblins once their gear is set.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 3,
+      "start_seconds": 720.0,
+      "end_seconds": 1020.0,
+      "result": {
+        "chunk_summary": "The player successfully defeats the Owlbear Mother and her mate, securing the Owlbear Cub as a potential future ally. After celebrating at camp and unlocking Scratch as a familiar, they infiltrate the Goblin Camp, using strategic environmental kills and animal allies to eliminate Priestess Gut.",
+        "player_objective": "Defeat the Owlbear Mother, recruit Scratch, and begin the assassination of the Goblin leaders.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player is in a cave, facing off against two large Owlbears. Several summons and two NPC cultists are present.",
+            "audio_observation": "The player narratively explains the 'Legendary Action: Call Consort' mechanic and their strategy of using cultists as fodder.",
+            "player_expression": null,
+            "event_description": "The player engages in a high-stakes combat encounter against two Owlbears, carefully managing their pets' health and positioning.",
+            "phase_kind": "boss",
+            "significance": "pivotal",
+            "segment_label": "owlbear_cave"
+          },
+          {
+            "relative_timestamp": "2:15",
+            "visual_observation": "The player's character is at a campfire, then seen playing with a white dog named Scratch.",
+            "audio_observation": "The player celebrates the victory over the Owlbears and the recruitment of Scratch, accompanied by a humorous 'Charlie' reaction clip.",
+            "player_expression": null,
+            "event_description": "The player rests at camp, celebrating their hard-won victory and officially adding Scratch to their roster of 'Pok\u00e9mon'.",
+            "phase_kind": "dialogue",
+            "significance": "notable",
+            "segment_label": "camp_rest"
+          },
+          {
+            "relative_timestamp": "2:40",
+            "visual_observation": "The player is in a ruined courtyard area populated by goblins. The Owlbear Cub is seen being chased by goblins.",
+            "audio_observation": "The player describes the 'chicken-chasing' game and their plan to use 'Speak with Animals' to cheat.",
+            "player_expression": null,
+            "event_description": "The player arrives at the Goblin Camp and uses social manipulation and animal communication to win a rigged game, further securing the Owlbear Cub's trust.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "goblin_camp_exterior"
+          },
+          {
+            "relative_timestamp": "3:45",
+            "visual_observation": "The player is inside a large temple-like structure, observing a goblin priestess on a raised platform.",
+            "audio_observation": "The player identifies Priestess Gut as their first target and outlines their plan to use environmental traps and special potions.",
+            "player_expression": null,
+            "event_description": "The player enters the Shattered Sanctum and begins scouting the first of the three goblin leaders.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "shattered_sanctum"
+          },
+          {
+            "relative_timestamp": "4:15",
+            "visual_observation": "A large statue falls on several goblins. The player's boar and spider summons are actively attacking.",
+            "audio_observation": "The player humorously critiques the effectiveness of the falling statue and the 'slow' response of their Mage Hand.",
+            "player_expression": null,
+            "event_description": "The player initiates combat against Priestess Gut, using a falling statue trap and their team of pets to quickly overwhelm the guards.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "shattered_sanctum"
+          },
+          {
+            "relative_timestamp": "4:55",
+            "visual_observation": "The spider summon delivers a final blow to Priestess Gut. A journal update pops up: 'Defeat the Goblins'.",
+            "audio_observation": "The player confirms the kill and notes the mysterious voice mentioning an 'illithid parasite'.",
+            "player_expression": null,
+            "event_description": "The player successfully defeats Priestess Gut, completing the first major step in dismantling the Goblin leadership.",
+            "phase_kind": "combat",
+            "significance": "pivotal",
+            "segment_label": "shattered_sanctum"
+          }
+        ],
+        "emotional_trajectory": "The segment begins with high tension and focus during the challenging Owlbear boss fight, followed by a surge of triumphant joy upon victory and the recruitment of Scratch. This energy remains high but shifts toward a more cunning and strategic tone as the player infiltrates the Goblin Camp and executes their first assassination, ending on a note of calculated success.",
+        "pacing_breakdown": "The segment is heavily weighted toward action and progression, with approximately 45% spent in active combat (Owlbear fight and Priestess Gut assassination), 30% in exploration and social manipulation at the Goblin Camp, 15% in narrative-driven camp sequences, and 10% in menu-based preparation and leveling adjustments.",
+        "carryover_threads": [
+          {
+            "thread_name": "Eliminating the Goblin Leaders",
+            "evidence": "Two of the three goblin leaders, Dror Ragzlin and Minthara, are still alive.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "The Owlbear Cub's Recruitment",
+            "evidence": "The player has won the cub but it has not yet arrived at their camp.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "The Illithid Parasite",
+            "evidence": "A mysterious voice prompts the player to examine the parasite on Gut's corpse.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 4,
+      "start_seconds": 960.0,
+      "end_seconds": 1200.0,
+      "result": {
+        "chunk_summary": "The player continues their infiltration of the Goblin Camp, successfully assassinating Priestess Gut and Minthara with the help of various pets and some strategic, if occasionally chaotic, environmental manipulation. The segment ends with the recruitment of Halsin, who joins the party to finish off the remaining goblin leadership.",
+        "player_objective": "Assassinate the three Goblin Leaders using only pets and summons to deal damage.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player's character, Ash Ketchum, is in a turn-based combat sequence in a large temple area with several goblins and pets.",
+            "audio_observation": "The player comments on the fragility of the statues and the slow movement of the Mage Hand.",
+            "player_expression": "The player looks focused, with a slight smirk as they describe the 'styrofoam' statues.",
+            "event_description": "The player restarts a combat encounter after a suboptimal first turn involving a falling statue.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "goblin_camp_assassination"
+          },
+          {
+            "relative_timestamp": "1:23",
+            "visual_observation": "The player's character is standing over the body of Priestess Gut as a mysterious voice speaks about an Illithid parasite.",
+            "audio_observation": "The player's commentary expresses a mix of confusion and humor as they encounter the narrator's voice.",
+            "player_expression": "The player has a look of mild surprise and amusement.",
+            "event_description": "Priestess Gut is defeated, and the player is introduced to the concept of Illithid parasites.",
+            "phase_kind": "cutscene",
+            "significance": "pivotal",
+            "segment_label": "goblin_camp_assassination"
+          },
+          {
+            "relative_timestamp": "2:12",
+            "visual_observation": "A turn-based combat sequence involving the player's pets and several goblins and traders in a dark room.",
+            "audio_observation": "The player narrates the chaotic nature of the fight and the recruitment of the spiders.",
+            "player_expression": "The player looks engaged and is smiling as they describe the 'tag-team wrestling'.",
+            "event_description": "The player uses the giant spiders from the pit to help eliminate goblins and the second leader, Minthara.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "goblin_camp_assassination"
+          },
+          {
+            "relative_timestamp": "3:12",
+            "visual_observation": "The player's character is invisible and moving through the temple, with a 'Twelve Seconds Later' title card transition.",
+            "audio_observation": "The player describes the process of resetting and buffing the pets for the final leader fight.",
+            "player_expression": "The player looks determined and focused on the strategy.",
+            "event_description": "The player prepares for the final boss fight against Dror Ragzlin by buffing their pets and positioning them.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "goblin_camp_assassination"
+          },
+          {
+            "relative_timestamp": "3:32",
+            "visual_observation": "A cutscene shows a large brown bear in a cage being teased by goblin children.",
+            "audio_observation": "The player narrates the discovery of the bear and their decision to free it.",
+            "player_expression": "The player looks amused and curious about the bear.",
+            "event_description": "The player finds and frees Halsin, who is disguised as a bear in the Worg Pens.",
+            "phase_kind": "dialogue",
+            "significance": "pivotal",
+            "segment_label": "worg_pens"
+          },
+          {
+            "relative_timestamp": "3:51",
+            "visual_observation": "Halsin transforms from a bear back into a tall elf during a cutscene.",
+            "audio_observation": "The player reacts with mock surprise to Halsin's identity.",
+            "player_expression": "The player is grinning and clearly enjoying the narrative beat.",
+            "event_description": "Halsin reveals his true identity and agrees to help the player defeat the remaining goblin leadership.",
+            "phase_kind": "cutscene",
+            "significance": "pivotal",
+            "segment_label": "worg_pens"
+          }
+        ],
+        "emotional_trajectory": "The segment maintains a high level of strategic excitement and dark humor. It begins with the satisfaction of a successful, albeit chaotic, assassination. This shifts into a brief moment of narrative intrigue with the mention of the parasite, followed by more tactical satisfaction during the fight with Minthara. The discovery and recruitment of Halsin provide a high-energy and triumphant conclusion to the segment.",
+        "pacing_breakdown": "The segment is dominated by active gameplay, with approximately 50% spent in combat. Cutscenes and dialogue make up about 25%, providing narrative context and character recruitment. The remaining 25% is spent in exploration and tactical preparation, including a brief transition card to skip repetitive actions.",
+        "carryover_threads": [
+          {
+            "thread_name": "Defeating Dror Ragzlin",
+            "evidence": "Halsin has just joined the party to help take down the final leader.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "The Illithid Parasite",
+            "evidence": "The mysterious voice mentioned a parasite in Priestess Gut's corpse.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "The Owlbear Cub's Recruitment",
+            "evidence": "The cub has been encountered but has not yet joined the camp.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    }
+  ]
+}

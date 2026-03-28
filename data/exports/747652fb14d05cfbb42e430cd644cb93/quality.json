@@ -1,0 +1,136 @@
+[
+  {
+    "agent_kind": "quality",
+    "source_label": "performance",
+    "absolute_seconds": 268.0,
+    "absolute_timestamp": "4:28",
+    "summary": "performance issue: Sudden transition to loading screen, Error message pop-up: 'The connection to the server has timed out.', Return to the main menu. during The player was moving the party across a bridge area in the monastery immediately after a quest update.",
+    "game_context": "The player was moving the party across a bridge area in the monastery immediately after a quest update.",
+    "evidence": [
+      "Sudden transition to loading screen",
+      "Error message pop-up: 'The connection to the server has timed out.'",
+      "Return to the main menu.",
+      "None",
+      "Player reaction: Noticed and commented",
+      "Scene: Exploring the upper reaches of Rosymorn Monastery after looting the Dawnmaster's Crest.",
+      "Quote: Oh, what?",
+      "Quote: What happened?",
+      "Quote: I got kicked.",
+      "Quote: I crashed.",
+      "Quote: Ah, that would do it, yeah."
+    ],
+    "severity_numeric": 9,
+    "source_chunk_index": 0,
+    "segment_label": "game_crash",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "ui_rendering",
+    "absolute_seconds": 501.0,
+    "absolute_timestamp": "8:21",
+    "summary": "ui rendering issue: Version mismatch for 'FaerunColors' and 'Fate Series Archer' mods, Mandatory update progress bar during Re-synchronizing game state and mods to rejoin a multiplayer session.",
+    "game_context": "Re-synchronizing game state and mods to rejoin a multiplayer session.",
+    "evidence": [
+      "Version mismatch for 'FaerunColors' and 'Fate Series Archer' mods",
+      "Mandatory update progress bar",
+      "None",
+      "Player reaction: Noticed and commented",
+      "Scene: Mod Verification screen after attempting to rejoin the lobby.",
+      "Quote: Fucking dammit. Fate does take a little bit to get itself sorted."
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 1,
+    "segment_label": "mod_management",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "retry",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "other",
+    "absolute_seconds": 538.0,
+    "absolute_timestamp": "8:58",
+    "summary": "other issue: A Windows OS 'busy' cursor appears, System error dialogue box pops up over the game UI during Attempting to run an 'Update' on an installed mod while the game is running.",
+    "game_context": "Attempting to run an 'Update' on an installed mod while the game is running.",
+    "evidence": [
+      "A Windows OS 'busy' cursor appears",
+      "System error dialogue box pops up over the game UI",
+      "Windows system error sound (ding)",
+      "Player reaction: Noticed and commented",
+      "Scene: In-game Mod Manager updating 'Fate Series Archer' mod.",
+      "Quote: Fucking dammit.",
+      "Quote: The process cannot access the file because it is being used by another process.",
+      "Quote: Oh please say it's not doing this shit again."
+    ],
+    "severity_numeric": 9,
+    "source_chunk_index": 2,
+    "segment_label": "mod_manager",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "other",
+    "absolute_seconds": 585.0,
+    "absolute_timestamp": "9:45",
+    "summary": "other issue: Error pop-up message: 'Failed to join: installed mods do not match the session's mods you're trying to join.' during Joining a multiplayer session where mod versions are out of sync.",
+    "game_context": "Joining a multiplayer session where mod versions are out of sync.",
+    "evidence": [
+      "Error pop-up message: 'Failed to join: installed mods do not match the session's mods you're trying to join.'",
+      "None",
+      "Player reaction: Noticed and commented",
+      "Scene: Loading screen after attempting to join a multiplayer lobby.",
+      "Quote: Okay, let's see.",
+      "Quote: Failed to join... installed mods do not match the session's mods.",
+      "Quote: I'm gonna go back to my files."
+    ],
+    "severity_numeric": 9,
+    "source_chunk_index": 2,
+    "segment_label": "session_join",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

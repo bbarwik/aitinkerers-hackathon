@@ -1,0 +1,224 @@
+{
+  "video_id": "4fb0cf59c4345425b4825f841d04ff6f",
+  "total_moments_analyzed": 71,
+  "highlights": [
+    {
+      "rank": 1,
+      "absolute_timestamp": "4:11",
+      "absolute_seconds": 251.0,
+      "clip_start_seconds": 241.0,
+      "clip_end_seconds": 261.0,
+      "category": "player_feedback",
+      "headline": "Here we go! First fight!",
+      "why_important": "Severity 8/10, confidence 90%",
+      "evidence": [
+        "Tone: excited",
+        "Category: reaction"
+      ],
+      "importance_score": 11.52,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 2,
+      "absolute_timestamp": "0:00",
+      "absolute_seconds": 0.0,
+      "clip_start_seconds": 0.0,
+      "clip_end_seconds": 10.0,
+      "category": "player_delight",
+      "headline": "The depth of the customization allows for a strong sense of ownership over the character before the game even begins.",
+      "why_important": "Severity 7/10, confidence 80%",
+      "evidence": [
+        "Minute adjustments to facial sliders",
+        "Hovering over different class icons to read descriptions",
+        "Focused silence",
+        "Discussion of aesthetic preferences",
+        "Scene: Character creation menu featuring detailed sliders for facial features and class selection."
+      ],
+      "importance_score": 8.96,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 3,
+      "absolute_timestamp": "13:45",
+      "absolute_seconds": 825.0,
+      "clip_start_seconds": 815.0,
+      "clip_end_seconds": 835.0,
+      "category": "player_delight",
+      "headline": "The narrow margin of victory creates a strong sense of relief and validates the player's combat skills.",
+      "why_important": "Severity 7/10, confidence 80%",
+      "evidence": [
+        "Taking hands off the controller to rub eyes",
+        "Deep exhale",
+        "Loud, audible exhale",
+        "Relieved vocal tone",
+        "Scene: The aftermath of the guardian fight where the enemy dissolves and the player's health is low."
+      ],
+      "importance_score": 8.96,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 4,
+      "absolute_timestamp": "11:10",
+      "absolute_seconds": 670.0,
+      "clip_start_seconds": 660.0,
+      "clip_end_seconds": 680.0,
+      "category": "player_delight",
+      "headline": "The clear visual language of the pressure plates creates an immediate 'mental hook,' inviting the player to experiment w",
+      "why_important": "Severity 5/10, confidence 100%",
+      "evidence": [
+        "Rotating the camera to view the statue and plates",
+        "Slowing movement to inspect the floor",
+        "Head tilt",
+        "Slightly amused sigh",
+        "Thoughtful hum"
+      ],
+      "importance_score": 8.8,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 5,
+      "absolute_timestamp": "7:10",
+      "absolute_seconds": 430.0,
+      "clip_start_seconds": 420.0,
+      "clip_end_seconds": 440.0,
+      "category": "player_delight",
+      "headline": "The shift from dark, claustrophobic stone to bright, organic greenery provides a strong sense of progress and aesthetic ",
+      "why_important": "Severity 7/10, confidence 65%",
+      "evidence": [
+        "Slowing movement to look at the environment",
+        "Scanning the ceiling grates and vegetation",
+        "Silence while listening to ambient birdsong",
+        "Scene: The transition point between the dark dungeon and the sun-drenched Prisoner's Garden.",
+        "Expression: Eyes widen slightly at the change in scenery, indicating a positive response to the visual shift."
+      ],
+      "importance_score": 7.28,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 6,
+      "absolute_timestamp": "8:15",
+      "absolute_seconds": 495.0,
+      "clip_start_seconds": 485.0,
+      "clip_end_seconds": 505.0,
+      "category": "player_delight",
+      "headline": "The NPC's gravelly voice and mysterious opening line ('Another one seeking the sky?') create an immediate narrative hook",
+      "why_important": "Severity 7/10, confidence 65%",
+      "evidence": [
+        "Leaning forward into the dialogue screen",
+        "Resting chin on hand",
+        "Attentive silence",
+        "Scene: Approaching the NPC in tattered robes near the garden fountain.",
+        "Expression: Neutral but physically engaged (leaning in), showing focus on the narrative delivery."
+      ],
+      "importance_score": 7.28,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 7,
+      "absolute_timestamp": "3:15",
+      "absolute_seconds": 195.0,
+      "clip_start_seconds": 185.0,
+      "clip_end_seconds": 205.0,
+      "category": "player_delight",
+      "headline": "It provides a clear, immediate goal and rewards basic environmental scanning.",
+      "why_important": "Severity 5/10, confidence 80%",
+      "evidence": [
+        "Direct movement toward the glowing object",
+        "Opening the inventory immediately after pickup",
+        "Tone of realization",
+        "Scene: The player finds and picks up a 'Rusted Key' glowing on the floor of the cell.",
+        "Expression: Raised eyebrows, nodding."
+      ],
+      "importance_score": 6.4,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 8,
+      "absolute_timestamp": "6:05",
+      "absolute_seconds": 365.0,
+      "clip_start_seconds": 355.0,
+      "clip_end_seconds": 375.0,
+      "category": "player_delight",
+      "headline": "The mechanical grinding sound and cinematic confirmation of the gate opening provides immediate positive reinforcement f",
+      "why_important": "Severity 5/10, confidence 80%",
+      "evidence": [
+        "Immediate relaxation of posture",
+        "Slight smile",
+        "Satisfied tone",
+        "Scene: Pulling the wall-mounted lever and watching the main dungeon gate slide open.",
+        "Expression: A slight smile and visible relaxation of shoulders, indicating relief and a sense of achievement."
+      ],
+      "importance_score": 6.4,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 9,
+      "absolute_timestamp": "9:05",
+      "absolute_seconds": 545.0,
+      "clip_start_seconds": 535.0,
+      "clip_end_seconds": 555.0,
+      "category": "player_delight",
+      "headline": "The sudden increase in enemy count heightens the stakes and validates the player's prior combat training, creating an im",
+      "why_important": "Severity 5/10, confidence 80%",
+      "evidence": [
+        "Rapid eye movement across the screen",
+        "Leaning forward toward the monitor",
+        "Immediate transition to combat posture",
+        "Alert vocalization",
+        "Focused silence during attack sequences"
+      ],
+      "importance_score": 6.4,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 10,
+      "absolute_timestamp": "15:10",
+      "absolute_seconds": 910.0,
+      "clip_start_seconds": 900.0,
+      "clip_end_seconds": 920.0,
+      "category": "player_delight",
+      "headline": "Rewarding environmental curiosity after a period of intense focus allows the player to decompress while still feeling pr",
+      "why_important": "Severity 5/10, confidence 80%",
+      "evidence": [
+        "Voluntary exploration away from the critical path",
+        "Squinting to see into the dark side room",
+        "Inquisitive tone",
+        "Soft clicking of movement toward the door",
+        "Scene: A hidden door discovered behind a stack of crates in the courtyard corner."
+      ],
+      "importance_score": 6.4,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ]
+    }
+  ],
+  "one_line_verdict": "Here we go! First fight!"
+}

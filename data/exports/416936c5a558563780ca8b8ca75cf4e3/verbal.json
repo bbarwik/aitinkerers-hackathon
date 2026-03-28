@@ -1,0 +1,586 @@
+[
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 82.0,
+    "absolute_timestamp": "1:22",
+    "summary": "We can basically turn the game into Honor Mode minus the one-save one-life rule.",
+    "game_context": "Configuring custom difficulty sliders in the main menu to mimic Honor Mode's mechanical challenges.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: narration",
+      "Actionable: Players highly value the ability to decouple high-difficulty combat mechanics (Honor Mode rules) from the 'ironman' single-save restriction."
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 0,
+    "segment_label": "difficulty_setup",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "delight"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "We can basically turn the game into Honor Mode minus the one-save one-life rule."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 112.0,
+    "absolute_timestamp": "1:52",
+    "summary": "Starting out we had to make our trainer, and who better to rise to the occasion of becoming Faer'un's first Pok)mon champion then a ten-year-old.",
+    "game_context": "Creating a Forest Gnome character designed to look like a young Pok)mon trainer.",
+    "evidence": [
+      "Tone: amused",
+      "Category: narration"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 0,
+    "segment_label": "character_creation",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Starting out we had to make our trainer, and who better to rise to the occasion of becoming Faer'un's first Pok)mon champion then a ten-year-old."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 160.0,
+    "absolute_timestamp": "2:40",
+    "summary": "Can't be cast while your new parasite adjusts to your mind and magic. So in the meantime, we ripped out this guy's brain and it turned into a dog.",
+    "game_context": "Narrating the interaction with the 'Us' intellect devourer on the Nautiloid ship.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: narration"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 0,
+    "segment_label": "nautiloid_escape",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Can't be cast while your new parasite adjusts to your mind and magic. So in the meantime, we ripped out this guy's brain and it turned into a dog."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "complaint",
+    "absolute_seconds": 215.0,
+    "absolute_timestamp": "3:35",
+    "summary": "All right, we couldn't get up there.",
+    "game_context": "Attempting to jump onto a ledge as a Forest Gnome and failing due to the racial jump distance penalty.",
+    "evidence": [
+      "Tone: resigned",
+      "Category: complaint",
+      "Actionable: Racial exploration limitations (like gnome jump distance) can cause significant friction in vertical map design, forcing players into repetitive workarounds."
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 0,
+    "segment_label": "ravaged_beach",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "All right, we couldn't get up there."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 256.0,
+    "absolute_timestamp": "4:16",
+    "summary": "Was all my research and prep for nothing? Was the run doomed just because we were vertically challenged? No, we just needed to grab some boxes from camp.",
+    "game_context": "Solving a vertical navigation issue by stacking wooden crates to reach a high ledge.",
+    "evidence": [
+      "Tone: amused",
+      "Category: strategy"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 0,
+    "segment_label": "ravaged_beach",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "delight",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Was all my research and prep for nothing? Was the run doomed just because we were vertically challenged? No, we just needed to grab some boxes from camp."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 280.0,
+    "absolute_timestamp": "4:40",
+    "summary": "But we could still get XP from combat just by sitting back in safety and watching as allies fell one by one.",
+    "game_context": "Gaining experience points from the Grove gate battle while standing out of range of enemies.",
+    "evidence": [
+      "Tone: sarcastic",
+      "Category: narration",
+      "Actionable: Passive experience gain for non-participating party members can encourage trivializing challenge runs; consider implementing proximity or combat contribution requirements for XP distribution."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": "emerald_grove_gate",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "But we could still get XP from combat just by sitting back in safety and watching as allies fell one by one."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "complaint",
+    "absolute_seconds": 493.0,
+    "absolute_timestamp": "8:13",
+    "summary": "Wyll? Wyll? I'm not gonna sugarcoat it, this sucks. Our companion collection being incomplete because our level 1 wizard is now useless... Wyll didn't make it back to camp.",
+    "game_context": "Searching for Wyll at the campsite only to realize the NPC has disappeared due to a potential bug or sequence break.",
+    "evidence": [
+      "Tone: frustrated",
+      "Category: complaint",
+      "Actionable: Address the NPC persistence logic to prevent essential companions from disappearing between world transitions or after specific combat triggers."
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 1,
+    "segment_label": "campsite",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "quality",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "Wyll? Wyll? I'm not gonna sugarcoat it, this sucks. Our companion collection being incomplete because our level 1 wizard is now useless... Wyll didn't make it back to camp."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 615.0,
+    "absolute_timestamp": "10:15",
+    "summary": "Where there isn't a Wyll, there's a way. To get our one companion back we had to go all the way back to the fight at the Grove's gate... we had to ensure Wyll survived because that's the only thing I could think that broke him.",
+    "game_context": "The player reloads an older save to redo the entire Grove gate battle, suspecting Wyll's death caused the earlier bug.",
+    "evidence": [
+      "Tone: resigned",
+      "Category: strategy"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 2,
+    "segment_label": "character_progression",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Where there isn't a Wyll, there's a way. To get our one companion back we had to go all the way back to the fight at the Grove's gate... we had to ensure Wyll survived because that's the only thing I could think that broke him."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "complaint",
+    "absolute_seconds": 646.0,
+    "absolute_timestamp": "10:46",
+    "summary": "Our familiars were incredibly weak. Really they were useful just for applying status effects... and they weren't even remotely threatening.",
+    "game_context": "The player critiques the low damage output of basic familiars (Raven, Cat) during the gate defense.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: complaint",
+      "Actionable: Consider scaling familiar damage or utility more effectively in early-game levels to make 'summoner' playstyles feel impactful outside of just status debuffs."
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 2,
+    "segment_label": "owlbear_nest",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "Our familiars were incredibly weak. Really they were useful just for applying status effects... and they weren't even remotely threatening."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "complaint",
+    "absolute_seconds": 662.0,
+    "absolute_timestamp": "11:02",
+    "summary": "The worst part is we can only summon one per short rest while outside of combat. So really our only option was to have Ash sit back, send in a pet to waste the archers' turns, take a short nap and do it again until the battle was won.",
+    "game_context": "Explaining the tedious 'short rest loop' required to use summons effectively in large battles due to game restrictions.",
+    "evidence": [
+      "Tone: frustrated",
+      "Category: complaint",
+      "Actionable: Evaluate the 'outside of combat' summoning restriction; players will bypass it with tedious rest loops, suggesting the current design adds friction without meaningfully limiting power."
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 2,
+    "segment_label": "owlbear_nest",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "The worst part is we can only summon one per short rest while outside of combat. So really our only option was to have Ash sit back, send in a pet to waste the archers' turns, take a short nap and do it again until the battle was won."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 726.0,
+    "absolute_timestamp": "12:06",
+    "summary": "Zevlor rewarded us with Hellrider's Pride. Meaning any time we healed someone now they also got three turns of physical resistance and a blessing.",
+    "game_context": "Receiving a powerful gear reward that synergizes with their 'trainer' playstyle.",
+    "evidence": [
+      "Tone: excited",
+      "Category: praise"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 2,
+    "segment_label": null,
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "delight",
+      "quality",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Zevlor rewarded us with Hellrider's Pride. Meaning any time we healed someone now they also got three turns of physical resistance and a blessing."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 738.0,
+    "absolute_timestamp": "12:18",
+    "summary": "We also hit level four and unlocked our first feat. Choosing magic initiate sorcerer to get mage hand (a distraction that wouldn't take up a familiar slot) and better protection for one of our pets, usually Shovel.",
+    "game_context": "The player explains the tactical choice of using a specific feat to maximize summon uptime and survival.",
+    "evidence": [
+      "Tone: satisfied",
+      "Category: strategy"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 2,
+    "segment_label": null,
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "We also hit level four and unlocked our first feat. Choosing magic initiate sorcerer to get mage hand (a distraction that wouldn't take up a familiar slot) and better protection for one of our pets, usually Shovel."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 789.0,
+    "absolute_timestamp": "13:09",
+    "summary": "Vengeful Father. At low health or the death of a family member, this Owlbear becomes Enraged.",
+    "game_context": "The player is reading the tooltips for the Legendary Action 'Call Consort' during the Owlbear Boss fight.",
+    "evidence": [
+      "Tone: focused",
+      "Category: strategy"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": null,
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Vengeful Father. At low health or the death of a family member, this Owlbear becomes Enraged."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 816.0,
+    "absolute_timestamp": "13:36",
+    "summary": "Wait, what? Believe it or not, it actually worked out for the best since now we got the XP when the cultists died.",
+    "game_context": "The player observes that the two recruited cultists died during the boss fight, resulting in 'Passive XP' for the player character.",
+    "evidence": [
+      "Tone: amused",
+      "Category: narration",
+      "Actionable: The 'Passive XP' gain from NPC-driven combat allows players to bypass challenge runs easily; developers might consider proximity or activity requirements for XP if they wish to mitigate this."
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 3,
+    "segment_label": null,
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "Wait, what? Believe it or not, it actually worked out for the best since now we got the XP when the cultists died."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 858.0,
+    "absolute_timestamp": "14:18",
+    "summary": "Yeah baby! That's what I've been waiting for! That's what it's all about! Woo!",
+    "game_context": "Integrated audio clip of 'Charlie' (Critikal) used to express triumph after defeating the Owlbear legendary boss.",
+    "evidence": [
+      "Tone: excited",
+      "Category: reaction"
+    ],
+    "severity_numeric": 10,
+    "source_chunk_index": 3,
+    "segment_label": "camp_rest",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Yeah baby! That's what I've been waiting for! That's what it's all about! Woo!"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "complaint",
+    "absolute_seconds": 970.0,
+    "absolute_timestamp": "16:10",
+    "summary": "Our mage hand was a little slow... so to salvage this horrendous start, we relapsed once again.",
+    "game_context": "Infiltrating the Shattered Sanctum, the player finds the Mage Hand's positioning or initiative speed frustrating during the setup for an ambush.",
+    "evidence": [
+      "Tone: sarcastic",
+      "Category: complaint",
+      "Actionable: Review the initiative or action-cost of non-combat summons like Mage Hand during transition into combat; if it feels 'slow' to use, players may find stealth-to-combat transitions clunky."
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 3,
+    "segment_label": "shattered_sanctum",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "friction",
+      "quality",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "Our mage hand was a little slow... so to salvage this horrendous start, we relapsed once again."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "complaint",
+    "absolute_seconds": 979.0,
+    "absolute_timestamp": "16:19",
+    "summary": "Oh my god, I didn't realize the statues here were made of styrofoam. Our pets had wasted their actions knocking down the statue.",
+    "game_context": "The player uses their pets to knock over a large statue onto goblins, but the resulting damage or impact area feels underwhelming.",
+    "evidence": [
+      "Tone: frustrated",
+      "Category: complaint",
+      "Actionable: Increase the impact radius or environmental damage of heavy objects like statues to ensure players feel rewarded for the action-economy cost required to trigger the trap."
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 3,
+    "segment_label": "shattered_sanctum",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "Oh my god, I didn't realize the statues here were made of styrofoam. Our pets had wasted their actions knocking down the statue."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 1034.0,
+    "absolute_timestamp": "17:14",
+    "summary": "And while we couldn't use find familiar to replace Shovel mid-combat, we could tag in Scratch to ensure we were never a man down.",
+    "game_context": "The player explains the limitation of being unable to re-summon core familiars once they are defeated in battle.",
+    "evidence": [
+      "Tone: analytical",
+      "Category: strategy",
+      "Actionable: Consider a specialized perk for 'Beast Master' or 'Trainer' roles that allows one mid-combat familiar re-summoning to avoid stalling challenge-run progress."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 4,
+    "segment_label": "goblin_camp_assassination",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "clarity"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "And while we couldn't use find familiar to replace Shovel mid-combat, we could tag in Scratch to ensure we were never a man down."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 1095.0,
+    "absolute_timestamp": "18:15",
+    "summary": "Strike!",
+    "game_context": "The player's Boar summon uses a charge attack to knock down several enemies at once, accompanied by a bowling sound effect.",
+    "evidence": [
+      "Tone: excited",
+      "Category: reaction"
+    ],
+    "severity_numeric": 10,
+    "source_chunk_index": 4,
+    "segment_label": "goblin_camp_assassination",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "quality"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Strike!"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 1162.0,
+    "absolute_timestamp": "19:22",
+    "summary": "The spider just had to walk over it to drink it up.",
+    "game_context": "The player throws a potion on the ground, allowing the spider pet to gain its effects by standing in the puddle.",
+    "evidence": [
+      "Tone: amused",
+      "Category: narration"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 4,
+    "segment_label": "goblin_camp_assassination",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "delight"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "The spider just had to walk over it to drink it up."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 1180.0,
+    "absolute_timestamp": "19:40",
+    "summary": "I promise none of that was intentional. I really am just that bad.",
+    "game_context": "The player experiences a chaotic series of events in the Ragzlin fight and jokes about their own lack of skill.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 4,
+    "segment_label": "worg_pens",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "quality"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I promise none of that was intentional. I really am just that bad."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 1192.0,
+    "absolute_timestamp": "19:52",
+    "summary": "Ragzlin was obsessed with murdering a small child. It was the best chance our boar would have of taking him down.",
+    "game_context": "The player notices the AI boss (Dror Ragzlin) is prioritizing the player character over the high-damage Boar summon.",
+    "evidence": [
+      "Tone: amused",
+      "Category: strategy",
+      "Actionable: Review AI threat assessment logic to ensure elite enemies prioritize high-damage pets/summons over characters that are protected or far away."
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 4,
+    "segment_label": "worg_pens",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "quality"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "Ragzlin was obsessed with murdering a small child. It was the best chance our boar would have of taking him down."
+  }
+]

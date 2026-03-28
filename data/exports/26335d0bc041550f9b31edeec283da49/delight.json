@@ -1,0 +1,399 @@
+[
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 0.0,
+    "absolute_timestamp": "0:00",
+    "summary": "The sequence demonstrates high mastery of the game's mechanics. By layering health-stacking and resistance buffs, the player creates a 'god-mode' preparation state that rewards their character-building knowledge and builds anticipation for the boss encounter.",
+    "game_context": "The player is systematically casting powerful support spells like 'Aid', 'Heroes' Feast', and 'Divine Favour' on the entire party.",
+    "evidence": [
+      "Rapid, purposeful UI navigation",
+      "Optimal spell layering",
+      "Consistent game sound effects of high-level casting",
+      "Scene: House of Hope foyer staircase"
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 0,
+    "segment_label": "house_of_hope_foyer",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "story",
+    "absolute_seconds": 114.0,
+    "absolute_timestamp": "1:54",
+    "summary": "The cinematic pacing allows the narrative weight of the antagonist to land. The contrast between the elegant Raphael and the visceral, skull-laden Yurgir effectively communicates the scale of the threat, satisfying the player's curiosity about the encounter's difficulty.",
+    "game_context": "Raphael appears in a flash of infernal light, followed by the massive reveal of the Orthon demon, Yurgir.",
+    "evidence": [
+      "Zero dialogue skipping",
+      "Static camera focus during reveal",
+      "Dramatic musical swell",
+      "Orchestral transition",
+      "Scene: The main hall of the House of Hope"
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 0,
+    "segment_label": "raphael_confrontation",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "visual_design",
+    "absolute_seconds": 378.0,
+    "absolute_timestamp": "6:18",
+    "summary": "The transition from dialogue to combat is accompanied by a dramatic visual payoff and one of the game's most celebrated musical tracks. The player's refusal to skip the cinematic indicates high narrative investment in this specific boss encounter.",
+    "game_context": "The antagonist Raphael finishes his monologue and transforms into his Ascended Fiend form amidst a burst of hellfire.",
+    "evidence": [
+      "Zero skipping of transformation animation",
+      "Camera focus on VFX",
+      "Sudden orchestral shift to 'Raphael's Final Act'",
+      "Focused silence",
+      "Scene: Center of the House of Hope grand hall"
+    ],
+    "severity_numeric": 9,
+    "source_chunk_index": 1,
+    "segment_label": "house_of_hope_boss",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 430.0,
+    "absolute_timestamp": "7:10",
+    "summary": "Demonstrates tactical mastery. The player understands the encounter's unique mechanics\u2014that the pillars act as a power source for Raphael\u2014showing they are playing with intent rather than just brute-forcing the health bar.",
+    "game_context": "Combat begins and the player immediately prioritizes destroying the Soul Pillars in the corners of the room.",
+    "evidence": [
+      "Rapid targeting of Soul Pillars",
+      "Purposeful placement of summons",
+      "Focused silence",
+      "Scene: Tactical combat arena"
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 1,
+    "segment_label": "house_of_hope_boss",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 530.0,
+    "absolute_timestamp": "8:50",
+    "summary": "This demonstrates a high level of mastery over the game's UI and inventory systems. The search function is an underutilized feature for most, but here it is used with surgical precision to minimize downtime in a complex encounter, creating a sense of flow and efficiency.",
+    "game_context": "The player opens the inventory mid-combat and uses the search function specifically for 'speed' to quickly locate and consume a Haste-granting potion.",
+    "evidence": [
+      "Rapid typing in the search bar",
+      "Targeted extraction of 'Potion of Speed'",
+      "Zero hesitation in UI navigation",
+      "Focused silence",
+      "Rapid mechanical keyboard clicking",
+      "Scene: Aidan's inventory screen during active combat"
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 2,
+    "segment_label": "raphael_boss_fight",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "combat",
+    "absolute_seconds": 570.0,
+    "absolute_timestamp": "9:30",
+    "summary": "The satisfaction here comes from the complexity of the 'Command' role. The player is effectively acting as a general, managing a massive force to counter Raphael's reinforcements. This complexity is rewarding because it demonstrates total control over the game's summon mechanics.",
+    "game_context": "The player adds an Earth Elemental to the battlefield, further expanding a party that already includes a Deva, a Spiritual Weapon, and a Dryad.",
+    "evidence": [
+      "Strategic placement of the Earth Elemental summon",
+      "Simultaneous management of 5+ NPC allies",
+      "Fluid transition between character turns",
+      "Focused silence",
+      "Continuous orchestral boss music",
+      "Scene: Center of the House of Hope grand hall combat arena"
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 2,
+    "segment_label": "raphael_boss_fight",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 655.0,
+    "absolute_timestamp": "10:55",
+    "summary": "This moment highlights the player's grasp of 'action economy.' In a fight with numerous enemies, reducing the number of active threats is more valuable than raw damage. Successfully landing a high-level crowd control spell in a boss fight provides a significant tactical 'win' that reinforces player mastery.",
+    "game_context": "The player utilizes Banishment to temporarily remove a reinforcement from the fight, successfully mitigating incoming damage pressure.",
+    "evidence": [
+      "Careful selection of the Banishment spell",
+      "Targeting a Vengeful Cambion to thin enemy ranks",
+      "Rapid assessment of the initiative track",
+      "Spell sound effects of dimensional shifting",
+      "Focused silence",
+      "Scene: Staircase near the northern Soul Pillar"
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 2,
+    "segment_label": "raphael_boss_fight",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 792.0,
+    "absolute_timestamp": "13:12",
+    "summary": "This moment highlights the player's extreme proficiency with the game's systems. The ability to surgically locate a specific niche item in a massive inventory during the most complex battle in the game demonstrates total mastery and maintains the 'flow' state without technical friction.",
+    "game_context": "The player opens the inventory mid-combat to find a specific oil to apply to Shadowheart's weapon, using the search bar to bypass menu clutter.",
+    "evidence": [
+      "Rapid typing in the search bar",
+      "Targeted extraction of 'Wizardbane Oil'",
+      "Zero hesitation in complex menu navigation",
+      "Rapid mechanical keyboard clicking",
+      "Focused silence",
+      "Scene: Shadowheart's inventory screen during active combat in the House of Hope."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 3,
+    "segment_label": "raphael_boss_fight",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "combat",
+    "absolute_seconds": 851.0,
+    "absolute_timestamp": "14:11",
+    "summary": "This satisfies the 'General' or 'Commander' power fantasy. The player has successfully managed the action economy to the point where their summons are handling the primary environmental mechanics, allowing the main party to stay flexible and focus on survival.",
+    "game_context": "The player uses a summoned Deva to unleash a high-damage combo on the final Soul Pillar, nearly destroying it in a single turn.",
+    "evidence": [
+      "Precise targeting of the Deva's 'Worldly Feast'",
+      "Systematic execution of follow-up melee strikes",
+      "Successful massive damage output on the environmental objective",
+      "Focused silence",
+      "Punchy combat sound effects",
+      "Scene: Upper platform of the House of Hope near the final Soul Pillar."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 3,
+    "segment_label": "raphael_boss_fight",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "visual_design",
+    "absolute_seconds": 928.0,
+    "absolute_timestamp": "15:28",
+    "summary": "The narrative weight and visual spectacle are at their peak. Despite the difficulty, the player is clearly invested in the 'grandness' of the encounter, treating the attack as a fair and exciting challenge from a long-standing antagonist.",
+    "game_context": "Raphael unleashes his signature 'Flames of Avernus' area-of-effect attack, covering the entire party in fire and dealing massive damage.",
+    "evidence": [
+      "Static camera focus on Raphael's casting animation",
+      "Watching the full 'Flames of Avernus' AoE effect without interaction",
+      "Immediate tactical pivot following the massive damage",
+      "Orchestral boss music climax",
+      "Raphael's dramatic vocal taunt",
+      "Scene: Center of the grand hall as Raphael prepares a massive spell."
+    ],
+    "severity_numeric": 9,
+    "source_chunk_index": 3,
+    "segment_label": "raphael_boss_fight",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "progression",
+    "absolute_seconds": 961.0,
+    "absolute_timestamp": "16:01",
+    "summary": "The satisfaction of 'clearing the board' is high. After enduring Raphael's burst damage, the player is successfully thinning the reinforcement ranks, signaling a transition into the fight's final, more isolated phase.",
+    "game_context": "The player's Earth Elemental and allied Yurgir coordinate to eliminate several Vengeful Cambions, clearing the 'clutter' of the fight.",
+    "evidence": [
+      "Coordinated movement of the Earth Elemental",
+      "Landing a multi-hit attack that finishes a reinforcement",
+      "Thinning the enemy initiative track",
+      "Heavy stone impact sound effects",
+      "Focused silence",
+      "Scene: The main floor of the hall where multiple cambions are clustered."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 3,
+    "segment_label": "raphael_boss_fight",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "combat",
+    "absolute_seconds": 1062.0,
+    "absolute_timestamp": "17:42",
+    "summary": "The massive shift in action economy provides a strong 'power fantasy' moment where the player goes from being outnumbered to commanding a small army.",
+    "game_context": "Shadowheart summons a horde of ghouls to overwhelm the Soul Pillars and reinforcements.",
+    "evidence": [
+      "Selection of the high-level 'Danse Macabre' spell",
+      "Visual impact of four ghouls rising simultaneously",
+      "Focused silence",
+      "Heavy summoning sound effects",
+      "Scene: Shadowheart's position on the upper staircase."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 4,
+    "segment_label": "raphael_boss_fight",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "progression",
+    "absolute_seconds": 1127.0,
+    "absolute_timestamp": "18:47",
+    "summary": "The environmental destruction provides clear, satisfying feedback that the player is winning the 'puzzle' aspect of the boss fight.",
+    "game_context": "The player successfully destroys a Soul Pillar, one of the primary mechanical hurdles of the encounter.",
+    "evidence": [
+      "Coordinated attacks from Deva summon and party members",
+      "Pillar crumbling in a large green explosion",
+      "Focused silence",
+      "Loud mechanical crumbling sound effect",
+      "Scene: The northern Soul Pillar area."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 4,
+    "segment_label": "raphael_boss_fight",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 1171.0,
+    "absolute_timestamp": "19:31",
+    "summary": "Creating a 'snowball effect' where multiple objectives fall in the same round reinforces the player's sense of tactical dominance and momentum.",
+    "game_context": "The player destroys a second Soul Pillar in rapid succession, leaving only one remaining.",
+    "evidence": [
+      "Ranged Eldritch Blast projectile connecting with the pillar",
+      "Secondary green soul energy explosion",
+      "Focused silence",
+      "Magical blast sound effects",
+      "Scene: The center-left Soul Pillar near the balcony."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 4,
+    "segment_label": "raphael_boss_fight",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

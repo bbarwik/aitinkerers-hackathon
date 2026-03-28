@@ -1,0 +1,809 @@
+[
+  {
+    "agent_kind": "sentiment",
+    "source_label": "excited",
+    "absolute_seconds": 15.0,
+    "absolute_timestamp": "0:15",
+    "summary": "Opening narration and challenge concept reveal.",
+    "game_context": "Fast-paced montage of pets and summons.",
+    "evidence": [
+      "Trigger: Opening narration and challenge concept reveal.",
+      "Visual: Fast-paced montage of pets and summons.",
+      "Audio: Energetic, high-volume narration with upbeat background music."
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 0,
+    "segment_label": "intro_and_rules",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": 8,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "focused",
+    "absolute_seconds": 65.0,
+    "absolute_timestamp": "1:05",
+    "summary": "Explaining the Pok\u0000dex and damage rules.",
+    "game_context": "Custom graphics showcasing Pok\u0000dex entries.",
+    "evidence": [
+      "Trigger: Explaining the Pok\u0000dex and damage rules.",
+      "Visual: Custom graphics showcasing Pok\u0000dex entries.",
+      "Audio: Clear, enthusiastic, and articulate delivery of challenge constraints."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 0,
+    "segment_label": "difficulty_setup",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "delight"
+    ],
+    "sentiment_raw_score": 5,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "focused",
+    "absolute_seconds": 100.0,
+    "absolute_timestamp": "1:40",
+    "summary": "Navigating difficulty menus to set up the 'Honor Ruleset'.",
+    "game_context": "Menu sliders being adjusted to high difficulty levels.",
+    "evidence": [
+      "Trigger: Navigating difficulty menus to set up the 'Honor Ruleset'.",
+      "Visual: Menu sliders being adjusted to high difficulty levels.",
+      "Audio: Calm, analytical tone explaining mechanical choices."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "character_creation",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": 2,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 135.0,
+    "absolute_timestamp": "2:15",
+    "summary": "Character creation for 'Ash Ketchum'.",
+    "game_context": "Selection of the Forest Gnome race.",
+    "evidence": [
+      "Trigger: Character creation for 'Ash Ketchum'.",
+      "Visual: Selection of the Forest Gnome race.",
+      "Audio: Amused tone, joking about the child-sized appearance of the gnome."
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 0,
+    "segment_label": "nautiloid_escape",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": 4,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "triumphant",
+    "absolute_seconds": 165.0,
+    "absolute_timestamp": "2:45",
+    "summary": "Recruiting the intellect devourer 'Us' on the Nautiloid.",
+    "game_context": "Successful interaction with the brain creature.",
+    "evidence": [
+      "Trigger: Recruiting the intellect devourer 'Us' on the Nautiloid.",
+      "Visual: Successful interaction with the brain creature.",
+      "Audio: Satisfied tone, referring to the creature as an \"adorable brain buddy\"."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 0,
+    "segment_label": "nautiloid_escape",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": 7,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "neutral",
+    "absolute_seconds": 215.0,
+    "absolute_timestamp": "3:35",
+    "summary": "Encountering verticality issues due to Gnome race height.",
+    "game_context": "UI error message \"Too high!\" while trying to jump a ledge.",
+    "evidence": [
+      "Trigger: Encountering verticality issues due to Gnome race height.",
+      "Visual: UI error message \"Too high!\" while trying to jump a ledge.",
+      "Audio: Slightly annoyed but humorous commentary on the gnome's limitations."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "ravaged_beach",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "verbal"
+    ],
+    "sentiment_raw_score": -2,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "focused",
+    "absolute_seconds": 245.0,
+    "absolute_timestamp": "4:05",
+    "summary": "Using a Raven familiar to explore the Grove gate.",
+    "game_context": "Raven flying across the map to trigger waypoint discovery.",
+    "evidence": [
+      "Trigger: Using a Raven familiar to explore the Grove gate.",
+      "Visual: Raven flying across the map to trigger waypoint discovery.",
+      "Audio: Confident, satisfied tone regarding tactical progress."
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 0,
+    "segment_label": "ravaged_beach",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": 4,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 285.0,
+    "absolute_timestamp": "4:45",
+    "summary": "Passive XP gain from NPC combat",
+    "game_context": "Watching from a cliff as NPCs fight Goblins below.",
+    "evidence": [
+      "Trigger: Passive XP gain from NPC combat",
+      "Visual: Watching from a cliff as NPCs fight Goblins below.",
+      "Audio: Sarcastic and amused tone: \"Haha yes, die trash.\""
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 1,
+    "segment_label": "emerald_grove_gate",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": 6,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "excited",
+    "absolute_seconds": 305.0,
+    "absolute_timestamp": "5:05",
+    "summary": "Leveling up to Level 3",
+    "game_context": "Selecting the Beast Master subclass in the level-up menu.",
+    "evidence": [
+      "Trigger: Leveling up to Level 3",
+      "Visual: Selecting the Beast Master subclass in the level-up menu.",
+      "Audio: Energetic and celebratory: \"We could finally use a real summon!\""
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 1,
+    "segment_label": "level_up_ranger",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "delight"
+    ],
+    "sentiment_raw_score": 8,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "triumphant",
+    "absolute_seconds": 345.0,
+    "absolute_timestamp": "5:45",
+    "summary": "Acquiring Shovel the Quasit permanently",
+    "game_context": "Engaging in dialogue with the unique familiar.",
+    "evidence": [
+      "Trigger: Acquiring Shovel the Quasit permanently",
+      "Visual: Engaging in dialogue with the unique familiar.",
+      "Audio: Satisfied tone, explaining the 'Wizard level' workaround to keep the summon permanently."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 1,
+    "segment_label": null,
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": 7,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "focused",
+    "absolute_seconds": 375.0,
+    "absolute_timestamp": "6:15",
+    "summary": "Successful pet utility in combat",
+    "game_context": "Raven blinding an enemy during a combat sequence.",
+    "evidence": [
+      "Trigger: Successful pet utility in combat",
+      "Visual: Raven blinding an enemy during a combat sequence.",
+      "Audio: Positive, instructional tone explaining 'Rend Vision'."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 1,
+    "segment_label": null,
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": 5,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 405.0,
+    "absolute_timestamp": "6:45",
+    "summary": "Strategizing against the Gnoll warband",
+    "game_context": "Approaching the cave entrance with a 'note' about the chest ahead.",
+    "evidence": [
+      "Trigger: Strategizing against the Gnoll warband",
+      "Visual: Approaching the cave entrance with a 'note' about the chest ahead.",
+      "Audio: Intrigued, high-interest tone discussing the 'Amazing chest' meme."
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 1,
+    "segment_label": "risen_road_cave",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "delight"
+    ],
+    "sentiment_raw_score": 4,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "triumphant",
+    "absolute_seconds": 435.0,
+    "absolute_timestamp": "7:15",
+    "summary": "Successfully manipulating the Gnoll Warlord",
+    "game_context": "The Gnoll boss killing its own allies and then itself per the player's dialogue choices.",
+    "evidence": [
+      "Trigger: Successfully manipulating the Gnoll Warlord",
+      "Visual: The Gnoll boss killing its own allies and then itself per the player's dialogue choices.",
+      "Audio: Proud and triumphant tone: \"Told her to feast on herself... suicide is badass.\""
+    ],
+    "severity_numeric": 9,
+    "source_chunk_index": 1,
+    "segment_label": "risen_road_cave",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": 9,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "excited",
+    "absolute_seconds": 470.0,
+    "absolute_timestamp": "7:50",
+    "summary": "Finding the Iron Flask",
+    "game_context": "Looting the decorative flask from a chest.",
+    "evidence": [
+      "Trigger: Finding the Iron Flask",
+      "Visual: Looting the decorative flask from a chest.",
+      "Audio: High energy and excitement: \"Faer\u0000n's first Pok\u0000ball!\""
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 1,
+    "segment_label": "risen_road_cave",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "delight"
+    ],
+    "sentiment_raw_score": 8,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "frustrated",
+    "absolute_seconds": 495.0,
+    "absolute_timestamp": "8:15",
+    "summary": "Encountering a bug with Wyll",
+    "game_context": "Running around camp searching for the missing NPC.",
+    "evidence": [
+      "Trigger: Encountering a bug with Wyll",
+      "Visual: Running around camp searching for the missing NPC.",
+      "Audio: Sharp drop in mood, frustrated tone: \"I'm not gonna sugarcoat this, this sucks.\""
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 1,
+    "segment_label": "campsite",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "quality",
+      "verbal"
+    ],
+    "sentiment_raw_score": -5,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 525.0,
+    "absolute_timestamp": "8:45",
+    "summary": "Successfully defending the Grove gate while keeping Wyll alive.",
+    "game_context": "Combat victory at the entrance to the Druid Grove; Wyll is standing and healthy.",
+    "evidence": [
+      "Trigger: Successfully defending the Grove gate while keeping Wyll alive.",
+      "Visual: Combat victory at the entrance to the Druid Grove; Wyll is standing and healthy.",
+      "Audio: Satisfied tone: 'Where there isn't a Will, there's a way' pun."
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 2,
+    "segment_label": "grove_gate_defense",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": 4,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "excited",
+    "absolute_seconds": 555.0,
+    "absolute_timestamp": "9:15",
+    "summary": "Recruiting Wyll and adding him to the camp Pok\u0000dex.",
+    "game_context": "Wyll is successfully standing in camp; custom graphics showing 'Good Wyll Hunting' title.",
+    "evidence": [
+      "Trigger: Recruiting Wyll and adding him to the camp Pok\u0000dex.",
+      "Visual: Wyll is successfully standing in camp; custom graphics showing 'Good Wyll Hunting' title.",
+      "Audio: Vibrant, high-energy delivery: 'The only way to soothe my rage...'"
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 2,
+    "segment_label": "kagha_investigation",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": 7,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "focused",
+    "absolute_seconds": 585.0,
+    "absolute_timestamp": "9:45",
+    "summary": "Finding evidence of Kagha's betrayal in the swamp.",
+    "game_context": "Character discovering the Shadow Druids note in the swampy alcove.",
+    "evidence": [
+      "Trigger: Finding evidence of Kagha's betrayal in the swamp.",
+      "Visual: Character discovering the Shadow Druids note in the swampy alcove.",
+      "Audio: Focused narration explaining the strategic plan to blackmail Kagha."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 2,
+    "segment_label": "kagha_confrontation",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": 2,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "triumphant",
+    "absolute_seconds": 615.0,
+    "absolute_timestamp": "10:15",
+    "summary": "Exposing Kagha and defeating the Shadow Druids.",
+    "game_context": "Successful Persuasion check result of 15 (Difficulty 10) followed by combat victory.",
+    "evidence": [
+      "Trigger: Exposing Kagha and defeating the Shadow Druids.",
+      "Visual: Successful Persuasion check result of 15 (Difficulty 10) followed by combat victory.",
+      "Audio: Triumphant tone: 'And they would have gotten away with it too, if it weren't for some meddling kid.'"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 2,
+    "segment_label": "character_progression",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": 8,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "triumphant",
+    "absolute_seconds": 645.0,
+    "absolute_timestamp": "10:45",
+    "summary": "Receiving high-value 'prizes' from Zevlor and Mol.",
+    "game_context": "Receiving the Ring of Protection and Hellrider's Pride gear items.",
+    "evidence": [
+      "Trigger: Receiving high-value 'prizes' from Zevlor and Mol.",
+      "Visual: Receiving the Ring of Protection and Hellrider's Pride gear items.",
+      "Audio: Deep satisfaction in voice, emphasizing the gear as a major power spike."
+    ],
+    "severity_numeric": 9,
+    "source_chunk_index": 2,
+    "segment_label": "owlbear_nest",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": 9,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "focused",
+    "absolute_seconds": 675.0,
+    "absolute_timestamp": "11:15",
+    "summary": "Analyzing the tactical use of 'Blade Ward' and 'Bless' from new gear.",
+    "game_context": "UI tooltips showing item stats and pet status effects.",
+    "evidence": [
+      "Trigger: Analyzing the tactical use of 'Blade Ward' and 'Bless' from new gear.",
+      "Visual: UI tooltips showing item stats and pet status effects.",
+      "Audio: Calm, analytical tone explaining complex pet-scaling mechanics."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 2,
+    "segment_label": null,
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": 3,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "excited",
+    "absolute_seconds": 705.0,
+    "absolute_timestamp": "11:45",
+    "summary": "Reaching Level 4 and selecting the Sorcerer multiclass feat.",
+    "game_context": "Decisive menu navigation to select 'Magic Initiate: Sorcerer' for 'Mage Armor'.",
+    "evidence": [
+      "Trigger: Reaching Level 4 and selecting the Sorcerer multiclass feat.",
+      "Visual: Decisive menu navigation to select 'Magic Initiate: Sorcerer' for 'Mage Armor'.",
+      "Audio: Enthusiastic tone: 'Juice up our healing potions... distraction that wouldn't take up a familiar slot.'"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 2,
+    "segment_label": null,
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": 6,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "focused",
+    "absolute_seconds": 735.0,
+    "absolute_timestamp": "12:15",
+    "summary": "Entering the Owlbear Nest and approaching the first major boss.",
+    "game_context": "Cinematic camera panning over the cave interior and the Owlbear family.",
+    "evidence": [
+      "Trigger: Entering the Owlbear Nest and approaching the first major boss.",
+      "Visual: Cinematic camera panning over the cave interior and the Owlbear family.",
+      "Audio: Tense but focused narration: 'Our first legendary boss that we had to take down.'"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 2,
+    "segment_label": null,
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "delight",
+      "quality",
+      "verbal"
+    ],
+    "sentiment_raw_score": 2,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "focused",
+    "absolute_seconds": 765.0,
+    "absolute_timestamp": "12:45",
+    "summary": "Player character health drops to critical levels.",
+    "game_context": "Ash Ketchum is at 2/40 HP; the red 'near death' screen border is visible.",
+    "evidence": [
+      "Trigger: Player character health drops to critical levels.",
+      "Visual: Ash Ketchum is at 2/40 HP; the red 'near death' screen border is visible.",
+      "Audio: Tense but analytical tone: 'Ash barely survived'.",
+      "Silence type: tense"
+    ],
+    "severity_numeric": 1,
+    "source_chunk_index": 3,
+    "segment_label": null,
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": 1,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "excited",
+    "absolute_seconds": 795.0,
+    "absolute_timestamp": "13:15",
+    "summary": "Delivering critical hits to the Owlbear Mate.",
+    "game_context": "Multiple 'Critical Hit' UI prompts and heavy damage numbers appearing above the boss.",
+    "evidence": [
+      "Trigger: Delivering critical hits to the Owlbear Mate.",
+      "Visual: Multiple 'Critical Hit' UI prompts and heavy damage numbers appearing above the boss.",
+      "Audio: Audio energy increases; faster speaking pace as victory approaches.",
+      "Silence type: focused"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 3,
+    "segment_label": null,
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": 6,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "triumphant",
+    "absolute_seconds": 820.0,
+    "absolute_timestamp": "13:40",
+    "summary": "Victory over both Owlbear bosses.",
+    "game_context": "Both large Owlbears lie dead; XP gain pop-ups appear. Insertion of Michael Caine 'That was amazing' reaction meme.",
+    "evidence": [
+      "Trigger: Victory over both Owlbear bosses.",
+      "Visual: Both large Owlbears lie dead; XP gain pop-ups appear. Insertion of Michael Caine 'That was amazing' reaction meme.",
+      "Audio: Triumphant delivery: 'And we beat our first legendary boss battle'.",
+      "Silence type: focused"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 3,
+    "segment_label": null,
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": 8,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "triumphant",
+    "absolute_seconds": 855.0,
+    "absolute_timestamp": "14:15",
+    "summary": "Playing fetch with Scratch the dog at camp.",
+    "game_context": "The character throws a ball for the white dog. Insertion of 'Whooo! Yeah baby!' MoistCrIitikal reaction clip.",
+    "evidence": [
+      "Trigger: Playing fetch with Scratch the dog at camp.",
+      "Visual: The character throws a ball for the white dog. Insertion of 'Whooo! Yeah baby!' MoistCrIitikal reaction clip.",
+      "Audio: Loud, high-pitch exclamations in the reaction audio; narrator's voice is warm and celebratory.",
+      "Silence type: focused"
+    ],
+    "severity_numeric": 9,
+    "source_chunk_index": 3,
+    "segment_label": "camp_rest",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": 9,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 885.0,
+    "absolute_timestamp": "14:45",
+    "summary": "Tricking the goblins to win the chicken chasing game.",
+    "game_context": "Dialogue options reveal the player is using 'Speak with Animals' to cheat the game.",
+    "evidence": [
+      "Trigger: Tricking the goblins to win the chicken chasing game.",
+      "Visual: Dialogue options reveal the player is using 'Speak with Animals' to cheat the game.",
+      "Audio: Amused, slightly devious tone; chuckling at the goblins' expense.",
+      "Silence type: focused"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 3,
+    "segment_label": "goblin_camp_exterior",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "quality"
+    ],
+    "sentiment_raw_score": 4,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "focused",
+    "absolute_seconds": 915.0,
+    "absolute_timestamp": "15:15",
+    "summary": "Using Illithid Authority to reclaim gold.",
+    "game_context": "Successful Wisdom check (Nat 20 on a difficulty of 2) against the goblin Krolla.",
+    "evidence": [
+      "Trigger: Using Illithid Authority to reclaim gold.",
+      "Visual: Successful Wisdom check (Nat 20 on a difficulty of 2) against the goblin Krolla.",
+      "Audio: Satisfied narrative tone: 'Took all of her money... Albert too'.",
+      "Silence type: focused"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": "shattered_sanctum",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "delight"
+    ],
+    "sentiment_raw_score": 2,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "excited",
+    "absolute_seconds": 945.0,
+    "absolute_timestamp": "15:45",
+    "summary": "Infiltrating the Shattered Sanctum to find Priestess Gut.",
+    "game_context": "Exploration of the temple interior; scouting the three goblin leaders.",
+    "evidence": [
+      "Trigger: Infiltrating the Shattered Sanctum to find Priestess Gut.",
+      "Visual: Exploration of the temple interior; scouting the three goblin leaders.",
+      "Audio: Focused, analytical tone outlining the assassination plan.",
+      "Silence type: focused"
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 3,
+    "segment_label": "shattered_sanctum",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": 5,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 975.0,
+    "absolute_timestamp": "16:15",
+    "summary": "Initiating the environmental statue trap.",
+    "game_context": "A massive statue falls on Priestess Gut and her guards. Insertion of Simpson's 'Pathetic' reaction meme.",
+    "evidence": [
+      "Trigger: Initiating the environmental statue trap.",
+      "Visual: A massive statue falls on Priestess Gut and her guards. Insertion of Simpson's 'Pathetic' reaction meme.",
+      "Audio: Amused sarcasm: 'I didn't realize the statues here were made of styrofoam'.",
+      "Silence type: focused"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 3,
+    "segment_label": "shattered_sanctum",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "friction",
+      "quality",
+      "verbal"
+    ],
+    "sentiment_raw_score": 4,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

@@ -1,0 +1,215 @@
+{
+  "video_id": "26335d0bc041550f9b31edeec283da49",
+  "total_moments_analyzed": 55,
+  "highlights": [
+    {
+      "rank": 1,
+      "absolute_timestamp": "6:18",
+      "absolute_seconds": 378.0,
+      "clip_start_seconds": 368.0,
+      "clip_end_seconds": 388.0,
+      "category": "player_delight",
+      "headline": "The transition from dialogue to combat is accompanied by a dramatic visual payoff and one of the game's most celebrated ",
+      "why_important": "Severity 9/10, confidence 65%",
+      "evidence": [
+        "Zero skipping of transformation animation",
+        "Camera focus on VFX",
+        "Sudden orchestral shift to 'Raphael's Final Act'",
+        "Focused silence",
+        "Scene: Center of the House of Hope grand hall"
+      ],
+      "importance_score": 9.36,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 2,
+      "absolute_timestamp": "15:28",
+      "absolute_seconds": 928.0,
+      "clip_start_seconds": 918.0,
+      "clip_end_seconds": 938.0,
+      "category": "player_delight",
+      "headline": "The narrative weight and visual spectacle are at their peak. Despite the difficulty, the player is clearly invested in t",
+      "why_important": "Severity 9/10, confidence 65%",
+      "evidence": [
+        "Static camera focus on Raphael's casting animation",
+        "Watching the full 'Flames of Avernus' AoE effect without interaction",
+        "Immediate tactical pivot following the massive damage",
+        "Orchestral boss music climax",
+        "Raphael's dramatic vocal taunt"
+      ],
+      "importance_score": 9.36,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 3,
+      "absolute_timestamp": "1:54",
+      "absolute_seconds": 114.0,
+      "clip_start_seconds": 104.0,
+      "clip_end_seconds": 124.0,
+      "category": "player_delight",
+      "headline": "The cinematic pacing allows the narrative weight of the antagonist to land. The contrast between the elegant Raphael and",
+      "why_important": "Severity 7/10, confidence 65%",
+      "evidence": [
+        "Zero dialogue skipping",
+        "Static camera focus during reveal",
+        "Dramatic musical swell",
+        "Orchestral transition",
+        "Scene: The main hall of the House of Hope"
+      ],
+      "importance_score": 7.28,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 4,
+      "absolute_timestamp": "7:10",
+      "absolute_seconds": 430.0,
+      "clip_start_seconds": 420.0,
+      "clip_end_seconds": 440.0,
+      "category": "player_delight",
+      "headline": "Demonstrates tactical mastery. The player understands the encounter's unique mechanics\u2014that the pillars act as a power s",
+      "why_important": "Severity 7/10, confidence 65%",
+      "evidence": [
+        "Rapid targeting of Soul Pillars",
+        "Purposeful placement of summons",
+        "Focused silence",
+        "Scene: Tactical combat arena"
+      ],
+      "importance_score": 7.28,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 5,
+      "absolute_timestamp": "9:30",
+      "absolute_seconds": 570.0,
+      "clip_start_seconds": 560.0,
+      "clip_end_seconds": 580.0,
+      "category": "player_delight",
+      "headline": "The satisfaction here comes from the complexity of the 'Command' role. The player is effectively acting as a general, ma",
+      "why_important": "Severity 7/10, confidence 65%",
+      "evidence": [
+        "Strategic placement of the Earth Elemental summon",
+        "Simultaneous management of 5+ NPC allies",
+        "Fluid transition between character turns",
+        "Focused silence",
+        "Continuous orchestral boss music"
+      ],
+      "importance_score": 7.28,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 6,
+      "absolute_timestamp": "14:11",
+      "absolute_seconds": 851.0,
+      "clip_start_seconds": 841.0,
+      "clip_end_seconds": 861.0,
+      "category": "player_delight",
+      "headline": "This satisfies the 'General' or 'Commander' power fantasy. The player has successfully managed the action economy to the",
+      "why_important": "Severity 7/10, confidence 65%",
+      "evidence": [
+        "Precise targeting of the Deva's 'Worldly Feast'",
+        "Systematic execution of follow-up melee strikes",
+        "Successful massive damage output on the environmental objective",
+        "Focused silence",
+        "Punchy combat sound effects"
+      ],
+      "importance_score": 7.28,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 7,
+      "absolute_timestamp": "17:42",
+      "absolute_seconds": 1062.0,
+      "clip_start_seconds": 1052.0,
+      "clip_end_seconds": 1072.0,
+      "category": "player_delight",
+      "headline": "The massive shift in action economy provides a strong 'power fantasy' moment where the player goes from being outnumbere",
+      "why_important": "Severity 7/10, confidence 65%",
+      "evidence": [
+        "Selection of the high-level 'Danse Macabre' spell",
+        "Visual impact of four ghouls rising simultaneously",
+        "Focused silence",
+        "Heavy summoning sound effects",
+        "Scene: Shadowheart's position on the upper staircase."
+      ],
+      "importance_score": 7.28,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 8,
+      "absolute_timestamp": "18:47",
+      "absolute_seconds": 1127.0,
+      "clip_start_seconds": 1117.0,
+      "clip_end_seconds": 1137.0,
+      "category": "player_delight",
+      "headline": "The environmental destruction provides clear, satisfying feedback that the player is winning the 'puzzle' aspect of the ",
+      "why_important": "Severity 7/10, confidence 65%",
+      "evidence": [
+        "Coordinated attacks from Deva summon and party members",
+        "Pillar crumbling in a large green explosion",
+        "Focused silence",
+        "Loud mechanical crumbling sound effect",
+        "Scene: The northern Soul Pillar area."
+      ],
+      "importance_score": 7.28,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 9,
+      "absolute_timestamp": "19:31",
+      "absolute_seconds": 1171.0,
+      "clip_start_seconds": 1161.0,
+      "clip_end_seconds": 1181.0,
+      "category": "player_delight",
+      "headline": "Creating a 'snowball effect' where multiple objectives fall in the same round reinforces the player's sense of tactical ",
+      "why_important": "Severity 7/10, confidence 65%",
+      "evidence": [
+        "Ranged Eldritch Blast projectile connecting with the pillar",
+        "Secondary green soul energy explosion",
+        "Focused silence",
+        "Magical blast sound effects",
+        "Scene: The center-left Soul Pillar near the balcony."
+      ],
+      "importance_score": 7.28,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 10,
+      "absolute_timestamp": "0:00",
+      "absolute_seconds": 0.0,
+      "clip_start_seconds": 0.0,
+      "clip_end_seconds": 10.0,
+      "category": "player_delight",
+      "headline": "The sequence demonstrates high mastery of the game's mechanics. By layering health-stacking and resistance buffs, the pl",
+      "why_important": "Severity 5/10, confidence 65%",
+      "evidence": [
+        "Rapid, purposeful UI navigation",
+        "Optimal spell layering",
+        "Consistent game sound effects of high-level casting",
+        "Scene: House of Hope foyer staircase"
+      ],
+      "importance_score": 5.2,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    }
+  ],
+  "one_line_verdict": "The transition from dialogue to combat is accompanied by a dramatic visual payoff and one of the game's most celebrated musical tracks. The player's refusal to skip the cinematic indicates high narrat"
+}

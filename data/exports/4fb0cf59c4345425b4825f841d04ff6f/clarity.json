@@ -1,0 +1,36 @@
+[
+  {
+    "agent_kind": "clarity",
+    "source_label": "missing_signpost",
+    "absolute_seconds": 670.0,
+    "absolute_timestamp": "11:10",
+    "summary": "There is no visual indicator or tooltip linking the movable statue to the floor plates until the player manually attempts to interact with the object.",
+    "game_context": "Identify that the plates require weight and move the nearby statue onto one of them.",
+    "evidence": [
+      "Character standing stationary between the two plates",
+      "Camera rotating 360 degrees to scan the surrounding walls and ceiling",
+      "Hovering the cursor over the closed gate multiple times",
+      "Deep, audible sigh",
+      "Uncertain tone",
+      "Scene: A stone bridge with two large floor pressure plates and a locked gate at the far end.",
+      "Expression: Head tilted to the side, slight ironic smile, and narrowed eyes while scanning the screen.",
+      "Quote: A puzzle. Great."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 2,
+    "segment_label": "bridge_puzzle",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "delight",
+      "friction",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

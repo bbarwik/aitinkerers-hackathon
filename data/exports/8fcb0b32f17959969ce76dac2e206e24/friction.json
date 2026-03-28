@@ -1,0 +1,348 @@
+[
+  {
+    "agent_kind": "friction",
+    "source_label": "bug",
+    "absolute_seconds": 221.0,
+    "absolute_timestamp": "3:41",
+    "summary": "A technical bug causing a full application crash.",
+    "game_context": "The software became unresponsive during a combat action.",
+    "evidence": [
+      "The game screen freezes",
+      "Screen cuts to black",
+      "Sarcastic tone",
+      "Scene: During the initial nautiloid combat after using Vicious Mockery.",
+      "Expression: None visible",
+      "Quote: And my game crashed. Dope."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 0,
+    "segment_label": "nautiloid_combat",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "quality",
+      "retry",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "ui_confusion",
+    "absolute_seconds": 270.0,
+    "absolute_timestamp": "4:30",
+    "summary": "A self-admitted gap in basic mechanical knowledge despite high total playtime (2000 hours).",
+    "game_context": "The player discovers that ritual spells like Longstrider do not consume spell slots outside of combat.",
+    "evidence": [
+      "Cursor hovering repeatedly over 'Longstrider' and 'Ritual' tooltip",
+      "Delayed menu exit",
+      "Self-deprecating laughter",
+      "Disbelieving tone",
+      "Scene: Reviewing Bard level 2 spells and ritual mechanics on the Ravaged Beach.",
+      "Quote: Am I just a fucking idiot? Has everybody been using ritual spells and just never told me?",
+      "Quote: I really gotta start reading things, huh?"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": "level_up_bard",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "clarity",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "difficulty_spike",
+    "absolute_seconds": 452.0,
+    "absolute_timestamp": "7:32",
+    "summary": "A sharp difficulty spike coupled with self-admitted 'reckless' tactical play.",
+    "game_context": "A difficult combat encounter where a single mistake could have ended the permanent-death Honor Mode run.",
+    "evidence": [
+      "Multiple party members (Astarion, Shadowheart) in 'Downed' or 'Bleeding' states",
+      "Low health bars on remaining characters",
+      "Extensive blood pools on environmental terrain",
+      "Serious, reflective narration",
+      "Lowered vocal volume indicating tension",
+      "Scene: High-stakes combat encounter with gnolls on the Risen Road.",
+      "Quote: I had been having such good luck, but ending the battle with literally only one person still on their feet was a sobering experience.",
+      "Quote: I'd gotten a little reckless during this encounter with these gnolls because I had been having such good luck."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 1,
+    "segment_label": "risen_road",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "other",
+    "absolute_seconds": 620.0,
+    "absolute_timestamp": "10:20",
+    "summary": "The player realized a major quest line is permanently blocked due to the permadeath mechanic affecting an essential NPC.",
+    "game_context": "Permanent NPC death in Honor Mode.",
+    "evidence": [
+      "Checks Halsin's inventory for loot",
+      "Abrupt cut to black and white cinematic filter during realization",
+      "Shocked tone",
+      "Slower speech pattern",
+      "Disappointed delivery",
+      "Scene: The player discovers Halsin's dead body in the Shattered Sanctum after the Goblin Camp battle.",
+      "Quote: I have no way of fixing it. I... you can't revive him. And that means I'm also locked out of fixing the shadow-cursed lands."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 2,
+    "segment_label": "shattered_sanctum",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "clarity",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "difficulty_spike",
+    "absolute_seconds": 723.0,
+    "absolute_timestamp": "12:03",
+    "summary": "Difficulty spike in a high-stakes (Honor Mode) environment nearly ending the entire playthrough.",
+    "game_context": "Surprise encounter with a legendary creature in the Underdark.",
+    "evidence": [
+      "Party health bars at near-zero",
+      "Rapidly clicking through character turns",
+      "Bulette leaping away while party is critical",
+      "Lowered, tense vocal volume",
+      "Deep exhale",
+      "Scene: A high-stakes combat encounter against a Bulette in the Underdark where multiple party members are nearly downed.",
+      "Quote: If that thing had stuck around, I probably would have gotten wiped right here. That encouraged me to be a little more tactical."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 2,
+    "segment_label": "underdark_exploration",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "other",
+    "absolute_seconds": 761.0,
+    "absolute_timestamp": "12:41",
+    "summary": "The player found the initial subclass unengaging in combat, affecting their enjoyment of the run despite tactical success.",
+    "game_context": "Mechanical boredom with the College of Glamour subclass features.",
+    "evidence": [
+      "Lingering on subclass descriptions",
+      "Navigating from College of Glamour back to character basics",
+      "Sigh of resignation",
+      "Somber tone",
+      "Scene: The character respec menu with Withers at the camp.",
+      "Expression: None visible",
+      "Quote: The run was going well, but I wasn't really having much fun. I decided that to give Bard a fair shot, I needed to try another subclass... just in case that was my issue."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": "character_respec",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "delight",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "ui_confusion",
+    "absolute_seconds": 852.0,
+    "absolute_timestamp": "14:12",
+    "summary": "Expected game mechanics based on item naming do not align with actual stat outputs.",
+    "game_context": "Misleading item nomenclature where the club provides 19 STR instead of the standard Giant-tier 21 STR.",
+    "evidence": [
+      "Repeatedly hovering over the Strength stat (19)",
+      "Comparing the stat to the item name",
+      "Annoyed tone",
+      "Dismissive tone",
+      "Scene: Inspecting the character sheet and the 'Club of Hill Giant Strength' tooltip.",
+      "Expression: None visible",
+      "Quote: It's really annoying that... it doesn't give you Hill Giant strength, but whatever."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": "shadow_cursed_lands",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "quality",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "other",
+    "absolute_seconds": 950.0,
+    "absolute_timestamp": "15:50",
+    "summary": "Personal health issues (flu/cold) and a script recording failure disrupted the video production flow.",
+    "game_context": "External technical error during recording and physical illness.",
+    "evidence": [
+      "Large text block overlaying the screen",
+      "Blurred gameplay footage",
+      "Sluggish voice",
+      "Congested breathing/speech",
+      "Scene: A blurred background with a large text overlay explaining a recording and health issue.",
+      "Expression: None visible",
+      "Quote: somehow I messed up and didn't record the next few lines of the script... and I don't want to just record them now because I sound very sick.",
+      "Quote: it was a rough few weeks to say the least."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 3,
+    "segment_label": null,
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "difficulty_spike",
+    "absolute_seconds": 1104.0,
+    "absolute_timestamp": "18:24",
+    "summary": "Difficulty spike and high-damage enemy spells.",
+    "game_context": "High-stakes boss fight in Honor Mode where a single bad turn could end the permanent-death run.",
+    "evidence": [
+      "Multiple characters taking heavy poison damage from Cloudkill",
+      "Characters positioned in a dangerous cluster",
+      "Stressed tone",
+      "Quickened speech",
+      "Scene: Combat with Balthazar in the Gauntlet of Shar, where a Cloudkill spell nearly downs the party.",
+      "Quote: Balthazar scared the shit out of me. I really thought he might wipe us out. He got pretty damn close."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 4,
+    "segment_label": "adamantine_forge_grym",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "bug",
+    "absolute_seconds": 1131.0,
+    "absolute_timestamp": "18:51",
+    "summary": "Technical bug causing a boss to de-render during an active fight.",
+    "game_context": "Technical glitch during a boss encounter.",
+    "evidence": [
+      "Boss model (Grym) becomes invisible or de-renders",
+      "Player hovers cursor over empty space searching for the target",
+      "Raised voice",
+      "Panicked tone",
+      "Aggressive delivery",
+      "Scene: Combat with Grym in the Adamantine Forge; the boss visually disappears when the forge lever is toggled.",
+      "Quote: He just fucking disappeared when I hit the switch! Larian, for the love of all that is holy, fix your game please!"
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 4,
+    "segment_label": "adamantine_forge_grym",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "quality",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "other",
+    "absolute_seconds": 1148.0,
+    "absolute_timestamp": "19:08",
+    "summary": "Distrust of game engine stability based on prior 'lessons' or bugs.",
+    "game_context": "Unreliable physics or collision detection on moving platforms.",
+    "evidence": [
+      "Character stops moving and waits for the platform animation to fully settle",
+      "Annoyed tone",
+      "Skeptical delivery",
+      "Scene: Navigating the moving Traversal Gem platform in the Gauntlet of Shar.",
+      "Quote: I have learned my lesson in the Gauntlet of Shar. Do not ever trust this platform."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 4,
+    "segment_label": "ketheric_thorm_confrontation",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "delight",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

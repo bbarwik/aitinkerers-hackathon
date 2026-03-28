@@ -1,0 +1,458 @@
+[
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 194.0,
+    "absolute_timestamp": "3:14",
+    "summary": "The RNG provides an immediate 'win' in a mode where every roll feels life-or-death, creating a surge of positive momentum and relief.",
+    "game_context": "The player rolls a Natural 20 on the first possible check in their high-stakes Honor Mode run.",
+    "evidence": [
+      "Immediate click to continue after seeing result",
+      "Visual focus on the 'Critical Success' text",
+      "Excited exclamation",
+      "Rapid speech",
+      "Scene: Dumpard is interacting with the exposed brain (Us) on the Nautiloid and rolls a 20 for an Investigation check.",
+      "Expression: None",
+      "Quote: No way! The very first roll of the entire playthrough was a Nat 20!"
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 0,
+    "segment_label": "nautiloid_escape",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "story",
+    "absolute_seconds": 233.0,
+    "absolute_timestamp": "3:53",
+    "summary": "It rewards the player's choice to play a class they previously disliked by offering a fresh narrative perspective and exclusive content.",
+    "game_context": "Discovering class-specific content for the first time after 2000 hours of play.",
+    "evidence": [
+      "Hovering over the class-specific dialogue choice",
+      "Prolonged visual attention to the new text",
+      "Impressed tone",
+      "Chuckle",
+      "Scene: Dialogue screen with Shadowheart on the Ravaged Beach showing a unique [BARD] dialogue option.",
+      "Expression: None",
+      "Quote: I've never seen any of these before. And honestly, it's probably the thing I'm most excited about for this whole playthrough."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 0,
+    "segment_label": "ravaged_beach",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 302.0,
+    "absolute_timestamp": "5:02",
+    "summary": "The frequent RNG success in Honor Mode creates a sense of empowerment and relief, turning a stressful mechanic into a recurring 'win' for the player.",
+    "game_context": "The player rolls their third Natural 20 in a short period during a high-stakes dialogue check.",
+    "evidence": [
+      "Dice roll lands on a Natural 20",
+      "Visual feedback for 'Critical Success'",
+      "Surprised laughter",
+      "Higher pitch",
+      "Scene: During a persuasion check to scare off adventurers outside the chapel entrance.",
+      "Quote: And then hit my third Nat 20 when trying to scare off these adventurers. Bards just get more Nat 20s or something? This is a lot, very quickly."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 1,
+    "segment_label": "chapel_entrance",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "progression",
+    "absolute_seconds": 340.0,
+    "absolute_timestamp": "5:40",
+    "summary": "The player finds humor in the class naming conventions and enjoys the 'novelty' of playing a build they have zero prior knowledge of after 2000 hours in the game.",
+    "game_context": "The player reaches level 3 and must commit to a specialized playstyle.",
+    "evidence": [
+      "Hovering over 'College of Glamour'",
+      "Rapidly clicking to confirm",
+      "Amused tone",
+      "Scene: In the level 3 level-up menu selecting a subclass.",
+      "Quote: What is gonna be my Bard subclass... Well like I said, I know absolutely nothing about Bards. Never played it. And so my choice was kind of just based off what sounded funny I guess, which led me to choose the College of Glamour."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 1,
+    "segment_label": "emerald_grove",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "humor",
+    "absolute_seconds": 430.0,
+    "absolute_timestamp": "7:10",
+    "summary": "The player creates their own meta-narrative and 'inside joke' content, showing high investment in the game's social dynamics and character relationships.",
+    "game_context": "Navigating the common 'enemies to allies' arc between two companions.",
+    "evidence": [
+      "Scene cuts between Karlach and Wyll characters",
+      "Burst of laughter",
+      "Fast-paced delivery",
+      "Scene: Dialogue transition between recruiting Karlach and dealing with Wyll's rivalry.",
+      "Quote: I have this inside joke just with myself. Every time I make one of these videos, I wrote 'Wyll and Karlach are flirting.' Then it evolved into 'Wyll and Karlach are making out.' Then it evolved into 'Wyll and Karlach are graphically busting down animal style in front of everyone.' I just thought we could take a break from the fist slap."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 1,
+    "segment_label": "risen_road",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "discovery",
+    "absolute_seconds": 475.0,
+    "absolute_timestamp": "7:55",
+    "summary": "The sheer statistical improbability of hitting a seventh Natural 20 creates a peak 'triumph' moment that borders on comedy, validating the player's choice to push through a reckless encounter.",
+    "game_context": "A critical check that completely shifts the tide of a dangerous combat encounter.",
+    "evidence": [
+      "Natural 20 appears on the D20 UI",
+      "Intimidation text highlighted",
+      "Disbelief",
+      "Loud exclamation",
+      "Scene: Hitting yet another Natural 20 during an intimidation check against the gnoll leader, Flind.",
+      "Quote: I hit my seventh Nat 20. What the f***? What the f***! I convinced the gnoll to be my friend and to kill her friends."
+    ],
+    "severity_numeric": 9,
+    "source_chunk_index": 1,
+    "segment_label": "risen_road",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "combat",
+    "absolute_seconds": 580.0,
+    "absolute_timestamp": "9:40",
+    "summary": "The explosive payoff provides instant gratification and mastery over environmental systems, which is highly valuable in the high-stakes Honor Mode.",
+    "game_context": "The player uses 'barrelmancy' to instantly clear a high-difficulty combat encounter.",
+    "evidence": [
+      "Deliberate placement of environmental explosives",
+      "Waiting for optimal enemy positioning before detonating",
+      "Energetic narration",
+      "Quickening pace of speech",
+      "Scene: Inside the Goblin Camp courtyard, the player positions a smokepowder satchel near a high density of enemies.",
+      "Quote: Inside the camp itself, I got a little crazy again."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 2,
+    "segment_label": "goblin_camp",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "discovery",
+    "absolute_seconds": 730.0,
+    "absolute_timestamp": "12:10",
+    "summary": "It provides a massive power spike (discovery mastery) that allows the player to steamroll difficult Underdark enemies, leading to a major progression milestone (Level 5).",
+    "game_context": "Discovering and exploiting the power of a temporary companion's unique mechanic.",
+    "evidence": [
+      "Targeting a Minotaur with the 'Animus' ability",
+      "Rapidly checking the stats of the new Undead thrall",
+      "Focused narration",
+      "Triumphant tone during level-up",
+      "Scene: The Underdark near the Minotaur corpses, using Sovereign Glut's unique resurrection ability.",
+      "Quote: I used Glut\u2019s revive ability to wake up a Minotaur and I brought that bad boy down to the beach... seriously, I wrote in my notes: 'My chest hurts and I taste copper, but hey, I hit level 5 from the whole thing'."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 2,
+    "segment_label": "underdark_exploration",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "progression",
+    "absolute_seconds": 759.0,
+    "absolute_timestamp": "12:39",
+    "summary": "The respec mechanic allows the player to correct a 'boring' gameplay experience immediately. The mechanical shift provides instant gratification by making the class feel both powerful and active.",
+    "game_context": "The player was previously 'not really having much fun' with the College of Glamour and decided to switch specializations.",
+    "evidence": [
+      "Rapid menu navigation",
+      "Immediate selection of the new subclass",
+      "Posing the newly outfitted character",
+      "Confident tone",
+      "High praise",
+      "Lowered vocal pitch of satisfaction",
+      "Scene: Withers' respec menu at camp, selecting the College of Swords subclass.",
+      "Quote: I respec\u2019d into the College of Swords, and that was an amazing idea. The College of Swords subclass may genuinely be one of the best subclasses in the game. And more importantly, one of the most fun."
+    ],
+    "severity_numeric": 9,
+    "source_chunk_index": 3,
+    "segment_label": "character_respec",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "friction",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 806.0,
+    "absolute_timestamp": "13:26",
+    "summary": "The 'Extra Attack' feature represents a massive leap in combat efficiency, validating the player's switch to the Swords subclass and cementing their 'Mastery' over the class's potential.",
+    "game_context": "Reaching the major Level 6 power spike for martial-leaning classes.",
+    "evidence": [
+      "Hovering on the 'Extra Attack' text",
+      "Scrolling through the new combat options",
+      "Rapidly clicking to accept the level increase",
+      "Explosion of disbelief",
+      "Excited exclamation",
+      "Fast-paced speech",
+      "Scene: The Level Up screen for Bard Level 6, highlighting the 'Extra Attack' feature.",
+      "Quote: Extra attack? Are you fucking kidding me? You\u2019re telling me I get all these cool combat options, spells, and the easiest time out of combat of any class, for sure, and I get extra attack? This is it. This is the best class in the game."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 3,
+    "segment_label": "level_up",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "humor",
+    "absolute_seconds": 910.0,
+    "absolute_timestamp": "15:10",
+    "summary": "The player enjoys the subversion of 'proper' combat mechanics. Using 'barrelmancy' provides a sense of 'system mastery' where the player feels smarter than the game's difficulty.",
+    "game_context": "Handling a high-risk Act 2 encounter by using 'cheap' but effective environmental tactics.",
+    "evidence": [
+      "Deliberate placement of environmental explosives",
+      "Wait-and-see positioning",
+      "Efficient detonation following the cutscene",
+      "Humorous tone",
+      "Self-assured narration",
+      "Scene: The Shadow-Cursed Lands, pre-positioning explosive oil barrels around the Kar'niss ambush site.",
+      "Quote: I know barrelmancy is sort of frowned upon, but Kar'niss is a dickhead and I think he deserved it."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 3,
+    "segment_label": "karniss_ambush",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 989.0,
+    "absolute_timestamp": "16:29",
+    "summary": "This is the ultimate payoff for the Bard class's identity. The player feels immense satisfaction in 'winning' the hardest difficulty mode by bypassing its intended challenges through class-specific manipulation.",
+    "game_context": "Using the Bard's high Charisma to skip major Act 2 boss fights through dialogue.",
+    "evidence": [
+      "Natural 20s appearing on screen",
+      "Success animations playing in rapid succession",
+      "The bosses disintegrating/killing themselves",
+      "Smug satisfaction",
+      "Calm, instructive tone",
+      "Chuckling",
+      "Scene: A montage of persuasion checks against Gerringothe, Thisobald, and Malus Thorm, leading to their self-destruction.",
+      "Quote: Using my Bard powers of mental manipulation, I cleared out the Thorms very easily. Seriously dude... if you want to get through Honor Mode and you\u2019re having a hard time, try to think less about combat and more about how to avoid combat."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 3,
+    "segment_label": "thorm_encounters",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 1090.0,
+    "absolute_timestamp": "18:10",
+    "summary": "The consistency of the strategy (persuasion) builds confidence and reinforces the player's 'master' status over the Bard class mechanics.",
+    "game_context": "Efficiently resolving one of the game's most difficult ambush encounters without combat.",
+    "evidence": [
+      "Steady camera focus on the persuasion outcome",
+      "Prompt progression through the loot phase",
+      "Calm, satisfied tone",
+      "Scene: Gauntlet of Shar, successfully convincing the Orthon Yurgir to eliminate his own minions and himself.",
+      "Quote: First of all, getting Yurgir to take himself out was really easy as a bard. Like I said with the Thorms, just using your voice in this game could be an incredibly powerful weapon."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 4,
+    "segment_label": "gauntlet_of_shar",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "combat",
+    "absolute_seconds": 1112.0,
+    "absolute_timestamp": "18:32",
+    "summary": "The contrast between the 'easy' persuasion skips and this intense, lucky victory creates a high-stakes emotional payoff that validates the player's survival skills.",
+    "game_context": "Surviving a near-wipe during the mandatory Balthazar combat.",
+    "evidence": [
+      "Rapid inspection of the boss corpse",
+      "Quick navigation to the next objective",
+      "Exhalation of relief",
+      "Adrenaline-fueled speech",
+      "Scene: The aftermath of the Balthazar fight inside the Gauntlet of Shar.",
+      "Quote: Balthazar scared the shit out of me. I really thought he might wipe us out. He got pretty damn close, but a lucky shot from myself took care of him."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 4,
+    "segment_label": "adamantine_forge_grym",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "story",
+    "absolute_seconds": 1162.0,
+    "absolute_timestamp": "19:22",
+    "summary": "It showcases the game's narrative depth where choices made in one encounter directly weaken a boss for a future, harder phase.",
+    "game_context": "Laying strategic groundwork for the final confrontation through dialogue.",
+    "evidence": [
+      "Deliberate selection of the 'Persuasion' dialogue branch",
+      "Camera focusing on Ketheric's reaction",
+      "Intrigued tone",
+      "Planning-oriented narration",
+      "Scene: Moonrise Towers rooftop, initiating the final dialogue with Ketheric Thorm.",
+      "Quote: Upstairs I would plant a seed that would pay off in just a little bit, just a hint of doubt in Ketheric's mind."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 4,
+    "segment_label": "ketheric_thorm_confrontation",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "friction",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

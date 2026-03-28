@@ -1,0 +1,822 @@
+{
+  "video_id": "747652fb14d05cfbb42e430cd644cb93",
+  "game_title": "Baldur's Gate 3",
+  "session_arc": "[0:00-5:00] The player begins in a focused, communicative state, transitioning into methodical exploration. Upon solving the puzzle, there's a brief sense of achievement, which is quickly replaced by frustration and disappointment when the game crashes.\n[4:00-9:00] The segment begins with focused exploration, which is abruptly interrupted by frustration and disappointment when the game crashes again. The player then enters a state of resignation as they navigate menus and wait for mod updates, showing clear signs of technical fatigue.\n[8:00-13:00] The segment begins with a sense of focused determination as the player attempts to fix the technical issues. However, as more errors occur, the player's mood shifts towards frustration and fatigue. By the end of the segment, they seem resigned to taking a break to address the problems more thoroughly.\n[12:00-17:00] The player remains focused and methodical, though slightly hesitant when deciding which files to delete. There is a sense of quiet anticipation as the game restarts.\n[16:00-20:00] The segment begins with a sense of lingering technical fatigue as the player manages mods. However, this is replaced by relief and anticipation upon reaching the main menu and successfully loading into the game. By the end, the player is back in a focused, explorative state, though slightly cautious about potential lost progress.",
+  "chunk_summaries": [
+    "The player and their team navigate through the Rosymorn Monastery, scavenging for items and seeking a specific quest location. After acquiring the Dawnmaster's Crest, the game unexpectedly crashes, forcing the player to reload.",
+    "The player continues their exploration of the Rosymorn Monastery, but the session is interrupted by a series of technical issues. After a second game crash, they must restart and manage their game mods to restore functionality.",
+    "The player continues their technical Troubleshooting after another game crash. They are forced to restart the game, manage their mods, and eventually pause the stream to address the issue more thoroughly.",
+    "The player continues troubleshooting their game mods while a 'Be Right Back' overlay is active on the stream. They successfully locate and delete problematic mod files and restart the game, reaching the main menu by the end of the segment.",
+    "After resolving mod issues and restarting the game, the player successfully re-enters the Rosymorn Monastery. They reunite with their teammate and resume exploring the area, specifically searching for loot that may have been lost due to the earlier game crash."
+  ],
+  "objectives": [
+    "Find and retrieve 'Lathander's Light' while looting the monastery area.",
+    "Retrace lost progress after a game crash and restore the game's stability by updating mods.",
+    "Restore the game to a stable, playable state by resolving mod conflicts.",
+    "Identify and remove corrupt or conflicting game mods to restore a stable game state.",
+    "Re-enter the game session and continue exploring Rosymorn Monastery."
+  ],
+  "active_threads": [
+    "Lost progress recovery",
+    "The Blood of Lathander quest",
+    "Game stability and mod issues",
+    "Game Stability Verification",
+    "Lost Progress Recovery",
+    "Lathander's Light Quest"
+  ],
+  "events": [
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 0.0,
+      "absolute_timestamp": "0:00",
+      "relative_timestamp": "0:00",
+      "visual_observation": "The player is in a camp-like setting within a stone ruin, managing their party and inventory.",
+      "audio_observation": "The player introduces the session and their teammates, discussing their previous progress.",
+      "player_expression": null,
+      "event_description": "The session begins with the player recapping their journey to the Rosymorn Monastery and their goal to loot 'Lathander's Light'.",
+      "phase_kind": "idle",
+      "significance": "routine",
+      "segment_label": "monastery_camp"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 36.0,
+      "absolute_timestamp": "0:36",
+      "relative_timestamp": "0:36",
+      "visual_observation": "The player opens the character inventory menu to manage items and gear.",
+      "audio_observation": "The player and teammates discuss item distribution and character builds.",
+      "player_expression": null,
+      "event_description": "The player accesses the inventory menu to swap items between party members.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "inventory_management"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 43.0,
+      "absolute_timestamp": "0:43",
+      "relative_timestamp": "0:43",
+      "visual_observation": "The player's party explores the ruins of Rosymorn Monastery, jumping across gaps and ruins.",
+      "audio_observation": "The player mentions having a hammer and needing to find where to place it.",
+      "player_expression": null,
+      "event_description": "The party navigates the monastery ruins, using jumps to move through the environment.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "monastery_ruins_exploration"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 155.0,
+      "absolute_timestamp": "2:35",
+      "relative_timestamp": "2:35",
+      "visual_observation": "The party enters a room with a large stained-glass floor puzzle.",
+      "audio_observation": "The player notes finding the location for an item they were missing.",
+      "player_expression": null,
+      "event_description": "The player reaches the stained-glass window room and prepares to interact with a puzzle.",
+      "phase_kind": "puzzle",
+      "significance": "notable",
+      "segment_label": "stained_glass_puzzle"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 165.0,
+      "absolute_timestamp": "2:45",
+      "relative_timestamp": "2:45",
+      "visual_observation": "The player places an item on a pedestal, causing a flash of light and updating the quest.",
+      "audio_observation": "A sound effect plays as the item is placed, followed by the player looting a nearby chest.",
+      "player_expression": null,
+      "event_description": "The player successfully places a ceremonial weapon on its pedestal and loots the Dawnmaster's Crest.",
+      "phase_kind": "puzzle",
+      "significance": "pivotal",
+      "segment_label": "stained_glass_puzzle"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 268.0,
+      "absolute_timestamp": "4:28",
+      "relative_timestamp": "4:28",
+      "visual_observation": "The game screen cuts to a loading bar, which then transitions to the main menu.",
+      "audio_observation": "The player expresses surprise and frustration at being kicked/crashing.",
+      "player_expression": null,
+      "event_description": "The game crashes unexpectedly after the player loots a critical quest item.",
+      "phase_kind": "other",
+      "significance": "notable",
+      "segment_label": "game_crash"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 278.0,
+      "absolute_timestamp": "4:38",
+      "relative_timestamp": "0:38",
+      "visual_observation": "The Baldur's Gate 3 main menu screen with a skeleton figure in red robes.",
+      "audio_observation": "Player sighs and discusses the loss of progress, noting they hadn't saved after grabbing the quest item.",
+      "player_expression": "The player appears disappointed and resigned to replaying the segment.",
+      "event_description": "The player returns to the main menu and discusses the setback with their teammate.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "main_menu"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 489.0,
+      "absolute_timestamp": "8:09",
+      "relative_timestamp": "4:09",
+      "visual_observation": "The player character is back at the camp, and a loading screen is shown.",
+      "audio_observation": "The player and teammate discuss re-inviting each other and starting from the camp.",
+      "player_expression": "The player's face is neutral as they wait for the game to reload.",
+      "event_description": "The player re-enters the game and prepares to resume from a previous save point at the camp.",
+      "phase_kind": "loading",
+      "significance": "routine",
+      "segment_label": "camp_reload"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 501.0,
+      "absolute_timestamp": "8:21",
+      "relative_timestamp": "4:21",
+      "visual_observation": "A 'Mod Verification' menu screen with 'FaerunColors' and 'Fate Series Archer' mods listed.",
+      "audio_observation": "The player comments on the need to update mods, saying, \"Fucking dammit. Fate does take a little bit to get itself sorted.\"",
+      "player_expression": "The player shows signs of frustration, resting their head on their hand.",
+      "event_description": "The player must manage and update their game mods to resolve the issues that caused the crashes.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "mod_management"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 540.0,
+      "absolute_timestamp": "9:00",
+      "relative_timestamp": "1:00",
+      "visual_observation": "An error message is shown, stating 'Process cannot access the file because it is being used by another process'.",
+      "audio_observation": "The player is heard expressing frustration and disappointment as they encounter yet another error.",
+      "player_expression": "The player's avatar is seen in the corner, they appear frustrated and are gesturing.",
+      "event_description": "The player encounters a file access error while trying to update their mods.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "mod_manager"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 585.0,
+      "absolute_timestamp": "9:45",
+      "relative_timestamp": "1:45",
+      "visual_observation": "The game's loading screen is shown, but an error message soon appears, stating 'Failed to join: installed mods do not match the session's mods'.",
+      "audio_observation": "The player is heard talking to their teammate about the error and trying to find a solution.",
+      "player_expression": "The player's avatar is seen in the corner, they appear tired and are talking.",
+      "event_description": "The player attempts to join a game session but is prevented by a mod mismatch error.",
+      "phase_kind": "loading",
+      "significance": "notable",
+      "segment_label": "session_join"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 600.0,
+      "absolute_timestamp": "10:00",
+      "relative_timestamp": "2:00",
+      "visual_observation": "The player is back in the mod manager, looking at the 'Fate Series Archer' mod.",
+      "audio_observation": "The player is heard discussing the mod with their teammate and trying to remember how they fixed it before.",
+      "player_expression": "The player's avatar is seen in the corner, they appear to be searching for information and are talking.",
+      "event_description": "The player focuses on a specific mod, 'Fate Series Archer', as a potential source of the conflict.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "mod_manager"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 700.0,
+      "absolute_timestamp": "11:40",
+      "relative_timestamp": "3:40",
+      "visual_observation": "The screen shows a 'Be Right Back' message over a piece of game art.",
+      "audio_observation": "The player is heard explaining to the viewers that they need to take a break to fix the technical issues.",
+      "player_expression": "The player's avatar is still visible in the corner, but they are no longer actively playing.",
+      "event_description": "The player decides to pause the stream and take a 'Be Right Back' break to focus on resolving the mod issues.",
+      "phase_kind": "other",
+      "significance": "pivotal",
+      "segment_label": "brb_break"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 780.0,
+      "absolute_timestamp": "13:00",
+      "relative_timestamp": "1:00",
+      "visual_observation": "The 'Be Right Back' overlay remains unchanged.",
+      "audio_observation": "The player continues to narrate their file directory navigation.",
+      "player_expression": "None",
+      "event_description": "The player successfully navigates to the Larian Studios local folder to locate the 'Mods' directory.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "mod_troubleshooting"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 875.0,
+      "absolute_timestamp": "14:35",
+      "relative_timestamp": "2:35",
+      "visual_observation": "The 'Be Right Back' overlay remains unchanged.",
+      "audio_observation": "The player debates whether to delete one or all files related to the 'Archer' mod.",
+      "player_expression": "None",
+      "event_description": "The player identifies residual '.pak' files related to a mod and decides to delete them.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "mod_troubleshooting"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 936.0,
+      "absolute_timestamp": "15:36",
+      "relative_timestamp": "3:36",
+      "visual_observation": "The 'Be Right Back' overlay remains; the game's opening cinematic begins to play in the background.",
+      "audio_observation": "The player stops talking as the game's introductory music and sound effects play.",
+      "player_expression": "None",
+      "event_description": "The player restarts Baldur's Gate 3 after cleaning up the mod directory.",
+      "phase_kind": "loading",
+      "significance": "pivotal",
+      "segment_label": "game_restart"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 970.0,
+      "absolute_timestamp": "16:10",
+      "relative_timestamp": "4:10",
+      "visual_observation": "The 'Be Right Back' overlay is still active over the game's main menu.",
+      "audio_observation": "The main menu music is clearly audible.",
+      "player_expression": "None",
+      "event_description": "The game reaches the main menu, indicating that the initial launch was successful.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "game_restart"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1073.0,
+      "absolute_timestamp": "17:53",
+      "relative_timestamp": "1:53",
+      "visual_observation": "The Baldur's Gate 3 main menu is visible.",
+      "audio_observation": "The player sounds relieved to have reached the menu.",
+      "player_expression": "The player's avatar is smiling and looking more relaxed.",
+      "event_description": "The player successfully reaches the game's main menu after troubleshooting.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "main_menu"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1084.0,
+      "absolute_timestamp": "18:04",
+      "relative_timestamp": "2:04",
+      "visual_observation": "The in-game Mod Manager menu is open.",
+      "audio_observation": "One teammate mentions finding a new armor set mod.",
+      "player_expression": "The player's avatar continues to look relaxed as they navigate the menu.",
+      "event_description": "The player explores the Mod Manager to ensure everything is set up correctly.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "mod_manager"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1117.0,
+      "absolute_timestamp": "18:37",
+      "relative_timestamp": "2:37",
+      "visual_observation": "A loading screen showing Baldur's Gate 3 artwork and a progress bar.",
+      "audio_observation": "The player mentions sending and receiving game invites.",
+      "player_expression": "The player's avatar is looking expectantly at the screen.",
+      "event_description": "The player joins the multiplayer session and waits for the game to load.",
+      "phase_kind": "loading",
+      "significance": "pivotal",
+      "segment_label": "multiplayer_load"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1151.0,
+      "absolute_timestamp": "19:11",
+      "relative_timestamp": "3:11",
+      "visual_observation": "The player's character is at the camp, surrounded by companions and pets.",
+      "audio_observation": "The player confirms they are 'in' and reuniting with their team.",
+      "player_expression": "The player's avatar is smiling and active.",
+      "event_description": "The player successfully enters the game world at the camp.",
+      "phase_kind": "exploration",
+      "significance": "notable",
+      "segment_label": "camp_exploration"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1170.0,
+      "absolute_timestamp": "19:30",
+      "relative_timestamp": "3:30",
+      "visual_observation": "The player's character is exploring the bloody courtyard of Rosymorn Monastery.",
+      "audio_observation": "No player audio.",
+      "player_expression": "The player's avatar is focused on the screen.",
+      "event_description": "The player returns to the Rosymorn Monastery and begins searching the area.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "rosymorn_monastery"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1181.0,
+      "absolute_timestamp": "19:41",
+      "relative_timestamp": "3:41",
+      "visual_observation": "The player's character opens a wooden crate.",
+      "audio_observation": "The player notes that a crate is empty this time.",
+      "player_expression": "The player's avatar shows a brief moment of surprise/disappointment.",
+      "event_description": "The player loots several crates in the monastery courtyard.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "rosymorn_monastery"
+    }
+  ],
+  "thread_records": [
+    {
+      "source_chunk_index": 0,
+      "thread_name": "Lost progress recovery",
+      "evidence": "The player explicitly mentions they hadn't saved after getting the Dawnmaster's Crest.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 0,
+      "thread_name": "The Blood of Lathander quest",
+      "evidence": "The journal update 'Find the Blood of Lathander' was triggered just before the crash.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 1,
+      "thread_name": "Lost progress recovery",
+      "evidence": "The player mentions having to retrace their steps from the camp after the crash.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 1,
+      "thread_name": "Game stability and mod issues",
+      "evidence": "The player is actively updating mods to prevent further crashes.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 2,
+      "thread_name": "Game stability and mod issues",
+      "evidence": "The player is still dealing with mod conflicts and error messages at the end of the segment.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 2,
+      "thread_name": "Lost progress recovery",
+      "evidence": "The player has not yet been able to successfully load back into the game and resume their progress.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 3,
+      "thread_name": "Game Stability Verification",
+      "evidence": "The player has reached the main menu but has not yet loaded a save to confirm the game is stable.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 3,
+      "thread_name": "Lost Progress Recovery",
+      "evidence": "Once the game is stable, the player still needs to re-play the sections lost due to the earlier crashes.",
+      "current_status": "stalled"
+    },
+    {
+      "source_chunk_index": 4,
+      "thread_name": "Lathander's Light Quest",
+      "evidence": "The player has returned to Rosymorn Monastery, the location of the quest.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 4,
+      "thread_name": "Lost Progress Recovery",
+      "evidence": "The player is actively re-looting areas they had previously explored before the crash.",
+      "current_status": "active"
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_index": 0,
+      "start_seconds": 0.0,
+      "end_seconds": 300.0,
+      "result": {
+        "chunk_summary": "The player and their team navigate through the Rosymorn Monastery, scavenging for items and seeking a specific quest location. After acquiring the Dawnmaster's Crest, the game unexpectedly crashes, forcing the player to reload.",
+        "player_objective": "Find and retrieve 'Lathander's Light' while looting the monastery area.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player is in a camp-like setting within a stone ruin, managing their party and inventory.",
+            "audio_observation": "The player introduces the session and their teammates, discussing their previous progress.",
+            "player_expression": null,
+            "event_description": "The session begins with the player recapping their journey to the Rosymorn Monastery and their goal to loot 'Lathander's Light'.",
+            "phase_kind": "idle",
+            "significance": "routine",
+            "segment_label": "monastery_camp"
+          },
+          {
+            "relative_timestamp": "0:36",
+            "visual_observation": "The player opens the character inventory menu to manage items and gear.",
+            "audio_observation": "The player and teammates discuss item distribution and character builds.",
+            "player_expression": null,
+            "event_description": "The player accesses the inventory menu to swap items between party members.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "inventory_management"
+          },
+          {
+            "relative_timestamp": "0:43",
+            "visual_observation": "The player's party explores the ruins of Rosymorn Monastery, jumping across gaps and ruins.",
+            "audio_observation": "The player mentions having a hammer and needing to find where to place it.",
+            "player_expression": null,
+            "event_description": "The party navigates the monastery ruins, using jumps to move through the environment.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "monastery_ruins_exploration"
+          },
+          {
+            "relative_timestamp": "2:35",
+            "visual_observation": "The party enters a room with a large stained-glass floor puzzle.",
+            "audio_observation": "The player notes finding the location for an item they were missing.",
+            "player_expression": null,
+            "event_description": "The player reaches the stained-glass window room and prepares to interact with a puzzle.",
+            "phase_kind": "puzzle",
+            "significance": "notable",
+            "segment_label": "stained_glass_puzzle"
+          },
+          {
+            "relative_timestamp": "2:45",
+            "visual_observation": "The player places an item on a pedestal, causing a flash of light and updating the quest.",
+            "audio_observation": "A sound effect plays as the item is placed, followed by the player looting a nearby chest.",
+            "player_expression": null,
+            "event_description": "The player successfully places a ceremonial weapon on its pedestal and loots the Dawnmaster's Crest.",
+            "phase_kind": "puzzle",
+            "significance": "pivotal",
+            "segment_label": "stained_glass_puzzle"
+          },
+          {
+            "relative_timestamp": "4:28",
+            "visual_observation": "The game screen cuts to a loading bar, which then transitions to the main menu.",
+            "audio_observation": "The player expresses surprise and frustration at being kicked/crashing.",
+            "player_expression": null,
+            "event_description": "The game crashes unexpectedly after the player loots a critical quest item.",
+            "phase_kind": "other",
+            "significance": "notable",
+            "segment_label": "game_crash"
+          },
+          {
+            "relative_timestamp": "4:40",
+            "visual_observation": "The main menu for Baldur's Gate 3 is shown with an error message.",
+            "audio_observation": "The player realizes they haven't saved since getting the crest and will have to retrace their steps.",
+            "player_expression": null,
+            "event_description": "The player sits at the main menu, acknowledging the loss of progress due to the crash.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "main_menu_reload"
+          }
+        ],
+        "emotional_trajectory": "The player begins in a focused, communicative state, transitioning into methodical exploration. Upon solving the puzzle, there's a brief sense of achievement, which is quickly replaced by frustration and disappointment when the game crashes.",
+        "pacing_breakdown": "Roughly 10% was spent in introductory dialogue, 15% in inventory management, 55% in active exploration and puzzle solving, and 20% dealing with a game crash and the main menu.",
+        "carryover_threads": [
+          {
+            "thread_name": "Lost progress recovery",
+            "evidence": "The player explicitly mentions they hadn't saved after getting the Dawnmaster's Crest.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "The Blood of Lathander quest",
+            "evidence": "The journal update 'Find the Blood of Lathander' was triggered just before the crash.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 1,
+      "start_seconds": 240.0,
+      "end_seconds": 540.0,
+      "result": {
+        "chunk_summary": "The player continues their exploration of the Rosymorn Monastery, but the session is interrupted by a series of technical issues. After a second game crash, they must restart and manage their game mods to restore functionality.",
+        "player_objective": "Retrace lost progress after a game crash and restore the game's stability by updating mods.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player character, a high elf, explores the Rosymorn Monastery area, specifically near an enchanted door and broken cabinets.",
+            "audio_observation": "Player discusses potential locations of items while game characters' voices are heard in the background.",
+            "player_expression": "The player is engaged, leaning forward slightly as they navigate the area.",
+            "event_description": "The player explores the monastery and loots several items from the environment.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "monastery_exploration"
+          },
+          {
+            "relative_timestamp": "0:27",
+            "visual_observation": "A loading screen appears unexpectedly during exploration.",
+            "audio_observation": "The player expresses surprise and confusion, saying, \"Oh, what? What happened? I got kicked.\"",
+            "player_expression": "The player's expression shifts to surprise and mild frustration.",
+            "event_description": "The game crashes for a second time, abruptly ending the player's exploration.",
+            "phase_kind": "other",
+            "significance": "pivotal",
+            "segment_label": "game_crash"
+          },
+          {
+            "relative_timestamp": "0:38",
+            "visual_observation": "The Baldur's Gate 3 main menu screen with a skeleton figure in red robes.",
+            "audio_observation": "Player sighs and discusses the loss of progress, noting they hadn't saved after grabbing the quest item.",
+            "player_expression": "The player appears disappointed and resigned to replaying the segment.",
+            "event_description": "The player returns to the main menu and discusses the setback with their teammate.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "main_menu"
+          },
+          {
+            "relative_timestamp": "4:09",
+            "visual_observation": "The player character is back at the camp, and a loading screen is shown.",
+            "audio_observation": "The player and teammate discuss re-inviting each other and starting from the camp.",
+            "player_expression": "The player's face is neutral as they wait for the game to reload.",
+            "event_description": "The player re-enters the game and prepares to resume from a previous save point at the camp.",
+            "phase_kind": "loading",
+            "significance": "routine",
+            "segment_label": "camp_reload"
+          },
+          {
+            "relative_timestamp": "4:21",
+            "visual_observation": "A 'Mod Verification' menu screen with 'FaerunColors' and 'Fate Series Archer' mods listed.",
+            "audio_observation": "The player comments on the need to update mods, saying, \"Fucking dammit. Fate does take a little bit to get itself sorted.\"",
+            "player_expression": "The player shows signs of frustration, resting their head on their hand.",
+            "event_description": "The player must manage and update their game mods to resolve the issues that caused the crashes.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "mod_management"
+          }
+        ],
+        "emotional_trajectory": "The segment begins with focused exploration, which is abruptly interrupted by frustration and disappointment when the game crashes again. The player then enters a state of resignation as they navigate menus and wait for mod updates, showing clear signs of technical fatigue.",
+        "pacing_breakdown": "Exploration accounted for approximately 10% of the segment, while the game crash and loading screens took up 15%. The majority of the time, around 75%, was spent in the main menu and mod management screens as the player worked to restart the session.",
+        "carryover_threads": [
+          {
+            "thread_name": "Lost progress recovery",
+            "evidence": "The player mentions having to retrace their steps from the camp after the crash.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Game stability and mod issues",
+            "evidence": "The player is actively updating mods to prevent further crashes.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 2,
+      "start_seconds": 480.0,
+      "end_seconds": 780.0,
+      "result": {
+        "chunk_summary": "The player continues their technical Troubleshooting after another game crash. They are forced to restart the game, manage their mods, and eventually pause the stream to address the issue more thoroughly.",
+        "player_objective": "Restore the game to a stable, playable state by resolving mod conflicts.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The game's main menu is visible, showing the player's party and the game's title.",
+            "audio_observation": "The player is heard talking to another person, likely a teammate, about having to restart from a previous save.",
+            "player_expression": "The player is seen in a corner of the screen, they appear to be talking and gesturing, they are wearing a hat and have blue skin, likely an avatar.",
+            "event_description": "The player restarts the game and begins communicating with their teammate about the previous crash.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "main_menu"
+          },
+          {
+            "relative_timestamp": "0:20",
+            "visual_observation": "The 'Mod Verification' screen is shown, listing various mods and their status.",
+            "audio_observation": "The player is heard discussing the mod updates and the issues they're experiencing.",
+            "player_expression": "The player's avatar is seen in the corner, they appear to be focused and are talking.",
+            "event_description": "The player attempts to update their mods through the game's built-in mod manager.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "mod_manager"
+          },
+          {
+            "relative_timestamp": "1:00",
+            "visual_observation": "An error message is shown, stating 'Process cannot access the file because it is being used by another process'.",
+            "audio_observation": "The player is heard expressing frustration and disappointment as they encounter yet another error.",
+            "player_expression": "The player's avatar is seen in the corner, they appear frustrated and are gesturing.",
+            "event_description": "The player encounters a file access error while trying to update their mods.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "mod_manager"
+          },
+          {
+            "relative_timestamp": "1:45",
+            "visual_observation": "The game's loading screen is shown, but an error message soon appears, stating 'Failed to join: installed mods do not match the session's mods'.",
+            "audio_observation": "The player is heard talking to their teammate about the error and trying to find a solution.",
+            "player_expression": "The player's avatar is seen in the corner, they appear tired and are talking.",
+            "event_description": "The player attempts to join a game session but is prevented by a mod mismatch error.",
+            "phase_kind": "loading",
+            "significance": "notable",
+            "segment_label": "session_join"
+          },
+          {
+            "relative_timestamp": "2:00",
+            "visual_observation": "The player is back in the mod manager, looking at the 'Fate Series Archer' mod.",
+            "audio_observation": "The player is heard discussing the mod with their teammate and trying to remember how they fixed it before.",
+            "player_expression": "The player's avatar is seen in the corner, they appear to be searching for information and are talking.",
+            "event_description": "The player focuses on a specific mod, 'Fate Series Archer', as a potential source of the conflict.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "mod_manager"
+          },
+          {
+            "relative_timestamp": "3:40",
+            "visual_observation": "The screen shows a 'Be Right Back' message over a piece of game art.",
+            "audio_observation": "The player is heard explaining to the viewers that they need to take a break to fix the technical issues.",
+            "player_expression": "The player's avatar is still visible in the corner, but they are no longer actively playing.",
+            "event_description": "The player decides to pause the stream and take a 'Be Right Back' break to focus on resolving the mod issues.",
+            "phase_kind": "other",
+            "significance": "pivotal",
+            "segment_label": "brb_break"
+          }
+        ],
+        "emotional_trajectory": "The segment begins with a sense of focused determination as the player attempts to fix the technical issues. However, as more errors occur, the player's mood shifts towards frustration and fatigue. By the end of the segment, they seem resigned to taking a break to address the problems more thoroughly.",
+        "pacing_breakdown": "The segment is entirely dominated by technical troubleshooting and menu navigation. Approximately 80% of the time is spent in various game menus, particularly the mod manager, and the remaining 20% is spent on loading screens and error messages. There is no active exploration or combat in this segment.",
+        "carryover_threads": [
+          {
+            "thread_name": "Game stability and mod issues",
+            "evidence": "The player is still dealing with mod conflicts and error messages at the end of the segment.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Lost progress recovery",
+            "evidence": "The player has not yet been able to successfully load back into the game and resume their progress.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": false
+      }
+    },
+    {
+      "chunk_index": 3,
+      "start_seconds": 720.0,
+      "end_seconds": 1020.0,
+      "result": {
+        "chunk_summary": "The player continues troubleshooting their game mods while a 'Be Right Back' overlay is active on the stream. They successfully locate and delete problematic mod files and restart the game, reaching the main menu by the end of the segment.",
+        "player_objective": "Identify and remove corrupt or conflicting game mods to restore a stable game state.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "'Be Right Back' overlay with the Baldur's Gate 3 key art.",
+            "audio_observation": "The player is narrating their navigation through Windows file directories.",
+            "player_expression": "None",
+            "event_description": "The player begins searching for the 'AppData' folder to access the game's local mod files.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "mod_troubleshooting"
+          },
+          {
+            "relative_timestamp": "1:00",
+            "visual_observation": "The 'Be Right Back' overlay remains unchanged.",
+            "audio_observation": "The player continues to narrate their file directory navigation.",
+            "player_expression": "None",
+            "event_description": "The player successfully navigates to the Larian Studios local folder to locate the 'Mods' directory.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "mod_troubleshooting"
+          },
+          {
+            "relative_timestamp": "2:35",
+            "visual_observation": "The 'Be Right Back' overlay remains unchanged.",
+            "audio_observation": "The player debates whether to delete one or all files related to the 'Archer' mod.",
+            "player_expression": "None",
+            "event_description": "The player identifies residual '.pak' files related to a mod and decides to delete them.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "mod_troubleshooting"
+          },
+          {
+            "relative_timestamp": "3:36",
+            "visual_observation": "The 'Be Right Back' overlay remains; the game's opening cinematic begins to play in the background.",
+            "audio_observation": "The player stops talking as the game's introductory music and sound effects play.",
+            "player_expression": "None",
+            "event_description": "The player restarts Baldur's Gate 3 after cleaning up the mod directory.",
+            "phase_kind": "loading",
+            "significance": "pivotal",
+            "segment_label": "game_restart"
+          },
+          {
+            "relative_timestamp": "4:10",
+            "visual_observation": "The 'Be Right Back' overlay is still active over the game's main menu.",
+            "audio_observation": "The main menu music is clearly audible.",
+            "player_expression": "None",
+            "event_description": "The game reaches the main menu, indicating that the initial launch was successful.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "game_restart"
+          }
+        ],
+        "emotional_trajectory": "The player remains focused and methodical, though slightly hesitant when deciding which files to delete. There is a sense of quiet anticipation as the game restarts.",
+        "pacing_breakdown": "Approximately 75% of the segment is spent on technical troubleshooting and file management (menu phase), while the remaining 25% consists of loading the game and reaching the main menu.",
+        "carryover_threads": [
+          {
+            "thread_name": "Game Stability Verification",
+            "evidence": "The player has reached the main menu but has not yet loaded a save to confirm the game is stable.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Lost Progress Recovery",
+            "evidence": "Once the game is stable, the player still needs to re-play the sections lost due to the earlier crashes.",
+            "current_status": "stalled"
+          }
+        ],
+        "has_high_interest_moments": false
+      }
+    },
+    {
+      "chunk_index": 4,
+      "start_seconds": 960.0,
+      "end_seconds": 1200.0,
+      "result": {
+        "chunk_summary": "After resolving mod issues and restarting the game, the player successfully re-enters the Rosymorn Monastery. They reunite with their teammate and resume exploring the area, specifically searching for loot that may have been lost due to the earlier game crash.",
+        "player_objective": "Re-enter the game session and continue exploring Rosymorn Monastery.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "BRB screen with Baldur's Gate 3 artwork.",
+            "audio_observation": "The player and their teammates are discussing mods.",
+            "player_expression": null,
+            "event_description": "The player is still in the process of restarting the game and managing mods while the stream is paused.",
+            "phase_kind": "idle",
+            "significance": "routine",
+            "segment_label": "mod_management"
+          },
+          {
+            "relative_timestamp": "1:53",
+            "visual_observation": "The Baldur's Gate 3 main menu is visible.",
+            "audio_observation": "The player sounds relieved to have reached the menu.",
+            "player_expression": "The player's avatar is smiling and looking more relaxed.",
+            "event_description": "The player successfully reaches the game's main menu after troubleshooting.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "main_menu"
+          },
+          {
+            "relative_timestamp": "2:04",
+            "visual_observation": "The in-game Mod Manager menu is open.",
+            "audio_observation": "One teammate mentions finding a new armor set mod.",
+            "player_expression": "The player's avatar continues to look relaxed as they navigate the menu.",
+            "event_description": "The player explores the Mod Manager to ensure everything is set up correctly.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "mod_manager"
+          },
+          {
+            "relative_timestamp": "2:37",
+            "visual_observation": "A loading screen showing Baldur's Gate 3 artwork and a progress bar.",
+            "audio_observation": "The player mentions sending and receiving game invites.",
+            "player_expression": "The player's avatar is looking expectantly at the screen.",
+            "event_description": "The player joins the multiplayer session and waits for the game to load.",
+            "phase_kind": "loading",
+            "significance": "pivotal",
+            "segment_label": "multiplayer_load"
+          },
+          {
+            "relative_timestamp": "3:11",
+            "visual_observation": "The player's character is at the camp, surrounded by companions and pets.",
+            "audio_observation": "The player confirms they are 'in' and reuniting with their team.",
+            "player_expression": "The player's avatar is smiling and active.",
+            "event_description": "The player successfully enters the game world at the camp.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "camp_exploration"
+          },
+          {
+            "relative_timestamp": "3:30",
+            "visual_observation": "The player's character is exploring the bloody courtyard of Rosymorn Monastery.",
+            "audio_observation": "No player audio.",
+            "player_expression": "The player's avatar is focused on the screen.",
+            "event_description": "The player returns to the Rosymorn Monastery and begins searching the area.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "rosymorn_monastery"
+          },
+          {
+            "relative_timestamp": "3:41",
+            "visual_observation": "The player's character opens a wooden crate.",
+            "audio_observation": "The player notes that a crate is empty this time.",
+            "player_expression": "The player's avatar shows a brief moment of surprise/disappointment.",
+            "event_description": "The player loots several crates in the monastery courtyard.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "rosymorn_monastery"
+          }
+        ],
+        "emotional_trajectory": "The segment begins with a sense of lingering technical fatigue as the player manages mods. However, this is replaced by relief and anticipation upon reaching the main menu and successfully loading into the game. By the end, the player is back in a focused, explorative state, though slightly cautious about potential lost progress.",
+        "pacing_breakdown": "Approximately 45% of the segment was spent on technical troubleshooting and the 'Be Right Back' screen. 20% was spent in game menus, another 15% on loading screens, and the final 20% was dedicated to active exploration and looting in the game world.",
+        "carryover_threads": [
+          {
+            "thread_name": "Lathander's Light Quest",
+            "evidence": "The player has returned to Rosymorn Monastery, the location of the quest.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Lost Progress Recovery",
+            "evidence": "The player is actively re-looting areas they had previously explored before the crash.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": false
+      }
+    }
+  ]
+}

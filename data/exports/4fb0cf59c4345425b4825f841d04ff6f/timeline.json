@@ -1,0 +1,772 @@
+{
+  "video_id": "4fb0cf59c4345425b4825f841d04ff6f",
+  "game_title": "Baldur's Gate 3",
+  "session_arc": "[0:00-5:00] The player starts with a sense of creative focus during character creation, transitions into passive observation during the cutscene, and ends with active engagement and slight excitement as combat begins.\n[4:00-9:00] The player starts with mild frustration due to the locked gate, shifts into a state of high concentration during combat, and ends the segment feeling curious and relaxed during the NPC interaction.\n[8:00-13:00] The player begins with calm exploration, transitions into a state of heightened alertness during combat, experiences brief analytical focus in the menu, and ends with a satisfying release of tension after solving the bridge puzzle.\n[12:00-17:00] The segment begins with high tension and focused concentration during the mini-boss fight, followed by a sense of relief and satisfaction upon victory. It concludes with curious engagement during exploration and a feeling of anticipation as the player reaches the final objective.\n[16:00-20:00] The player transitions from a sense of relief and accomplishment at the start of the chunk to a state of relaxed observation during the cutscene. This shifts into a focused, goal-oriented mindset during the map navigation and finally into a state of curious engagement upon arriving at the new hub.",
+  "chunk_summaries": [
+    "The player begins the session by navigating through the initial character creation and opening cinematic. After gaining control, they explore the starting area, interact with basic environment objects, and engage in their first tutorial combat encounter.",
+    "The player continues navigating the dungeon corridors, encountering a locked gate that requires a lever search. After a brief combat encounter with two guards, they locate the lever and proceed to a more open garden area where they encounter their first major NPC dialogue.",
+    "The player exits the garden and enters a series of fortified corridors, facing increasing resistance from guards. After a series of combat encounters, they reach a bridge where they must solve a weight-based pressure plate puzzle to proceed.",
+    "The player crosses the bridge and enters the final dungeon courtyard, encountering a mini-boss guard. After a challenging fight, the player explores a hidden side room containing a lore scroll and a loot chest before reaching the final escape gate.",
+    "The player interacts with the final escape gate and triggers an exit cinematic. Upon reaching the world map, they navigate through a fast-travel menu to a new hub area where they initiate conversation with a merchant."
+  ],
+  "objectives": [
+    "Complete the tutorial and learn the basic movement and combat mechanics.",
+    "Find a way to open the locked gate and exit the dungeon sub-levels.",
+    "Navigate through the fortified corridors and cross the bridge to continue the escape.",
+    "Defeat the courtyard guardian and find the exit gate to complete the dungeon escape.",
+    "Complete the dungeon escape sequence and reach the first major hub area."
+  ],
+  "active_threads": [
+    "npc_information",
+    "inventory_management"
+  ],
+  "events": [
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 0.0,
+      "absolute_timestamp": "0:00",
+      "relative_timestamp": "0:00",
+      "visual_observation": "Character creation screen with various sliders and preset options.",
+      "audio_observation": "Ambient menu music and player discussing aesthetic choices.",
+      "player_expression": "Focused expression, leaning forward towards the monitor.",
+      "event_description": "The player spends time customizing their avatar's appearance and starting class.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "character_creation"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 85.0,
+      "absolute_timestamp": "1:25",
+      "relative_timestamp": "1:25",
+      "visual_observation": "Cineamtic cutscene showing the world's backstory and the protagonist waking up.",
+      "audio_observation": "Dramatic orchestral score and narrator voiceover.",
+      "player_expression": "Neutral, watching the screen intently.",
+      "event_description": "The opening cutscene plays, establishing the game's setting and narrative premise.",
+      "phase_kind": "cutscene",
+      "significance": "pivotal",
+      "segment_label": "opening_cinematic"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 165.0,
+      "absolute_timestamp": "2:45",
+      "relative_timestamp": "2:45",
+      "visual_observation": "Player character stands up in a dark, stone-walled prison cell.",
+      "audio_observation": "Sound of dripping water and light footsteps on stone.",
+      "player_expression": "Small smile, shifting posture to get comfortable for gameplay.",
+      "event_description": "The player gains control of the character and begins moving around the starting room.",
+      "phase_kind": "exploration",
+      "significance": "notable",
+      "segment_label": "starting_cell"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 195.0,
+      "absolute_timestamp": "3:15",
+      "relative_timestamp": "3:15",
+      "visual_observation": "The player approaches a glowing object on the floor and picks up a rusted key.",
+      "audio_observation": "Item pickup sound effect; player notes the item name out loud.",
+      "player_expression": "Raised eyebrows, nodding.",
+      "event_description": "The player discovers the first key item required to progress out of the starting room.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "starting_cell"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 250.0,
+      "absolute_timestamp": "4:10",
+      "relative_timestamp": "4:10",
+      "visual_observation": "A single weak enemy spawns in the hallway outside the cell.",
+      "audio_observation": "Combat music triggers; player exclaims 'Here we go!'",
+      "player_expression": "Concentrated, mouth slightly open.",
+      "event_description": "The player engages in the first melee combat encounter using light attacks.",
+      "phase_kind": "combat",
+      "significance": "routine",
+      "segment_label": "dungeon_hallway"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 315.0,
+      "absolute_timestamp": "5:15",
+      "relative_timestamp": "1:15",
+      "visual_observation": "Two armored guards draw swords and approach the player in a narrow side hallway.",
+      "audio_observation": "Clashing of steel and grunts of effort from the player character.",
+      "player_expression": "Tight-lipped, focused expression with rapid eye movement.",
+      "event_description": "A combat encounter occurs as the player searches for the gate lever.",
+      "phase_kind": "combat",
+      "significance": "routine",
+      "segment_label": "dungeon_side_hallway"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 365.0,
+      "absolute_timestamp": "6:05",
+      "relative_timestamp": "2:05",
+      "visual_observation": "The player pulls a wall-mounted lever, and a cutscene shows the main gate sliding open.",
+      "audio_observation": "Loud grinding sound of stone and metal; player says 'There we go.'",
+      "player_expression": "A slight smile and visible relaxation of shoulders.",
+      "event_description": "The player successfully finds and activates the lever to progress.",
+      "phase_kind": "exploration",
+      "significance": "notable",
+      "segment_label": "dungeon_gate_puzzle"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 430.0,
+      "absolute_timestamp": "7:10",
+      "relative_timestamp": "3:10",
+      "visual_observation": "Player enters a new area with vegetation and sunlight filtering through ceiling grates.",
+      "audio_observation": "Ambient birdsong and wind sounds replace the dungeon echoes.",
+      "player_expression": "Eyes widen slightly at the change in scenery.",
+      "event_description": "The player transitions from the dark dungeon into the 'Prisoner's Garden'.",
+      "phase_kind": "exploration",
+      "significance": "notable",
+      "segment_label": "prisoners_garden"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 495.0,
+      "absolute_timestamp": "8:15",
+      "relative_timestamp": "4:15",
+      "visual_observation": "An NPC in tattered robes stands by a fountain; a 'Talk' prompt appears.",
+      "audio_observation": "The NPC begins speaking in a gravelly voice: 'Another one seeking the sky?'",
+      "player_expression": "Neutral, resting chin on hand while listening.",
+      "event_description": "The player initiates the first narrative dialogue with an NPC.",
+      "phase_kind": "dialogue",
+      "significance": "pivotal",
+      "segment_label": "garden_fountain_npc"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 545.0,
+      "absolute_timestamp": "9:05",
+      "relative_timestamp": "1:05",
+      "visual_observation": "Two armored guards draw swords and charge at the player character.",
+      "audio_observation": "Clashing sword sounds, player grunts 'Whoa, there's more of them.'",
+      "player_expression": "Slightly raised eyebrows, leaning forward.",
+      "event_description": "A combat encounter begins with two guards in the corridor.",
+      "phase_kind": "combat",
+      "significance": "notable",
+      "segment_label": "fortified_corridors"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 620.0,
+      "absolute_timestamp": "10:20",
+      "relative_timestamp": "2:20",
+      "visual_observation": "The player opens the character inventory menu to equip a better sword found on a guard.",
+      "audio_observation": "Clicking menu sounds, player mumbles 'This one has better stats.'",
+      "player_expression": "Concentrated, lips pursed.",
+      "event_description": "The player pauses to upgrade their equipment using the inventory menu.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "fortified_corridors"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 670.0,
+      "absolute_timestamp": "11:10",
+      "relative_timestamp": "3:10",
+      "visual_observation": "The player reaches a stone bridge with two large floor plates and a closed gate.",
+      "audio_observation": "Player sighs 'A puzzle. Great.'",
+      "player_expression": "Slight smile, head tilted to the side.",
+      "event_description": "The player discovers a pressure plate puzzle blocking the bridge path.",
+      "phase_kind": "puzzle",
+      "significance": "pivotal",
+      "segment_label": "bridge_puzzle"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 825.0,
+      "absolute_timestamp": "13:45",
+      "relative_timestamp": "1:45",
+      "visual_observation": "The guardian is defeated and dissolves into particles; the player's health bar is low.",
+      "audio_observation": "Player exhales loudly and says, 'That was close. I need to find some health.'",
+      "player_expression": "Wide smile, hands momentarily leave the controller to rub eyes.",
+      "event_description": "The courtyard guardian is defeated, allowing the player to explore the area freely.",
+      "phase_kind": "combat",
+      "significance": "pivotal",
+      "segment_label": "courtyard_guardian"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 855.0,
+      "absolute_timestamp": "14:15",
+      "relative_timestamp": "2:15",
+      "visual_observation": "The player opens the inventory menu and uses two health potions.",
+      "audio_observation": "Sound of liquid being consumed in-game. No player speech.",
+      "player_expression": "Neutral, focused expression.",
+      "event_description": "The player manages their health and resources after the combat encounter.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "inventory_management"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 910.0,
+      "absolute_timestamp": "15:10",
+      "relative_timestamp": "3:10",
+      "visual_observation": "The player walks behind a series of crates and discovers a wooden door leading to a side room.",
+      "audio_observation": "Player says, 'Wait, what's back here?'",
+      "player_expression": "Squinting at the screen, head tilted.",
+      "event_description": "The player discovers a hidden side room while exploring the courtyard.",
+      "phase_kind": "exploration",
+      "significance": "notable",
+      "segment_label": "hidden_side_room"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 945.0,
+      "absolute_timestamp": "15:45",
+      "relative_timestamp": "3:45",
+      "visual_observation": "The player interacts with a glowing scroll on a table and a large iron chest.",
+      "audio_observation": "Sound of parchment rustling and a heavy latch clicking open.",
+      "player_expression": "Nodding slowly, appearing satisfied.",
+      "event_description": "The player collects lore information and loot from the hidden room.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "hidden_side_room"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1005.0,
+      "absolute_timestamp": "16:45",
+      "relative_timestamp": "0:45",
+      "visual_observation": "A cinematic plays showing the character stepping out into a bright, sunlit forest.",
+      "audio_observation": "Orchestral music swells; ambient bird sounds and wind.",
+      "player_expression": "Leaning back in the chair, watching the screen with a neutral, appreciative expression.",
+      "event_description": "A cutscene marks the successful completion of the dungeon escape and the transition to the overworld.",
+      "phase_kind": "cutscene",
+      "significance": "notable",
+      "segment_label": "escape_cinematic"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1050.0,
+      "absolute_timestamp": "17:30",
+      "relative_timestamp": "1:30",
+      "visual_observation": "A stylized parchment map appears on screen with several locked icons and one active waypoint.",
+      "audio_observation": "Menu click sounds; player humming a short tune.",
+      "player_expression": "Eyes moving quickly as they scan the map icons; slight brow furrowing in concentration.",
+      "event_description": "The player opens the world map and selects the 'Highland Outpost' as their next destination.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "world_map_navigation"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1090.0,
+      "absolute_timestamp": "18:10",
+      "relative_timestamp": "2:10",
+      "visual_observation": "A loading screen featuring concept art of a mountain pass and a progress bar.",
+      "audio_observation": "Low ambient drone; silence from the player.",
+      "player_expression": "Checks phone briefly; looking away from the screen.",
+      "event_description": "The game loads the new environment for the Highland Outpost.",
+      "phase_kind": "loading",
+      "significance": "routine",
+      "segment_label": "loading_highland_outpost"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1125.0,
+      "absolute_timestamp": "18:45",
+      "relative_timestamp": "2:45",
+      "visual_observation": "The player character arrives at a bustling mountain camp with tents and NPCs.",
+      "audio_observation": "Background chatter of NPCs; the sound of a blacksmith's hammer.",
+      "player_expression": "Nods slightly; looking around at the new environment with interest.",
+      "event_description": "The player enters the Highland Outpost and begins looking for utility NPCs.",
+      "phase_kind": "exploration",
+      "significance": "notable",
+      "segment_label": "highland_outpost_hub"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1180.0,
+      "absolute_timestamp": "19:40",
+      "relative_timestamp": "3:40",
+      "visual_observation": "A dialogue camera zoom focuses on an NPC wearing a merchant's apron.",
+      "audio_observation": "Merchant NPC: 'Ah, a fresh face! Looking to trade?'",
+      "player_expression": "Slightly leans forward towards the monitor; focused expression.",
+      "event_description": "The player initiates a conversation with a local merchant to sell loot from the dungeon.",
+      "phase_kind": "dialogue",
+      "significance": "routine",
+      "segment_label": "highland_merchant_interaction"
+    }
+  ],
+  "thread_records": [
+    {
+      "source_chunk_index": 0,
+      "thread_name": "escape_the_dungeon",
+      "evidence": "The player is still moving through the initial hallway with locked doors visible ahead.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 1,
+      "thread_name": "escape_the_dungeon",
+      "evidence": "The player is now in the garden but hasn't yet reached the surface or exited the facility.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 1,
+      "thread_name": "npc_information",
+      "evidence": "The NPC dialogue is ongoing and hints at a larger world outside the prison.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 2,
+      "thread_name": "escape_the_dungeon",
+      "evidence": "The player has passed the gate but is still within the dungeon perimeter.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 2,
+      "thread_name": "npc_information",
+      "evidence": "The information provided by the garden NPC has not yet led to the mentioned 'hidden exit'.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 3,
+      "thread_name": "escape_the_dungeon",
+      "evidence": "The player is standing in front of the final gate but has not yet opened it.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 3,
+      "thread_name": "npc_information",
+      "evidence": "The lore scroll found in the side room mentions the NPC from the garden.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 4,
+      "thread_name": "escape_the_dungeon",
+      "evidence": "The player has physically left the dungeon and triggered the completion cinematic.",
+      "current_status": "resolved"
+    },
+    {
+      "source_chunk_index": 4,
+      "thread_name": "npc_information",
+      "evidence": "The player has begun interacting with a new set of NPCs in the Highland Outpost to learn about the next objective.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 4,
+      "thread_name": "inventory_management",
+      "evidence": "The player is currently engaged in dialogue with a merchant to sell accumulated loot.",
+      "current_status": "active"
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_index": 0,
+      "start_seconds": 0.0,
+      "end_seconds": 300.0,
+      "result": {
+        "chunk_summary": "The player begins the session by navigating through the initial character creation and opening cinematic. After gaining control, they explore the starting area, interact with basic environment objects, and engage in their first tutorial combat encounter.",
+        "player_objective": "Complete the tutorial and learn the basic movement and combat mechanics.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "Character creation screen with various sliders and preset options.",
+            "audio_observation": "Ambient menu music and player discussing aesthetic choices.",
+            "player_expression": "Focused expression, leaning forward towards the monitor.",
+            "event_description": "The player spends time customizing their avatar's appearance and starting class.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "character_creation"
+          },
+          {
+            "relative_timestamp": "1:25",
+            "visual_observation": "Cineamtic cutscene showing the world's backstory and the protagonist waking up.",
+            "audio_observation": "Dramatic orchestral score and narrator voiceover.",
+            "player_expression": "Neutral, watching the screen intently.",
+            "event_description": "The opening cutscene plays, establishing the game's setting and narrative premise.",
+            "phase_kind": "cutscene",
+            "significance": "pivotal",
+            "segment_label": "opening_cinematic"
+          },
+          {
+            "relative_timestamp": "2:45",
+            "visual_observation": "Player character stands up in a dark, stone-walled prison cell.",
+            "audio_observation": "Sound of dripping water and light footsteps on stone.",
+            "player_expression": "Small smile, shifting posture to get comfortable for gameplay.",
+            "event_description": "The player gains control of the character and begins moving around the starting room.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "starting_cell"
+          },
+          {
+            "relative_timestamp": "3:15",
+            "visual_observation": "The player approaches a glowing object on the floor and picks up a rusted key.",
+            "audio_observation": "Item pickup sound effect; player notes the item name out loud.",
+            "player_expression": "Raised eyebrows, nodding.",
+            "event_description": "The player discovers the first key item required to progress out of the starting room.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "starting_cell"
+          },
+          {
+            "relative_timestamp": "4:10",
+            "visual_observation": "A single weak enemy spawns in the hallway outside the cell.",
+            "audio_observation": "Combat music triggers; player exclaims 'Here we go!'",
+            "player_expression": "Concentrated, mouth slightly open.",
+            "event_description": "The player engages in the first melee combat encounter using light attacks.",
+            "phase_kind": "combat",
+            "significance": "routine",
+            "segment_label": "dungeon_hallway"
+          },
+          {
+            "relative_timestamp": "4:45",
+            "visual_observation": "Tutorial prompt appears on screen explaining the blocking mechanic.",
+            "audio_observation": "No player audio; sound of enemy sword hitting the player's shield.",
+            "player_expression": "Nodding in acknowledgement of the tutorial text.",
+            "event_description": "The player successfully executes a block against an incoming attack as instructed.",
+            "phase_kind": "tutorial",
+            "significance": "routine",
+            "segment_label": "dungeon_hallway"
+          }
+        ],
+        "emotional_trajectory": "The player starts with a sense of creative focus during character creation, transitions into passive observation during the cutscene, and ends with active engagement and slight excitement as combat begins.",
+        "pacing_breakdown": "The segment is divided into approximately 30% menu interaction, 25% cutscene, 25% exploration, and 20% combat and tutorial instruction.",
+        "carryover_threads": [
+          {
+            "thread_name": "escape_the_dungeon",
+            "evidence": "The player is still moving through the initial hallway with locked doors visible ahead.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 1,
+      "start_seconds": 240.0,
+      "end_seconds": 540.0,
+      "result": {
+        "chunk_summary": "The player continues navigating the dungeon corridors, encountering a locked gate that requires a lever search. After a brief combat encounter with two guards, they locate the lever and proceed to a more open garden area where they encounter their first major NPC dialogue.",
+        "player_objective": "Find a way to open the locked gate and exit the dungeon sub-levels.",
+        "events": [
+          {
+            "relative_timestamp": "0:22",
+            "visual_observation": "Player reaches a heavy iron gate that is locked; an interaction prompt appears saying 'Needs a lever'.",
+            "audio_observation": "Player says, 'Of course it's locked. Where's the switch?'",
+            "player_expression": "Furrows brow and leans closer to the monitor.",
+            "event_description": "The player hits a progression wall at a locked gate and begins searching for a mechanism.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "dungeon_gate_puzzle"
+          },
+          {
+            "relative_timestamp": "1:15",
+            "visual_observation": "Two armored guards draw swords and approach the player in a narrow side hallway.",
+            "audio_observation": "Clashing of steel and grunts of effort from the player character.",
+            "player_expression": "Tight-lipped, focused expression with rapid eye movement.",
+            "event_description": "A combat encounter occurs as the player searches for the gate lever.",
+            "phase_kind": "combat",
+            "significance": "routine",
+            "segment_label": "dungeon_side_hallway"
+          },
+          {
+            "relative_timestamp": "2:05",
+            "visual_observation": "The player pulls a wall-mounted lever, and a cutscene shows the main gate sliding open.",
+            "audio_observation": "Loud grinding sound of stone and metal; player says 'There we go.'",
+            "player_expression": "A slight smile and visible relaxation of shoulders.",
+            "event_description": "The player successfully finds and activates the lever to progress.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "dungeon_gate_puzzle"
+          },
+          {
+            "relative_timestamp": "3:10",
+            "visual_observation": "Player enters a new area with vegetation and sunlight filtering through ceiling grates.",
+            "audio_observation": "Ambient birdsong and wind sounds replace the dungeon echoes.",
+            "player_expression": "Eyes widen slightly at the change in scenery.",
+            "event_description": "The player transitions from the dark dungeon into the 'Prisoner's Garden'.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "prisoners_garden"
+          },
+          {
+            "relative_timestamp": "4:15",
+            "visual_observation": "An NPC in tattered robes stands by a fountain; a 'Talk' prompt appears.",
+            "audio_observation": "The NPC begins speaking in a gravelly voice: 'Another one seeking the sky?'",
+            "player_expression": "Neutral, resting chin on hand while listening.",
+            "event_description": "The player initiates the first narrative dialogue with an NPC.",
+            "phase_kind": "dialogue",
+            "significance": "pivotal",
+            "segment_label": "garden_fountain_npc"
+          }
+        ],
+        "emotional_trajectory": "The player starts with mild frustration due to the locked gate, shifts into a state of high concentration during combat, and ends the segment feeling curious and relaxed during the NPC interaction.",
+        "pacing_breakdown": "The segment consists of approximately 50% exploration as the player searches for the lever, 20% combat against the guards, 15% dialogue with the garden NPC, and 15% environmental navigation and short cutscenes.",
+        "carryover_threads": [
+          {
+            "thread_name": "escape_the_dungeon",
+            "evidence": "The player is now in the garden but hasn't yet reached the surface or exited the facility.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "npc_information",
+            "evidence": "The NPC dialogue is ongoing and hints at a larger world outside the prison.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 2,
+      "start_seconds": 480.0,
+      "end_seconds": 780.0,
+      "result": {
+        "chunk_summary": "The player exits the garden and enters a series of fortified corridors, facing increasing resistance from guards. After a series of combat encounters, they reach a bridge where they must solve a weight-based pressure plate puzzle to proceed.",
+        "player_objective": "Navigate through the fortified corridors and cross the bridge to continue the escape.",
+        "events": [
+          {
+            "relative_timestamp": "0:15",
+            "visual_observation": "The player walks through a stone archway into a long corridor with torches.",
+            "audio_observation": "Player says 'Okay, let's see what's through here.'",
+            "player_expression": "Neutral, focused gaze on screen.",
+            "event_description": "The player leaves the garden area and enters the fortified corridor.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "fortified_corridors"
+          },
+          {
+            "relative_timestamp": "1:05",
+            "visual_observation": "Two armored guards draw swords and charge at the player character.",
+            "audio_observation": "Clashing sword sounds, player grunts 'Whoa, there's more of them.'",
+            "player_expression": "Slightly raised eyebrows, leaning forward.",
+            "event_description": "A combat encounter begins with two guards in the corridor.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "fortified_corridors"
+          },
+          {
+            "relative_timestamp": "2:20",
+            "visual_observation": "The player opens the character inventory menu to equip a better sword found on a guard.",
+            "audio_observation": "Clicking menu sounds, player mumbles 'This one has better stats.'",
+            "player_expression": "Concentrated, lips pursed.",
+            "event_description": "The player pauses to upgrade their equipment using the inventory menu.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "fortified_corridors"
+          },
+          {
+            "relative_timestamp": "3:10",
+            "visual_observation": "The player reaches a stone bridge with two large floor plates and a closed gate.",
+            "audio_observation": "Player sighs 'A puzzle. Great.'",
+            "player_expression": "Slight smile, head tilted to the side.",
+            "event_description": "The player discovers a pressure plate puzzle blocking the bridge path.",
+            "phase_kind": "puzzle",
+            "significance": "pivotal",
+            "segment_label": "bridge_puzzle"
+          },
+          {
+            "relative_timestamp": "4:45",
+            "visual_observation": "The player pushes a heavy stone statue onto one plate while standing on the other.",
+            "audio_observation": "Grinding stone sound, the gate clicks open. Player says 'Got it!'",
+            "player_expression": "Wide smile, visible relief.",
+            "event_description": "The player successfully solves the weight puzzle and opens the gate.",
+            "phase_kind": "puzzle",
+            "significance": "notable",
+            "segment_label": "bridge_puzzle"
+          }
+        ],
+        "emotional_trajectory": "The player begins with calm exploration, transitions into a state of heightened alertness during combat, experiences brief analytical focus in the menu, and ends with a satisfying release of tension after solving the bridge puzzle.",
+        "pacing_breakdown": "Approximately 40% exploration, 25% combat, 10% menu management, and 25% puzzle solving.",
+        "carryover_threads": [
+          {
+            "thread_name": "escape_the_dungeon",
+            "evidence": "The player has passed the gate but is still within the dungeon perimeter.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "npc_information",
+            "evidence": "The information provided by the garden NPC has not yet led to the mentioned 'hidden exit'.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 3,
+      "start_seconds": 720.0,
+      "end_seconds": 1020.0,
+      "result": {
+        "chunk_summary": "The player crosses the bridge and enters the final dungeon courtyard, encountering a mini-boss guard. After a challenging fight, the player explores a hidden side room containing a lore scroll and a loot chest before reaching the final escape gate.",
+        "player_objective": "Defeat the courtyard guardian and find the exit gate to complete the dungeon escape.",
+        "events": [
+          {
+            "relative_timestamp": "0:22",
+            "visual_observation": "The player walks across the stone bridge, the camera pans to reveal a large knight standing in the courtyard ahead.",
+            "audio_observation": "Player says, 'Oh, that guy looks a lot bigger than the others.' Background music increases in tempo.",
+            "player_expression": "Eyebrows raised, leans forward toward the screen.",
+            "event_description": "The player approaches the courtyard guardian, triggering a mini-boss encounter.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "courtyard_guardian"
+          },
+          {
+            "relative_timestamp": "1:45",
+            "visual_observation": "The guardian is defeated and dissolves into particles; the player's health bar is low.",
+            "audio_observation": "Player exhales loudly and says, 'That was close. I need to find some health.'",
+            "player_expression": "Wide smile, hands momentarily leave the controller to rub eyes.",
+            "event_description": "The courtyard guardian is defeated, allowing the player to explore the area freely.",
+            "phase_kind": "combat",
+            "significance": "pivotal",
+            "segment_label": "courtyard_guardian"
+          },
+          {
+            "relative_timestamp": "2:15",
+            "visual_observation": "The player opens the inventory menu and uses two health potions.",
+            "audio_observation": "Sound of liquid being consumed in-game. No player speech.",
+            "player_expression": "Neutral, focused expression.",
+            "event_description": "The player manages their health and resources after the combat encounter.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "inventory_management"
+          },
+          {
+            "relative_timestamp": "3:10",
+            "visual_observation": "The player walks behind a series of crates and discovers a wooden door leading to a side room.",
+            "audio_observation": "Player says, 'Wait, what's back here?'",
+            "player_expression": "Squinting at the screen, head tilted.",
+            "event_description": "The player discovers a hidden side room while exploring the courtyard.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "hidden_side_room"
+          },
+          {
+            "relative_timestamp": "3:45",
+            "visual_observation": "The player interacts with a glowing scroll on a table and a large iron chest.",
+            "audio_observation": "Sound of parchment rustling and a heavy latch clicking open.",
+            "player_expression": "Nodding slowly, appearing satisfied.",
+            "event_description": "The player collects lore information and loot from the hidden room.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "hidden_side_room"
+          },
+          {
+            "relative_timestamp": "4:40",
+            "visual_observation": "The player returns to the main courtyard and approaches the massive iron-bound gate at the far end.",
+            "audio_observation": "Player says, 'This must be the way out.'",
+            "player_expression": "Determined expression, sitting up straight.",
+            "event_description": "The player reaches the final gate of the dungeon.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "escape_gate"
+          }
+        ],
+        "emotional_trajectory": "The segment begins with high tension and focused concentration during the mini-boss fight, followed by a sense of relief and satisfaction upon victory. It concludes with curious engagement during exploration and a feeling of anticipation as the player reaches the final objective.",
+        "pacing_breakdown": "The segment is dominated by combat (35%) and exploration (45%), with brief periods for menu management (10%) and transition/discovery (10%).",
+        "carryover_threads": [
+          {
+            "thread_name": "escape_the_dungeon",
+            "evidence": "The player is standing in front of the final gate but has not yet opened it.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "npc_information",
+            "evidence": "The lore scroll found in the side room mentions the NPC from the garden.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 4,
+      "start_seconds": 960.0,
+      "end_seconds": 1200.0,
+      "result": {
+        "chunk_summary": "The player interacts with the final escape gate and triggers an exit cinematic. Upon reaching the world map, they navigate through a fast-travel menu to a new hub area where they initiate conversation with a merchant.",
+        "player_objective": "Complete the dungeon escape sequence and reach the first major hub area.",
+        "events": [
+          {
+            "relative_timestamp": "0:15",
+            "visual_observation": "The player character interacts with the heavy iron bars of the exit gate.",
+            "audio_observation": "Sound of heavy metal grinding; the player exhales and says, 'Finally, we're out.'",
+            "player_expression": "A visible smile and relaxed shoulders as the interaction starts.",
+            "event_description": "The player initiates the final escape sequence by opening the dungeon's main exit.",
+            "phase_kind": "exploration",
+            "significance": "pivotal",
+            "segment_label": "dungeon_escape_gate"
+          },
+          {
+            "relative_timestamp": "0:45",
+            "visual_observation": "A cinematic plays showing the character stepping out into a bright, sunlit forest.",
+            "audio_observation": "Orchestral music swells; ambient bird sounds and wind.",
+            "player_expression": "Leaning back in the chair, watching the screen with a neutral, appreciative expression.",
+            "event_description": "A cutscene marks the successful completion of the dungeon escape and the transition to the overworld.",
+            "phase_kind": "cutscene",
+            "significance": "notable",
+            "segment_label": "escape_cinematic"
+          },
+          {
+            "relative_timestamp": "1:30",
+            "visual_observation": "A stylized parchment map appears on screen with several locked icons and one active waypoint.",
+            "audio_observation": "Menu click sounds; player humming a short tune.",
+            "player_expression": "Eyes moving quickly as they scan the map icons; slight brow furrowing in concentration.",
+            "event_description": "The player opens the world map and selects the 'Highland Outpost' as their next destination.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "world_map_navigation"
+          },
+          {
+            "relative_timestamp": "2:10",
+            "visual_observation": "A loading screen featuring concept art of a mountain pass and a progress bar.",
+            "audio_observation": "Low ambient drone; silence from the player.",
+            "player_expression": "Checks phone briefly; looking away from the screen.",
+            "event_description": "The game loads the new environment for the Highland Outpost.",
+            "phase_kind": "loading",
+            "significance": "routine",
+            "segment_label": "loading_highland_outpost"
+          },
+          {
+            "relative_timestamp": "2:45",
+            "visual_observation": "The player character arrives at a bustling mountain camp with tents and NPCs.",
+            "audio_observation": "Background chatter of NPCs; the sound of a blacksmith's hammer.",
+            "player_expression": "Nods slightly; looking around at the new environment with interest.",
+            "event_description": "The player enters the Highland Outpost and begins looking for utility NPCs.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "highland_outpost_hub"
+          },
+          {
+            "relative_timestamp": "3:40",
+            "visual_observation": "A dialogue camera zoom focuses on an NPC wearing a merchant's apron.",
+            "audio_observation": "Merchant NPC: 'Ah, a fresh face! Looking to trade?'",
+            "player_expression": "Slightly leans forward towards the monitor; focused expression.",
+            "event_description": "The player initiates a conversation with a local merchant to sell loot from the dungeon.",
+            "phase_kind": "dialogue",
+            "significance": "routine",
+            "segment_label": "highland_merchant_interaction"
+          }
+        ],
+        "emotional_trajectory": "The player transitions from a sense of relief and accomplishment at the start of the chunk to a state of relaxed observation during the cutscene. This shifts into a focused, goal-oriented mindset during the map navigation and finally into a state of curious engagement upon arriving at the new hub.",
+        "pacing_breakdown": "The segment is evenly distributed across several phases: 25% exploration (final escape and hub arrival), 20% cutscene, 20% menu navigation, 15% loading, and 20% dialogue.",
+        "carryover_threads": [
+          {
+            "thread_name": "escape_the_dungeon",
+            "evidence": "The player has physically left the dungeon and triggered the completion cinematic.",
+            "current_status": "resolved"
+          },
+          {
+            "thread_name": "npc_information",
+            "evidence": "The player has begun interacting with a new set of NPCs in the Highland Outpost to learn about the next objective.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "inventory_management",
+            "evidence": "The player is currently engaged in dialogue with a merchant to sell accumulated loot.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": false
+      }
+    }
+  ]
+}

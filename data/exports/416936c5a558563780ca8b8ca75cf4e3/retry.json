@@ -1,0 +1,51 @@
+[
+  {
+    "agent_kind": "retry",
+    "source_label": "high_ledge_climb",
+    "absolute_seconds": 214.0,
+    "absolute_timestamp": "3:34",
+    "summary": "3 attempts at high_ledge_climb, outcome: succeeded",
+    "game_context": "Ravaged Beach, northern cliffside",
+    "evidence": [
+      "Attempt 1: failed (Analytical; identifies the gnome's jump height is insufficient.)",
+      "Attempt 2: failed (Amused frustration; uses meme overlays ('WHAT', 'HOW') to highlight pathing absurdity.)",
+      "Attempt 3: succeeded (Satisfied; calls it an 'out of the box solution'.)",
+      "Frustration: stable"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 0,
+    "segment_label": "high_ledge_climb",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": 3,
+    "retry_quit_signal": false,
+    "retry_final_outcome": "succeeded",
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "retry",
+    "source_label": "npc_recruitment_bug",
+    "absolute_seconds": 493.0,
+    "absolute_timestamp": "8:13",
+    "summary": "2 attempts at npc_recruitment_bug, outcome: still_trying",
+    "game_context": "Campsite",
+    "evidence": [
+      "Attempt 1: failed (Frustrated; groans and states 'Wyll? Will? I'm not gonna sugarcoat it, this sucks'.)",
+      "Attempt 2: still_trying (Focused and anxious; navigating menus to find a viable save state.)",
+      "Frustration: escalating"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 1,
+    "segment_label": "npc_recruitment_bug",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": 2,
+    "retry_quit_signal": false,
+    "retry_final_outcome": "still_trying",
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "video_id": "56823a6dc8475381b75f6376dd9073e3",
+  "game_title": "Baldur's Gate 3",
+  "game_key": "baldur_s_gate_3",
+  "duration_seconds": 1200.0,
+  "chunk_count": 5,
+  "overall_friction": "minor",
+  "overall_engagement": "strong",
+  "overall_stop_risk": "none",
+  "bug_count": 2,
+  "avg_sentiment": 1.32,
+  "sentiment_by_segment": {
+    "underdark_exploration": 1.0,
+    "elfsong_tavern_camp": 1.0,
+    "camp_inventory_management": 1.0,
+    "underdark_docks": 0.0,
+    "undercity_ruins_transition": 0.0,
+    "boat_journey": 2.5,
+    "elder_brain_vision": 3.0,
+    "morphie_pool": 1.0,
+    "morphie_pool_bridge": 1.5,
+    "morphie_pool_navigation": 1.0,
+    "morphie_pool_exploration": 1.38,
+    "party_buffing": 1.5,
+    "intellect_devourer_ambush": 2.25
+  },
+  "total_retry_sequences": 3,
+  "first_attempt_failure_count": 3,
+  "notable_quotes": [],
+  "session_health_score": 88,
+  "priority_actions": [
+    "Increase the placement tolerance for 'Planar Ally' and 'Heroes Feast' on organic terrain to prevent 'Not enough space' errors.",
+    "Fix the line-of-sight flickering for targets located in Morphic Pool caustic pits.",
+    "Refine the navmesh around the 10:40 rocky incline to prevent players from attempting to click on non-traversable slopes.",
+    "Add a camera volume offset to prevent the clipping observed at 17:48 in narrow cavern passages."
+  ],
+  "top_highlight": "3 attempts at intellect_devourer_ambush, outcome: succeeded"
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 36.0,
+    "absolute_timestamp": "0:36",
+    "summary": "The deep CRPG systems allow for collaborative strategy and character optimization, which provides a sense of group mastery and preparation.",
+    "game_context": "The player and teammates are optimizing their party equipment before further exploration.",
+    "evidence": [
+      "Rapidly comparing weapon stats",
+      "Coordinating item movement across party members",
+      "Knowledgeable, focused tone",
+      "Scene: Inventory management screen inside the Rosymorn Monastery.",
+      "Expression: Leaning forward, eyes scanning item tooltips intently.",
+      "Quote: Yeah that'd probably be better for... basically like Paladin or Eldritch Knight build at this point."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 0,
+    "segment_label": "inventory_management",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "discovery",
+    "absolute_seconds": 220.0,
+    "absolute_timestamp": "3:40",
+    "summary": "The environmental storytelling and puzzle logic reward players for exploring the wider area and collecting items that initially seemed like generic loot.",
+    "game_context": "The player identifies the correct location for a missing ceremonial weapon to solve the room's puzzle.",
+    "evidence": [
+      "Direct movement to the interactive pedestal",
+      "Successful puzzle completion via inventory placement",
+      "Triumphant exclamation (Aha!)",
+      "Scene: The stained-glass window room in the monastery ruins.",
+      "Expression: Focused, followed by a slight nod of satisfaction.",
+      "Quote: Aha! All right, and where was the one we didn't have? This... There it is."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 0,
+    "segment_label": null,
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "progression",
+    "absolute_seconds": 1073.0,
+    "absolute_timestamp": "17:53",
+    "summary": "The relief of reaching the game's interface after a period of intense technical friction acts as a positive emotional reset, allowing the player to return to a state of flow.",
+    "game_context": "Finally clearing the technical hurdles that had blocked gameplay for the last 15 minutes.",
+    "evidence": [
+      "Avatar smiling and looking directly at the camera",
+      "Immediate navigation to the menu options",
+      "Relieved tone of voice",
+      "Satisfied exhale",
+      "Scene: Baldur's Gate 3 main menu after a lengthy troubleshooting process.",
+      "Expression: The player's avatar is smiling and looking more relaxed as the main menu music kicks in.",
+      "Quote: Oh there we go. Baldur's Gate is open."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 4,
+    "segment_label": "main_menu",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "discovery",
+    "absolute_seconds": 1084.0,
+    "absolute_timestamp": "18:04",
+    "summary": "The discovery of new aesthetic or mechanical mods through social interaction rewards the player's curiosity and provides a sense of community-driven content exploration.",
+    "game_context": "The teammate mentions finding a 'Royal Knight' armor set mod, sparking interest in new customization options.",
+    "evidence": [
+      "Scanning specific mod entries",
+      "Cursor hovering over armor-related mods",
+      "Inquisitive 'Oh?' tone",
+      "Interested humming",
+      "Scene: In-game Mod Manager menu, browsing installed and available mods.",
+      "Expression: The player's avatar looks engaged and curious, following the teammate's description of new content.",
+      "Quote: Oh?",
+      "Quote: Hm..."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 4,
+    "segment_label": "mod_manager",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "progression",
+    "absolute_seconds": 1151.0,
+    "absolute_timestamp": "19:11",
+    "summary": "Successful re-entry after persistent failure provides a significant sense of achievement and validates the player's troubleshooting efforts.",
+    "game_context": "Successfully reuniting with the team in the game world after multiple failed join attempts.",
+    "evidence": [
+      "Rapid camera rotation to locate teammates",
+      "Immediate character movement toward party members",
+      "Confident, satisfied tone",
+      "Return to clear, upbeat narration",
+      "Scene: Camp environment upon successfully loading into the multiplayer lobby.",
+      "Expression: The player's avatar is active and smiling, mirroring the player's return to engagement.",
+      "Quote: All right. And I'm in."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 4,
+    "segment_label": "camp_exploration",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

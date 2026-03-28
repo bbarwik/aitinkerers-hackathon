@@ -1,0 +1,991 @@
+{
+  "video_id": "8fcb0b32f17959969ce76dac2e206e24",
+  "game_title": "Baldur's Gate 3",
+  "session_arc": "[0:00-5:00] The player begins with determination and enthusiasm for the challenge. There is a brief moment of frustration when the game crashes, but it is quickly overcome. The segment ends with a sense of discovery and satisfaction as the player reaches level 2 and begins building their party.\n[4:00-9:00] The player starts with lighthearted confidence, enjoying their character's appearance and some lucky rolls. This transitions into a more focused state during leveling and recruitment. A moment of high tension occurs during the gnoll fight, where the player's 'recklessness' almost ends the run, leading to a more cautious but still humorous tone as they reach level 4 and parody a famous anime scene.\n[8:00-13:00] The segment starts with lighthearted exploration and character growth. It hits a peak of surprise and frustration with Halsin's unexpected death. This leads to a period of high tension during difficult Underdark combat, finally resolving into a sense of renewed excitement after the player respecs their character.\n[12:00-17:00] The segment begins with a mix of tactical focus and minor dissatisfaction with the previous character build. After the respec, the player's enthusiasm increases significantly, peaking with the discovery of the level 6 power spike. There is a brief dip into caution and slight stress during the transition to Act 2 and the Marcus fight, but this resolves into a state of smug confidence as they successfully bypass major boss fights using their Bard's persuasion skills.\n[16:00-20:00] The segment is characterized by a high degree of confidence and strategic satisfaction as the player successfully uses their Bard's persuasion to bypass difficult boss fights. There is a brief moment of high tension and frustration during the Balthazar fight and the glitched Grym encounter, but this quickly returns to a state of focused progression and anticipation as they approach the Act 2 finale.",
+  "chunk_summaries": [
+    "The player starts a Baldur's Gate 3 Honor Mode run as a Bard character named Dumpard. After a brief tutorial and a minor game crash, they crash-land on the Ravaged Beach and begin recruiting party members, reaching level 2.",
+    "The player continues their Baldur's Gate 3 Honor Mode run, recruiting more party members like Astarion, Lae'zel, Gale, and Karlach while exploring the Ravaged Beach and Emerald Grove. They progress from level 2 to level 4, choosing the College of Glamour subclass for their Bard and surviving a near-fatal encounter with gnolls.",
+    "The player progresses through multiple key encounters in Act 1, including the harpy fight, the Goblin Camp, and early Underdark exploration. They achieve level 5, experience a pivotal run-altering moment with Halsin's death, and ultimately respec into the College of Swords subclass for a better gameplay experience.",
+    "The player transitions into Act 2 after finishing exploration in the Underdark and the Mountain Pass. They reach level 6, respec into the College of Swords, and successfully use persuasion to defeat several Act 2 bosses without combat.",
+    "The player continues their Honor Mode run in Baldur's Gate 3, progressing through Act 2. They reach level 9, defeat various bosses in the Shadow-Cursed Lands and Moonrise Towers (often through persuasion), and prepare for the final confrontation with Ketheric Thorm."
+  ],
+  "objectives": [
+    "Begin an Honor Mode playthrough of Baldur's Gate 3 as a Bard and progress through the initial game sections.",
+    "Build a full party and reach level 4 while navigating early-game quests and encounters safely in Honor Mode.",
+    "Efficiently clear Act 1 content while maintaining the Honor Mode run, leveling up the party, and exploring more enjoyable build options.",
+    "Safely progress into Act 2, maximizing experience and loot while avoiding high-risk combat encounters in Honor Mode.",
+    "Efficiently progress through Act 2, maximizing experience and loot while avoiding high-risk combat through persuasion and strategic preparation for the Ketheric Thorm fight."
+  ],
+  "active_threads": [
+    "Honor Mode Survival",
+    "Party Recruitment",
+    "Party Composition",
+    "Underdark Progression",
+    "College of Swords Performance",
+    "Consequences of Halsin's Death",
+    "Ketheric Thorm Confrontation",
+    "Moonrise Towers Infiltration",
+    "Final Ketheric Thorm Fight"
+  ],
+  "events": [
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 0.0,
+      "absolute_timestamp": "0:00",
+      "relative_timestamp": "0:00",
+      "visual_observation": "The player character, Dumpard, is shown in various cinematic shots and playing a violin. Several screenshots from Baldur's Gate 3 are displayed.",
+      "audio_observation": "The player explains their dislike for Bards and their intention to attempt an Honor Mode run.",
+      "player_expression": null,
+      "event_description": "The player introduces the challenge: completing Baldur's Gate 3 on Honor Mode as a Bard.",
+      "phase_kind": "other",
+      "significance": "notable",
+      "segment_label": "intro_sequence"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 173.0,
+      "absolute_timestamp": "2:53",
+      "relative_timestamp": "2:53",
+      "visual_observation": "Character creation menu for Baldur's Gate 3. A human character named Dumpard is created.",
+      "audio_observation": "The player describes their character creation choices.",
+      "player_expression": null,
+      "event_description": "The player creates their character, a Bard named Dumpard.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "character_creation"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 194.0,
+      "absolute_timestamp": "3:14",
+      "relative_timestamp": "3:14",
+      "visual_observation": "Cinematic sequence showing Dumpard in a nautiloid pod. A dice roll for an investigation check results in a natural 20.",
+      "audio_observation": "The player reacts to their first dice roll of the playthrough.",
+      "player_expression": null,
+      "event_description": "Dumpard wakes up in the nautiloid and rolls a critical success on his first investigation check.",
+      "phase_kind": "cutscene",
+      "significance": "notable",
+      "segment_label": "nautiloid_escape"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 221.0,
+      "absolute_timestamp": "3:41",
+      "relative_timestamp": "3:41",
+      "visual_observation": "The game screen freezes during combat on the nautiloid and then cuts to black. A text overlay says 'this clip is not edited'.",
+      "audio_observation": "The player notes that the game crashed after using Vicious Mockery.",
+      "player_expression": null,
+      "event_description": "The game crashes during the initial nautiloid combat sequence.",
+      "phase_kind": "combat",
+      "significance": "notable",
+      "segment_label": "nautiloid_combat"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 233.0,
+      "absolute_timestamp": "3:53",
+      "relative_timestamp": "3:53",
+      "visual_observation": "Dumpard finds Shadowheart on the Ravaged Beach and speaks to her. A special [BARD] dialogue option is shown.",
+      "audio_observation": "The player expresses excitement about seeing Bard-specific dialogue options.",
+      "player_expression": null,
+      "event_description": "The player recruits Shadowheart on the Ravaged Beach and explores class-specific dialogue.",
+      "phase_kind": "dialogue",
+      "significance": "routine",
+      "segment_label": "ravaged_beach"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 251.0,
+      "absolute_timestamp": "4:11",
+      "relative_timestamp": "4:11",
+      "visual_observation": "Dumpard shoots a nautiloid tank, causing an explosion that kills several Intellect Devourers. A level-up animation occurs.",
+      "audio_observation": "The player describes the combat and reaching level 2.",
+      "player_expression": null,
+      "event_description": "The player defeats enemies on the beach and levels up to level 2.",
+      "phase_kind": "combat",
+      "significance": "notable",
+      "segment_label": "beach_combat"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 257.0,
+      "absolute_timestamp": "4:17",
+      "relative_timestamp": "4:17",
+      "visual_observation": "The level-up screen for Bard Level 2 is shown, highlighting the 'Jack of All Trades' passive and several ritual spells.",
+      "audio_observation": "The player discusses the benefits of Bard passives and ritual spells.",
+      "player_expression": null,
+      "event_description": "The player levels up Dumpard to level 2 and selects spells and passives.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "level_up_bard"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 293.0,
+      "absolute_timestamp": "4:53",
+      "relative_timestamp": "0:53",
+      "visual_observation": "A dialogue scene with Astarion, followed by combat with a Mind Flayer and dialogue with Lae'zel.",
+      "audio_observation": "The player narrates recruiting Astarion and Lae'zel.",
+      "player_expression": null,
+      "event_description": "The player recruits Astarion and Lae'zel to their party.",
+      "phase_kind": "dialogue",
+      "significance": "notable",
+      "segment_label": "ravaged_beach"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 302.0,
+      "absolute_timestamp": "5:02",
+      "relative_timestamp": "1:02",
+      "visual_observation": "A D20 dice roll on screen shows a Natural 20 for a persuasion check.",
+      "audio_observation": "The player expresses surprise at their luck with dice rolls.",
+      "player_expression": null,
+      "event_description": "The player hits their third Natural 20 of the session during a dialogue check.",
+      "phase_kind": "dialogue",
+      "significance": "notable",
+      "segment_label": "chapel_entrance"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 340.0,
+      "absolute_timestamp": "5:40",
+      "relative_timestamp": "1:40",
+      "visual_observation": "The level-up screen for level 3 is shown, followed by the subclass selection screen.",
+      "audio_observation": "The player explains why they chose the College of Glamour subclass.",
+      "player_expression": null,
+      "event_description": "The player reaches level 3 and chooses the College of Glamour subclass for their Bard.",
+      "phase_kind": "menu",
+      "significance": "pivotal",
+      "segment_label": "emerald_grove"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 378.0,
+      "absolute_timestamp": "6:18",
+      "relative_timestamp": "2:18",
+      "visual_observation": "A montage of various gameplay moments including meeting Scratch, more Nat 20s, and respeccing Lae'zel.",
+      "audio_observation": "The player quickly goes through several minor events and encounters.",
+      "player_expression": null,
+      "event_description": "The player goes through a montage of recruiting Gale and Karlach and exploring the world.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "world_exploration"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 452.0,
+      "absolute_timestamp": "7:32",
+      "relative_timestamp": "3:32",
+      "visual_observation": "A difficult combat encounter with Gnolls where several party members are downed.",
+      "audio_observation": "The player admits to being reckless and nearly losing the run.",
+      "player_expression": null,
+      "event_description": "The player narrowly survives a dangerous encounter with gnolls.",
+      "phase_kind": "combat",
+      "significance": "pivotal",
+      "segment_label": "risen_road"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 498.0,
+      "absolute_timestamp": "8:18",
+      "relative_timestamp": "4:18",
+      "visual_observation": "The level-up screen for level 4 is shown, followed by ability point allocation.",
+      "audio_observation": "The player discusses their ability point improvements.",
+      "player_expression": null,
+      "event_description": "The player reaches level 4 and increases their Constitution and Charisma.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "zhentarim_hideout"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 571.0,
+      "absolute_timestamp": "9:31",
+      "relative_timestamp": "1:31",
+      "visual_observation": "The player characters are inside the Goblin Camp, surrounded by enemies.",
+      "audio_observation": "Player mentions trying to call the ogres for backup.",
+      "player_expression": null,
+      "event_description": "The player initiates a large-scale battle in the Goblin Camp using explosives.",
+      "phase_kind": "combat",
+      "significance": "notable",
+      "segment_label": "goblin_camp"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 620.0,
+      "absolute_timestamp": "10:20",
+      "relative_timestamp": "2:20",
+      "visual_observation": "Halsin's dead body on the ground in the Shattered Sanctum.",
+      "audio_observation": "Player expresses shock and disappointment at Halsin's death.",
+      "player_expression": null,
+      "event_description": "Halsin dies during the Goblin Camp raid, permanently locking certain quest lines.",
+      "phase_kind": "dialogue",
+      "significance": "pivotal",
+      "segment_label": "shattered_sanctum"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 691.0,
+      "absolute_timestamp": "11:31",
+      "relative_timestamp": "3:31",
+      "visual_observation": "Combat against the Phase Spider Matriarch in a cave.",
+      "audio_observation": "Player notes how easy the fight was.",
+      "player_expression": null,
+      "event_description": "The party defeats the Phase Spider Matriarch in the Whispering Depths.",
+      "phase_kind": "combat",
+      "significance": "routine",
+      "segment_label": "whispering_depths"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 717.0,
+      "absolute_timestamp": "11:57",
+      "relative_timestamp": "3:57",
+      "visual_observation": "High-stakes combat against the Bulette in the Underdark.",
+      "audio_observation": "Player describes a near-wipe experience against the Bulette.",
+      "player_expression": null,
+      "event_description": "The player narrowly survives a dangerous encounter with the Bulette in the Underdark.",
+      "phase_kind": "combat",
+      "significance": "notable",
+      "segment_label": "underdark_exploration"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 759.0,
+      "absolute_timestamp": "12:39",
+      "relative_timestamp": "0:39",
+      "visual_observation": "The player is in a character respec menu, selecting the College of Swords subclass.",
+      "audio_observation": "The player discusses their dissatisfaction with the College of Glamour and why they're switching to Swords.",
+      "player_expression": "None",
+      "event_description": "The player respecs their character to the College of Swords subclass to improve combat enjoyment and effectiveness.",
+      "phase_kind": "menu",
+      "significance": "pivotal",
+      "segment_label": "character_respec"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 806.0,
+      "absolute_timestamp": "13:26",
+      "relative_timestamp": "1:26",
+      "visual_observation": "The 'Level Up!' screen appears as the player reaches level 6.",
+      "audio_observation": "The player expresses excitement about the 'Extra Attack' feature gained at level 6.",
+      "player_expression": "None",
+      "event_description": "The player reaches level 6 and highlights the power spike from the College of Swords' extra attack.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "level_up"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 862.0,
+      "absolute_timestamp": "14:22",
+      "relative_timestamp": "2:22",
+      "visual_observation": "The player enters the Shadow-Cursed Lands and encounters the Harpers.",
+      "audio_observation": "The player mentions they were 'slapped up' by the shadows during their first encounter in Act 2.",
+      "player_expression": "None",
+      "event_description": "The party enters Act 2 and survives an initial encounter with shadows.",
+      "phase_kind": "exploration",
+      "significance": "notable",
+      "segment_label": "shadow_cursed_lands"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 884.0,
+      "absolute_timestamp": "14:44",
+      "relative_timestamp": "2:44",
+      "visual_observation": "Marcus crashes through the roof of Last Light Inn in a cutscene.",
+      "audio_observation": "The player admits they were unprepared for the Marcus encounter.",
+      "player_expression": "None",
+      "event_description": "The Marcus encounter triggers at the Last Light Inn, threatening the party's safety.",
+      "phase_kind": "cutscene",
+      "significance": "notable",
+      "segment_label": "last_light_inn"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 910.0,
+      "absolute_timestamp": "15:10",
+      "relative_timestamp": "3:10",
+      "visual_observation": "The player sets up explosive barrels before engaging Kar'niss.",
+      "audio_observation": "The player describes using 'barrelmancy' to thin out the enemies around Kar'niss.",
+      "player_expression": "None",
+      "event_description": "The player uses barrel-based tactics to survive the Kar'niss encounter.",
+      "phase_kind": "combat",
+      "significance": "notable",
+      "segment_label": "karniss_ambush"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 989.0,
+      "absolute_timestamp": "16:29",
+      "relative_timestamp": "4:29",
+      "visual_observation": "The player succeeds in a high-DC persuasion roll against Gerringothe Thorm.",
+      "audio_observation": "The player encourages viewers to use persuasion to avoid dangerous Honor Mode fights.",
+      "player_expression": "None",
+      "event_description": "The player uses high Charisma skills to defeat multiple Thorm bosses through dialogue instead of combat.",
+      "phase_kind": "dialogue",
+      "significance": "pivotal",
+      "segment_label": "thorm_encounters"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1021.0,
+      "absolute_timestamp": "17:01",
+      "relative_timestamp": "1:01",
+      "visual_observation": "Character leveling menu for level 8, followed by combat in Moonrise Towers and exploration.",
+      "audio_observation": "Player commentary discussing their choice of the 'Tough' feat for survivability.",
+      "player_expression": null,
+      "event_description": "The party reaches level 8 and engages in several smaller encounters to gain more experience.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "moonrise_exploration"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1064.0,
+      "absolute_timestamp": "17:44",
+      "relative_timestamp": "1:44",
+      "visual_observation": "Combat in Moonrise Towers, followed by the level 9 character menu.",
+      "audio_observation": "Player commentary admitting to a 'lie' in the script about 'picking off stragglers.'",
+      "player_expression": null,
+      "event_description": "The player aggressively clears Moonrise Towers and reaches level 9.",
+      "phase_kind": "combat",
+      "significance": "routine",
+      "segment_label": "moonrise_clearing"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1082.0,
+      "absolute_timestamp": "18:02",
+      "relative_timestamp": "2:02",
+      "visual_observation": "Gauntlet of Shar exploration, Yurgir encounter, and Balthazar fight.",
+      "audio_observation": "Player commentary describing the ease of the Yurgir persuasion and the tension of the Balthazar fight.",
+      "player_expression": null,
+      "event_description": "The player progresses through the Gauntlet of Shar, convincing Yurgir to kill himself and barely defeating Balthazar.",
+      "phase_kind": "exploration",
+      "significance": "notable",
+      "segment_label": "gauntlet_of_shar"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1119.0,
+      "absolute_timestamp": "18:39",
+      "relative_timestamp": "2:39",
+      "visual_observation": "Combat with Grym in the Adamantine Forge.",
+      "audio_observation": "Player commentary expressing frustration at a perceived bug where Grym 'disappeared' temporarily.",
+      "player_expression": null,
+      "event_description": "The player takes a detour to defeat Grym, experiencing a brief moment of panic due to a glitch.",
+      "phase_kind": "boss",
+      "significance": "notable",
+      "segment_label": "adamantine_forge_grym"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1150.0,
+      "absolute_timestamp": "19:10",
+      "relative_timestamp": "3:10",
+      "visual_observation": "Cutscene with Nightsong, followed by the first confrontation with Ketheric Thorm.",
+      "audio_observation": "Player commentary noting their caution with the Gauntlet's platform and their strategy with Ketheric.",
+      "player_expression": null,
+      "event_description": "The player frees the Nightsong and begins the assault on Ketheric Thorm, planting a 'seed of doubt' via dialogue.",
+      "phase_kind": "cutscene",
+      "significance": "pivotal",
+      "segment_label": "ketheric_thorm_confrontation"
+    }
+  ],
+  "thread_records": [
+    {
+      "source_chunk_index": 0,
+      "thread_name": "Honor Mode Survival",
+      "evidence": "The player is on the toughest difficulty where a party wipe means game over.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 0,
+      "thread_name": "Party Recruitment",
+      "evidence": "The player has recruited Shadowheart and Astarion but needs a full party.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 1,
+      "thread_name": "Honor Mode Survival",
+      "evidence": "The player narrowly avoided a Tipe Wipe against gnolls.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 1,
+      "thread_name": "Party Composition",
+      "evidence": "The player has recruited most companions but is still finalizing roles (e.g., respeccing Lae'zel).",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 2,
+      "thread_name": "Underdark Progression",
+      "evidence": "The player has just begun exploring the Underdark and Grymforge.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 2,
+      "thread_name": "College of Swords Performance",
+      "evidence": "The player just switched subclasses and is beginning to test its effectiveness.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 2,
+      "thread_name": "Consequences of Halsin's Death",
+      "evidence": "The player noted the inability to fix the Shadow-Cursed Lands.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 3,
+      "thread_name": "Ketheric Thorm Confrontation",
+      "evidence": "The player mentions Ketheric is the only Thorm left to deal with.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 3,
+      "thread_name": "Moonrise Towers Infiltration",
+      "evidence": "The player arrives at Moonrise Towers to look for anything they might have missed.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 4,
+      "thread_name": "Final Ketheric Thorm Fight",
+      "evidence": "The segment ends with the party entering the Mind Flayer Colony to pursue Ketheric Thorm.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 4,
+      "thread_name": "Honor Mode Survival",
+      "evidence": "The player consistently emphasizes high-risk encounters and the need for extra XP/feats for survivability.",
+      "current_status": "active"
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_index": 0,
+      "start_seconds": 0.0,
+      "end_seconds": 300.0,
+      "result": {
+        "chunk_summary": "The player starts a Baldur's Gate 3 Honor Mode run as a Bard character named Dumpard. After a brief tutorial and a minor game crash, they crash-land on the Ravaged Beach and begin recruiting party members, reaching level 2.",
+        "player_objective": "Begin an Honor Mode playthrough of Baldur's Gate 3 as a Bard and progress through the initial game sections.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player character, Dumpard, is shown in various cinematic shots and playing a violin. Several screenshots from Baldur's Gate 3 are displayed.",
+            "audio_observation": "The player explains their dislike for Bards and their intention to attempt an Honor Mode run.",
+            "player_expression": null,
+            "event_description": "The player introduces the challenge: completing Baldur's Gate 3 on Honor Mode as a Bard.",
+            "phase_kind": "other",
+            "significance": "notable",
+            "segment_label": "intro_sequence"
+          },
+          {
+            "relative_timestamp": "2:53",
+            "visual_observation": "Character creation menu for Baldur's Gate 3. A human character named Dumpard is created.",
+            "audio_observation": "The player describes their character creation choices.",
+            "player_expression": null,
+            "event_description": "The player creates their character, a Bard named Dumpard.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "character_creation"
+          },
+          {
+            "relative_timestamp": "3:14",
+            "visual_observation": "Cinematic sequence showing Dumpard in a nautiloid pod. A dice roll for an investigation check results in a natural 20.",
+            "audio_observation": "The player reacts to their first dice roll of the playthrough.",
+            "player_expression": null,
+            "event_description": "Dumpard wakes up in the nautiloid and rolls a critical success on his first investigation check.",
+            "phase_kind": "cutscene",
+            "significance": "notable",
+            "segment_label": "nautiloid_escape"
+          },
+          {
+            "relative_timestamp": "3:41",
+            "visual_observation": "The game screen freezes during combat on the nautiloid and then cuts to black. A text overlay says 'this clip is not edited'.",
+            "audio_observation": "The player notes that the game crashed after using Vicious Mockery.",
+            "player_expression": null,
+            "event_description": "The game crashes during the initial nautiloid combat sequence.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "nautiloid_combat"
+          },
+          {
+            "relative_timestamp": "3:53",
+            "visual_observation": "Dumpard finds Shadowheart on the Ravaged Beach and speaks to her. A special [BARD] dialogue option is shown.",
+            "audio_observation": "The player expresses excitement about seeing Bard-specific dialogue options.",
+            "player_expression": null,
+            "event_description": "The player recruits Shadowheart on the Ravaged Beach and explores class-specific dialogue.",
+            "phase_kind": "dialogue",
+            "significance": "routine",
+            "segment_label": "ravaged_beach"
+          },
+          {
+            "relative_timestamp": "4:11",
+            "visual_observation": "Dumpard shoots a nautiloid tank, causing an explosion that kills several Intellect Devourers. A level-up animation occurs.",
+            "audio_observation": "The player describes the combat and reaching level 2.",
+            "player_expression": null,
+            "event_description": "The player defeats enemies on the beach and levels up to level 2.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "beach_combat"
+          },
+          {
+            "relative_timestamp": "4:17",
+            "visual_observation": "The level-up screen for Bard Level 2 is shown, highlighting the 'Jack of All Trades' passive and several ritual spells.",
+            "audio_observation": "The player discusses the benefits of Bard passives and ritual spells.",
+            "player_expression": null,
+            "event_description": "The player levels up Dumpard to level 2 and selects spells and passives.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "level_up_bard"
+          },
+          {
+            "relative_timestamp": "4:53",
+            "visual_observation": "Dumpard speaks with Astarion on the Ravaged Beach. A cinematic shows Astarion drawing a dagger.",
+            "audio_observation": "The player mentions recruiting Astarion.",
+            "player_expression": null,
+            "event_description": "The player encounters and recruits Astarion on the beach.",
+            "phase_kind": "dialogue",
+            "significance": "routine",
+            "segment_label": "recruiting_astarion"
+          }
+        ],
+        "emotional_trajectory": "The player begins with determination and enthusiasm for the challenge. There is a brief moment of frustration when the game crashes, but it is quickly overcome. The segment ends with a sense of discovery and satisfaction as the player reaches level 2 and begins building their party.",
+        "pacing_breakdown": "The segment is divided between an initial meta-commentary/intro (25%), character creation and level-up menus (15%), cinematics and dialogue (30%), and early-game exploration and combat (30%).",
+        "carryover_threads": [
+          {
+            "thread_name": "Honor Mode Survival",
+            "evidence": "The player is on the toughest difficulty where a party wipe means game over.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Party Recruitment",
+            "evidence": "The player has recruited Shadowheart and Astarion but needs a full party.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 1,
+      "start_seconds": 240.0,
+      "end_seconds": 540.0,
+      "result": {
+        "chunk_summary": "The player continues their Baldur's Gate 3 Honor Mode run, recruiting more party members like Astarion, Lae'zel, Gale, and Karlach while exploring the Ravaged Beach and Emerald Grove. They progress from level 2 to level 4, choosing the College of Glamour subclass for their Bard and surviving a near-fatal encounter with gnolls.",
+        "player_objective": "Build a full party and reach level 4 while navigating early-game quests and encounters safely in Honor Mode.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player interacts with Shadowheart in a cutscene, then opens their inventory and equipment menu to equip a new hat.",
+            "audio_observation": "The player talks about their character's personality and their new 'Rafflesome Haggard Hat'.",
+            "player_expression": null,
+            "event_description": "The player equips the 'Rafflesome Haggard Hat' and discusses their Bard character's look.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "ravaged_beach"
+          },
+          {
+            "relative_timestamp": "0:15",
+            "visual_observation": "The player uses an environmental object (Nautiloid Tank) to damage enemies in combat and reaches level 2.",
+            "audio_observation": "The player describes their combat strategy and mentions reaching level 2.",
+            "player_expression": null,
+            "event_description": "The player levels up to 2 and selects Bard features like 'Jack of All Trades'.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "ravaged_beach"
+          },
+          {
+            "relative_timestamp": "0:53",
+            "visual_observation": "A dialogue scene with Astarion, followed by combat with a Mind Flayer and dialogue with Lae'zel.",
+            "audio_observation": "The player narrates recruiting Astarion and Lae'zel.",
+            "player_expression": null,
+            "event_description": "The player recruits Astarion and Lae'zel to their party.",
+            "phase_kind": "dialogue",
+            "significance": "notable",
+            "segment_label": "ravaged_beach"
+          },
+          {
+            "relative_timestamp": "1:02",
+            "visual_observation": "A D20 dice roll on screen shows a Natural 20 for a persuasion check.",
+            "audio_observation": "The player expresses surprise at their luck with dice rolls.",
+            "player_expression": null,
+            "event_description": "The player hits their third Natural 20 of the session during a dialogue check.",
+            "phase_kind": "dialogue",
+            "significance": "notable",
+            "segment_label": "chapel_entrance"
+          },
+          {
+            "relative_timestamp": "1:40",
+            "visual_observation": "The level-up screen for level 3 is shown, followed by the subclass selection screen.",
+            "audio_observation": "The player explains why they chose the College of Glamour subclass.",
+            "player_expression": null,
+            "event_description": "The player reaches level 3 and chooses the College of Glamour subclass for their Bard.",
+            "phase_kind": "menu",
+            "significance": "pivotal",
+            "segment_label": "emerald_grove"
+          },
+          {
+            "relative_timestamp": "2:18",
+            "visual_observation": "A montage of various gameplay moments including meeting Scratch, more Nat 20s, and respeccing Lae'zel.",
+            "audio_observation": "The player quickly goes through several minor events and encounters.",
+            "player_expression": null,
+            "event_description": "The player goes through a montage of recruiting Gale and Karlach and exploring the world.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "world_exploration"
+          },
+          {
+            "relative_timestamp": "3:32",
+            "visual_observation": "A difficult combat encounter with Gnolls where several party members are downed.",
+            "audio_observation": "The player admits to being reckless and nearly losing the run.",
+            "player_expression": null,
+            "event_description": "The player narrowly survives a dangerous encounter with gnolls.",
+            "phase_kind": "combat",
+            "significance": "pivotal",
+            "segment_label": "risen_road"
+          },
+          {
+            "relative_timestamp": "4:18",
+            "visual_observation": "The level-up screen for level 4 is shown, followed by ability point allocation.",
+            "audio_observation": "The player discusses their ability point improvements.",
+            "player_expression": null,
+            "event_description": "The player reaches level 4 and increases their Constitution and Charisma.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "zhentarim_hideout"
+          }
+        ],
+        "emotional_trajectory": "The player starts with lighthearted confidence, enjoying their character's appearance and some lucky rolls. This transitions into a more focused state during leveling and recruitment. A moment of high tension occurs during the gnoll fight, where the player's 'recklessness' almost ends the run, leading to a more cautious but still humorous tone as they reach level 4 and parody a famous anime scene.",
+        "pacing_breakdown": "The segment is fast-paced, with about 40% dedicated to dialogue and recruitment, 30% to menus and character progression (leveling up twice), 20% to combat encounters, and 10% to exploration and minor camp interactions.",
+        "carryover_threads": [
+          {
+            "thread_name": "Honor Mode Survival",
+            "evidence": "The player narrowly avoided a Tipe Wipe against gnolls.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Party Composition",
+            "evidence": "The player has recruited most companions but is still finalizing roles (e.g., respeccing Lae'zel).",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 2,
+      "start_seconds": 480.0,
+      "end_seconds": 780.0,
+      "result": {
+        "chunk_summary": "The player progresses through multiple key encounters in Act 1, including the harpy fight, the Goblin Camp, and early Underdark exploration. They achieve level 5, experience a pivotal run-altering moment with Halsin's death, and ultimately respec into the College of Swords subclass for a better gameplay experience.",
+        "player_objective": "Efficiently clear Act 1 content while maintaining the Honor Mode run, leveling up the party, and exploring more enjoyable build options.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "A cinematic of a man trapped under rubble in a burning building.",
+            "audio_observation": "Narrator commentary about 'trolling' the NPC Benryn.",
+            "player_expression": null,
+            "event_description": "The player saves Benryn from the burning building at Waukeen's Rest.",
+            "phase_kind": "cutscene",
+            "significance": "routine",
+            "segment_label": "waukeens_rest"
+          },
+          {
+            "relative_timestamp": "0:18",
+            "visual_observation": "The level-up menu for the Bard character, Dumpard.",
+            "audio_observation": "Player explains the ability score improvements at level 4.",
+            "player_expression": null,
+            "event_description": "Dumpard reaches level 4, with improvements to Constitution and Charisma.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "character_progression"
+          },
+          {
+            "relative_timestamp": "0:29",
+            "visual_observation": "Combat between the party and harpies on a coastal path.",
+            "audio_observation": "Player describes 'out-singing' the harpies.",
+            "player_expression": null,
+            "event_description": "The player successfully defends a Tiefling child from harpies.",
+            "phase_kind": "combat",
+            "significance": "routine",
+            "segment_label": "harpy_beach"
+          },
+          {
+            "relative_timestamp": "1:31",
+            "visual_observation": "The player characters are inside the Goblin Camp, surrounded by enemies.",
+            "audio_observation": "Player mentions trying to call the ogres for backup.",
+            "player_expression": null,
+            "event_description": "The player initiates a large-scale battle in the Goblin Camp using explosives.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "goblin_camp"
+          },
+          {
+            "relative_timestamp": "2:20",
+            "visual_observation": "Halsin's dead body on the ground in the Shattered Sanctum.",
+            "audio_observation": "Player expresses shock and disappointment at Halsin's death.",
+            "player_expression": null,
+            "event_description": "Halsin dies during the Goblin Camp raid, permanently locking certain quest lines.",
+            "phase_kind": "dialogue",
+            "significance": "pivotal",
+            "segment_label": "shattered_sanctum"
+          },
+          {
+            "relative_timestamp": "3:31",
+            "visual_observation": "Combat against the Phase Spider Matriarch in a cave.",
+            "audio_observation": "Player notes how easy the fight was.",
+            "player_expression": null,
+            "event_description": "The party defeats the Phase Spider Matriarch in the Whispering Depths.",
+            "phase_kind": "combat",
+            "significance": "routine",
+            "segment_label": "whispering_depths"
+          },
+          {
+            "relative_timestamp": "3:57",
+            "visual_observation": "High-stakes combat against the Bulette in the Underdark.",
+            "audio_observation": "Player describes a near-wipe experience against the Bulette.",
+            "player_expression": null,
+            "event_description": "The player narrowly survives a dangerous encounter with the Bulette in the Underdark.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "underdark_exploration"
+          },
+          {
+            "relative_timestamp": "4:39",
+            "visual_observation": "The respec menu with Withers at the camp.",
+            "audio_observation": "Player explains the switch from College of Glamour to College of Swords.",
+            "player_expression": null,
+            "event_description": "The player changes Dumpard's subclass to College of Swords to increase enjoyment of the run.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "character_progression"
+          }
+        ],
+        "emotional_trajectory": "The segment starts with lighthearted exploration and character growth. It hits a peak of surprise and frustration with Halsin's unexpected death. This leads to a period of high tension during difficult Underdark combat, finally resolving into a sense of renewed excitement after the player respecs their character.",
+        "pacing_breakdown": "The segment is heavily combat-oriented, with approximately 50% of the time spent in various battles (Goblins, Spiders, Underdark). Narrative and cinematics (including the parody scene) take up about 25%, while character management and leveling menus account for the remaining 25%.",
+        "carryover_threads": [
+          {
+            "thread_name": "Underdark Progression",
+            "evidence": "The player has just begun exploring the Underdark and Grymforge.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "College of Swords Performance",
+            "evidence": "The player just switched subclasses and is beginning to test its effectiveness.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Consequences of Halsin's Death",
+            "evidence": "The player noted the inability to fix the Shadow-Cursed Lands.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 3,
+      "start_seconds": 720.0,
+      "end_seconds": 1020.0,
+      "result": {
+        "chunk_summary": "The player transitions into Act 2 after finishing exploration in the Underdark and the Mountain Pass. They reach level 6, respec into the College of Swords, and successfully use persuasion to defeat several Act 2 bosses without combat.",
+        "player_objective": "Safely progress into Act 2, maximizing experience and loot while avoiding high-risk combat encounters in Honor Mode.",
+        "events": [
+          {
+            "relative_timestamp": "0:10",
+            "visual_observation": "The player uses the character Glot's ability to resurrect a minotaur.",
+            "audio_observation": "The player explains the tactical advantage of using the minotaur for upcoming fights.",
+            "player_expression": "None",
+            "event_description": "The player resurrects a minotaur to aid in Underdark combat.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "underdark_combat"
+          },
+          {
+            "relative_timestamp": "0:39",
+            "visual_observation": "The player is in a character respec menu, selecting the College of Swords subclass.",
+            "audio_observation": "The player discusses their dissatisfaction with the College of Glamour and why they're switching to Swords.",
+            "player_expression": "None",
+            "event_description": "The player respecs their character to the College of Swords subclass to improve combat enjoyment and effectiveness.",
+            "phase_kind": "menu",
+            "significance": "pivotal",
+            "segment_label": "character_respec"
+          },
+          {
+            "relative_timestamp": "1:26",
+            "visual_observation": "The 'Level Up!' screen appears as the player reaches level 6.",
+            "audio_observation": "The player expresses excitement about the 'Extra Attack' feature gained at level 6.",
+            "player_expression": "None",
+            "event_description": "The player reaches level 6 and highlights the power spike from the College of Swords' extra attack.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "level_up"
+          },
+          {
+            "relative_timestamp": "2:22",
+            "visual_observation": "The player enters the Shadow-Cursed Lands and encounters the Harpers.",
+            "audio_observation": "The player mentions they were 'slapped up' by the shadows during their first encounter in Act 2.",
+            "player_expression": "None",
+            "event_description": "The party enters Act 2 and survives an initial encounter with shadows.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "shadow_cursed_lands"
+          },
+          {
+            "relative_timestamp": "2:44",
+            "visual_observation": "Marcus crashes through the roof of Last Light Inn in a cutscene.",
+            "audio_observation": "The player admits they were unprepared for the Marcus encounter.",
+            "player_expression": "None",
+            "event_description": "The Marcus encounter triggers at the Last Light Inn, threatening the party's safety.",
+            "phase_kind": "cutscene",
+            "significance": "notable",
+            "segment_label": "last_light_inn"
+          },
+          {
+            "relative_timestamp": "3:10",
+            "visual_observation": "The player sets up explosive barrels before engaging Kar'niss.",
+            "audio_observation": "The player describes using 'barrelmancy' to thin out the enemies around Kar'niss.",
+            "player_expression": "None",
+            "event_description": "The player uses barrel-based tactics to survive the Kar'niss encounter.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "karniss_ambush"
+          },
+          {
+            "relative_timestamp": "4:29",
+            "visual_observation": "The player succeeds in a high-DC persuasion roll against Gerringothe Thorm.",
+            "audio_observation": "The player encourages viewers to use persuasion to avoid dangerous Honor Mode fights.",
+            "player_expression": "None",
+            "event_description": "The player uses high Charisma skills to defeat multiple Thorm bosses through dialogue instead of combat.",
+            "phase_kind": "dialogue",
+            "significance": "pivotal",
+            "segment_label": "thorm_encounters"
+          }
+        ],
+        "emotional_trajectory": "The segment begins with a mix of tactical focus and minor dissatisfaction with the previous character build. After the respec, the player's enthusiasm increases significantly, peaking with the discovery of the level 6 power spike. There is a brief dip into caution and slight stress during the transition to Act 2 and the Marcus fight, but this resolves into a state of smug confidence as they successfully bypass major boss fights using their Bard's persuasion skills.",
+        "pacing_breakdown": "The segment is fast-paced, covering a large amount of progression. Combat and tactical setups take up about 35% of the time, while menus and the character respec/leveling account for 25%. Dialogue-based encounters and cinematics, including the persuasion-based boss 'fights,' comprise 30%, and exploration makes up the final 10%.",
+        "carryover_threads": [
+          {
+            "thread_name": "Ketheric Thorm Confrontation",
+            "evidence": "The player mentions Ketheric is the only Thorm left to deal with.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Moonrise Towers Infiltration",
+            "evidence": "The player arrives at Moonrise Towers to look for anything they might have missed.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 4,
+      "start_seconds": 960.0,
+      "end_seconds": 1200.0,
+      "result": {
+        "chunk_summary": "The player continues their Honor Mode run in Baldur's Gate 3, progressing through Act 2. They reach level 9, defeat various bosses in the Shadow-Cursed Lands and Moonrise Towers (often through persuasion), and prepare for the final confrontation with Ketheric Thorm.",
+        "player_objective": "Efficiently progress through Act 2, maximizing experience and loot while avoiding high-risk combat through persuasion and strategic preparation for the Ketheric Thorm fight.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "Text overlay on a gameplay background, followed by a test pattern.",
+            "audio_observation": "Player commentary explaining a recording issue and summarizing missed gameplay.",
+            "player_expression": null,
+            "event_description": "The player explains a recording gap and summarizes recent events, including the Last Light Inn fight and Wyll's pact.",
+            "phase_kind": "other",
+            "significance": "routine",
+            "segment_label": "meta_commentary"
+          },
+          {
+            "relative_timestamp": "0:03",
+            "visual_observation": "Combat encounter with Kar'niss and his group.",
+            "audio_observation": "Player commentary explaining their strategy using explosive barrels and sacrificing Harpers.",
+            "player_expression": null,
+            "event_description": "The player defeats Kar'niss using a mix of barrelmancy and ranged attacks from a roof.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "karniss_encounter"
+          },
+          {
+            "relative_timestamp": "0:24",
+            "visual_observation": "Dialogue and persuasion checks with Gerringothe Thorm, Thisobald Thorm, and Malus Thorm.",
+            "audio_observation": "Player commentary highlighting the power of Bard's persuasion in Honor Mode.",
+            "player_expression": null,
+            "event_description": "The player successfully uses persuasion to defeat several Act 2 bosses without direct combat.",
+            "phase_kind": "dialogue",
+            "significance": "notable",
+            "segment_label": "thorm_family_encounters"
+          },
+          {
+            "relative_timestamp": "1:01",
+            "visual_observation": "Character leveling menu for level 8, followed by combat in Moonrise Towers and exploration.",
+            "audio_observation": "Player commentary discussing their choice of the 'Tough' feat for survivability.",
+            "player_expression": null,
+            "event_description": "The party reaches level 8 and engages in several smaller encounters to gain more experience.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "moonrise_exploration"
+          },
+          {
+            "relative_timestamp": "1:44",
+            "visual_observation": "Combat in Moonrise Towers, followed by the level 9 character menu.",
+            "audio_observation": "Player commentary admitting to a 'lie' in the script about 'picking off stragglers.'",
+            "player_expression": null,
+            "event_description": "The player aggressively clears Moonrise Towers and reaches level 9.",
+            "phase_kind": "combat",
+            "significance": "routine",
+            "segment_label": "moonrise_clearing"
+          },
+          {
+            "relative_timestamp": "2:02",
+            "visual_observation": "Gauntlet of Shar exploration, Yurgir encounter, and Balthazar fight.",
+            "audio_observation": "Player commentary describing the ease of the Yurgir persuasion and the tension of the Balthazar fight.",
+            "player_expression": null,
+            "event_description": "The player progresses through the Gauntlet of Shar, convincing Yurgir to kill himself and barely defeating Balthazar.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "gauntlet_of_shar"
+          },
+          {
+            "relative_timestamp": "2:39",
+            "visual_observation": "Combat with Grym in the Adamantine Forge.",
+            "audio_observation": "Player commentary expressing frustration at a perceived bug where Grym 'disappeared' temporarily.",
+            "player_expression": null,
+            "event_description": "The player takes a detour to defeat Grym, experiencing a brief moment of panic due to a glitch.",
+            "phase_kind": "boss",
+            "significance": "notable",
+            "segment_label": "adamantine_forge_grym"
+          },
+          {
+            "relative_timestamp": "3:10",
+            "visual_observation": "Cutscene with Nightsong, followed by the first confrontation with Ketheric Thorm.",
+            "audio_observation": "Player commentary noting their caution with the Gauntlet's platform and their strategy with Ketheric.",
+            "player_expression": null,
+            "event_description": "The player frees the Nightsong and begins the assault on Ketheric Thorm, planting a 'seed of doubt' via dialogue.",
+            "phase_kind": "cutscene",
+            "significance": "pivotal",
+            "segment_label": "ketheric_thorm_confrontation"
+          }
+        ],
+        "emotional_trajectory": "The segment is characterized by a high degree of confidence and strategic satisfaction as the player successfully uses their Bard's persuasion to bypass difficult boss fights. There is a brief moment of high tension and frustration during the Balthazar fight and the glitched Grym encounter, but this quickly returns to a state of focused progression and anticipation as they approach the Act 2 finale.",
+        "pacing_breakdown": "The segment is very fast-paced, covering a large portion of Act 2's major encounters. Combat and tactical setups occupy about 40% of the time. Dialogue and cutscenes (including the persuasion-based boss 'fights') make up 35%. Menus and character progression account for 15%, while exploration and meta-commentary fill the remaining 10%.",
+        "carryover_threads": [
+          {
+            "thread_name": "Final Ketheric Thorm Fight",
+            "evidence": "The segment ends with the party entering the Mind Flayer Colony to pursue Ketheric Thorm.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Honor Mode Survival",
+            "evidence": "The player consistently emphasizes high-risk encounters and the need for extra XP/feats for survivability.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    }
+  ]
+}

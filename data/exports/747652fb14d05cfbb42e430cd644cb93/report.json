@@ -1,0 +1,3054 @@
+{
+  "video_id": "747652fb14d05cfbb42e430cd644cb93",
+  "filename": "2usCkmO3xEY.youtube",
+  "duration_seconds": 1200.0,
+  "chunk_count": 5,
+  "game_title": "Baldur's Gate 3",
+  "game_key": "baldur_s_gate_3",
+  "session_arc": "[0:00-5:00] The player begins in a focused, communicative state, transitioning into methodical exploration. Upon solving the puzzle, there's a brief sense of achievement, which is quickly replaced by frustration and disappointment when the game crashes.\n[4:00-9:00] The segment begins with focused exploration, which is abruptly interrupted by frustration and disappointment when the game crashes again. The player then enters a state of resignation as they navigate menus and wait for mod updates, showing clear signs of technical fatigue.\n[8:00-13:00] The segment begins with a sense of focused determination as the player attempts to fix the technical issues. However, as more errors occur, the player's mood shifts towards frustration and fatigue. By the end of the segment, they seem resigned to taking a break to address the problems more thoroughly.\n[12:00-17:00] The player remains focused and methodical, though slightly hesitant when deciding which files to delete. There is a sense of quiet anticipation as the game restarts.\n[16:00-20:00] The segment begins with a sense of lingering technical fatigue as the player manages mods. However, this is replaced by relief and anticipation upon reaching the main menu and successfully loading into the game. By the end, the player is back in a focused, explorative state, though slightly cautious about potential lost progress.",
+  "friction_moments": [
+    {
+      "agent_kind": "friction",
+      "source_label": "controls",
+      "absolute_seconds": 101.0,
+      "absolute_timestamp": "1:41",
+      "summary": "Environmental obstacles and AI pathfinding making party navigation tedious.",
+      "game_context": "Party navigation and jumping mechanics in vertical terrain.",
+      "evidence": [
+        "Repetitive movement of jump indicator",
+        "Character taking damage from fall",
+        "Party members failing to follow the lead character's jump",
+        "Frustrated sigh",
+        "Tone of annoyance",
+        "Scene: Attempting to navigate party members down through a hole in the monastery floor without taking fall damage.",
+        "Expression: The player leans forward, squinting at the screen, and briefly furrows their brow during the jump attempt.",
+        "Quote: God dammit.",
+        "Quote: Can I jump down without damage?"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 0,
+      "segment_label": null,
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "bug",
+      "absolute_seconds": 268.0,
+      "absolute_timestamp": "4:28",
+      "summary": "Unexpected server connection timeout/game crash.",
+      "game_context": "Quest progression/Looting critical item.",
+      "evidence": [
+        "Loading screen interruption",
+        "Server timeout error message",
+        "Abrupt transition to main menu",
+        "Shocked tone",
+        "Disappointed exhale",
+        "Scene: The moment after looting the Dawnmaster's Crest, a critical quest item for 'The Blood of Lathander' quest.",
+        "Expression: The player's eyes widen in surprise as the loading screen appears; they then touch their mouth in disbelief and lean back away from the monitor.",
+        "Quote: Oh what? What happened?",
+        "Quote: I got kicked. I crashed.",
+        "Quote: Does that mean we're gonna have to retrace our steps again? Because we hadn't saved after grabbing that."
+      ],
+      "severity_numeric": 9,
+      "source_chunk_index": 0,
+      "segment_label": "game_crash",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "quality",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "bug",
+      "absolute_seconds": 538.0,
+      "absolute_timestamp": "8:58",
+      "summary": "A file access error prevents the mod from updating while the game process is active.",
+      "game_context": "Internal Mod Manager file handling.",
+      "evidence": [
+        "Windows error popup appearing over game UI",
+        "Mod progress bar stalling",
+        "Repetitive clicking on the same mod entry",
+        "Sharp, frustrated intake of breath",
+        "Aggressive keyboard/mouse sounds",
+        "Disappointed tone",
+        "Scene: Mod Manager screen within the main menu while attempting to update the 'FaerunColors' mod.",
+        "Expression: The player is seen in the lower left corner; they rest their chin on their hand and look at the error message with a furrowed brow, appearing visibly drained.",
+        "Quote: Fucking dammit.",
+        "Quote: Process cannot access the file because it's being used by another process."
+      ],
+      "severity_numeric": 9,
+      "source_chunk_index": 2,
+      "segment_label": "mod_manager",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "quality",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "ui_confusion",
+      "absolute_seconds": 587.0,
+      "absolute_timestamp": "9:47",
+      "summary": "Persistent version mismatch between host and client despite previous update attempts.",
+      "game_context": "Multiplayer session mod-sync check.",
+      "evidence": [
+        "Loading percentage stuck at 0%",
+        "Error popup: 'Failed to join: installed mods do not match'",
+        "Abrupt kick back to main menu",
+        "Audible groan/sigh",
+        "Frustrated muttering",
+        "Scene: Loading screen transition attempting to join the teammate's multiplayer session.",
+        "Expression: The player leans back in their chair and gestures toward the screen with both hands in a shrug of disbelief.",
+        "Quote: Agh.",
+        "Quote: Failed to join... installed mods do not match the session's mods you're trying to join."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 2,
+      "segment_label": "session_join",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "quality",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "repetition",
+      "absolute_seconds": 670.0,
+      "absolute_timestamp": "11:10",
+      "summary": "Unclear logic regarding which mod version (Updated vs. Downgraded) is required for the multiplayer lobby.",
+      "game_context": "Specific mod version compatibility.",
+      "evidence": [
+        "Cycling through Enable/Disable/Update/Downgrade buttons",
+        "Menu spam (rapidly opening and closing the same sub-menu)",
+        "Scrolling through long mod descriptions looking for fix instructions",
+        "Strained, tired voice",
+        "Extended silence while reading",
+        "Scene: Mod Manager detailed view for the 'Fate Series Archer' mod.",
+        "Expression: The player rub their eyes and then holds their head in their hand, looking exhausted by the technical troubleshooting loop.",
+        "Quote: I don't remember how we fixed this last time.",
+        "Quote: We updated it and then we had to... we downgraded it and then it... the thing... it messed it up. Yeah, okay."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 2,
+      "segment_label": "brb_break",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "other",
+      "absolute_seconds": 700.0,
+      "absolute_timestamp": "11:40",
+      "summary": "Technical hurdles became too disruptive for the live broadcast.",
+      "game_context": "Stream management/Technical quit.",
+      "evidence": [
+        "Display of 'Be Right Back' text on screen",
+        "Player characters disappearing from view",
+        "Cursor moving off-screen to the streaming software",
+        "Defeated, apologetic tone",
+        "Game music volume lowering",
+        "Scene: Main menu transitioning to a static piece of game art.",
+        "Expression: The player (left avatar) stops gesturing and looks away from the game entirely, resigned to fixing the issue off-stream.",
+        "Quote: I'm just gonna do this real quick and put the be right back while we're trying to sort this out.",
+        "Quote: I apologize... I'm just going to do this real quick and trying to sort this out."
+      ],
+      "severity_numeric": 9,
+      "source_chunk_index": 2,
+      "segment_label": "brb_break",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "repetition",
+      "absolute_seconds": 875.0,
+      "absolute_timestamp": "14:35",
+      "summary": "Ambiguity in which residual files are causing the 'Failed to Join' error from the previous segment.",
+      "game_context": "Identifying corrupted mod files.",
+      "evidence": [
+        "Static 'Be Right Back' overlay",
+        "Hesitant tone",
+        "Uncertainty in decision making",
+        "Scene: Locating mod files in the local directory.",
+        "Expression: Not visible (BRB screen active)",
+        "Quote: Archer pak and Fate series archer pak... delete any residual pak files related to the archer.",
+        "Quote: Does that mean I just delete all of them or just one of them? I guess I'll delete both of them."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 3,
+      "segment_label": "mod_troubleshooting",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "other",
+      "absolute_seconds": 1025.0,
+      "absolute_timestamp": "17:05",
+      "summary": "Extended technical overhead caused by a large number of installed mods slowing down the startup process.",
+      "game_context": "Initial game startup and mod synchronization after manual file deletion.",
+      "evidence": [
+        "Static stream overlay",
+        "Lengthy loading period with no gameplay visual",
+        "Tone of impatience",
+        "Sigh",
+        "Scene: Stream 'Be Right Back' screen while waiting for the game to process mods during launch.",
+        "Expression: The player's avatar is talking but exhibits a static, focused posture, indicating they are staring at a loading screen.",
+        "Quote: Why is this taking so long... with the mods?"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": null,
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "repetition",
+      "absolute_seconds": 1183.0,
+      "absolute_timestamp": "19:43",
+      "summary": "The player is forced to repeat mundane exploration tasks because progress was lost during the earlier technical crashes.",
+      "game_context": "Re-exploring and re-looting the monastery to recover state after a crash.",
+      "evidence": [
+        "Opening empty wooden crates",
+        "Retracing steps through the bloody courtyard",
+        "Confused tone",
+        "Resigned sigh",
+        "Scene: Courtyard of Rosymorn Monastery, looting containers previously cleared before the session crashes.",
+        "Expression: The player's avatar performs a questioning gesture with hands raised at 03:43, reflecting the player's confusion over the container's contents.",
+        "Quote: Wait, why is this one empty now?",
+        "Quote: I have to keep going."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 4,
+      "segment_label": "rosymorn_monastery",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "retry",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "clarity_moments": [
+    {
+      "agent_kind": "clarity",
+      "source_label": "missing_signpost",
+      "absolute_seconds": 111.0,
+      "absolute_timestamp": "1:51",
+      "summary": "The map and minimap do not provide room labels or specific icons for high-interest backtracking points in this complex vertical area.",
+      "game_context": "Navigate directly back to the previously discovered stained-glass puzzle room.",
+      "evidence": [
+        "Wandering between different ruined sections",
+        "Repeatedly rotating the camera while looking at various ledges",
+        "Jumping between levels tentatively",
+        "Uncertain tone",
+        "Asking teammates for directions",
+        "Scene: Rosymorn Monastery ruins, currently at a granite bench on a high balcony.",
+        "Expression: The player (left cam) is focused on the screen, eyes moving rapidly to find a visual landmark.",
+        "Quote: I forget where that is cause it's been a bit.",
+        "Quote: Does anybody remember our way back?"
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 0,
+      "segment_label": null,
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "friction",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "other",
+      "absolute_seconds": 268.0,
+      "absolute_timestamp": "4:28",
+      "summary": "Technical stability / server connection reliability.",
+      "game_context": "Continue questing toward 'The Blood of Lathander'.",
+      "evidence": [
+        "Abrupt transition from gameplay to loading screen",
+        "Error message pop-up at main menu",
+        "Tone of shock and immediate disappointment",
+        "Sighing",
+        "Scene: Inside the monastery after looting the Dawnmaster's Crest; game screen abruptly cuts to a loading bar and then the main menu.",
+        "Expression: The player (left cam) looks wide-eyed at the screen with a stunned expression, while the teammate (right cam) leans back and looks away in disappointment.",
+        "Quote: Oh, what?",
+        "Quote: What happened?",
+        "Quote: I got kicked.",
+        "Quote: I crashed.",
+        "Quote: Aha... we hadn't saved after grabbing that... probably."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 0,
+      "segment_label": "game_crash",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "friction",
+        "quality",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "confusing_ui",
+      "absolute_seconds": 501.0,
+      "absolute_timestamp": "8:21",
+      "summary": "A pre-session check that prevents joining if mod versions do not match, rather than allowing play and then crashing.",
+      "game_context": "Seamlessly rejoin the multiplayer session from the camp.",
+      "evidence": [
+        "Update buttons for specific mods",
+        "Progress bars indicating mod synchronization",
+        "Frustrated sigh",
+        "Resigned explanation of mod behavior",
+        "Scene: Mod Verification menu screen listing 'FaerunColors' and 'Fate Series Archer'.",
+        "Expression: The player rests their head on their hand and leans back, showing signs of frustration and technical fatigue.",
+        "Quote: Fucking dammit.",
+        "Quote: Fate does take a little bit to get itself sorted.",
+        "Quote: I guess we're just going to wait while you start and everything set up again."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 1,
+      "segment_label": "mod_management",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "quality",
+        "retry",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "poor_feedback",
+      "absolute_seconds": 538.0,
+      "absolute_timestamp": "8:58",
+      "summary": "Clearer instructions on how to release the file lock (e.g., restarting the game or closing background processes) within the UI.",
+      "game_context": "Update the 'Fate Series Archer' mod to match the host's version.",
+      "evidence": [
+        "Error pop-up appearing over the update progress bar",
+        "Mouse cursor hovering over the 'Update' button repeatedly",
+        "Aggravated tone",
+        "Reading technical error message aloud",
+        "Scene: Mod Verification screen inside the game menu.",
+        "Expression: The player's avatar gestures emphatically with arms wide, mimicking frustration.",
+        "Quote: Process cannot access the file because it's being used by another process... fucking dammit."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 2,
+      "segment_label": "mod_manager",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "friction",
+        "quality",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "poor_feedback",
+      "absolute_seconds": 586.0,
+      "absolute_timestamp": "9:46",
+      "summary": "The UI indicated the mod was 'Updated' in the previous menu, creating a false sense of readiness that was immediately contradicted by the server check.",
+      "game_context": "Join the teammate's multiplayer lobby after performing an update.",
+      "evidence": [
+        "Error message pop-up stating 'Failed to join: installed mods do not match'",
+        "Abrupt transition back to the main menu",
+        "Sigh of resignation",
+        "Tone of confusion",
+        "Scene: Game loading screen transitioning into a session join error.",
+        "Expression: The avatar's head hangs low, conveying a sense of fatigue.",
+        "Quote: Failed to join: installed mods do not match the session's mods you're trying to join.",
+        "Quote: It gave that error about it... but it still said updated."
+      ],
+      "severity_numeric": 9,
+      "source_chunk_index": 2,
+      "segment_label": "session_join",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "friction",
+        "quality",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "confusing_ui",
+      "absolute_seconds": 622.0,
+      "absolute_timestamp": "10:22",
+      "summary": "A search bar or a 'Recent' filter in the mod list to highlight recently interacted-with files.",
+      "game_context": "Locate the specific mod causing the conflict to manually check its status.",
+      "evidence": [
+        "Rapid scrolling up and down through a list of 25 mods",
+        "Mouse lingering on various unrelated mods while searching",
+        "Searching tone",
+        "Inquisitive muttering",
+        "Scene: Scrolling through the 'Installed' mods list in the Mod Manager.",
+        "Expression: The avatar's head turns back and forth as if scanning a complex document.",
+        "Quote: Where is... why can't I find... Fate series Archer in this list? Oh, there you are."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 2,
+      "segment_label": "mod_manager",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "poor_feedback",
+      "absolute_seconds": 672.0,
+      "absolute_timestamp": "11:12",
+      "summary": "The error message should specify which version number (e.g., v1.2 vs v1.3) is needed by the host session.",
+      "game_context": "Correct the mod version to match the host.",
+      "evidence": [
+        "Clicking back and forth between 'Update' and 'Downgrade' buttons",
+        "Reading the mod description for versioning hints",
+        "Uncertain tone",
+        "Recalling past technical issues",
+        "Scene: Mod details page for 'Fate Series Archer'.",
+        "Expression: Avatar remains static as the player appears to be reading off-screen notes or checking files.",
+        "Quote: I don't remember how we fixed this last time... I think we updated it and then we had to downgrade it... it messed it up."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 2,
+      "segment_label": "brb_break",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "friction",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "poor_feedback",
+      "absolute_seconds": 875.0,
+      "absolute_timestamp": "14:35",
+      "summary": "The game's internal error messages provide no guidance on which specific local files (e.g., .pak vs .json) are causing the mismatch, necessitating a 'guess-and-delete' approach in the file system.",
+      "game_context": "Correctly identify and remove only the specific corrupt or mismatched mod files to allow the game to sync with the host.",
+      "evidence": [
+        "No visual gameplay available (BRB screen active)",
+        "Uncertain tone",
+        "Debating multiple options",
+        "Reading file names aloud",
+        "Scene: Windows File Explorer (narrated behind 'Be Right Back' overlay)",
+        "Expression: None",
+        "Quote: Delete any residual pack files related to the Archer.",
+        "Quote: So does that mean I just delete all of the files that say Archer or just one of them? I guess I'll delete both of them."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 3,
+      "segment_label": "mod_troubleshooting",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "friction",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "poor_feedback",
+      "absolute_seconds": 1181.0,
+      "absolute_timestamp": "19:41",
+      "summary": "Clearer indication of which world containers are randomized upon session reload versus which contain static quest-related loot.",
+      "game_context": "Re-loot the environment to match the progress made before the previous crashes.",
+      "evidence": [
+        "Inventory UI window appearing empty upon interaction",
+        "Mouse cursor hovering over the empty container box",
+        "Tone of minor surprise",
+        "Seeking confirmation of progress state",
+        "Scene: Bloody courtyard of Rosymorn Monastery, interacting with a wooden crate.",
+        "Expression: The player's avatar leans forward slightly, squinting at the empty inventory pop-up with a focused, analytical expression.",
+        "Quote: Wait, this one's empty this time."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 4,
+      "segment_label": "rosymorn_monastery",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "friction",
+        "retry",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "delight_moments": [
+    {
+      "agent_kind": "delight",
+      "source_label": "mastery",
+      "absolute_seconds": 36.0,
+      "absolute_timestamp": "0:36",
+      "summary": "The deep CRPG systems allow for collaborative strategy and character optimization, which provides a sense of group mastery and preparation.",
+      "game_context": "The player and teammates are optimizing their party equipment before further exploration.",
+      "evidence": [
+        "Rapidly comparing weapon stats",
+        "Coordinating item movement across party members",
+        "Knowledgeable, focused tone",
+        "Scene: Inventory management screen inside the Rosymorn Monastery.",
+        "Expression: Leaning forward, eyes scanning item tooltips intently.",
+        "Quote: Yeah that'd probably be better for... basically like Paladin or Eldritch Knight build at this point."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 0,
+      "segment_label": "inventory_management",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "discovery",
+      "absolute_seconds": 220.0,
+      "absolute_timestamp": "3:40",
+      "summary": "The environmental storytelling and puzzle logic reward players for exploring the wider area and collecting items that initially seemed like generic loot.",
+      "game_context": "The player identifies the correct location for a missing ceremonial weapon to solve the room's puzzle.",
+      "evidence": [
+        "Direct movement to the interactive pedestal",
+        "Successful puzzle completion via inventory placement",
+        "Triumphant exclamation (Aha!)",
+        "Scene: The stained-glass window room in the monastery ruins.",
+        "Expression: Focused, followed by a slight nod of satisfaction.",
+        "Quote: Aha! All right, and where was the one we didn't have? This... There it is."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 0,
+      "segment_label": null,
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "progression",
+      "absolute_seconds": 1073.0,
+      "absolute_timestamp": "17:53",
+      "summary": "The relief of reaching the game's interface after a period of intense technical friction acts as a positive emotional reset, allowing the player to return to a state of flow.",
+      "game_context": "Finally clearing the technical hurdles that had blocked gameplay for the last 15 minutes.",
+      "evidence": [
+        "Avatar smiling and looking directly at the camera",
+        "Immediate navigation to the menu options",
+        "Relieved tone of voice",
+        "Satisfied exhale",
+        "Scene: Baldur's Gate 3 main menu after a lengthy troubleshooting process.",
+        "Expression: The player's avatar is smiling and looking more relaxed as the main menu music kicks in.",
+        "Quote: Oh there we go. Baldur's Gate is open."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 4,
+      "segment_label": "main_menu",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "discovery",
+      "absolute_seconds": 1084.0,
+      "absolute_timestamp": "18:04",
+      "summary": "The discovery of new aesthetic or mechanical mods through social interaction rewards the player's curiosity and provides a sense of community-driven content exploration.",
+      "game_context": "The teammate mentions finding a 'Royal Knight' armor set mod, sparking interest in new customization options.",
+      "evidence": [
+        "Scanning specific mod entries",
+        "Cursor hovering over armor-related mods",
+        "Inquisitive 'Oh?' tone",
+        "Interested humming",
+        "Scene: In-game Mod Manager menu, browsing installed and available mods.",
+        "Expression: The player's avatar looks engaged and curious, following the teammate's description of new content.",
+        "Quote: Oh?",
+        "Quote: Hm..."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 4,
+      "segment_label": "mod_manager",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "progression",
+      "absolute_seconds": 1151.0,
+      "absolute_timestamp": "19:11",
+      "summary": "Successful re-entry after persistent failure provides a significant sense of achievement and validates the player's troubleshooting efforts.",
+      "game_context": "Successfully reuniting with the team in the game world after multiple failed join attempts.",
+      "evidence": [
+        "Rapid camera rotation to locate teammates",
+        "Immediate character movement toward party members",
+        "Confident, satisfied tone",
+        "Return to clear, upbeat narration",
+        "Scene: Camp environment upon successfully loading into the multiplayer lobby.",
+        "Expression: The player's avatar is active and smiling, mirroring the player's return to engagement.",
+        "Quote: All right. And I'm in."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 4,
+      "segment_label": "camp_exploration",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "quality_issues": [
+    {
+      "agent_kind": "quality",
+      "source_label": "performance",
+      "absolute_seconds": 268.0,
+      "absolute_timestamp": "4:28",
+      "summary": "performance issue: Sudden transition to loading screen, Error message pop-up: 'The connection to the server has timed out.', Return to the main menu. during The player was moving the party across a bridge area in the monastery immediately after a quest update.",
+      "game_context": "The player was moving the party across a bridge area in the monastery immediately after a quest update.",
+      "evidence": [
+        "Sudden transition to loading screen",
+        "Error message pop-up: 'The connection to the server has timed out.'",
+        "Return to the main menu.",
+        "None",
+        "Player reaction: Noticed and commented",
+        "Scene: Exploring the upper reaches of Rosymorn Monastery after looting the Dawnmaster's Crest.",
+        "Quote: Oh, what?",
+        "Quote: What happened?",
+        "Quote: I got kicked.",
+        "Quote: I crashed.",
+        "Quote: Ah, that would do it, yeah."
+      ],
+      "severity_numeric": 9,
+      "source_chunk_index": 0,
+      "segment_label": "game_crash",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "quality",
+      "source_label": "ui_rendering",
+      "absolute_seconds": 501.0,
+      "absolute_timestamp": "8:21",
+      "summary": "ui rendering issue: Version mismatch for 'FaerunColors' and 'Fate Series Archer' mods, Mandatory update progress bar during Re-synchronizing game state and mods to rejoin a multiplayer session.",
+      "game_context": "Re-synchronizing game state and mods to rejoin a multiplayer session.",
+      "evidence": [
+        "Version mismatch for 'FaerunColors' and 'Fate Series Archer' mods",
+        "Mandatory update progress bar",
+        "None",
+        "Player reaction: Noticed and commented",
+        "Scene: Mod Verification screen after attempting to rejoin the lobby.",
+        "Quote: Fucking dammit. Fate does take a little bit to get itself sorted."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 1,
+      "segment_label": "mod_management",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "retry",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "quality",
+      "source_label": "other",
+      "absolute_seconds": 538.0,
+      "absolute_timestamp": "8:58",
+      "summary": "other issue: A Windows OS 'busy' cursor appears, System error dialogue box pops up over the game UI during Attempting to run an 'Update' on an installed mod while the game is running.",
+      "game_context": "Attempting to run an 'Update' on an installed mod while the game is running.",
+      "evidence": [
+        "A Windows OS 'busy' cursor appears",
+        "System error dialogue box pops up over the game UI",
+        "Windows system error sound (ding)",
+        "Player reaction: Noticed and commented",
+        "Scene: In-game Mod Manager updating 'Fate Series Archer' mod.",
+        "Quote: Fucking dammit.",
+        "Quote: The process cannot access the file because it is being used by another process.",
+        "Quote: Oh please say it's not doing this shit again."
+      ],
+      "severity_numeric": 9,
+      "source_chunk_index": 2,
+      "segment_label": "mod_manager",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "quality",
+      "source_label": "other",
+      "absolute_seconds": 585.0,
+      "absolute_timestamp": "9:45",
+      "summary": "other issue: Error pop-up message: 'Failed to join: installed mods do not match the session's mods you're trying to join.' during Joining a multiplayer session where mod versions are out of sync.",
+      "game_context": "Joining a multiplayer session where mod versions are out of sync.",
+      "evidence": [
+        "Error pop-up message: 'Failed to join: installed mods do not match the session's mods you're trying to join.'",
+        "None",
+        "Player reaction: Noticed and commented",
+        "Scene: Loading screen after attempting to join a multiplayer lobby.",
+        "Quote: Okay, let's see.",
+        "Quote: Failed to join... installed mods do not match the session's mods.",
+        "Quote: I'm gonna go back to my files."
+      ],
+      "severity_numeric": 9,
+      "source_chunk_index": 2,
+      "segment_label": "session_join",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "sentiment_moments": [
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 0.0,
+      "absolute_timestamp": "0:00",
+      "summary": "Recapping session goals and previous progress",
+      "game_context": "Party is idle at a camp-like setting in the ruins.",
+      "evidence": [
+        "Trigger: Recapping session goals and previous progress",
+        "Visual: Party is idle at a camp-like setting in the ruins.",
+        "Audio: Confident, talkative, and clear. Explaining the plan for 'Lathander's Light'.",
+        "Expression: Neutral posture, facing screen, focused on communicating with the audience."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 0,
+      "segment_label": "monastery_camp",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 41.0,
+      "absolute_timestamp": "0:41",
+      "summary": "Inventory management and party build discussion",
+      "game_context": "Navigating item menus and character sheets.",
+      "evidence": [
+        "Trigger: Inventory management and party build discussion",
+        "Visual: Navigating item menus and character sheets.",
+        "Audio: Socially engaged, discussing spell slots and character specializations with teammates.",
+        "Expression: Consistent focused posture."
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 0,
+      "segment_label": "monastery_ruins_exploration",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 70.0,
+      "absolute_timestamp": "1:10",
+      "summary": "Navigating environmental obstacles (jumping and verticality)",
+      "game_context": "Party characters are jumping across gaps in the ruins.",
+      "evidence": [
+        "Trigger: Navigating environmental obstacles (jumping and verticality)",
+        "Visual: Party characters are jumping across gaps in the ruins.",
+        "Audio: Focused commentary on navigation and character pathing.",
+        "Expression: Steady focus on the screen."
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 0,
+      "segment_label": "monastery_ruins_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "frustrated",
+      "absolute_seconds": 102.0,
+      "absolute_timestamp": "1:42",
+      "summary": "Minor environmental navigation frustration",
+      "game_context": "Attempting to jump down into a specific pit without taking fall damage.",
+      "evidence": [
+        "Trigger: Minor environmental navigation frustration",
+        "Visual: Attempting to jump down into a specific pit without taking fall damage.",
+        "Audio: Quietly mutters 'Dammit' as characters take damage or fail to land correctly.",
+        "Expression: Slight furrowed brow, intent on screen.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 0,
+      "segment_label": null,
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "clarity",
+        "friction"
+      ],
+      "sentiment_raw_score": -2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "triumphant",
+      "absolute_seconds": 134.0,
+      "absolute_timestamp": "2:14",
+      "summary": "Reaching the puzzle room and finding the quest item",
+      "game_context": "Entering the room with the large stained-glass floor pattern.",
+      "evidence": [
+        "Trigger: Reaching the puzzle room and finding the quest item",
+        "Visual: Entering the room with the large stained-glass floor pattern.",
+        "Audio: Excited tone change: 'Aha! There it is.' Clearly pleased to find the objective.",
+        "Expression: Slight forward lean, looking more engaged."
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 0,
+      "segment_label": "stained_glass_puzzle",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 4,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 171.0,
+      "absolute_timestamp": "2:51",
+      "summary": "Looting the Dawnmaster's Crest and reading lore",
+      "game_context": "Opening the journal and a chest to retrieve key items.",
+      "evidence": [
+        "Trigger: Looting the Dawnmaster's Crest and reading lore",
+        "Visual: Opening the journal and a chest to retrieve key items.",
+        "Audio: Satisfied, reading aloud the note and confirming the quest update.",
+        "Expression: Relaxed posture, looking at the UI."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 0,
+      "segment_label": "stained_glass_puzzle",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 3,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 218.0,
+      "absolute_timestamp": "3:38",
+      "summary": "Returning to main path through ruins",
+      "game_context": "Party is backtracking through the corridors.",
+      "evidence": [
+        "Trigger: Returning to main path through ruins",
+        "Visual: Party is backtracking through the corridors.",
+        "Audio: Routine discussion of where to go next. 'I already put the hammer in place'.",
+        "Expression: Calm, focused on navigation."
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 0,
+      "segment_label": null,
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "frustrated",
+      "absolute_seconds": 310.0,
+      "absolute_timestamp": "5:10",
+      "summary": "Realization that quest progress was lost",
+      "game_context": "Baldur's Gate 3 main menu screen.",
+      "evidence": [
+        "Trigger: Realization that quest progress was lost",
+        "Visual: Baldur's Gate 3 main menu screen.",
+        "Audio: Deep sigh: \"Aha... we hadn't saved after grabbing that.\"",
+        "Expression: Head tilt, resting chin on hand in a state of resignation.",
+        "Silence type: resigned"
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 1,
+      "segment_label": null,
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": -5,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "bored",
+      "absolute_seconds": 330.0,
+      "absolute_timestamp": "5:30",
+      "summary": "Waiting for mod update progress bars",
+      "game_context": "Update progress bar filling slowly.",
+      "evidence": [
+        "Trigger: Waiting for mod update progress bars",
+        "Visual: Update progress bar filling slowly.",
+        "Audio: Silent.",
+        "Expression: Slumped in chair, watching the progress bar.",
+        "Silence type: idle"
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 1,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": -5,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 360.0,
+      "absolute_timestamp": "6:00",
+      "summary": "Stalling at the main menu due to connection issues",
+      "game_context": "Main menu idling.",
+      "evidence": [
+        "Trigger: Stalling at the main menu due to connection issues",
+        "Visual: Main menu idling.",
+        "Audio: Briefly laughing at a chat joke to mask annoyance.",
+        "Expression: Shifting weight, looking away from the game screen."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 1,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": -2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "frustrated",
+      "absolute_seconds": 390.0,
+      "absolute_timestamp": "6:30",
+      "summary": "Extended technical downtime",
+      "game_context": "Slow mod update progress.",
+      "evidence": [
+        "Trigger: Extended technical downtime",
+        "Visual: Slow mod update progress.",
+        "Audio: Muttering about the mod \"Fate Series Archer\" taking too long.",
+        "Expression: Restless fidgeting."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 1,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": -5,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "bored",
+      "absolute_seconds": 420.0,
+      "absolute_timestamp": "7:00",
+      "summary": "Waiting for teammates to re-establish the lobby",
+      "game_context": "Main menu idling.",
+      "evidence": [
+        "Trigger: Waiting for teammates to re-establish the lobby",
+        "Visual: Main menu idling.",
+        "Audio: Silent.",
+        "Expression: Face resting in hand, blankly staring at the menu skeleton.",
+        "Silence type: resigned"
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 1,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": -3,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 450.0,
+      "absolute_timestamp": "7:30",
+      "summary": "Engaging with menu music as a distraction",
+      "game_context": "Mod menu still active.",
+      "evidence": [
+        "Trigger: Engaging with menu music as a distraction",
+        "Visual: Mod menu still active.",
+        "Audio: Quiet humming to the music.",
+        "Expression: Occasional nods to the beat, a minor coping signal."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 1,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": -3,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 460.0,
+      "absolute_timestamp": "7:40",
+      "summary": "Attempting to reload the save and resume",
+      "game_context": "Navigating the 'Continue' menu options.",
+      "evidence": [
+        "Trigger: Attempting to reload the save and resume",
+        "Visual: Navigating the 'Continue' menu options.",
+        "Audio: Voice tone becomes more professional/task-oriented.",
+        "Expression: Squinting at the screen, posture straightens."
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 1,
+      "segment_label": "camp_reload",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "frustrated",
+      "absolute_seconds": 495.0,
+      "absolute_timestamp": "8:15",
+      "summary": "Teammate crashes while loading back in",
+      "game_context": "Loading screen stalls.",
+      "evidence": [
+        "Trigger: Teammate crashes while loading back in",
+        "Visual: Loading screen stalls.",
+        "Audio: Audible 'Ah' of frustration; muttering about more technical issues.",
+        "Expression: Furrowed brow, rubbing the bridge of the nose."
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 1,
+      "segment_label": "camp_reload",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": -4,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "bored",
+      "absolute_seconds": 515.0,
+      "absolute_timestamp": "8:35",
+      "summary": "Waiting for the 'Fate Series Archer' mod to update",
+      "game_context": "Mod Verification screen with a slow-moving progress bar.",
+      "evidence": [
+        "Trigger: Waiting for the 'Fate Series Archer' mod to update",
+        "Visual: Mod Verification screen with a slow-moving progress bar.",
+        "Audio: Audible sigh; muttering about how long this specific mod takes to sort itself.",
+        "Expression: Leaning back slightly, looking less engaged with the UI.",
+        "Silence type: idle"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 2,
+      "segment_label": "mod_management",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "quality",
+        "retry"
+      ],
+      "sentiment_raw_score": -1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "frustrated",
+      "absolute_seconds": 545.0,
+      "absolute_timestamp": "9:05",
+      "summary": "Encountering a 'File Access Denied' system error",
+      "game_context": "Error message pop-up: 'Process cannot access the file because it is being used by another process'.",
+      "evidence": [
+        "Trigger: Encountering a 'File Access Denied' system error",
+        "Visual: Error message pop-up: 'Process cannot access the file because it is being used by another process'.",
+        "Audio: Sharp, annoyed tone: 'Dammit.' Sharp exhale.",
+        "Expression: Avatar stops gesturing; player appears to be squinting at the error message.",
+        "Silence type: confused"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 2,
+      "segment_label": "mod_manager",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "quality",
+        "verbal"
+      ],
+      "sentiment_raw_score": -4,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "frustrated",
+      "absolute_seconds": 570.0,
+      "absolute_timestamp": "9:30",
+      "summary": "Stalling while waiting for the mod manager to resolve the file lock",
+      "game_context": "Mod menu remains stuck on a progress bar that is not moving.",
+      "evidence": [
+        "Trigger: Stalling while waiting for the mod manager to resolve the file lock",
+        "Visual: Mod menu remains stuck on a progress bar that is not moving.",
+        "Audio: Prolonged silence. Occasional heavy breathing.",
+        "Expression: Posture is slumped; player is resting their chin on their hand.",
+        "Silence type: resigned"
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 2,
+      "segment_label": "session_join",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "quality",
+        "verbal"
+      ],
+      "sentiment_raw_score": -5,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "frustrated",
+      "absolute_seconds": 587.0,
+      "absolute_timestamp": "9:47",
+      "summary": "Join session fails again due to mod mismatch",
+      "game_context": "Loading screen interrupted by error: 'Failed to join: installed mods do not match the session's mods'.",
+      "evidence": [
+        "Trigger: Join session fails again due to mod mismatch",
+        "Visual: Loading screen interrupted by error: 'Failed to join: installed mods do not match the session's mods'.",
+        "Audio: Audible groan: 'Ugh, fucking hell.' Tone of significant annoyance.",
+        "Expression: Player rubs their face with one hand, looking away from the screen briefly."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 2,
+      "segment_label": "session_join",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "quality",
+        "verbal"
+      ],
+      "sentiment_raw_score": -7,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "confused",
+      "absolute_seconds": 615.0,
+      "absolute_timestamp": "10:15",
+      "summary": "Searching the mod list manually for version discrepancies",
+      "game_context": "Scrolling rapidly through a long list of installed mods.",
+      "evidence": [
+        "Trigger: Searching the mod list manually for version discrepancies",
+        "Visual: Scrolling rapidly through a long list of installed mods.",
+        "Audio: Voice is low, muttering mod names. Tone is tired and confused.",
+        "Expression: Avatar gestures tentatively as if explaining the confusion to the teammate."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 2,
+      "segment_label": "mod_manager",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "clarity",
+        "verbal"
+      ],
+      "sentiment_raw_score": -6,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "bored",
+      "absolute_seconds": 645.0,
+      "absolute_timestamp": "10:45",
+      "summary": "Discussing complex mod-fixing strategies with teammate",
+      "game_context": "Staring at the mod details for 'Fate Series Archer'.",
+      "evidence": [
+        "Trigger: Discussing complex mod-fixing strategies with teammate",
+        "Visual: Staring at the mod details for 'Fate Series Archer'.",
+        "Audio: Lengthy technical discussion. Tone is flat, indicating fatigue with the process.",
+        "Expression: Player is motionless, eyes fixed on a specific line of text in the UI.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 2,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": -5,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "frustrated",
+      "absolute_seconds": 675.0,
+      "absolute_timestamp": "11:15",
+      "summary": "Realization that live troubleshooting is failing",
+      "game_context": "Switching between various mod manager tabs without making progress.",
+      "evidence": [
+        "Trigger: Realization that live troubleshooting is failing",
+        "Visual: Switching between various mod manager tabs without making progress.",
+        "Audio: Muttering: 'I don't remember how we fixed this last time... maybe I just uninstall it?'.",
+        "Expression: Avatar is shaking its head; player appears frustrated."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 2,
+      "segment_label": "brb_break",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "verbal"
+      ],
+      "sentiment_raw_score": -6,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 705.0,
+      "absolute_timestamp": "11:45",
+      "summary": "Deciding to pause the stream to fix the issue off-camera",
+      "game_context": "Screen transitions to a 'Be Right Back' static art overlay.",
+      "evidence": [
+        "Trigger: Deciding to pause the stream to fix the issue off-camera",
+        "Visual: Screen transitions to a 'Be Right Back' static art overlay.",
+        "Audio: Voice tone is resigned and apologetic to the audience: 'I'm just going to do this real quick...'.",
+        "Expression: Leans away from the microphone and stops active engagement.",
+        "Silence type: resigned"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 2,
+      "segment_label": "brb_break",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "friction",
+        "verbal"
+      ],
+      "sentiment_raw_score": -4,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "confused",
+      "absolute_seconds": 750.0,
+      "absolute_timestamp": "12:30",
+      "summary": "Searching for system file path",
+      "game_context": "Stalling; screen remains on static BRB overlay.",
+      "evidence": [
+        "Trigger: Searching for system file path",
+        "Visual: Stalling; screen remains on static BRB overlay.",
+        "Audio: Focused narration: 'Why can't I find AppData in this list?' Tone is mildly annoyed."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 3,
+      "segment_label": "mod_troubleshooting",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": -3,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 780.0,
+      "absolute_timestamp": "13:00",
+      "summary": "Successfully locating the correct directory",
+      "game_context": "Stalling; screen remains on static BRB overlay.",
+      "evidence": [
+        "Trigger: Successfully locating the correct directory",
+        "Visual: Stalling; screen remains on static BRB overlay.",
+        "Audio: Voice lightens as they find the path: 'There we go, Local, Larian Studios...'"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 3,
+      "segment_label": "mod_troubleshooting",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 810.0,
+      "absolute_timestamp": "13:30",
+      "summary": "Entering the game mod directory",
+      "game_context": "Stalling; screen remains on static BRB overlay.",
+      "evidence": [
+        "Trigger: Entering the game mod directory",
+        "Visual: Stalling; screen remains on static BRB overlay.",
+        "Audio: Muttering directory names with increasing speed, indicating successful navigation."
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 3,
+      "segment_label": "mod_troubleshooting",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 840.0,
+      "absolute_timestamp": "14:00",
+      "summary": "Identifying problematic mod files",
+      "game_context": "Stalling; screen remains on static BRB overlay.",
+      "evidence": [
+        "Trigger: Identifying problematic mod files",
+        "Visual: Stalling; screen remains on static BRB overlay.",
+        "Audio: Focused: 'Looking for Larry... Archer... Larry and Studios...'"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 3,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 875.0,
+      "absolute_timestamp": "14:35",
+      "summary": "Deciding on file deletion strategy",
+      "game_context": "Stalling; screen remains on static BRB overlay.",
+      "evidence": [
+        "Trigger: Deciding on file deletion strategy",
+        "Visual: Stalling; screen remains on static BRB overlay.",
+        "Audio: Hesitant tone: 'Do I delete all of them or just one of them?' Seeking consensus with teammate."
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 3,
+      "segment_label": "mod_troubleshooting",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "verbal"
+      ],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 900.0,
+      "absolute_timestamp": "15:00",
+      "summary": "Executing the file cleanup",
+      "game_context": "Stalling; screen remains on static BRB overlay.",
+      "evidence": [
+        "Trigger: Executing the file cleanup",
+        "Visual: Stalling; screen remains on static BRB overlay.",
+        "Audio: Voice is firm and decisive: 'I'm just going to delete both of them.'"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 3,
+      "segment_label": "mod_troubleshooting",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 930.0,
+      "absolute_timestamp": "15:30",
+      "summary": "Restarting the game application",
+      "game_context": "Stalling; screen remains on static BRB overlay.",
+      "evidence": [
+        "Trigger: Restarting the game application",
+        "Visual: Stalling; screen remains on static BRB overlay.",
+        "Audio: Satisfied exhale; the player stops narrating as the game's splash audio begins.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 3,
+      "segment_label": "game_restart",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 960.0,
+      "absolute_timestamp": "16:00",
+      "summary": "Waiting for game to load to menu",
+      "game_context": "Transitioning; opening cinematic audio playing behind overlay.",
+      "evidence": [
+        "Trigger: Waiting for game to load to menu",
+        "Visual: Transitioning; opening cinematic audio playing behind overlay.",
+        "Audio: Silent. Epic orchestral music increases in volume.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 3,
+      "segment_label": "game_restart",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 1000.0,
+      "absolute_timestamp": "16:40",
+      "summary": "Coordinating mod settings with teammate",
+      "game_context": "Static BRB screen.",
+      "evidence": [
+        "Trigger: Coordinating mod settings with teammate",
+        "Visual: Static BRB screen.",
+        "Audio: Neutral tone, confirming folder paths and mod order. No signs of active frustration, just methodical work.",
+        "Expression: None (Screen overlay active)"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 4,
+      "segment_label": "game_restart",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 1030.0,
+      "absolute_timestamp": "17:10",
+      "summary": "Preparing to restart the game client",
+      "game_context": "Static BRB screen.",
+      "evidence": [
+        "Trigger: Preparing to restart the game client",
+        "Visual: Static BRB screen.",
+        "Audio: Muttering to himself while finishing file edits. Voice has a task-oriented cadence.",
+        "Expression: None (Screen overlay active)"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 4,
+      "segment_label": null,
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "friction",
+        "verbal"
+      ],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 1060.0,
+      "absolute_timestamp": "17:40",
+      "summary": "Game client starts loading",
+      "game_context": "Static BRB screen; game intro audio (Larian logo sounds) becomes audible.",
+      "evidence": [
+        "Trigger: Game client starts loading",
+        "Visual: Static BRB screen; game intro audio (Larian logo sounds) becomes audible.",
+        "Audio: Silent. Heavy breathing indicates some anticipation or stress about whether the fix worked.",
+        "Expression: None (Screen overlay active)",
+        "Silence type: tense"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 4,
+      "segment_label": "main_menu",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "triumphant",
+      "absolute_seconds": 1080.0,
+      "absolute_timestamp": "18:00",
+      "summary": "Successful reach of the main menu",
+      "game_context": "BRB screen removed; Baldur's Gate 3 main menu is visible.",
+      "evidence": [
+        "Trigger: Successful reach of the main menu",
+        "Visual: BRB screen removed; Baldur's Gate 3 main menu is visible.",
+        "Audio: Exhale of relief. Tone is much lighter: \"There we go, Baldur's Gate is open.\"",
+        "Expression: The avatar (bottom left) is gesturing widely with hands up, mimicking an expression of 'finally' or relief."
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 4,
+      "segment_label": "mod_manager",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 4,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 1110.0,
+      "absolute_timestamp": "18:30",
+      "summary": "Confirming mod manager settings",
+      "game_context": "Navigating the in-game mod manager without error popups.",
+      "evidence": [
+        "Trigger: Confirming mod manager settings",
+        "Visual: Navigating the in-game mod manager without error popups.",
+        "Audio: Relaxed tone, chatting casually with teammate about a new armor set mod. \"Oh, nice.\"",
+        "Expression: Avatar is still, looking focused on the menu UI."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "multiplayer_load",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 1140.0,
+      "absolute_timestamp": "19:00",
+      "summary": "Waiting for multiplayer lobby to load",
+      "game_context": "Loading screen with concept art.",
+      "evidence": [
+        "Trigger: Waiting for multiplayer lobby to load",
+        "Visual: Loading screen with concept art.",
+        "Audio: Humming briefly to the loading music. Tone is patient and expectant.",
+        "Expression: Avatar is looking at the screen, looking content.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 4,
+      "segment_label": "camp_exploration",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "excited",
+      "absolute_seconds": 1165.0,
+      "absolute_timestamp": "19:25",
+      "summary": "Re-entering the game world and reuniting with party",
+      "game_context": "Character spawns at camp. Teammate is visible nearby.",
+      "evidence": [
+        "Trigger: Re-entering the game world and reuniting with party",
+        "Visual: Character spawns at camp. Teammate is visible nearby.",
+        "Audio: Positive, high energy: \"All right, and I'm in! Let's get out of camp and retrace our steps.\"",
+        "Expression: Avatar has a wide grin and is nodding vigorously."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 4,
+      "segment_label": "rosymorn_monastery",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "retry",
+        "verbal"
+      ],
+      "sentiment_raw_score": 5,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 1195.0,
+      "absolute_timestamp": "19:55",
+      "summary": "Discovering empty containers (lost progress impact)",
+      "game_context": "Looting crates in the monastery courtyard; finding several are empty or contain junk.",
+      "evidence": [
+        "Trigger: Discovering empty containers (lost progress impact)",
+        "Visual: Looting crates in the monastery courtyard; finding several are empty or contain junk.",
+        "Audio: Muttering: \"Wait, why is this... oh, it's empty this time.\" Voice is flat, showing a minor dip in mood but no frustration.",
+        "Expression: Avatar is leaning forward, eyes narrowed while inspecting the inventory UI."
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 4,
+      "segment_label": "rosymorn_monastery",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "verbal"
+      ],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "retry_moments": [
+    {
+      "agent_kind": "retry",
+      "source_label": "monastery_crest_acquisition",
+      "absolute_seconds": 160.0,
+      "absolute_timestamp": "2:40",
+      "summary": "1 attempts at monastery_crest_acquisition, outcome: still_trying",
+      "game_context": "Stained-glass window puzzle room",
+      "evidence": [
+        "Attempt 1: failed (High frustration and disbelief. The player successfully solves the puzzle and loots the item, but the game crashes shortly after.)",
+        "Frustration: escalating"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 0,
+      "segment_label": "monastery_crest_acquisition",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": 1,
+      "retry_quit_signal": false,
+      "retry_final_outcome": "still_trying",
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "retry",
+      "source_label": "ruin_navigation_jumps",
+      "absolute_seconds": 193.0,
+      "absolute_timestamp": "3:13",
+      "summary": "4 attempts at ruin_navigation_jumps, outcome: succeeded",
+      "game_context": "External ruins and rooftops of the Rosymorn Monastery",
+      "evidence": [
+        "Attempt 1: failed (Determined; the player is looking for a path down that avoids fall damage.)",
+        "Attempt 2: failed (Slight frustration, muttering 'damn it' as the jump path is blocked by environment geometry.)",
+        "Attempt 3: succeeded (Relief; manages to land a character on the mid-level ledge.)",
+        "Attempt 4: succeeded (Neutral; successfully jumps the rest of the party into the interior room.)",
+        "Frustration: stable"
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 0,
+      "segment_label": "ruin_navigation_jumps",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": 4,
+      "retry_quit_signal": false,
+      "retry_final_outcome": "succeeded",
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "retry",
+      "source_label": "mod_management",
+      "absolute_seconds": 501.0,
+      "absolute_timestamp": "8:21",
+      "summary": "1 attempts at mod_management, outcome: still_trying",
+      "game_context": "Game Main Menu / Mod Verification Screen",
+      "evidence": [
+        "Attempt 1: failed (Deep frustration; rests head on hand and uses profanity while waiting for progress bars.)",
+        "Frustration: escalating"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 1,
+      "segment_label": "mod_management",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "quality",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": 1,
+      "retry_quit_signal": false,
+      "retry_final_outcome": "still_trying",
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "retry",
+      "source_label": "mod_synchronization",
+      "absolute_seconds": 1084.0,
+      "absolute_timestamp": "18:04",
+      "summary": "1 attempts at mod_synchronization, outcome: succeeded",
+      "game_context": "Main Menu / Mod Manager",
+      "evidence": [
+        "Attempt 4: succeeded (Relieved and communicative; the player confirms successful entry with a positive tone, saying, 'And I'm in.')",
+        "Frustration: de-escalating"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "mod_synchronization",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": 1,
+      "retry_quit_signal": false,
+      "retry_final_outcome": "succeeded",
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "retry",
+      "source_label": "rosymorn_monastery",
+      "absolute_seconds": 1170.0,
+      "absolute_timestamp": "19:30",
+      "summary": "1 attempts at rosymorn_monastery, outcome: succeeded",
+      "game_context": "Rosymorn Monastery Courtyard",
+      "evidence": [
+        "Attempt 3: succeeded (Focused and methodical; the player begins re-looting the area to recover lost progress.)",
+        "Frustration: stable"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "rosymorn_monastery",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": 1,
+      "retry_quit_signal": false,
+      "retry_final_outcome": "succeeded",
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "verbal_moments": [
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 0.0,
+      "absolute_timestamp": "0:00",
+      "summary": "In the last one when we made our way to this Lathander temple where the Gith are holding out... we found our way to where Lathander's Light will be. So we're going to loot that before we even deal with whatever the Gith are up about.",
+      "game_context": "Recapping previous progress while standing in the camp area of the Rosymorn Monastery.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: narration"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 0,
+      "segment_label": "monastery_camp",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "In the last one when we made our way to this Lathander temple where the Gith are holding out... we found our way to where Lathander's Light will be. So we're going to loot that before we even deal with whatever the Gith are up about."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "question",
+      "absolute_seconds": 68.0,
+      "absolute_timestamp": "1:08",
+      "summary": "We just got the hammer, now we just have to find our way back to wherever we place them. I forget where that is because it's been a bit.",
+      "game_context": "Navigating the vertical ruins of the monastery to return to the puzzle room.",
+      "evidence": [
+        "Tone: confused",
+        "Category: question",
+        "Actionable: In complex, multi-level environments like the monastery, adding a temporary quest marker or a 'waypoint' for puzzle interaction points once a key item is found could reduce backtracking friction."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 0,
+      "segment_label": "monastery_ruins_exploration",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "We just got the hammer, now we just have to find our way back to wherever we place them. I forget where that is because it's been a bit."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 216.0,
+      "absolute_timestamp": "3:36",
+      "summary": "Wait, did I already put the hammer in place? Oh no, I already put the hammer in place and then we collected the Dawnmaster's Crest.",
+      "game_context": "Examining the pedestals in the stained-glass window room to confirm puzzle completion.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: narration"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 0,
+      "segment_label": null,
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Wait, did I already put the hammer in place? Oh no, I already put the hammer in place and then we collected the Dawnmaster's Crest."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 270.0,
+      "absolute_timestamp": "4:30",
+      "summary": "Oh, what? What happened? I got kicked. I crashed.",
+      "game_context": "Mid-exploration, a loading screen suddenly appears and the player is returned to the main menu.",
+      "evidence": [
+        "Tone: confused",
+        "Category: reaction"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 1,
+      "segment_label": "game_crash",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "quality"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Oh, what? What happened? I got kicked. I crashed."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "complaint",
+      "absolute_seconds": 310.0,
+      "absolute_timestamp": "5:10",
+      "summary": "Does that mean we're gonna have to retrace our steps again? Because we hadn't saved after grabbing that... probably.",
+      "game_context": "Acknowledge the loss of progress while sitting at the main menu after the crash.",
+      "evidence": [
+        "Tone: resigned",
+        "Category: complaint",
+        "Actionable: Automatically trigger a checkpoint save upon the acquisition of unique or quest-critical items to protect player progress from technical failures."
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 1,
+      "segment_label": null,
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "Does that mean we're gonna have to retrace our steps again? Because we hadn't saved after grabbing that... probably."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 538.0,
+      "absolute_timestamp": "8:58",
+      "summary": "Fucking dammit.",
+      "game_context": "The game throws a 'Process cannot access the file' error while trying to update mods.",
+      "evidence": [
+        "Tone: angry",
+        "Category: reaction",
+        "Actionable: Improve error handling in the internal mod manager to automatically resolve or provide clearer instructions for file access locks during updates."
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 2,
+      "segment_label": "mod_manager",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "quality",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "Fucking dammit."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "complaint",
+      "absolute_seconds": 581.0,
+      "absolute_timestamp": "9:41",
+      "summary": "Please say it's not doing this shit again. It didn't give me the 'Start Game', it gave me the 'Downgrade' button again.",
+      "game_context": "The Mod Manager UI fails to show the 'Start Game' option despite the mod appearing updated, reverting instead to a 'Downgrade' prompt.",
+      "evidence": [
+        "Tone: angry",
+        "Category: complaint",
+        "Actionable: Ensure the Mod Manager UI logic accurately reflects a 'Ready' state and avoids circular update/downgrade prompts after a successful version change."
+      ],
+      "severity_numeric": 10,
+      "source_chunk_index": 2,
+      "segment_label": "session_join",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "quality",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "Please say it's not doing this shit again. It didn't give me the 'Start Game', it gave me the 'Downgrade' button again."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "question",
+      "absolute_seconds": 611.0,
+      "absolute_timestamp": "10:11",
+      "summary": "I don't remember how we fixed this last time.",
+      "game_context": "Stuck in a loop of mod mismatches preventing him from joining his teammate's session.",
+      "evidence": [
+        "Tone: confused",
+        "Category: question"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 2,
+      "segment_label": "mod_manager",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "I don't remember how we fixed this last time."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "strategy",
+      "absolute_seconds": 681.0,
+      "absolute_timestamp": "11:21",
+      "summary": "I unenable it, I leave Baldur's Gate all together... then we go into my files... navigate to your local Baldur's Gate 3 folder... go through my files...",
+      "game_context": "Narrating the manual troubleshooting steps required to fix the mod issues outside of the game client.",
+      "evidence": [
+        "Tone: focused",
+        "Category: strategy",
+        "Actionable: The fact that players have to resort to manual file deletion in local folders highlights the need for a 'Repair' or 'Force Sync' feature within the internal Mod Manager."
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 2,
+      "segment_label": "brb_break",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "I unenable it, I leave Baldur's Gate all together... then we go into my files... navigate to your local Baldur's Gate 3 folder... go through my files..."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 698.0,
+      "absolute_timestamp": "11:38",
+      "summary": "I apologize to you people watching, I'm just going to do this real quick and put the 'Be Right Back' while we're trying to sort this out.",
+      "game_context": "Giving up on fixing the game live and putting up a break screen to troubleshoot.",
+      "evidence": [
+        "Tone: resigned",
+        "Category: reaction"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 2,
+      "segment_label": "brb_break",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "friction",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "I apologize to you people watching, I'm just going to do this real quick and put the 'Be Right Back' while we're trying to sort this out."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 768.0,
+      "absolute_timestamp": "12:48",
+      "summary": "Local... Larian Studios... Baldur's Gate 3... mods.",
+      "game_context": "Continuing to narrate the folder navigation as they arrive at the mod directory.",
+      "evidence": [
+        "Tone: focused",
+        "Category: narration"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 3,
+      "segment_label": "mod_troubleshooting",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Local... Larian Studios... Baldur's Gate 3... mods."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "question",
+      "absolute_seconds": 878.0,
+      "absolute_timestamp": "14:38",
+      "summary": "Wait, so does that mean I just delete one of them? Or all of them? 'Delete any residual pack files related to the Archer'.",
+      "game_context": "Reading mod troubleshooting instructions and questioning how many files to remove.",
+      "evidence": [
+        "Tone: confused",
+        "Category: question",
+        "Actionable: The necessity for players to manually delete residual '.pak' files in hidden OS folders highlights a lack of 'Clean' or 'Purge' functionality in the internal Mod Manager."
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 3,
+      "segment_label": "mod_troubleshooting",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "Wait, so does that mean I just delete one of them? Or all of them? 'Delete any residual pack files related to the Archer'."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "strategy",
+      "absolute_seconds": 918.0,
+      "absolute_timestamp": "15:18",
+      "summary": "Okay, I guess I'll delete both of them.",
+      "game_context": "Making a final decision on which files to delete to resolve the technical error.",
+      "evidence": [
+        "Tone: resigned",
+        "Category: strategy"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 3,
+      "segment_label": "game_restart",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Okay, I guess I'll delete both of them."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 969.0,
+      "absolute_timestamp": "16:09",
+      "summary": "Larian... mod man...",
+      "game_context": "The game has restarted and reached the main menu; the player is likely checking the mod manager status.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: narration"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 3,
+      "segment_label": "game_restart",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Larian... mod man..."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "complaint",
+      "absolute_seconds": 1025.0,
+      "absolute_timestamp": "17:05",
+      "summary": "Why is this taking so long to load the mods?",
+      "game_context": "Waiting for the in-game mod manager to finish 'searching for mods' during the restart process.",
+      "evidence": [
+        "Tone: frustrated",
+        "Category: complaint",
+        "Actionable: Provide a detailed loading bar or specific status updates (e.g., 'Verifying File X') to reduce player anxiety during long mod initializations."
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 4,
+      "segment_label": null,
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "friction",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "Why is this taking so long to load the mods?"
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 1056.0,
+      "absolute_timestamp": "17:36",
+      "summary": "Okay, and now in theory it should be all up to date and I should be good to head back in.",
+      "game_context": "Completing the mod update process and preparing to return to the game.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: narration"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "main_menu",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Okay, and now in theory it should be all up to date and I should be good to head back in."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 1095.0,
+      "absolute_timestamp": "18:15",
+      "summary": "It's a mod I downloaded, I didn't enable it yet.",
+      "game_context": "Reviewing installed mods in the manager before joining the session.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: narration"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 4,
+      "segment_label": "mod_manager",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "It's a mod I downloaded, I didn't enable it yet."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "praise",
+      "absolute_seconds": 1102.0,
+      "absolute_timestamp": "18:22",
+      "summary": "Royal Knight set. Ooh.",
+      "game_context": "Noticing a new armor mod in the list.",
+      "evidence": [
+        "Tone: amused",
+        "Category: praise"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 4,
+      "segment_label": "multiplayer_load",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Royal Knight set. Ooh."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 1120.0,
+      "absolute_timestamp": "18:40",
+      "summary": "I just sent Draco the invite and I'm just waiting for the host to... get back in.",
+      "game_context": "Managing the multiplayer lobby after the restart.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: narration"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "multiplayer_load",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "I just sent Draco the invite and I'm just waiting for the host to... get back in."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 1151.0,
+      "absolute_timestamp": "19:11",
+      "summary": "All right, and I'm in.",
+      "game_context": "Successfully loading into the game world at the camp.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: reaction"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 4,
+      "segment_label": "camp_exploration",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "All right, and I'm in."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "complaint",
+      "absolute_seconds": 1180.0,
+      "absolute_timestamp": "19:40",
+      "summary": "Empty this time... ugh.",
+      "game_context": "Looting a crate in the monastery that the player recalls being full in the previous attempt before the crash.",
+      "evidence": [
+        "Tone: resigned",
+        "Category: complaint",
+        "Actionable: To prevent frustration after crashes, ensure that the state of 'looted' containers and the items retrieved are synchronized and saved more frequently in multiplayer sessions."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 4,
+      "segment_label": "rosymorn_monastery",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "retry",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "Empty this time... ugh."
+    }
+  ],
+  "top_stop_risk_drivers": [
+    "repetition",
+    "bug",
+    "other",
+    "controls",
+    "ui_confusion"
+  ],
+  "top_praised_features": [
+    "discovery",
+    "progression",
+    "mastery"
+  ],
+  "top_clarity_fixes": [
+    "The map and minimap do not provide room labels or specific icons for high-interest backtracking points in this complex vertical area.",
+    "Technical stability / server connection reliability.",
+    "A pre-session check that prevents joining if mod versions do not match, rather than allowing play and then crashing.",
+    "Clearer instructions on how to release the file lock (e.g., restarting the game or closing background processes) within the UI.",
+    "The UI indicated the mod was 'Updated' in the previous menu, creating a false sense of readiness that was immediately contradicted by the server check."
+  ],
+  "bug_count": 4,
+  "overall_friction": "severe",
+  "overall_engagement": "clear",
+  "overall_stop_risk": "high",
+  "recommendations": [
+    "Reduce repetitive gameplay in the highest-risk gameplay beats.",
+    "Reduce technical bugs in the highest-risk gameplay beats.",
+    "Prioritize this communication fix: The map and minimap do not provide room labels or specific icons for high-interest backtracking points in this complex vertical area.",
+    "Prioritize this communication fix: Technical stability / server connection reliability.",
+    "Triage the 4 visible technical issues surfaced during the session.",
+    "Protect and expand the strongest positives: discovery, progression, mastery."
+  ],
+  "avg_sentiment": -0.95,
+  "sentiment_by_segment": {
+    "monastery_camp": 2.0,
+    "monastery_ruins_exploration": 1.0,
+    "stained_glass_puzzle": 3.5,
+    "camp_reload": -2.0,
+    "mod_management": -1.0,
+    "mod_manager": -2.0,
+    "session_join": -6.0,
+    "brb_break": -5.0,
+    "mod_troubleshooting": 0.0,
+    "game_restart": 1.33,
+    "main_menu": 1.0,
+    "multiplayer_load": 2.0,
+    "camp_exploration": 1.0,
+    "rosymorn_monastery": 2.5
+  },
+  "total_retry_sequences": 5,
+  "first_attempt_failure_count": 1,
+  "notable_quotes": [
+    "We just got the hammer, now we just have to find our way back to wherever we place them. I forget where that is because it's been a bit.",
+    "Does that mean we're gonna have to retrace our steps again? Because we hadn't saved after grabbing that... probably.",
+    "Fucking dammit.",
+    "Please say it's not doing this shit again. It didn't give me the 'Start Game', it gave me the 'Downgrade' button again.",
+    "I unenable it, I leave Baldur's Gate all together... then we go into my files... navigate to your local Baldur's Gate 3 folder... go through my files..."
+  ],
+  "segments_encountered": [
+    "brb_break",
+    "camp_exploration",
+    "camp_reload",
+    "game_crash",
+    "game_restart",
+    "inventory_management",
+    "main_menu",
+    "mod_management",
+    "mod_manager",
+    "mod_troubleshooting",
+    "monastery_camp",
+    "monastery_ruins_exploration",
+    "multiplayer_load",
+    "rosymorn_monastery",
+    "session_join",
+    "stained_glass_puzzle"
+  ],
+  "highlights": {
+    "video_id": "747652fb14d05cfbb42e430cd644cb93",
+    "total_moments_analyzed": 92,
+    "highlights": [
+      {
+        "rank": 1,
+        "absolute_timestamp": "8:58",
+        "absolute_seconds": 538.0,
+        "clip_start_seconds": 528.0,
+        "clip_end_seconds": 548.0,
+        "category": "critical_friction",
+        "headline": "A file access error prevents the mod from updating while the game process is active.",
+        "why_important": "Severity 9/10, confidence 100%",
+        "evidence": [
+          "Windows error popup appearing over game UI",
+          "Mod progress bar stalling",
+          "Repetitive clicking on the same mod entry",
+          "Sharp, frustrated intake of breath",
+          "Aggressive keyboard/mouse sounds"
+        ],
+        "importance_score": 23.76,
+        "corroborating_agents": [
+          "clarity",
+          "quality",
+          "sentiment",
+          "verbal"
+        ]
+      },
+      {
+        "rank": 2,
+        "absolute_timestamp": "9:45",
+        "absolute_seconds": 585.0,
+        "clip_start_seconds": 575.0,
+        "clip_end_seconds": 595.0,
+        "category": "bug",
+        "headline": "other issue: Error pop-up message: 'Failed to join: installed mods do not match the session's mods you're trying to join",
+        "why_important": "Severity 9/10, confidence 100%",
+        "evidence": [
+          "Error pop-up message: 'Failed to join: installed mods do not match the session's mods you're trying to join.'",
+          "None",
+          "Player reaction: Noticed and commented",
+          "Scene: Loading screen after attempting to join a multiplayer lobby.",
+          "Quote: Okay, let's see."
+        ],
+        "importance_score": 21.78,
+        "corroborating_agents": [
+          "clarity",
+          "friction",
+          "sentiment",
+          "verbal"
+        ]
+      },
+      {
+        "rank": 3,
+        "absolute_timestamp": "4:28",
+        "absolute_seconds": 268.0,
+        "clip_start_seconds": 258.0,
+        "clip_end_seconds": 278.0,
+        "category": "critical_friction",
+        "headline": "Unexpected server connection timeout/game crash.",
+        "why_important": "Severity 9/10, confidence 95%",
+        "evidence": [
+          "Loading screen interruption",
+          "Server timeout error message",
+          "Abrupt transition to main menu",
+          "Shocked tone",
+          "Disappointed exhale"
+        ],
+        "importance_score": 20.52,
+        "corroborating_agents": [
+          "clarity",
+          "quality",
+          "verbal"
+        ]
+      },
+      {
+        "rank": 4,
+        "absolute_timestamp": "11:40",
+        "absolute_seconds": 700.0,
+        "clip_start_seconds": 690.0,
+        "clip_end_seconds": 710.0,
+        "category": "critical_friction",
+        "headline": "Technical hurdles became too disruptive for the live broadcast.",
+        "why_important": "Severity 9/10, confidence 80%",
+        "evidence": [
+          "Display of 'Be Right Back' text on screen",
+          "Player characters disappearing from view",
+          "Cursor moving off-screen to the streaming software",
+          "Defeated, apologetic tone",
+          "Game music volume lowering"
+        ],
+        "importance_score": 17.28,
+        "corroborating_agents": [
+          "sentiment",
+          "verbal"
+        ]
+      },
+      {
+        "rank": 5,
+        "absolute_timestamp": "11:10",
+        "absolute_seconds": 670.0,
+        "clip_start_seconds": 660.0,
+        "clip_end_seconds": 680.0,
+        "category": "critical_friction",
+        "headline": "Unclear logic regarding which mod version (Updated vs. Downgraded) is required for the multiplayer lobby.",
+        "why_important": "Severity 7/10, confidence 95%",
+        "evidence": [
+          "Cycling through Enable/Disable/Update/Downgrade buttons",
+          "Menu spam (rapidly opening and closing the same sub-menu)",
+          "Scrolling through long mod descriptions looking for fix instructions",
+          "Strained, tired voice",
+          "Extended silence while reading"
+        ],
+        "importance_score": 15.96,
+        "corroborating_agents": [
+          "clarity",
+          "sentiment",
+          "verbal"
+        ]
+      },
+      {
+        "rank": 6,
+        "absolute_timestamp": "19:43",
+        "absolute_seconds": 1183.0,
+        "clip_start_seconds": 1173.0,
+        "clip_end_seconds": 1193.0,
+        "category": "critical_friction",
+        "headline": "The player is forced to repeat mundane exploration tasks because progress was lost during the earlier technical crashes.",
+        "why_important": "Severity 5/10, confidence 100%",
+        "evidence": [
+          "Opening empty wooden crates",
+          "Retracing steps through the bloody courtyard",
+          "Confused tone",
+          "Resigned sigh",
+          "Scene: Courtyard of Rosymorn Monastery, looting containers previously cleared before the session crashes."
+        ],
+        "importance_score": 13.2,
+        "corroborating_agents": [
+          "clarity",
+          "retry",
+          "sentiment",
+          "verbal"
+        ]
+      },
+      {
+        "rank": 7,
+        "absolute_timestamp": "8:21",
+        "absolute_seconds": 501.0,
+        "clip_start_seconds": 491.0,
+        "clip_end_seconds": 511.0,
+        "category": "bug",
+        "headline": "ui rendering issue: Version mismatch for 'FaerunColors' and 'Fate Series Archer' mods, Mandatory update progress bar dur",
+        "why_important": "Severity 6/10, confidence 95%",
+        "evidence": [
+          "Version mismatch for 'FaerunColors' and 'Fate Series Archer' mods",
+          "Mandatory update progress bar",
+          "None",
+          "Player reaction: Noticed and commented",
+          "Scene: Mod Verification screen after attempting to rejoin the lobby."
+        ],
+        "importance_score": 12.54,
+        "corroborating_agents": [
+          "clarity",
+          "retry",
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 8,
+        "absolute_timestamp": "14:35",
+        "absolute_seconds": 875.0,
+        "clip_start_seconds": 865.0,
+        "clip_end_seconds": 885.0,
+        "category": "critical_friction",
+        "headline": "Ambiguity in which residual files are causing the 'Failed to Join' error from the previous segment.",
+        "why_important": "Severity 5/10, confidence 95%",
+        "evidence": [
+          "Static 'Be Right Back' overlay",
+          "Hesitant tone",
+          "Uncertainty in decision making",
+          "Scene: Locating mod files in the local directory.",
+          "Expression: Not visible (BRB screen active)"
+        ],
+        "importance_score": 11.4,
+        "corroborating_agents": [
+          "clarity",
+          "sentiment",
+          "verbal"
+        ]
+      },
+      {
+        "rank": 9,
+        "absolute_timestamp": "3:13",
+        "absolute_seconds": 193.0,
+        "clip_start_seconds": 183.0,
+        "clip_end_seconds": 203.0,
+        "category": "retry_loop",
+        "headline": "4 attempts at ruin_navigation_jumps, outcome: succeeded",
+        "why_important": "Severity 8/10, confidence 50%",
+        "evidence": [
+          "Attempt 1: failed (Determined; the player is looking for a path down that avoids fall damage.)",
+          "Attempt 2: failed (Slight frustration, muttering 'damn it' as the jump path is blocked by environment geometry.)",
+          "Attempt 3: succeeded (Relief; manages to land a character on the mid-level ledge.)",
+          "Attempt 4: succeeded (Neutral; successfully jumps the rest of the party into the interior room.)",
+          "Frustration: stable"
+        ],
+        "importance_score": 10.4,
+        "corroborating_agents": []
+      },
+      {
+        "rank": 10,
+        "absolute_timestamp": "5:10",
+        "absolute_seconds": 310.0,
+        "clip_start_seconds": 300.0,
+        "clip_end_seconds": 320.0,
+        "category": "player_feedback",
+        "headline": "Does that mean we're gonna have to retrace our steps again? Because we hadn't saved after grabbing that... probably.",
+        "why_important": "Severity 8/10, confidence 75%",
+        "evidence": [
+          "Tone: resigned",
+          "Category: complaint",
+          "Actionable: Automatically trigger a checkpoint save upon the acquisition of unique or quest-critical items to protect player progress from technical failures."
+        ],
+        "importance_score": 9.36,
+        "corroborating_agents": [
+          "sentiment"
+        ]
+      }
+    ],
+    "one_line_verdict": "A file access error prevents the mod from updating while the game process is active."
+  },
+  "executive": {
+    "executive_summary": "The session was characterized by a rapid transition from high-engagement CRPG exploration and puzzle-solving in Rosymorn Monastery to a prolonged technical failure loop. The player successfully navigated vertical terrain and solved the Dawnmaster's Crest puzzle (03:40) before a critical server timeout/crash (04:28) derailed progress. The majority of the session was then spent troubleshooting mod synchronization issues and manual file handling, resulting in a 15-minute loss of active gameplay.",
+    "key_findings": [
+      {
+        "evidence_summary": "At 04:28, the game abruptly returned to the main menu with a 'connection to the server has timed out' error immediately after the player looted the Dawnmaster's Crest. This forced a total restart and manual mod verification loop that lasted until 17:53. At 05:10, the player expressed resignation: 'Does that mean we're gonna have to retrace our steps again?'",
+        "affected_timestamps": [
+          "04:28",
+          "05:10",
+          "19:43"
+        ],
+        "finding": "Critical server timeout following a major quest update caused significant progress loss and an 11-point sentiment drop.",
+        "recommended_action": "Implement a mandatory autosave trigger upon looting unique or quest-critical items to mitigate progress loss during technical failures.",
+        "severity": "critical"
+      },
+      {
+        "evidence_summary": "Between 08:58 and 11:10, the player encountered circular UI logic where the Mod Manager displayed an 'Updated' status but failed to join the session due to version mismatches. At 09:41, the player noted the UI didn't give a 'Start' option, only 'Downgrade' again, despite just updating, leading to the quote: 'Please say it's not doing this shit again.'",
+        "affected_timestamps": [
+          "08:58",
+          "09:41",
+          "11:10"
+        ],
+        "finding": "The internal Mod Manager provides inaccurate state feedback, creating a 'circular update loop' that blocks multiplayer joining.",
+        "recommended_action": "Refine Mod Manager UI logic to ensure 'Ready' states accurately reflect host-client parity and prevent circular update/downgrade prompts.",
+        "severity": "critical"
+      },
+      {
+        "evidence_summary": "At 01:41 and 03:13, the player spent four attempts and significant time trying to navigate vertical ruins without taking fall damage. The player's tone shifted to frustration ('God dammit' at 01:41) as party AI failed to follow jumps, requiring repetitive manual character switching and positioning.",
+        "affected_timestamps": [
+          "01:41",
+          "03:13"
+        ],
+        "finding": "Party pathfinding and jump follow-logic in vertical monastery terrain cause high friction and repetitive micro-management.",
+        "recommended_action": "Optimize party follow-logic for jumps or increase the 'follow distance' threshold for jumping in multi-level environments.",
+        "severity": "important"
+      },
+      {
+        "evidence_summary": "At 19:43, after finally re-entering the game, the player discovered containers in the monastery were empty. The player expressed disappointment at 19:40 ('Empty this time... ugh') because they were forced to re-explore areas they had cleared prior to the crash.",
+        "affected_timestamps": [
+          "19:40",
+          "19:43"
+        ],
+        "finding": "World state desynchronization after a crash leads to empty containers and 'repetition fatigue' during re-exploration.",
+        "recommended_action": "Ensure container loot states are synchronized and saved more frequently to prevent 'empty loot' scenarios during re-runs.",
+        "severity": "notable"
+      }
+    ],
+    "priority_actions": [
+      "Add an autosave trigger to the acquisition of the Dawnmaster's Crest and similar quest-critical items.",
+      "Fix the Mod Manager file lock bug that triggers the 'Process cannot access the file' error at 08:58.",
+      "Update the Mod Manager UI to explicitly state the required version number (e.g., v1.2 vs v1.3) during a mismatch.",
+      "Improve party AI jump-following to reduce the 4+ retry loops seen in vertical navigation at 03:13.",
+      "Add a 'Repair/Force Sync' button in the Mod Manager to prevent players from needing to manually delete .pak files in AppData."
+    ],
+    "cross_dimensional_insight": "The high mechanical 'mastery' and 'discovery' scores seen during early inventory management (00:36) and puzzle-solving (03:40) acted as a buffer for technical frustration; the player remained engaged and willing to troubleshoot manually for over 10 minutes (08:00-18:00) specifically because they were invested in the specific build and quest progress established in the first four minutes.",
+    "session_health_score": 45
+  },
+  "agent_coverage": [
+    {
+      "chunk_index": 0,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    },
+    {
+      "chunk_index": 1,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    },
+    {
+      "chunk_index": 2,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    },
+    {
+      "chunk_index": 3,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    },
+    {
+      "chunk_index": 4,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    }
+  ]
+}

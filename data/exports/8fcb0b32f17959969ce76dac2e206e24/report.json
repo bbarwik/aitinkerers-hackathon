@@ -1,0 +1,3401 @@
+{
+  "video_id": "8fcb0b32f17959969ce76dac2e206e24",
+  "filename": "F1ZrdrskSEY.youtube",
+  "duration_seconds": 1200.0,
+  "chunk_count": 5,
+  "game_title": "Baldur's Gate 3",
+  "game_key": "baldur_s_gate_3",
+  "session_arc": "[0:00-5:00] The player begins with determination and enthusiasm for the challenge. There is a brief moment of frustration when the game crashes, but it is quickly overcome. The segment ends with a sense of discovery and satisfaction as the player reaches level 2 and begins building their party.\n[4:00-9:00] The player starts with lighthearted confidence, enjoying their character's appearance and some lucky rolls. This transitions into a more focused state during leveling and recruitment. A moment of high tension occurs during the gnoll fight, where the player's 'recklessness' almost ends the run, leading to a more cautious but still humorous tone as they reach level 4 and parody a famous anime scene.\n[8:00-13:00] The segment starts with lighthearted exploration and character growth. It hits a peak of surprise and frustration with Halsin's unexpected death. This leads to a period of high tension during difficult Underdark combat, finally resolving into a sense of renewed excitement after the player respecs their character.\n[12:00-17:00] The segment begins with a mix of tactical focus and minor dissatisfaction with the previous character build. After the respec, the player's enthusiasm increases significantly, peaking with the discovery of the level 6 power spike. There is a brief dip into caution and slight stress during the transition to Act 2 and the Marcus fight, but this resolves into a state of smug confidence as they successfully bypass major boss fights using their Bard's persuasion skills.\n[16:00-20:00] The segment is characterized by a high degree of confidence and strategic satisfaction as the player successfully uses their Bard's persuasion to bypass difficult boss fights. There is a brief moment of high tension and frustration during the Balthazar fight and the glitched Grym encounter, but this quickly returns to a state of focused progression and anticipation as they approach the Act 2 finale.",
+  "friction_moments": [
+    {
+      "agent_kind": "friction",
+      "source_label": "bug",
+      "absolute_seconds": 221.0,
+      "absolute_timestamp": "3:41",
+      "summary": "A technical bug causing a full application crash.",
+      "game_context": "The software became unresponsive during a combat action.",
+      "evidence": [
+        "The game screen freezes",
+        "Screen cuts to black",
+        "Sarcastic tone",
+        "Scene: During the initial nautiloid combat after using Vicious Mockery.",
+        "Expression: None visible",
+        "Quote: And my game crashed. Dope."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 0,
+      "segment_label": "nautiloid_combat",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "quality",
+        "retry",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "ui_confusion",
+      "absolute_seconds": 270.0,
+      "absolute_timestamp": "4:30",
+      "summary": "A self-admitted gap in basic mechanical knowledge despite high total playtime (2000 hours).",
+      "game_context": "The player discovers that ritual spells like Longstrider do not consume spell slots outside of combat.",
+      "evidence": [
+        "Cursor hovering repeatedly over 'Longstrider' and 'Ritual' tooltip",
+        "Delayed menu exit",
+        "Self-deprecating laughter",
+        "Disbelieving tone",
+        "Scene: Reviewing Bard level 2 spells and ritual mechanics on the Ravaged Beach.",
+        "Quote: Am I just a fucking idiot? Has everybody been using ritual spells and just never told me?",
+        "Quote: I really gotta start reading things, huh?"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 1,
+      "segment_label": "level_up_bard",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "difficulty_spike",
+      "absolute_seconds": 452.0,
+      "absolute_timestamp": "7:32",
+      "summary": "A sharp difficulty spike coupled with self-admitted 'reckless' tactical play.",
+      "game_context": "A difficult combat encounter where a single mistake could have ended the permanent-death Honor Mode run.",
+      "evidence": [
+        "Multiple party members (Astarion, Shadowheart) in 'Downed' or 'Bleeding' states",
+        "Low health bars on remaining characters",
+        "Extensive blood pools on environmental terrain",
+        "Serious, reflective narration",
+        "Lowered vocal volume indicating tension",
+        "Scene: High-stakes combat encounter with gnolls on the Risen Road.",
+        "Quote: I had been having such good luck, but ending the battle with literally only one person still on their feet was a sobering experience.",
+        "Quote: I'd gotten a little reckless during this encounter with these gnolls because I had been having such good luck."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 1,
+      "segment_label": "risen_road",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "other",
+      "absolute_seconds": 620.0,
+      "absolute_timestamp": "10:20",
+      "summary": "The player realized a major quest line is permanently blocked due to the permadeath mechanic affecting an essential NPC.",
+      "game_context": "Permanent NPC death in Honor Mode.",
+      "evidence": [
+        "Checks Halsin's inventory for loot",
+        "Abrupt cut to black and white cinematic filter during realization",
+        "Shocked tone",
+        "Slower speech pattern",
+        "Disappointed delivery",
+        "Scene: The player discovers Halsin's dead body in the Shattered Sanctum after the Goblin Camp battle.",
+        "Quote: I have no way of fixing it. I... you can't revive him. And that means I'm also locked out of fixing the shadow-cursed lands."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 2,
+      "segment_label": "shattered_sanctum",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "difficulty_spike",
+      "absolute_seconds": 723.0,
+      "absolute_timestamp": "12:03",
+      "summary": "Difficulty spike in a high-stakes (Honor Mode) environment nearly ending the entire playthrough.",
+      "game_context": "Surprise encounter with a legendary creature in the Underdark.",
+      "evidence": [
+        "Party health bars at near-zero",
+        "Rapidly clicking through character turns",
+        "Bulette leaping away while party is critical",
+        "Lowered, tense vocal volume",
+        "Deep exhale",
+        "Scene: A high-stakes combat encounter against a Bulette in the Underdark where multiple party members are nearly downed.",
+        "Quote: If that thing had stuck around, I probably would have gotten wiped right here. That encouraged me to be a little more tactical."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 2,
+      "segment_label": "underdark_exploration",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "other",
+      "absolute_seconds": 761.0,
+      "absolute_timestamp": "12:41",
+      "summary": "The player found the initial subclass unengaging in combat, affecting their enjoyment of the run despite tactical success.",
+      "game_context": "Mechanical boredom with the College of Glamour subclass features.",
+      "evidence": [
+        "Lingering on subclass descriptions",
+        "Navigating from College of Glamour back to character basics",
+        "Sigh of resignation",
+        "Somber tone",
+        "Scene: The character respec menu with Withers at the camp.",
+        "Expression: None visible",
+        "Quote: The run was going well, but I wasn't really having much fun. I decided that to give Bard a fair shot, I needed to try another subclass... just in case that was my issue."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 3,
+      "segment_label": "character_respec",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "delight",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "ui_confusion",
+      "absolute_seconds": 852.0,
+      "absolute_timestamp": "14:12",
+      "summary": "Expected game mechanics based on item naming do not align with actual stat outputs.",
+      "game_context": "Misleading item nomenclature where the club provides 19 STR instead of the standard Giant-tier 21 STR.",
+      "evidence": [
+        "Repeatedly hovering over the Strength stat (19)",
+        "Comparing the stat to the item name",
+        "Annoyed tone",
+        "Dismissive tone",
+        "Scene: Inspecting the character sheet and the 'Club of Hill Giant Strength' tooltip.",
+        "Expression: None visible",
+        "Quote: It's really annoying that... it doesn't give you Hill Giant strength, but whatever."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 3,
+      "segment_label": "shadow_cursed_lands",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "quality",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "other",
+      "absolute_seconds": 950.0,
+      "absolute_timestamp": "15:50",
+      "summary": "Personal health issues (flu/cold) and a script recording failure disrupted the video production flow.",
+      "game_context": "External technical error during recording and physical illness.",
+      "evidence": [
+        "Large text block overlaying the screen",
+        "Blurred gameplay footage",
+        "Sluggish voice",
+        "Congested breathing/speech",
+        "Scene: A blurred background with a large text overlay explaining a recording and health issue.",
+        "Expression: None visible",
+        "Quote: somehow I messed up and didn't record the next few lines of the script... and I don't want to just record them now because I sound very sick.",
+        "Quote: it was a rough few weeks to say the least."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 3,
+      "segment_label": null,
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "difficulty_spike",
+      "absolute_seconds": 1104.0,
+      "absolute_timestamp": "18:24",
+      "summary": "Difficulty spike and high-damage enemy spells.",
+      "game_context": "High-stakes boss fight in Honor Mode where a single bad turn could end the permanent-death run.",
+      "evidence": [
+        "Multiple characters taking heavy poison damage from Cloudkill",
+        "Characters positioned in a dangerous cluster",
+        "Stressed tone",
+        "Quickened speech",
+        "Scene: Combat with Balthazar in the Gauntlet of Shar, where a Cloudkill spell nearly downs the party.",
+        "Quote: Balthazar scared the shit out of me. I really thought he might wipe us out. He got pretty damn close."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 4,
+      "segment_label": "adamantine_forge_grym",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "bug",
+      "absolute_seconds": 1131.0,
+      "absolute_timestamp": "18:51",
+      "summary": "Technical bug causing a boss to de-render during an active fight.",
+      "game_context": "Technical glitch during a boss encounter.",
+      "evidence": [
+        "Boss model (Grym) becomes invisible or de-renders",
+        "Player hovers cursor over empty space searching for the target",
+        "Raised voice",
+        "Panicked tone",
+        "Aggressive delivery",
+        "Scene: Combat with Grym in the Adamantine Forge; the boss visually disappears when the forge lever is toggled.",
+        "Quote: He just fucking disappeared when I hit the switch! Larian, for the love of all that is holy, fix your game please!"
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 4,
+      "segment_label": "adamantine_forge_grym",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "quality",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "other",
+      "absolute_seconds": 1148.0,
+      "absolute_timestamp": "19:08",
+      "summary": "Distrust of game engine stability based on prior 'lessons' or bugs.",
+      "game_context": "Unreliable physics or collision detection on moving platforms.",
+      "evidence": [
+        "Character stops moving and waits for the platform animation to fully settle",
+        "Annoyed tone",
+        "Skeptical delivery",
+        "Scene: Navigating the moving Traversal Gem platform in the Gauntlet of Shar.",
+        "Quote: I have learned my lesson in the Gauntlet of Shar. Do not ever trust this platform."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "ketheric_thorm_confrontation",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "delight",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "clarity_moments": [
+    {
+      "agent_kind": "clarity",
+      "source_label": "tutorial_gap",
+      "absolute_seconds": 190.0,
+      "absolute_timestamp": "3:10",
+      "summary": "Clearer notification during character creation or first inventory opening regarding the specific starting gear package for the Bard class.",
+      "game_context": "Equip starting gear and prepare for the first combat encounter.",
+      "evidence": [
+        "Opening inventory",
+        "Hovering over empty melee weapon slot",
+        "Checking ranged weapon (Hand Crossbow)",
+        "Disbelief",
+        "Uncertain tone",
+        "Scene: Dumpard opens the inventory screen immediately after waking up in the nautiloid pod to check equipment.",
+        "Quote: Wait, do bards not start with any sort of melee weapon? Holy shit, I really am in hell."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 0,
+      "segment_label": "nautiloid_escape",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "delight",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "tutorial_gap",
+      "absolute_seconds": 270.0,
+      "absolute_timestamp": "4:30",
+      "summary": "A prominent tutorial or UI callout explaining the 'Ritual' tag's specific benefits (zero spell slot cost out of combat).",
+      "game_context": "Utilize ritual spells to buff the party for free during exploration.",
+      "evidence": [
+        "Repeatedly hovering over the 'Ritual' tag in tooltips",
+        " Rapidly applying the Longstrider buff to all party members",
+        "Surprised tone",
+        "Self-deprecating laughter",
+        "Scene: On the Ravaged Beach, the player is reviewing their action bar and hovering over ritual spells like Longstrider and Speak with Animals.",
+        "Quote: Am I just a fucking idiot? Has everybody been using ritual spells and just never told me? I feel silly for saying this, but I don't know if I've really ever regularly used spells like Longstrider and... getting a boost to your movement speed like always... and it doesn't cost a spell slot or need concentration. I don't know, that's crazy. 2000 hours, man, I really gotta start reading things, huh?"
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 1,
+      "segment_label": "level_up_bard",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "friction",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "misleading_affordance",
+      "absolute_seconds": 485.0,
+      "absolute_timestamp": "8:05",
+      "summary": "Clarity on the narrative or approval reward for performing specific class-based checks in isolated scenarios.",
+      "game_context": "Understand the narrative or mechanical incentive for choosing a skill-check dialogue option.",
+      "evidence": [
+        "Hovering over the [BARD][DECEPTION] dialogue choice",
+        "Skeptical tone",
+        "Uncertainty",
+        "Scene: Inside the burning building at Waukeen's Rest, interacting with the trapped NPC Benryn and viewing dialogue options.",
+        "Quote: I have no idea what the point of that would be because nobody else can see us."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 1,
+      "segment_label": "zhentarim_hideout",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "poor_feedback",
+      "absolute_seconds": 620.0,
+      "absolute_timestamp": "10:20",
+      "summary": "Clearer visual feedback or a 'Death Saving Throw' mechanic for essential quest NPCs during large-scale brawls to allow player intervention before permanent death.",
+      "game_context": "Successfully protect or locate the primary quest NPC for the Act 2 storyline.",
+      "evidence": [
+        "Inspecting the dead body UI",
+        "Selecting the 'Can't be Resurrected' prompt repeatedly",
+        "Shock",
+        "Frustrated tone",
+        "Scene: Discovering Halsin's non-revivable corpse in the Shattered Sanctum after the goblin camp raid.",
+        "Quote: Halsin died. Not only have I never had that happen, but I have no way of fixing it. You can't revive him... I'm also locked out of fixing the shadow-cursed lands."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 2,
+      "segment_label": "shattered_sanctum",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "friction",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "poor_feedback",
+      "absolute_seconds": 656.0,
+      "absolute_timestamp": "10:56",
+      "summary": "Immediate real-time feedback or a 'Warning: Tenet Violation' UI indicator when a player is about to perform an action that will break their oath.",
+      "game_context": "Uphold the specific tenets of the chosen Paladin Oath during combat.",
+      "evidence": [
+        "Red glowing effect on character model",
+        "Reviewing combat log",
+        "Confusion",
+        "Incredulous tone",
+        "Scene: Immediately following the goblin combat, the 'Oath Broken' condition appears on Lae'zel.",
+        "Quote: How on earth did killing some goblins break Lae'zel's oath?"
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 2,
+      "segment_label": null,
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "poor_feedback",
+      "absolute_seconds": 717.0,
+      "absolute_timestamp": "11:57",
+      "summary": "A 'Retreating' status icon or explicit combat log entry explaining that the enemy has fled the current encounter rather than just shifting phases.",
+      "game_context": "Understand the creature is retreating to reappear later in exploration.",
+      "evidence": [
+        "Creature disappears from the combat initiative",
+        "Camera searching for the burrowed target",
+        "Uncertainty",
+        "Scene: The Bulette combat encounter in the Underdark where the creature burrows away at low health.",
+        "Quote: I thought it was like a two-phase fight."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 2,
+      "segment_label": "underdark_exploration",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "delight",
+        "friction",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "misleading_affordance",
+      "absolute_seconds": 853.0,
+      "absolute_timestamp": "14:13",
+      "summary": "Consistency between the item's name/flavor text (Hill Giant) and the actual mechanical numerical bonus provided.",
+      "game_context": "Equip the item to set Strength to a value consistent with a Hill Giant (traditionally 21 in D&D/BG3 lore).",
+      "evidence": [
+        "Hovering over the Strength score (19)",
+        "On-screen text overlay stating: 'Hill Giants have 21 STR, this is a club of Werebear STR (they have 19 STR)'",
+        "Annoyed tone",
+        "Disappointment",
+        "Scene: Reviewing character stats in the inventory screen after acquiring the 'Club of Hill Giant Strength' in the Arcane Tower.",
+        "Quote: It's really annoying that it doesn't give you Hill Giant strength, but whatever."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 3,
+      "segment_label": "shadow_cursed_lands",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "friction",
+        "quality",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "other",
+      "absolute_seconds": 1010.0,
+      "absolute_timestamp": "16:50",
+      "summary": "A slight delay or confirmation on the final 'action' dialogue choice to prevent accidental skipping of major visual payoffs.",
+      "game_context": "Complete the dialogue to witness the narrative/visual resolution of the boss encounter.",
+      "evidence": [
+        "Rapidly clicking through dialogue options",
+        "Screen suddenly transitioning to the loot UI",
+        "Regretful tone",
+        "Scene: Final dialogue sequence with Thisobald Thorm at the Waning Moon.",
+        "Quote: I accidentally skipped through the last bit of his dialogue so I missed him exploding."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 4,
+      "segment_label": "moonrise_exploration",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "poor_feedback",
+      "absolute_seconds": 1124.0,
+      "absolute_timestamp": "18:44",
+      "summary": "Proper visual persistence and collision feedback for the boss model during environmental interactions.",
+      "game_context": "Use the environmental hammer to damage the boss and see the resulting animation.",
+      "evidence": [
+        "Activating the Forge Lever",
+        "Boss model (Grym) briefly flickering or glitching out of view",
+        "Camera panning to an empty space where the boss should be",
+        "Sudden distress",
+        "Frustrated yelling",
+        "Incredulous tone",
+        "Scene: The Adamantine Forge during the boss fight with Grym.",
+        "Quote: He just fucking disappeared when I hit the switch! Larian, for the love of all that is holy, fix your game please!"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 4,
+      "segment_label": "adamantine_forge_grym",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "delight",
+        "friction",
+        "quality",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "delight_moments": [
+    {
+      "agent_kind": "delight",
+      "source_label": "mastery",
+      "absolute_seconds": 194.0,
+      "absolute_timestamp": "3:14",
+      "summary": "The RNG provides an immediate 'win' in a mode where every roll feels life-or-death, creating a surge of positive momentum and relief.",
+      "game_context": "The player rolls a Natural 20 on the first possible check in their high-stakes Honor Mode run.",
+      "evidence": [
+        "Immediate click to continue after seeing result",
+        "Visual focus on the 'Critical Success' text",
+        "Excited exclamation",
+        "Rapid speech",
+        "Scene: Dumpard is interacting with the exposed brain (Us) on the Nautiloid and rolls a 20 for an Investigation check.",
+        "Expression: None",
+        "Quote: No way! The very first roll of the entire playthrough was a Nat 20!"
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 0,
+      "segment_label": "nautiloid_escape",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "story",
+      "absolute_seconds": 233.0,
+      "absolute_timestamp": "3:53",
+      "summary": "It rewards the player's choice to play a class they previously disliked by offering a fresh narrative perspective and exclusive content.",
+      "game_context": "Discovering class-specific content for the first time after 2000 hours of play.",
+      "evidence": [
+        "Hovering over the class-specific dialogue choice",
+        "Prolonged visual attention to the new text",
+        "Impressed tone",
+        "Chuckle",
+        "Scene: Dialogue screen with Shadowheart on the Ravaged Beach showing a unique [BARD] dialogue option.",
+        "Expression: None",
+        "Quote: I've never seen any of these before. And honestly, it's probably the thing I'm most excited about for this whole playthrough."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 0,
+      "segment_label": "ravaged_beach",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "mastery",
+      "absolute_seconds": 302.0,
+      "absolute_timestamp": "5:02",
+      "summary": "The frequent RNG success in Honor Mode creates a sense of empowerment and relief, turning a stressful mechanic into a recurring 'win' for the player.",
+      "game_context": "The player rolls their third Natural 20 in a short period during a high-stakes dialogue check.",
+      "evidence": [
+        "Dice roll lands on a Natural 20",
+        "Visual feedback for 'Critical Success'",
+        "Surprised laughter",
+        "Higher pitch",
+        "Scene: During a persuasion check to scare off adventurers outside the chapel entrance.",
+        "Quote: And then hit my third Nat 20 when trying to scare off these adventurers. Bards just get more Nat 20s or something? This is a lot, very quickly."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 1,
+      "segment_label": "chapel_entrance",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "progression",
+      "absolute_seconds": 340.0,
+      "absolute_timestamp": "5:40",
+      "summary": "The player finds humor in the class naming conventions and enjoys the 'novelty' of playing a build they have zero prior knowledge of after 2000 hours in the game.",
+      "game_context": "The player reaches level 3 and must commit to a specialized playstyle.",
+      "evidence": [
+        "Hovering over 'College of Glamour'",
+        "Rapidly clicking to confirm",
+        "Amused tone",
+        "Scene: In the level 3 level-up menu selecting a subclass.",
+        "Quote: What is gonna be my Bard subclass... Well like I said, I know absolutely nothing about Bards. Never played it. And so my choice was kind of just based off what sounded funny I guess, which led me to choose the College of Glamour."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 1,
+      "segment_label": "emerald_grove",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "humor",
+      "absolute_seconds": 430.0,
+      "absolute_timestamp": "7:10",
+      "summary": "The player creates their own meta-narrative and 'inside joke' content, showing high investment in the game's social dynamics and character relationships.",
+      "game_context": "Navigating the common 'enemies to allies' arc between two companions.",
+      "evidence": [
+        "Scene cuts between Karlach and Wyll characters",
+        "Burst of laughter",
+        "Fast-paced delivery",
+        "Scene: Dialogue transition between recruiting Karlach and dealing with Wyll's rivalry.",
+        "Quote: I have this inside joke just with myself. Every time I make one of these videos, I wrote 'Wyll and Karlach are flirting.' Then it evolved into 'Wyll and Karlach are making out.' Then it evolved into 'Wyll and Karlach are graphically busting down animal style in front of everyone.' I just thought we could take a break from the fist slap."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 1,
+      "segment_label": "risen_road",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "discovery",
+      "absolute_seconds": 475.0,
+      "absolute_timestamp": "7:55",
+      "summary": "The sheer statistical improbability of hitting a seventh Natural 20 creates a peak 'triumph' moment that borders on comedy, validating the player's choice to push through a reckless encounter.",
+      "game_context": "A critical check that completely shifts the tide of a dangerous combat encounter.",
+      "evidence": [
+        "Natural 20 appears on the D20 UI",
+        "Intimidation text highlighted",
+        "Disbelief",
+        "Loud exclamation",
+        "Scene: Hitting yet another Natural 20 during an intimidation check against the gnoll leader, Flind.",
+        "Quote: I hit my seventh Nat 20. What the f***? What the f***! I convinced the gnoll to be my friend and to kill her friends."
+      ],
+      "severity_numeric": 9,
+      "source_chunk_index": 1,
+      "segment_label": "risen_road",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "combat",
+      "absolute_seconds": 580.0,
+      "absolute_timestamp": "9:40",
+      "summary": "The explosive payoff provides instant gratification and mastery over environmental systems, which is highly valuable in the high-stakes Honor Mode.",
+      "game_context": "The player uses 'barrelmancy' to instantly clear a high-difficulty combat encounter.",
+      "evidence": [
+        "Deliberate placement of environmental explosives",
+        "Waiting for optimal enemy positioning before detonating",
+        "Energetic narration",
+        "Quickening pace of speech",
+        "Scene: Inside the Goblin Camp courtyard, the player positions a smokepowder satchel near a high density of enemies.",
+        "Quote: Inside the camp itself, I got a little crazy again."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 2,
+      "segment_label": "goblin_camp",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "discovery",
+      "absolute_seconds": 730.0,
+      "absolute_timestamp": "12:10",
+      "summary": "It provides a massive power spike (discovery mastery) that allows the player to steamroll difficult Underdark enemies, leading to a major progression milestone (Level 5).",
+      "game_context": "Discovering and exploiting the power of a temporary companion's unique mechanic.",
+      "evidence": [
+        "Targeting a Minotaur with the 'Animus' ability",
+        "Rapidly checking the stats of the new Undead thrall",
+        "Focused narration",
+        "Triumphant tone during level-up",
+        "Scene: The Underdark near the Minotaur corpses, using Sovereign Glut's unique resurrection ability.",
+        "Quote: I used Glut\u2019s revive ability to wake up a Minotaur and I brought that bad boy down to the beach... seriously, I wrote in my notes: 'My chest hurts and I taste copper, but hey, I hit level 5 from the whole thing'."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 2,
+      "segment_label": "underdark_exploration",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "progression",
+      "absolute_seconds": 759.0,
+      "absolute_timestamp": "12:39",
+      "summary": "The respec mechanic allows the player to correct a 'boring' gameplay experience immediately. The mechanical shift provides instant gratification by making the class feel both powerful and active.",
+      "game_context": "The player was previously 'not really having much fun' with the College of Glamour and decided to switch specializations.",
+      "evidence": [
+        "Rapid menu navigation",
+        "Immediate selection of the new subclass",
+        "Posing the newly outfitted character",
+        "Confident tone",
+        "High praise",
+        "Lowered vocal pitch of satisfaction",
+        "Scene: Withers' respec menu at camp, selecting the College of Swords subclass.",
+        "Quote: I respec\u2019d into the College of Swords, and that was an amazing idea. The College of Swords subclass may genuinely be one of the best subclasses in the game. And more importantly, one of the most fun."
+      ],
+      "severity_numeric": 9,
+      "source_chunk_index": 3,
+      "segment_label": "character_respec",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "friction",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "mastery",
+      "absolute_seconds": 806.0,
+      "absolute_timestamp": "13:26",
+      "summary": "The 'Extra Attack' feature represents a massive leap in combat efficiency, validating the player's switch to the Swords subclass and cementing their 'Mastery' over the class's potential.",
+      "game_context": "Reaching the major Level 6 power spike for martial-leaning classes.",
+      "evidence": [
+        "Hovering on the 'Extra Attack' text",
+        "Scrolling through the new combat options",
+        "Rapidly clicking to accept the level increase",
+        "Explosion of disbelief",
+        "Excited exclamation",
+        "Fast-paced speech",
+        "Scene: The Level Up screen for Bard Level 6, highlighting the 'Extra Attack' feature.",
+        "Quote: Extra attack? Are you fucking kidding me? You\u2019re telling me I get all these cool combat options, spells, and the easiest time out of combat of any class, for sure, and I get extra attack? This is it. This is the best class in the game."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 3,
+      "segment_label": "level_up",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "humor",
+      "absolute_seconds": 910.0,
+      "absolute_timestamp": "15:10",
+      "summary": "The player enjoys the subversion of 'proper' combat mechanics. Using 'barrelmancy' provides a sense of 'system mastery' where the player feels smarter than the game's difficulty.",
+      "game_context": "Handling a high-risk Act 2 encounter by using 'cheap' but effective environmental tactics.",
+      "evidence": [
+        "Deliberate placement of environmental explosives",
+        "Wait-and-see positioning",
+        "Efficient detonation following the cutscene",
+        "Humorous tone",
+        "Self-assured narration",
+        "Scene: The Shadow-Cursed Lands, pre-positioning explosive oil barrels around the Kar'niss ambush site.",
+        "Quote: I know barrelmancy is sort of frowned upon, but Kar'niss is a dickhead and I think he deserved it."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 3,
+      "segment_label": "karniss_ambush",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "mastery",
+      "absolute_seconds": 989.0,
+      "absolute_timestamp": "16:29",
+      "summary": "This is the ultimate payoff for the Bard class's identity. The player feels immense satisfaction in 'winning' the hardest difficulty mode by bypassing its intended challenges through class-specific manipulation.",
+      "game_context": "Using the Bard's high Charisma to skip major Act 2 boss fights through dialogue.",
+      "evidence": [
+        "Natural 20s appearing on screen",
+        "Success animations playing in rapid succession",
+        "The bosses disintegrating/killing themselves",
+        "Smug satisfaction",
+        "Calm, instructive tone",
+        "Chuckling",
+        "Scene: A montage of persuasion checks against Gerringothe, Thisobald, and Malus Thorm, leading to their self-destruction.",
+        "Quote: Using my Bard powers of mental manipulation, I cleared out the Thorms very easily. Seriously dude... if you want to get through Honor Mode and you\u2019re having a hard time, try to think less about combat and more about how to avoid combat."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 3,
+      "segment_label": "thorm_encounters",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "mastery",
+      "absolute_seconds": 1090.0,
+      "absolute_timestamp": "18:10",
+      "summary": "The consistency of the strategy (persuasion) builds confidence and reinforces the player's 'master' status over the Bard class mechanics.",
+      "game_context": "Efficiently resolving one of the game's most difficult ambush encounters without combat.",
+      "evidence": [
+        "Steady camera focus on the persuasion outcome",
+        "Prompt progression through the loot phase",
+        "Calm, satisfied tone",
+        "Scene: Gauntlet of Shar, successfully convincing the Orthon Yurgir to eliminate his own minions and himself.",
+        "Quote: First of all, getting Yurgir to take himself out was really easy as a bard. Like I said with the Thorms, just using your voice in this game could be an incredibly powerful weapon."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 4,
+      "segment_label": "gauntlet_of_shar",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "combat",
+      "absolute_seconds": 1112.0,
+      "absolute_timestamp": "18:32",
+      "summary": "The contrast between the 'easy' persuasion skips and this intense, lucky victory creates a high-stakes emotional payoff that validates the player's survival skills.",
+      "game_context": "Surviving a near-wipe during the mandatory Balthazar combat.",
+      "evidence": [
+        "Rapid inspection of the boss corpse",
+        "Quick navigation to the next objective",
+        "Exhalation of relief",
+        "Adrenaline-fueled speech",
+        "Scene: The aftermath of the Balthazar fight inside the Gauntlet of Shar.",
+        "Quote: Balthazar scared the shit out of me. I really thought he might wipe us out. He got pretty damn close, but a lucky shot from myself took care of him."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 4,
+      "segment_label": "adamantine_forge_grym",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "story",
+      "absolute_seconds": 1162.0,
+      "absolute_timestamp": "19:22",
+      "summary": "It showcases the game's narrative depth where choices made in one encounter directly weaken a boss for a future, harder phase.",
+      "game_context": "Laying strategic groundwork for the final confrontation through dialogue.",
+      "evidence": [
+        "Deliberate selection of the 'Persuasion' dialogue branch",
+        "Camera focusing on Ketheric's reaction",
+        "Intrigued tone",
+        "Planning-oriented narration",
+        "Scene: Moonrise Towers rooftop, initiating the final dialogue with Ketheric Thorm.",
+        "Quote: Upstairs I would plant a seed that would pay off in just a little bit, just a hint of doubt in Ketheric's mind."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 4,
+      "segment_label": "ketheric_thorm_confrontation",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "friction",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "quality_issues": [
+    {
+      "agent_kind": "quality",
+      "source_label": "performance",
+      "absolute_seconds": 221.0,
+      "absolute_timestamp": "3:41",
+      "summary": "performance issue: Screen freeze, Total cut to black during The player was in a combat encounter on the Nautiloid during the tutorial phase and performed a spell action.",
+      "game_context": "The player was in a combat encounter on the Nautiloid during the tutorial phase and performed a spell action.",
+      "evidence": [
+        "Screen freeze",
+        "Total cut to black",
+        "None",
+        "Player reaction: Noticed and commented",
+        "Scene: During tutorial combat on the Nautiloid after casting the spell 'Vicious Mockery' on an enemy.",
+        "Quote: And my game crashed. Dope."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 0,
+      "segment_label": "nautiloid_combat",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "friction",
+        "retry",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "quality",
+      "source_label": "gameplay_logic",
+      "absolute_seconds": 853.0,
+      "absolute_timestamp": "14:13",
+      "summary": "gameplay logic issue: visible issue during The player opens the character sheet and hovers over the Strength attribute while the 'Club of Hill Giant Strength' is equipped.",
+      "game_context": "The player opens the character sheet and hovers over the Strength attribute while the 'Club of Hill Giant Strength' is equipped.",
+      "evidence": [
+        "None",
+        "Player reaction: Noticed and commented",
+        "Scene: Character equipment and attribute screen inspecting the 'Club of Hill Giant Strength'.",
+        "Quote: Hill Giants have 21 STR, this is a club of Werebear STR (they have 19 STR)",
+        "Quote: It's really annoying that it doesn't give you Hill Giant strength but whatever."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 3,
+      "segment_label": "shadow_cursed_lands",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "quality",
+      "source_label": "physics",
+      "absolute_seconds": 1129.0,
+      "absolute_timestamp": "18:49",
+      "summary": "physics issue: Sudden model disappearance, Targeting frame remaining without a visible model during The player triggers the forge hammer while the boss, Grym, is positioned on the central anvil.",
+      "game_context": "The player triggers the forge hammer while the boss, Grym, is positioned on the central anvil.",
+      "evidence": [
+        "Sudden model disappearance",
+        "Targeting frame remaining without a visible model",
+        "None",
+        "Player reaction: Noticed and commented",
+        "Scene: During the Grym boss fight at the Adamantine Forge.",
+        "Quote: He just fucking disappeared when I hit the switch.",
+        "Quote: Larian for the love of all that is holy, fix your game please."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 4,
+      "segment_label": "adamantine_forge_grym",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "sentiment_moments": [
+    {
+      "agent_kind": "sentiment",
+      "source_label": "excited",
+      "absolute_seconds": 15.0,
+      "absolute_timestamp": "0:15",
+      "summary": "Run introduction and class choice recap",
+      "game_context": "Montage of high-level Bard gameplay and cinematic shots of Dumpard.",
+      "evidence": [
+        "Trigger: Run introduction and class choice recap",
+        "Visual: Montage of high-level Bard gameplay and cinematic shots of Dumpard.",
+        "Audio: Energetic, articulate, and upbeat. The player is clearly excited to start the challenge.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 0,
+      "segment_label": "intro_sequence",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": 5,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 45.0,
+      "absolute_timestamp": "0:45",
+      "summary": "Discussing the difficulty of Honor Mode",
+      "game_context": "Display of the Honor Mode difficulty screen and its associated risks (single save).",
+      "evidence": [
+        "Trigger: Discussing the difficulty of Honor Mode",
+        "Visual: Display of the Honor Mode difficulty screen and its associated risks (single save).",
+        "Audio: Dramatic tone but with an underlying sense of confidence and readiness for the challenge.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 0,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 3,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 75.0,
+      "absolute_timestamp": "1:15",
+      "summary": "Mocking common Bard tropes",
+      "game_context": "A dragon cinematic playing over a joke about Bards trying to 'bang every monster'.",
+      "evidence": [
+        "Trigger: Mocking common Bard tropes",
+        "Visual: A dragon cinematic playing over a joke about Bards trying to 'bang every monster'.",
+        "Audio: Humorous, cynical tone. The player is engaging in entertaining meta-commentary.",
+        "Silence type: idle"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 0,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 4,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 105.0,
+      "absolute_timestamp": "1:45",
+      "summary": "Establishing self-imposed rules for the run",
+      "game_context": "On-screen text detailing rules about Level 12 and party member restrictions.",
+      "evidence": [
+        "Trigger: Establishing self-imposed rules for the run",
+        "Visual: On-screen text detailing rules about Level 12 and party member restrictions.",
+        "Audio: Focused and explanatory. The player is in 'planning mode', laying out the structure of the session.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 0,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 135.0,
+      "absolute_timestamp": "2:15",
+      "summary": "Camp member recruitment rules",
+      "game_context": "Gameplay showing the player running through the crashed Nautiloid area.",
+      "evidence": [
+        "Trigger: Camp member recruitment rules",
+        "Visual: Gameplay showing the player running through the crashed Nautiloid area.",
+        "Audio: Casual and steady narration. The tone is neutral-to-positive as exploration begins.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 0,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 165.0,
+      "absolute_timestamp": "2:45",
+      "summary": "Character creation for Dumpard",
+      "game_context": "Menu screen showing character customization. The player selects a specific face and beard.",
+      "evidence": [
+        "Trigger: Character creation for Dumpard",
+        "Visual: Menu screen showing character customization. The player selects a specific face and beard.",
+        "Audio: Highly amused. The player jokes about the character 'permanently mewing'.",
+        "Silence type: idle"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 0,
+      "segment_label": "character_creation",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 6,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "triumphant",
+      "absolute_seconds": 200.0,
+      "absolute_timestamp": "3:20",
+      "summary": "Rolling a Natural 20 on the first check",
+      "game_context": "Dice roll animation landing on 20 for an Investigation check on the brain in the pod.",
+      "evidence": [
+        "Trigger: Rolling a Natural 20 on the first check",
+        "Visual: Dice roll animation landing on 20 for an Investigation check on the brain in the pod.",
+        "Audio: Triumphant. The player exclaims about the 'very first roll' being a critical success.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 9,
+      "source_chunk_index": 0,
+      "segment_label": "nautiloid_escape",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 9,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "frustrated",
+      "absolute_seconds": 225.0,
+      "absolute_timestamp": "3:45",
+      "summary": "Game crash during combat",
+      "game_context": "The screen freezes and cuts to black during the first encounter with the Imps.",
+      "evidence": [
+        "Trigger: Game crash during combat",
+        "Visual: The screen freezes and cuts to black during the first encounter with the Imps.",
+        "Audio: Resigned sarcasm. He says 'Dope. Well, my game crashed,' with a deadpan delivery.",
+        "Silence type: resigned"
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 0,
+      "segment_label": "nautiloid_combat",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "friction",
+        "quality",
+        "verbal"
+      ],
+      "sentiment_raw_score": -3,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "triumphant",
+      "absolute_seconds": 255.0,
+      "absolute_timestamp": "4:15",
+      "summary": "Efficient combat on the beach and Level 2",
+      "game_context": "Detonating a tank to wipe out multiple enemies, followed immediately by the Level 2 level-up screen.",
+      "evidence": [
+        "Trigger: Efficient combat on the beach and Level 2",
+        "Visual: Detonating a tank to wipe out multiple enemies, followed immediately by the Level 2 level-up screen.",
+        "Audio: Satisfied and energetic. The player is happy with the 'clean' play and rapid progress.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 0,
+      "segment_label": "level_up_bard",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "clarity",
+        "friction"
+      ],
+      "sentiment_raw_score": 7,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 270.0,
+      "absolute_timestamp": "4:30",
+      "summary": "Discovering ritual spell mechanics (Longstrider).",
+      "game_context": "The player rapid-casts Longstrider on multiple party members without consuming spell slots.",
+      "evidence": [
+        "Trigger: Discovering ritual spell mechanics (Longstrider).",
+        "Visual: The player rapid-casts Longstrider on multiple party members without consuming spell slots.",
+        "Audio: Self-deprecating laughter: 'Am I just a fucking idiot? Has everybody been using ritual spells and just never told me?'"
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 1,
+      "segment_label": "level_up_bard",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "clarity",
+        "friction"
+      ],
+      "sentiment_raw_score": 8,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "triumphant",
+      "absolute_seconds": 302.0,
+      "absolute_timestamp": "5:02",
+      "summary": "Rolling a third Natural 20 during the chapel recruitment.",
+      "game_context": "The D20 roll UI animation lands on a critical success for a Persuasion check against Gimblebock.",
+      "evidence": [
+        "Trigger: Rolling a third Natural 20 during the chapel recruitment.",
+        "Visual: The D20 roll UI animation lands on a critical success for a Persuasion check against Gimblebock.",
+        "Audio: Triumphant tone: 'Bards just get more Nat 20s or something?'"
+      ],
+      "severity_numeric": 9,
+      "source_chunk_index": 1,
+      "segment_label": "chapel_entrance",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 9,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "excited",
+      "absolute_seconds": 340.0,
+      "absolute_timestamp": "5:40",
+      "summary": "Leveling up to Level 3 and choosing a subclass.",
+      "game_context": "The level-up menu is shown with the Bard subclass selection screen; 'College of Glamour' is selected.",
+      "evidence": [
+        "Trigger: Leveling up to Level 3 and choosing a subclass.",
+        "Visual: The level-up menu is shown with the Bard subclass selection screen; 'College of Glamour' is selected.",
+        "Audio: Playful and explanatory: 'My choice was kind of just based off what sounded funny, I guess.'"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 1,
+      "segment_label": "emerald_grove",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 6,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 385.0,
+      "absolute_timestamp": "6:25",
+      "summary": "Recruiting Karlach and sending her to camp.",
+      "game_context": "The player completes the Karlach dialogue sequence and her fire-shroud animation plays.",
+      "evidence": [
+        "Trigger: Recruiting Karlach and sending her to camp.",
+        "Visual: The player completes the Karlach dialogue sequence and her fire-shroud animation plays.",
+        "Audio: Narrating progress at a fast, energetic pace, indicating high engagement with the 'completionist' recruitment loop."
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 1,
+      "segment_label": "world_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": 4,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "triumphant",
+      "absolute_seconds": 415.0,
+      "absolute_timestamp": "6:55",
+      "summary": "Hitting a seventh Natural 20 during the gnoll encounter check.",
+      "game_context": "The dice roll lands on 20 again during a mental influence check on the gnoll leader, Flind.",
+      "evidence": [
+        "Trigger: Hitting a seventh Natural 20 during the gnoll encounter check.",
+        "Visual: The dice roll lands on 20 again during a mental influence check on the gnoll leader, Flind.",
+        "Audio: Disbelieving and loud: 'I hit my seventh Nat 20! What the fuck? Seriously?'"
+      ],
+      "severity_numeric": 10,
+      "source_chunk_index": 1,
+      "segment_label": null,
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 10,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 452.0,
+      "absolute_timestamp": "7:32",
+      "summary": "Near party wipe during the gnoll fight.",
+      "game_context": "The UI shows three party members downed or at near-zero HP, with blood splatter covering the terrain.",
+      "evidence": [
+        "Trigger: Near party wipe during the gnoll fight.",
+        "Visual: The UI shows three party members downed or at near-zero HP, with blood splatter covering the terrain.",
+        "Audio: Somber, slightly tense narration: 'I had gotten a little reckless... Ending the battle with literally only one person still on their feet.'",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 1,
+      "segment_label": "risen_road",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "friction"
+      ],
+      "sentiment_raw_score": -2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "triumphant",
+      "absolute_seconds": 498.0,
+      "absolute_timestamp": "8:18",
+      "summary": "Reaching Level 4 and securing Ability Score Improvements.",
+      "game_context": "The Level 4 level-up screen appears, showing health increases and ability point allocation into Charisma.",
+      "evidence": [
+        "Trigger: Reaching Level 4 and securing Ability Score Improvements.",
+        "Visual: The Level 4 level-up screen appears, showing health increases and ability point allocation into Charisma.",
+        "Audio: Relieved and satisfied tone: 'Just enough XP to hit level 4... bumping my charisma from 17 to 18.'"
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 1,
+      "segment_label": "zhentarim_hideout",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "clarity"
+      ],
+      "sentiment_raw_score": 7,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 515.0,
+      "absolute_timestamp": "8:35",
+      "summary": "Defeating the harpies",
+      "game_context": "Success in a combat encounter that saves an NPC (Mirkon).",
+      "evidence": [
+        "Trigger: Defeating the harpies",
+        "Visual: Success in a combat encounter that saves an NPC (Mirkon).",
+        "Audio: Satisfied tone; player boasts about 'out-singing' the harpies using class-specific mechanics."
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 2,
+      "segment_label": "zhentarim_hideout",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 4,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 545.0,
+      "absolute_timestamp": "9:05",
+      "summary": "Aesthetic customization and anime parody",
+      "game_context": "Cinematic pan of the shirtless character posing dramatically by a river.",
+      "evidence": [
+        "Trigger: Aesthetic customization and anime parody",
+        "Visual: Cinematic pan of the shirtless character posing dramatically by a river.",
+        "Audio: Peak amusement; player performs a high-effort, melodramatic parody monologue with clear delight."
+      ],
+      "severity_numeric": 9,
+      "source_chunk_index": 2,
+      "segment_label": "goblin_camp",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 9,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "excited",
+      "absolute_seconds": 580.0,
+      "absolute_timestamp": "9:40",
+      "summary": "Goblin Camp explosion chaos",
+      "game_context": "Massive environmental explosion clearing a high-density enemy area.",
+      "evidence": [
+        "Trigger: Goblin Camp explosion chaos",
+        "Visual: Massive environmental explosion clearing a high-density enemy area.",
+        "Audio: Energetic and slightly chaotic; player enjoys the sheer power of the 'Smokepowder' cheese strategy."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 2,
+      "segment_label": "goblin_camp",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 6,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "frustrated",
+      "absolute_seconds": 615.0,
+      "absolute_timestamp": "10:15",
+      "summary": "Discovering Halsin's dead body",
+      "game_context": "The player inspects Halsin's corpse in the prison area.",
+      "evidence": [
+        "Trigger: Discovering Halsin's dead body",
+        "Visual: The player inspects Halsin's corpse in the prison area.",
+        "Audio: Vocal shock and disappointment; player laments losing a major quest thread and the inability to fix the Shadow-Curse."
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 2,
+      "segment_label": "shattered_sanctum",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "clarity",
+        "friction"
+      ],
+      "sentiment_raw_score": -4,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 650.0,
+      "absolute_timestamp": "10:50",
+      "summary": "Underdark exploration and combat flow",
+      "game_context": "Steady progress through early Underdark environments.",
+      "evidence": [
+        "Trigger: Underdark exploration and combat flow",
+        "Visual: Steady progress through early Underdark environments.",
+        "Audio: Steady narration; player is back into a 'flow state' of clearing encounters efficiently.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 2,
+      "segment_label": "shattered_sanctum",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "clarity"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 695.0,
+      "absolute_timestamp": "11:35",
+      "summary": "Easy victory over the Spider Matriarch",
+      "game_context": "The boss is defeated quickly with minimal resource expenditure.",
+      "evidence": [
+        "Trigger: Easy victory over the Spider Matriarch",
+        "Visual: The boss is defeated quickly with minimal resource expenditure.",
+        "Audio: Lighthearted; player sounds relieved but also slightly surprised by the lack of challenge compared to previous scares."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 2,
+      "segment_label": "whispering_depths",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 3,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 725.0,
+      "absolute_timestamp": "12:05",
+      "summary": "Surviving the Bulette near-wipe",
+      "game_context": "High-tension combat where party members are at low health.",
+      "evidence": [
+        "Trigger: Surviving the Bulette near-wipe",
+        "Visual: High-tension combat where party members are at low health.",
+        "Audio: Narration carries a sense of 'retrospective relief'; player acknowledges the danger but focuses on the win.",
+        "Silence type: tense"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 2,
+      "segment_label": "underdark_exploration",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "friction"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "triumphant",
+      "absolute_seconds": 740.0,
+      "absolute_timestamp": "12:20",
+      "summary": "Reviving a Minotaur with Sovereign Glut",
+      "game_context": "Player uses a companion ability to create a powerful undead minion.",
+      "evidence": [
+        "Trigger: Reviving a Minotaur with Sovereign Glut",
+        "Visual: Player uses a companion ability to create a powerful undead minion.",
+        "Audio: Triumphant and curious; player exclaims at the 'bad boy' revival, clearly enjoying the mechanical discovery."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 2,
+      "segment_label": "character_respec",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 7,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 765.0,
+      "absolute_timestamp": "12:45",
+      "summary": "Opening the respec menu at Withers",
+      "game_context": "Stalling: Menu navigation while reflecting on character performance.",
+      "evidence": [
+        "Trigger: Opening the respec menu at Withers",
+        "Visual: Stalling: Menu navigation while reflecting on character performance.",
+        "Audio: Resigned tone: 'I wasn't really having much fun. I decided to give Bard a fair shot... try another subclass'."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 3,
+      "segment_label": "character_respec",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "delight",
+        "friction",
+        "verbal"
+      ],
+      "sentiment_raw_score": -2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "excited",
+      "absolute_seconds": 806.0,
+      "absolute_timestamp": "13:26",
+      "summary": "Discovering 'Extra Attack' in the Level 6 menu",
+      "game_context": "Discovery: Gaining a major combat feature after respeccing to Swords.",
+      "evidence": [
+        "Trigger: Discovering 'Extra Attack' in the Level 6 menu",
+        "Visual: Discovery: Gaining a major combat feature after respeccing to Swords.",
+        "Audio: Excited exclamation: 'Extra attack? Are you fucking kidding me? You're telling me I get all these cool combat options... and I get extra attack?'."
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 3,
+      "segment_label": "level_up",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 8,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "frustrated",
+      "absolute_seconds": 851.0,
+      "absolute_timestamp": "14:11",
+      "summary": "Realizing the 'Club of Hill Giant Strength' only provides 19 STR",
+      "game_context": "Failure: Item stats do not match expectations/D&D lore (expected 21 STR).",
+      "evidence": [
+        "Trigger: Realizing the 'Club of Hill Giant Strength' only provides 19 STR",
+        "Visual: Failure: Item stats do not match expectations/D&D lore (expected 21 STR).",
+        "Audio: Annoyed tone: 'It's really annoying that... it doesn't give you Hill Giant strength, but whatever'."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 3,
+      "segment_label": "shadow_cursed_lands",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "quality",
+        "verbal"
+      ],
+      "sentiment_raw_score": -2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 884.0,
+      "absolute_timestamp": "14:44",
+      "summary": "Marcus ambush at Last Light Inn",
+      "game_context": "Discovery: Sudden cinematic transition into a high-stakes encounter.",
+      "evidence": [
+        "Trigger: Marcus ambush at Last Light Inn",
+        "Visual: Discovery: Sudden cinematic transition into a high-stakes encounter.",
+        "Audio: Surprised but engaged: 'What I forgot about though was Marcus. He crashed our party and I realized I definitely should have prepared for him'."
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 3,
+      "segment_label": "last_light_inn",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 4,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 910.0,
+      "absolute_timestamp": "15:10",
+      "summary": "Setting up an ambush for Kar'niss",
+      "game_context": "Progress: Strategic placement of explosive barrels ('barrelmancy').",
+      "evidence": [
+        "Trigger: Setting up an ambush for Kar'niss",
+        "Visual: Progress: Strategic placement of explosive barrels ('barrelmancy').",
+        "Audio: Focused and calculating: 'Thinning out a few barrels made my life easier... they didn't hurt Kar'niss at all, but they did clear out some of his friends'."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 3,
+      "segment_label": "karniss_ambush",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 5,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "triumphant",
+      "absolute_seconds": 935.0,
+      "absolute_timestamp": "15:35",
+      "summary": "Kar'niss encounter success",
+      "game_context": "Success: Defeating a major environmental threat in the Shadow-Cursed Lands.",
+      "evidence": [
+        "Trigger: Kar'niss encounter success",
+        "Visual: Success: Defeating a major environmental threat in the Shadow-Cursed Lands.",
+        "Audio: Satisfied tone: 'It worked! Got him! Now to get the lantern'."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 3,
+      "segment_label": "karniss_ambush",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "friction"
+      ],
+      "sentiment_raw_score": 7,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 970.0,
+      "absolute_timestamp": "16:10",
+      "summary": "Meeting Gerringothe Thorm",
+      "game_context": "Discovery: Initiating a high-stakes boss dialogue that offers a non-combat solution.",
+      "evidence": [
+        "Trigger: Meeting Gerringothe Thorm",
+        "Visual: Discovery: Initiating a high-stakes boss dialogue that offers a non-combat solution.",
+        "Audio: Amused/Smug: 'Using my bard powers of mental manipulation, I cleared out the Thorms very easily'."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 3,
+      "segment_label": "thorm_encounters",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 6,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 1010.0,
+      "absolute_timestamp": "16:50",
+      "summary": "Advising viewers on avoiding combat in Honor Mode",
+      "game_context": "success",
+      "evidence": [
+        "Trigger: Advising viewers on avoiding combat in Honor Mode",
+        "Visual: success",
+        "Audio: Smug and instructional tone; clearly enjoying the strategic 'cheese' of bypassing boss mechanics."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 4,
+      "segment_label": "moonrise_exploration",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "clarity",
+        "verbal"
+      ],
+      "sentiment_raw_score": 6,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 1040.0,
+      "absolute_timestamp": "17:20",
+      "summary": "Selecting the 'Tough' feat during Level 8 level-up",
+      "game_context": "progress",
+      "evidence": [
+        "Trigger: Selecting the 'Tough' feat during Level 8 level-up",
+        "Visual: progress",
+        "Audio: Focused and practical; narrating a clear logic for survival. \"Gotta make sure we got some survivability.\""
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "moonrise_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 1070.0,
+      "absolute_timestamp": "17:50",
+      "summary": "Admitting to 'lying' in the script about 'picking off stragglers'",
+      "game_context": "progress",
+      "evidence": [
+        "Trigger: Admitting to 'lying' in the script about 'picking off stragglers'",
+        "Visual: progress",
+        "Audio: Chuckling and self-deprecating; the player is amused by their own lack of caution despite the plan."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 4,
+      "segment_label": "moonrise_clearing",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": 5,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 1095.0,
+      "absolute_timestamp": "18:15",
+      "summary": "Narrowly defeating Balthazar in the Gauntlet of Shar",
+      "game_context": "success",
+      "evidence": [
+        "Trigger: Narrowly defeating Balthazar in the Gauntlet of Shar",
+        "Visual: success",
+        "Audio: Tense then relieved; admits the boss 'scared the shit out of me.' Quick recovery with a lucky shot.",
+        "Silence type: tense"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 4,
+      "segment_label": "gauntlet_of_shar",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 4,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "frustrated",
+      "absolute_seconds": 1130.0,
+      "absolute_timestamp": "18:50",
+      "summary": "Grym temporarily disappearing due to a technical glitch",
+      "game_context": "failure",
+      "evidence": [
+        "Trigger: Grym temporarily disappearing due to a technical glitch",
+        "Visual: failure",
+        "Audio: Vocal annoyance and frustration. \"Fix your game, please.\" Sharp intake of breath.",
+        "Silence type: confused"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 4,
+      "segment_label": "adamantine_forge_grym",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "quality",
+        "verbal"
+      ],
+      "sentiment_raw_score": -4,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 1155.0,
+      "absolute_timestamp": "19:15",
+      "summary": "Planting a 'seed of doubt' in Ketheric Thorm's mind",
+      "game_context": "discovery",
+      "evidence": [
+        "Trigger: Planting a 'seed of doubt' in Ketheric Thorm's mind",
+        "Visual: discovery",
+        "Audio: Satisfied and strategic tone; confident in the setup for the final Act 2 encounter."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 4,
+      "segment_label": "ketheric_thorm_confrontation",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "delight",
+        "friction",
+        "verbal"
+      ],
+      "sentiment_raw_score": 3,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 1185.0,
+      "absolute_timestamp": "19:45",
+      "summary": "Apologizing again for poor audio quality/health in post-production",
+      "game_context": "stalling",
+      "evidence": [
+        "Trigger: Apologizing again for poor audio quality/health in post-production",
+        "Visual: stalling",
+        "Audio: Weary and congested; apologizing for sounding like 'poop'. Low energy ending to the chunk.",
+        "Silence type: resigned"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 4,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": -1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "retry_moments": [
+    {
+      "agent_kind": "retry",
+      "source_label": "nautiloid_combat",
+      "absolute_seconds": 207.0,
+      "absolute_timestamp": "3:27",
+      "summary": "2 attempts at nautiloid_combat, outcome: succeeded",
+      "game_context": "Nautiloid ship",
+      "evidence": [
+        "Attempt 1: failed (Sarcastic and slightly frustrated; player remarks, 'And my game crashed. Dope.')",
+        "Attempt 2: succeeded (No audible reaction; player proceeds to the next scene.)",
+        "Frustration: stable"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 0,
+      "segment_label": "nautiloid_combat",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "friction",
+        "quality"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": 2,
+      "retry_quit_signal": false,
+      "retry_final_outcome": "succeeded",
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "verbal_moments": [
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 0.0,
+      "absolute_timestamp": "0:00",
+      "summary": "I hate bards. Well, okay, hate is a strong word... what I hate is the type of bard who only tries to bang every single monster they see. That being said, in my nearly 2000 hours in BG3, I have not once played as a bard. But today I'm gonna get brave and I will break my streak of bard celibacy in the most painful way I know how... by completing BG3 on the toughest available difficulty: Honor Mode.",
+      "game_context": "The player is introducing the video and explaining the challenge parameters.",
+      "evidence": [
+        "Tone: sarcastic",
+        "Category: reaction"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 0,
+      "segment_label": "intro_sequence",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "I hate bards. Well, okay, hate is a strong word... what I hate is the type of bard who only tries to bang every single monster they see. That being said, in my nearly 2000 hours in BG3, I have not once played as a bard. But today I'm gonna get brave and I will break my streak of bard celibacy in the most painful way I know how... by completing BG3 on the toughest available difficulty: Honor Mode."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 190.0,
+      "absolute_timestamp": "3:10",
+      "summary": "Bards don't start with any sort of melee weapon? Holy shit, I really am in hell.",
+      "game_context": "The player discovers that their Bard character has no melee weapon equipped upon starting the game.",
+      "evidence": [
+        "Tone: amused",
+        "Category: reaction",
+        "Actionable: Ensure class starting equipment is clearly communicated during character creation to avoid player confusion or perceived disadvantage."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 0,
+      "segment_label": "nautiloid_escape",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "Bards don't start with any sort of melee weapon? Holy shit, I really am in hell."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 199.0,
+      "absolute_timestamp": "3:19",
+      "summary": "Critical success. Although my next roll wasn't quite enough to set the little brain guy free so... maybe not that lucky.",
+      "game_context": "The player rolls a Natural 20 on an investigation check but fails a subsequent roll to free Us the Intellect Devourer.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: narration"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 0,
+      "segment_label": "nautiloid_escape",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Critical success. Although my next roll wasn't quite enough to set the little brain guy free so... maybe not that lucky."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "complaint",
+      "absolute_seconds": 226.0,
+      "absolute_timestamp": "3:46",
+      "summary": "I used Vicious Mockery on this boar and my game crashed. Dope. Well, after returning I made it safely through.",
+      "game_context": "The game crashes during combat on the Nautiloid, requiring a restart.",
+      "evidence": [
+        "Tone: sarcastic",
+        "Category: complaint",
+        "Actionable: Investigate potential stability issues or memory leaks triggered by specific combat actions like Vicious Mockery in the tutorial area."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 0,
+      "segment_label": "nautiloid_combat",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "friction",
+        "quality",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "I used Vicious Mockery on this boar and my game crashed. Dope. Well, after returning I made it safely through."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "praise",
+      "absolute_seconds": 236.0,
+      "absolute_timestamp": "3:56",
+      "summary": "Bard specific dialogue for the first time. I have never seen any of these before... and honestly it's probably the thing I'm most excited about for this whole playthrough.",
+      "game_context": "The player encounters unique Bard dialogue options while speaking to Shadowheart on the beach.",
+      "evidence": [
+        "Tone: excited",
+        "Category: praise"
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 0,
+      "segment_label": "ravaged_beach",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Bard specific dialogue for the first time. I have never seen any of these before... and honestly it's probably the thing I'm most excited about for this whole playthrough."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 245.0,
+      "absolute_timestamp": "4:05",
+      "summary": "I mean, come on, it's like the quintessential Bard hat. This one really feels like it might be something magical.",
+      "game_context": "The player finds a 'Rufflesome Haggart Hat' in a backpack and equips it.",
+      "evidence": [
+        "Tone: amused",
+        "Category: narration"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 0,
+      "segment_label": "beach_combat",
+      "confidence_score": 0.6,
+      "corroborating_agents": [],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "I mean, come on, it's like the quintessential Bard hat. This one really feels like it might be something magical."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 289.0,
+      "absolute_timestamp": "4:49",
+      "summary": "Am I just a fucking idiot? Has everybody been using ritual spells and just never told me? I feel silly for saying this, but I don't know if I've really ever regularly used spells like Longstrider and... it doesn't cost a spell slot or need concentration? I don't know, that's crazy. 2000 hours man, I really gotta start reading things, huh?",
+      "game_context": "Discovering the mechanics of Ritual spells for the first time despite high total playtime.",
+      "evidence": [
+        "Tone: amused",
+        "Category: reaction",
+        "Actionable: Increase the visual prominence of the 'Ritual' tag in spell tooltips or provide a specific tutorial prompt when a player first prepares a ritual spell to ensure this resource-saving mechanic is understood."
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 1,
+      "segment_label": "ravaged_beach",
+      "confidence_score": 0.6,
+      "corroborating_agents": [],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "Am I just a fucking idiot? Has everybody been using ritual spells and just never told me? I feel silly for saying this, but I don't know if I've really ever regularly used spells like Longstrider and... it doesn't cost a spell slot or need concentration? I don't know, that's crazy. 2000 hours man, I really gotta start reading things, huh?"
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 302.0,
+      "absolute_timestamp": "5:02",
+      "summary": "Hit my third Nat 20 when trying to scare off these adventurers outside of the ruins. Bards just get more Nat 20s or something? This is a lot, like, very quickly.",
+      "game_context": "Rolling a critical success on a persuasion check at the chapel entrance.",
+      "evidence": [
+        "Tone: surprised",
+        "Category: reaction"
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 1,
+      "segment_label": "chapel_entrance",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Hit my third Nat 20 when trying to scare off these adventurers outside of the ruins. Bards just get more Nat 20s or something? This is a lot, like, very quickly."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 322.0,
+      "absolute_timestamp": "5:22",
+      "summary": "Well, like I said, I know absolutely nothing about Bards. Never played it. And so my choice was kind of just based off of what sounded funny, I guess, which led me to choose the College of Glamour.",
+      "game_context": "Selecting the College of Glamour subclass during character leveling.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: narration"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 1,
+      "segment_label": "emerald_grove",
+      "confidence_score": 0.6,
+      "corroborating_agents": [],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Well, like I said, I know absolutely nothing about Bards. Never played it. And so my choice was kind of just based off of what sounded funny, I guess, which led me to choose the College of Glamour."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 370.0,
+      "absolute_timestamp": "6:10",
+      "summary": "I hit my fourth Nat 20... I convinced Rolan to stay.",
+      "game_context": "Rolling a fourth Natural 20 during an intimidation check in the Emerald Grove.",
+      "evidence": [
+        "Tone: amused",
+        "Category: reaction"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 1,
+      "segment_label": "world_exploration",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "I hit my fourth Nat 20... I convinced Rolan to stay."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 380.0,
+      "absolute_timestamp": "6:20",
+      "summary": "Lae'zel being mean got me half-chub... Shadowheart being mean got me full chub. I don't know, why do I like when she's mean to me? What is that?",
+      "game_context": "Commenting on character relationship dynamics and personal preferences.",
+      "evidence": [
+        "Tone: amused",
+        "Category: reaction"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 1,
+      "segment_label": "world_exploration",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Lae'zel being mean got me half-chub... Shadowheart being mean got me full chub. I don't know, why do I like when she's mean to me? What is that?"
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 404.0,
+      "absolute_timestamp": "6:44",
+      "summary": "I hit my seventh Nat 20? What the fuck? Luck will and Karlach? Okay wait, let me just slow down here for a second.",
+      "game_context": "Rolling a seventh Natural 20 of the session during the encounter with the gnoll leader, Flind.",
+      "evidence": [
+        "Tone: excited",
+        "Category: reaction"
+      ],
+      "severity_numeric": 10,
+      "source_chunk_index": 1,
+      "segment_label": "world_exploration",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "I hit my seventh Nat 20? What the fuck? Luck will and Karlach? Okay wait, let me just slow down here for a second."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 420.0,
+      "absolute_timestamp": "7:00",
+      "summary": "And then eventually... I wrote 'Wyll and Karlach are graphically busting down animal-style in front of everyone'. Just thought we could take a break from the fist slap.",
+      "game_context": "Sharing humorous notes about the evolving tiff between Wyll and Karlach.",
+      "evidence": [
+        "Tone: amused",
+        "Category: reaction"
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 1,
+      "segment_label": null,
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "And then eventually... I wrote 'Wyll and Karlach are graphically busting down animal-style in front of everyone'. Just thought we could take a break from the fist slap."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "strategy",
+      "absolute_seconds": 432.0,
+      "absolute_timestamp": "7:12",
+      "summary": "I started the next day by almost losing the entire run. I think I just had gotten a little reckless during this encounter with these gnolls because I had been having such good luck, but ending the battle with literally only one person still on their feet was a sobering experience.",
+      "game_context": "Reflecting on a near-fatal combat encounter where most party members were downed.",
+      "evidence": [
+        "Tone: resigned",
+        "Category: strategy"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 1,
+      "segment_label": "risen_road",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "I started the next day by almost losing the entire run. I think I just had gotten a little reckless during this encounter with these gnolls because I had been having such good luck, but ending the battle with literally only one person still on their feet was a sobering experience."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "praise",
+      "absolute_seconds": 469.0,
+      "absolute_timestamp": "7:49",
+      "summary": "I started the encounter by out-singing them, which was really funny. But the battle with them actually went really well then.",
+      "game_context": "Successfully defeating the Harpies using class-specific mechanics.",
+      "evidence": [
+        "Tone: satisfied",
+        "Category: praise"
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 1,
+      "segment_label": "risen_road",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "I started the encounter by out-singing them, which was really funny. But the battle with them actually went really well then."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 479.0,
+      "absolute_timestamp": "7:59",
+      "summary": "And I got to drop this hard-ass line after on the poor tiefling child... very Goku-esque.",
+      "game_context": "Selecting a heroic/intimidating dialogue line after rescuing Mirkon from the harpies.",
+      "evidence": [
+        "Tone: triumphant",
+        "Category: narration"
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 1,
+      "segment_label": "zhentarim_hideout",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "clarity"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "And I got to drop this hard-ass line after on the poor tiefling child... very Goku-esque."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "praise",
+      "absolute_seconds": 759.0,
+      "absolute_timestamp": "12:39",
+      "summary": "The run was going well, but I wasn't really having much fun. I decided that to give Bard a fair shot, I needed to try another subclass... I respec'd into the College of Swords and that was an amazing idea. The College of Swords subclass may genuinely be one of the best subclasses in the game. And more importantly, one of the most fun.",
+      "game_context": "Visiting Withers to change the Bard's subclass from Glamour to Swords.",
+      "evidence": [
+        "Tone: excited",
+        "Category: praise",
+        "Actionable: Early Bard subclasses (Glamour) may lack the immediate tactical satisfaction of Swords, potentially leading players to abandon the class before it reaches its power spikes."
+      ],
+      "severity_numeric": 10,
+      "source_chunk_index": 3,
+      "segment_label": "character_respec",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "delight",
+        "friction",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "The run was going well, but I wasn't really having much fun. I decided that to give Bard a fair shot, I needed to try another subclass... I respec'd into the College of Swords and that was an amazing idea. The College of Swords subclass may genuinely be one of the best subclasses in the game. And more importantly, one of the most fun."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "praise",
+      "absolute_seconds": 810.0,
+      "absolute_timestamp": "13:30",
+      "summary": "Extra attack? Are you fucking kidding me? You're telling me I get all these cool combat options, spells, and the easiest time out of combat of any class for sure... and I get extra attack? This is it. This is the best class in the game.",
+      "game_context": "Reacting to the Level 6 power spike of the College of Swords Bard.",
+      "evidence": [
+        "Tone: excited",
+        "Category: praise"
+      ],
+      "severity_numeric": 10,
+      "source_chunk_index": 3,
+      "segment_label": "level_up",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Extra attack? Are you fucking kidding me? You're telling me I get all these cool combat options, spells, and the easiest time out of combat of any class for sure... and I get extra attack? This is it. This is the best class in the game."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "complaint",
+      "absolute_seconds": 853.0,
+      "absolute_timestamp": "14:13",
+      "summary": "I grabbed the Hill Giant club so Astarion could get a nice bonus from the Titanstring bow. It's really annoying that it doesn't give you Hill Giant strength but whatever.",
+      "game_context": "Inspecting the 'Club of Hill Giant Strength' and noting it provides 19 STR (Werebear) instead of 21 (Giant).",
+      "evidence": [
+        "Tone: frustrated",
+        "Category: complaint",
+        "Actionable: Consistency between item names and the stats they provide (e.g., matching 'Giant' to the standard Giant STR value) reduces player frustration and mechanical skepticism."
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 3,
+      "segment_label": "shadow_cursed_lands",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "quality",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "I grabbed the Hill Giant club so Astarion could get a nice bonus from the Titanstring bow. It's really annoying that it doesn't give you Hill Giant strength but whatever."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "strategy",
+      "absolute_seconds": 910.0,
+      "absolute_timestamp": "15:10",
+      "summary": "I set up a bunch of barrels just in case... laying out a few barrels made my life easier. They didn't hurt Karniss at all, but they did clear out some of his friends.",
+      "game_context": "Narrating the use of environmental explosives to ambush the Drider, Kar'niss.",
+      "evidence": [
+        "Tone: amused",
+        "Category: strategy"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 3,
+      "segment_label": "karniss_ambush",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "I set up a bunch of barrels just in case... laying out a few barrels made my life easier. They didn't hurt Karniss at all, but they did clear out some of his friends."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "praise",
+      "absolute_seconds": 989.0,
+      "absolute_timestamp": "16:29",
+      "summary": "Seriously dude, like I said, if you want to get through Honor Mode and you're having a hard time, try to think less about combat and more about how to avoid combat. Use your Bard powers... I cleared out the Thorms very easily.",
+      "game_context": "Bypassing the Act 2 Thorm boss fights using high Charisma/Persuasion checks.",
+      "evidence": [
+        "Tone: amused",
+        "Category: praise",
+        "Actionable: Validates the high satisfaction players find in 'non-combat' solutions for high-stakes modes; ensuring these paths remain viable is key to the RPG's depth."
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 3,
+      "segment_label": "thorm_encounters",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "Seriously dude, like I said, if you want to get through Honor Mode and you're having a hard time, try to think less about combat and more about how to avoid combat. Use your Bard powers... I cleared out the Thorms very easily."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "praise",
+      "absolute_seconds": 1007.0,
+      "absolute_timestamp": "16:47",
+      "summary": "I think as a Bard you can basically just convince anyone to do anything, it's insane.",
+      "game_context": "Reacting to the effectiveness of persuasion skills after successfully talking Act 2 bosses into self-destruction.",
+      "evidence": [
+        "Tone: excited",
+        "Category: praise"
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 4,
+      "segment_label": "moonrise_exploration",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "I think as a Bard you can basically just convince anyone to do anything, it's insane."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "strategy",
+      "absolute_seconds": 1025.0,
+      "absolute_timestamp": "17:05",
+      "summary": "I gave everyone the Tough feat. Gotta make sure we got some survivability, of course.",
+      "game_context": "Selecting the 'Tough' feat during the level 8 level-up process to increase party health.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: strategy"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 4,
+      "segment_label": "moonrise_exploration",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "I gave everyone the Tough feat. Gotta make sure we got some survivability, of course."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 1071.0,
+      "absolute_timestamp": "17:51",
+      "summary": "idk why I lied in the script, this is not what 'picking off the stragglers' looks like LOL.",
+      "game_context": "Correcting a previous script line while watching footage of themselves aggressively attacking a large group in Moonrise Towers.",
+      "evidence": [
+        "Tone: amused",
+        "Category: reaction"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 4,
+      "segment_label": "moonrise_clearing",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "idk why I lied in the script, this is not what 'picking off the stragglers' looks like LOL."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "praise",
+      "absolute_seconds": 1095.0,
+      "absolute_timestamp": "18:15",
+      "summary": "Just using your voice in this game could be an incredibly powerful weapon.",
+      "game_context": "Reflecting on successfully convincing Yurgir the Orthon to kill himself in the Gauntlet of Shar.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: praise"
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 4,
+      "segment_label": "gauntlet_of_shar",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Just using your voice in this game could be an incredibly powerful weapon."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 1105.0,
+      "absolute_timestamp": "18:25",
+      "summary": "Balthazar scared the shit out of me. I really thought he might wipe us out. He got pretty damn close, but a lucky shot from myself took care of him.",
+      "game_context": "Discussing the high tension and near-failure during the combat with Balthazar in the Shadowfell.",
+      "evidence": [
+        "Tone: resigned",
+        "Category: reaction"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "adamantine_forge_grym",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "friction"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Balthazar scared the shit out of me. I really thought he might wipe us out. He got pretty damn close, but a lucky shot from myself took care of him."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "complaint",
+      "absolute_seconds": 1121.0,
+      "absolute_timestamp": "18:41",
+      "summary": "And look at this cheating fuck-ass robot dead. He just fucking disappeared when I hit the switch. Larian, for the love of all that is holy, fix your game, please!",
+      "game_context": "Reacting to a visual or mechanical glitch during the Grym boss fight where the boss temporarily vanished or failed to trigger correctly.",
+      "evidence": [
+        "Tone: angry",
+        "Category: complaint",
+        "Actionable: Investigate reported glitches in the Adamantine Forge where Grym can 'disappear' or fail to interact correctly with the forge lever, causing significant player frustration."
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 4,
+      "segment_label": "adamantine_forge_grym",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "friction",
+        "quality",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "And look at this cheating fuck-ass robot dead. He just fucking disappeared when I hit the switch. Larian, for the love of all that is holy, fix your game, please!"
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "complaint",
+      "absolute_seconds": 1143.0,
+      "absolute_timestamp": "19:03",
+      "summary": "If I had somehow lost the run here after that, I think I would have genuinely just imploded. Speaking of Larian and their stupid game, I have learned my lesson in the Gauntlet of Shar: do not ever trust this platform.",
+      "game_context": "Boarding the moving platform in the Gauntlet of Shar, expressing extreme caution due to known collision bugs.",
+      "evidence": [
+        "Tone: sarcastic",
+        "Category: complaint",
+        "Actionable: The player's explicit lack of trust in moving platforms due to 'lessons learned' points to a need for more robust physics or collision detection on environmental transport mechanisms."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 4,
+      "segment_label": "ketheric_thorm_confrontation",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "friction",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "If I had somehow lost the run here after that, I think I would have genuinely just imploded. Speaking of Larian and their stupid game, I have learned my lesson in the Gauntlet of Shar: do not ever trust this platform."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "strategy",
+      "absolute_seconds": 1161.0,
+      "absolute_timestamp": "19:21",
+      "summary": "Planting a seed... just a hint of doubt in Ketheric's mind. In fact, you can basically have him give up right here, but then Dame Aylin comes in and messes everything up.",
+      "game_context": "Describing the dialogue strategy used during the Ketheric Thorm confrontation on the Moonrise rooftop.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: strategy"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 4,
+      "segment_label": "ketheric_thorm_confrontation",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "delight",
+        "friction",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Planting a seed... just a hint of doubt in Ketheric's mind. In fact, you can basically have him give up right here, but then Dame Aylin comes in and messes everything up."
+    }
+  ],
+  "top_stop_risk_drivers": [
+    "other",
+    "difficulty_spike",
+    "bug",
+    "ui_confusion"
+  ],
+  "top_praised_features": [
+    "mastery",
+    "story",
+    "progression",
+    "humor",
+    "discovery"
+  ],
+  "top_clarity_fixes": [
+    "Clearer notification during character creation or first inventory opening regarding the specific starting gear package for the Bard class.",
+    "A prominent tutorial or UI callout explaining the 'Ritual' tag's specific benefits (zero spell slot cost out of combat).",
+    "Clarity on the narrative or approval reward for performing specific class-based checks in isolated scenarios.",
+    "Clearer visual feedback or a 'Death Saving Throw' mechanic for essential quest NPCs during large-scale brawls to allow player intervention before permanent death.",
+    "Immediate real-time feedback or a 'Warning: Tenet Violation' UI indicator when a player is about to perform an action that will break their oath."
+  ],
+  "bug_count": 3,
+  "overall_friction": "moderate",
+  "overall_engagement": "signature",
+  "overall_stop_risk": "low",
+  "recommendations": [
+    "Reduce miscellaneous friction sources in the highest-risk gameplay beats.",
+    "Reduce difficulty spikes in the highest-risk gameplay beats.",
+    "Prioritize this communication fix: Clearer notification during character creation or first inventory opening regarding the specific starting gear package for the Bard class.",
+    "Prioritize this communication fix: A prominent tutorial or UI callout explaining the 'Ritual' tag's specific benefits (zero spell slot cost out of combat).",
+    "Triage the 3 visible technical issues surfaced during the session.",
+    "Protect and expand the strongest positives: mastery, story, progression."
+  ],
+  "avg_sentiment": 3.84,
+  "sentiment_by_segment": {
+    "intro_sequence": 5.0,
+    "character_creation": 6.0,
+    "nautiloid_escape": 9.0,
+    "nautiloid_combat": -3.0,
+    "level_up_bard": 7.5,
+    "chapel_entrance": 9.0,
+    "emerald_grove": 6.0,
+    "world_exploration": 4.0,
+    "risen_road": -2.0,
+    "zhentarim_hideout": 5.5,
+    "goblin_camp": 7.5,
+    "shattered_sanctum": -1.0,
+    "whispering_depths": 3.0,
+    "underdark_exploration": 2.0,
+    "character_respec": 2.5,
+    "level_up": 8.0,
+    "shadow_cursed_lands": -2.0,
+    "last_light_inn": 4.0,
+    "karniss_ambush": 6.0,
+    "thorm_encounters": 6.0,
+    "moonrise_exploration": 4.0,
+    "moonrise_clearing": 5.0,
+    "gauntlet_of_shar": 4.0,
+    "adamantine_forge_grym": -4.0,
+    "ketheric_thorm_confrontation": 3.0
+  },
+  "total_retry_sequences": 1,
+  "first_attempt_failure_count": 1,
+  "notable_quotes": [
+    "Bards don't start with any sort of melee weapon? Holy shit, I really am in hell.",
+    "I used Vicious Mockery on this boar and my game crashed. Dope. Well, after returning I made it safely through.",
+    "Am I just a fucking idiot? Has everybody been using ritual spells and just never told me? I feel silly for saying this, but I don't know if I've really ever regularly used spells like Longstrider and... it doesn't cost a spell slot or need concentration? I don't know, that's crazy. 2000 hours man, I really gotta start reading things, huh?",
+    "The run was going well, but I wasn't really having much fun. I decided that to give Bard a fair shot, I needed to try another subclass... I respec'd into the College of Swords and that was an amazing idea. The College of Swords subclass may genuinely be one of the best subclasses in the game. And more importantly, one of the most fun.",
+    "I grabbed the Hill Giant club so Astarion could get a nice bonus from the Titanstring bow. It's really annoying that it doesn't give you Hill Giant strength but whatever."
+  ],
+  "segments_encountered": [
+    "adamantine_forge_grym",
+    "beach_combat",
+    "chapel_entrance",
+    "character_creation",
+    "character_respec",
+    "emerald_grove",
+    "gauntlet_of_shar",
+    "goblin_camp",
+    "intro_sequence",
+    "karniss_ambush",
+    "ketheric_thorm_confrontation",
+    "last_light_inn",
+    "level_up",
+    "level_up_bard",
+    "moonrise_clearing",
+    "moonrise_exploration",
+    "nautiloid_combat",
+    "nautiloid_escape",
+    "ravaged_beach",
+    "risen_road",
+    "shadow_cursed_lands",
+    "shattered_sanctum",
+    "thorm_encounters",
+    "underdark_exploration",
+    "whispering_depths",
+    "world_exploration",
+    "zhentarim_hideout"
+  ],
+  "highlights": {
+    "video_id": "8fcb0b32f17959969ce76dac2e206e24",
+    "total_moments_analyzed": 106,
+    "highlights": [
+      {
+        "rank": 1,
+        "absolute_timestamp": "3:41",
+        "absolute_seconds": 221.0,
+        "clip_start_seconds": 211.0,
+        "clip_end_seconds": 231.0,
+        "category": "critical_friction",
+        "headline": "A technical bug causing a full application crash.",
+        "why_important": "Severity 7/10, confidence 100%",
+        "evidence": [
+          "The game screen freezes",
+          "Screen cuts to black",
+          "Sarcastic tone",
+          "Scene: During the initial nautiloid combat after using Vicious Mockery.",
+          "Expression: None visible"
+        ],
+        "importance_score": 18.48,
+        "corroborating_agents": [
+          "quality",
+          "retry",
+          "sentiment",
+          "verbal"
+        ]
+      },
+      {
+        "rank": 2,
+        "absolute_timestamp": "18:51",
+        "absolute_seconds": 1131.0,
+        "clip_start_seconds": 1121.0,
+        "clip_end_seconds": 1141.0,
+        "category": "critical_friction",
+        "headline": "Technical bug causing a boss to de-render during an active fight.",
+        "why_important": "Severity 7/10, confidence 100%",
+        "evidence": [
+          "Boss model (Grym) becomes invisible or de-renders",
+          "Player hovers cursor over empty space searching for the target",
+          "Raised voice",
+          "Panicked tone",
+          "Aggressive delivery"
+        ],
+        "importance_score": 18.48,
+        "corroborating_agents": [
+          "clarity",
+          "quality",
+          "sentiment",
+          "verbal"
+        ]
+      },
+      {
+        "rank": 3,
+        "absolute_timestamp": "12:39",
+        "absolute_seconds": 759.0,
+        "clip_start_seconds": 749.0,
+        "clip_end_seconds": 769.0,
+        "category": "player_feedback",
+        "headline": "The run was going well, but I wasn't really having much fun. I decided that to give Bard a fair shot, I needed to try an",
+        "why_important": "Severity 10/10, confidence 100%",
+        "evidence": [
+          "Tone: excited",
+          "Category: praise",
+          "Actionable: Early Bard subclasses (Glamour) may lack the immediate tactical satisfaction of Swords, potentially leading players to abandon the class before it reaches its power spikes."
+        ],
+        "importance_score": 17.1,
+        "corroborating_agents": [
+          "delight",
+          "friction",
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 4,
+        "absolute_timestamp": "13:30",
+        "absolute_seconds": 810.0,
+        "clip_start_seconds": 800.0,
+        "clip_end_seconds": 820.0,
+        "category": "player_feedback",
+        "headline": "Extra attack? Are you fucking kidding me? You're telling me I get all these cool combat options, spells, and the easiest",
+        "why_important": "Severity 10/10, confidence 90%",
+        "evidence": [
+          "Tone: excited",
+          "Category: praise"
+        ],
+        "importance_score": 14.4,
+        "corroborating_agents": [
+          "delight",
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 5,
+        "absolute_timestamp": "6:44",
+        "absolute_seconds": 404.0,
+        "clip_start_seconds": 394.0,
+        "clip_end_seconds": 414.0,
+        "category": "player_feedback",
+        "headline": "I hit my seventh Nat 20? What the fuck? Luck will and Karlach? Okay wait, let me just slow down here for a second.",
+        "why_important": "Severity 10/10, confidence 75%",
+        "evidence": [
+          "Tone: excited",
+          "Category: reaction"
+        ],
+        "importance_score": 11.7,
+        "corroborating_agents": [
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 6,
+        "absolute_timestamp": "5:02",
+        "absolute_seconds": 302.0,
+        "clip_start_seconds": 292.0,
+        "clip_end_seconds": 312.0,
+        "category": "player_feedback",
+        "headline": "Hit my third Nat 20 when trying to scare off these adventurers outside of the ruins. Bards just get more Nat 20s or some",
+        "why_important": "Severity 8/10, confidence 90%",
+        "evidence": [
+          "Tone: surprised",
+          "Category: reaction"
+        ],
+        "importance_score": 11.52,
+        "corroborating_agents": [
+          "delight",
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 7,
+        "absolute_timestamp": "16:47",
+        "absolute_seconds": 1007.0,
+        "clip_start_seconds": 997.0,
+        "clip_end_seconds": 1017.0,
+        "category": "player_feedback",
+        "headline": "I think as a Bard you can basically just convince anyone to do anything, it's insane.",
+        "why_important": "Severity 8/10, confidence 90%",
+        "evidence": [
+          "Tone: excited",
+          "Category: praise"
+        ],
+        "importance_score": 11.52,
+        "corroborating_agents": [
+          "clarity",
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 8,
+        "absolute_timestamp": "18:15",
+        "absolute_seconds": 1095.0,
+        "clip_start_seconds": 1085.0,
+        "clip_end_seconds": 1105.0,
+        "category": "player_feedback",
+        "headline": "Just using your voice in this game could be an incredibly powerful weapon.",
+        "why_important": "Severity 8/10, confidence 90%",
+        "evidence": [
+          "Tone: neutral",
+          "Category: praise"
+        ],
+        "importance_score": 11.52,
+        "corroborating_agents": [
+          "delight",
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 9,
+        "absolute_timestamp": "12:03",
+        "absolute_seconds": 723.0,
+        "clip_start_seconds": 713.0,
+        "clip_end_seconds": 733.0,
+        "category": "critical_friction",
+        "headline": "Difficulty spike in a high-stakes (Honor Mode) environment nearly ending the entire playthrough.",
+        "why_important": "Severity 5/10, confidence 95%",
+        "evidence": [
+          "Party health bars at near-zero",
+          "Rapidly clicking through character turns",
+          "Bulette leaping away while party is critical",
+          "Lowered, tense vocal volume",
+          "Deep exhale"
+        ],
+        "importance_score": 11.4,
+        "corroborating_agents": [
+          "clarity",
+          "delight",
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 10,
+        "absolute_timestamp": "10:20",
+        "absolute_seconds": 620.0,
+        "clip_start_seconds": 610.0,
+        "clip_end_seconds": 630.0,
+        "category": "critical_friction",
+        "headline": "The player realized a major quest line is permanently blocked due to the permadeath mechanic affecting an essential NPC.",
+        "why_important": "Severity 5/10, confidence 80%",
+        "evidence": [
+          "Checks Halsin's inventory for loot",
+          "Abrupt cut to black and white cinematic filter during realization",
+          "Shocked tone",
+          "Slower speech pattern",
+          "Disappointed delivery"
+        ],
+        "importance_score": 9.6,
+        "corroborating_agents": [
+          "clarity",
+          "sentiment"
+        ]
+      }
+    ],
+    "one_line_verdict": "A technical bug causing a full application crash."
+  },
+  "executive": {
+    "executive_summary": "The playtest session followed a high-stakes Honor Mode run focused on a Bard character. The player progressed through the Nautiloid, Act 1 exploration, and deep into Act 2, culminating in several boss confrontations. The session was defined by an extreme 'high-low' rhythm, where periods of strategic mastery and luck were interrupted by technical instability and character-build dissatisfaction.\n\nTwo critical issues stand out for immediate attention: recurring technical bugs and mechanical clarity gaps. Specifically, a total application crash (3:41) and a boss de-rendering glitch during the Grym encounter (18:51) represent severe stability risks. Additionally, the permanent loss of the Halsin questline due to lack of visual feedback on NPC status in Honor Mode (10:20) caused significant player frustration and a sense of 'locking out' content without warning.\n\nStrengths to preserve include the deep satisfaction provided by class-specific narrative choices and non-combat resolution paths. The player expressed high delight when discovering unique Bard dialogue (3:53) and using charisma to bypass bosses (16:29), suggesting that the 'Bard power fantasy' of mental manipulation is a primary driver of engagement. The College of Swords power spike at Level 6 (13:26) also served as a major retention anchor after early subclass boredom.",
+    "key_findings": [
+      {
+        "evidence_summary": "At 3:41, the game suffered a hard crash after using Vicious Mockery. At 18:51, the boss Grym de-rendered mid-fight after a lever interaction, leading the player to yell, 'Larian, fix your game please!'",
+        "affected_timestamps": [
+          "03:41",
+          "18:51"
+        ],
+        "finding": "Technical instability, including application crashes and boss model de-rendering, causes severe frustration and disrupts the flow of high-stakes play.",
+        "recommended_action": "Investigate Vicious Mockery VFX/logic on the Nautiloid and the central anvil collision/trigger logic in the Adamantine Forge.",
+        "severity": "critical"
+      },
+      {
+        "evidence_summary": "At 10:20, the player discovers Halsin's non-revivable corpse and realizes they are 'locked out' of fixing the shadow-cursed lands. At 10:56, an 'Oath Broken' condition appears on Lae'zel without clear real-time warning during the goblin fight.",
+        "affected_timestamps": [
+          "10:20",
+          "10:56"
+        ],
+        "finding": "Irreversible narrative consequences in Honor Mode occur without sufficient visual feedback or warnings, leading to accidental quest failure.",
+        "recommended_action": "Implement a 'Warning: Tenet Violation' UI indicator and a clearer visual signifier (like Death Saving Throws) for quest-essential NPCs during large-scale brawls.",
+        "severity": "important"
+      },
+      {
+        "evidence_summary": "The player admitted they were 'not really having much fun' at 12:41 with the College of Glamour, but their sentiment score spiked to a 10/10 at 13:30 after respeccing to College of Swords and seeing the 'Extra Attack' feature.",
+        "affected_timestamps": [
+          "12:41",
+          "13:26",
+          "13:30"
+        ],
+        "finding": "The College of Glamour subclass lacks early-game tactical satisfaction compared to the Swords subclass, creating a boredom-based churn risk.",
+        "recommended_action": "Review early-game ability utility for College of Glamour to ensure it provides comparable active combat engagement to Swords.",
+        "severity": "important"
+      },
+      {
+        "evidence_summary": "The player hovered over the 'Ritual' tag at 4:30 and expressed shock that Longstrider didn't cost a slot despite 2000 hours played. At 14:13, the player expressed annoyance that the 'Club of Hill Giant Strength' gives 19 STR instead of the lore-accurate 21.",
+        "affected_timestamps": [
+          "04:30",
+          "14:13"
+        ],
+        "finding": "Inconsistent naming conventions and subtle UI tags (Rituals) result in even veteran players missing critical resource-saving mechanics.",
+        "recommended_action": "Rename the 'Club of Hill Giant Strength' to match its stat output and increase the visual prominence of the 'Ritual' tag in tooltips.",
+        "severity": "notable"
+      }
+    ],
+    "priority_actions": [
+      "Debug crash trigger associated with Vicious Mockery in tutorial combat (3:41).",
+      "Fix model de-rendering/collision logic for Grym when the forge lever is toggled (18:51).",
+      "Add a confirmation prompt or visual warning when an action will permanently kill a quest-critical NPC like Halsin (10:20).",
+      "Revise item naming for 'Club of Hill Giant Strength' to ensure mechanical consistency with D&D lore expectations (14:13).",
+      "Implement a one-time tutorial pop-up when a player prepares their first 'Ritual' spell to explain its out-of-combat benefits (4:30)."
+    ],
+    "cross_dimensional_insight": "A 'Luck Buffer' phenomenon is evident: the player's high volume of Natural 20s (hitting 7 by 7:55) significantly mitigated the frustration of a near-party wipe at 7:32. This extreme RNG success generated enough positive sentiment to carry the player through a technical crash and early subclass boredom, suggesting that perceived 'luck' acts as a primary emotional shock absorber for technical and balance friction.",
+    "session_health_score": 72
+  },
+  "agent_coverage": [
+    {
+      "chunk_index": 0,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    },
+    {
+      "chunk_index": 1,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    },
+    {
+      "chunk_index": 2,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": false
+    },
+    {
+      "chunk_index": 3,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    },
+    {
+      "chunk_index": 4,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    }
+  ]
+}

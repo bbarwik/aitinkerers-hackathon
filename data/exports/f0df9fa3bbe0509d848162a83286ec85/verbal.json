@@ -1,0 +1,522 @@
+[
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 238.0,
+    "absolute_timestamp": "3:58",
+    "summary": "Mage Hand disappeared.",
+    "game_context": "The player sees a text notification on screen that their summoned Mage Hand has expired or been destroyed.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: narration"
+    ],
+    "severity_numeric": 0,
+    "source_chunk_index": 0,
+    "segment_label": "decrepit_village",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Mage Hand disappeared."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 250.0,
+    "absolute_timestamp": "4:10",
+    "summary": "And... fire wine barrel.",
+    "game_context": "The player identifies a flammable barrel in the ruins while looking for loot.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: narration"
+    ],
+    "severity_numeric": 0,
+    "source_chunk_index": 0,
+    "segment_label": "decrepit_village",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "And... fire wine barrel."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 277.0,
+    "absolute_timestamp": "4:37",
+    "summary": "Oh, I need to remember to remove that companion app off of Twitch because it doesn't work with...",
+    "game_context": "Mentioning stream maintenance while looting.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: narration"
+    ],
+    "severity_numeric": 0,
+    "source_chunk_index": 1,
+    "segment_label": null,
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Oh, I need to remember to remove that companion app off of Twitch because it doesn't work with..."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "question",
+    "absolute_seconds": 294.0,
+    "absolute_timestamp": "4:54",
+    "summary": "Wait, what am I missing?",
+    "game_context": "Rotating camera and searching the room for missed loot.",
+    "evidence": [
+      "Tone: confused",
+      "Category: question",
+      "Actionable: In dense, multi-layered environments, players may feel they are missing items; ensure search-highlighting (e.g., holding Alt) is sufficiently intuitive or that level geometry doesn't occlude obvious chests."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": "underdark_navigation",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "Wait, what am I missing?"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 350.0,
+    "absolute_timestamp": "5:50",
+    "summary": "I think we were going back to the Myconid colony so we can speak to the... let them know that we dorked the Duergar.",
+    "game_context": "Consulting the map to determine the next objective.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: strategy"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": null,
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I think we were going back to the Myconid colony so we can speak to the... let them know that we dorked the Duergar."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 390.0,
+    "absolute_timestamp": "6:30",
+    "summary": "Who? Lurgan? Oh, he's still around.",
+    "game_context": "A teammate mentions they found and engaged a leftover enemy.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: reaction"
+    ],
+    "severity_numeric": 0,
+    "source_chunk_index": 1,
+    "segment_label": "decrepit_village_exploration",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Who? Lurgan? Oh, he's still around."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "question",
+    "absolute_seconds": 442.0,
+    "absolute_timestamp": "7:22",
+    "summary": "I didn't realize he actually aggroed, I thought he didn't know what went on down there.",
+    "game_context": "Discussing why Lurgan (NPC) attacked the party teammate.",
+    "evidence": [
+      "Tone: confused",
+      "Category: question",
+      "Actionable: Clarify NPC faction logic so players understand which individuals remain hostile after a group battle, especially if they are physically separated by terrain."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": "inventory_management",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "I didn't realize he actually aggroed, I thought he didn't know what went on down there."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 452.0,
+    "absolute_timestamp": "7:32",
+    "summary": "Actually, this armor... the Studded Leather Armor is actually really good.",
+    "game_context": "Reviewing the stats of the Drow Studded Leather Armor in the inventory.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: praise"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 1,
+    "segment_label": "inventory_management",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Actually, this armor... the Studded Leather Armor is actually really good."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 500.0,
+    "absolute_timestamp": "8:20",
+    "summary": "I'm just finishing looting out this little camp that you left behind when you went to go loot that stuff up there.",
+    "game_context": "Explaining her delay to the teammate while scavenging.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: narration"
+    ],
+    "severity_numeric": 0,
+    "source_chunk_index": 1,
+    "segment_label": "decrepit_village_exploration",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "clarity",
+      "delight"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I'm just finishing looting out this little camp that you left behind when you went to go loot that stuff up there."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 518.0,
+    "absolute_timestamp": "8:38",
+    "summary": "That's okay, finishing looting out this little camp that you left behind when you went to go loot that stuff up there.",
+    "game_context": "Alice explains why she is trailing behind her teammates as she systematically loots the area.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: narration"
+    ],
+    "severity_numeric": 0,
+    "source_chunk_index": 2,
+    "segment_label": "decrepit_village_exploration",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "clarity",
+      "delight"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "That's okay, finishing looting out this little camp that you left behind when you went to go loot that stuff up there."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 671.0,
+    "absolute_timestamp": "11:11",
+    "summary": "No, he always doesn't come down for the fight. He doesn't come down for the fight. I thought he left. But I never knew he stayed up here. I thought he left.",
+    "game_context": "Alice comments on the inconsistent behavior of an NPC ally (Lurgan/Corvus) who failed to join a previous combat encounter.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction",
+      "Actionable: NPC allies should have consistent engagement triggers for nearby combat to avoid player confusion when they fail to participate."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 2,
+    "segment_label": "inventory_management",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "No, he always doesn't come down for the fight. He doesn't come down for the fight. I thought he left. But I never knew he stayed up here. I thought he left."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 731.0,
+    "absolute_timestamp": "12:11",
+    "summary": "That's why I like having... being a caster that knows, um, Ray of Frost as a cantrip. Because you can just put all the fire out.",
+    "game_context": "Alice expresses satisfaction with the utility of her spells for interacting with the environment (extinguishing firewine barrels).",
+    "evidence": [
+      "Tone: neutral",
+      "Category: praise",
+      "Actionable: Players highly value spells and cantrips with non-combat environmental utility; consider expanding these types of interactive elements."
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 2,
+    "segment_label": null,
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "That's why I like having... being a caster that knows, um, Ray of Frost as a cantrip. Because you can just put all the fire out."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 764.0,
+    "absolute_timestamp": "12:44",
+    "summary": "Maybe I should stop selling all your water bottles too.",
+    "game_context": "Alice jokes with her teammate about their habit of selling utility items that could be used for specific narrative/gameplay goals.",
+    "evidence": [
+      "Tone: amused",
+      "Category: narration"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": "campsite",
+    "confidence_score": 0.6,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Maybe I should stop selling all your water bottles too."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 971.0,
+    "absolute_timestamp": "16:11",
+    "summary": "Actually he has those... the Boots of Stormy Clamour... oh what?",
+    "game_context": "The player is browsing Omeluum's trade inventory and discovers high-quality gear.",
+    "evidence": [
+      "Tone: excited",
+      "Category: praise"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 3,
+    "segment_label": "ebonlake_grotto",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Actually he has those... the Boots of Stormy Clamour... oh what?"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 981.0,
+    "absolute_timestamp": "16:21",
+    "summary": "Wait, he has those? Yes! I bought them.",
+    "game_context": "The player confirms the purchase of rare equipment they were likely seeking or surprised to find at a vendor.",
+    "evidence": [
+      "Tone: excited",
+      "Category: praise"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 3,
+    "segment_label": "ebonlake_grotto_exploration",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "quality"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Wait, he has those? Yes! I bought them."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 1004.0,
+    "absolute_timestamp": "16:44",
+    "summary": "Because Wyll needed boots... Granted they would work good on Karlach too.",
+    "game_context": "Equipping the newly purchased boots on Wyll and considering which party member benefits most.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: strategy"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 4,
+    "segment_label": "inventory_management",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Because Wyll needed boots... Granted they would work good on Karlach too."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 1031.0,
+    "absolute_timestamp": "17:11",
+    "summary": "Wait he has those? Yes! I bought them.",
+    "game_context": "Double-checking the inventory to confirm the purchase of the rare boots.",
+    "evidence": [
+      "Tone: excited",
+      "Category: praise"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 4,
+    "segment_label": "ebonlake_grotto_trading",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Wait he has those? Yes! I bought them."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "complaint",
+    "absolute_seconds": 1068.0,
+    "absolute_timestamp": "17:48",
+    "summary": "Oh no, I do not have enough gold on me.",
+    "game_context": "The 'Insufficient Gold' popup appears while trying to purchase multiple Potions of Greater Healing from Derryth.",
+    "evidence": [
+      "Tone: frustrated",
+      "Category: complaint",
+      "Actionable: Consider adding a 'Current Balance vs. Transaction Cost' preview in the trade window to help players avoid selecting more items than they can afford before attempting to confirm."
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 4,
+    "segment_label": "ebonlake_grotto_trading",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "retry",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "Oh no, I do not have enough gold on me."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 1147.0,
+    "absolute_timestamp": "19:07",
+    "summary": "There we go, I'm broke now.",
+    "game_context": "Finalizing the trade with Derryth and seeing the party's gold drop to near zero.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 4,
+    "segment_label": "alchemy_crafting",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "There we go, I'm broke now."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 1191.0,
+    "absolute_timestamp": "19:51",
+    "summary": "I have slain the creature called Glub-a-glub-a-glub...",
+    "game_context": "Moving through the Grotto and interacting with a dead creature or environmental asset.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 4,
+    "segment_label": "ebonlake_grotto_exploration",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I have slain the creature called Glub-a-glub-a-glub..."
+  }
+]

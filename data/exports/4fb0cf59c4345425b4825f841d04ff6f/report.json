@@ -1,0 +1,2377 @@
+{
+  "video_id": "4fb0cf59c4345425b4825f841d04ff6f",
+  "filename": "zYLCuYeMRWA.youtube",
+  "duration_seconds": 1200.0,
+  "chunk_count": 5,
+  "game_title": "Baldur's Gate 3",
+  "game_key": "baldur_s_gate_3",
+  "session_arc": "[0:00-5:00] The player starts with a sense of creative focus during character creation, transitions into passive observation during the cutscene, and ends with active engagement and slight excitement as combat begins.\n[4:00-9:00] The player starts with mild frustration due to the locked gate, shifts into a state of high concentration during combat, and ends the segment feeling curious and relaxed during the NPC interaction.\n[8:00-13:00] The player begins with calm exploration, transitions into a state of heightened alertness during combat, experiences brief analytical focus in the menu, and ends with a satisfying release of tension after solving the bridge puzzle.\n[12:00-17:00] The segment begins with high tension and focused concentration during the mini-boss fight, followed by a sense of relief and satisfaction upon victory. It concludes with curious engagement during exploration and a feeling of anticipation as the player reaches the final objective.\n[16:00-20:00] The player transitions from a sense of relief and accomplishment at the start of the chunk to a state of relaxed observation during the cutscene. This shifts into a focused, goal-oriented mindset during the map navigation and finally into a state of curious engagement upon arriving at the new hub.",
+  "friction_moments": [
+    {
+      "agent_kind": "friction",
+      "source_label": "other",
+      "absolute_seconds": 670.0,
+      "absolute_timestamp": "11:10",
+      "summary": "A mandatory break in movement flow to solve an environmental logic puzzle.",
+      "game_context": "A weight-based pressure plate puzzle interrupting the exploration path.",
+      "evidence": [
+        "Immediate halt in movement upon seeing the gate",
+        "Slow camera panning to scan the plates and the surrounding area",
+        "Audible sigh of mock-exasperation",
+        "Scene: A stone bridge with two large floor plates and a closed gate blocking the exit.",
+        "Expression: Slight smile and head tilted to the side, indicating the player is amused by the genre trope despite the verbal sarcasm.",
+        "Quote: A puzzle. Great."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 2,
+      "segment_label": "bridge_puzzle",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "clarity_moments": [
+    {
+      "agent_kind": "clarity",
+      "source_label": "missing_signpost",
+      "absolute_seconds": 670.0,
+      "absolute_timestamp": "11:10",
+      "summary": "There is no visual indicator or tooltip linking the movable statue to the floor plates until the player manually attempts to interact with the object.",
+      "game_context": "Identify that the plates require weight and move the nearby statue onto one of them.",
+      "evidence": [
+        "Character standing stationary between the two plates",
+        "Camera rotating 360 degrees to scan the surrounding walls and ceiling",
+        "Hovering the cursor over the closed gate multiple times",
+        "Deep, audible sigh",
+        "Uncertain tone",
+        "Scene: A stone bridge with two large floor pressure plates and a locked gate at the far end.",
+        "Expression: Head tilted to the side, slight ironic smile, and narrowed eyes while scanning the screen.",
+        "Quote: A puzzle. Great."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 2,
+      "segment_label": "bridge_puzzle",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "delight",
+        "friction",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "delight_moments": [
+    {
+      "agent_kind": "delight",
+      "source_label": "visual_design",
+      "absolute_seconds": 0.0,
+      "absolute_timestamp": "0:00",
+      "summary": "The depth of the customization allows for a strong sense of ownership over the character before the game even begins.",
+      "game_context": "The player is invested in the aesthetic and mechanical identity of their protagonist.",
+      "evidence": [
+        "Minute adjustments to facial sliders",
+        "Hovering over different class icons to read descriptions",
+        "Focused silence",
+        "Discussion of aesthetic preferences",
+        "Scene: Character creation menu featuring detailed sliders for facial features and class selection.",
+        "Expression: Focused expression, leaning forward towards the monitor.",
+        "Quote: I want to make sure the hair looks right with this armor class."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 0,
+      "segment_label": "character_creation",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "exploration",
+      "absolute_seconds": 165.0,
+      "absolute_timestamp": "2:45",
+      "summary": "The shift in agency provides an immediate dopamine hit after a period of passive observation.",
+      "game_context": "Transitioning from a long cinematic to active gameplay.",
+      "evidence": [
+        "Rotating the camera 360 degrees to take in the environment",
+        "Testing movement speed by running in small circles",
+        "Audible sigh of relief",
+        "Light tapping on the desk",
+        "Scene: The player character stands up in the starting prison cell, gaining full movement control.",
+        "Expression: Small smile, shifting posture to get comfortable for gameplay.",
+        "Quote: Finally, time to see what I can actually do."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 0,
+      "segment_label": "starting_cell",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "discovery",
+      "absolute_seconds": 195.0,
+      "absolute_timestamp": "3:15",
+      "summary": "It provides a clear, immediate goal and rewards basic environmental scanning.",
+      "game_context": "Discovering the first objective-critical item.",
+      "evidence": [
+        "Direct movement toward the glowing object",
+        "Opening the inventory immediately after pickup",
+        "Tone of realization",
+        "Scene: The player finds and picks up a 'Rusted Key' glowing on the floor of the cell.",
+        "Expression: Raised eyebrows, nodding.",
+        "Quote: Okay, Rusted Key. That's probably for the door."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 0,
+      "segment_label": "starting_cell",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "combat",
+      "absolute_seconds": 250.0,
+      "absolute_timestamp": "4:10",
+      "summary": "The promptness of the encounter prevents exploration from becoming aimless and validates the character's class choice.",
+      "game_context": "The first test of the player's combat readiness.",
+      "evidence": [
+        "Quickly clicking the attack button",
+        "Adjusting camera for a better view of the enemy",
+        "Excited exclamation",
+        "Scene: A weak enemy spawns in the hallway, triggering the first combat sequence.",
+        "Expression: Concentrated, mouth slightly open.",
+        "Quote: Here we go!"
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 0,
+      "segment_label": "dungeon_hallway",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "mastery",
+      "absolute_seconds": 315.0,
+      "absolute_timestamp": "5:15",
+      "summary": "The narrow environment forces the player to manage positioning, emphasizing the tactical depth of the CRPG combat system.",
+      "game_context": "The first multi-enemy encounter in a confined space, increasing the tactical stakes.",
+      "evidence": [
+        "Rapid eye movement across the screen",
+        "Tight-lipped focus",
+        "Focused silence",
+        "Scene: A narrow side hallway where two armored guards intercept the player.",
+        "Expression: Intense concentration, reflecting a state of flow during the combat encounter."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 1,
+      "segment_label": "dungeon_side_hallway",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "progression",
+      "absolute_seconds": 365.0,
+      "absolute_timestamp": "6:05",
+      "summary": "The mechanical grinding sound and cinematic confirmation of the gate opening provides immediate positive reinforcement for the player's efforts.",
+      "game_context": "Resolving the search for the lever and opening the path forward.",
+      "evidence": [
+        "Immediate relaxation of posture",
+        "Slight smile",
+        "Satisfied tone",
+        "Scene: Pulling the wall-mounted lever and watching the main dungeon gate slide open.",
+        "Expression: A slight smile and visible relaxation of shoulders, indicating relief and a sense of achievement.",
+        "Quote: There we go."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 1,
+      "segment_label": "dungeon_gate_puzzle",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "visual_design",
+      "absolute_seconds": 430.0,
+      "absolute_timestamp": "7:10",
+      "summary": "The shift from dark, claustrophobic stone to bright, organic greenery provides a strong sense of progress and aesthetic variety.",
+      "game_context": "Entering a high-contrast environment that signals a transition in the narrative and atmosphere.",
+      "evidence": [
+        "Slowing movement to look at the environment",
+        "Scanning the ceiling grates and vegetation",
+        "Silence while listening to ambient birdsong",
+        "Scene: The transition point between the dark dungeon and the sun-drenched Prisoner's Garden.",
+        "Expression: Eyes widen slightly at the change in scenery, indicating a positive response to the visual shift."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 1,
+      "segment_label": "prisoners_garden",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "story",
+      "absolute_seconds": 495.0,
+      "absolute_timestamp": "8:15",
+      "summary": "The NPC's gravelly voice and mysterious opening line ('Another one seeking the sky?') create an immediate narrative hook.",
+      "game_context": "Initiating the first significant story-driven dialogue with an NPC.",
+      "evidence": [
+        "Leaning forward into the dialogue screen",
+        "Resting chin on hand",
+        "Attentive silence",
+        "Scene: Approaching the NPC in tattered robes near the garden fountain.",
+        "Expression: Neutral but physically engaged (leaning in), showing focus on the narrative delivery."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 1,
+      "segment_label": "garden_fountain_npc",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "combat",
+      "absolute_seconds": 545.0,
+      "absolute_timestamp": "9:05",
+      "summary": "The sudden increase in enemy count heightens the stakes and validates the player's prior combat training, creating an immediate state of flow.",
+      "game_context": "An ambush by multiple guards in a narrow space.",
+      "evidence": [
+        "Rapid eye movement across the screen",
+        "Leaning forward toward the monitor",
+        "Immediate transition to combat posture",
+        "Alert vocalization",
+        "Focused silence during attack sequences",
+        "Scene: A long stone corridor where two armored guards intercept the player.",
+        "Expression: Slightly raised eyebrows and a concentrated, forward-leaning posture.",
+        "Quote: Whoa, there's more of them."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 2,
+      "segment_label": "fortified_corridors",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "progression",
+      "absolute_seconds": 620.0,
+      "absolute_timestamp": "10:20",
+      "summary": "The immediate 'loot-and-upgrade' loop provides a tangible sense of progression and rewards the player for exploring the aftermath of combat.",
+      "game_context": "Finding and equipping a superior weapon immediately after a fight.",
+      "evidence": [
+        "Scanning item tooltips",
+        "Direct movement to equip the new weapon",
+        "Toggling between character stats",
+        "Mumbled analytical commentary",
+        "Satisfied clicking sounds",
+        "Scene: The character inventory menu screen after looting a fallen guard.",
+        "Expression: Concentrated with lips pursed, showing deep analytical focus on character progression.",
+        "Quote: This one has better stats."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 2,
+      "segment_label": "fortified_corridors",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "discovery",
+      "absolute_seconds": 670.0,
+      "absolute_timestamp": "11:10",
+      "summary": "The clear visual language of the pressure plates creates an immediate 'mental hook,' inviting the player to experiment with the environment.",
+      "game_context": "Discovering a non-combat obstacle that requires environmental interaction.",
+      "evidence": [
+        "Rotating the camera to view the statue and plates",
+        "Slowing movement to inspect the floor",
+        "Head tilt",
+        "Slightly amused sigh",
+        "Thoughtful hum",
+        "Scene: The entrance to a stone bridge featuring large pressure plates and a closed portcullis.",
+        "Expression: A slight smile and head tilted to the side, indicating curiosity rather than frustration.",
+        "Quote: A puzzle. Great."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 2,
+      "segment_label": "bridge_puzzle",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "mastery",
+      "absolute_seconds": 825.0,
+      "absolute_timestamp": "13:45",
+      "summary": "The narrow margin of victory creates a strong sense of relief and validates the player's combat skills.",
+      "game_context": "Surviving a challenging encounter with very low remaining HP.",
+      "evidence": [
+        "Taking hands off the controller to rub eyes",
+        "Deep exhale",
+        "Loud, audible exhale",
+        "Relieved vocal tone",
+        "Scene: The aftermath of the guardian fight where the enemy dissolves and the player's health is low.",
+        "Expression: Wide smile, hands momentarily leave the controller to rub eyes.",
+        "Quote: That was close. I need to find some health."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 3,
+      "segment_label": "courtyard_guardian",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "discovery",
+      "absolute_seconds": 910.0,
+      "absolute_timestamp": "15:10",
+      "summary": "Rewarding environmental curiosity after a period of intense focus allows the player to decompress while still feeling productive.",
+      "game_context": "Discovering an optional side area after a major combat encounter.",
+      "evidence": [
+        "Voluntary exploration away from the critical path",
+        "Squinting to see into the dark side room",
+        "Inquisitive tone",
+        "Soft clicking of movement toward the door",
+        "Scene: A hidden door discovered behind a stack of crates in the courtyard corner.",
+        "Expression: Squinting at the screen, head tilted.",
+        "Quote: Wait, what's back here?"
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 3,
+      "segment_label": "hidden_side_room",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "progression",
+      "absolute_seconds": 945.0,
+      "absolute_timestamp": "15:45",
+      "summary": "The combination of narrative context (linking back to the garden NPC) and mechanical reward (chest loot) provides a multifaceted payoff.",
+      "game_context": "Receiving a tangible narrative and equipment reward for exploration.",
+      "evidence": [
+        "Nodding in time with item pickup sounds",
+        "Careful reading of the lore popup",
+        "Satisfied grunt",
+        "Silence while reading lore",
+        "Scene: Inside the hidden side room, interacting with a lore scroll and a loot chest.",
+        "Expression: Nodding slowly, appearing satisfied."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 3,
+      "segment_label": "hidden_side_room",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "visual_design",
+      "absolute_seconds": 1005.0,
+      "absolute_timestamp": "16:45",
+      "summary": "The dramatic shift in color palette and environmental scale rewards the player's persistence in the dark dungeon.",
+      "game_context": "The player watches the high-contrast visual reveal of the game's overworld.",
+      "evidence": [
+        "Leaning back in the chair",
+        "Eyes fixed on the screen without blinking",
+        "Ceasing all controller input",
+        "Focused silence",
+        "Reaction to the orchestral swell",
+        "Scene: Cinematic transition from the dark dungeon into a bright, sunlit forest overworld.",
+        "Expression: Leaning back in the chair, watching the screen with a neutral, appreciative expression."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 4,
+      "segment_label": "escape_cinematic",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "discovery",
+      "absolute_seconds": 1050.0,
+      "absolute_timestamp": "17:30",
+      "summary": "The transition to a state of humming and quick scanning indicates a shift into a relaxed, goal-oriented discovery mindset.",
+      "game_context": "Identifying the first destination on the world map.",
+      "evidence": [
+        "Rapid eye movement scanning map icons",
+        "Quick selection of the next objective",
+        "Purposeful cursor movement",
+        "Humming a short tune",
+        "Rhythmic mouse clicking",
+        "Scene: The world map screen featuring multiple locked icons and the Highland Outpost waypoint.",
+        "Expression: Eyes moving quickly as they scan the map icons; slight brow furrowing in concentration."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 4,
+      "segment_label": "world_map_navigation",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "exploration",
+      "absolute_seconds": 1125.0,
+      "absolute_timestamp": "18:45",
+      "summary": "The bustling atmosphere provides a sense of safety and world scale that contrasts with the previous isolation.",
+      "game_context": "Entering the first safe hub area after the tutorial dungeon.",
+      "evidence": [
+        "Camera panning to view the blacksmith and camp activities",
+        "Slowing movement speed to observe NPC behaviors",
+        "Immediate pathing toward utility NPCs",
+        "Ambient background chatter",
+        "Blacksmith's hammer sound effects",
+        "Scene: Highland Outpost mountain camp hub featuring tents and various NPCs.",
+        "Expression: Nods slightly; looking around at the new environment with interest."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 4,
+      "segment_label": "highland_outpost_hub",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "quality_issues": [],
+  "sentiment_moments": [
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 0.0,
+      "absolute_timestamp": "0:00",
+      "summary": "Opening character customization menu.",
+      "game_context": "Success: Navigating various sliders and preset options with ease.",
+      "evidence": [
+        "Trigger: Opening character customization menu.",
+        "Visual: Success: Navigating various sliders and preset options with ease.",
+        "Audio: Player discussing aesthetic choices in an upbeat tone.",
+        "Expression: Focused expression, leaning forward towards the monitor."
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 0,
+      "segment_label": "character_creation",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 4,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 30.0,
+      "absolute_timestamp": "0:30",
+      "summary": "Fine-tuning facial features.",
+      "game_context": "Progress: Experimenting with multiple color palettes and features.",
+      "evidence": [
+        "Trigger: Fine-tuning facial features.",
+        "Visual: Progress: Experimenting with multiple color palettes and features.",
+        "Audio: Occasional chuckles and affirmative 'mhm' sounds.",
+        "Expression: Slight smile, eyes darting across customization options."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 0,
+      "segment_label": "character_creation",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 5,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 60.0,
+      "absolute_timestamp": "1:00",
+      "summary": "Selecting character class and stats.",
+      "game_context": "Stalling: Reading through detailed class descriptions.",
+      "evidence": [
+        "Trigger: Selecting character class and stats.",
+        "Visual: Stalling: Reading through detailed class descriptions.",
+        "Audio: Silent while reading, audible deep breath at the end.",
+        "Expression: Concentrated brow furrow, chin resting on hand.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 0,
+      "segment_label": "opening_cinematic",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 3,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 90.0,
+      "absolute_timestamp": "1:30",
+      "summary": "Cinematic transition and narrative exposition.",
+      "game_context": "Exploration: Watching high-quality cinematic lore presentation.",
+      "evidence": [
+        "Trigger: Cinematic transition and narrative exposition.",
+        "Visual: Exploration: Watching high-quality cinematic lore presentation.",
+        "Audio: Silent; listening to narrator voiceover.",
+        "Expression: Neutral expression, watching the screen intently.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 0,
+      "segment_label": "opening_cinematic",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 120.0,
+      "absolute_timestamp": "2:00",
+      "summary": "Narrative climax in opening cutscene.",
+      "game_context": "Exploration: Viewing dramatic world-building events.",
+      "evidence": [
+        "Trigger: Narrative climax in opening cutscene.",
+        "Visual: Exploration: Viewing dramatic world-building events.",
+        "Audio: Silent; no player reaction to cinematic events.",
+        "Expression: Neutral posture, leaning back slightly.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 0,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 165.0,
+      "absolute_timestamp": "2:45",
+      "summary": "Gaining character control for the first time.",
+      "game_context": "Success: Character stands up; tutorial navigation begins.",
+      "evidence": [
+        "Trigger: Gaining character control for the first time.",
+        "Visual: Success: Character stands up; tutorial navigation begins.",
+        "Audio: Soft 'alright' whispered under breath.",
+        "Expression: Small smile, shifting posture to sit upright and ready."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 0,
+      "segment_label": "starting_cell",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 195.0,
+      "absolute_timestamp": "3:15",
+      "summary": "Finding and picking up the first key item.",
+      "game_context": "Discovery: Picking up a rusted key highlighted on the floor.",
+      "evidence": [
+        "Trigger: Finding and picking up the first key item.",
+        "Visual: Discovery: Picking up a rusted key highlighted on the floor.",
+        "Audio: Player notes the item name 'Rusted Key' out loud.",
+        "Expression: Raised eyebrows, nodding as the item is added to inventory."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 0,
+      "segment_label": "starting_cell",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 3,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 225.0,
+      "absolute_timestamp": "3:45",
+      "summary": "Navigating the dark dungeon hallway.",
+      "game_context": "Exploration: Moving cautiously through the starting corridor.",
+      "evidence": [
+        "Trigger: Navigating the dark dungeon hallway.",
+        "Visual: Exploration: Moving cautiously through the starting corridor.",
+        "Audio: Silent; focused on environment audio (dripping water).",
+        "Expression: Searching eyes, scanning the dark corners of the screen.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 0,
+      "segment_label": "dungeon_hallway",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "excited",
+      "absolute_seconds": 250.0,
+      "absolute_timestamp": "4:10",
+      "summary": "First enemy encounter and combat music trigger.",
+      "game_context": "Success: Engaging first enemy with immediate melee response.",
+      "evidence": [
+        "Trigger: First enemy encounter and combat music trigger.",
+        "Visual: Success: Engaging first enemy with immediate melee response.",
+        "Audio: Excited exclamation: 'Here we go!' with increased volume.",
+        "Expression: Concentrated, mouth slightly open, leaning back in."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 0,
+      "segment_label": "dungeon_hallway",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 5,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 290.0,
+      "absolute_timestamp": "4:50",
+      "summary": "Searching for the lever in adjacent hallways",
+      "game_context": "Exploration: Moving through side rooms scanning for interactables",
+      "evidence": [
+        "Trigger: Searching for the lever in adjacent hallways",
+        "Visual: Exploration: Moving through side rooms scanning for interactables",
+        "Audio: Silent",
+        "Expression: Searching eyes, scanning dark corners of the environment",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 1,
+      "segment_label": "dungeon_side_hallway",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": -1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 315.0,
+      "absolute_timestamp": "5:15",
+      "summary": "Two guards engage in combat",
+      "game_context": "Success: Immediate tactical response to guard ambush",
+      "evidence": [
+        "Trigger: Two guards engage in combat",
+        "Visual: Success: Immediate tactical response to guard ambush",
+        "Audio: Silent; gameplay audio features clashing steel",
+        "Expression: Tight-lipped, focused expression with rapid eye movement",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 1,
+      "segment_label": "dungeon_side_hallway",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 320.0,
+      "absolute_timestamp": "5:20",
+      "summary": "Dialogue immersion",
+      "game_context": "Dialogue progress: Choosing initial response options",
+      "evidence": [
+        "Trigger: Dialogue immersion",
+        "Visual: Dialogue progress: Choosing initial response options",
+        "Audio: Silent",
+        "Expression: Still posture, chin on hand, showing intent listening",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 1,
+      "segment_label": "dungeon_side_hallway",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 345.0,
+      "absolute_timestamp": "5:45",
+      "summary": "Managing combat with multiple enemies",
+      "game_context": "Progress: Effectively dealing damage to the two guards",
+      "evidence": [
+        "Trigger: Managing combat with multiple enemies",
+        "Visual: Progress: Effectively dealing damage to the two guards",
+        "Audio: Silent",
+        "Expression: Intense concentration, leaning forward toward the screen",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 1,
+      "segment_label": "dungeon_gate_puzzle",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "triumphant",
+      "absolute_seconds": 365.0,
+      "absolute_timestamp": "6:05",
+      "summary": "Activating the lever and opening the gate",
+      "game_context": "Success: Cutscene showing the main gate sliding open",
+      "evidence": [
+        "Trigger: Activating the lever and opening the gate",
+        "Visual: Success: Cutscene showing the main gate sliding open",
+        "Audio: Player says 'There we go.' with a tone of relief",
+        "Expression: A slight smile and visible relaxation of shoulders"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 1,
+      "segment_label": "dungeon_gate_puzzle",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 4,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 395.0,
+      "absolute_timestamp": "6:35",
+      "summary": "Moving through the newly opened gate",
+      "game_context": "Progress: Traversing the previous blocker into a new hallway",
+      "evidence": [
+        "Trigger: Moving through the newly opened gate",
+        "Visual: Progress: Traversing the previous blocker into a new hallway",
+        "Audio: Audible relaxed exhale",
+        "Expression: Neutral but relaxed posture",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 1,
+      "segment_label": "dungeon_gate_puzzle",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 430.0,
+      "absolute_timestamp": "7:10",
+      "summary": "Entering the Prisoner's Garden area",
+      "game_context": "Discovery: Dramatic shift from dark dungeon to a bright garden",
+      "evidence": [
+        "Trigger: Entering the Prisoner's Garden area",
+        "Visual: Discovery: Dramatic shift from dark dungeon to a bright garden",
+        "Audio: Soft 'ooh' sound as ambient birdsong triggers",
+        "Expression: Eyes widen slightly at the change in scenery"
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 1,
+      "segment_label": "prisoners_garden",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 3,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 465.0,
+      "absolute_timestamp": "7:45",
+      "summary": "Exploring the garden environment",
+      "game_context": "Exploration: Moving toward a fountain and a visible NPC",
+      "evidence": [
+        "Trigger: Exploring the garden environment",
+        "Visual: Exploration: Moving toward a fountain and a visible NPC",
+        "Audio: Silent",
+        "Expression: Head tilted slightly, observing the environmental detail",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 1,
+      "segment_label": "garden_fountain_npc",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 495.0,
+      "absolute_timestamp": "8:15",
+      "summary": "Initiating dialogue with the NPC",
+      "game_context": "Discovery: Talk prompt triggered and camera zooms on NPC",
+      "evidence": [
+        "Trigger: Initiating dialogue with the NPC",
+        "Visual: Discovery: Talk prompt triggered and camera zooms on NPC",
+        "Audio: Silent while listening to the NPC's opening line",
+        "Expression: Neutral, resting chin on hand while listening",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 1,
+      "segment_label": "garden_fountain_npc",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 525.0,
+      "absolute_timestamp": "8:45",
+      "summary": "Approaching a bend in the corridor.",
+      "game_context": "Exploration: Moving cautiously toward a corner where sounds are audible.",
+      "evidence": [
+        "Trigger: Approaching a bend in the corridor.",
+        "Visual: Exploration: Moving cautiously toward a corner where sounds are audible.",
+        "Audio: Silent; listening intently to in-game footfalls.",
+        "Expression: Slightly narrowed eyes, leaning an inch closer to the monitor.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 2,
+      "segment_label": "fortified_corridors",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "excited",
+      "absolute_seconds": 545.0,
+      "absolute_timestamp": "9:05",
+      "summary": "Guard ambush in the corridor.",
+      "game_context": "Combat: Two armored guards charging at the player character.",
+      "evidence": [
+        "Trigger: Guard ambush in the corridor.",
+        "Visual: Combat: Two armored guards charging at the player character.",
+        "Audio: Player grunts 'Whoa, there's more of them.' with a slight chuckle.",
+        "Expression: Raised eyebrows, mouth slightly open, shifting posture to a more upright position."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 2,
+      "segment_label": "fortified_corridors",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 3,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 575.0,
+      "absolute_timestamp": "9:35",
+      "summary": "Mid-combat tactical management.",
+      "game_context": "Combat: Actively trading blows and positioning the character.",
+      "evidence": [
+        "Trigger: Mid-combat tactical management.",
+        "Visual: Combat: Actively trading blows and positioning the character.",
+        "Audio: Silent; breathing is shallow and rhythmic.",
+        "Expression: Tight-lipped, focused expression with rapid eye movement between character and health bars.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 2,
+      "segment_label": "fortified_corridors",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "triumphant",
+      "absolute_seconds": 600.0,
+      "absolute_timestamp": "10:00",
+      "summary": "Defeating the second guard.",
+      "game_context": "Success: Enemy defeat animation and combat music fading out.",
+      "evidence": [
+        "Trigger: Defeating the second guard.",
+        "Visual: Success: Enemy defeat animation and combat music fading out.",
+        "Audio: Soft, satisfied exhale.",
+        "Expression: Immediate relaxation of shoulders and a quick glance at the chat/side monitor.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 2,
+      "segment_label": "fortified_corridors",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 4,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 620.0,
+      "absolute_timestamp": "10:20",
+      "summary": "Equipment upgrade in the inventory.",
+      "game_context": "Menu: Comparing a newly looted sword with the current weapon.",
+      "evidence": [
+        "Trigger: Equipment upgrade in the inventory.",
+        "Visual: Menu: Comparing a newly looted sword with the current weapon.",
+        "Audio: Player mumbles 'This one has better stats.' in an analytical tone.",
+        "Expression: Lips pursed in concentration, brow slightly furrowed while reading tooltips."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 2,
+      "segment_label": "fortified_corridors",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 650.0,
+      "absolute_timestamp": "10:50",
+      "summary": "Continuing down the corridor toward the bridge.",
+      "game_context": "Exploration: Running toward a well-lit opening at the end of the hall.",
+      "evidence": [
+        "Trigger: Continuing down the corridor toward the bridge.",
+        "Visual: Exploration: Running toward a well-lit opening at the end of the hall.",
+        "Audio: Silent; rhythmic clicking of mouse buttons.",
+        "Expression: Neutral, relaxed gaze following the character movement.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 2,
+      "segment_label": "bridge_puzzle",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 670.0,
+      "absolute_timestamp": "11:10",
+      "summary": "Encountering the bridge pressure plate puzzle.",
+      "game_context": "Puzzle: Observing the two floor plates and the closed gate blocking the path.",
+      "evidence": [
+        "Trigger: Encountering the bridge pressure plate puzzle.",
+        "Visual: Puzzle: Observing the two floor plates and the closed gate blocking the path.",
+        "Audio: Player sighs 'A puzzle. Great.' with a sarcastic but not angry inflection.",
+        "Expression: Head tilted to the side, slight smile, indicating a recognition of the challenge."
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 2,
+      "segment_label": "bridge_puzzle",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "friction",
+        "verbal"
+      ],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 700.0,
+      "absolute_timestamp": "11:40",
+      "summary": "Testing the pressure plate mechanic.",
+      "game_context": "Progress: Standing on one plate and seeing the gate mechanism twitch.",
+      "evidence": [
+        "Trigger: Testing the pressure plate mechanic.",
+        "Visual: Progress: Standing on one plate and seeing the gate mechanism twitch.",
+        "Audio: Silent; focused on the visual feedback of the gate.",
+        "Expression: Squinting slightly, hand visible on chin, showing active problem-solving.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 2,
+      "segment_label": "bridge_puzzle",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 735.0,
+      "absolute_timestamp": "12:15",
+      "summary": "Identifying the use of the nearby statue.",
+      "game_context": "Discovery: Moving the cursor toward the heavy stone statue in the corner.",
+      "evidence": [
+        "Trigger: Identifying the use of the nearby statue.",
+        "Visual: Discovery: Moving the cursor toward the heavy stone statue in the corner.",
+        "Audio: Soft 'Wait...' as the player realizes the solution.",
+        "Expression: Eyes widen slightly, sitting up straighter as the plan forms."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 2,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 3,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 770.0,
+      "absolute_timestamp": "12:50",
+      "summary": "Engaging in combat with the guardian",
+      "game_context": "Combat: Actively managing abilities and character positioning.",
+      "evidence": [
+        "Trigger: Engaging in combat with the guardian",
+        "Visual: Combat: Actively managing abilities and character positioning.",
+        "Audio: Silent; heavy game audio of weapon strikes.",
+        "Expression: Tight-lipped, eyes tracking enemy movement rapidly.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 3,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 800.0,
+      "absolute_timestamp": "13:20",
+      "summary": "Struggling with low health mid-combat",
+      "game_context": "Failure: Health bar drops into the red; character is nearly defeated.",
+      "evidence": [
+        "Trigger: Struggling with low health mid-combat",
+        "Visual: Failure: Health bar drops into the red; character is nearly defeated.",
+        "Audio: Audible sharp intake of breath.",
+        "Expression: Jaw clenched, leaning very close to the monitor.",
+        "Silence type: tense"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 3,
+      "segment_label": "courtyard_guardian",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": -1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "triumphant",
+      "absolute_seconds": 825.0,
+      "absolute_timestamp": "13:45",
+      "summary": "Defeating the courtyard guardian",
+      "game_context": "Success: Guardian dissolves into particles; combat music ends.",
+      "evidence": [
+        "Trigger: Defeating the courtyard guardian",
+        "Visual: Success: Guardian dissolves into particles; combat music ends.",
+        "Audio: Loud exhale; player says 'That was close. I need to find some health.'",
+        "Expression: Wide smile, hands momentarily leave the controller to rub eyes."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 3,
+      "segment_label": "courtyard_guardian",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 6,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 855.0,
+      "absolute_timestamp": "14:15",
+      "summary": "Using health potions in the inventory menu",
+      "game_context": "Progress: Health bar fills back to full after consuming two potions.",
+      "evidence": [
+        "Trigger: Using health potions in the inventory menu",
+        "Visual: Progress: Health bar fills back to full after consuming two potions.",
+        "Audio: Satisfied hum as potion sound effects play.",
+        "Expression: Neutral, focused expression as the brow relaxes.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 3,
+      "segment_label": "inventory_management",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 885.0,
+      "absolute_timestamp": "14:45",
+      "summary": "Scanning the courtyard for secondary loot",
+      "game_context": "Exploration: Moving behind environment objects (crates/statues).",
+      "evidence": [
+        "Trigger: Scanning the courtyard for secondary loot",
+        "Visual: Exploration: Moving behind environment objects (crates/statues).",
+        "Audio: Silent; ambient wind and bird sounds.",
+        "Expression: Searching eyes, slightly tilted head.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 3,
+      "segment_label": "hidden_side_room",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 910.0,
+      "absolute_timestamp": "15:10",
+      "summary": "Discovering a hidden door behind crates",
+      "game_context": "Discovery: Moving crates reveals a wooden door leading to a side room.",
+      "evidence": [
+        "Trigger: Discovering a hidden door behind crates",
+        "Visual: Discovery: Moving crates reveals a wooden door leading to a side room.",
+        "Audio: Player says 'Wait, what's back here?' with a tone of genuine curiosity.",
+        "Expression: Squinting at the screen, head tilted to the side."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 3,
+      "segment_label": "hidden_side_room",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 3,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 945.0,
+      "absolute_timestamp": "15:45",
+      "summary": "Looting a chest and finding a lore scroll",
+      "game_context": "Success: Opening an iron chest and picking up a glowing scroll.",
+      "evidence": [
+        "Trigger: Looting a chest and finding a lore scroll",
+        "Visual: Success: Opening an iron chest and picking up a glowing scroll.",
+        "Audio: No player audio; clear sound effects of parchment and heavy metal.",
+        "Expression: Nodding slowly, appearing satisfied with the reward.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 3,
+      "segment_label": "hidden_side_room",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 4,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 975.0,
+      "absolute_timestamp": "16:15",
+      "summary": "Exiting the side room to finish the level",
+      "game_context": "Progress: Moving character back toward the main path.",
+      "evidence": [
+        "Trigger: Exiting the side room to finish the level",
+        "Visual: Progress: Moving character back toward the main path.",
+        "Audio: Silent; player focused on movement.",
+        "Expression: Neutral posture, gaze fixed on the center of the screen.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 3,
+      "segment_label": "hidden_side_room",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 1005.0,
+      "absolute_timestamp": "16:45",
+      "summary": "Entrance into the sunlit forest cinematic",
+      "game_context": "Discovery: High visual contrast from dark dungeon to bright, detailed forest.",
+      "evidence": [
+        "Trigger: Entrance into the sunlit forest cinematic",
+        "Visual: Discovery: High visual contrast from dark dungeon to bright, detailed forest.",
+        "Audio: Silent; listening to swelling orchestral score.",
+        "Expression: Leaning back in the chair with an appreciative, calm expression.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 4,
+      "segment_label": "escape_cinematic",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 3,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 1035.0,
+      "absolute_timestamp": "17:15",
+      "summary": "Mid-cinematic observation",
+      "game_context": "Exploration: Watching environmental establishing shots of the overworld.",
+      "evidence": [
+        "Trigger: Mid-cinematic observation",
+        "Visual: Exploration: Watching environmental establishing shots of the overworld.",
+        "Audio: Silent; ambient wind and bird sounds only.",
+        "Expression: Neutral posture, eyes fixed on the screen tracking the camera movement.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 4,
+      "segment_label": "world_map_navigation",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 1050.0,
+      "absolute_timestamp": "17:30",
+      "summary": "Opening the world map",
+      "game_context": "Progress: Scanning the new parchment map and icons.",
+      "evidence": [
+        "Trigger: Opening the world map",
+        "Visual: Progress: Scanning the new parchment map and icons.",
+        "Audio: Player is humming a short, upbeat tune.",
+        "Expression: Eyes moving quickly in concentration; slight brow furrow."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "world_map_navigation",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 1080.0,
+      "absolute_timestamp": "18:00",
+      "summary": "Selecting the 'Highland Outpost' destination",
+      "game_context": "Progress: Navigating menu options to advance to the next hub.",
+      "evidence": [
+        "Trigger: Selecting the 'Highland Outpost' destination",
+        "Visual: Progress: Navigating menu options to advance to the next hub.",
+        "Audio: Silent; rhythmic clicking of the mouse.",
+        "Expression: Nodding slightly as the selection is finalized.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 4,
+      "segment_label": "loading_highland_outpost",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "bored",
+      "absolute_seconds": 1090.0,
+      "absolute_timestamp": "18:10",
+      "summary": "Loading screen transition",
+      "game_context": "Stalling: Game is loading the new environment.",
+      "evidence": [
+        "Trigger: Loading screen transition",
+        "Visual: Stalling: Game is loading the new environment.",
+        "Audio: Silent; low ambient drone from the game.",
+        "Expression: Briefly checks phone and looks away from the monitor.",
+        "Silence type: idle"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 4,
+      "segment_label": "loading_highland_outpost",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": -1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 1125.0,
+      "absolute_timestamp": "18:45",
+      "summary": "Arrival at the bustling Highland Outpost",
+      "game_context": "Discovery: Character enters a new hub area with many NPCs and activities.",
+      "evidence": [
+        "Trigger: Arrival at the bustling Highland Outpost",
+        "Visual: Discovery: Character enters a new hub area with many NPCs and activities.",
+        "Audio: Silent; listening to background chatter and blacksmith hammer sounds.",
+        "Expression: Nods slightly; looking around at the new environment with interest.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "highland_outpost_hub",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 1155.0,
+      "absolute_timestamp": "19:15",
+      "summary": "Exploring the outpost for utility NPCs",
+      "game_context": "Exploration: Scanning tents and vendor stalls.",
+      "evidence": [
+        "Trigger: Exploring the outpost for utility NPCs",
+        "Visual: Exploration: Scanning tents and vendor stalls.",
+        "Audio: Silent; player is visually tracking movement paths.",
+        "Expression: Alert eye movement; head tilted slightly to view side-street NPCs.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 4,
+      "segment_label": "highland_merchant_interaction",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 1180.0,
+      "absolute_timestamp": "19:40",
+      "summary": "Initiating dialogue with the merchant",
+      "game_context": "Discovery: Camera zooms in on the merchant NPC.",
+      "evidence": [
+        "Trigger: Initiating dialogue with the merchant",
+        "Visual: Discovery: Camera zooms in on the merchant NPC.",
+        "Audio: Silent while listening to the merchant's opening greeting.",
+        "Expression: Slightly leans forward toward the monitor; focused expression.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "highland_merchant_interaction",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "retry_moments": [],
+  "verbal_moments": [
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 12.0,
+      "absolute_timestamp": "0:12",
+      "summary": "I want her to look a bit more rugged... these scars are perfect. Yeah, that's the look.",
+      "game_context": "The player is navigating character customization sliders, specifically looking at facial details and scars.",
+      "evidence": [
+        "Tone: excited",
+        "Category: reaction"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 0,
+      "segment_label": "character_creation",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "I want her to look a bit more rugged... these scars are perfect. Yeah, that's the look."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 196.0,
+      "absolute_timestamp": "3:16",
+      "summary": "A rusted key. Okay, that's probably for the cell door.",
+      "game_context": "The player just picked up a 'Rusted Key' from a glowing object on the floor of the prison cell.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: narration"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 0,
+      "segment_label": "starting_cell",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "A rusted key. Okay, that's probably for the cell door."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 251.0,
+      "absolute_timestamp": "4:11",
+      "summary": "Here we go! First fight!",
+      "game_context": "Combat music triggers and a single enemy spawns in the hallway as the player exits the cell.",
+      "evidence": [
+        "Tone: excited",
+        "Category: reaction"
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 0,
+      "segment_label": "dungeon_hallway",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Here we go! First fight!"
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 365.0,
+      "absolute_timestamp": "6:05",
+      "summary": "There we go.",
+      "game_context": "The player pulls the lever and successfully opens the main gate to the garden.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: reaction"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 1,
+      "segment_label": "dungeon_gate_puzzle",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "There we go."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 545.0,
+      "absolute_timestamp": "9:05",
+      "summary": "Whoa, there's more of them.",
+      "game_context": "Two armored guards draw swords and charge the player unexpectedly in the corridor.",
+      "evidence": [
+        "Tone: excited",
+        "Category: reaction"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 2,
+      "segment_label": "fortified_corridors",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Whoa, there's more of them."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 620.0,
+      "absolute_timestamp": "10:20",
+      "summary": "This one has better stats.",
+      "game_context": "The player is in the inventory menu comparing a looted sword to their equipped weapon.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: narration"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 2,
+      "segment_label": "fortified_corridors",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "This one has better stats."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 670.0,
+      "absolute_timestamp": "11:10",
+      "summary": "A puzzle. Great.",
+      "game_context": "The player encounters a stone bridge blocked by a gate and floor pressure plates.",
+      "evidence": [
+        "Tone: sarcastic",
+        "Category: reaction",
+        "Actionable: Review the frequency and signaling of environmental puzzles to ensure they feel like narrative milestones rather than repetitive roadblocks."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 2,
+      "segment_label": "bridge_puzzle",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "friction",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "A puzzle. Great."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "strategy",
+      "absolute_seconds": 825.0,
+      "absolute_timestamp": "13:45",
+      "summary": "That was close. I need to find some health.",
+      "game_context": "The player has just defeated the courtyard guardian and is sitting with a low health bar.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: strategy"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 3,
+      "segment_label": "courtyard_guardian",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "That was close. I need to find some health."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "question",
+      "absolute_seconds": 910.0,
+      "absolute_timestamp": "15:10",
+      "summary": "Wait, what's back here?",
+      "game_context": "The player discovers a hidden wooden door tucked behind crates in the courtyard.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: question"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 3,
+      "segment_label": "hidden_side_room",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Wait, what's back here?"
+    }
+  ],
+  "top_stop_risk_drivers": [
+    "other"
+  ],
+  "top_praised_features": [
+    "discovery",
+    "visual_design",
+    "progression",
+    "exploration",
+    "combat"
+  ],
+  "top_clarity_fixes": [
+    "There is no visual indicator or tooltip linking the movable statue to the floor plates until the player manually attempts to interact with the object."
+  ],
+  "bug_count": 0,
+  "overall_friction": "minor",
+  "overall_engagement": "strong",
+  "overall_stop_risk": "none",
+  "recommendations": [
+    "Reduce miscellaneous friction sources in the highest-risk gameplay beats.",
+    "Prioritize this communication fix: There is no visual indicator or tooltip linking the movable statue to the floor plates until the player manually attempts to interact with the object.",
+    "Protect and expand the strongest positives: discovery, visual_design, progression."
+  ],
+  "avg_sentiment": 1.95,
+  "sentiment_by_segment": {
+    "character_creation": 4.5,
+    "opening_cinematic": 1.5,
+    "starting_cell": 2.5,
+    "dungeon_hallway": 3.0,
+    "dungeon_side_hallway": 0.33,
+    "dungeon_gate_puzzle": 2.67,
+    "prisoners_garden": 3.0,
+    "garden_fountain_npc": 1.0,
+    "fortified_corridors": 2.4,
+    "bridge_puzzle": 1.0,
+    "courtyard_guardian": 2.5,
+    "inventory_management": 2.0,
+    "hidden_side_room": 2.5,
+    "escape_cinematic": 3.0,
+    "world_map_navigation": 1.5,
+    "loading_highland_outpost": 0.0,
+    "highland_outpost_hub": 2.0,
+    "highland_merchant_interaction": 1.5
+  },
+  "total_retry_sequences": 0,
+  "first_attempt_failure_count": 0,
+  "notable_quotes": [
+    "A puzzle. Great."
+  ],
+  "segments_encountered": [
+    "bridge_puzzle",
+    "character_creation",
+    "courtyard_guardian",
+    "dungeon_gate_puzzle",
+    "dungeon_hallway",
+    "dungeon_side_hallway",
+    "escape_cinematic",
+    "fortified_corridors",
+    "garden_fountain_npc",
+    "hidden_side_room",
+    "highland_merchant_interaction",
+    "highland_outpost_hub",
+    "inventory_management",
+    "loading_highland_outpost",
+    "opening_cinematic",
+    "prisoners_garden",
+    "starting_cell",
+    "world_map_navigation"
+  ],
+  "highlights": {
+    "video_id": "4fb0cf59c4345425b4825f841d04ff6f",
+    "total_moments_analyzed": 71,
+    "highlights": [
+      {
+        "rank": 1,
+        "absolute_timestamp": "4:11",
+        "absolute_seconds": 251.0,
+        "clip_start_seconds": 241.0,
+        "clip_end_seconds": 261.0,
+        "category": "player_feedback",
+        "headline": "Here we go! First fight!",
+        "why_important": "Severity 8/10, confidence 90%",
+        "evidence": [
+          "Tone: excited",
+          "Category: reaction"
+        ],
+        "importance_score": 11.52,
+        "corroborating_agents": [
+          "delight",
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 2,
+        "absolute_timestamp": "0:00",
+        "absolute_seconds": 0.0,
+        "clip_start_seconds": 0.0,
+        "clip_end_seconds": 10.0,
+        "category": "player_delight",
+        "headline": "The depth of the customization allows for a strong sense of ownership over the character before the game even begins.",
+        "why_important": "Severity 7/10, confidence 80%",
+        "evidence": [
+          "Minute adjustments to facial sliders",
+          "Hovering over different class icons to read descriptions",
+          "Focused silence",
+          "Discussion of aesthetic preferences",
+          "Scene: Character creation menu featuring detailed sliders for facial features and class selection."
+        ],
+        "importance_score": 8.96,
+        "corroborating_agents": [
+          "sentiment",
+          "verbal"
+        ]
+      },
+      {
+        "rank": 3,
+        "absolute_timestamp": "13:45",
+        "absolute_seconds": 825.0,
+        "clip_start_seconds": 815.0,
+        "clip_end_seconds": 835.0,
+        "category": "player_delight",
+        "headline": "The narrow margin of victory creates a strong sense of relief and validates the player's combat skills.",
+        "why_important": "Severity 7/10, confidence 80%",
+        "evidence": [
+          "Taking hands off the controller to rub eyes",
+          "Deep exhale",
+          "Loud, audible exhale",
+          "Relieved vocal tone",
+          "Scene: The aftermath of the guardian fight where the enemy dissolves and the player's health is low."
+        ],
+        "importance_score": 8.96,
+        "corroborating_agents": [
+          "sentiment",
+          "verbal"
+        ]
+      },
+      {
+        "rank": 4,
+        "absolute_timestamp": "11:10",
+        "absolute_seconds": 670.0,
+        "clip_start_seconds": 660.0,
+        "clip_end_seconds": 680.0,
+        "category": "player_delight",
+        "headline": "The clear visual language of the pressure plates creates an immediate 'mental hook,' inviting the player to experiment w",
+        "why_important": "Severity 5/10, confidence 100%",
+        "evidence": [
+          "Rotating the camera to view the statue and plates",
+          "Slowing movement to inspect the floor",
+          "Head tilt",
+          "Slightly amused sigh",
+          "Thoughtful hum"
+        ],
+        "importance_score": 8.8,
+        "corroborating_agents": [
+          "clarity",
+          "friction",
+          "sentiment",
+          "verbal"
+        ]
+      },
+      {
+        "rank": 5,
+        "absolute_timestamp": "7:10",
+        "absolute_seconds": 430.0,
+        "clip_start_seconds": 420.0,
+        "clip_end_seconds": 440.0,
+        "category": "player_delight",
+        "headline": "The shift from dark, claustrophobic stone to bright, organic greenery provides a strong sense of progress and aesthetic ",
+        "why_important": "Severity 7/10, confidence 65%",
+        "evidence": [
+          "Slowing movement to look at the environment",
+          "Scanning the ceiling grates and vegetation",
+          "Silence while listening to ambient birdsong",
+          "Scene: The transition point between the dark dungeon and the sun-drenched Prisoner's Garden.",
+          "Expression: Eyes widen slightly at the change in scenery, indicating a positive response to the visual shift."
+        ],
+        "importance_score": 7.28,
+        "corroborating_agents": [
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 6,
+        "absolute_timestamp": "8:15",
+        "absolute_seconds": 495.0,
+        "clip_start_seconds": 485.0,
+        "clip_end_seconds": 505.0,
+        "category": "player_delight",
+        "headline": "The NPC's gravelly voice and mysterious opening line ('Another one seeking the sky?') create an immediate narrative hook",
+        "why_important": "Severity 7/10, confidence 65%",
+        "evidence": [
+          "Leaning forward into the dialogue screen",
+          "Resting chin on hand",
+          "Attentive silence",
+          "Scene: Approaching the NPC in tattered robes near the garden fountain.",
+          "Expression: Neutral but physically engaged (leaning in), showing focus on the narrative delivery."
+        ],
+        "importance_score": 7.28,
+        "corroborating_agents": [
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 7,
+        "absolute_timestamp": "3:15",
+        "absolute_seconds": 195.0,
+        "clip_start_seconds": 185.0,
+        "clip_end_seconds": 205.0,
+        "category": "player_delight",
+        "headline": "It provides a clear, immediate goal and rewards basic environmental scanning.",
+        "why_important": "Severity 5/10, confidence 80%",
+        "evidence": [
+          "Direct movement toward the glowing object",
+          "Opening the inventory immediately after pickup",
+          "Tone of realization",
+          "Scene: The player finds and picks up a 'Rusted Key' glowing on the floor of the cell.",
+          "Expression: Raised eyebrows, nodding."
+        ],
+        "importance_score": 6.4,
+        "corroborating_agents": [
+          "sentiment",
+          "verbal"
+        ]
+      },
+      {
+        "rank": 8,
+        "absolute_timestamp": "6:05",
+        "absolute_seconds": 365.0,
+        "clip_start_seconds": 355.0,
+        "clip_end_seconds": 375.0,
+        "category": "player_delight",
+        "headline": "The mechanical grinding sound and cinematic confirmation of the gate opening provides immediate positive reinforcement f",
+        "why_important": "Severity 5/10, confidence 80%",
+        "evidence": [
+          "Immediate relaxation of posture",
+          "Slight smile",
+          "Satisfied tone",
+          "Scene: Pulling the wall-mounted lever and watching the main dungeon gate slide open.",
+          "Expression: A slight smile and visible relaxation of shoulders, indicating relief and a sense of achievement."
+        ],
+        "importance_score": 6.4,
+        "corroborating_agents": [
+          "sentiment",
+          "verbal"
+        ]
+      },
+      {
+        "rank": 9,
+        "absolute_timestamp": "9:05",
+        "absolute_seconds": 545.0,
+        "clip_start_seconds": 535.0,
+        "clip_end_seconds": 555.0,
+        "category": "player_delight",
+        "headline": "The sudden increase in enemy count heightens the stakes and validates the player's prior combat training, creating an im",
+        "why_important": "Severity 5/10, confidence 80%",
+        "evidence": [
+          "Rapid eye movement across the screen",
+          "Leaning forward toward the monitor",
+          "Immediate transition to combat posture",
+          "Alert vocalization",
+          "Focused silence during attack sequences"
+        ],
+        "importance_score": 6.4,
+        "corroborating_agents": [
+          "sentiment",
+          "verbal"
+        ]
+      },
+      {
+        "rank": 10,
+        "absolute_timestamp": "15:10",
+        "absolute_seconds": 910.0,
+        "clip_start_seconds": 900.0,
+        "clip_end_seconds": 920.0,
+        "category": "player_delight",
+        "headline": "Rewarding environmental curiosity after a period of intense focus allows the player to decompress while still feeling pr",
+        "why_important": "Severity 5/10, confidence 80%",
+        "evidence": [
+          "Voluntary exploration away from the critical path",
+          "Squinting to see into the dark side room",
+          "Inquisitive tone",
+          "Soft clicking of movement toward the door",
+          "Scene: A hidden door discovered behind a stack of crates in the courtyard corner."
+        ],
+        "importance_score": 6.4,
+        "corroborating_agents": [
+          "sentiment",
+          "verbal"
+        ]
+      }
+    ],
+    "one_line_verdict": "Here we go! First fight!"
+  },
+  "executive": {
+    "executive_summary": "The session covers the initial 20 minutes of gameplay, including detailed character creation, a tutorial dungeon escape, several combat encounters, and arrival at the first overworld hub. The player successfully navigated the starting cell, engaged in four combat scenarios with increasing complexity, and solved a minor environmental puzzle to reach the Highland Outpost.\n\nCritical issues are minimal, though a clarity gap exists regarding environmental interaction in the bridge puzzle. The lack of visual tooltips for movable objects led to a brief halt in momentum and audible sarcasm, though the player's prior engagement with the combat and loot systems provided enough mechanical goodwill to prevent a session exit.\n\nStrengths to protect include the deep character customization and the high-impact visual transitions. The shift from the dark dungeon to the sun-drenched Prisoner's Garden (07:10) and the final escape cinematic (16:45) provided significant dopamine hits that reinforced the sense of narrative and physical progression.",
+    "key_findings": [
+      {
+        "evidence_summary": "At 11:10, the player encountered a pressure plate puzzle and expressed sarcasm ('A puzzle. Great.'). At the same timestamp, clarity data shows the player stood stationary, scanning the area and hovering over the gate without realizing the nearby statue was a movable tool to solve the weight requirement.",
+        "affected_timestamps": [
+          "11:10"
+        ],
+        "finding": "Lack of visual signposting for movable environmental objects creates friction during logic puzzles.",
+        "recommended_action": "Add a subtle shimmer or an 'interact' tooltip to the movable statue to clearly link it to the pressure plates.",
+        "severity": "important"
+      },
+      {
+        "evidence_summary": "At 13:45, after the courtyard guardian fight, the player's health dropped into the red (80:00), leading to a 'triumphant' sentiment score of 6/10 and a relieved exhale upon victory. The player immediately sought health, validating the high-stakes combat tuning.",
+        "affected_timestamps": [
+          "13:20",
+          "13:45"
+        ],
+        "finding": "High-stakes combat encounters successfully trigger a state of flow and high relief upon completion.",
+        "recommended_action": "Maintain current encounter difficulty but ensure a guaranteed health resource is visible shortly after high-intensity fights.",
+        "severity": "notable"
+      },
+      {
+        "evidence_summary": "At 15:10, the player voluntarily veered off the critical path to investigate crates, discovering a hidden door. This led to a reward loop at 15:45 involving loot and lore, resulting in a 'satisfied' expression and nodding.",
+        "affected_timestamps": [
+          "15:10",
+          "15:45"
+        ],
+        "finding": "Optional environmental exploration provides high satisfaction when rewarded with both lore and mechanical upgrades.",
+        "recommended_action": "Protect the current density of hidden side areas and continue pairing lore scrolls with equipment rewards.",
+        "severity": "notable"
+      }
+    ],
+    "priority_actions": [
+      "Add a highlight or 'movable' tooltip to the stone statue at 11:10 to clarify its role in the bridge puzzle.",
+      "Ensure the Rusted Key at 03:15 has a persistent quest marker if the player doesn't interact with the door within 30 seconds of pickup.",
+      "Optimize the loading transition at 18:10 where the player briefly checked their phone, indicating a minor break in immersion.",
+      "Verify that the transition from the dark dungeon to the garden at 07:10 is optimized for all graphics presets, as it is a major delight driver."
+    ],
+    "cross_dimensional_insight": "The player's sarcastic reaction to the puzzle at 11:10 was buffered by the 'loot-and-upgrade' loop completed just 50 seconds prior (10:20). The high satisfaction derived from finding a weapon with 'better stats' created a tolerance for the subsequent clarity friction, suggesting that frequent mechanical rewards can mitigate potential negative responses to traditional genre tropes.",
+    "session_health_score": 92
+  },
+  "agent_coverage": [
+    {
+      "chunk_index": 0,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    },
+    {
+      "chunk_index": 1,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    },
+    {
+      "chunk_index": 2,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    },
+    {
+      "chunk_index": 3,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    },
+    {
+      "chunk_index": 4,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    }
+  ]
+}

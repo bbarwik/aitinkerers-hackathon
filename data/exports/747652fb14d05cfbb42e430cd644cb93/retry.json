@@ -1,0 +1,129 @@
+[
+  {
+    "agent_kind": "retry",
+    "source_label": "monastery_crest_acquisition",
+    "absolute_seconds": 160.0,
+    "absolute_timestamp": "2:40",
+    "summary": "1 attempts at monastery_crest_acquisition, outcome: still_trying",
+    "game_context": "Stained-glass window puzzle room",
+    "evidence": [
+      "Attempt 1: failed (High frustration and disbelief. The player successfully solves the puzzle and loots the item, but the game crashes shortly after.)",
+      "Frustration: escalating"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "monastery_crest_acquisition",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": 1,
+    "retry_quit_signal": false,
+    "retry_final_outcome": "still_trying",
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "retry",
+    "source_label": "ruin_navigation_jumps",
+    "absolute_seconds": 193.0,
+    "absolute_timestamp": "3:13",
+    "summary": "4 attempts at ruin_navigation_jumps, outcome: succeeded",
+    "game_context": "External ruins and rooftops of the Rosymorn Monastery",
+    "evidence": [
+      "Attempt 1: failed (Determined; the player is looking for a path down that avoids fall damage.)",
+      "Attempt 2: failed (Slight frustration, muttering 'damn it' as the jump path is blocked by environment geometry.)",
+      "Attempt 3: succeeded (Relief; manages to land a character on the mid-level ledge.)",
+      "Attempt 4: succeeded (Neutral; successfully jumps the rest of the party into the interior room.)",
+      "Frustration: stable"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 0,
+    "segment_label": "ruin_navigation_jumps",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": 4,
+    "retry_quit_signal": false,
+    "retry_final_outcome": "succeeded",
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "retry",
+    "source_label": "mod_management",
+    "absolute_seconds": 501.0,
+    "absolute_timestamp": "8:21",
+    "summary": "1 attempts at mod_management, outcome: still_trying",
+    "game_context": "Game Main Menu / Mod Verification Screen",
+    "evidence": [
+      "Attempt 1: failed (Deep frustration; rests head on hand and uses profanity while waiting for progress bars.)",
+      "Frustration: escalating"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": "mod_management",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "quality",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": 1,
+    "retry_quit_signal": false,
+    "retry_final_outcome": "still_trying",
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "retry",
+    "source_label": "mod_synchronization",
+    "absolute_seconds": 1084.0,
+    "absolute_timestamp": "18:04",
+    "summary": "1 attempts at mod_synchronization, outcome: succeeded",
+    "game_context": "Main Menu / Mod Manager",
+    "evidence": [
+      "Attempt 4: succeeded (Relieved and communicative; the player confirms successful entry with a positive tone, saying, 'And I'm in.')",
+      "Frustration: de-escalating"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 4,
+    "segment_label": "mod_synchronization",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": 1,
+    "retry_quit_signal": false,
+    "retry_final_outcome": "succeeded",
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "retry",
+    "source_label": "rosymorn_monastery",
+    "absolute_seconds": 1170.0,
+    "absolute_timestamp": "19:30",
+    "summary": "1 attempts at rosymorn_monastery, outcome: succeeded",
+    "game_context": "Rosymorn Monastery Courtyard",
+    "evidence": [
+      "Attempt 3: succeeded (Focused and methodical; the player begins re-looting the area to recover lost progress.)",
+      "Frustration: stable"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 4,
+    "segment_label": "rosymorn_monastery",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": 1,
+    "retry_quit_signal": false,
+    "retry_final_outcome": "succeeded",
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

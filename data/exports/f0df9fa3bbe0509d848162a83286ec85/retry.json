@@ -1,0 +1,58 @@
+[
+  {
+    "agent_kind": "retry",
+    "source_label": "decrepit_village_navigation",
+    "absolute_seconds": 641.0,
+    "absolute_timestamp": "10:41",
+    "summary": "4 attempts at decrepit_village_navigation, outcome: succeeded",
+    "game_context": "Decrepit Village, climbing a ledge towards the upper huts.",
+    "evidence": [
+      "Attempt 1: failed (The player continues a calm, casual conversation with a teammate about their previous rest at camp.)",
+      "Attempt 2: failed (No observable change in posture or tone; conversation remains steady.)",
+      "Attempt 3: failed (Player is unfazed, continuing to recount previous gameplay sessions.)",
+      "Attempt 4: succeeded (Continues with the narrative without acknowledging the navigational difficulty.)",
+      "Frustration: stable"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 2,
+    "segment_label": "decrepit_village_navigation",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": 4,
+    "retry_quit_signal": false,
+    "retry_final_outcome": "succeeded",
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "retry",
+    "source_label": "ebonlake_grotto_trading",
+    "absolute_seconds": 1068.0,
+    "absolute_timestamp": "17:48",
+    "summary": "3 attempts at ebonlake_grotto_trading, outcome: succeeded",
+    "game_context": "Myconid Colony, Derryth Bonecloak's shop",
+    "evidence": [
+      "Attempt 1: failed (Alice expresses surprise and verbally acknowledges her lack of funds: 'Oh no, I do not have enough gold on me.')",
+      "Attempt 2: failed (The player remains calm but focused, realizing they are still short on gold and continues to sift through their inventory for items to sell.)",
+      "Attempt 3: succeeded (Satisfaction as the trade completes, allowing her to move on to crafting.)",
+      "Frustration: stable"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 4,
+    "segment_label": "ebonlake_grotto_trading",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": 3,
+    "retry_quit_signal": false,
+    "retry_final_outcome": "succeeded",
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

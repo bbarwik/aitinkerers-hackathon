@@ -1,0 +1,34 @@
+[
+  {
+    "agent_kind": "friction",
+    "source_label": "other",
+    "absolute_seconds": 670.0,
+    "absolute_timestamp": "11:10",
+    "summary": "A mandatory break in movement flow to solve an environmental logic puzzle.",
+    "game_context": "A weight-based pressure plate puzzle interrupting the exploration path.",
+    "evidence": [
+      "Immediate halt in movement upon seeing the gate",
+      "Slow camera panning to scan the plates and the surrounding area",
+      "Audible sigh of mock-exasperation",
+      "Scene: A stone bridge with two large floor plates and a closed gate blocking the exit.",
+      "Expression: Slight smile and head tilted to the side, indicating the player is amused by the genre trope despite the verbal sarcasm.",
+      "Quote: A puzzle. Great."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 2,
+    "segment_label": "bridge_puzzle",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

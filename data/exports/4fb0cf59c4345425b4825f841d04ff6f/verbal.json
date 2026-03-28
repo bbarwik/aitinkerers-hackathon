@@ -1,0 +1,239 @@
+[
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 12.0,
+    "absolute_timestamp": "0:12",
+    "summary": "I want her to look a bit more rugged... these scars are perfect. Yeah, that's the look.",
+    "game_context": "The player is navigating character customization sliders, specifically looking at facial details and scars.",
+    "evidence": [
+      "Tone: excited",
+      "Category: reaction"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 0,
+    "segment_label": "character_creation",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I want her to look a bit more rugged... these scars are perfect. Yeah, that's the look."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 196.0,
+    "absolute_timestamp": "3:16",
+    "summary": "A rusted key. Okay, that's probably for the cell door.",
+    "game_context": "The player just picked up a 'Rusted Key' from a glowing object on the floor of the prison cell.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: narration"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "starting_cell",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "A rusted key. Okay, that's probably for the cell door."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 251.0,
+    "absolute_timestamp": "4:11",
+    "summary": "Here we go! First fight!",
+    "game_context": "Combat music triggers and a single enemy spawns in the hallway as the player exits the cell.",
+    "evidence": [
+      "Tone: excited",
+      "Category: reaction"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 0,
+    "segment_label": "dungeon_hallway",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Here we go! First fight!"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 365.0,
+    "absolute_timestamp": "6:05",
+    "summary": "There we go.",
+    "game_context": "The player pulls the lever and successfully opens the main gate to the garden.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: reaction"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 1,
+    "segment_label": "dungeon_gate_puzzle",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "There we go."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 545.0,
+    "absolute_timestamp": "9:05",
+    "summary": "Whoa, there's more of them.",
+    "game_context": "Two armored guards draw swords and charge the player unexpectedly in the corridor.",
+    "evidence": [
+      "Tone: excited",
+      "Category: reaction"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 2,
+    "segment_label": "fortified_corridors",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Whoa, there's more of them."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 620.0,
+    "absolute_timestamp": "10:20",
+    "summary": "This one has better stats.",
+    "game_context": "The player is in the inventory menu comparing a looted sword to their equipped weapon.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: narration"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 2,
+    "segment_label": "fortified_corridors",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "This one has better stats."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 670.0,
+    "absolute_timestamp": "11:10",
+    "summary": "A puzzle. Great.",
+    "game_context": "The player encounters a stone bridge blocked by a gate and floor pressure plates.",
+    "evidence": [
+      "Tone: sarcastic",
+      "Category: reaction",
+      "Actionable: Review the frequency and signaling of environmental puzzles to ensure they feel like narrative milestones rather than repetitive roadblocks."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 2,
+    "segment_label": "bridge_puzzle",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "A puzzle. Great."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 825.0,
+    "absolute_timestamp": "13:45",
+    "summary": "That was close. I need to find some health.",
+    "game_context": "The player has just defeated the courtyard guardian and is sitting with a low health bar.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: strategy"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": "courtyard_guardian",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "That was close. I need to find some health."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "question",
+    "absolute_seconds": 910.0,
+    "absolute_timestamp": "15:10",
+    "summary": "Wait, what's back here?",
+    "game_context": "The player discovers a hidden wooden door tucked behind crates in the courtyard.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: question"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 3,
+    "segment_label": "hidden_side_room",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Wait, what's back here?"
+  }
+]

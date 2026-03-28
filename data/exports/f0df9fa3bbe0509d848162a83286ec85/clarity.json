@@ -1,0 +1,217 @@
+[
+  {
+    "agent_kind": "clarity",
+    "source_label": "other",
+    "absolute_seconds": 294.0,
+    "absolute_timestamp": "4:54",
+    "summary": "Clearer visual contrast for small interactable loot items against the cluttered background.",
+    "game_context": "Finish looting the room and proceed to the next area.",
+    "evidence": [
+      "Rapid camera rotation within a tiny radius",
+      "Repeatedly highlighting the same few empty containers",
+      "Hesitant tone",
+      "Soft muttering",
+      "Scene: Alice is exploring a small ruined shack filled with barrels and purple crystals.",
+      "Quote: Wait, what am I missing?"
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 1,
+    "segment_label": "underdark_navigation",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "friction",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "poor_feedback",
+    "absolute_seconds": 498.0,
+    "absolute_timestamp": "8:18",
+    "summary": "Indication that the container is 'Too high' or 'Out of reach' before attempting the interaction.",
+    "game_context": "Identify that the container is out of reach and requires a ranged action or jumping to access.",
+    "evidence": [
+      "Hovering the cursor over the container several times",
+      "The UI displays the 'Use' prompt",
+      "Character moves in small circles directly underneath the item",
+      "Abrupt silence from the player while teammates continue talking",
+      "Scene: Alice is standing near a wooden scaffolding, looking up at a 'Rope Netting' container suspended in the air."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 1,
+    "segment_label": "decrepit_village_exploration",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "poor_feedback",
+    "absolute_seconds": 515.0,
+    "absolute_timestamp": "8:35",
+    "summary": "A more prominent 'Party Member in Combat' UI alert that halts exploration or menu navigation for the group.",
+    "game_context": "Coordinate party aggression or identify hostile NPCs before combat begins.",
+    "evidence": [
+      "Alice is idle in inventory menus while the combat log shows teammates attacking Lurgan",
+      "Teammate character models are engaged in combat nearby",
+      "Surprised tone",
+      "Teammate announcing they are in a fight",
+      "Scene: Decrepit Village, near a campfire while looting corpses.",
+      "Quote: Wait what? ... Oh, he made them mad? That makes sense."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 2,
+    "segment_label": "decrepit_village_exploration",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "other",
+    "absolute_seconds": 651.0,
+    "absolute_timestamp": "10:51",
+    "summary": "Clearer visual highlighting of valid landing affordances on vertical climbable terrain.",
+    "game_context": "Use the Jump action to navigate up the cliffside path.",
+    "evidence": [
+      "Repeated 'Not enough space' and 'Invalid Target' UI errors",
+      "Red targeting circles on seemingly valid landing zones",
+      "Alice repositioning and re-aiming the jump tool four times",
+      "Focus silence",
+      "Scene: A cliffside ledge with 'Cragged Rock' markers in the Decrepit Village."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 2,
+    "segment_label": "inventory_management",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "delight"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "missing_signpost",
+    "absolute_seconds": 794.0,
+    "absolute_timestamp": "13:14",
+    "summary": "Persistent NPC icons or nameplates at the campsite when party members are not currently in the active group.",
+    "game_context": "Locate Wyll's tent to initiate dialogue and swap him into the active party.",
+    "evidence": [
+      "Character wandering through the campsite",
+      "Camera rotation searching for specific NPC models",
+      "Stopping movement to scan the environment",
+      "Questioning tone",
+      "Heavy breathing",
+      "Scene: The campsite in the Underdark, near several tents and giant mushrooms.",
+      "Quote: Now I have to go find Wyll."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 3,
+    "segment_label": "campsite",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "tutorial_gap",
+    "absolute_seconds": 971.0,
+    "absolute_timestamp": "16:11",
+    "summary": "More immediate visual feedback or a summary of complex status effects within the primary item tooltip to reduce 'nested tooltip' fatigue.",
+    "game_context": "Understand the secondary status effect 'Reverberation' to evaluate the item's worth.",
+    "evidence": [
+      "Lingering on a specific item tooltip",
+      "Cursor moving back and forth over the 'Reverberation' keyword",
+      "Surprised tone",
+      "Reading technical terms aloud",
+      "Scene: Trade menu with Omeluum, inspecting the 'Boots of Stormy Clamour'.",
+      "Quote: Wait, what?",
+      "Quote: Wait he has those?",
+      "Quote: The Boots of Stormy Clamour... What's Reverberation?"
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 3,
+    "segment_label": "ebonlake_grotto",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "delight",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "poor_feedback",
+    "absolute_seconds": 1068.0,
+    "absolute_timestamp": "17:48",
+    "summary": "Real-time visual comparison of 'Total Transaction Cost' vs 'Current Party Gold' (e.g., coloring the cost text red when funds are insufficient) before the player attempts to confirm.",
+    "game_context": "Calculate the total cost of items in the 'Trade' column against current party gold before hitting confirm.",
+    "evidence": [
+      "Modal popup 'Insufficient Gold' interrupts the trade",
+      "Player hovers over various items in their own inventory to find things to sell",
+      "Repeatedly opening the 'Change Amount' slider for multiple items",
+      "Surprised tone",
+      "Disappointed exhale",
+      "Scene: Trade menu with Derryth Bonecloak, attempting to finalize a bulk purchase of potions and elixirs.",
+      "Quote: Oh no...",
+      "Quote: I do not have enough gold on me."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 4,
+    "segment_label": "ebonlake_grotto_trading",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "friction",
+      "retry",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

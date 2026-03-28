@@ -1,0 +1,46 @@
+{
+  "video_id": "747652fb14d05cfbb42e430cd644cb93",
+  "game_title": "Baldur's Gate 3",
+  "game_key": "baldur_s_gate_3",
+  "duration_seconds": 1200.0,
+  "chunk_count": 5,
+  "overall_friction": "severe",
+  "overall_engagement": "clear",
+  "overall_stop_risk": "high",
+  "bug_count": 4,
+  "avg_sentiment": -0.95,
+  "sentiment_by_segment": {
+    "monastery_camp": 2.0,
+    "monastery_ruins_exploration": 1.0,
+    "stained_glass_puzzle": 3.5,
+    "camp_reload": -2.0,
+    "mod_management": -1.0,
+    "mod_manager": -2.0,
+    "session_join": -6.0,
+    "brb_break": -5.0,
+    "mod_troubleshooting": 0.0,
+    "game_restart": 1.33,
+    "main_menu": 1.0,
+    "multiplayer_load": 2.0,
+    "camp_exploration": 1.0,
+    "rosymorn_monastery": 2.5
+  },
+  "total_retry_sequences": 5,
+  "first_attempt_failure_count": 1,
+  "notable_quotes": [
+    "We just got the hammer, now we just have to find our way back to wherever we place them. I forget where that is because it's been a bit.",
+    "Does that mean we're gonna have to retrace our steps again? Because we hadn't saved after grabbing that... probably.",
+    "Fucking dammit.",
+    "Please say it's not doing this shit again. It didn't give me the 'Start Game', it gave me the 'Downgrade' button again.",
+    "I unenable it, I leave Baldur's Gate all together... then we go into my files... navigate to your local Baldur's Gate 3 folder... go through my files..."
+  ],
+  "session_health_score": 45,
+  "priority_actions": [
+    "Add an autosave trigger to the acquisition of the Dawnmaster's Crest and similar quest-critical items.",
+    "Fix the Mod Manager file lock bug that triggers the 'Process cannot access the file' error at 08:58.",
+    "Update the Mod Manager UI to explicitly state the required version number (e.g., v1.2 vs v1.3) during a mismatch.",
+    "Improve party AI jump-following to reduce the 4+ retry loops seen in vertical navigation at 03:13.",
+    "Add a 'Repair/Force Sync' button in the Mod Manager to prevent players from needing to manually delete .pak files in AppData."
+  ],
+  "top_highlight": "A file access error prevents the mod from updating while the game process is active."
+}

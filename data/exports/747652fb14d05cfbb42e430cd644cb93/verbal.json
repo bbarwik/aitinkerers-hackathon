@@ -1,0 +1,556 @@
+[
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 0.0,
+    "absolute_timestamp": "0:00",
+    "summary": "In the last one when we made our way to this Lathander temple where the Gith are holding out... we found our way to where Lathander's Light will be. So we're going to loot that before we even deal with whatever the Gith are up about.",
+    "game_context": "Recapping previous progress while standing in the camp area of the Rosymorn Monastery.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: narration"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "monastery_camp",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "In the last one when we made our way to this Lathander temple where the Gith are holding out... we found our way to where Lathander's Light will be. So we're going to loot that before we even deal with whatever the Gith are up about."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "question",
+    "absolute_seconds": 68.0,
+    "absolute_timestamp": "1:08",
+    "summary": "We just got the hammer, now we just have to find our way back to wherever we place them. I forget where that is because it's been a bit.",
+    "game_context": "Navigating the vertical ruins of the monastery to return to the puzzle room.",
+    "evidence": [
+      "Tone: confused",
+      "Category: question",
+      "Actionable: In complex, multi-level environments like the monastery, adding a temporary quest marker or a 'waypoint' for puzzle interaction points once a key item is found could reduce backtracking friction."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "monastery_ruins_exploration",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "We just got the hammer, now we just have to find our way back to wherever we place them. I forget where that is because it's been a bit."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 216.0,
+    "absolute_timestamp": "3:36",
+    "summary": "Wait, did I already put the hammer in place? Oh no, I already put the hammer in place and then we collected the Dawnmaster's Crest.",
+    "game_context": "Examining the pedestals in the stained-glass window room to confirm puzzle completion.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: narration"
+    ],
+    "severity_numeric": 0,
+    "source_chunk_index": 0,
+    "segment_label": null,
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Wait, did I already put the hammer in place? Oh no, I already put the hammer in place and then we collected the Dawnmaster's Crest."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 270.0,
+    "absolute_timestamp": "4:30",
+    "summary": "Oh, what? What happened? I got kicked. I crashed.",
+    "game_context": "Mid-exploration, a loading screen suddenly appears and the player is returned to the main menu.",
+    "evidence": [
+      "Tone: confused",
+      "Category: reaction"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 1,
+    "segment_label": "game_crash",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "quality"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Oh, what? What happened? I got kicked. I crashed."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "complaint",
+    "absolute_seconds": 310.0,
+    "absolute_timestamp": "5:10",
+    "summary": "Does that mean we're gonna have to retrace our steps again? Because we hadn't saved after grabbing that... probably.",
+    "game_context": "Acknowledge the loss of progress while sitting at the main menu after the crash.",
+    "evidence": [
+      "Tone: resigned",
+      "Category: complaint",
+      "Actionable: Automatically trigger a checkpoint save upon the acquisition of unique or quest-critical items to protect player progress from technical failures."
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 1,
+    "segment_label": null,
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "Does that mean we're gonna have to retrace our steps again? Because we hadn't saved after grabbing that... probably."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 538.0,
+    "absolute_timestamp": "8:58",
+    "summary": "Fucking dammit.",
+    "game_context": "The game throws a 'Process cannot access the file' error while trying to update mods.",
+    "evidence": [
+      "Tone: angry",
+      "Category: reaction",
+      "Actionable: Improve error handling in the internal mod manager to automatically resolve or provide clearer instructions for file access locks during updates."
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 2,
+    "segment_label": "mod_manager",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "quality",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "Fucking dammit."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "complaint",
+    "absolute_seconds": 581.0,
+    "absolute_timestamp": "9:41",
+    "summary": "Please say it's not doing this shit again. It didn't give me the 'Start Game', it gave me the 'Downgrade' button again.",
+    "game_context": "The Mod Manager UI fails to show the 'Start Game' option despite the mod appearing updated, reverting instead to a 'Downgrade' prompt.",
+    "evidence": [
+      "Tone: angry",
+      "Category: complaint",
+      "Actionable: Ensure the Mod Manager UI logic accurately reflects a 'Ready' state and avoids circular update/downgrade prompts after a successful version change."
+    ],
+    "severity_numeric": 10,
+    "source_chunk_index": 2,
+    "segment_label": "session_join",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "quality",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "Please say it's not doing this shit again. It didn't give me the 'Start Game', it gave me the 'Downgrade' button again."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "question",
+    "absolute_seconds": 611.0,
+    "absolute_timestamp": "10:11",
+    "summary": "I don't remember how we fixed this last time.",
+    "game_context": "Stuck in a loop of mod mismatches preventing him from joining his teammate's session.",
+    "evidence": [
+      "Tone: confused",
+      "Category: question"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 2,
+    "segment_label": "mod_manager",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "clarity",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I don't remember how we fixed this last time."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 681.0,
+    "absolute_timestamp": "11:21",
+    "summary": "I unenable it, I leave Baldur's Gate all together... then we go into my files... navigate to your local Baldur's Gate 3 folder... go through my files...",
+    "game_context": "Narrating the manual troubleshooting steps required to fix the mod issues outside of the game client.",
+    "evidence": [
+      "Tone: focused",
+      "Category: strategy",
+      "Actionable: The fact that players have to resort to manual file deletion in local folders highlights the need for a 'Repair' or 'Force Sync' feature within the internal Mod Manager."
+    ],
+    "severity_numeric": 0,
+    "source_chunk_index": 2,
+    "segment_label": "brb_break",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "I unenable it, I leave Baldur's Gate all together... then we go into my files... navigate to your local Baldur's Gate 3 folder... go through my files..."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 698.0,
+    "absolute_timestamp": "11:38",
+    "summary": "I apologize to you people watching, I'm just going to do this real quick and put the 'Be Right Back' while we're trying to sort this out.",
+    "game_context": "Giving up on fixing the game live and putting up a break screen to troubleshoot.",
+    "evidence": [
+      "Tone: resigned",
+      "Category: reaction"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 2,
+    "segment_label": "brb_break",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I apologize to you people watching, I'm just going to do this real quick and put the 'Be Right Back' while we're trying to sort this out."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 768.0,
+    "absolute_timestamp": "12:48",
+    "summary": "Local... Larian Studios... Baldur's Gate 3... mods.",
+    "game_context": "Continuing to narrate the folder navigation as they arrive at the mod directory.",
+    "evidence": [
+      "Tone: focused",
+      "Category: narration"
+    ],
+    "severity_numeric": 0,
+    "source_chunk_index": 3,
+    "segment_label": "mod_troubleshooting",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Local... Larian Studios... Baldur's Gate 3... mods."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "question",
+    "absolute_seconds": 878.0,
+    "absolute_timestamp": "14:38",
+    "summary": "Wait, so does that mean I just delete one of them? Or all of them? 'Delete any residual pack files related to the Archer'.",
+    "game_context": "Reading mod troubleshooting instructions and questioning how many files to remove.",
+    "evidence": [
+      "Tone: confused",
+      "Category: question",
+      "Actionable: The necessity for players to manually delete residual '.pak' files in hidden OS folders highlights a lack of 'Clean' or 'Purge' functionality in the internal Mod Manager."
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 3,
+    "segment_label": "mod_troubleshooting",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "Wait, so does that mean I just delete one of them? Or all of them? 'Delete any residual pack files related to the Archer'."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 918.0,
+    "absolute_timestamp": "15:18",
+    "summary": "Okay, I guess I'll delete both of them.",
+    "game_context": "Making a final decision on which files to delete to resolve the technical error.",
+    "evidence": [
+      "Tone: resigned",
+      "Category: strategy"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": "game_restart",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Okay, I guess I'll delete both of them."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 969.0,
+    "absolute_timestamp": "16:09",
+    "summary": "Larian... mod man...",
+    "game_context": "The game has restarted and reached the main menu; the player is likely checking the mod manager status.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: narration"
+    ],
+    "severity_numeric": 0,
+    "source_chunk_index": 3,
+    "segment_label": "game_restart",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Larian... mod man..."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "complaint",
+    "absolute_seconds": 1025.0,
+    "absolute_timestamp": "17:05",
+    "summary": "Why is this taking so long to load the mods?",
+    "game_context": "Waiting for the in-game mod manager to finish 'searching for mods' during the restart process.",
+    "evidence": [
+      "Tone: frustrated",
+      "Category: complaint",
+      "Actionable: Provide a detailed loading bar or specific status updates (e.g., 'Verifying File X') to reduce player anxiety during long mod initializations."
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 4,
+    "segment_label": null,
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "Why is this taking so long to load the mods?"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 1056.0,
+    "absolute_timestamp": "17:36",
+    "summary": "Okay, and now in theory it should be all up to date and I should be good to head back in.",
+    "game_context": "Completing the mod update process and preparing to return to the game.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: narration"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 4,
+    "segment_label": "main_menu",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Okay, and now in theory it should be all up to date and I should be good to head back in."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 1095.0,
+    "absolute_timestamp": "18:15",
+    "summary": "It's a mod I downloaded, I didn't enable it yet.",
+    "game_context": "Reviewing installed mods in the manager before joining the session.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: narration"
+    ],
+    "severity_numeric": 0,
+    "source_chunk_index": 4,
+    "segment_label": "mod_manager",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "It's a mod I downloaded, I didn't enable it yet."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 1102.0,
+    "absolute_timestamp": "18:22",
+    "summary": "Royal Knight set. Ooh.",
+    "game_context": "Noticing a new armor mod in the list.",
+    "evidence": [
+      "Tone: amused",
+      "Category: praise"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 4,
+    "segment_label": "multiplayer_load",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Royal Knight set. Ooh."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 1120.0,
+    "absolute_timestamp": "18:40",
+    "summary": "I just sent Draco the invite and I'm just waiting for the host to... get back in.",
+    "game_context": "Managing the multiplayer lobby after the restart.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: narration"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 4,
+    "segment_label": "multiplayer_load",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I just sent Draco the invite and I'm just waiting for the host to... get back in."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 1151.0,
+    "absolute_timestamp": "19:11",
+    "summary": "All right, and I'm in.",
+    "game_context": "Successfully loading into the game world at the camp.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: reaction"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 4,
+    "segment_label": "camp_exploration",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "All right, and I'm in."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "complaint",
+    "absolute_seconds": 1180.0,
+    "absolute_timestamp": "19:40",
+    "summary": "Empty this time... ugh.",
+    "game_context": "Looting a crate in the monastery that the player recalls being full in the previous attempt before the crash.",
+    "evidence": [
+      "Tone: resigned",
+      "Category: complaint",
+      "Actionable: To prevent frustration after crashes, ensure that the state of 'looted' containers and the items retrieved are synchronized and saved more frequently in multiplayer sessions."
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 4,
+    "segment_label": "rosymorn_monastery",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "retry",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "Empty this time... ugh."
+  }
+]

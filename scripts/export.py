@@ -20,7 +20,7 @@ async def _export_video(repository: Repository, video_id: str, output_dir: Path)
 
     # Video metadata
     (video_dir / "video.json").write_text(json.dumps(video.model_dump(), indent=2))
-    print(f"  Saved video.json")
+    print("  Saved video.json")
 
     # Timeline
     timeline = await repository.get_timeline(video_id)
@@ -33,7 +33,7 @@ async def _export_video(repository: Repository, video_id: str, output_dir: Path)
     if report:
         report_data = report.model_dump(mode="json")
         (video_dir / "report.json").write_text(json.dumps(report_data, indent=2))
-        print(f"  Saved report.json")
+        print("  Saved report.json")
 
         # Individual sections for easy reading
         sections = {
@@ -52,12 +52,12 @@ async def _export_video(repository: Repository, video_id: str, output_dir: Path)
         # Highlights
         if report_data.get("highlights"):
             (video_dir / "highlights.json").write_text(json.dumps(report_data["highlights"], indent=2))
-            print(f"  Saved highlights.json")
+            print("  Saved highlights.json")
 
         # Executive summary
         if report_data.get("executive"):
             (video_dir / "executive.json").write_text(json.dumps(report_data["executive"], indent=2))
-            print(f"  Saved executive.json")
+            print("  Saved executive.json")
 
         # Summary stats
         summary = {
@@ -82,7 +82,7 @@ async def _export_video(repository: Repository, video_id: str, output_dir: Path)
         if report_data.get("highlights"):
             summary["top_highlight"] = report_data["highlights"].get("one_line_verdict")
         (video_dir / "summary.json").write_text(json.dumps(summary, indent=2))
-        print(f"  Saved summary.json")
+        print("  Saved summary.json")
 
 
 async def _main() -> int:

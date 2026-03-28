@@ -1,0 +1,98 @@
+[
+  {
+    "agent_kind": "quality",
+    "source_label": "performance",
+    "absolute_seconds": 221.0,
+    "absolute_timestamp": "3:41",
+    "summary": "performance issue: Screen freeze, Total cut to black during The player was in a combat encounter on the Nautiloid during the tutorial phase and performed a spell action.",
+    "game_context": "The player was in a combat encounter on the Nautiloid during the tutorial phase and performed a spell action.",
+    "evidence": [
+      "Screen freeze",
+      "Total cut to black",
+      "None",
+      "Player reaction: Noticed and commented",
+      "Scene: During tutorial combat on the Nautiloid after casting the spell 'Vicious Mockery' on an enemy.",
+      "Quote: And my game crashed. Dope."
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 0,
+    "segment_label": "nautiloid_combat",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "friction",
+      "retry",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "gameplay_logic",
+    "absolute_seconds": 853.0,
+    "absolute_timestamp": "14:13",
+    "summary": "gameplay logic issue: visible issue during The player opens the character sheet and hovers over the Strength attribute while the 'Club of Hill Giant Strength' is equipped.",
+    "game_context": "The player opens the character sheet and hovers over the Strength attribute while the 'Club of Hill Giant Strength' is equipped.",
+    "evidence": [
+      "None",
+      "Player reaction: Noticed and commented",
+      "Scene: Character equipment and attribute screen inspecting the 'Club of Hill Giant Strength'.",
+      "Quote: Hill Giants have 21 STR, this is a club of Werebear STR (they have 19 STR)",
+      "Quote: It's really annoying that it doesn't give you Hill Giant strength but whatever."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": "shadow_cursed_lands",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "physics",
+    "absolute_seconds": 1129.0,
+    "absolute_timestamp": "18:49",
+    "summary": "physics issue: Sudden model disappearance, Targeting frame remaining without a visible model during The player triggers the forge hammer while the boss, Grym, is positioned on the central anvil.",
+    "game_context": "The player triggers the forge hammer while the boss, Grym, is positioned on the central anvil.",
+    "evidence": [
+      "Sudden model disappearance",
+      "Targeting frame remaining without a visible model",
+      "None",
+      "Player reaction: Noticed and commented",
+      "Scene: During the Grym boss fight at the Adamantine Forge.",
+      "Quote: He just fucking disappeared when I hit the switch.",
+      "Quote: Larian for the love of all that is holy, fix your game please."
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 4,
+    "segment_label": "adamantine_forge_grym",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

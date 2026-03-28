@@ -1,0 +1,57 @@
+[
+  {
+    "agent_kind": "friction",
+    "source_label": "controls",
+    "absolute_seconds": 748.0,
+    "absolute_timestamp": "12:28",
+    "summary": "The game's restrictive teleportation targeting logic on irregular cave geometry makes finding a valid landing spot difficult.",
+    "game_context": "The player is attempting to use a high-value consumable scroll to reposition their party across complex, uneven terrain.",
+    "evidence": [
+      "Multiple rapid targeting attempts",
+      "Error messages displayed: 'Not enough space' and 'Target is blocked'",
+      "Silence",
+      "Scene: On a cliffside path in the Morphic Pool area, attempting to use a 'Scroll of Dimension Door' to bypass environmental obstacles."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 2,
+    "segment_label": "morphie_pool_exploration",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "controls",
+    "absolute_seconds": 902.0,
+    "absolute_timestamp": "15:02",
+    "summary": "The character's pathfinding is blocked by small environmental rocks/debris between them and the target.",
+    "game_context": "Character pathfinding to interactable objects in cramped spaces.",
+    "evidence": [
+      "Red error message 'Can't get there' appears twice",
+      "Character stalls briefly against environment collision",
+      "Scene: Aidan attempting to loot a wooden crate located in a narrow corner near a campsite."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": "morphie_pool_exploration",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "clarity"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

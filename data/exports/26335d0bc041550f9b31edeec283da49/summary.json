@@ -1,0 +1,28 @@
+{
+  "video_id": "26335d0bc041550f9b31edeec283da49",
+  "game_title": "Baldur's Gate 3",
+  "game_key": "baldur_s_gate_3",
+  "duration_seconds": 1200.0,
+  "chunk_count": 5,
+  "overall_friction": "minor",
+  "overall_engagement": "strong",
+  "overall_stop_risk": "none",
+  "bug_count": 0,
+  "avg_sentiment": 1.92,
+  "sentiment_by_segment": {
+    "house_of_hope_foyer": 1.0,
+    "raphael_confrontation": 2.0,
+    "house_of_hope_boss": 2.83,
+    "raphael_boss_fight": 2.0
+  },
+  "total_retry_sequences": 0,
+  "first_attempt_failure_count": 0,
+  "notable_quotes": [],
+  "session_health_score": 92,
+  "priority_actions": [
+    "Add a range-check indicator to hotbar spell icons that updates as the player hovers over the battlefield.",
+    "Refine targeting visualization for vertical architecture to clearly show why a path is interrupted on stairs.",
+    "Verify that all high-level boss environmental mechanics (like Soul Pillars) maintain a 1:1 ratio of mechanical destruction to visual spectacle."
+  ],
+  "top_highlight": "The transition from dialogue to combat is accompanied by a dramatic visual payoff and one of the game's most celebrated musical tracks. The player's refusal to skip the cinematic indicates high narrat"
+}

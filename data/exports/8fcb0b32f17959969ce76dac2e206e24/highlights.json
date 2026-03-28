@@ -1,0 +1,215 @@
+{
+  "video_id": "8fcb0b32f17959969ce76dac2e206e24",
+  "total_moments_analyzed": 106,
+  "highlights": [
+    {
+      "rank": 1,
+      "absolute_timestamp": "3:41",
+      "absolute_seconds": 221.0,
+      "clip_start_seconds": 211.0,
+      "clip_end_seconds": 231.0,
+      "category": "critical_friction",
+      "headline": "A technical bug causing a full application crash.",
+      "why_important": "Severity 7/10, confidence 100%",
+      "evidence": [
+        "The game screen freezes",
+        "Screen cuts to black",
+        "Sarcastic tone",
+        "Scene: During the initial nautiloid combat after using Vicious Mockery.",
+        "Expression: None visible"
+      ],
+      "importance_score": 18.48,
+      "corroborating_agents": [
+        "quality",
+        "retry",
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 2,
+      "absolute_timestamp": "18:51",
+      "absolute_seconds": 1131.0,
+      "clip_start_seconds": 1121.0,
+      "clip_end_seconds": 1141.0,
+      "category": "critical_friction",
+      "headline": "Technical bug causing a boss to de-render during an active fight.",
+      "why_important": "Severity 7/10, confidence 100%",
+      "evidence": [
+        "Boss model (Grym) becomes invisible or de-renders",
+        "Player hovers cursor over empty space searching for the target",
+        "Raised voice",
+        "Panicked tone",
+        "Aggressive delivery"
+      ],
+      "importance_score": 18.48,
+      "corroborating_agents": [
+        "clarity",
+        "quality",
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 3,
+      "absolute_timestamp": "12:39",
+      "absolute_seconds": 759.0,
+      "clip_start_seconds": 749.0,
+      "clip_end_seconds": 769.0,
+      "category": "player_feedback",
+      "headline": "The run was going well, but I wasn't really having much fun. I decided that to give Bard a fair shot, I needed to try an",
+      "why_important": "Severity 10/10, confidence 100%",
+      "evidence": [
+        "Tone: excited",
+        "Category: praise",
+        "Actionable: Early Bard subclasses (Glamour) may lack the immediate tactical satisfaction of Swords, potentially leading players to abandon the class before it reaches its power spikes."
+      ],
+      "importance_score": 17.1,
+      "corroborating_agents": [
+        "delight",
+        "friction",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 4,
+      "absolute_timestamp": "13:30",
+      "absolute_seconds": 810.0,
+      "clip_start_seconds": 800.0,
+      "clip_end_seconds": 820.0,
+      "category": "player_feedback",
+      "headline": "Extra attack? Are you fucking kidding me? You're telling me I get all these cool combat options, spells, and the easiest",
+      "why_important": "Severity 10/10, confidence 90%",
+      "evidence": [
+        "Tone: excited",
+        "Category: praise"
+      ],
+      "importance_score": 14.4,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 5,
+      "absolute_timestamp": "6:44",
+      "absolute_seconds": 404.0,
+      "clip_start_seconds": 394.0,
+      "clip_end_seconds": 414.0,
+      "category": "player_feedback",
+      "headline": "I hit my seventh Nat 20? What the fuck? Luck will and Karlach? Okay wait, let me just slow down here for a second.",
+      "why_important": "Severity 10/10, confidence 75%",
+      "evidence": [
+        "Tone: excited",
+        "Category: reaction"
+      ],
+      "importance_score": 11.7,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 6,
+      "absolute_timestamp": "5:02",
+      "absolute_seconds": 302.0,
+      "clip_start_seconds": 292.0,
+      "clip_end_seconds": 312.0,
+      "category": "player_feedback",
+      "headline": "Hit my third Nat 20 when trying to scare off these adventurers outside of the ruins. Bards just get more Nat 20s or some",
+      "why_important": "Severity 8/10, confidence 90%",
+      "evidence": [
+        "Tone: surprised",
+        "Category: reaction"
+      ],
+      "importance_score": 11.52,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 7,
+      "absolute_timestamp": "16:47",
+      "absolute_seconds": 1007.0,
+      "clip_start_seconds": 997.0,
+      "clip_end_seconds": 1017.0,
+      "category": "player_feedback",
+      "headline": "I think as a Bard you can basically just convince anyone to do anything, it's insane.",
+      "why_important": "Severity 8/10, confidence 90%",
+      "evidence": [
+        "Tone: excited",
+        "Category: praise"
+      ],
+      "importance_score": 11.52,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 8,
+      "absolute_timestamp": "18:15",
+      "absolute_seconds": 1095.0,
+      "clip_start_seconds": 1085.0,
+      "clip_end_seconds": 1105.0,
+      "category": "player_feedback",
+      "headline": "Just using your voice in this game could be an incredibly powerful weapon.",
+      "why_important": "Severity 8/10, confidence 90%",
+      "evidence": [
+        "Tone: neutral",
+        "Category: praise"
+      ],
+      "importance_score": 11.52,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 9,
+      "absolute_timestamp": "12:03",
+      "absolute_seconds": 723.0,
+      "clip_start_seconds": 713.0,
+      "clip_end_seconds": 733.0,
+      "category": "critical_friction",
+      "headline": "Difficulty spike in a high-stakes (Honor Mode) environment nearly ending the entire playthrough.",
+      "why_important": "Severity 5/10, confidence 95%",
+      "evidence": [
+        "Party health bars at near-zero",
+        "Rapidly clicking through character turns",
+        "Bulette leaping away while party is critical",
+        "Lowered, tense vocal volume",
+        "Deep exhale"
+      ],
+      "importance_score": 11.4,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 10,
+      "absolute_timestamp": "10:20",
+      "absolute_seconds": 620.0,
+      "clip_start_seconds": 610.0,
+      "clip_end_seconds": 630.0,
+      "category": "critical_friction",
+      "headline": "The player realized a major quest line is permanently blocked due to the permadeath mechanic affecting an essential NPC.",
+      "why_important": "Severity 5/10, confidence 80%",
+      "evidence": [
+        "Checks Halsin's inventory for loot",
+        "Abrupt cut to black and white cinematic filter during realization",
+        "Shocked tone",
+        "Slower speech pattern",
+        "Disappointed delivery"
+      ],
+      "importance_score": 9.6,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment"
+      ]
+    }
+  ],
+  "one_line_verdict": "A technical bug causing a full application crash."
+}

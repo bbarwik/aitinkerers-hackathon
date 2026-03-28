@@ -1,0 +1,2665 @@
+{
+  "video_id": "f0df9fa3bbe0509d848162a83286ec85",
+  "filename": "2d6wO7enBoQ.youtube",
+  "duration_seconds": 1200.0,
+  "chunk_count": 5,
+  "game_title": "Baldur's Gate 3",
+  "game_key": "baldur_s_gate_3",
+  "session_arc": "[0:00-5:00] The segment starts with a neutral, automated vibe during the intro, transitioning into a relaxed and somewhat distracted state as the player begins the game while multitasking with a meal.\n[4:00-9:00] The player remains in a relaxed, casual state, focused on administrative tasks like looting and inventory management while chatting with friends.\n[8:00-13:00] The player remains relaxed and focused on looting and inventory management throughout the segment, with a brief moment of excitement after a quick combat encounter.\n[12:00-17:00] The player maintains a casual, conversational tone throughout, moving from focused looting to lighthearted banter at the camp and concluding with satisfaction after finding useful gear for their party.\n[16:00-20:00] The player remains in a calm and focused state throughout the segment, showing brief moments of surprise and satisfaction when finding good items for trade. The tone is relaxed as they handle party management and crafting.",
+  "friction_moments": [
+    {
+      "agent_kind": "friction",
+      "source_label": "other",
+      "absolute_seconds": 277.0,
+      "absolute_timestamp": "4:37",
+      "summary": "The player is distracted by a non-functional stream extension that is failing to integrate with the gameplay session.",
+      "game_context": "Twitch stream extension setup",
+      "evidence": [
+        "Character stands idle",
+        "Slow camera rotation",
+        "Heavy breathing",
+        "Matter-of-fact tone",
+        "Scene: Exploring a ruined interior house in the Decrepit Village.",
+        "Quote: Oh, I need to remember to remove that companion app off of Twitch because it doesn't work with..."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 1,
+      "segment_label": null,
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "camera",
+      "absolute_seconds": 294.0,
+      "absolute_timestamp": "4:54",
+      "summary": "The visual density and lighting of the ruins make it difficult for the player to confirm they have completely cleared a room of loot.",
+      "game_context": "Searching for hidden or missed interactable objects",
+      "evidence": [
+        "Jerky camera scanning",
+        "Character circling a small area repeatedly",
+        "Confused tone",
+        "Scene: Examining a small corner of a ruined structure near purple crystals.",
+        "Quote: Wait, what am I missing?"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 1,
+      "segment_label": "underdark_navigation",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "repetition",
+      "absolute_seconds": 400.0,
+      "absolute_timestamp": "6:40",
+      "summary": "The player reaches their maximum carry weight after picking up heavy items like pickaxes and crates, triggering a movement penalty.",
+      "game_context": "Inventory weight capacity mechanic",
+      "evidence": [
+        "Encumbered condition text appears",
+        "Character movement speed immediately slows to a crawl",
+        "Slightly annoyed tone",
+        "Scene: Looting corpses near a campfire on the lower level of the village.",
+        "Quote: That's not good."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 1,
+      "segment_label": "decrepit_village_exploration",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "repetition",
+      "absolute_seconds": 541.0,
+      "absolute_timestamp": "9:01",
+      "summary": "The accumulation of mundane items like pickaxes and crates continues to trigger movement penalties, forcing the player to spend more time in menus than in the game world.",
+      "game_context": "Carry weight capacity mechanics",
+      "evidence": [
+        "Encumbered status remains visible",
+        "Slow character walk speed",
+        "Frequent menu opening",
+        "Flat, tired tone",
+        "Scene: Inside a ruined house in the Decrepit Village, Alice is searching through sacks and barrels.",
+        "Quote: I'm still encumbered."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 2,
+      "segment_label": "decrepit_village_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "other",
+      "absolute_seconds": 1068.0,
+      "absolute_timestamp": "17:48",
+      "summary": "The player attempted to purchase a large batch of high-value consumables (Potions of Greater Healing, Elixirs) simultaneously, exceeding her current liquid gold amount.",
+      "game_context": "Trade and Currency Economy",
+      "evidence": [
+        "\"Insufficient Gold\" system error window appearing over the trade menu",
+        "Transaction blocked despite items being selected",
+        "Defeated, sighing tone",
+        "Scene: Trade menu with Derryth Bonecloak after selecting several expensive elixirs and potions.",
+        "Quote: Oh no, I do not have enough gold on me."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "ebonlake_grotto_trading",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "retry",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "clarity_moments": [
+    {
+      "agent_kind": "clarity",
+      "source_label": "other",
+      "absolute_seconds": 294.0,
+      "absolute_timestamp": "4:54",
+      "summary": "Clearer visual contrast for small interactable loot items against the cluttered background.",
+      "game_context": "Finish looting the room and proceed to the next area.",
+      "evidence": [
+        "Rapid camera rotation within a tiny radius",
+        "Repeatedly highlighting the same few empty containers",
+        "Hesitant tone",
+        "Soft muttering",
+        "Scene: Alice is exploring a small ruined shack filled with barrels and purple crystals.",
+        "Quote: Wait, what am I missing?"
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 1,
+      "segment_label": "underdark_navigation",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "friction",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "poor_feedback",
+      "absolute_seconds": 498.0,
+      "absolute_timestamp": "8:18",
+      "summary": "Indication that the container is 'Too high' or 'Out of reach' before attempting the interaction.",
+      "game_context": "Identify that the container is out of reach and requires a ranged action or jumping to access.",
+      "evidence": [
+        "Hovering the cursor over the container several times",
+        "The UI displays the 'Use' prompt",
+        "Character moves in small circles directly underneath the item",
+        "Abrupt silence from the player while teammates continue talking",
+        "Scene: Alice is standing near a wooden scaffolding, looking up at a 'Rope Netting' container suspended in the air."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 1,
+      "segment_label": "decrepit_village_exploration",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "poor_feedback",
+      "absolute_seconds": 515.0,
+      "absolute_timestamp": "8:35",
+      "summary": "A more prominent 'Party Member in Combat' UI alert that halts exploration or menu navigation for the group.",
+      "game_context": "Coordinate party aggression or identify hostile NPCs before combat begins.",
+      "evidence": [
+        "Alice is idle in inventory menus while the combat log shows teammates attacking Lurgan",
+        "Teammate character models are engaged in combat nearby",
+        "Surprised tone",
+        "Teammate announcing they are in a fight",
+        "Scene: Decrepit Village, near a campfire while looting corpses.",
+        "Quote: Wait what? ... Oh, he made them mad? That makes sense."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 2,
+      "segment_label": "decrepit_village_exploration",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "other",
+      "absolute_seconds": 651.0,
+      "absolute_timestamp": "10:51",
+      "summary": "Clearer visual highlighting of valid landing affordances on vertical climbable terrain.",
+      "game_context": "Use the Jump action to navigate up the cliffside path.",
+      "evidence": [
+        "Repeated 'Not enough space' and 'Invalid Target' UI errors",
+        "Red targeting circles on seemingly valid landing zones",
+        "Alice repositioning and re-aiming the jump tool four times",
+        "Focus silence",
+        "Scene: A cliffside ledge with 'Cragged Rock' markers in the Decrepit Village."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 2,
+      "segment_label": "inventory_management",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "missing_signpost",
+      "absolute_seconds": 794.0,
+      "absolute_timestamp": "13:14",
+      "summary": "Persistent NPC icons or nameplates at the campsite when party members are not currently in the active group.",
+      "game_context": "Locate Wyll's tent to initiate dialogue and swap him into the active party.",
+      "evidence": [
+        "Character wandering through the campsite",
+        "Camera rotation searching for specific NPC models",
+        "Stopping movement to scan the environment",
+        "Questioning tone",
+        "Heavy breathing",
+        "Scene: The campsite in the Underdark, near several tents and giant mushrooms.",
+        "Quote: Now I have to go find Wyll."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 3,
+      "segment_label": "campsite",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "tutorial_gap",
+      "absolute_seconds": 971.0,
+      "absolute_timestamp": "16:11",
+      "summary": "More immediate visual feedback or a summary of complex status effects within the primary item tooltip to reduce 'nested tooltip' fatigue.",
+      "game_context": "Understand the secondary status effect 'Reverberation' to evaluate the item's worth.",
+      "evidence": [
+        "Lingering on a specific item tooltip",
+        "Cursor moving back and forth over the 'Reverberation' keyword",
+        "Surprised tone",
+        "Reading technical terms aloud",
+        "Scene: Trade menu with Omeluum, inspecting the 'Boots of Stormy Clamour'.",
+        "Quote: Wait, what?",
+        "Quote: Wait he has those?",
+        "Quote: The Boots of Stormy Clamour... What's Reverberation?"
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 3,
+      "segment_label": "ebonlake_grotto",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "delight",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "poor_feedback",
+      "absolute_seconds": 1068.0,
+      "absolute_timestamp": "17:48",
+      "summary": "Real-time visual comparison of 'Total Transaction Cost' vs 'Current Party Gold' (e.g., coloring the cost text red when funds are insufficient) before the player attempts to confirm.",
+      "game_context": "Calculate the total cost of items in the 'Trade' column against current party gold before hitting confirm.",
+      "evidence": [
+        "Modal popup 'Insufficient Gold' interrupts the trade",
+        "Player hovers over various items in their own inventory to find things to sell",
+        "Repeatedly opening the 'Change Amount' slider for multiple items",
+        "Surprised tone",
+        "Disappointed exhale",
+        "Scene: Trade menu with Derryth Bonecloak, attempting to finalize a bulk purchase of potions and elixirs.",
+        "Quote: Oh no...",
+        "Quote: I do not have enough gold on me."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 4,
+      "segment_label": "ebonlake_grotto_trading",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "friction",
+        "retry",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "delight_moments": [
+    {
+      "agent_kind": "delight",
+      "source_label": "exploration",
+      "absolute_seconds": 313.0,
+      "absolute_timestamp": "5:13",
+      "summary": "The party is moving beyond the immediate looting to long-term navigation, showing a shared curiosity about the Myconid Colony and the Underdark's layout.",
+      "game_context": "Coordination with party members on the next objective after clearing the immediate area.",
+      "evidence": [
+        "Voluntary map navigation",
+        "Pinging map locations",
+        "Focused discussion about objectives",
+        "Scene: The player has the world map open and is navigating the area around the Underdark - Beach and Decrepit Village.",
+        "Quote: So where we going?"
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 1,
+      "segment_label": "underdark_navigation",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "progression",
+      "absolute_seconds": 454.0,
+      "absolute_timestamp": "7:34",
+      "summary": "Finding rare loot in a mundane scavenging loop provides a hit of progression dopamine and rewards the player's thoroughness in looting every barrel and corpse.",
+      "game_context": "Discovering a Rare +2 armor upgrade while scavenging.",
+      "evidence": [
+        "Focused menu hovering",
+        "Stat comparison",
+        "Pause in casual chatter",
+        "Scene: Inside the character inventory menu, inspecting the newly acquired 'Drow Studded Leather Armor'."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 1,
+      "segment_label": "inventory_management",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "other",
+      "absolute_seconds": 480.0,
+      "absolute_timestamp": "8:00",
+      "summary": "The casual social mastery of the group allows them to treat unexpected combat as a humorous anecdote rather than a point of friction.",
+      "game_context": "Reacting to a teammate's accidental agro of an NPC.",
+      "evidence": [
+        "Continuing looting during teammate's combat explanation",
+        "Lighthearted tone during social banter",
+        "Scene: The player is looting a corpse near a campfire while a teammate explains how an accidental fight started.",
+        "Quote: He made them mad, that makes sense."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 1,
+      "segment_label": null,
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "progression",
+      "absolute_seconds": 510.0,
+      "absolute_timestamp": "8:30",
+      "summary": "The player appreciates the efficient gain of experience points for a fight they barely had to participate in, maintaining the flow of exploration.",
+      "game_context": "The quick resolution of a minor combat encounter resulting in easy progression.",
+      "evidence": [
+        "XP gain notification",
+        "Resuming looting immediately",
+        "Lighthearted laugh",
+        "Satisfied tone",
+        "Scene: Near a campfire in the Decrepit Village after a teammate kills the remaining enemy, Corvus Major.",
+        "Quote: That was 40 experience."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 2,
+      "segment_label": "decrepit_village_exploration",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "clarity",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "discovery",
+      "absolute_seconds": 645.0,
+      "absolute_timestamp": "10:45",
+      "summary": "The combination of the environmental ping and the need for a tactical jump rewards the player's spatial awareness and curiosity.",
+      "game_context": "Discovering hidden loot on a vertical platform triggered by a passive perception ping.",
+      "evidence": [
+        "Purposeful jumping maneuver",
+        "Highlighting a hidden nest",
+        "Acquiring a Gold Necklace",
+        "Intrigued tone",
+        "Focused silence while navigating",
+        "Scene: On a high wooden platform in the Decrepit Village after a successful perception check.",
+        "Quote: Something over there."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 2,
+      "segment_label": "inventory_management",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "exploration",
+      "absolute_seconds": 670.0,
+      "absolute_timestamp": "11:10",
+      "summary": "The immediate visual feedback of the group check succeeding piques the player's interest and provides a 'treasure hunting' feel.",
+      "game_context": "Succeeding a group survival check to reveal a buried dirt mound.",
+      "evidence": [
+        "Survival check success beam",
+        "Immediate camera rotation toward the ping",
+        "Selecting the 'Use' prompt to dig",
+        "Heightened curiosity in tone",
+        "Scene: Standing on a wooden bridge near a beam of light in the village ruins.",
+        "Quote: That's curious."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 2,
+      "segment_label": "inventory_management",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "mastery",
+      "absolute_seconds": 858.0,
+      "absolute_timestamp": "14:18",
+      "summary": "The player demonstrates mastery over the 'prep' phase of the game loop, utilizing ritual spells to optimize the party's movement speed without consuming spell slots, which provides a long-term efficiency boost.",
+      "game_context": "Systematically pre-buffing the entire party before venturing back out.",
+      "evidence": [
+        "Rapid menu inputs to select party members",
+        "Successive casting of Longstrider on multiple characters",
+        "Calm, efficient tone",
+        "Rhythmic sound effects of repeated spellcasting",
+        "Scene: At the campsite, Alice is preparing to leave with Wyll and Ziri.",
+        "Quote: Longstrider II... upcast... finish selection."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 3,
+      "segment_label": "ebonlake_grotto",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "discovery",
+      "absolute_seconds": 971.0,
+      "absolute_timestamp": "16:11",
+      "summary": "This is a high-discovery moment where the player's knowledge of the game's itemization (meta-mastery) meets a rewarding random or fixed vendor drop, providing immediate progression satisfaction.",
+      "game_context": "Discovering a specific, highly-desired item in a merchant's inventory.",
+      "evidence": [
+        "Quickly scanning vendor inventory",
+        "Hovering over the 'Boots of Stormy Clamour' immediately",
+        "Sudden increase in volume",
+        "Genuine surprise in tone",
+        "Scene: Opening the trade menu with Omeluum in the Ebonlake Grotto.",
+        "Quote: Oh he has those? Oh what? He has what? The Boots of Stormy Clamour? Oh my god... I bought them."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 3,
+      "segment_label": "ebonlake_grotto",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "mastery",
+      "absolute_seconds": 999.0,
+      "absolute_timestamp": "16:39",
+      "summary": "This shows party optimization mastery. The player isn't just buying items; she is identifying specific weaknesses (Wyll's lack of boots) and resolving them while thinking about alternative builds (Karlach).",
+      "game_context": "The player equips the newly purchased boots and considers the tactical distribution of gear across her party.",
+      "evidence": [
+        "Deliberate item comparison",
+        "Immediate equipping of new boots",
+        "Satisfied, calm tone",
+        "Explanatory narration",
+        "Scene: Character inventory screen for Wyll.",
+        "Quote: Because Wyll needed boots... Granted they would work good on Karlach too."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 4,
+      "segment_label": "inventory_management",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "mastery",
+      "absolute_seconds": 1159.0,
+      "absolute_timestamp": "19:19",
+      "summary": "This is a moment of resource mastery. After chunks of meticulous looting, the player experiences the payoff of having a vast library of ingredients to craft high-tier buffs like 'Potion of Speed' and 'Elixir of Heroism'.",
+      "game_context": "Alice utilizes the alchemy system to convert her stockpiled ingredients into useful consumables.",
+      "evidence": [
+        "Rapid clicking through crafting recipes",
+        "Systematic creation of multiple Elixirs and Potions",
+        "Focused silence",
+        "Steady rhythmic input sounds",
+        "Scene: The Alchemy interface screen."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 4,
+      "segment_label": "alchemy_crafting",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "humor",
+      "absolute_seconds": 1192.0,
+      "absolute_timestamp": "19:52",
+      "summary": "The player is back in a flow state, using humor to narrative her own progress. This indicates a high level of comfort and enjoyment with the world's atmosphere.",
+      "game_context": "Resuming exploration after a long management phase.",
+      "evidence": [
+        "Voluntary exploration off the main path",
+        "Looting enemy corpses",
+        "Lighthearted tone",
+        "Playful mock-narration",
+        "Scene: Walking through a cavern filled with blue glowing crystals.",
+        "Quote: I have slain the creature called Glub-a-glub-a-glub..."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 4,
+      "segment_label": "ebonlake_grotto_exploration",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "quality_issues": [
+    {
+      "agent_kind": "quality",
+      "source_label": "animation",
+      "absolute_seconds": 996.0,
+      "absolute_timestamp": "16:36",
+      "summary": "animation issue: NPC facial tentacles clipping through shoulder and collar mesh during Ending a dialogue or trade interaction with Omeluum.",
+      "game_context": "Ending a dialogue or trade interaction with Omeluum.",
+      "evidence": [
+        "NPC facial tentacles clipping through shoulder and collar mesh",
+        "None",
+        "Player reaction: Not noticed; player was focused on closing the trade menu.",
+        "Scene: Close-up dialogue with Omeluum in the Ebonlake Grotto."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "ebonlake_grotto_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "sentiment_moments": [
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 30.0,
+      "absolute_timestamp": "0:30",
+      "summary": "Stream has not officially started; waiting on intro screen.",
+      "game_context": "Static waiting screen with 'Stream Starting Soon' graphic.",
+      "evidence": [
+        "Trigger: Stream has not officially started; waiting on intro screen.",
+        "Visual: Static waiting screen with 'Stream Starting Soon' graphic.",
+        "Audio: Electronic background music only; no player audio.",
+        "Silence type: idle"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 0,
+      "segment_label": "stream_intro",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 60.0,
+      "absolute_timestamp": "1:00",
+      "summary": "Continued pre-stream wait.",
+      "game_context": "Static waiting screen.",
+      "evidence": [
+        "Trigger: Continued pre-stream wait.",
+        "Visual: Static waiting screen.",
+        "Audio: Electronic background music.",
+        "Silence type: idle"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 0,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 90.0,
+      "absolute_timestamp": "1:30",
+      "summary": "Continued pre-stream wait.",
+      "game_context": "Static waiting screen.",
+      "evidence": [
+        "Trigger: Continued pre-stream wait.",
+        "Visual: Static waiting screen.",
+        "Audio: Electronic background music.",
+        "Silence type: idle"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 0,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 120.0,
+      "absolute_timestamp": "2:00",
+      "summary": "Continued pre-stream wait.",
+      "game_context": "Static waiting screen.",
+      "evidence": [
+        "Trigger: Continued pre-stream wait.",
+        "Visual: Static waiting screen.",
+        "Audio: Electronic background music.",
+        "Silence type: idle"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 0,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 150.0,
+      "absolute_timestamp": "2:30",
+      "summary": "Continued pre-stream wait.",
+      "game_context": "Static waiting screen.",
+      "evidence": [
+        "Trigger: Continued pre-stream wait.",
+        "Visual: Static waiting screen.",
+        "Audio: Electronic background music.",
+        "Silence type: idle"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 0,
+      "segment_label": "stream_intro",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 180.0,
+      "absolute_timestamp": "3:00",
+      "summary": "AI bot begins reading chat messages aloud.",
+      "game_context": "Static waiting screen.",
+      "evidence": [
+        "Trigger: AI bot begins reading chat messages aloud.",
+        "Visual: Static waiting screen.",
+        "Audio: Automated voice-to-text system interacting with chat.",
+        "Silence type: idle"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 0,
+      "segment_label": "stream_intro",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 210.0,
+      "absolute_timestamp": "3:30",
+      "summary": "Gameplay begins; characters appear in the Decrepit Village.",
+      "game_context": "Exploration gameplay in a ruin filled with purple crystals.",
+      "evidence": [
+        "Trigger: Gameplay begins; characters appear in the Decrepit Village.",
+        "Visual: Exploration gameplay in a ruin filled with purple crystals.",
+        "Audio: In-game atmospheric sounds and player breathing.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 0,
+      "segment_label": "decrepit_village",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 240.0,
+      "absolute_timestamp": "4:00",
+      "summary": "Status update: 'Mage Hand disappeared'.",
+      "game_context": "Player is standing still while checking status icons.",
+      "evidence": [
+        "Trigger: Status update: 'Mage Hand disappeared'.",
+        "Visual: Player is standing still while checking status icons.",
+        "Audio: Player says 'Mage Hand disappeared' while chewing food.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 0,
+      "segment_label": "decrepit_village",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 270.0,
+      "absolute_timestamp": "4:30",
+      "summary": "Successful systematic looting of small items",
+      "game_context": "Alice scavenges sandals and writing tools from a ruined room.",
+      "evidence": [
+        "Trigger: Successful systematic looting of small items",
+        "Visual: Alice scavenges sandals and writing tools from a ruined room.",
+        "Audio: Focused silence; audible chewing as the player eats while exploring.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 1,
+      "segment_label": null,
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "friction",
+        "verbal"
+      ],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 300.0,
+      "absolute_timestamp": "5:00",
+      "summary": "Technical distraction with Twitch companion extension",
+      "game_context": "Alice pauses movement while rotating the camera aimlessly.",
+      "evidence": [
+        "Trigger: Technical distraction with Twitch companion extension",
+        "Visual: Alice pauses movement while rotating the camera aimlessly.",
+        "Audio: Slightly annoyed tone: 'I need to remember to remove that companion app.'"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 1,
+      "segment_label": "underdark_navigation",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "friction",
+        "verbal"
+      ],
+      "sentiment_raw_score": -1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 330.0,
+      "absolute_timestamp": "5:30",
+      "summary": "Team coordination using the map",
+      "game_context": "The world map is opened; the cursor hovers over the Myconid Colony area.",
+      "evidence": [
+        "Trigger: Team coordination using the map",
+        "Visual: The world map is opened; the cursor hovers over the Myconid Colony area.",
+        "Audio: Calm coordination: 'Where are we going?' followed by teammate's suggestion."
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 1,
+      "segment_label": "underdark_navigation",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 360.0,
+      "absolute_timestamp": "6:00",
+      "summary": "Transition to exploring the lower village levels",
+      "game_context": "Alice moves out to the balcony area and climbs down ladders.",
+      "evidence": [
+        "Trigger: Transition to exploring the lower village levels",
+        "Visual: Alice moves out to the balcony area and climbs down ladders.",
+        "Audio: Idle conversation with teammates about past kills."
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 1,
+      "segment_label": "decrepit_village_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 390.0,
+      "absolute_timestamp": "6:30",
+      "summary": "Acquiring useful consumable loot (Scroll of Aid)",
+      "game_context": "Looting 'Novice Garmor'; various items added to inventory.",
+      "evidence": [
+        "Trigger: Acquiring useful consumable loot (Scroll of Aid)",
+        "Visual: Looting 'Novice Garmor'; various items added to inventory.",
+        "Audio: Satisfied tone as Alice finds the scroll; light banter about the teammate starting a fight."
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 1,
+      "segment_label": "decrepit_village_exploration",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "friction",
+        "verbal"
+      ],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 420.0,
+      "absolute_timestamp": "7:00",
+      "summary": "Encountering 'Encumbered' state during looting",
+      "game_context": "'Encumbered' status appears over Alice; inventory screen is opened.",
+      "evidence": [
+        "Trigger: Encountering 'Encumbered' state during looting",
+        "Visual: 'Encumbered' status appears over Alice; inventory screen is opened.",
+        "Audio: Matter-of-fact tone: 'That's not good.'"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 1,
+      "segment_label": "inventory_management",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 450.0,
+      "absolute_timestamp": "7:30",
+      "summary": "Finding and inspecting rare equipment (Drow Studded Leather Armor)",
+      "game_context": "The inventory menu shows tooltips for Rare armor and a Very Rare item (The Spectator Eyes).",
+      "evidence": [
+        "Trigger: Finding and inspecting rare equipment (Drow Studded Leather Armor)",
+        "Visual: The inventory menu shows tooltips for Rare armor and a Very Rare item (The Spectator Eyes).",
+        "Audio: Alice is quiet while reading stats, showing engagement with the find.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 1,
+      "segment_label": "inventory_management",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 480.0,
+      "absolute_timestamp": "8:00",
+      "summary": "Inventory cleanup and redistribution",
+      "game_context": "Alice sends several heavy items to camp and moves others to teammates.",
+      "evidence": [
+        "Trigger: Inventory cleanup and redistribution",
+        "Visual: Alice sends several heavy items to camp and moves others to teammates.",
+        "Audio: Alice discusses enemy AI aggro logic while sorting items."
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 1,
+      "segment_label": null,
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 540.0,
+      "absolute_timestamp": "9:00",
+      "summary": "Continued systematic looting of mundane items.",
+      "game_context": "Exploration",
+      "evidence": [
+        "Trigger: Continued systematic looting of mundane items.",
+        "Visual: Exploration",
+        "Audio: Quietly discussing returning to camp to empty the inventory; standard administrative talk."
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 2,
+      "segment_label": "decrepit_village_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "friction"
+      ],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 570.0,
+      "absolute_timestamp": "9:30",
+      "summary": "Finding narrative-heavy items (Sputtered Diary).",
+      "game_context": "Exploration",
+      "evidence": [
+        "Trigger: Finding narrative-heavy items (Sputtered Diary).",
+        "Visual: Exploration",
+        "Audio: Focused on gathering items from the upper level of the ruins.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 2,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 600.0,
+      "absolute_timestamp": "10:00",
+      "summary": "Clarifying game state (party rest status).",
+      "game_context": "Stalling",
+      "evidence": [
+        "Trigger: Clarifying game state (party rest status).",
+        "Visual: Stalling",
+        "Audio: Teammate explains why they didn't realize they had rested; Alice acknowledges logically."
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 2,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 630.0,
+      "absolute_timestamp": "10:30",
+      "summary": "Engagement with environmental lore.",
+      "game_context": "Exploration",
+      "evidence": [
+        "Trigger: Engagement with environmental lore.",
+        "Visual: Exploration",
+        "Audio: Silent while opening the book 'A is for Azuth'.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 2,
+      "segment_label": "inventory_management",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 670.0,
+      "absolute_timestamp": "11:10",
+      "summary": "Hidden discovery (Successful Survival Check).",
+      "game_context": "Success",
+      "evidence": [
+        "Trigger: Hidden discovery (Successful Survival Check).",
+        "Visual: Success",
+        "Audio: Alice exclaims 'That's curious' with genuine interest as a dirt mound is revealed."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 2,
+      "segment_label": "inventory_management",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 701.0,
+      "absolute_timestamp": "11:41",
+      "summary": "Uncovering a hidden chest.",
+      "game_context": "Success",
+      "evidence": [
+        "Trigger: Uncovering a hidden chest.",
+        "Visual: Success",
+        "Audio: Quiet focused breathing while digging and searching the resulting chest.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 2,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 735.0,
+      "absolute_timestamp": "12:15",
+      "summary": "Discussing character class utility and cantrips.",
+      "game_context": "Exploration",
+      "evidence": [
+        "Trigger: Discussing character class utility and cantrips.",
+        "Visual: Exploration",
+        "Audio: Alice expresses confidence in her class choice: 'That's why I like having a caster... Ray of Frost is a cantrip.'"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 2,
+      "segment_label": null,
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 787.0,
+      "absolute_timestamp": "13:07",
+      "summary": "Arriving at the campsite and focusing on the next administrative task.",
+      "game_context": "exploration",
+      "evidence": [
+        "Trigger: Arriving at the campsite and focusing on the next administrative task.",
+        "Visual: exploration",
+        "Audio: Focused: 'Now I have to go find Wyll.'"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 3,
+      "segment_label": "campsite",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "clarity"
+      ],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 820.0,
+      "absolute_timestamp": "13:40",
+      "summary": "Smooth dialogue interaction to cycle party members.",
+      "game_context": "success",
+      "evidence": [
+        "Trigger: Smooth dialogue interaction to cycle party members.",
+        "Visual: success",
+        "Audio: Efficiently clicking through dialogue options; steady breathing.",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 3,
+      "segment_label": "campsite",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 852.0,
+      "absolute_timestamp": "14:12",
+      "summary": "Successfully adding Wyll back to the active party.",
+      "game_context": "success",
+      "evidence": [
+        "Trigger: Successfully adding Wyll back to the active party.",
+        "Visual: success",
+        "Audio: Satisfied tone: 'Okay Wyll, I need you again.'"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 3,
+      "segment_label": null,
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 887.0,
+      "absolute_timestamp": "14:47",
+      "summary": "Loading into the Ebonlake Grotto and seeing the vibrant hub.",
+      "game_context": "exploration",
+      "evidence": [
+        "Trigger: Loading into the Ebonlake Grotto and seeing the vibrant hub.",
+        "Visual: exploration",
+        "Audio: Bantering with teammates about character locations."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 3,
+      "segment_label": "ebonlake_grotto",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 919.0,
+      "absolute_timestamp": "15:19",
+      "summary": "Initiating trade with a familiar NPC (Blurg).",
+      "game_context": "exploration",
+      "evidence": [
+        "Trigger: Initiating trade with a familiar NPC (Blurg).",
+        "Visual: exploration",
+        "Audio: Friendly, welcoming tone towards the game's world."
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 3,
+      "segment_label": "ebonlake_grotto",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "excited",
+      "absolute_seconds": 956.0,
+      "absolute_timestamp": "15:56",
+      "summary": "Identifying a highly desirable item (Boots of Stormy Clamour) in Omeluum's shop.",
+      "game_context": "success",
+      "evidence": [
+        "Trigger: Identifying a highly desirable item (Boots of Stormy Clamour) in Omeluum's shop.",
+        "Visual: success",
+        "Audio: Excited exclamation: 'The Boots of Stormy Clamour... that's what!'"
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 3,
+      "segment_label": "ebonlake_grotto",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 5,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 1005.0,
+      "absolute_timestamp": "16:45",
+      "summary": "Equipping the newly purchased boots on Wyll",
+      "game_context": "Success",
+      "evidence": [
+        "Trigger: Equipping the newly purchased boots on Wyll",
+        "Visual: Success",
+        "Audio: Satisfied narrative commentary: \"Wyll needed boots.\""
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "inventory_management",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 1034.0,
+      "absolute_timestamp": "17:14",
+      "summary": "Conversing with party members about gear distribution",
+      "game_context": "Exploration",
+      "evidence": [
+        "Trigger: Conversing with party members about gear distribution",
+        "Visual: Exploration",
+        "Audio: Casual, conversational tone regarding Karlach"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 4,
+      "segment_label": "ebonlake_grotto_trading",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "frustrated",
+      "absolute_seconds": 1068.0,
+      "absolute_timestamp": "17:48",
+      "summary": "Receives 'Insufficient Gold' error during trade with Derryth",
+      "game_context": "Failure",
+      "evidence": [
+        "Trigger: Receives 'Insufficient Gold' error during trade with Derryth",
+        "Visual: Failure",
+        "Audio: Disappointed realization: \"Oh no... I did not have enough gold on me.\""
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 4,
+      "segment_label": "ebonlake_grotto_trading",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "retry",
+        "verbal"
+      ],
+      "sentiment_raw_score": -1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 1106.0,
+      "absolute_timestamp": "18:26",
+      "summary": "Systematically selling junk to complete the desired trade",
+      "game_context": "Stalling",
+      "evidence": [
+        "Trigger: Systematically selling junk to complete the desired trade",
+        "Visual: Stalling",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 4,
+      "segment_label": null,
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 0,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 1131.0,
+      "absolute_timestamp": "18:51",
+      "summary": "Finalizing the purchase of multiple scrolls and potions",
+      "game_context": "Success",
+      "evidence": [
+        "Trigger: Finalizing the purchase of multiple scrolls and potions",
+        "Visual: Success",
+        "Audio: Calmly narrating the items being purchased"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 4,
+      "segment_label": "alchemy_crafting",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 1160.0,
+      "absolute_timestamp": "19:20",
+      "summary": "Extracting alchemy ingredients in bulk",
+      "game_context": "Success",
+      "evidence": [
+        "Trigger: Extracting alchemy ingredients in bulk",
+        "Visual: Success",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 4,
+      "segment_label": "alchemy_crafting",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 1191.0,
+      "absolute_timestamp": "19:51",
+      "summary": "Crafting high-tier elixirs (Heroism, Peerless Focus)",
+      "game_context": "Success",
+      "evidence": [
+        "Trigger: Crafting high-tier elixirs (Heroism, Peerless Focus)",
+        "Visual: Success",
+        "Audio: Silent",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 4,
+      "segment_label": "ebonlake_grotto_exploration",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 1199.0,
+      "absolute_timestamp": "19:59",
+      "summary": "Entering a new cave area and commenting on a slain creature",
+      "game_context": "Exploration",
+      "evidence": [
+        "Trigger: Entering a new cave area and commenting on a slain creature",
+        "Visual: Exploration",
+        "Audio: Amused reading of creature name: \"Glub-a-glub-a-glub...\""
+      ],
+      "severity_numeric": 1,
+      "source_chunk_index": 4,
+      "segment_label": "ebonlake_grotto_exploration",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 1,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "retry_moments": [
+    {
+      "agent_kind": "retry",
+      "source_label": "decrepit_village_navigation",
+      "absolute_seconds": 641.0,
+      "absolute_timestamp": "10:41",
+      "summary": "4 attempts at decrepit_village_navigation, outcome: succeeded",
+      "game_context": "Decrepit Village, climbing a ledge towards the upper huts.",
+      "evidence": [
+        "Attempt 1: failed (The player continues a calm, casual conversation with a teammate about their previous rest at camp.)",
+        "Attempt 2: failed (No observable change in posture or tone; conversation remains steady.)",
+        "Attempt 3: failed (Player is unfazed, continuing to recount previous gameplay sessions.)",
+        "Attempt 4: succeeded (Continues with the narrative without acknowledging the navigational difficulty.)",
+        "Frustration: stable"
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 2,
+      "segment_label": "decrepit_village_navigation",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": 4,
+      "retry_quit_signal": false,
+      "retry_final_outcome": "succeeded",
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "retry",
+      "source_label": "ebonlake_grotto_trading",
+      "absolute_seconds": 1068.0,
+      "absolute_timestamp": "17:48",
+      "summary": "3 attempts at ebonlake_grotto_trading, outcome: succeeded",
+      "game_context": "Myconid Colony, Derryth Bonecloak's shop",
+      "evidence": [
+        "Attempt 1: failed (Alice expresses surprise and verbally acknowledges her lack of funds: 'Oh no, I do not have enough gold on me.')",
+        "Attempt 2: failed (The player remains calm but focused, realizing they are still short on gold and continues to sift through their inventory for items to sell.)",
+        "Attempt 3: succeeded (Satisfaction as the trade completes, allowing her to move on to crafting.)",
+        "Frustration: stable"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 4,
+      "segment_label": "ebonlake_grotto_trading",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": 3,
+      "retry_quit_signal": false,
+      "retry_final_outcome": "succeeded",
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "verbal_moments": [
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 238.0,
+      "absolute_timestamp": "3:58",
+      "summary": "Mage Hand disappeared.",
+      "game_context": "The player sees a text notification on screen that their summoned Mage Hand has expired or been destroyed.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: narration"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 0,
+      "segment_label": "decrepit_village",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Mage Hand disappeared."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 250.0,
+      "absolute_timestamp": "4:10",
+      "summary": "And... fire wine barrel.",
+      "game_context": "The player identifies a flammable barrel in the ruins while looking for loot.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: narration"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 0,
+      "segment_label": "decrepit_village",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "And... fire wine barrel."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 277.0,
+      "absolute_timestamp": "4:37",
+      "summary": "Oh, I need to remember to remove that companion app off of Twitch because it doesn't work with...",
+      "game_context": "Mentioning stream maintenance while looting.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: narration"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 1,
+      "segment_label": null,
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "friction",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Oh, I need to remember to remove that companion app off of Twitch because it doesn't work with..."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "question",
+      "absolute_seconds": 294.0,
+      "absolute_timestamp": "4:54",
+      "summary": "Wait, what am I missing?",
+      "game_context": "Rotating camera and searching the room for missed loot.",
+      "evidence": [
+        "Tone: confused",
+        "Category: question",
+        "Actionable: In dense, multi-layered environments, players may feel they are missing items; ensure search-highlighting (e.g., holding Alt) is sufficiently intuitive or that level geometry doesn't occlude obvious chests."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 1,
+      "segment_label": "underdark_navigation",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "Wait, what am I missing?"
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "strategy",
+      "absolute_seconds": 350.0,
+      "absolute_timestamp": "5:50",
+      "summary": "I think we were going back to the Myconid colony so we can speak to the... let them know that we dorked the Duergar.",
+      "game_context": "Consulting the map to determine the next objective.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: strategy"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 1,
+      "segment_label": null,
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "I think we were going back to the Myconid colony so we can speak to the... let them know that we dorked the Duergar."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 390.0,
+      "absolute_timestamp": "6:30",
+      "summary": "Who? Lurgan? Oh, he's still around.",
+      "game_context": "A teammate mentions they found and engaged a leftover enemy.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: reaction"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 1,
+      "segment_label": "decrepit_village_exploration",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "friction",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Who? Lurgan? Oh, he's still around."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "question",
+      "absolute_seconds": 442.0,
+      "absolute_timestamp": "7:22",
+      "summary": "I didn't realize he actually aggroed, I thought he didn't know what went on down there.",
+      "game_context": "Discussing why Lurgan (NPC) attacked the party teammate.",
+      "evidence": [
+        "Tone: confused",
+        "Category: question",
+        "Actionable: Clarify NPC faction logic so players understand which individuals remain hostile after a group battle, especially if they are physically separated by terrain."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 1,
+      "segment_label": "inventory_management",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "I didn't realize he actually aggroed, I thought he didn't know what went on down there."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "praise",
+      "absolute_seconds": 452.0,
+      "absolute_timestamp": "7:32",
+      "summary": "Actually, this armor... the Studded Leather Armor is actually really good.",
+      "game_context": "Reviewing the stats of the Drow Studded Leather Armor in the inventory.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: praise"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 1,
+      "segment_label": "inventory_management",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Actually, this armor... the Studded Leather Armor is actually really good."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 500.0,
+      "absolute_timestamp": "8:20",
+      "summary": "I'm just finishing looting out this little camp that you left behind when you went to go loot that stuff up there.",
+      "game_context": "Explaining her delay to the teammate while scavenging.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: narration"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 1,
+      "segment_label": "decrepit_village_exploration",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "clarity",
+        "delight"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "I'm just finishing looting out this little camp that you left behind when you went to go loot that stuff up there."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 518.0,
+      "absolute_timestamp": "8:38",
+      "summary": "That's okay, finishing looting out this little camp that you left behind when you went to go loot that stuff up there.",
+      "game_context": "Alice explains why she is trailing behind her teammates as she systematically loots the area.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: narration"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 2,
+      "segment_label": "decrepit_village_exploration",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "clarity",
+        "delight"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "That's okay, finishing looting out this little camp that you left behind when you went to go loot that stuff up there."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 671.0,
+      "absolute_timestamp": "11:11",
+      "summary": "No, he always doesn't come down for the fight. He doesn't come down for the fight. I thought he left. But I never knew he stayed up here. I thought he left.",
+      "game_context": "Alice comments on the inconsistent behavior of an NPC ally (Lurgan/Corvus) who failed to join a previous combat encounter.",
+      "evidence": [
+        "Tone: amused",
+        "Category: reaction",
+        "Actionable: NPC allies should have consistent engagement triggers for nearby combat to avoid player confusion when they fail to participate."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 2,
+      "segment_label": "inventory_management",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "No, he always doesn't come down for the fight. He doesn't come down for the fight. I thought he left. But I never knew he stayed up here. I thought he left."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "praise",
+      "absolute_seconds": 731.0,
+      "absolute_timestamp": "12:11",
+      "summary": "That's why I like having... being a caster that knows, um, Ray of Frost as a cantrip. Because you can just put all the fire out.",
+      "game_context": "Alice expresses satisfaction with the utility of her spells for interacting with the environment (extinguishing firewine barrels).",
+      "evidence": [
+        "Tone: neutral",
+        "Category: praise",
+        "Actionable: Players highly value spells and cantrips with non-combat environmental utility; consider expanding these types of interactive elements."
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 2,
+      "segment_label": null,
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "That's why I like having... being a caster that knows, um, Ray of Frost as a cantrip. Because you can just put all the fire out."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 764.0,
+      "absolute_timestamp": "12:44",
+      "summary": "Maybe I should stop selling all your water bottles too.",
+      "game_context": "Alice jokes with her teammate about their habit of selling utility items that could be used for specific narrative/gameplay goals.",
+      "evidence": [
+        "Tone: amused",
+        "Category: narration"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 3,
+      "segment_label": "campsite",
+      "confidence_score": 0.6,
+      "corroborating_agents": [],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Maybe I should stop selling all your water bottles too."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "praise",
+      "absolute_seconds": 971.0,
+      "absolute_timestamp": "16:11",
+      "summary": "Actually he has those... the Boots of Stormy Clamour... oh what?",
+      "game_context": "The player is browsing Omeluum's trade inventory and discovers high-quality gear.",
+      "evidence": [
+        "Tone: excited",
+        "Category: praise"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 3,
+      "segment_label": "ebonlake_grotto",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Actually he has those... the Boots of Stormy Clamour... oh what?"
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "praise",
+      "absolute_seconds": 981.0,
+      "absolute_timestamp": "16:21",
+      "summary": "Wait, he has those? Yes! I bought them.",
+      "game_context": "The player confirms the purchase of rare equipment they were likely seeking or surprised to find at a vendor.",
+      "evidence": [
+        "Tone: excited",
+        "Category: praise"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 3,
+      "segment_label": "ebonlake_grotto_exploration",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "quality"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Wait, he has those? Yes! I bought them."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "strategy",
+      "absolute_seconds": 1004.0,
+      "absolute_timestamp": "16:44",
+      "summary": "Because Wyll needed boots... Granted they would work good on Karlach too.",
+      "game_context": "Equipping the newly purchased boots on Wyll and considering which party member benefits most.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: strategy"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "inventory_management",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Because Wyll needed boots... Granted they would work good on Karlach too."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "praise",
+      "absolute_seconds": 1031.0,
+      "absolute_timestamp": "17:11",
+      "summary": "Wait he has those? Yes! I bought them.",
+      "game_context": "Double-checking the inventory to confirm the purchase of the rare boots.",
+      "evidence": [
+        "Tone: excited",
+        "Category: praise"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 4,
+      "segment_label": "ebonlake_grotto_trading",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Wait he has those? Yes! I bought them."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "complaint",
+      "absolute_seconds": 1068.0,
+      "absolute_timestamp": "17:48",
+      "summary": "Oh no, I do not have enough gold on me.",
+      "game_context": "The 'Insufficient Gold' popup appears while trying to purchase multiple Potions of Greater Healing from Derryth.",
+      "evidence": [
+        "Tone: frustrated",
+        "Category: complaint",
+        "Actionable: Consider adding a 'Current Balance vs. Transaction Cost' preview in the trade window to help players avoid selecting more items than they can afford before attempting to confirm."
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 4,
+      "segment_label": "ebonlake_grotto_trading",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "retry",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "Oh no, I do not have enough gold on me."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 1147.0,
+      "absolute_timestamp": "19:07",
+      "summary": "There we go, I'm broke now.",
+      "game_context": "Finalizing the trade with Derryth and seeing the party's gold drop to near zero.",
+      "evidence": [
+        "Tone: amused",
+        "Category: reaction"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "alchemy_crafting",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "There we go, I'm broke now."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 1191.0,
+      "absolute_timestamp": "19:51",
+      "summary": "I have slain the creature called Glub-a-glub-a-glub...",
+      "game_context": "Moving through the Grotto and interacting with a dead creature or environmental asset.",
+      "evidence": [
+        "Tone: amused",
+        "Category: reaction"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 4,
+      "segment_label": "ebonlake_grotto_exploration",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "I have slain the creature called Glub-a-glub-a-glub..."
+    }
+  ],
+  "top_stop_risk_drivers": [
+    "other",
+    "repetition",
+    "camera"
+  ],
+  "top_praised_features": [
+    "mastery",
+    "exploration",
+    "progression",
+    "discovery",
+    "other"
+  ],
+  "top_clarity_fixes": [
+    "Clearer visual contrast for small interactable loot items against the cluttered background.",
+    "Indication that the container is 'Too high' or 'Out of reach' before attempting the interaction.",
+    "A more prominent 'Party Member in Combat' UI alert that halts exploration or menu navigation for the group.",
+    "Clearer visual highlighting of valid landing affordances on vertical climbable terrain.",
+    "Persistent NPC icons or nameplates at the campsite when party members are not currently in the active group."
+  ],
+  "bug_count": 1,
+  "overall_friction": "minor",
+  "overall_engagement": "clear",
+  "overall_stop_risk": "none",
+  "recommendations": [
+    "Reduce miscellaneous friction sources in the highest-risk gameplay beats.",
+    "Reduce repetitive gameplay in the highest-risk gameplay beats.",
+    "Prioritize this communication fix: Clearer visual contrast for small interactable loot items against the cluttered background.",
+    "Prioritize this communication fix: Indication that the container is 'Too high' or 'Out of reach' before attempting the interaction.",
+    "Triage the 1 visible technical issues surfaced during the session.",
+    "Protect and expand the strongest positives: mastery, exploration, progression."
+  ],
+  "avg_sentiment": 0.7,
+  "sentiment_by_segment": {
+    "stream_intro": 0.0,
+    "decrepit_village": 0.0,
+    "underdark_navigation": -0.5,
+    "decrepit_village_exploration": 0.33,
+    "inventory_management": 1.4,
+    "campsite": 1.0,
+    "ebonlake_grotto": 2.67,
+    "ebonlake_grotto_trading": 0.0,
+    "alchemy_crafting": 1.0,
+    "ebonlake_grotto_exploration": 1.0
+  },
+  "total_retry_sequences": 2,
+  "first_attempt_failure_count": 2,
+  "notable_quotes": [
+    "Wait, what am I missing?",
+    "I didn't realize he actually aggroed, I thought he didn't know what went on down there.",
+    "No, he always doesn't come down for the fight. He doesn't come down for the fight. I thought he left. But I never knew he stayed up here. I thought he left.",
+    "That's why I like having... being a caster that knows, um, Ray of Frost as a cantrip. Because you can just put all the fire out.",
+    "Oh no, I do not have enough gold on me."
+  ],
+  "segments_encountered": [
+    "alchemy_crafting",
+    "campsite",
+    "decrepit_village",
+    "decrepit_village_exploration",
+    "ebonlake_grotto",
+    "ebonlake_grotto_exploration",
+    "ebonlake_grotto_trading",
+    "inventory_management",
+    "stream_intro",
+    "underdark_navigation"
+  ],
+  "highlights": {
+    "video_id": "f0df9fa3bbe0509d848162a83286ec85",
+    "total_moments_analyzed": 83,
+    "highlights": [
+      {
+        "rank": 1,
+        "absolute_timestamp": "17:48",
+        "absolute_seconds": 1068.0,
+        "clip_start_seconds": 1058.0,
+        "clip_end_seconds": 1078.0,
+        "category": "retry_loop",
+        "headline": "3 attempts at ebonlake_grotto_trading, outcome: succeeded",
+        "why_important": "Severity 6/10, confidence 100%",
+        "evidence": [
+          "Attempt 1: failed (Alice expresses surprise and verbally acknowledges her lack of funds: 'Oh no, I do not have enough gold on me.')",
+          "Attempt 2: failed (The player remains calm but focused, realizing they are still short on gold and continues to sift through their inventory for items to sell.)",
+          "Attempt 3: succeeded (Satisfaction as the trade completes, allowing her to move on to crafting.)",
+          "Frustration: stable"
+        ],
+        "importance_score": 17.16,
+        "corroborating_agents": [
+          "clarity",
+          "friction",
+          "sentiment",
+          "verbal"
+        ]
+      },
+      {
+        "rank": 2,
+        "absolute_timestamp": "16:11",
+        "absolute_seconds": 971.0,
+        "clip_start_seconds": 961.0,
+        "clip_end_seconds": 981.0,
+        "category": "player_delight",
+        "headline": "This is a high-discovery moment where the player's knowledge of the game's itemization (meta-mastery) meets a rewarding ",
+        "why_important": "Severity 7/10, confidence 95%",
+        "evidence": [
+          "Quickly scanning vendor inventory",
+          "Hovering over the 'Boots of Stormy Clamour' immediately",
+          "Sudden increase in volume",
+          "Genuine surprise in tone",
+          "Scene: Opening the trade menu with Omeluum in the Ebonlake Grotto."
+        ],
+        "importance_score": 10.64,
+        "corroborating_agents": [
+          "clarity",
+          "sentiment",
+          "verbal"
+        ]
+      },
+      {
+        "rank": 3,
+        "absolute_timestamp": "10:41",
+        "absolute_seconds": 641.0,
+        "clip_start_seconds": 631.0,
+        "clip_end_seconds": 651.0,
+        "category": "retry_loop",
+        "headline": "4 attempts at decrepit_village_navigation, outcome: succeeded",
+        "why_important": "Severity 8/10, confidence 50%",
+        "evidence": [
+          "Attempt 1: failed (The player continues a calm, casual conversation with a teammate about their previous rest at camp.)",
+          "Attempt 2: failed (No observable change in posture or tone; conversation remains steady.)",
+          "Attempt 3: failed (Player is unfazed, continuing to recount previous gameplay sessions.)",
+          "Attempt 4: succeeded (Continues with the narrative without acknowledging the navigational difficulty.)",
+          "Frustration: stable"
+        ],
+        "importance_score": 10.4,
+        "corroborating_agents": []
+      },
+      {
+        "rank": 4,
+        "absolute_timestamp": "7:34",
+        "absolute_seconds": 454.0,
+        "clip_start_seconds": 444.0,
+        "clip_end_seconds": 464.0,
+        "category": "player_delight",
+        "headline": "Finding rare loot in a mundane scavenging loop provides a hit of progression dopamine and rewards the player's thoroughn",
+        "why_important": "Severity 5/10, confidence 80%",
+        "evidence": [
+          "Focused menu hovering",
+          "Stat comparison",
+          "Pause in casual chatter",
+          "Scene: Inside the character inventory menu, inspecting the newly acquired 'Drow Studded Leather Armor'."
+        ],
+        "importance_score": 6.4,
+        "corroborating_agents": [
+          "sentiment",
+          "verbal"
+        ]
+      },
+      {
+        "rank": 5,
+        "absolute_timestamp": "19:19",
+        "absolute_seconds": 1159.0,
+        "clip_start_seconds": 1149.0,
+        "clip_end_seconds": 1169.0,
+        "category": "player_delight",
+        "headline": "This is a moment of resource mastery. After chunks of meticulous looting, the player experiences the payoff of having a ",
+        "why_important": "Severity 5/10, confidence 80%",
+        "evidence": [
+          "Rapid clicking through crafting recipes",
+          "Systematic creation of multiple Elixirs and Potions",
+          "Focused silence",
+          "Steady rhythmic input sounds",
+          "Scene: The Alchemy interface screen."
+        ],
+        "importance_score": 6.4,
+        "corroborating_agents": [
+          "sentiment",
+          "verbal"
+        ]
+      },
+      {
+        "rank": 6,
+        "absolute_timestamp": "19:51",
+        "absolute_seconds": 1191.0,
+        "clip_start_seconds": 1181.0,
+        "clip_end_seconds": 1200.0,
+        "category": "player_feedback",
+        "headline": "I have slain the creature called Glub-a-glub-a-glub...",
+        "why_important": "Severity 4/10, confidence 90%",
+        "evidence": [
+          "Tone: amused",
+          "Category: reaction"
+        ],
+        "importance_score": 5.76,
+        "corroborating_agents": [
+          "delight",
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 7,
+        "absolute_timestamp": "4:54",
+        "absolute_seconds": 294.0,
+        "clip_start_seconds": 284.0,
+        "clip_end_seconds": 304.0,
+        "category": "clarity_failure",
+        "headline": "Clearer visual contrast for small interactable loot items against the cluttered background.",
+        "why_important": "Severity 3/10, confidence 95%",
+        "evidence": [
+          "Rapid camera rotation within a tiny radius",
+          "Repeatedly highlighting the same few empty containers",
+          "Hesitant tone",
+          "Soft muttering",
+          "Scene: Alice is exploring a small ruined shack filled with barrels and purple crystals."
+        ],
+        "importance_score": 5.7,
+        "corroborating_agents": [
+          "friction",
+          "sentiment",
+          "verbal"
+        ]
+      },
+      {
+        "rank": 8,
+        "absolute_timestamp": "14:18",
+        "absolute_seconds": 858.0,
+        "clip_start_seconds": 848.0,
+        "clip_end_seconds": 868.0,
+        "category": "player_delight",
+        "headline": "The player demonstrates mastery over the 'prep' phase of the game loop, utilizing ritual spells to optimize the party's ",
+        "why_important": "Severity 5/10, confidence 65%",
+        "evidence": [
+          "Rapid menu inputs to select party members",
+          "Successive casting of Longstrider on multiple characters",
+          "Calm, efficient tone",
+          "Rhythmic sound effects of repeated spellcasting",
+          "Scene: At the campsite, Alice is preparing to leave with Wyll and Ziri."
+        ],
+        "importance_score": 5.2,
+        "corroborating_agents": [
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 9,
+        "absolute_timestamp": "8:18",
+        "absolute_seconds": 498.0,
+        "clip_start_seconds": 488.0,
+        "clip_end_seconds": 508.0,
+        "category": "clarity_failure",
+        "headline": "Indication that the container is 'Too high' or 'Out of reach' before attempting the interaction.",
+        "why_important": "Severity 3/10, confidence 80%",
+        "evidence": [
+          "Hovering the cursor over the container several times",
+          "The UI displays the 'Use' prompt",
+          "Character moves in small circles directly underneath the item",
+          "Abrupt silence from the player while teammates continue talking",
+          "Scene: Alice is standing near a wooden scaffolding, looking up at a 'Rope Netting' container suspended in the air."
+        ],
+        "importance_score": 4.8,
+        "corroborating_agents": [
+          "delight",
+          "verbal"
+        ]
+      },
+      {
+        "rank": 10,
+        "absolute_timestamp": "12:11",
+        "absolute_seconds": 731.0,
+        "clip_start_seconds": 721.0,
+        "clip_end_seconds": 741.0,
+        "category": "player_feedback",
+        "headline": "That's why I like having... being a caster that knows, um, Ray of Frost as a cantrip. Because you can just put all the f",
+        "why_important": "Severity 4/10, confidence 75%",
+        "evidence": [
+          "Tone: neutral",
+          "Category: praise",
+          "Actionable: Players highly value spells and cantrips with non-combat environmental utility; consider expanding these types of interactive elements."
+        ],
+        "importance_score": 4.68,
+        "corroborating_agents": [
+          "sentiment"
+        ]
+      }
+    ],
+    "one_line_verdict": "3 attempts at ebonlake_grotto_trading, outcome: succeeded"
+  },
+  "executive": {
+    "executive_summary": "The playtest session focused on exploration of the Decrepit Village and Ebonlake Grotto, involving heavy inventory management, party recruitment at camp, and vendor transactions. The player engaged deeply with administrative loops, including systematic looting, alchemy crafting, and party buffing, maintaining a generally relaxed and focused tone throughout. Notable highlights included the high-delight discovery of meta-relevant items at a vendor and successful navigation of hidden environmental rewards via perception checks.\n\nCritical friction points were centered on the economy and navigation UI. The player encountered a significant 'Insufficient Gold' roadblock during a bulk trade (17:48) and faced repetitive navigational failures when attempting jumps on vertical terrain (10:41). Additionally, the accumulation of mundane items frequently triggered encumbrance penalties (6:40, 9:01), interrupting the exploration flow and forcing the player into extended menu management sessions to redistribute weight.\n\nStrengths to protect include the high satisfaction derived from environmental utility (e.g., using Ray of Frost for fire safety at 12:11) and the rewarding nature of the alchemy and equipment progression systems. The player's excitement upon finding specific gear like the 'Boots of Stormy Clamour' (16:11) suggests that the current itemization strategy effectively rewards players who engage with vendors and meta-knowledge, successfully buffering against the minor frustrations of inventory management.",
+    "key_findings": [
+      {
+        "evidence_summary": "At 17:48, the player attempted a bulk purchase that exceeded their current gold, leading to a frustrated 'Oh no' and a 3-attempt retry loop to manually sell junk items to complete the transaction.",
+        "affected_timestamps": [
+          "17:48",
+          "18:26"
+        ],
+        "finding": "The lack of real-time currency comparison in the trade window leads to high-friction transaction failures.",
+        "recommended_action": "Add a dynamic cost-vs-balance indicator in the trade UI that highlights the total in red if it exceeds current party funds.",
+        "severity": "important"
+      },
+      {
+        "evidence_summary": "At 10:41, the player failed a vertical jump 4 times despite attempting to click on seemingly valid 'Cragged Rock' landing zones, eventually succeeding without feedback on why previous attempts failed.",
+        "affected_timestamps": [
+          "10:41",
+          "10:51"
+        ],
+        "finding": "Poor visual affordance and 'Invalid Target' errors on vertical terrain create repetitive navigational frustration.",
+        "recommended_action": "Improve the visual highlighting of valid jump landing zones on vertical climbable assets.",
+        "severity": "important"
+      },
+      {
+        "evidence_summary": "At 4:54, the player repeatedly rotated the camera and muttered 'Wait, what am I missing?' while searching a cluttered ruin, and at 8:18, circled beneath a 'Rope Netting' container they couldn't reach.",
+        "affected_timestamps": [
+          "4:54",
+          "8:18"
+        ],
+        "finding": "Visual density and lack of 'out of reach' feedback lead to circular movement and search fatigue.",
+        "recommended_action": "Implement a 'Too High' or 'Out of Reach' UI prompt that appears before a player attempts to interact with suspended containers.",
+        "severity": "notable"
+      },
+      {
+        "evidence_summary": "At 16:11, finding the 'Boots of Stormy Clamour' at Omeluum's shop resulted in the session's highest sentiment score (5) and an excited 'Oh my god... I bought them.'",
+        "affected_timestamps": [
+          "16:11",
+          "16:21",
+          "16:39"
+        ],
+        "finding": "Specific meta-relevant loot at vendors provides a massive dopamine hit that offsets administrative friction.",
+        "recommended_action": "Protect the current distribution of unique 'build-around' items at vendors to maintain high exploration rewards.",
+        "severity": "notable"
+      }
+    ],
+    "priority_actions": [
+      "Add 'Total Transaction Cost vs. Current Gold' preview to trade menus.",
+      "Improve landing zone snapping and visual feedback for the Jump action on vertical terrain.",
+      "Add 'Out of Reach' status text to tooltips for suspended environmental containers.",
+      "Increase the visual contrast or highlight pulse for small interactable loot in cluttered Underdark environments.",
+      "Fix facial tentacle clipping on Omeluum's character model during dialogue transitions (observed at 16:36)."
+    ],
+    "cross_dimensional_insight": "The player's high 'mastery' satisfaction from optimizing party buffs (14:18) and alchemy (19:19) acts as a psychological buffer for 'encumbrance' friction; despite calling the weight limit 'not good' at 6:40, the player remained in a focused state rather than a frustrated one because they viewed the heavy loot as the essential raw material for their high-tier crafting loop.",
+    "session_health_score": 82
+  },
+  "agent_coverage": [
+    {
+      "chunk_index": 0,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    },
+    {
+      "chunk_index": 1,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    },
+    {
+      "chunk_index": 2,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    },
+    {
+      "chunk_index": 3,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    },
+    {
+      "chunk_index": 4,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    }
+  ]
+}

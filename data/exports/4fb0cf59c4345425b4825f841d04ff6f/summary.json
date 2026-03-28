@@ -1,0 +1,45 @@
+{
+  "video_id": "4fb0cf59c4345425b4825f841d04ff6f",
+  "game_title": "Baldur's Gate 3",
+  "game_key": "baldur_s_gate_3",
+  "duration_seconds": 1200.0,
+  "chunk_count": 5,
+  "overall_friction": "minor",
+  "overall_engagement": "strong",
+  "overall_stop_risk": "none",
+  "bug_count": 0,
+  "avg_sentiment": 1.95,
+  "sentiment_by_segment": {
+    "character_creation": 4.5,
+    "opening_cinematic": 1.5,
+    "starting_cell": 2.5,
+    "dungeon_hallway": 3.0,
+    "dungeon_side_hallway": 0.33,
+    "dungeon_gate_puzzle": 2.67,
+    "prisoners_garden": 3.0,
+    "garden_fountain_npc": 1.0,
+    "fortified_corridors": 2.4,
+    "bridge_puzzle": 1.0,
+    "courtyard_guardian": 2.5,
+    "inventory_management": 2.0,
+    "hidden_side_room": 2.5,
+    "escape_cinematic": 3.0,
+    "world_map_navigation": 1.5,
+    "loading_highland_outpost": 0.0,
+    "highland_outpost_hub": 2.0,
+    "highland_merchant_interaction": 1.5
+  },
+  "total_retry_sequences": 0,
+  "first_attempt_failure_count": 0,
+  "notable_quotes": [
+    "A puzzle. Great."
+  ],
+  "session_health_score": 92,
+  "priority_actions": [
+    "Add a highlight or 'movable' tooltip to the stone statue at 11:10 to clarify its role in the bridge puzzle.",
+    "Ensure the Rusted Key at 03:15 has a persistent quest marker if the player doesn't interact with the door within 30 seconds of pickup.",
+    "Optimize the loading transition at 18:10 where the player briefly checked their phone, indicating a minor break in immersion.",
+    "Verify that the transition from the dark dungeon to the garden at 07:10 is optimized for all graphics presets, as it is a major delight driver."
+  ],
+  "top_highlight": "Here we go! First fight!"
+}

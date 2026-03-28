@@ -1,0 +1,755 @@
+[
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 0.0,
+    "absolute_timestamp": "0:00",
+    "summary": "I hate bards. Well, okay, hate is a strong word... what I hate is the type of bard who only tries to bang every single monster they see. That being said, in my nearly 2000 hours in BG3, I have not once played as a bard. But today I'm gonna get brave and I will break my streak of bard celibacy in the most painful way I know how... by completing BG3 on the toughest available difficulty: Honor Mode.",
+    "game_context": "The player is introducing the video and explaining the challenge parameters.",
+    "evidence": [
+      "Tone: sarcastic",
+      "Category: reaction"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "intro_sequence",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I hate bards. Well, okay, hate is a strong word... what I hate is the type of bard who only tries to bang every single monster they see. That being said, in my nearly 2000 hours in BG3, I have not once played as a bard. But today I'm gonna get brave and I will break my streak of bard celibacy in the most painful way I know how... by completing BG3 on the toughest available difficulty: Honor Mode."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 190.0,
+    "absolute_timestamp": "3:10",
+    "summary": "Bards don't start with any sort of melee weapon? Holy shit, I really am in hell.",
+    "game_context": "The player discovers that their Bard character has no melee weapon equipped upon starting the game.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction",
+      "Actionable: Ensure class starting equipment is clearly communicated during character creation to avoid player confusion or perceived disadvantage."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "nautiloid_escape",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "Bards don't start with any sort of melee weapon? Holy shit, I really am in hell."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 199.0,
+    "absolute_timestamp": "3:19",
+    "summary": "Critical success. Although my next roll wasn't quite enough to set the little brain guy free so... maybe not that lucky.",
+    "game_context": "The player rolls a Natural 20 on an investigation check but fails a subsequent roll to free Us the Intellect Devourer.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: narration"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "nautiloid_escape",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Critical success. Although my next roll wasn't quite enough to set the little brain guy free so... maybe not that lucky."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "complaint",
+    "absolute_seconds": 226.0,
+    "absolute_timestamp": "3:46",
+    "summary": "I used Vicious Mockery on this boar and my game crashed. Dope. Well, after returning I made it safely through.",
+    "game_context": "The game crashes during combat on the Nautiloid, requiring a restart.",
+    "evidence": [
+      "Tone: sarcastic",
+      "Category: complaint",
+      "Actionable: Investigate potential stability issues or memory leaks triggered by specific combat actions like Vicious Mockery in the tutorial area."
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 0,
+    "segment_label": "nautiloid_combat",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "friction",
+      "quality",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "I used Vicious Mockery on this boar and my game crashed. Dope. Well, after returning I made it safely through."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 236.0,
+    "absolute_timestamp": "3:56",
+    "summary": "Bard specific dialogue for the first time. I have never seen any of these before... and honestly it's probably the thing I'm most excited about for this whole playthrough.",
+    "game_context": "The player encounters unique Bard dialogue options while speaking to Shadowheart on the beach.",
+    "evidence": [
+      "Tone: excited",
+      "Category: praise"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 0,
+    "segment_label": "ravaged_beach",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "delight"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Bard specific dialogue for the first time. I have never seen any of these before... and honestly it's probably the thing I'm most excited about for this whole playthrough."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 245.0,
+    "absolute_timestamp": "4:05",
+    "summary": "I mean, come on, it's like the quintessential Bard hat. This one really feels like it might be something magical.",
+    "game_context": "The player finds a 'Rufflesome Haggart Hat' in a backpack and equips it.",
+    "evidence": [
+      "Tone: amused",
+      "Category: narration"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 0,
+    "segment_label": "beach_combat",
+    "confidence_score": 0.6,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I mean, come on, it's like the quintessential Bard hat. This one really feels like it might be something magical."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 289.0,
+    "absolute_timestamp": "4:49",
+    "summary": "Am I just a fucking idiot? Has everybody been using ritual spells and just never told me? I feel silly for saying this, but I don't know if I've really ever regularly used spells like Longstrider and... it doesn't cost a spell slot or need concentration? I don't know, that's crazy. 2000 hours man, I really gotta start reading things, huh?",
+    "game_context": "Discovering the mechanics of Ritual spells for the first time despite high total playtime.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction",
+      "Actionable: Increase the visual prominence of the 'Ritual' tag in spell tooltips or provide a specific tutorial prompt when a player first prepares a ritual spell to ensure this resource-saving mechanic is understood."
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 1,
+    "segment_label": "ravaged_beach",
+    "confidence_score": 0.6,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "Am I just a fucking idiot? Has everybody been using ritual spells and just never told me? I feel silly for saying this, but I don't know if I've really ever regularly used spells like Longstrider and... it doesn't cost a spell slot or need concentration? I don't know, that's crazy. 2000 hours man, I really gotta start reading things, huh?"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 302.0,
+    "absolute_timestamp": "5:02",
+    "summary": "Hit my third Nat 20 when trying to scare off these adventurers outside of the ruins. Bards just get more Nat 20s or something? This is a lot, like, very quickly.",
+    "game_context": "Rolling a critical success on a persuasion check at the chapel entrance.",
+    "evidence": [
+      "Tone: surprised",
+      "Category: reaction"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 1,
+    "segment_label": "chapel_entrance",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Hit my third Nat 20 when trying to scare off these adventurers outside of the ruins. Bards just get more Nat 20s or something? This is a lot, like, very quickly."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 322.0,
+    "absolute_timestamp": "5:22",
+    "summary": "Well, like I said, I know absolutely nothing about Bards. Never played it. And so my choice was kind of just based off of what sounded funny, I guess, which led me to choose the College of Glamour.",
+    "game_context": "Selecting the College of Glamour subclass during character leveling.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: narration"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": "emerald_grove",
+    "confidence_score": 0.6,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Well, like I said, I know absolutely nothing about Bards. Never played it. And so my choice was kind of just based off of what sounded funny, I guess, which led me to choose the College of Glamour."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 370.0,
+    "absolute_timestamp": "6:10",
+    "summary": "I hit my fourth Nat 20... I convinced Rolan to stay.",
+    "game_context": "Rolling a fourth Natural 20 during an intimidation check in the Emerald Grove.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 1,
+    "segment_label": "world_exploration",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I hit my fourth Nat 20... I convinced Rolan to stay."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 380.0,
+    "absolute_timestamp": "6:20",
+    "summary": "Lae'zel being mean got me half-chub... Shadowheart being mean got me full chub. I don't know, why do I like when she's mean to me? What is that?",
+    "game_context": "Commenting on character relationship dynamics and personal preferences.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 1,
+    "segment_label": "world_exploration",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Lae'zel being mean got me half-chub... Shadowheart being mean got me full chub. I don't know, why do I like when she's mean to me? What is that?"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 404.0,
+    "absolute_timestamp": "6:44",
+    "summary": "I hit my seventh Nat 20? What the fuck? Luck will and Karlach? Okay wait, let me just slow down here for a second.",
+    "game_context": "Rolling a seventh Natural 20 of the session during the encounter with the gnoll leader, Flind.",
+    "evidence": [
+      "Tone: excited",
+      "Category: reaction"
+    ],
+    "severity_numeric": 10,
+    "source_chunk_index": 1,
+    "segment_label": "world_exploration",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I hit my seventh Nat 20? What the fuck? Luck will and Karlach? Okay wait, let me just slow down here for a second."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 420.0,
+    "absolute_timestamp": "7:00",
+    "summary": "And then eventually... I wrote 'Wyll and Karlach are graphically busting down animal-style in front of everyone'. Just thought we could take a break from the fist slap.",
+    "game_context": "Sharing humorous notes about the evolving tiff between Wyll and Karlach.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 1,
+    "segment_label": null,
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "And then eventually... I wrote 'Wyll and Karlach are graphically busting down animal-style in front of everyone'. Just thought we could take a break from the fist slap."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 432.0,
+    "absolute_timestamp": "7:12",
+    "summary": "I started the next day by almost losing the entire run. I think I just had gotten a little reckless during this encounter with these gnolls because I had been having such good luck, but ending the battle with literally only one person still on their feet was a sobering experience.",
+    "game_context": "Reflecting on a near-fatal combat encounter where most party members were downed.",
+    "evidence": [
+      "Tone: resigned",
+      "Category: strategy"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": "risen_road",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "delight"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I started the next day by almost losing the entire run. I think I just had gotten a little reckless during this encounter with these gnolls because I had been having such good luck, but ending the battle with literally only one person still on their feet was a sobering experience."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 469.0,
+    "absolute_timestamp": "7:49",
+    "summary": "I started the encounter by out-singing them, which was really funny. But the battle with them actually went really well then.",
+    "game_context": "Successfully defeating the Harpies using class-specific mechanics.",
+    "evidence": [
+      "Tone: satisfied",
+      "Category: praise"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 1,
+    "segment_label": "risen_road",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "delight"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I started the encounter by out-singing them, which was really funny. But the battle with them actually went really well then."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 479.0,
+    "absolute_timestamp": "7:59",
+    "summary": "And I got to drop this hard-ass line after on the poor tiefling child... very Goku-esque.",
+    "game_context": "Selecting a heroic/intimidating dialogue line after rescuing Mirkon from the harpies.",
+    "evidence": [
+      "Tone: triumphant",
+      "Category: narration"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 1,
+    "segment_label": "zhentarim_hideout",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "clarity"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "And I got to drop this hard-ass line after on the poor tiefling child... very Goku-esque."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 759.0,
+    "absolute_timestamp": "12:39",
+    "summary": "The run was going well, but I wasn't really having much fun. I decided that to give Bard a fair shot, I needed to try another subclass... I respec'd into the College of Swords and that was an amazing idea. The College of Swords subclass may genuinely be one of the best subclasses in the game. And more importantly, one of the most fun.",
+    "game_context": "Visiting Withers to change the Bard's subclass from Glamour to Swords.",
+    "evidence": [
+      "Tone: excited",
+      "Category: praise",
+      "Actionable: Early Bard subclasses (Glamour) may lack the immediate tactical satisfaction of Swords, potentially leading players to abandon the class before it reaches its power spikes."
+    ],
+    "severity_numeric": 10,
+    "source_chunk_index": 3,
+    "segment_label": "character_respec",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "delight",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "The run was going well, but I wasn't really having much fun. I decided that to give Bard a fair shot, I needed to try another subclass... I respec'd into the College of Swords and that was an amazing idea. The College of Swords subclass may genuinely be one of the best subclasses in the game. And more importantly, one of the most fun."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 810.0,
+    "absolute_timestamp": "13:30",
+    "summary": "Extra attack? Are you fucking kidding me? You're telling me I get all these cool combat options, spells, and the easiest time out of combat of any class for sure... and I get extra attack? This is it. This is the best class in the game.",
+    "game_context": "Reacting to the Level 6 power spike of the College of Swords Bard.",
+    "evidence": [
+      "Tone: excited",
+      "Category: praise"
+    ],
+    "severity_numeric": 10,
+    "source_chunk_index": 3,
+    "segment_label": "level_up",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Extra attack? Are you fucking kidding me? You're telling me I get all these cool combat options, spells, and the easiest time out of combat of any class for sure... and I get extra attack? This is it. This is the best class in the game."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "complaint",
+    "absolute_seconds": 853.0,
+    "absolute_timestamp": "14:13",
+    "summary": "I grabbed the Hill Giant club so Astarion could get a nice bonus from the Titanstring bow. It's really annoying that it doesn't give you Hill Giant strength but whatever.",
+    "game_context": "Inspecting the 'Club of Hill Giant Strength' and noting it provides 19 STR (Werebear) instead of 21 (Giant).",
+    "evidence": [
+      "Tone: frustrated",
+      "Category: complaint",
+      "Actionable: Consistency between item names and the stats they provide (e.g., matching 'Giant' to the standard Giant STR value) reduces player frustration and mechanical skepticism."
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 3,
+    "segment_label": "shadow_cursed_lands",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "quality",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "I grabbed the Hill Giant club so Astarion could get a nice bonus from the Titanstring bow. It's really annoying that it doesn't give you Hill Giant strength but whatever."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 910.0,
+    "absolute_timestamp": "15:10",
+    "summary": "I set up a bunch of barrels just in case... laying out a few barrels made my life easier. They didn't hurt Karniss at all, but they did clear out some of his friends.",
+    "game_context": "Narrating the use of environmental explosives to ambush the Drider, Kar'niss.",
+    "evidence": [
+      "Tone: amused",
+      "Category: strategy"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 3,
+    "segment_label": "karniss_ambush",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I set up a bunch of barrels just in case... laying out a few barrels made my life easier. They didn't hurt Karniss at all, but they did clear out some of his friends."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 989.0,
+    "absolute_timestamp": "16:29",
+    "summary": "Seriously dude, like I said, if you want to get through Honor Mode and you're having a hard time, try to think less about combat and more about how to avoid combat. Use your Bard powers... I cleared out the Thorms very easily.",
+    "game_context": "Bypassing the Act 2 Thorm boss fights using high Charisma/Persuasion checks.",
+    "evidence": [
+      "Tone: amused",
+      "Category: praise",
+      "Actionable: Validates the high satisfaction players find in 'non-combat' solutions for high-stakes modes; ensuring these paths remain viable is key to the RPG's depth."
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 3,
+    "segment_label": "thorm_encounters",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "delight"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "Seriously dude, like I said, if you want to get through Honor Mode and you're having a hard time, try to think less about combat and more about how to avoid combat. Use your Bard powers... I cleared out the Thorms very easily."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 1007.0,
+    "absolute_timestamp": "16:47",
+    "summary": "I think as a Bard you can basically just convince anyone to do anything, it's insane.",
+    "game_context": "Reacting to the effectiveness of persuasion skills after successfully talking Act 2 bosses into self-destruction.",
+    "evidence": [
+      "Tone: excited",
+      "Category: praise"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 4,
+    "segment_label": "moonrise_exploration",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "clarity",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I think as a Bard you can basically just convince anyone to do anything, it's insane."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 1025.0,
+    "absolute_timestamp": "17:05",
+    "summary": "I gave everyone the Tough feat. Gotta make sure we got some survivability, of course.",
+    "game_context": "Selecting the 'Tough' feat during the level 8 level-up process to increase party health.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: strategy"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 4,
+    "segment_label": "moonrise_exploration",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "clarity",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I gave everyone the Tough feat. Gotta make sure we got some survivability, of course."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 1071.0,
+    "absolute_timestamp": "17:51",
+    "summary": "idk why I lied in the script, this is not what 'picking off the stragglers' looks like LOL.",
+    "game_context": "Correcting a previous script line while watching footage of themselves aggressively attacking a large group in Moonrise Towers.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 4,
+    "segment_label": "moonrise_clearing",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "idk why I lied in the script, this is not what 'picking off the stragglers' looks like LOL."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 1095.0,
+    "absolute_timestamp": "18:15",
+    "summary": "Just using your voice in this game could be an incredibly powerful weapon.",
+    "game_context": "Reflecting on successfully convincing Yurgir the Orthon to kill himself in the Gauntlet of Shar.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: praise"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 4,
+    "segment_label": "gauntlet_of_shar",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Just using your voice in this game could be an incredibly powerful weapon."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 1105.0,
+    "absolute_timestamp": "18:25",
+    "summary": "Balthazar scared the shit out of me. I really thought he might wipe us out. He got pretty damn close, but a lucky shot from myself took care of him.",
+    "game_context": "Discussing the high tension and near-failure during the combat with Balthazar in the Shadowfell.",
+    "evidence": [
+      "Tone: resigned",
+      "Category: reaction"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 4,
+    "segment_label": "adamantine_forge_grym",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "friction"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Balthazar scared the shit out of me. I really thought he might wipe us out. He got pretty damn close, but a lucky shot from myself took care of him."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "complaint",
+    "absolute_seconds": 1121.0,
+    "absolute_timestamp": "18:41",
+    "summary": "And look at this cheating fuck-ass robot dead. He just fucking disappeared when I hit the switch. Larian, for the love of all that is holy, fix your game, please!",
+    "game_context": "Reacting to a visual or mechanical glitch during the Grym boss fight where the boss temporarily vanished or failed to trigger correctly.",
+    "evidence": [
+      "Tone: angry",
+      "Category: complaint",
+      "Actionable: Investigate reported glitches in the Adamantine Forge where Grym can 'disappear' or fail to interact correctly with the forge lever, causing significant player frustration."
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 4,
+    "segment_label": "adamantine_forge_grym",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "friction",
+      "quality",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "And look at this cheating fuck-ass robot dead. He just fucking disappeared when I hit the switch. Larian, for the love of all that is holy, fix your game, please!"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "complaint",
+    "absolute_seconds": 1143.0,
+    "absolute_timestamp": "19:03",
+    "summary": "If I had somehow lost the run here after that, I think I would have genuinely just imploded. Speaking of Larian and their stupid game, I have learned my lesson in the Gauntlet of Shar: do not ever trust this platform.",
+    "game_context": "Boarding the moving platform in the Gauntlet of Shar, expressing extreme caution due to known collision bugs.",
+    "evidence": [
+      "Tone: sarcastic",
+      "Category: complaint",
+      "Actionable: The player's explicit lack of trust in moving platforms due to 'lessons learned' points to a need for more robust physics or collision detection on environmental transport mechanisms."
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 4,
+    "segment_label": "ketheric_thorm_confrontation",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "If I had somehow lost the run here after that, I think I would have genuinely just imploded. Speaking of Larian and their stupid game, I have learned my lesson in the Gauntlet of Shar: do not ever trust this platform."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 1161.0,
+    "absolute_timestamp": "19:21",
+    "summary": "Planting a seed... just a hint of doubt in Ketheric's mind. In fact, you can basically have him give up right here, but then Dame Aylin comes in and messes everything up.",
+    "game_context": "Describing the dialogue strategy used during the Ketheric Thorm confrontation on the Moonrise rooftop.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: strategy"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 4,
+    "segment_label": "ketheric_thorm_confrontation",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "delight",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Planting a seed... just a hint of doubt in Ketheric's mind. In fact, you can basically have him give up right here, but then Dame Aylin comes in and messes everything up."
+  }
+]
