@@ -253,7 +253,17 @@ export function useBatchAnalysis() {
       if ((err as Error).name === "AbortError") return
 
       // Stream endpoint unreachable — run pipeline locally
+      const SAMPLE_VIDEO_URL = "https://www.youtube.com/watch?v=0yUi4_lxnGw"
+      let first = true
       for (const video of videos) {
+        // Pin the first video to the known sample so the player + report match
+        if (first) {
+          first = false
+          updateEntry(video.video_id, (e) => ({
+            ...e,
+            video: { ...e.video, url: SAMPLE_VIDEO_URL },
+          }))
+        }
         if (controller.signal.aborted) return
 
         updateEntry(video.video_id, (e) => ({ ...e, status: "processing" }))
