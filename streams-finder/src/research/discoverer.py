@@ -39,7 +39,7 @@ class ResearchDiscoverer:
         self.recent_limit = recent_limit
         self._cache: dict[str, DiscoveryResult] = {}
 
-    async def discover(self, game_name: str, *, refresh: bool = False, on_progress: ProgressCallback | None = None) -> DiscoveryResult:
+    async def discover(self, game_name: str, *, refresh: bool = False, period: str = "month", on_progress: ProgressCallback | None = None) -> DiscoveryResult:
         async def progress(msg: str) -> None:
             logger.info(msg)
             if on_progress:
@@ -58,11 +58,14 @@ class ResearchDiscoverer:
         await progress(f"Researching '{game_name}' with Gemini + Google Search...")
         try:
             game_context, queries = await self.query_generator.generate(game_name)
+            # Always include the plain game name — platforms have good search engines
+            if game_name.casefold() not in {q.casefold() for q in queries}:
+                queries.insert(0, game_name)
             await progress(f"Generated {len(queries)} search queries: {queries}")
         except Exception as e:
             logger.warning("Query generation failed entirely for '%s': %s", game_name, e)
             game_context = ""
-            queries = [f"{game_name} gameplay"]
+            queries = [game_name, f"{game_name} gameplay"]
             partial = True
             warnings.append(f"Query generation failed: {e}")
             await progress("Query generation failed, using fallback query")
@@ -76,7 +79,7 @@ class ResearchDiscoverer:
         tasks: list[asyncio.Task] = []
         tasks.append(asyncio.create_task(asyncio.to_thread(self.youtube.search, queries)))
         if self.twitch:
-            tasks.append(asyncio.create_task(self.twitch.search(game_name)))
+            tasks.append(asyncio.create_task(self.twitch.search(game_name, period=period)))
 
         results = await asyncio.gather(*tasks, return_exceptions=True)
 

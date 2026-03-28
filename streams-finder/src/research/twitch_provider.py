@@ -1,3 +1,4 @@
+import asyncio
 import logging
 import re
 from datetime import datetime
@@ -30,15 +31,15 @@ class TwitchProvider:
         self.token_url = "https://id.twitch.tv/oauth2/token"
         self._access_token: str | None = None
 
-    async def search(self, game_name: str) -> list[DiscoveredVideo]:
+    async def search(self, game_name: str, period: str = "month") -> list[DiscoveredVideo]:
         """Search Twitch for VODs of a game. Returns empty list on any error (non-fatal)."""
         try:
-            return await self._search_impl(game_name)
+            return await self._search_impl(game_name, period)
         except Exception as e:
             logger.warning("Twitch search failed for '%s': %s", game_name, e)
             return []
 
-    async def _search_impl(self, game_name: str) -> list[DiscoveredVideo]:
+    async def _search_impl(self, game_name: str, period: str) -> list[DiscoveredVideo]:
         async with httpx.AsyncClient(timeout=15.0) as http:
             token = await self._get_token(http)
             headers = {"Client-ID": self.client_id, "Authorization": f"Bearer {token}"}
@@ -49,16 +50,30 @@ class TwitchProvider:
                 logger.info("Game '%s' not found on Twitch", game_name)
                 return []
 
-            # Step 2: fetch VODs sorted by time (most recent first)
-            resp = await http.get(
-                f"{self.base_url}/videos",
-                headers=headers,
-                params={"game_id": game_id, "type": "archive", "sort": "time", "first": "100"},
-            )
-            resp.raise_for_status()
-            vods = resp.json().get("data") or []
+            # Step 2: fetch videos — popular by views + recent by time, in parallel
+            popular_task = self._fetch_videos(http, headers, game_id, sort="views", period=period)
+            recent_task = self._fetch_videos(http, headers, game_id, sort="time")
+            popular_raw, recent_raw = await asyncio.gather(popular_task, recent_task)
 
-            return [v for entry in vods if (v := self._normalize_vod(entry, game_name))]
+            seen: set[str] = set()
+            videos: list[DiscoveredVideo] = []
+            for entry in popular_raw + recent_raw:
+                vid = self._normalize_vod(entry, game_name)
+                if vid and vid.video_id not in seen:
+                    seen.add(vid.video_id)
+                    videos.append(vid)
+
+            return videos
+
+    async def _fetch_videos(
+        self, http: httpx.AsyncClient, headers: dict, game_id: str, *, sort: str, period: str | None = None,
+    ) -> list[dict]:
+        params: dict[str, str] = {"game_id": game_id, "sort": sort, "first": "100"}
+        if period:
+            params["period"] = period
+        resp = await http.get(f"{self.base_url}/videos", headers=headers, params=params)
+        resp.raise_for_status()
+        return resp.json().get("data") or []
 
     async def _resolve_game(self, http: httpx.AsyncClient, headers: dict, game_name: str) -> str | None:
         resp = await http.get(f"{self.base_url}/search/categories", headers=headers, params={"query": game_name, "first": "5"})

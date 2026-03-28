@@ -19,7 +19,7 @@ load_dotenv()
 async def lifespan(app: FastAPI):
     client = genai.Client()
     query_gen = QueryGenerator(client=client)
-    youtube = YouTubeProvider()
+    youtube = YouTubeProvider(cookies_path=os.environ.get("YOUTUBE_COOKIES_PATH"))
 
     twitch_id = os.environ.get("TWITCH_CLIENT_ID")
     twitch_secret = os.environ.get("TWITCH_CLIENT_SECRET")

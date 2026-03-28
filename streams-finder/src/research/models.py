@@ -40,3 +40,4 @@ class DiscoveryResult(BaseModel):
 class ResearchDiscoverRequest(BaseModel):
     game_name: str = Field(min_length=1, max_length=100)
     refresh: bool = False
+    period: str = Field(default="month", pattern="^(day|week|month|all)$")
