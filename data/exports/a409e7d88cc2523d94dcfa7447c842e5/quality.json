@@ -1,0 +1,299 @@
+[
+  {
+    "agent_kind": "quality",
+    "source_label": "performance",
+    "absolute_seconds": 127.0,
+    "absolute_timestamp": "2:07",
+    "summary": "performance issue: frame drop, hitch during The 'Saving...' indicator appears on the top left, causing a momentary hitch in character animation and camera movement.",
+    "game_context": "The 'Saving...' indicator appears on the top left, causing a momentary hitch in character animation and camera movement.",
+    "evidence": [
+      "frame drop",
+      "hitch",
+      "None",
+      "Player reaction: ignored",
+      "Scene: Campsite during character social interaction"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "blighted_village_basement",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "gameplay_logic",
+    "absolute_seconds": 236.0,
+    "absolute_timestamp": "3:56",
+    "summary": "gameplay logic issue: forced turn-based mode transition during After triggering fire jets in the basement, the game automatically enters Turn-Based Mode to manage environmental hazards. The player character remains in the trap zone.",
+    "game_context": "After triggering fire jets in the basement, the game automatically enters Turn-Based Mode to manage environmental hazards. The player character remains in the trap zone.",
+    "evidence": [
+      "forced turn-based mode transition",
+      "None",
+      "Player reaction: noticed and commented",
+      "Scene: Blighted Village basement hidden dungeon near fire traps",
+      "Quote: Except I am stuck in here"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "blighted_village_basement",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "clarity",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "performance",
+    "absolute_seconds": 363.0,
+    "absolute_timestamp": "6:03",
+    "summary": "performance issue: frame drop, hitch during Entering turn-based combat with a high number of active AI units and complex environmental assets.",
+    "game_context": "Entering turn-based combat with a high number of active AI units and complex environmental assets.",
+    "evidence": [
+      "frame drop",
+      "hitch",
+      "None",
+      "Player reaction: noticed and commented",
+      "Scene: Combat initiation at the Druid Sanctuary against a Wood Woad and Ancient Mud Mephits.",
+      "Quote: The f#ck is happening?"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": "sanctuary_combat",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "friction",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "gameplay_logic",
+    "absolute_seconds": 371.0,
+    "absolute_timestamp": "6:11",
+    "summary": "gameplay logic issue: AI idling, inefficient pathing during Numerous low-level AI units (Mud Mephits) taking significant processing time to execute minimal or circular pathing moves.",
+    "game_context": "Numerous low-level AI units (Mud Mephits) taking significant processing time to execute minimal or circular pathing moves.",
+    "evidence": [
+      "AI idling",
+      "inefficient pathing",
+      "None",
+      "Player reaction: noticed and commented",
+      "Scene: AI turn processing during combat at the Druid Sanctuary.",
+      "Quote: Can I not sit here and watch them all move three inches, please? Can like... why is it not... Come on.",
+      "Quote: Holy f#ck peak gameplay. My f#ckin god."
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 1,
+    "segment_label": "sanctuary_combat",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "gameplay_logic",
+    "absolute_seconds": 611.0,
+    "absolute_timestamp": "10:11",
+    "summary": "gameplay logic issue: None during Following a total party defeat, the player checks the timestamps of their previous manual and auto-saves.",
+    "game_context": "Following a total party defeat, the player checks the timestamps of their previous manual and auto-saves.",
+    "evidence": [
+      "None",
+      "None",
+      "Player reaction: noticed and commented",
+      "Scene: Menu screen after a total party wipe (Game Over) in the Druid Sanctuary.",
+      "Quote: When did we save?",
+      "Quote: An hour ago."
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 2,
+    "segment_label": "squirrel_encounter",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "performance",
+    "absolute_seconds": 626.0,
+    "absolute_timestamp": "10:26",
+    "summary": "performance issue: frame drop, hitch during The player initiates a surprise attack on Kagha from stealth, transitioning the scene into turn-based combat with multiple NPCs.",
+    "game_context": "The player initiates a surprise attack on Kagha from stealth, transitioning the scene into turn-based combat with multiple NPCs.",
+    "evidence": [
+      "frame drop",
+      "hitch",
+      "None",
+      "Player reaction: ignored",
+      "Scene: Combat initiation inside the Druid Sanctuary interior against Kagha."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 2,
+    "segment_label": null,
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "gameplay_logic",
+    "absolute_seconds": 920.0,
+    "absolute_timestamp": "15:20",
+    "summary": "gameplay logic issue: Inaccurate floating UI text during The player is targeted by a teammate's Eldritch Blast, triggering a transition to turn-based mode.",
+    "game_context": "The player is targeted by a teammate's Eldritch Blast, triggering a transition to turn-based mode.",
+    "evidence": [
+      "Inaccurate floating UI text",
+      "None",
+      "Player reaction: noticed and commented",
+      "Scene: On the path outside The Hollow",
+      "Quote: you mother f*cker",
+      "Quote: Why are we in turn-based mode?"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": "emerald_grove_exploration",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "performance",
+    "absolute_seconds": 920.0,
+    "absolute_timestamp": "15:20",
+    "summary": "performance issue: Animation hitch, stutter during The character model hitches significantly during the transition to turn-based mode while in the middle of a jump animation.",
+    "game_context": "The character model hitches significantly during the transition to turn-based mode while in the middle of a jump animation.",
+    "evidence": [
+      "Animation hitch",
+      "stutter",
+      "None",
+      "Player reaction: ignored",
+      "Scene: On the path outside The Hollow"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": "emerald_grove_exploration",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "graphics",
+    "absolute_seconds": 960.0,
+    "absolute_timestamp": "16:00",
+    "summary": "graphics issue: pop-in, LOD flickering during Running quickly through a densely forested area near the waterfall.",
+    "game_context": "Running quickly through a densely forested area near the waterfall.",
+    "evidence": [
+      "pop-in",
+      "LOD flickering",
+      "None",
+      "Player reaction: ignored",
+      "Scene: Forest area outside The Hollow"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": "emerald_grove_exploration",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "friction"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "graphics",
+    "absolute_seconds": 1111.0,
+    "absolute_timestamp": "18:31",
+    "summary": "graphics issue: Camera occlusion failure, Screen black-out during Navigating between small interior rooms in the Toll House basement; character movement triggers a ceiling/roof layer that fails to properly dither or fade, causing the camera to be blocked by black geometry.",
+    "game_context": "Navigating between small interior rooms in the Toll House basement; character movement triggers a ceiling/roof layer that fails to properly dither or fade, causing the camera to be blocked by black geometry.",
+    "evidence": [
+      "Camera occlusion failure",
+      "Screen black-out",
+      "None",
+      "Player reaction: noticed and commented",
+      "Scene: Toll House basement while looting vases in a small side room.",
+      "Quote: Hey guys, I'm getting shut in here. Hello?"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 4,
+    "segment_label": "trading_and_inventory",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

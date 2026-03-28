@@ -1,0 +1,878 @@
+{
+  "video_id": "ba0000782bc65512be19ba5e767a71df",
+  "game_title": "Baldur's Gate 3",
+  "session_arc": "[0:00-5:00] The segment starts with cautious curiosity, shifts into focused tactical preparation at the camp, and ends with a mix of unease and intrigue following the discovery of the dead goblin and Shadowheart's unique reaction to the curse.\n[4:00-9:00] The segment begins with a sense of cautious curiosity as the player tests the environment. This shifts into intrigue during the dialogue with Shadowheart, followed by a moment of analytical focus while testing the curse's mechanics. It ends on a more somber, investigative note as the player pieces together the story of the dead travelers.\n[8:00-13:00] The segment begins with a somber and investigative tone as the player finds more victims of the curse. This shifts into a mix of curiosity and unease upon finding the cultist camp, followed by shock and disgust at the goblin's cruelty. The segment ends with a sense of strategic focus as the player realizes they can use their 'True Soul' status to their advantage.\n[12:00-17:00] The segment begins with analytical focus and a sense of strategic planning. This is interrupted by a moment of genuine disgust and shock at the goblin's cruelty. The player then returns to a focused state, leading to a significant breakthrough and a sense of triumph when they realize they have the required item to proceed.\n[16:00-20:00] The segment begins with a strong sense of analytical satisfaction as the player realizes they have the key to progress. This transitions into a brief moment of performative confidence during the skill check, followed by genuine awe and slight revulsion during the cinematic arrival of Kar'niss. The segment ends with a return to a focused, tactical mindset as the player evaluates the new 'guide' as both an ally and a potential future threat.",
+  "chunk_summaries": [
+    "The player enters the Shadow-Cursed Lands and immediately realizes the environmental dangers. They quickly head to camp to swap out party members for those with radiant abilities to better survive the curse. Upon returning, they find the goblin who warned them already dead, highlighting the curse's lethality.",
+    "The player continues their exploration of the Shadow-Cursed Lands, discovering that Shadowheart has a natural resistance to the curse due to her devotion to Shar. They also test the mechanics of the Shadow Curse by briefly stepping out of a light source with Astarion, confirming the lethal nature of the environment. The segment ends with the party investigating the remains of a caravan that fell victim to both the curse and a violent struggle.",
+    "The player explores the Ruined Battlefield, discovering more victims of the Shadow Curse and gathering information from a refugee's journal. They then locate and approach a cultist camp, hoping to find a safe way through the curse by posing as a 'True Soul'.",
+    "The player interacts with a group of cultists in the Ruined Battlefield, successfully posing as a 'True Soul' to gain their assistance. After discovering that a magical lyre is the key to navigating the deeper shadow curse, the player uses their bardic skills to summon a guide.",
+    "The player successfully summons a guide, Kar'niss, using the spider lyre they recovered previously. Kar'niss is revealed as a Drider, a monstrous fusion of drow and spider, whose moon lantern provides essential protection against the deepest parts of the shadow curse."
+  ],
+  "objectives": [
+    "Prepare the party to survive the Shadow Curse and begin exploring the Ruined Battlefield.",
+    "Determine the limits of the Shadow Curse and find a path forward through the Ruined Battlefield.",
+    "Reach the cultist camp and find a safe way to Moonrise Towers.",
+    "Secure safe passage through the deep shadow curse by impersonating a True Soul and summoning a guide.",
+    "Summon the guide to lead the party safely to Moonrise Towers."
+  ],
+  "active_threads": [
+    "surviving_the_shadow_curse",
+    "shadowheart_curse_resistance",
+    "shadowheart_shar_connection",
+    "searching_for_the_nightsong",
+    "infiltrating_the_cult",
+    "summoning_the_convoy_guide",
+    "surviving_the_deep_shadow_curse"
+  ],
+  "events": [
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 0.0,
+      "absolute_timestamp": "0:00",
+      "relative_timestamp": "0:00",
+      "visual_observation": "The party stands in a dark, twisted forest environment with a campfire nearby.",
+      "audio_observation": "The player introduces the session and discusses the potential danger of the Shadow-Cursed Lands.",
+      "player_expression": null,
+      "event_description": "The player begins the session in the Shadow-Cursed Lands, noting the high danger level.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "shadow_cursed_lands_entry"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 68.0,
+      "absolute_timestamp": "1:08",
+      "relative_timestamp": "1:08",
+      "visual_observation": "The scene transitions to the campsite, a clearing with tents and red-leafed trees.",
+      "audio_observation": "The player comments on the aesthetics of the new campsite.",
+      "player_expression": null,
+      "event_description": "The player travels to camp to adjust the party composition for better survival.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "campsite_management"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 100.0,
+      "absolute_timestamp": "1:40",
+      "relative_timestamp": "1:40",
+      "visual_observation": "The player opens Wyll's character sheet, highlighting 'Lathander's Light'.",
+      "audio_observation": "The player explains the tactical choice of bringing Wyll because of his radiant light ability.",
+      "player_expression": null,
+      "event_description": "The player selects Wyll for the party due to his ability to generate holy light.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "campsite_management"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 122.0,
+      "absolute_timestamp": "2:02",
+      "relative_timestamp": "2:02",
+      "visual_observation": "The player interacts with Shadowheart at her tent.",
+      "audio_observation": "The player notes Shadowheart's radiant magic will also be useful.",
+      "player_expression": null,
+      "event_description": "Shadowheart is added to the party for her radiant magic capabilities.",
+      "phase_kind": "dialogue",
+      "significance": "routine",
+      "segment_label": "campsite_management"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 167.0,
+      "absolute_timestamp": "2:47",
+      "relative_timestamp": "2:47",
+      "visual_observation": "The party returns to the forest; the previously alive Goblin Brawler is now a corpse on the ground.",
+      "audio_observation": "The player reacts with surprise at how quickly the goblin died while they were at camp.",
+      "player_expression": null,
+      "event_description": "The player finds the goblin who warned them dead, underscoring the curse's power.",
+      "phase_kind": "exploration",
+      "significance": "pivotal",
+      "segment_label": "shadow_cursed_lands_exploration"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 198.0,
+      "absolute_timestamp": "3:18",
+      "relative_timestamp": "3:18",
+      "visual_observation": "Each party member is shown holding a lit torch.",
+      "audio_observation": "The player confirms that everyone has a light source equipped.",
+      "player_expression": null,
+      "event_description": "The player equips the party with torches and ensures radiant light sources are active.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "shadow_cursed_lands_exploration"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 232.0,
+      "absolute_timestamp": "3:52",
+      "relative_timestamp": "3:52",
+      "visual_observation": "The party moves through the dark woods in stealth mode.",
+      "audio_observation": "The player speaks in a hushed tone, matching the stealthy movement.",
+      "player_expression": null,
+      "event_description": "The party begins careful exploration of the Shadow-Cursed Lands.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "shadow_cursed_lands_exploration"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 284.0,
+      "absolute_timestamp": "4:44",
+      "relative_timestamp": "0:44",
+      "visual_observation": "Shadowheart starts a dialogue with the player character.",
+      "audio_observation": "\"The Shadow Curse... it doesn't seem to affect me like it does others.\"",
+      "player_expression": "The player nods along, looking surprised and intrigued by the revelation.",
+      "event_description": "Shadowheart reveals that she is uniquely resistant to the Shadow Curse, attributing it to Lady Shar's blessing.",
+      "phase_kind": "dialogue",
+      "significance": "pivotal",
+      "segment_label": "shadowheart_resistance"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 360.0,
+      "absolute_timestamp": "6:00",
+      "relative_timestamp": "2:00",
+      "visual_observation": "The player selects Astarion and moves him away from the rest of the party into a dark area.",
+      "audio_observation": "\"Let's use you as a bit of a test ground. So okay, you're now out of the light... one turn of Shadow Curse. It doubles every single turn.\"",
+      "player_expression": "The player is carefully watching the UI for status effects, appearing analytical.",
+      "event_description": "The player intentionally exposes Astarion to the Shadow Curse to observe its damage scaling and mechanics.",
+      "phase_kind": "exploration",
+      "significance": "notable",
+      "segment_label": "shadow_curse_test"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 400.0,
+      "absolute_timestamp": "6:40",
+      "relative_timestamp": "2:40",
+      "visual_observation": "Astarion uses a torch and rejoins the party; the player moves the group toward a dead ox.",
+      "audio_observation": "\"There's a dead ox, which has been shadow-cursed... a shadow-cursed undead. Are you about to jump up as a zombie ox?\"",
+      "player_expression": "The player has a slight, nervous smile, anticipating a potential jump scare.",
+      "event_description": "The player discovers a Shadow-Cursed Undead ox, illustrating the fate of creatures that perish in the curse.",
+      "phase_kind": "exploration",
+      "significance": "notable",
+      "segment_label": "ruined_battlefield"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 526.0,
+      "absolute_timestamp": "8:46",
+      "relative_timestamp": "0:46",
+      "visual_observation": "A journal is open on the screen, detailing a traveler's journey and their fear of the shadows.",
+      "audio_observation": "Player reads the journal aloud: 'This place feels wrong. My skin is crawling, like something is watching us from the darkness.'",
+      "player_expression": "The player's eyes scan the text, their expression serious and absorbed in the story.",
+      "event_description": "The player reads a refugee's journal, gaining insight into the terror caused by the Shadow Curse.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "ruined_battlefield_exploration"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 614.0,
+      "absolute_timestamp": "10:14",
+      "relative_timestamp": "2:14",
+      "visual_observation": "The player's party approaches a small camp with several goblins and a hyena.",
+      "audio_observation": "A goblin is heard talking to a hyena: 'Hey boy... yeh want the bone?'",
+      "player_expression": "The player looks intrigued and cautious, leaning slightly closer to the screen.",
+      "event_description": "The player discovers the cultist camp and observes a goblin interacting with a hyena.",
+      "phase_kind": "exploration",
+      "significance": "notable",
+      "segment_label": "cultist_camp"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 625.0,
+      "absolute_timestamp": "10:25",
+      "relative_timestamp": "2:25",
+      "visual_observation": "A cutscene shows the hyena being consumed by the Shadow Curse after chasing a bone.",
+      "audio_observation": "The hyena yelps as it's enveloped by shadows. Goblin: 'Heh. Oi! You see that blighter go? Swallowed whole by the shadow curse.'",
+      "player_expression": "The player's eyes widen in surprise and slight disgust at the goblin's cruelty.",
+      "event_description": "The player witnesses the goblin lure the hyena into the shadows, where it's immediately killed by the curse.",
+      "phase_kind": "cutscene",
+      "significance": "pivotal",
+      "segment_label": "cultist_camp"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 749.0,
+      "absolute_timestamp": "12:29",
+      "relative_timestamp": "4:29",
+      "visual_observation": "The goblin warrior addresses the player's character, believing them to be a 'True Soul'.",
+      "audio_observation": "Goblin: 'You're the True Soul we're taking to Moonrise, I'm guessing?'",
+      "player_expression": "The player has a thoughtful expression, carefully considering the dialogue options.",
+      "event_description": "The goblin warrior mistakes the player for a high-ranking cultist, presenting an opportunity for safe passage.",
+      "phase_kind": "dialogue",
+      "significance": "pivotal",
+      "segment_label": "cultist_camp"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 870.0,
+      "absolute_timestamp": "14:30",
+      "relative_timestamp": "2:30",
+      "visual_observation": "The player is in dialogue with Warrior Gronag, choosing responses that reinforce their 'True Soul' persona.",
+      "audio_observation": "The player discusses their strategy for impersonating a True Soul.",
+      "player_expression": null,
+      "event_description": "The player successfully convinces the goblins they are a True Soul.",
+      "phase_kind": "dialogue",
+      "significance": "notable",
+      "segment_label": "cultist_camp_negotiation"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 880.0,
+      "absolute_timestamp": "14:40",
+      "relative_timestamp": "2:40",
+      "visual_observation": "The player moves away from Gronag and explores the surrounding ruins.",
+      "audio_observation": "The player comments on the dead hyena which has now risen as an undead creature.",
+      "player_expression": null,
+      "event_description": "The player discovers that creatures killed by the curse rise as 'Shadow-Cursed Undead'.",
+      "phase_kind": "exploration",
+      "significance": "notable",
+      "segment_label": "ruined_battlefield_exploration"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 891.0,
+      "absolute_timestamp": "14:51",
+      "relative_timestamp": "2:51",
+      "visual_observation": "The player opens an information panel for the 'Level 1 Zombie' hyena.",
+      "audio_observation": "The player reads the stats and resistances of the shadow-cursed undead.",
+      "player_expression": null,
+      "event_description": "The player analyzes the stats and weaknesses of the undead enemies.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "enemy_analysis"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 948.0,
+      "absolute_timestamp": "15:48",
+      "relative_timestamp": "3:48",
+      "visual_observation": "The player approaches a half-orc named Kansif within the same camp.",
+      "audio_observation": "The player initiates dialogue with Kansif.",
+      "player_expression": null,
+      "event_description": "The player begins a dialogue with Kansif to find a guide.",
+      "phase_kind": "dialogue",
+      "significance": "notable",
+      "segment_label": "cultist_camp_negotiation"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 960.0,
+      "absolute_timestamp": "16:00",
+      "relative_timestamp": "4:00",
+      "visual_observation": "Kansif asks the player if they brought 'the lyre'.",
+      "audio_observation": "The player expresses excitement at realizing they already possess the necessary item.",
+      "player_expression": null,
+      "event_description": "The player identifies Minthara's lyre as the key to summoning a guide.",
+      "phase_kind": "dialogue",
+      "significance": "pivotal",
+      "segment_label": "cultist_camp_negotiation"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1003.0,
+      "absolute_timestamp": "16:43",
+      "relative_timestamp": "0:43",
+      "visual_observation": "The dice roll screen for a Charisma (Performance) check.",
+      "audio_observation": "Player: 'So okay, I can do that, that's absolutely fine... me being a bard could be very useful around here. The right song on my lyre can communicate with other members of the Absolute's army.'",
+      "player_expression": "Confident, slightly smug about their character's build.",
+      "event_description": "The player successfully performs a Charisma check to play the lyre correctly.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "summoning_the_guide"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1042.0,
+      "absolute_timestamp": "17:22",
+      "relative_timestamp": "1:22",
+      "visual_observation": "A cutscene showing the player character playing the spider lyre.",
+      "audio_observation": "Melodic, haunting lyre music. Kansif: 'Yes, I hear them, your majesty. Calling us. Their god and their guide, together.'",
+      "player_expression": "None (focused on the screen).",
+      "event_description": "The player character plays the lyre, initiating the summoning of the guide.",
+      "phase_kind": "cutscene",
+      "significance": "notable",
+      "segment_label": "summoning_the_guide"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1048.0,
+      "absolute_timestamp": "17:28",
+      "relative_timestamp": "1:28",
+      "visual_observation": "Kar'niss, a Drider, descends from the trees, carrying a glowing moon lantern.",
+      "audio_observation": "Eerie, skittering sounds. Astarion: 'By the gods. One of Lolth's abominations.' Kar'niss: 'New flesh for you, my queen. But, who are they?'",
+      "player_expression": "Surprise and mild disgust.",
+      "event_description": "Kar'niss the Drider arrives, appearing both menacing and deeply corrupted.",
+      "phase_kind": "cutscene",
+      "significance": "pivotal",
+      "segment_label": "summoning_the_guide"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1081.0,
+      "absolute_timestamp": "18:01",
+      "relative_timestamp": "2:01",
+      "visual_observation": "The game returns to the standard overhead view; the player hovers over Kar'niss to see his stats.",
+      "audio_observation": "Player: 'Okay, so a big old spider abomination just showed up... I'm guessing you sir are like halfway there. And also, you mentioned Lolth, which is like the drow spider god.'",
+      "player_expression": "Analytical, curious.",
+      "event_description": "The player examines Kar'niss's character sheet, noting his level, health, and 'Moonshield' ability.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "cultist_camp"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1121.0,
+      "absolute_timestamp": "18:41",
+      "relative_timestamp": "2:41",
+      "visual_observation": "Kar'niss's character sheet is open, highlighting the 'Drider' description and 'Sunlight Sensitivity'.",
+      "audio_observation": "Player: 'Officially you're now a Drider... you did something wrong. This is like a punishment... maybe it gets nastier as you go deeper in.'",
+      "player_expression": "Intrigued, reading the lore.",
+      "event_description": "The player reads the lore description of a Drider and strategizes around his weaknesses and the 'Moonshield' protection.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "cultist_camp"
+    }
+  ],
+  "thread_records": [
+    {
+      "source_chunk_index": 0,
+      "thread_name": "surviving_the_shadow_curse",
+      "evidence": "The party is currently relying on torches and the Blood of Lathander to survive the environment.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 0,
+      "thread_name": "shadowheart_curse_resistance",
+      "evidence": "Shadowheart just revealed she is less affected by the curse than the others.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 1,
+      "thread_name": "surviving_the_shadow_curse",
+      "evidence": "The player is still navigating the Ruined Battlefield and managing light sources.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 1,
+      "thread_name": "shadowheart_shar_connection",
+      "evidence": "Shadowheart mentions a potential temple to Shar and her unique resistance to the curse.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 1,
+      "thread_name": "searching_for_the_nightsong",
+      "evidence": "The player mentions needing to find the Nightsong during their commentary.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 2,
+      "thread_name": "infiltrating_the_cult",
+      "evidence": "The goblin warrior believes the player is a True Soul and offers to take them to Moonrise Towers.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 2,
+      "thread_name": "surviving_the_shadow_curse",
+      "evidence": "The player is still looking for a more permanent solution to survive the curse, as torches and light spells are only partially effective.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 3,
+      "thread_name": "summoning_the_convoy_guide",
+      "evidence": "The player has just succeeded on a performance check to summon the guide via the lyre.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 3,
+      "thread_name": "infiltrating_the_cult",
+      "evidence": "The player is successfully maintaining their 'True Soul' disguise with the camp leaders.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 3,
+      "thread_name": "surviving_the_shadow_curse",
+      "evidence": "The player is still looking for a way through the 'deep' curse that lanterns cannot protect against.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 4,
+      "thread_name": "surviving_the_deep_shadow_curse",
+      "evidence": "The player has identified the moon lantern as the key to protection and must now follow Kar'niss.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 4,
+      "thread_name": "infiltrating_the_cult",
+      "evidence": "The player is still successfully posing as a True Soul to Kar'niss and his group.",
+      "current_status": "active"
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_index": 0,
+      "start_seconds": 0.0,
+      "end_seconds": 300.0,
+      "result": {
+        "chunk_summary": "The player enters the Shadow-Cursed Lands and immediately realizes the environmental dangers. They quickly head to camp to swap out party members for those with radiant abilities to better survive the curse. Upon returning, they find the goblin who warned them already dead, highlighting the curse's lethality.",
+        "player_objective": "Prepare the party to survive the Shadow Curse and begin exploring the Ruined Battlefield.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The party stands in a dark, twisted forest environment with a campfire nearby.",
+            "audio_observation": "The player introduces the session and discusses the potential danger of the Shadow-Cursed Lands.",
+            "player_expression": null,
+            "event_description": "The player begins the session in the Shadow-Cursed Lands, noting the high danger level.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "shadow_cursed_lands_entry"
+          },
+          {
+            "relative_timestamp": "1:08",
+            "visual_observation": "The scene transitions to the campsite, a clearing with tents and red-leafed trees.",
+            "audio_observation": "The player comments on the aesthetics of the new campsite.",
+            "player_expression": null,
+            "event_description": "The player travels to camp to adjust the party composition for better survival.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "campsite_management"
+          },
+          {
+            "relative_timestamp": "1:40",
+            "visual_observation": "The player opens Wyll's character sheet, highlighting 'Lathander's Light'.",
+            "audio_observation": "The player explains the tactical choice of bringing Wyll because of his radiant light ability.",
+            "player_expression": null,
+            "event_description": "The player selects Wyll for the party due to his ability to generate holy light.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "campsite_management"
+          },
+          {
+            "relative_timestamp": "2:02",
+            "visual_observation": "The player interacts with Shadowheart at her tent.",
+            "audio_observation": "The player notes Shadowheart's radiant magic will also be useful.",
+            "player_expression": null,
+            "event_description": "Shadowheart is added to the party for her radiant magic capabilities.",
+            "phase_kind": "dialogue",
+            "significance": "routine",
+            "segment_label": "campsite_management"
+          },
+          {
+            "relative_timestamp": "2:47",
+            "visual_observation": "The party returns to the forest; the previously alive Goblin Brawler is now a corpse on the ground.",
+            "audio_observation": "The player reacts with surprise at how quickly the goblin died while they were at camp.",
+            "player_expression": null,
+            "event_description": "The player finds the goblin who warned them dead, underscoring the curse's power.",
+            "phase_kind": "exploration",
+            "significance": "pivotal",
+            "segment_label": "shadow_cursed_lands_exploration"
+          },
+          {
+            "relative_timestamp": "3:18",
+            "visual_observation": "Each party member is shown holding a lit torch.",
+            "audio_observation": "The player confirms that everyone has a light source equipped.",
+            "player_expression": null,
+            "event_description": "The player equips the party with torches and ensures radiant light sources are active.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "shadow_cursed_lands_exploration"
+          },
+          {
+            "relative_timestamp": "3:52",
+            "visual_observation": "The party moves through the dark woods in stealth mode.",
+            "audio_observation": "The player speaks in a hushed tone, matching the stealthy movement.",
+            "player_expression": null,
+            "event_description": "The party begins careful exploration of the Shadow-Cursed Lands.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "shadow_cursed_lands_exploration"
+          },
+          {
+            "relative_timestamp": "4:45",
+            "visual_observation": "A close-up dialogue screen with Shadowheart as she discusses the curse.",
+            "audio_observation": "Shadowheart notes that the curse doesn't seem to affect her as much as others.",
+            "player_expression": null,
+            "event_description": "Shadowheart reveals she has some form of protection from the Shadow Curse.",
+            "phase_kind": "dialogue",
+            "significance": "pivotal",
+            "segment_label": "shadowheart_curse_dialogue"
+          }
+        ],
+        "emotional_trajectory": "The segment starts with cautious curiosity, shifts into focused tactical preparation at the camp, and ends with a mix of unease and intrigue following the discovery of the dead goblin and Shadowheart's unique reaction to the curse.",
+        "pacing_breakdown": "The chunk is split between exploration (40%) as the player enters the zone and later creeps through it, party management and menu navigation (35%) to prepare for the curse, and dialogue/cutscenes (25%) revealing story beats about the curse and Shadowheart.",
+        "carryover_threads": [
+          {
+            "thread_name": "surviving_the_shadow_curse",
+            "evidence": "The party is currently relying on torches and the Blood of Lathander to survive the environment.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "shadowheart_curse_resistance",
+            "evidence": "Shadowheart just revealed she is less affected by the curse than the others.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 1,
+      "start_seconds": 240.0,
+      "end_seconds": 540.0,
+      "result": {
+        "chunk_summary": "The player continues their exploration of the Shadow-Cursed Lands, discovering that Shadowheart has a natural resistance to the curse due to her devotion to Shar. They also test the mechanics of the Shadow Curse by briefly stepping out of a light source with Astarion, confirming the lethal nature of the environment. The segment ends with the party investigating the remains of a caravan that fell victim to both the curse and a violent struggle.",
+        "player_objective": "Determine the limits of the Shadow Curse and find a path forward through the Ruined Battlefield.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player party is standing near the entrance to the Shadow-Cursed Lands.",
+            "audio_observation": "\"Right through we go. Now what precisely does that mean? What have I just walked into?\"",
+            "player_expression": "The player has a look of focused concentration, leaning slightly forward.",
+            "event_description": "The player begins cautiously moving through the Ruined Battlefield, questioning the mechanics of the curse.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "ruined_battlefield"
+          },
+          {
+            "relative_timestamp": "0:44",
+            "visual_observation": "Shadowheart starts a dialogue with the player character.",
+            "audio_observation": "\"The Shadow Curse... it doesn't seem to affect me like it does others.\"",
+            "player_expression": "The player nods along, looking surprised and intrigued by the revelation.",
+            "event_description": "Shadowheart reveals that she is uniquely resistant to the Shadow Curse, attributing it to Lady Shar's blessing.",
+            "phase_kind": "dialogue",
+            "significance": "pivotal",
+            "segment_label": "shadowheart_resistance"
+          },
+          {
+            "relative_timestamp": "2:00",
+            "visual_observation": "The player selects Astarion and moves him away from the rest of the party into a dark area.",
+            "audio_observation": "\"Let's use you as a bit of a test ground. So okay, you're now out of the light... one turn of Shadow Curse. It doubles every single turn.\"",
+            "player_expression": "The player is carefully watching the UI for status effects, appearing analytical.",
+            "event_description": "The player intentionally exposes Astarion to the Shadow Curse to observe its damage scaling and mechanics.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "shadow_curse_test"
+          },
+          {
+            "relative_timestamp": "2:40",
+            "visual_observation": "Astarion uses a torch and rejoins the party; the player moves the group toward a dead ox.",
+            "audio_observation": "\"There's a dead ox, which has been shadow-cursed... a shadow-cursed undead. Are you about to jump up as a zombie ox?\"",
+            "player_expression": "The player has a slight, nervous smile, anticipating a potential jump scare.",
+            "event_description": "The player discovers a Shadow-Cursed Undead ox, illustrating the fate of creatures that perish in the curse.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "ruined_battlefield"
+          },
+          {
+            "relative_timestamp": "4:30",
+            "visual_observation": "The player characters stand around a dead tiefling named Heign; a journal is opened on screen.",
+            "audio_observation": "\"The corpse remains silent. Let's see what you've got to say. Traveling from Elturel, Tiefling city.\"",
+            "player_expression": "The player's expression is neutral as they read the journal entries.",
+            "event_description": "The player attempts to speak with a dead tiefling and, failing that, reads their journal to gather lore about the ill-fated caravan.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "caravan_ruins"
+          }
+        ],
+        "emotional_trajectory": "The segment begins with a sense of cautious curiosity as the player tests the environment. This shifts into intrigue during the dialogue with Shadowheart, followed by a moment of analytical focus while testing the curse's mechanics. It ends on a more somber, investigative note as the player pieces together the story of the dead travelers.",
+        "pacing_breakdown": "The segment is primarily exploration (60%), with the player carefully moving through the environment and testing its mechanics. Dialogue takes up about 30%, specifically the significant interaction with Shadowheart. The remaining 10% is spent in brief menu interactions or reading journals.",
+        "carryover_threads": [
+          {
+            "thread_name": "surviving_the_shadow_curse",
+            "evidence": "The player is still navigating the Ruined Battlefield and managing light sources.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "shadowheart_shar_connection",
+            "evidence": "Shadowheart mentions a potential temple to Shar and her unique resistance to the curse.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "searching_for_the_nightsong",
+            "evidence": "The player mentions needing to find the Nightsong during their commentary.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 2,
+      "start_seconds": 480.0,
+      "end_seconds": 780.0,
+      "result": {
+        "chunk_summary": "The player explores the Ruined Battlefield, discovering more victims of the Shadow Curse and gathering information from a refugee's journal. They then locate and approach a cultist camp, hoping to find a safe way through the curse by posing as a 'True Soul'.",
+        "player_objective": "Reach the cultist camp and find a safe way to Moonrise Towers.",
+        "events": [
+          {
+            "relative_timestamp": "0:20",
+            "visual_observation": "The player's party stands over a dead refugee.",
+            "audio_observation": "Player: 'Gored to death though. You know what, let's get some more details here. Chat with him, let's see what you've got to say.'",
+            "player_expression": "The player looks focused, with a slight frown of concern as they investigate the body.",
+            "event_description": "The player attempts to use 'Speak with Dead' on a refugee, but the corpse remains silent.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "ruined_battlefield_exploration"
+          },
+          {
+            "relative_timestamp": "0:46",
+            "visual_observation": "A journal is open on the screen, detailing a traveler's journey and their fear of the shadows.",
+            "audio_observation": "Player reads the journal aloud: 'This place feels wrong. My skin is crawling, like something is watching us from the darkness.'",
+            "player_expression": "The player's eyes scan the text, their expression serious and absorbed in the story.",
+            "event_description": "The player reads a refugee's journal, gaining insight into the terror caused by the Shadow Curse.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "ruined_battlefield_exploration"
+          },
+          {
+            "relative_timestamp": "2:14",
+            "visual_observation": "The player's party approaches a small camp with several goblins and a hyena.",
+            "audio_observation": "A goblin is heard talking to a hyena: 'Hey boy... yeh want the bone?'",
+            "player_expression": "The player looks intrigued and cautious, leaning slightly closer to the screen.",
+            "event_description": "The player discovers the cultist camp and observes a goblin interacting with a hyena.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "cultist_camp"
+          },
+          {
+            "relative_timestamp": "2:25",
+            "visual_observation": "A cutscene shows the hyena being consumed by the Shadow Curse after chasing a bone.",
+            "audio_observation": "The hyena yelps as it's enveloped by shadows. Goblin: 'Heh. Oi! You see that blighter go? Swallowed whole by the shadow curse.'",
+            "player_expression": "The player's eyes widen in surprise and slight disgust at the goblin's cruelty.",
+            "event_description": "The player witnesses the goblin lure the hyena into the shadows, where it's immediately killed by the curse.",
+            "phase_kind": "cutscene",
+            "significance": "pivotal",
+            "segment_label": "cultist_camp"
+          },
+          {
+            "relative_timestamp": "4:29",
+            "visual_observation": "The goblin warrior addresses the player's character, believing them to be a 'True Soul'.",
+            "audio_observation": "Goblin: 'You're the True Soul we're taking to Moonrise, I'm guessing?'",
+            "player_expression": "The player has a thoughtful expression, carefully considering the dialogue options.",
+            "event_description": "The goblin warrior mistakes the player for a high-ranking cultist, presenting an opportunity for safe passage.",
+            "phase_kind": "dialogue",
+            "significance": "pivotal",
+            "segment_label": "cultist_camp"
+          }
+        ],
+        "emotional_trajectory": "The segment begins with a somber and investigative tone as the player finds more victims of the curse. This shifts into a mix of curiosity and unease upon finding the cultist camp, followed by shock and disgust at the goblin's cruelty. The segment ends with a sense of strategic focus as the player realizes they can use their 'True Soul' status to their advantage.",
+        "pacing_breakdown": "This segment is balanced between exploration (40%) as the player moves through the battlefield and approaches the camp, dialogue and cutscenes (40%) detailing the encounter with the goblins, and menu navigation (20%) while reading journals and managing items.",
+        "carryover_threads": [
+          {
+            "thread_name": "infiltrating_the_cult",
+            "evidence": "The goblin warrior believes the player is a True Soul and offers to take them to Moonrise Towers.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "surviving_the_shadow_curse",
+            "evidence": "The player is still looking for a more permanent solution to survive the curse, as torches and light spells are only partially effective.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 3,
+      "start_seconds": 720.0,
+      "end_seconds": 1020.0,
+      "result": {
+        "chunk_summary": "The player interacts with a group of cultists in the Ruined Battlefield, successfully posing as a 'True Soul' to gain their assistance. After discovering that a magical lyre is the key to navigating the deeper shadow curse, the player uses their bardic skills to summon a guide.",
+        "player_objective": "Secure safe passage through the deep shadow curse by impersonating a True Soul and summoning a guide.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player is exploring a cultist camp in the Ruined Battlefield. A goblin named Warrior Gronag is visible.",
+            "audio_observation": "The player is commenting on the cultist camp and the goblin's behavior.",
+            "player_expression": null,
+            "event_description": "The player approaches Warrior Gronag and begins a dialogue.",
+            "phase_kind": "dialogue",
+            "significance": "notable",
+            "segment_label": "cultist_camp_negotiation"
+          },
+          {
+            "relative_timestamp": "0:22",
+            "visual_observation": "A cutscene shows a hyena being consumed by the shadow curse after Gronag throws a bone.",
+            "audio_observation": "The player reacts with shock and disgust to the goblin's cruelty.",
+            "player_expression": null,
+            "event_description": "A hyena is sacrificed to the shadow curse by a goblin, demonstrating the environment's lethality.",
+            "phase_kind": "cutscene",
+            "significance": "pivotal",
+            "segment_label": "shadow_curse_demonstration"
+          },
+          {
+            "relative_timestamp": "2:30",
+            "visual_observation": "The player is in dialogue with Warrior Gronag, choosing responses that reinforce their 'True Soul' persona.",
+            "audio_observation": "The player discusses their strategy for impersonating a True Soul.",
+            "player_expression": null,
+            "event_description": "The player successfully convinces the goblins they are a True Soul.",
+            "phase_kind": "dialogue",
+            "significance": "notable",
+            "segment_label": "cultist_camp_negotiation"
+          },
+          {
+            "relative_timestamp": "2:40",
+            "visual_observation": "The player moves away from Gronag and explores the surrounding ruins.",
+            "audio_observation": "The player comments on the dead hyena which has now risen as an undead creature.",
+            "player_expression": null,
+            "event_description": "The player discovers that creatures killed by the curse rise as 'Shadow-Cursed Undead'.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "ruined_battlefield_exploration"
+          },
+          {
+            "relative_timestamp": "2:51",
+            "visual_observation": "The player opens an information panel for the 'Level 1 Zombie' hyena.",
+            "audio_observation": "The player reads the stats and resistances of the shadow-cursed undead.",
+            "player_expression": null,
+            "event_description": "The player analyzes the stats and weaknesses of the undead enemies.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "enemy_analysis"
+          },
+          {
+            "relative_timestamp": "3:48",
+            "visual_observation": "The player approaches a half-orc named Kansif within the same camp.",
+            "audio_observation": "The player initiates dialogue with Kansif.",
+            "player_expression": null,
+            "event_description": "The player begins a dialogue with Kansif to find a guide.",
+            "phase_kind": "dialogue",
+            "significance": "notable",
+            "segment_label": "cultist_camp_negotiation"
+          },
+          {
+            "relative_timestamp": "4:00",
+            "visual_observation": "Kansif asks the player if they brought 'the lyre'.",
+            "audio_observation": "The player expresses excitement at realizing they already possess the necessary item.",
+            "player_expression": null,
+            "event_description": "The player identifies Minthara's lyre as the key to summoning a guide.",
+            "phase_kind": "dialogue",
+            "significance": "pivotal",
+            "segment_label": "cultist_camp_negotiation"
+          },
+          {
+            "relative_timestamp": "4:45",
+            "visual_observation": "A dice roll interface for a Charisma (Performance) check is shown.",
+            "audio_observation": "The player comments on their high performance stats.",
+            "player_expression": null,
+            "event_description": "The player performs a skill check to play the lyre and summon the guide.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "summoning_the_guide"
+          }
+        ],
+        "emotional_trajectory": "The segment begins with analytical focus and a sense of strategic planning. This is interrupted by a moment of genuine disgust and shock at the goblin's cruelty. The player then returns to a focused state, leading to a significant breakthrough and a sense of triumph when they realize they have the required item to proceed.",
+        "pacing_breakdown": "This chunk is heavily dominated by dialogue and narrative progression (60%), primarily through interactions with the cultists. Exploration of the immediate camp area accounts for about 20%, while menu navigation for item analysis and skill checks makes up the remaining 20%.",
+        "carryover_threads": [
+          {
+            "thread_name": "summoning_the_convoy_guide",
+            "evidence": "The player has just succeeded on a performance check to summon the guide via the lyre.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "infiltrating_the_cult",
+            "evidence": "The player is successfully maintaining their 'True Soul' disguise with the camp leaders.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "surviving_the_shadow_curse",
+            "evidence": "The player is still looking for a way through the 'deep' curse that lanterns cannot protect against.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 4,
+      "start_seconds": 960.0,
+      "end_seconds": 1200.0,
+      "result": {
+        "chunk_summary": "The player successfully summons a guide, Kar'niss, using the spider lyre they recovered previously. Kar'niss is revealed as a Drider, a monstrous fusion of drow and spider, whose moon lantern provides essential protection against the deepest parts of the shadow curse.",
+        "player_objective": "Summon the guide to lead the party safely to Moonrise Towers.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "Dialogue screen with the orc Kansif, options include mentioning the lyre.",
+            "audio_observation": "Player: 'I have a lyre that used to belong to a drow, that's true. I've got the spider lyre we got off Nere so oh. Music! Hang on, hang on, hang on right that is true. Nere was a True Soul... that's how you get through.'",
+            "player_expression": "Focused, analytical, then a moment of realization.",
+            "event_description": "The player connects the dots between the spider lyre they already possess and the method for summoning the convoy's guide.",
+            "phase_kind": "dialogue",
+            "significance": "pivotal",
+            "segment_label": "cultist_camp"
+          },
+          {
+            "relative_timestamp": "0:43",
+            "visual_observation": "The dice roll screen for a Charisma (Performance) check.",
+            "audio_observation": "Player: 'So okay, I can do that, that's absolutely fine... me being a bard could be very useful around here. The right song on my lyre can communicate with other members of the Absolute's army.'",
+            "player_expression": "Confident, slightly smug about their character's build.",
+            "event_description": "The player successfully performs a Charisma check to play the lyre correctly.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "summoning_the_guide"
+          },
+          {
+            "relative_timestamp": "1:22",
+            "visual_observation": "A cutscene showing the player character playing the spider lyre.",
+            "audio_observation": "Melodic, haunting lyre music. Kansif: 'Yes, I hear them, your majesty. Calling us. Their god and their guide, together.'",
+            "player_expression": "None (focused on the screen).",
+            "event_description": "The player character plays the lyre, initiating the summoning of the guide.",
+            "phase_kind": "cutscene",
+            "significance": "notable",
+            "segment_label": "summoning_the_guide"
+          },
+          {
+            "relative_timestamp": "1:28",
+            "visual_observation": "Kar'niss, a Drider, descends from the trees, carrying a glowing moon lantern.",
+            "audio_observation": "Eerie, skittering sounds. Astarion: 'By the gods. One of Lolth's abominations.' Kar'niss: 'New flesh for you, my queen. But, who are they?'",
+            "player_expression": "Surprise and mild disgust.",
+            "event_description": "Kar'niss the Drider arrives, appearing both menacing and deeply corrupted.",
+            "phase_kind": "cutscene",
+            "significance": "pivotal",
+            "segment_label": "summoning_the_guide"
+          },
+          {
+            "relative_timestamp": "2:01",
+            "visual_observation": "The game returns to the standard overhead view; the player hovers over Kar'niss to see his stats.",
+            "audio_observation": "Player: 'Okay, so a big old spider abomination just showed up... I'm guessing you sir are like halfway there. And also, you mentioned Lolth, which is like the drow spider god.'",
+            "player_expression": "Analytical, curious.",
+            "event_description": "The player examines Kar'niss's character sheet, noting his level, health, and 'Moonshield' ability.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "cultist_camp"
+          },
+          {
+            "relative_timestamp": "2:41",
+            "visual_observation": "Kar'niss's character sheet is open, highlighting the 'Drider' description and 'Sunlight Sensitivity'.",
+            "audio_observation": "Player: 'Officially you're now a Drider... you did something wrong. This is like a punishment... maybe it gets nastier as you go deeper in.'",
+            "player_expression": "Intrigued, reading the lore.",
+            "event_description": "The player reads the lore description of a Drider and strategizes around his weaknesses and the 'Moonshield' protection.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "cultist_camp"
+          }
+        ],
+        "emotional_trajectory": "The segment begins with a strong sense of analytical satisfaction as the player realizes they have the key to progress. This transitions into a brief moment of performative confidence during the skill check, followed by genuine awe and slight revulsion during the cinematic arrival of Kar'niss. The segment ends with a return to a focused, tactical mindset as the player evaluates the new 'guide' as both an ally and a potential future threat.",
+        "pacing_breakdown": "The segment is heavily weighted toward narrative progression, with 45% spent in dialogue and 25% in a cinematic cutscene. Menu-based interaction (specifically the skill check and character sheet analysis) accounts for 20%, while active exploration in the camp takes up the remaining 10%.",
+        "carryover_threads": [
+          {
+            "thread_name": "surviving_the_deep_shadow_curse",
+            "evidence": "The player has identified the moon lantern as the key to protection and must now follow Kar'niss.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "infiltrating_the_cult",
+            "evidence": "The player is still successfully posing as a True Soul to Kar'niss and his group.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "ba0000782bc65512be19ba5e767a71df",
+  "game_title": "Baldur's Gate 3",
+  "game_key": "baldur_s_gate_3",
+  "duration_seconds": 1200.0,
+  "chunk_count": 5,
+  "overall_friction": "minor",
+  "overall_engagement": "strong",
+  "overall_stop_risk": "none",
+  "bug_count": 11,
+  "avg_sentiment": 2.67,
+  "sentiment_by_segment": {
+    "shadow_cursed_lands_entry": 2.0,
+    "campsite_management": 2.33,
+    "shadow_cursed_lands_exploration": 3.67,
+    "shadowheart_resistance": 2.5,
+    "shadow_curse_test": 3.5,
+    "ruined_battlefield": 3.0,
+    "ruined_battlefield_exploration": 1.33,
+    "cultist_camp": 2.5,
+    "cultist_camp_negotiation": 3.0,
+    "enemy_analysis": 1.0,
+    "summoning_the_guide": 4.33
+  },
+  "total_retry_sequences": 0,
+  "first_attempt_failure_count": 0,
+  "notable_quotes": [
+    "Oh, here's fun by the way... I just left camp and came back to where we started and that goblin's dead. Someone killed it in the like 30 seconds we were away at camp.",
+    "Three torches and the light of Lathander shining around for six meters of holy radiant light... that's got to be good enough.",
+    "Shadowheart has immediately proved her value. She's figured out something about these shadows.",
+    "So yeah, I'll let you to walk out of the light to see what happens. Oh, turn-based mode? That's interesting.",
+    "Luckily your diary is just hanging out right next to you. So okay, that's bloody convenient."
+  ],
+  "session_health_score": 92,
+  "priority_actions": [
+    "Optimize camera transition code to eliminate frame stutters and snaps at cinematic trigger points (12:03, 18:01).",
+    "Add more specific 'the corpse remains silent' UI feedback or flavor text for 'Speak with Dead' on narrative corpses that do not have recorded dialogue (8:39).",
+    "Resolve character model and weapon clipping during group dialogue scenes in the cultist camp (13:15).",
+    "Implement a visual indicator or dialogue line from a companion earlier in the zone to signal that standard torches will not provide sufficient protection deeper in the forest (19:50)."
+  ],
+  "top_highlight": "Okay, I do have a lyre that used to belong to a drow, that's true. I've got the spider lyre we got off Minthara. Minthara was a True Soul, she had the same lyre. That's how you get through. It's somet"
+}

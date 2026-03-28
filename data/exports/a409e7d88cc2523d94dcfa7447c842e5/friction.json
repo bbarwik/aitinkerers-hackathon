@@ -1,0 +1,170 @@
+[
+  {
+    "agent_kind": "friction",
+    "source_label": "repetition",
+    "absolute_seconds": 368.0,
+    "absolute_timestamp": "6:08",
+    "summary": "The pacing of turn-based combat with high enemy counts feels sluggish and repetitive.",
+    "game_context": "Waiting for a large group of low-level enemies (Mephits) to complete their individual turn-based movements and summoning actions.",
+    "evidence": [
+      "Camera panning slowly following AI movement",
+      "Multiple small AI jumps and summons",
+      "Sarcastic tone",
+      "Exasperated sighing",
+      "Scene: Druid Sanctuary combat encounter during the AI's turn with multiple Mud Mephits.",
+      "Quote: I cannot watch them all move three inches, please.",
+      "Quote: Can like, why is it... come on.",
+      "Quote: Holy f#ck peak gameplay... my f#cking god."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": "sanctuary_combat",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "quality",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "difficulty_spike",
+    "absolute_seconds": 698.0,
+    "absolute_timestamp": "11:38",
+    "summary": "The loss of one hour of progress due to a party wipe and a lack of recent manual or auto-saves.",
+    "game_context": "Party wiped during a difficult combat encounter, rolling back substantial progress.",
+    "evidence": [
+      "Game Over screen",
+      "Screen fades to black",
+      "Player-added text edit displaying 'an hour ago'",
+      "Defeated tone",
+      "Disbelief",
+      "Heavy sighing",
+      "Scene: A total party wipe screen occurs during the Kagha boss fight, followed by a reload to a save file from much earlier in the session.",
+      "Quote: We'll just have to retry this.",
+      "Quote: When did we save?",
+      "Quote: an hour of my life is gone."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 2,
+    "segment_label": "kagha_boss_fight",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "controls",
+    "absolute_seconds": 965.0,
+    "absolute_timestamp": "16:05",
+    "summary": "The verticality of the environment and the speed of the teammate's movement made pathing unclear.",
+    "game_context": "Following a teammate through a multi-level environmental transition.",
+    "evidence": [
+      "backtracking",
+      "circling around ladders and doors",
+      "standing still while panning camera to find teammate",
+      "questioning tone",
+      "playful mockery",
+      "Scene: Emerald Grove stairs and Hollow area. The player is attempting to follow their teammate to a new objective.",
+      "Quote: Where'd you just go dude?",
+      "Quote: Where'd you just f***ing go?",
+      "Quote: You are a horrible f***ing guide, by the way."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": "emerald_grove_exploration",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "quality"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "ui_confusion",
+    "absolute_seconds": 1001.0,
+    "absolute_timestamp": "16:41",
+    "summary": "Confusion in co-op over whether a quest item should be equipped or sacrificed.",
+    "game_context": "Party resource management for the 'Wizard of Waterdeep' quest.",
+    "evidence": [
+      "Toggling between character sheets",
+      "Inspecting teammate equipment slots",
+      "Confused tone",
+      "Exasperated sigh",
+      "Scene: Inventory menu comparison between party members regarding the Haste Helm.",
+      "Quote: Are you wearing it?",
+      "Quote: Are you wearing the helmet that I gave you?",
+      "Quote: You're supposed to feed gale.",
+      "Quote: Give me back that helmet mf."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 4,
+    "segment_label": "party_item_management",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "camera",
+    "absolute_seconds": 1096.0,
+    "absolute_timestamp": "18:16",
+    "summary": "Vertical environment and fast teammate movement made navigation unclear.",
+    "game_context": "Following a teammate through a multi-level structure with complex vertical paths.",
+    "evidence": [
+      "Rapid camera rotation searching for teammate icons",
+      "Backtracking down stairs",
+      "Running in small circles",
+      "Slightly frustrated tone",
+      "Accusatory questioning",
+      "Scene: Wooden stairs and platforms outside the Toll House on the Risen Road.",
+      "Quote: Where'd you just go dude?",
+      "Quote: Where'd you just fucking go?",
+      "Quote: Stop teleporting away dude.",
+      "Quote: Stop fucking teleporting away.",
+      "Quote: You are a horrible fucking guide by the way."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 4,
+    "segment_label": "risen_road_looting",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

@@ -1,0 +1,372 @@
+[
+  {
+    "agent_kind": "clarity",
+    "source_label": "confusing_ui",
+    "absolute_seconds": 23.0,
+    "absolute_timestamp": "0:23",
+    "summary": "Specific terminology (e.g., 'Action Point' or 'Bonus Action') rather than the generic 'Resources' label.",
+    "game_context": "The player should identify that their 'Action' point for the turn has been depleted.",
+    "evidence": [
+      "UI notification displays 'Not enough resources' in red text when the player attempts to initiate an attack.",
+      "uncertain tone",
+      "questioning",
+      "Scene: A combat encounter where the player is attempting to attack a Goblin Tracker.",
+      "Quote: Resources? What? What does that mean?"
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 0,
+    "segment_label": "intro_montage",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "friction",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "misleading_affordance",
+    "absolute_seconds": 220.0,
+    "absolute_timestamp": "3:40",
+    "summary": "Clearer distinction that customization for these features is preset-based rather than slider-based.",
+    "game_context": "The player should select from the provided binary/fixed presets for body parts.",
+    "evidence": [
+      "Navigating between the 'Identity' and 'Genitals' menu options.",
+      "questioning",
+      "Scene: Appearance tab in the character creator menu during genital customization.",
+      "Quote: How do I change my cock size?"
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 0,
+    "segment_label": "character_creation",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "delight",
+      "friction",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "tutorial_gap",
+    "absolute_seconds": 342.0,
+    "absolute_timestamp": "5:42",
+    "summary": "The biological nature of the console doesn't immediately suggest its function as a control switch without prior RPG experience.",
+    "game_context": "Interact with the console to trigger a ship event (releasing or killing a captive).",
+    "evidence": [
+      "Standing stationary in front of the console",
+      "Interaction prompt 'A Use' is highlighted",
+      "Uncertain, questioning tone",
+      "Scene: Nautiloid ship interior, standing in front of a glowing, pulsating biological console labeled 'Neural Apparatus'.",
+      "Quote: what is this"
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 1,
+    "segment_label": "nautiloid_ship",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "friction",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "other",
+    "absolute_seconds": 451.0,
+    "absolute_timestamp": "7:31",
+    "summary": "None; the UI correctly signaled the damage penalty, but the player was unfamiliar with the 'safe' limits of movement.",
+    "game_context": "Identify that jumping from a significant height or into hazards results in fall/fire damage.",
+    "evidence": [
+      "Aiming the jump arc across a large distance",
+      "Red arc and HP loss notification (-2 HP) visible on the UI",
+      "Questioning tone followed by realization",
+      "Scene: On the upper levels of the ship, attempting to jump across a gap while environmental fire is nearby.",
+      "Quote: Can I? Can I jump all the way over here? Oh I'll lose HP."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 1,
+    "segment_label": "shadowheart_rescue",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "delight",
+      "friction",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "confusing_ui",
+    "absolute_seconds": 511.0,
+    "absolute_timestamp": "8:31",
+    "summary": "A clearer visual transition or 'snap' to available ranged options when a melee path is blocked by resource limits.",
+    "game_context": "Identify the movement limit and either switch to a ranged attack or end the turn.",
+    "evidence": [
+      "Red 'Not enough movement' pathing line",
+      "Repeatedly clicking on an enemy that is clearly highlighted as out of range",
+      "Frustrated whispering",
+      "Scene: Final combat encounter on the Nautiloid deck against Lesser Imps.",
+      "Quote: Not enough movement... kill it... almost... almost..."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 2,
+    "segment_label": null,
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "delight",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "misleading_affordance",
+    "absolute_seconds": 646.0,
+    "absolute_timestamp": "10:46",
+    "summary": "Visible combat dice (log or floaties) that help bridge the gap between visual proximity and abstract math for new players.",
+    "game_context": "Understand that visually being 'at' the enemy still requires a successful D20 roll to hit.",
+    "evidence": [
+      "Character is visually touching the enemy",
+      "UI displays 'Miss!' after an attack attempt",
+      "Disbelieving tone",
+      "Defensive tone",
+      "Scene: Combat encounter with a Goblin Tracker near the Druid Grove entrance.",
+      "Quote: I was right there!",
+      "Quote: I didn't roll... I didn't roll."
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 2,
+    "segment_label": "chapel_entrance",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "friction"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "tutorial_gap",
+    "absolute_seconds": 656.0,
+    "absolute_timestamp": "10:56",
+    "summary": "Condition tooltip or prompt explaining that standing up is tied to the movement resource.",
+    "game_context": "Wait for the turn to reset and use movement to stand up.",
+    "evidence": [
+      "Character model falls flat",
+      "'Prone' condition icon and text appears above the head",
+      "Direct question to teammates",
+      "Scene: Exploring the dirt path leading to the Chapel entrance, character walks through grease.",
+      "Quote: How do I get up?"
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 2,
+    "segment_label": "chapel_entrance",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "friction",
+      "quality"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "confusing_ui",
+    "absolute_seconds": 794.0,
+    "absolute_timestamp": "13:14",
+    "summary": "More prominent highlighting of the 'Action' icon on the hotbar when the resource error occurs.",
+    "game_context": "Identify that the 'Action' resource has been depleted for the turn.",
+    "evidence": [
+      "UI displays red text 'Not enough resources: Action'",
+      "Attack animation does not trigger",
+      "Defensive tone",
+      "Argumentative",
+      "Scene: Combat encounter with looters in the Refectory.",
+      "Quote: Dude, I hit him.",
+      "Quote: No you didn't."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 3,
+    "segment_label": "chapel_cutscene",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "delight",
+      "friction",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "poor_feedback",
+    "absolute_seconds": 890.0,
+    "absolute_timestamp": "14:50",
+    "summary": "Better visual feedback or a slower 'activation sequence' for complex environmental traps to allow players to understand the cause-and-effect.",
+    "game_context": "Observe the environmental triggers (vents, grease) before interacting with the trapped sarcophagus.",
+    "evidence": [
+      "Screen covered in fire and grease explosions",
+      "Multiple party members killed instantly",
+      "Shocked tone",
+      "Genuine confusion",
+      "Scene: The Dank Crypt central chamber after interacting with the sarcophagus.",
+      "Quote: How'd that happen?",
+      "Quote: Did I step on something?",
+      "Quote: I don't know what triggered it."
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 3,
+    "segment_label": "dank_crypt_trap",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "delight",
+      "quality",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "misleading_affordance",
+    "absolute_seconds": 908.0,
+    "absolute_timestamp": "15:08",
+    "summary": "Inventory status update or notification that gear must be manually re-equipped after a full death.",
+    "game_context": "Recognize that their equipment was left in the inventory/corpse or was removed during the 'downed' state.",
+    "evidence": [
+      "Player character model is naked",
+      "Party members looking at the character",
+      "Disbelief",
+      "Stunned laughter",
+      "Scene: Inside the Dank Crypt immediately after the player is resurrected.",
+      "Quote: WHAT.",
+      "Quote: Why...",
+      "Quote: I'm like dead I think."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 3,
+    "segment_label": "dank_crypt_trap",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "confusing_ui",
+    "absolute_seconds": 1009.0,
+    "absolute_timestamp": "16:49",
+    "summary": "Visual priority or 'snap-to' highlighting that distinguishes between ally and enemy when their selection hitboxes overlap in tight spaces.",
+    "game_context": "Target the enemy 'Entombed Warrior' positioned directly behind the teammate.",
+    "evidence": [
+      "Attack animation triggers near teammate",
+      "Damage numbers appear on the ally 'Olga Bolshevik'",
+      "Uncertain tone",
+      "Direct questioning of teammate",
+      "Scene: Turn-based combat with skeletons in the Dank Crypt. Multiple player characters and enemies are crowded in a narrow doorway.",
+      "Quote: Did I hit the thing?",
+      "Quote: Did I hit the thing though?"
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 4,
+    "segment_label": "druid_grove_exploration",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "friction",
+      "quality",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "poor_feedback",
+    "absolute_seconds": 1015.0,
+    "absolute_timestamp": "16:55",
+    "summary": "Clearer floor-plane pathing that accounts for character model collision preventing interactions at 'zero distance'.",
+    "game_context": "Interact with the corpse to loot it.",
+    "evidence": [
+      "Red pop-up text 'Not enough movement'",
+      "Red pop-up text 'Can't reach this'",
+      "Assertions of hit/action completion",
+      "Argumentative tone",
+      "Scene: Post-combat in the Dank Crypt. The player is standing directly over a defeated 'Entombed Warrior' corpse.",
+      "Quote: I hit it. I hit the thing."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 4,
+    "segment_label": "druid_grove_exploration",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "friction",
+      "quality",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

@@ -1,0 +1,959 @@
+[
+  {
+    "agent_kind": "sentiment",
+    "source_label": "neutral",
+    "absolute_seconds": 0.0,
+    "absolute_timestamp": "0:00",
+    "summary": "Introductory summary of the series",
+    "game_context": "Montage of gameplay clips showing various combat and exploration scenes.",
+    "evidence": [
+      "Trigger: Introductory summary of the series",
+      "Visual: Montage of gameplay clips showing various combat and exploration scenes.",
+      "Audio: Informative tone, using self-deprecating humor about being 'forced' to play the game."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "intro_montage",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": 2,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 25.0,
+    "absolute_timestamp": "0:25",
+    "summary": "Failure in early combat (Missed attack)",
+    "game_context": "Player character misses a point-blank 65% hit chance on a goblin.",
+    "evidence": [
+      "Trigger: Failure in early combat (Missed attack)",
+      "Visual: Player character misses a point-blank 65% hit chance on a goblin.",
+      "Audio: Laughing while exclaiming 'I WAS RIGHT THERE'."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 0,
+    "segment_label": "intro_montage",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "verbal"
+    ],
+    "sentiment_raw_score": 5,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 55.0,
+    "absolute_timestamp": "0:55",
+    "summary": "Environmental trap failure",
+    "game_context": "Character triggers a massive grease explosion in the Dank Crypt.",
+    "evidence": [
+      "Trigger: Environmental trap failure",
+      "Visual: Character triggers a massive grease explosion in the Dank Crypt.",
+      "Audio: Sarcastic 'Perfect' followed by shared laughter with friends."
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 0,
+    "segment_label": "content_settings",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": 6,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 85.0,
+    "absolute_timestamp": "1:25",
+    "summary": "Content setting navigation",
+    "game_context": "Menu screen showing 'Explicit Content' warnings.",
+    "evidence": [
+      "Trigger: Content setting navigation",
+      "Visual: Menu screen showing 'Explicit Content' warnings.",
+      "Audio: Curious and joking tone asking about the graphic nature of the game."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 0,
+    "segment_label": "content_settings",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": 3,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 115.0,
+    "absolute_timestamp": "1:55",
+    "summary": "Start of opening cinematic",
+    "game_context": "Gory visual of mind flayer ship and character infection.",
+    "evidence": [
+      "Trigger: Start of opening cinematic",
+      "Visual: Gory visual of mind flayer ship and character infection.",
+      "Audio: Joking about the lack of 'Subway Surfers' gameplay to maintain their attention."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 0,
+    "segment_label": "opening_cinematic",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "friction",
+      "verbal"
+    ],
+    "sentiment_raw_score": 5,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "excited",
+    "absolute_seconds": 140.0,
+    "absolute_timestamp": "2:20",
+    "summary": "Discovering dwarf character options",
+    "game_context": "Player selects Dwarf race, showing a character that looks like Peter Dinklage.",
+    "evidence": [
+      "Trigger: Discovering dwarf character options",
+      "Visual: Player selects Dwarf race, showing a character that looks like Peter Dinklage.",
+      "Audio: Energetic laughter and shouting 'I CAN BE PETER DINKLAGE'."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 0,
+    "segment_label": "character_creation",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": 7,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "excited",
+    "absolute_seconds": 170.0,
+    "absolute_timestamp": "2:50",
+    "summary": "Dragonborn race selection",
+    "game_context": "Selecting the Dragonborn race and scrolling through intimidating sub-races.",
+    "evidence": [
+      "Trigger: Dragonborn race selection",
+      "Visual: Selecting the Dragonborn race and scrolling through intimidating sub-races.",
+      "Audio: High-pitched, enthusiastic declaration 'I'M A DRAGON'."
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 0,
+    "segment_label": "character_creation",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": 8,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 205.0,
+    "absolute_timestamp": "3:25",
+    "summary": "Discovery of genital customization",
+    "game_context": "Player navigates to the 'Genitals' menu and hides clothes to see the model.",
+    "evidence": [
+      "Trigger: Discovery of genital customization",
+      "Visual: Player navigates to the 'Genitals' menu and hides clothes to see the model.",
+      "Audio: Extreme shouting, laughter, and high-volume exclamations ('YOOOO', 'NO BALLS')."
+    ],
+    "severity_numeric": 9,
+    "source_chunk_index": 0,
+    "segment_label": "character_creation",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "friction",
+      "verbal"
+    ],
+    "sentiment_raw_score": 9,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 240.0,
+    "absolute_timestamp": "4:00",
+    "summary": "Naming character",
+    "game_context": "Typing in a humorous, inappropriate character name in the creator.",
+    "evidence": [
+      "Trigger: Naming character",
+      "Visual: Typing in a humorous, inappropriate character name in the creator.",
+      "Audio: Giggling while discussing the name 'P#ssy Pounder 9000'."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 0,
+    "segment_label": null,
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": 7,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "excited",
+    "absolute_seconds": 280.0,
+    "absolute_timestamp": "4:40",
+    "summary": "Opening cinematic spectacle",
+    "game_context": "High-fidelity cutscene of dragons attacking the mind flayer ship.",
+    "evidence": [
+      "Trigger: Opening cinematic spectacle",
+      "Visual: High-fidelity cutscene of dragons attacking the mind flayer ship.",
+      "Audio: Impressed tone and rapid commentary, comparing himself to the dragon rider.",
+      "Expression: Engaged, eyes widened slightly in appreciation of the visuals."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 1,
+    "segment_label": "nautiloid_ship",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": 5,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 310.0,
+    "absolute_timestamp": "5:10",
+    "summary": "Waking up on the Nautiloid",
+    "game_context": "Character emerges from the pod; the player sees their custom model in the actual world.",
+    "evidence": [
+      "Trigger: Waking up on the Nautiloid",
+      "Visual: Character emerges from the pod; the player sees their custom model in the actual world.",
+      "Audio: Playful shout 'AHHH' and commenting 'I'm so little' in an amused tone.",
+      "Expression: Smiling, leaning forward slightly to inspect the environment."
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 1,
+    "segment_label": "nautiloid_ship",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": 4,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 350.0,
+    "absolute_timestamp": "5:50",
+    "summary": "First dialogue (The Nursery Pool)",
+    "game_context": "Selecting dialogue options to reach toward the pool despite the parasite threat.",
+    "evidence": [
+      "Trigger: First dialogue (The Nursery Pool)",
+      "Visual: Selecting dialogue options to reach toward the pool despite the parasite threat.",
+      "Audio: Collaborative decision-making with friends, laughing about the consequences.",
+      "Expression: Relaxed posture, looking between his monitors while chatting."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 1,
+    "segment_label": "nautiloid_ship",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "clarity",
+      "verbal"
+    ],
+    "sentiment_raw_score": 3,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 390.0,
+    "absolute_timestamp": "6:30",
+    "summary": "Meeting Lae'zel",
+    "game_context": "Cutscene transition where Lae'zel holds the player at sword point.",
+    "evidence": [
+      "Trigger: Meeting Lae'zel",
+      "Visual: Cutscene transition where Lae'zel holds the player at sword point.",
+      "Audio: Joking about the character's appearance ('spice level') and the telepathic connection.",
+      "Expression: Grinning widely at the absurdity of the dialogue and the situation."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 1,
+    "segment_label": "laezel_introduction",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": 5,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "excited",
+    "absolute_seconds": 460.0,
+    "absolute_timestamp": "7:40",
+    "summary": "Shoving a party member into a pit",
+    "game_context": "Using the 'Shove' action on a friend's character, sending them flying off a ledge.",
+    "evidence": [
+      "Trigger: Shoving a party member into a pit",
+      "Visual: Using the 'Shove' action on a friend's character, sending them flying off a ledge.",
+      "Audio: Explosive, high-volume laughter from the player and his friends.",
+      "Expression: Head thrown back slightly in laughter, eyes crinkled with genuine delight."
+    ],
+    "severity_numeric": 9,
+    "source_chunk_index": 1,
+    "segment_label": null,
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "friction",
+      "verbal"
+    ],
+    "sentiment_raw_score": 9,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "triumphant",
+    "absolute_seconds": 505.0,
+    "absolute_timestamp": "8:25",
+    "summary": "Using Acid Breath in combat",
+    "game_context": "Executing a Black Dragonborn breath weapon on a group of imps, successfully dealing damage.",
+    "evidence": [
+      "Trigger: Using Acid Breath in combat",
+      "Visual: Executing a Black Dragonborn breath weapon on a group of imps, successfully dealing damage.",
+      "Audio: Proudly exclaiming 'Acid breath!' with a triumphant tone.",
+      "Expression: Satisfied smirk, nodding as the mechanical choice pays off."
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 1,
+    "segment_label": null,
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": 6,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 534.0,
+    "absolute_timestamp": "8:54",
+    "summary": "Planning future character interactions",
+    "game_context": "Looking through a telescope at a distant NPC (Minthara).",
+    "evidence": [
+      "Trigger: Planning future character interactions",
+      "Visual: Looking through a telescope at a distant NPC (Minthara).",
+      "Audio: Playful, plotting tone: \"We're gonna rob her later.\""
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 2,
+    "segment_label": "ravaged_beach_exploration",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": 4,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 564.0,
+    "absolute_timestamp": "9:24",
+    "summary": "Regrouping with an ally",
+    "game_context": "Approaching Shadowheart on the beach after the crash.",
+    "evidence": [
+      "Trigger: Regrouping with an ally",
+      "Visual: Approaching Shadowheart on the beach after the crash.",
+      "Audio: Positive social tone: \"She's the homie, Kelvin.\""
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 2,
+    "segment_label": "ravaged_beach_exploration",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": 4,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 574.0,
+    "absolute_timestamp": "9:34",
+    "summary": "High-absurdity humor and meme editing",
+    "game_context": "Dialogue with Shadowheart about why the player saved her, overlaid with a 'Giga Chad' meme.",
+    "evidence": [
+      "Trigger: High-absurdity humor and meme editing",
+      "Visual: Dialogue with Shadowheart about why the player saved her, overlaid with a 'Giga Chad' meme.",
+      "Audio: Explosive group laughter and shouting a vulgar joke about Dragonborn anatomy."
+    ],
+    "severity_numeric": 9,
+    "source_chunk_index": 2,
+    "segment_label": "ravaged_beach_exploration",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": 9,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 620.0,
+    "absolute_timestamp": "10:20",
+    "summary": "Incidental loot and lighthearted griefing",
+    "game_context": "Running along the beach picking up items while a friend tries to pickpocket them.",
+    "evidence": [
+      "Trigger: Incidental loot and lighthearted griefing",
+      "Visual: Running along the beach picking up items while a friend tries to pickpocket them.",
+      "Audio: Joking, defensive tone: \"Stop trying to rob me!\""
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 2,
+    "segment_label": "druid_grove_exploration",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": 3,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 673.0,
+    "absolute_timestamp": "11:13",
+    "summary": "Dark humor regarding NPCs",
+    "game_context": "Entering 'The Hollow' and seeing an NPC child.",
+    "evidence": [
+      "Trigger: Dark humor regarding NPCs",
+      "Visual: Entering 'The Hollow' and seeing an NPC child.",
+      "Audio: Deadpan questioning followed by laughter: \"Can I slaughter this child?\""
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 2,
+    "segment_label": "chapel_entrance",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "friction",
+      "quality",
+      "verbal"
+    ],
+    "sentiment_raw_score": 4,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 694.0,
+    "absolute_timestamp": "11:34",
+    "summary": "Reinforcing character identity through memes",
+    "game_context": "Character standing outside the Chapel, overlaid with the 'Giga Chad' meme again.",
+    "evidence": [
+      "Trigger: Reinforcing character identity through memes",
+      "Visual: Character standing outside the Chapel, overlaid with the 'Giga Chad' meme again.",
+      "Audio: Satisfied, identifying tone: \"Quentin literally looks like Giga Chad... this is literally me bro.\""
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 2,
+    "segment_label": "chapel_refectory_combat",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": 7,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 721.0,
+    "absolute_timestamp": "12:01",
+    "summary": "Environmental hazard comedy",
+    "game_context": "Player character slips in grease during the Refectory battle and becomes 'Prone'.",
+    "evidence": [
+      "Trigger: Environmental hazard comedy",
+      "Visual: Player character slips in grease during the Refectory battle and becomes 'Prone'.",
+      "Audio: Burst of laughter from the group: \"You've fallen in the grease!\""
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 2,
+    "segment_label": "chapel_refectory_combat",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "friction",
+      "verbal"
+    ],
+    "sentiment_raw_score": 5,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 795.0,
+    "absolute_timestamp": "13:15",
+    "summary": "Stylized violence cutscene",
+    "game_context": "A slow-motion, black-and-white cinematic shows the player character delivering a lethal final blow to the unconscious Mari.",
+    "evidence": [
+      "Trigger: Stylized violence cutscene",
+      "Visual: A slow-motion, black-and-white cinematic shows the player character delivering a lethal final blow to the unconscious Mari.",
+      "Audio: Hysterical laughter from the group as the dramatic music swells."
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 3,
+    "segment_label": "chapel_cutscene",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "friction",
+      "verbal"
+    ],
+    "sentiment_raw_score": 8,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "focused",
+    "absolute_seconds": 825.0,
+    "absolute_timestamp": "13:45",
+    "summary": "Environmental warning (hallway transition)",
+    "game_context": "Character moves into the hallway toward the Dank Crypt. A friend warns of traps.",
+    "evidence": [
+      "Trigger: Environmental warning (hallway transition)",
+      "Visual: Character moves into the hallway toward the Dank Crypt. A friend warns of traps.",
+      "Audio: Calm, engaged group chatter about the next area."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": "chapel_cutscene",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": 2,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "focused",
+    "absolute_seconds": 865.0,
+    "absolute_timestamp": "14:25",
+    "summary": "Sarcophagus discovery",
+    "game_context": "The player approaches the central sarcophagus and initiates an interaction despite warnings.",
+    "evidence": [
+      "Trigger: Sarcophagus discovery",
+      "Visual: The player approaches the central sarcophagus and initiates an interaction despite warnings.",
+      "Audio: Questioning tone: \"What does that mean?\" combined with curious laughter."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 3,
+    "segment_label": "dank_crypt_exploration",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": 3,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 885.0,
+    "absolute_timestamp": "14:45",
+    "summary": "Catastrophic trap failure (explosion)",
+    "game_context": "The sarcophagus triggers a massive room-wide explosion, instantly downing the player character in a pool of fire.",
+    "evidence": [
+      "Trigger: Catastrophic trap failure (explosion)",
+      "Visual: The sarcophagus triggers a massive room-wide explosion, instantly downing the player character in a pool of fire.",
+      "Audio: Loud, sustained laughter and exclamations: \"Perfect! How'd that happen?\""
+    ],
+    "severity_numeric": 9,
+    "source_chunk_index": 3,
+    "segment_label": "dank_crypt_trap",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "quality",
+      "verbal"
+    ],
+    "sentiment_raw_score": 9,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 910.0,
+    "absolute_timestamp": "15:10",
+    "summary": "High-absurdity humor (Anakin meme)",
+    "game_context": "The camera hovers over the charred, prone body of the player character, edited with a clip from Star Wars: Revenge of the Sith.",
+    "evidence": [
+      "Trigger: High-absurdity humor (Anakin meme)",
+      "Visual: The camera hovers over the charred, prone body of the player character, edited with a clip from Star Wars: Revenge of the Sith.",
+      "Audio: Uproarious laughter: \"F#cking burnt to a crisp, dude! He's Anakin Skywalker!\""
+    ],
+    "severity_numeric": 10,
+    "source_chunk_index": 3,
+    "segment_label": "dank_crypt_trap",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "clarity"
+    ],
+    "sentiment_raw_score": 10,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 955.0,
+    "absolute_timestamp": "15:55",
+    "summary": "Resurrection comedy (naked character)",
+    "game_context": "A teammate resurrects the player character, who stands up completely naked in the middle of the crypt.",
+    "evidence": [
+      "Trigger: Resurrection comedy (naked character)",
+      "Visual: A teammate resurrects the player character, who stands up completely naked in the middle of the crypt.",
+      "Audio: Laughter and mocking tone: \"I got my f#cking cock out now boys.\""
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 3,
+    "segment_label": "character_resurrection",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "delight"
+    ],
+    "sentiment_raw_score": 8,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 1000.0,
+    "absolute_timestamp": "16:40",
+    "summary": "Combat transition in Dank Crypt",
+    "game_context": "Success. Engaging skeletal enemies in turn-based combat.",
+    "evidence": [
+      "Trigger: Combat transition in Dank Crypt",
+      "Visual: Success. Engaging skeletal enemies in turn-based combat.",
+      "Audio: Collaborative and energetic. Players are laughing and coordinating moves."
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 4,
+    "segment_label": "undead_skirmish",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": 4,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 1030.0,
+    "absolute_timestamp": "17:10",
+    "summary": "Arrival at the Druid Grove",
+    "game_context": "Exploration. Jogging through the Hollow while discussing NPC interactions.",
+    "evidence": [
+      "Trigger: Arrival at the Druid Grove",
+      "Visual: Exploration. Jogging through the Hollow while discussing NPC interactions.",
+      "Audio: Playful and mischievous. Recurring jokes about \"slaughtering this child.\""
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 4,
+    "segment_label": "druid_grove_dialogue",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": 5,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "excited",
+    "absolute_seconds": 1045.0,
+    "absolute_timestamp": "17:25",
+    "summary": "High-absurdity roleplay (selling underwear)",
+    "game_context": "Dialogue with Jeorna. Character is wearing a high-fidelity helmet but jokes about the cost.",
+    "evidence": [
+      "Trigger: High-absurdity roleplay (selling underwear)",
+      "Visual: Dialogue with Jeorna. Character is wearing a high-fidelity helmet but jokes about the cost.",
+      "Audio: Peak social humor. \"I sold my underwear for it.\" High-volume laughter."
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 4,
+    "segment_label": "druid_grove_dialogue",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": 8,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 1075.0,
+    "absolute_timestamp": "17:55",
+    "summary": "Decision to 'Do Nothing' regarding Arabella",
+    "game_context": "Stalling. Tense dialogue choice menu as the group debates allowing the snake to threaten the child.",
+    "evidence": [
+      "Trigger: Decision to 'Do Nothing' regarding Arabella",
+      "Visual: Stalling. Tense dialogue choice menu as the group debates allowing the snake to threaten the child.",
+      "Audio: Amused expectation. Tittering and laughing while selecting the 'evil' or passive route."
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 4,
+    "segment_label": "arabella_event",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": 6,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 1100.0,
+    "absolute_timestamp": "18:20",
+    "summary": "Reaction to Arabella's death",
+    "game_context": "Success (in roleplay). The child is bitten and dies in black and white slow-motion.",
+    "evidence": [
+      "Trigger: Reaction to Arabella's death",
+      "Visual: Success (in roleplay). The child is bitten and dies in black and white slow-motion.",
+      "Audio: Uproarious shock humor. \"And he just killed this child on purpose!\" High volume and group hysterics."
+    ],
+    "severity_numeric": 9,
+    "source_chunk_index": 4,
+    "segment_label": null,
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": 9,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 1135.0,
+    "absolute_timestamp": "18:55",
+    "summary": "Confrontation with Kagha after the death",
+    "game_context": "Dialogue. Player doubles down on their lack of action in a sarcastic manner.",
+    "evidence": [
+      "Trigger: Confrontation with Kagha after the death",
+      "Visual: Dialogue. Player doubles down on their lack of action in a sarcastic manner.",
+      "Audio: Mock-defensive and sarcastic pride. \"I did nothing, I just watched.\""
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 4,
+    "segment_label": "druid_grove_exploration",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": 7,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 1165.0,
+    "absolute_timestamp": "19:25",
+    "summary": "Group banter at the Sacred Pool",
+    "game_context": "Idle movement. Characters standing in the green druidic mist.",
+    "evidence": [
+      "Trigger: Group banter at the Sacred Pool",
+      "Visual: Idle movement. Characters standing in the green druidic mist.",
+      "Audio: Absurdist humor. Joking about personal biological needs and calling NPCs \"Giant Child.\""
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 4,
+    "segment_label": "druid_grove_exploration",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": 8,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "triumphant",
+    "absolute_seconds": 1190.0,
+    "absolute_timestamp": "19:50",
+    "summary": "Finding Mirkon at the Cove",
+    "game_context": "Discovery. Jumping down to the secluded beach to find another child NPC.",
+    "evidence": [
+      "Trigger: Finding Mirkon at the Cove",
+      "Visual: Discovery. Jumping down to the secluded beach to find another child NPC.",
+      "Audio: Triumphant anticipation of chaos. \"Clip it... send it to his family.\" Meme music kicks in."
+    ],
+    "severity_numeric": 9,
+    "source_chunk_index": 4,
+    "segment_label": null,
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": 9,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

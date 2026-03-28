@@ -1,0 +1,379 @@
+[
+  {
+    "agent_kind": "clarity",
+    "source_label": "tutorial_gap",
+    "absolute_seconds": 91.0,
+    "absolute_timestamp": "1:31",
+    "summary": "A clear visual indicator in the spell description or on the target's health bar that dynamically shows if the target is currently valid for the spell's HP threshold.",
+    "game_context": "Cast the Sleep spell successfully to neutralize a target.",
+    "evidence": [
+      "UI displays 'Too many Hit Points' error when hovering over target",
+      "uncertain tone",
+      "Scene: Campsite combat, player attempting to use the 'Sleep' spell on a companion.",
+      "Quote: I can't put you to sleep, I tried."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 0,
+    "segment_label": "campsite_interaction",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "tutorial_gap",
+    "absolute_seconds": 169.0,
+    "absolute_timestamp": "2:49",
+    "summary": "A more prominent explanation or tooltip popup describing the 'Surprised' condition the first time it is triggered, explaining that it consumes the first turn.",
+    "game_context": "Engage in combat immediately upon the encounter starting.",
+    "evidence": [
+      "Surprised status icon visible on portraits",
+      "Inability to take actions",
+      "panicked tone",
+      "Scene: Blighted Village basement, surprise encounter with Robust Guardian.",
+      "Quote: I'm surprised. Help me, I'm surprised."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 0,
+    "segment_label": "blighted_village_basement",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "delight",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "missing_signpost",
+    "absolute_seconds": 235.0,
+    "absolute_timestamp": "3:55",
+    "summary": "Better visual signposting of safe zones or a clearer way to see trap 'cycles' to allow for timing-based movement.",
+    "game_context": "Exit the room safely after looting the cocoon.",
+    "evidence": [
+      "Character standing still in the center of repeating fire blasts",
+      "Camera rotation searching for an exit",
+      "frustrated tone",
+      "Scene: Small side room in the cellar with active fire traps.",
+      "Quote: Except I am stuck in here."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 0,
+    "segment_label": "blighted_village_basement",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "quality",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "unclear_objective",
+    "absolute_seconds": 246.0,
+    "absolute_timestamp": "4:06",
+    "summary": "Clearer feedback or environmental storytelling if the room contains no further significant loot or secrets, preventing the player from feeling they've missed something.",
+    "game_context": "Loot relevant items and move on to the next objective.",
+    "evidence": [
+      "Wandering the room",
+      "Interacting with empty trunks",
+      "uncertain tone",
+      "Scene: Blighted Village basement, post-combat exploration.",
+      "Quote: What do you want me to do in here?",
+      "Quote: How they expect me to loot"
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 0,
+    "segment_label": "wetlands_dialogue",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "delight",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "poor_feedback",
+    "absolute_seconds": 303.0,
+    "absolute_timestamp": "5:03",
+    "summary": "Faster animation options or 'simultaneous turns' for clusters of identical minor enemies to maintain engagement during large-scale encounters.",
+    "game_context": "Follow the sequence of combat actions and movement from NPCs.",
+    "evidence": [
+      "rapid camera panning",
+      "waiting for NPC turns to complete",
+      "cycling through initiative portraits",
+      "frustrated tone",
+      "exasperated sigh",
+      "Scene: Turn-based combat encounter in the Sunlit Wetlands with multiple Mephits.",
+      "Quote: The f*ck is happening?",
+      "Quote: Cannot watch them all move three inches, please, can I not, come on."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 1,
+    "segment_label": "wetlands_combat",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "delight",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "missing_signpost",
+    "absolute_seconds": 523.0,
+    "absolute_timestamp": "8:43",
+    "summary": "A more distinct visual highlight or a glint on the quest-specific interactable object (the cleft) when the player is in close proximity.",
+    "game_context": "Locate the 'cleft' in the tree to progress the 'Investigate Kagha' quest line.",
+    "evidence": [
+      "erratic camera spinning",
+      "running back and forth across the wooden bridge",
+      "jumping onto random rock ledges",
+      "uncertain tone",
+      "questioning",
+      "Scene: Exploring the river area and the large tree at the Druid Sanctuary.",
+      "Quote: Which way are we going?",
+      "Quote: Holy f#ck finally."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 2,
+    "segment_label": null,
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "tutorial_gap",
+    "absolute_seconds": 617.0,
+    "absolute_timestamp": "10:17",
+    "summary": "A recurring tooltip or loading screen hint suggesting manual saves before entering high-danger zones like the Sanctuary.",
+    "game_context": "Utilize manual quicksaves frequently to minimize progress loss in a high-lethality game.",
+    "evidence": [
+      "static screen",
+      "reading text overlay",
+      "shocked tone",
+      "disbelief",
+      "Scene: The 'Game Over' screen after the party is defeated by Kagha.",
+      "Quote: When did we save?",
+      "Quote: An hour ago."
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 2,
+    "segment_label": "squirrel_encounter",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "quality",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "poor_feedback",
+    "absolute_seconds": 688.0,
+    "absolute_timestamp": "11:28",
+    "summary": "Clearer feedback on why certain environmental units (the rats) are absent from the initiative order compared to the previous attempt.",
+    "game_context": "Understand the conditions for enemy participation in the battle.",
+    "evidence": [
+      "panning the camera over the arena",
+      "inspecting empty spaces where NPCs previously stood",
+      "speculative tone",
+      "confusion",
+      "Scene: Inside the sanctuary during the re-initiated combat encounter with the druids.",
+      "Quote: I think it's cause you scared off the rats so they're not even a part of this."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 2,
+    "segment_label": "kagha_boss_fight",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "friction",
+      "retry",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "missing_signpost",
+    "absolute_seconds": 875.0,
+    "absolute_timestamp": "14:35",
+    "summary": "Subtle visual signposting (like wear-and-tear textures or a slight path highlight) to differentiate climbable/walkable natural rock geometry from decorative terrain.",
+    "game_context": "Follow the group by identifying the natural rock staircase path.",
+    "evidence": [
+      "Wandering away from the party",
+      "Opening the map",
+      "Standing still on a ledge while teammates are out of frame",
+      "Panic tone",
+      "High-pitched questioning",
+      "Scene: On the rocky cliffs overlooking the Emerald Grove waterfall path.",
+      "Quote: Quentin I'm very lost and afraid.",
+      "Quote: How was I supposed to know this was a staircase?"
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 3,
+    "segment_label": "emerald_grove_exploration",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "poor_feedback",
+    "absolute_seconds": 976.0,
+    "absolute_timestamp": "16:16",
+    "summary": "Better off-screen teammate indicators that account for significant vertical distance, or a more persistent camera tracking option for group movement.",
+    "game_context": "Maintain group cohesion while navigating vertical architecture.",
+    "evidence": [
+      "Doubling back down stairs",
+      "Rapid camera rotation searching for player icons",
+      "Running in circles",
+      "Frustrated tone",
+      "Accusatory tone toward teammate",
+      "Scene: The wooden stairs and platforms of the Risen Road building.",
+      "Quote: Where'd you just go dude?",
+      "Quote: Where'd you just fucking go?",
+      "Quote: Stop teleporting away dude. Stop fucking teleporting away."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 3,
+    "segment_label": "party_item_management",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "tutorial_gap",
+    "absolute_seconds": 992.0,
+    "absolute_timestamp": "16:32",
+    "summary": "A specific UI tag or visual border on items that have been flagged or discussed as Gale-eligible to prevent accidental equipping in a co-op inventory.",
+    "game_context": "Distinguish between equipment for party use and magical artifacts designated for consumption by Gale.",
+    "evidence": [
+      "Opening and closing the inventory",
+      "Checking the teammate's character model",
+      "Hovering over the Haste Helm",
+      "Accusatory tone",
+      "Confusion regarding item destination",
+      "Scene: On the wooden deck, managing inventory items meant for Gale's quest line.",
+      "Quote: Are you wearing it?",
+      "Quote: Are you wearing the helmet that I gave you?",
+      "Quote: You're supposed to feed Gale.",
+      "Quote: Give me back that helmet mf."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 4,
+    "segment_label": "party_item_management",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "friction",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "poor_feedback",
+    "absolute_seconds": 1112.0,
+    "absolute_timestamp": "18:32",
+    "summary": "Better camera collision or transparency for foreground walls in tight interiors to prevent the player from perceiving a soft-lock.",
+    "game_context": "Continue looting environmental containers in the basement area.",
+    "evidence": [
+      "Camera clipping through a stone wall",
+      "Player character completely obscured from view",
+      "Character movement stops",
+      "Startled tone",
+      "Fear of being trapped",
+      "Scene: Inside the basement of the building. The player character is standing in a corner or behind a wall while looting vases.",
+      "Quote: I'm getting shut in here. Hello?"
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 4,
+    "segment_label": "trading_and_inventory",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "quality",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

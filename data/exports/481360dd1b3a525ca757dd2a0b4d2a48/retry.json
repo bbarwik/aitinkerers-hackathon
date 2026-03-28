@@ -1,0 +1,79 @@
+[
+  {
+    "agent_kind": "retry",
+    "source_label": "nautiloid_jump_gap",
+    "absolute_seconds": 372.0,
+    "absolute_timestamp": "6:12",
+    "summary": "4 attempts at nautiloid_jump_gap, outcome: succeeded",
+    "game_context": "Nautiloid upper deck interior gap",
+    "evidence": [
+      "Attempt 1: failed (Continued aiming without hesitation.)",
+      "Attempt 2: failed (Stable, focused on finding a valid landing spot.)",
+      "Attempt 3: failed (Muttering about space constraints.)",
+      "Attempt 4: succeeded (Loud shouting and laughter ('AHHHH').)",
+      "Frustration: stable"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 1,
+    "segment_label": "nautiloid_jump_gap",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": 4,
+    "retry_quit_signal": false,
+    "retry_final_outcome": "succeeded",
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "retry",
+    "source_label": "goblin_melee_attack",
+    "absolute_seconds": 638.0,
+    "absolute_timestamp": "10:38",
+    "summary": "4 attempts at goblin_melee_attack, outcome: succeeded",
+    "game_context": "Cliffside approach to Druid Grove",
+    "evidence": [
+      "Attempt 1: failed (Confused; asks \"What? What does that mean?\")",
+      "Attempt 2: failed (Amused; friends joke about the miss.)",
+      "Attempt 3: failed (Indignant; exclaims \"I was right there!\")",
+      "Attempt 4: succeeded (Triumphant; \"Let's go.\")",
+      "Frustration: stable"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 2,
+    "segment_label": "goblin_melee_attack",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": 4,
+    "retry_quit_signal": false,
+    "retry_final_outcome": "succeeded",
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "retry",
+    "source_label": "grease_hazard_navigation",
+    "absolute_seconds": 656.0,
+    "absolute_timestamp": "10:56",
+    "summary": "3 attempts at grease_hazard_navigation, outcome: succeeded",
+    "game_context": "Outside the Chapel Ruins",
+    "evidence": [
+      "Attempt 1: failed (Silent initially as character falls prone.)",
+      "Attempt 2: failed (Questioning; asks \"How do I get up?\")",
+      "Attempt 3: succeeded (Self-deprecating; \"That's it, I went down a couple inches and I slipped.\")",
+      "Frustration: stable"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 2,
+    "segment_label": "grease_hazard_navigation",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": 3,
+    "retry_quit_signal": false,
+    "retry_final_outcome": "succeeded",
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

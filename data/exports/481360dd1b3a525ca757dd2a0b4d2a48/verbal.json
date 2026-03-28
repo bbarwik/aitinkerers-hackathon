@@ -1,0 +1,1213 @@
+[
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 9.0,
+    "absolute_timestamp": "0:09",
+    "summary": "strictly because I didn't vibe with the gameplay style. I'm not a huge turn-based kind of gamer.",
+    "game_context": "Introductory narration over a montage of combat gameplay.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: narration"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "intro_montage",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "strictly because I didn't vibe with the gameplay style. I'm not a huge turn-based kind of gamer."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "question",
+    "absolute_seconds": 23.0,
+    "absolute_timestamp": "0:23",
+    "summary": "Resources? What? What does that mean?",
+    "game_context": "Attempting to perform a main hand attack in combat and seeing a 'Not enough resources' notification.",
+    "evidence": [
+      "Tone: confused",
+      "Category: question",
+      "Actionable: Early-game combat feedback should explicitly highlight which specific resource (Action, Bonus Action, Spell Slot) is missing to reduce confusion for players new to the genre."
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 0,
+    "segment_label": "intro_montage",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "Resources? What? What does that mean?"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "question",
+    "absolute_seconds": 83.0,
+    "absolute_timestamp": "1:23",
+    "summary": "Can I keep it a buck with you fellas, how graphic is the s3x in this game?",
+    "game_context": "Navigating the 'Explicit Content' settings menu before starting the game.",
+    "evidence": [
+      "Tone: amused",
+      "Category: question"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "content_settings",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Can I keep it a buck with you fellas, how graphic is the s3x in this game?"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 106.0,
+    "absolute_timestamp": "1:46",
+    "summary": "Are we just shadow people, dude?",
+    "game_context": "Observing the generic silhouette icons in the multiplayer lobby.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction"
+    ],
+    "severity_numeric": 0,
+    "source_chunk_index": 0,
+    "segment_label": "opening_cinematic",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Are we just shadow people, dude?"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 155.0,
+    "absolute_timestamp": "2:35",
+    "summary": "I don't wanna be a little person, dude.",
+    "game_context": "Cycling through the smaller races like Halfling and Gnome in character creation.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "character_creation",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I don't wanna be a little person, dude."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 171.0,
+    "absolute_timestamp": "2:51",
+    "summary": "I'm a dragon!",
+    "game_context": "Selecting the Dragonborn race in the character creator.",
+    "evidence": [
+      "Tone: excited",
+      "Category: reaction"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 0,
+    "segment_label": "character_creation",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I'm a dragon!"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 205.0,
+    "absolute_timestamp": "3:25",
+    "summary": "YOOOOO! You can pick any d!ck, any balls, bro!",
+    "game_context": "Discovering the deep physical customization options, specifically genital selection.",
+    "evidence": [
+      "Tone: excited",
+      "Category: praise"
+    ],
+    "severity_numeric": 10,
+    "source_chunk_index": 0,
+    "segment_label": "character_creation",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "YOOOOO! You can pick any d!ck, any balls, bro!"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 271.0,
+    "absolute_timestamp": "4:31",
+    "summary": "Risked his life... just to do his job.",
+    "game_context": "Commenting on an NPC ringing a bell during the chaotic opening cinematic.",
+    "evidence": [
+      "Tone: sarcastic",
+      "Category: reaction"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 1,
+    "segment_label": null,
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Risked his life... just to do his job."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 277.0,
+    "absolute_timestamp": "4:37",
+    "summary": "WHAT? Thanos??",
+    "game_context": "Reacting to a character's appearance in the opening cinematic.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 1,
+    "segment_label": "nautiloid_ship",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "WHAT? Thanos??"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 291.0,
+    "absolute_timestamp": "4:51",
+    "summary": "I am NOT hitting that shit, sorry buddy. It's not happening.",
+    "game_context": "Reacting to Lae'zel's face during her introduction in the cinematic.",
+    "evidence": [
+      "Tone: sarcastic",
+      "Category: reaction"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": "nautiloid_ship",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I am NOT hitting that shit, sorry buddy. It's not happening."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 295.0,
+    "absolute_timestamp": "4:55",
+    "summary": "Wait a second... Lord have mercy... we must stay focused brothers.",
+    "game_context": "Reacting to character models in the cinematic.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 1,
+    "segment_label": "nautiloid_ship",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Wait a second... Lord have mercy... we must stay focused brothers."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 306.0,
+    "absolute_timestamp": "5:06",
+    "summary": "That's cool. AHHH",
+    "game_context": "Waking up in the pod and seeing the character model in-game for the first time.",
+    "evidence": [
+      "Tone: excited",
+      "Category: praise"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 1,
+    "segment_label": "nautiloid_ship",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "That's cool. AHHH"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "question",
+    "absolute_seconds": 315.0,
+    "absolute_timestamp": "5:15",
+    "summary": "Do I reach towards it? Yeah, go for it.",
+    "game_context": "Consulting with friends before interacting with a nursery pool on the ship.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: question"
+    ],
+    "severity_numeric": 0,
+    "source_chunk_index": 1,
+    "segment_label": "nautiloid_ship",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "delight",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Do I reach towards it? Yeah, go for it."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "question",
+    "absolute_seconds": 324.0,
+    "absolute_timestamp": "5:24",
+    "summary": "Can I attack you? ... you can try yeah. do it. see if it works on me.",
+    "game_context": "Testing friendly fire and PvP mechanics immediately after gaining control.",
+    "evidence": [
+      "Tone: amused",
+      "Category: question",
+      "Actionable: While the game promotes sandbox freedom, explicit early-game warnings about friendly fire could prevent accidental player death during initial experimentation."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": "nautiloid_ship",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "delight",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "Can I attack you? ... you can try yeah. do it. see if it works on me."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "question",
+    "absolute_seconds": 334.0,
+    "absolute_timestamp": "5:34",
+    "summary": "Can you get me up though? Can you get me up?",
+    "game_context": "Asking friends for help after being knocked down during PvP testing.",
+    "evidence": [
+      "Tone: confused",
+      "Category: question",
+      "Actionable: When a player is downed in multiplayer, the 'Help' action or character recovery status should be highly emphasized in the UI to facilitate teammate rescue."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": "nautiloid_ship",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "clarity",
+      "friction"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "Can you get me up though? Can you get me up?"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "question",
+    "absolute_seconds": 342.0,
+    "absolute_timestamp": "5:42",
+    "summary": "what is this? This is our friend.",
+    "game_context": "Interacting with the 'Us' brain creature for the first time.",
+    "evidence": [
+      "Tone: confused",
+      "Category: question"
+    ],
+    "severity_numeric": 0,
+    "source_chunk_index": 1,
+    "segment_label": "nautiloid_ship",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "what is this? This is our friend."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 352.0,
+    "absolute_timestamp": "5:52",
+    "summary": "F#ckin greening out. what's going on dude?",
+    "game_context": "Reacting to the visual mind-meld effect in the cutscene.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": "nautiloid_ship",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "clarity",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "F#ckin greening out. what's going on dude?"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "question",
+    "absolute_seconds": 366.0,
+    "absolute_timestamp": "6:06",
+    "summary": "Are you a paladin bro?",
+    "game_context": "Asking a teammate about their class choice during exploration.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: question"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": "nautiloid_ship",
+    "confidence_score": 0.6,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Are you a paladin bro?"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 368.0,
+    "absolute_timestamp": "6:08",
+    "summary": "Jump! Can I? ... I'm jumping all the way over here.",
+    "game_context": "Discovering and testing the vertical jump mechanic for the first time.",
+    "evidence": [
+      "Tone: excited",
+      "Category: narration"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 1,
+    "segment_label": "nautiloid_ship",
+    "confidence_score": 0.6,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Jump! Can I? ... I'm jumping all the way over here."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 402.0,
+    "absolute_timestamp": "6:42",
+    "summary": "I should have not have gotten that spice level... dude.",
+    "game_context": "Making a joke about the character's physical reaction to the mind flayer parasite in a cutscene.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 1,
+    "segment_label": "laezel_introduction",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I should have not have gotten that spice level... dude."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "complaint",
+    "absolute_seconds": 422.0,
+    "absolute_timestamp": "7:02",
+    "summary": "Lag... Combat.",
+    "game_context": "Commenting on a minor performance stutter when entering the first combat encounter.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: complaint"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 1,
+    "segment_label": "nautiloid_combat",
+    "confidence_score": 0.6,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Lag... Combat."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 428.0,
+    "absolute_timestamp": "7:08",
+    "summary": "I'm not gonna let her out. I'm just gonna leave.",
+    "game_context": "Deciding not to rescue Shadowheart from the pod as a joke/narrative choice.",
+    "evidence": [
+      "Tone: amused",
+      "Category: narration"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 1,
+    "segment_label": "shadowheart_rescue",
+    "confidence_score": 0.6,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I'm not gonna let her out. I'm just gonna leave."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 448.0,
+    "absolute_timestamp": "7:28",
+    "summary": "Don't touch THAT... Don't touch THAT.",
+    "game_context": "Advising a teammate not to interact with a potentially dangerous console.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: strategy"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": "shadowheart_rescue",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Don't touch THAT... Don't touch THAT."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 463.0,
+    "absolute_timestamp": "7:43",
+    "summary": "Stop hitting on women.",
+    "game_context": "Joking with a friend who is using the 'shove' mechanic on Lae'zel.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 1,
+    "segment_label": null,
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Stop hitting on women."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 470.0,
+    "absolute_timestamp": "7:50",
+    "summary": "I won't be able to do anything about this... i'm actually so weak.",
+    "game_context": "Expressing frustration with low character stats or limited options during a teammate's turn.",
+    "evidence": [
+      "Tone: resigned",
+      "Category: narration"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": null,
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I won't be able to do anything about this... i'm actually so weak."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 493.0,
+    "absolute_timestamp": "8:13",
+    "summary": "He was in that room the entire time with you... just pushing lae'zel around.",
+    "game_context": "Laughing about a teammate's repetitive actions during exploration.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 1,
+    "segment_label": null,
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "He was in that room the entire time with you... just pushing lae'zel around."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 504.0,
+    "absolute_timestamp": "8:24",
+    "summary": "I summon... acid breath.",
+    "game_context": "Narrating the use of his racial ability in combat.",
+    "evidence": [
+      "Tone: excited",
+      "Category: narration"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 1,
+    "segment_label": null,
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I summon... acid breath."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 530.0,
+    "absolute_timestamp": "8:50",
+    "summary": "Now take his shit. Loot that body... loot that body.",
+    "game_context": "Humorously chanting while looting the corpses of imps on the deck of the Nautiloid.",
+    "evidence": [
+      "Tone: amused",
+      "Category: narration"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 2,
+    "segment_label": null,
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Now take his shit. Loot that body... loot that body."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 539.0,
+    "absolute_timestamp": "8:59",
+    "summary": "We're gonna rob her later.",
+    "game_context": "Planning to pickpocket or rob an NPC (likely Shadowheart) after watching a cutscene showing her through a telescope.",
+    "evidence": [
+      "Tone: amused",
+      "Category: strategy"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 2,
+    "segment_label": "ravaged_beach_exploration",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "We're gonna rob her later."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 556.0,
+    "absolute_timestamp": "9:16",
+    "summary": "Kill that annoying ass drummer.",
+    "game_context": "Reacting to a goblin drummer during a cutscene transition.",
+    "evidence": [
+      "Tone: amused",
+      "Category: strategy"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 2,
+    "segment_label": "ravaged_beach_exploration",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Kill that annoying ass drummer."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 560.0,
+    "absolute_timestamp": "9:20",
+    "summary": "She's the homie... when do we hit?",
+    "game_context": "Commenting on Shadowheart's recruitment and expressing interest in the romance system.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 2,
+    "segment_label": "ravaged_beach_exploration",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "She's the homie... when do we hit?"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 601.0,
+    "absolute_timestamp": "10:01",
+    "summary": "He wants to get to know her... come on bro, he's tryna hit.",
+    "game_context": "Teasing a friend about their dialogue choice with Shadowheart on the beach.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 2,
+    "segment_label": "druid_grove_exploration",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "delight"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "He wants to get to know her... come on bro, he's tryna hit."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 622.0,
+    "absolute_timestamp": "10:22",
+    "summary": "Stop trying to rob me.",
+    "game_context": "Reacting to an accidental interaction or 'pickpocket' attempt by a teammate while exploring the beach.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 2,
+    "segment_label": "druid_grove_exploration",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Stop trying to rob me."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "question",
+    "absolute_seconds": 681.0,
+    "absolute_timestamp": "11:21",
+    "summary": "Can I slaughter this child? ... or is that frowned upon?",
+    "game_context": "Seeing a tiefling child NPC in the Druid Grove area and testing the game's limits.",
+    "evidence": [
+      "Tone: amused",
+      "Category: question"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 2,
+    "segment_label": "chapel_entrance",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Can I slaughter this child? ... or is that frowned upon?"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 690.0,
+    "absolute_timestamp": "11:30",
+    "summary": "Quentin literally looks like Giga Chad... this is literally me bro.",
+    "game_context": "Laughing at a teammate's character model resembling the 'Giga Chad' meme.",
+    "evidence": [
+      "Tone: excited",
+      "Category: reaction"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 2,
+    "segment_label": "chapel_refectory_combat",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Quentin literally looks like Giga Chad... this is literally me bro."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "complaint",
+    "absolute_seconds": 719.0,
+    "absolute_timestamp": "11:59",
+    "summary": "You guys are letting me down... we were both closing the door.",
+    "game_context": "Frustration mixed with laughter as the group struggles with a door interaction while preparing for combat.",
+    "evidence": [
+      "Tone: amused",
+      "Category: complaint",
+      "Actionable: In co-op, shared environmental interactions like doors can lead to frustration when multiple players try to change the state simultaneously. Implement a brief cooldown or a clearer UI indicator for who is currently interacting."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 2,
+    "segment_label": "chapel_refectory_combat",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "You guys are letting me down... we were both closing the door."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "question",
+    "absolute_seconds": 750.0,
+    "absolute_timestamp": "12:30",
+    "summary": "What a good man Calvin... you didn't kill her?",
+    "game_context": "The player and his friend are looking at the unconscious looter, Mari, who has a 'Knocked Out' status rather than being dead.",
+    "evidence": [
+      "Tone: confused",
+      "Category: question",
+      "Actionable: Differentiate 'Knocked Out' and 'Dead' visual indicators/icons more clearly in the UI to prevent player confusion over non-lethal combat outcomes."
+    ],
+    "severity_numeric": 0,
+    "source_chunk_index": 3,
+    "segment_label": null,
+    "confidence_score": 0.6,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "What a good man Calvin... you didn't kill her?"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "question",
+    "absolute_seconds": 757.0,
+    "absolute_timestamp": "12:37",
+    "summary": "Hey whas this?",
+    "game_context": "The player interacts with a wooden barrel to check its contents.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: question"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": null,
+    "confidence_score": 0.6,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Hey whas this?"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 806.0,
+    "absolute_timestamp": "13:26",
+    "summary": "Hit THAT guy. Hit the guy that's not on the ground please.",
+    "game_context": "The player is providing tactical advice to a teammate during the turn-based combat against the looters.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: strategy"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": "chapel_cutscene",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Hit THAT guy. Hit the guy that's not on the ground please."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 872.0,
+    "absolute_timestamp": "14:32",
+    "summary": "Careful there is traps.",
+    "game_context": "The player warns his friends about traps immediately after failing a perception check near the central sarcophagus.",
+    "evidence": [
+      "Tone: sarcastic",
+      "Category: reaction"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": "dank_crypt_trap",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "delight",
+      "quality",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Careful there is traps."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "question",
+    "absolute_seconds": 924.0,
+    "absolute_timestamp": "15:24",
+    "summary": "How'd that happen?",
+    "game_context": "Reacting to the massive fire and grease explosion that just engulfed the entire party.",
+    "evidence": [
+      "Tone: amused",
+      "Category: question"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": "character_resurrection",
+    "confidence_score": 0.6,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "How'd that happen?"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 978.0,
+    "absolute_timestamp": "16:18",
+    "summary": "I'm like dead I think.",
+    "game_context": "The player observes his character's 'Downed' status on the ground after the trap explosion.",
+    "evidence": [
+      "Tone: resigned",
+      "Category: narration"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": "undead_skirmish",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "delight"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I'm like dead I think."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "suggestion",
+    "absolute_seconds": 1004.0,
+    "absolute_timestamp": "16:44",
+    "summary": "You should be able to go at the same time.",
+    "game_context": "Waiting for a co-op partner to finish their turn during the undead skirmish.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: suggestion",
+      "Actionable: While the game features shared initiative, the UI or tutorials could better highlight when players are eligible to take simultaneous actions to speed up co-op combat."
+    ],
+    "severity_numeric": 0,
+    "source_chunk_index": 4,
+    "segment_label": "undead_skirmish",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "You should be able to go at the same time."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "question",
+    "absolute_seconds": 1009.0,
+    "absolute_timestamp": "16:49",
+    "summary": "Did I hit the thing?",
+    "game_context": "Attacking a skeleton in a crowded area of the crypt and accidentally hitting an ally.",
+    "evidence": [
+      "Tone: confused",
+      "Category: question",
+      "Actionable: Improve target selection clarity and hit/miss feedback in crowded combat spaces to minimize accidental friendly fire and reduce confusion over attack outcomes."
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 4,
+    "segment_label": "druid_grove_exploration",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "quality"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "Did I hit the thing?"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 1043.0,
+    "absolute_timestamp": "17:23",
+    "summary": "Thats a cool helmet.",
+    "game_context": "Viewing his Dragonborn character model during a close-up cinematic in the Druid Grove.",
+    "evidence": [
+      "Tone: excited",
+      "Category: praise"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 4,
+    "segment_label": "druid_grove_dialogue",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Thats a cool helmet."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 1083.0,
+    "absolute_timestamp": "18:03",
+    "summary": "I DIDN'T DO ANYTHING.",
+    "game_context": "Reacting to the death of Arabella after choosing the 'Do nothing' dialogue option.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 4,
+    "segment_label": "arabella_event",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I DIDN'T DO ANYTHING."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 1094.0,
+    "absolute_timestamp": "18:14",
+    "summary": "I just watched. By doing nothing you watched a child get murdered.",
+    "game_context": "Debating the morality of his previous choice with friends while navigating the grove.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 4,
+    "segment_label": "arabella_event",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I just watched. By doing nothing you watched a child get murdered."
+  }
+]

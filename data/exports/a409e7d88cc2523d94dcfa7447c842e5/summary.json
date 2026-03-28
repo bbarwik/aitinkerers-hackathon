@@ -1,0 +1,49 @@
+{
+  "video_id": "a409e7d88cc2523d94dcfa7447c842e5",
+  "game_title": "Baldur's Gate 3",
+  "game_key": "baldur_s_gate_3",
+  "duration_seconds": 1200.0,
+  "chunk_count": 5,
+  "overall_friction": "major",
+  "overall_engagement": "signature",
+  "overall_stop_risk": "medium",
+  "bug_count": 10,
+  "avg_sentiment": 4.21,
+  "sentiment_by_segment": {
+    "emerald_grove": 4.0,
+    "campsite_interaction": 7.0,
+    "blighted_village_basement": 5.5,
+    "wetlands_dialogue": 5.0,
+    "wetlands_combat": 1.0,
+    "sanctuary_combat": -4.0,
+    "sanctuary_exploration": 6.0,
+    "emerald_grove_dialogue": 6.0,
+    "squirrel_encounter": -7.0,
+    "kagha_boss_fight": 0.67,
+    "emerald_grove_exploration": 6.8,
+    "party_item_management": 5.0,
+    "trader_combat": 5.5,
+    "risen_road_looting": 9.0,
+    "trading_and_inventory": 2.0,
+    "character_customization": 9.0,
+    "goblin_camp_arrival": 5.0
+  },
+  "total_retry_sequences": 1,
+  "first_attempt_failure_count": 1,
+  "notable_quotes": [
+    "I think the biggest takeaway I have is... I have a gambling problem now.",
+    "Bro gave himself a buff... sorry, I thought I could give it to you.",
+    "Let's go gambling! I can't stop winning!",
+    "Except I am stuck in here.",
+    "The f*** is happening? Cannot sit here and watch them all move three inches please... why is it not? Come on."
+  ],
+  "session_health_score": 68,
+  "priority_actions": [
+    "Place a mandatory autosave trigger before the Kagha confrontation dialogue starts (10:17).",
+    "Enable simultaneous AI movement turns for groups of 3+ identical small enemies like Mud Mephits (6:08).",
+    "Apply a 'Quest Item' tag to magical artifacts required for Gale's 'Wizard of Waterdeep' quest line in the shared inventory (16:41).",
+    "Fix camera occlusion logic for the Toll House basement rooms to prevent geometry black-outs (18:31).",
+    "Add a subtle visual glimmer to the 'tree cleft' quest objective to reduce circular pathing at 8:35."
+  ],
+  "top_highlight": "The loss of one hour of progress due to a party wipe and a lack of recent manual or auto-saves."
+}

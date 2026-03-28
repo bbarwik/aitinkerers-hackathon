@@ -1,0 +1,4029 @@
+{
+  "video_id": "a409e7d88cc2523d94dcfa7447c842e5",
+  "filename": "XA4oYpGMs_o.youtube",
+  "duration_seconds": 1200.0,
+  "chunk_count": 5,
+  "game_title": "Baldur's Gate 3",
+  "game_key": "baldur_s_gate_3",
+  "session_arc": "[0:00-5:00] The player starts with a positive and enthusiastic tone. This shifts into a playful and chaotic mood during the campsite combat, followed by a sense of discovery and excitement during the exploration of the hidden dungeon and the successful trap disarming. The segment ends with a mix of humor and focused engagement during the dialogue and subsequent combat encounter.\n[4:00-9:00] The player maintains a generally humorous and lighthearted tone throughout the segment, frequently joking with friends. There are brief moments of frustration with the slow pace of turn-based combat, but this is quickly replaced by excitement when finding new loot and moving towards a new objective. The segment ends on a playful and mischievous note with the encounter with the squirrel.\n[8:00-13:00] The segment starts with a lighthearted and humorous tone, especially during the item exchange and the squirrel encounter. This shifts into focused determination as they approach the Druid Sanctuary. After their defeat, there is a moment of significant frustration and disbelief over the loss of progress. The segment ends with a renewed, albeit slightly more tense, attempt to succeed in the combat encounter.\n[12:00-17:00] The segment begins with high excitement and celebration after defeating Kagha. This transitions into a sustained period of humor and playful chaos as the friends explore and interact with each other in the game world. The segment ends with focused engagement as they enter a new combat encounter.\n[16:00-20:00] The segment begins with the player in a humorous and lighthearted mood, which carries through the combat encounter. After the victory, the tone becomes even more playful and chaotic during the looting and character customization phases. The player shows high enthusiasm for their new armor color. The segment concludes with a transition into a more focused but still humorous state as they arrive at the Goblin Camp.",
+  "friction_moments": [
+    {
+      "agent_kind": "friction",
+      "source_label": "repetition",
+      "absolute_seconds": 368.0,
+      "absolute_timestamp": "6:08",
+      "summary": "The pacing of turn-based combat with high enemy counts feels sluggish and repetitive.",
+      "game_context": "Waiting for a large group of low-level enemies (Mephits) to complete their individual turn-based movements and summoning actions.",
+      "evidence": [
+        "Camera panning slowly following AI movement",
+        "Multiple small AI jumps and summons",
+        "Sarcastic tone",
+        "Exasperated sighing",
+        "Scene: Druid Sanctuary combat encounter during the AI's turn with multiple Mud Mephits.",
+        "Quote: I cannot watch them all move three inches, please.",
+        "Quote: Can like, why is it... come on.",
+        "Quote: Holy f#ck peak gameplay... my f#cking god."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 1,
+      "segment_label": "sanctuary_combat",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "quality",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "difficulty_spike",
+      "absolute_seconds": 698.0,
+      "absolute_timestamp": "11:38",
+      "summary": "The loss of one hour of progress due to a party wipe and a lack of recent manual or auto-saves.",
+      "game_context": "Party wiped during a difficult combat encounter, rolling back substantial progress.",
+      "evidence": [
+        "Game Over screen",
+        "Screen fades to black",
+        "Player-added text edit displaying 'an hour ago'",
+        "Defeated tone",
+        "Disbelief",
+        "Heavy sighing",
+        "Scene: A total party wipe screen occurs during the Kagha boss fight, followed by a reload to a save file from much earlier in the session.",
+        "Quote: We'll just have to retry this.",
+        "Quote: When did we save?",
+        "Quote: an hour of my life is gone."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 2,
+      "segment_label": "kagha_boss_fight",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "controls",
+      "absolute_seconds": 965.0,
+      "absolute_timestamp": "16:05",
+      "summary": "The verticality of the environment and the speed of the teammate's movement made pathing unclear.",
+      "game_context": "Following a teammate through a multi-level environmental transition.",
+      "evidence": [
+        "backtracking",
+        "circling around ladders and doors",
+        "standing still while panning camera to find teammate",
+        "questioning tone",
+        "playful mockery",
+        "Scene: Emerald Grove stairs and Hollow area. The player is attempting to follow their teammate to a new objective.",
+        "Quote: Where'd you just go dude?",
+        "Quote: Where'd you just f***ing go?",
+        "Quote: You are a horrible f***ing guide, by the way."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 3,
+      "segment_label": "emerald_grove_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "quality"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "ui_confusion",
+      "absolute_seconds": 1001.0,
+      "absolute_timestamp": "16:41",
+      "summary": "Confusion in co-op over whether a quest item should be equipped or sacrificed.",
+      "game_context": "Party resource management for the 'Wizard of Waterdeep' quest.",
+      "evidence": [
+        "Toggling between character sheets",
+        "Inspecting teammate equipment slots",
+        "Confused tone",
+        "Exasperated sigh",
+        "Scene: Inventory menu comparison between party members regarding the Haste Helm.",
+        "Quote: Are you wearing it?",
+        "Quote: Are you wearing the helmet that I gave you?",
+        "Quote: You're supposed to feed gale.",
+        "Quote: Give me back that helmet mf."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "party_item_management",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "friction",
+      "source_label": "camera",
+      "absolute_seconds": 1096.0,
+      "absolute_timestamp": "18:16",
+      "summary": "Vertical environment and fast teammate movement made navigation unclear.",
+      "game_context": "Following a teammate through a multi-level structure with complex vertical paths.",
+      "evidence": [
+        "Rapid camera rotation searching for teammate icons",
+        "Backtracking down stairs",
+        "Running in small circles",
+        "Slightly frustrated tone",
+        "Accusatory questioning",
+        "Scene: Wooden stairs and platforms outside the Toll House on the Risen Road.",
+        "Quote: Where'd you just go dude?",
+        "Quote: Where'd you just fucking go?",
+        "Quote: Stop teleporting away dude.",
+        "Quote: Stop fucking teleporting away.",
+        "Quote: You are a horrible fucking guide by the way."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "risen_road_looting",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "clarity_moments": [
+    {
+      "agent_kind": "clarity",
+      "source_label": "tutorial_gap",
+      "absolute_seconds": 91.0,
+      "absolute_timestamp": "1:31",
+      "summary": "A clear visual indicator in the spell description or on the target's health bar that dynamically shows if the target is currently valid for the spell's HP threshold.",
+      "game_context": "Cast the Sleep spell successfully to neutralize a target.",
+      "evidence": [
+        "UI displays 'Too many Hit Points' error when hovering over target",
+        "uncertain tone",
+        "Scene: Campsite combat, player attempting to use the 'Sleep' spell on a companion.",
+        "Quote: I can't put you to sleep, I tried."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 0,
+      "segment_label": "campsite_interaction",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "tutorial_gap",
+      "absolute_seconds": 169.0,
+      "absolute_timestamp": "2:49",
+      "summary": "A more prominent explanation or tooltip popup describing the 'Surprised' condition the first time it is triggered, explaining that it consumes the first turn.",
+      "game_context": "Engage in combat immediately upon the encounter starting.",
+      "evidence": [
+        "Surprised status icon visible on portraits",
+        "Inability to take actions",
+        "panicked tone",
+        "Scene: Blighted Village basement, surprise encounter with Robust Guardian.",
+        "Quote: I'm surprised. Help me, I'm surprised."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 0,
+      "segment_label": "blighted_village_basement",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "delight",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "missing_signpost",
+      "absolute_seconds": 235.0,
+      "absolute_timestamp": "3:55",
+      "summary": "Better visual signposting of safe zones or a clearer way to see trap 'cycles' to allow for timing-based movement.",
+      "game_context": "Exit the room safely after looting the cocoon.",
+      "evidence": [
+        "Character standing still in the center of repeating fire blasts",
+        "Camera rotation searching for an exit",
+        "frustrated tone",
+        "Scene: Small side room in the cellar with active fire traps.",
+        "Quote: Except I am stuck in here."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 0,
+      "segment_label": "blighted_village_basement",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "quality",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "unclear_objective",
+      "absolute_seconds": 246.0,
+      "absolute_timestamp": "4:06",
+      "summary": "Clearer feedback or environmental storytelling if the room contains no further significant loot or secrets, preventing the player from feeling they've missed something.",
+      "game_context": "Loot relevant items and move on to the next objective.",
+      "evidence": [
+        "Wandering the room",
+        "Interacting with empty trunks",
+        "uncertain tone",
+        "Scene: Blighted Village basement, post-combat exploration.",
+        "Quote: What do you want me to do in here?",
+        "Quote: How they expect me to loot"
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 0,
+      "segment_label": "wetlands_dialogue",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "delight",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "poor_feedback",
+      "absolute_seconds": 303.0,
+      "absolute_timestamp": "5:03",
+      "summary": "Faster animation options or 'simultaneous turns' for clusters of identical minor enemies to maintain engagement during large-scale encounters.",
+      "game_context": "Follow the sequence of combat actions and movement from NPCs.",
+      "evidence": [
+        "rapid camera panning",
+        "waiting for NPC turns to complete",
+        "cycling through initiative portraits",
+        "frustrated tone",
+        "exasperated sigh",
+        "Scene: Turn-based combat encounter in the Sunlit Wetlands with multiple Mephits.",
+        "Quote: The f*ck is happening?",
+        "Quote: Cannot watch them all move three inches, please, can I not, come on."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 1,
+      "segment_label": "wetlands_combat",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "delight",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "missing_signpost",
+      "absolute_seconds": 523.0,
+      "absolute_timestamp": "8:43",
+      "summary": "A more distinct visual highlight or a glint on the quest-specific interactable object (the cleft) when the player is in close proximity.",
+      "game_context": "Locate the 'cleft' in the tree to progress the 'Investigate Kagha' quest line.",
+      "evidence": [
+        "erratic camera spinning",
+        "running back and forth across the wooden bridge",
+        "jumping onto random rock ledges",
+        "uncertain tone",
+        "questioning",
+        "Scene: Exploring the river area and the large tree at the Druid Sanctuary.",
+        "Quote: Which way are we going?",
+        "Quote: Holy f#ck finally."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 2,
+      "segment_label": null,
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "tutorial_gap",
+      "absolute_seconds": 617.0,
+      "absolute_timestamp": "10:17",
+      "summary": "A recurring tooltip or loading screen hint suggesting manual saves before entering high-danger zones like the Sanctuary.",
+      "game_context": "Utilize manual quicksaves frequently to minimize progress loss in a high-lethality game.",
+      "evidence": [
+        "static screen",
+        "reading text overlay",
+        "shocked tone",
+        "disbelief",
+        "Scene: The 'Game Over' screen after the party is defeated by Kagha.",
+        "Quote: When did we save?",
+        "Quote: An hour ago."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 2,
+      "segment_label": "squirrel_encounter",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "quality",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "poor_feedback",
+      "absolute_seconds": 688.0,
+      "absolute_timestamp": "11:28",
+      "summary": "Clearer feedback on why certain environmental units (the rats) are absent from the initiative order compared to the previous attempt.",
+      "game_context": "Understand the conditions for enemy participation in the battle.",
+      "evidence": [
+        "panning the camera over the arena",
+        "inspecting empty spaces where NPCs previously stood",
+        "speculative tone",
+        "confusion",
+        "Scene: Inside the sanctuary during the re-initiated combat encounter with the druids.",
+        "Quote: I think it's cause you scared off the rats so they're not even a part of this."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 2,
+      "segment_label": "kagha_boss_fight",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "friction",
+        "retry",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "missing_signpost",
+      "absolute_seconds": 875.0,
+      "absolute_timestamp": "14:35",
+      "summary": "Subtle visual signposting (like wear-and-tear textures or a slight path highlight) to differentiate climbable/walkable natural rock geometry from decorative terrain.",
+      "game_context": "Follow the group by identifying the natural rock staircase path.",
+      "evidence": [
+        "Wandering away from the party",
+        "Opening the map",
+        "Standing still on a ledge while teammates are out of frame",
+        "Panic tone",
+        "High-pitched questioning",
+        "Scene: On the rocky cliffs overlooking the Emerald Grove waterfall path.",
+        "Quote: Quentin I'm very lost and afraid.",
+        "Quote: How was I supposed to know this was a staircase?"
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 3,
+      "segment_label": "emerald_grove_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "poor_feedback",
+      "absolute_seconds": 976.0,
+      "absolute_timestamp": "16:16",
+      "summary": "Better off-screen teammate indicators that account for significant vertical distance, or a more persistent camera tracking option for group movement.",
+      "game_context": "Maintain group cohesion while navigating vertical architecture.",
+      "evidence": [
+        "Doubling back down stairs",
+        "Rapid camera rotation searching for player icons",
+        "Running in circles",
+        "Frustrated tone",
+        "Accusatory tone toward teammate",
+        "Scene: The wooden stairs and platforms of the Risen Road building.",
+        "Quote: Where'd you just go dude?",
+        "Quote: Where'd you just fucking go?",
+        "Quote: Stop teleporting away dude. Stop fucking teleporting away."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 3,
+      "segment_label": "party_item_management",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "tutorial_gap",
+      "absolute_seconds": 992.0,
+      "absolute_timestamp": "16:32",
+      "summary": "A specific UI tag or visual border on items that have been flagged or discussed as Gale-eligible to prevent accidental equipping in a co-op inventory.",
+      "game_context": "Distinguish between equipment for party use and magical artifacts designated for consumption by Gale.",
+      "evidence": [
+        "Opening and closing the inventory",
+        "Checking the teammate's character model",
+        "Hovering over the Haste Helm",
+        "Accusatory tone",
+        "Confusion regarding item destination",
+        "Scene: On the wooden deck, managing inventory items meant for Gale's quest line.",
+        "Quote: Are you wearing it?",
+        "Quote: Are you wearing the helmet that I gave you?",
+        "Quote: You're supposed to feed Gale.",
+        "Quote: Give me back that helmet mf."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 4,
+      "segment_label": "party_item_management",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "friction",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "clarity",
+      "source_label": "poor_feedback",
+      "absolute_seconds": 1112.0,
+      "absolute_timestamp": "18:32",
+      "summary": "Better camera collision or transparency for foreground walls in tight interiors to prevent the player from perceiving a soft-lock.",
+      "game_context": "Continue looting environmental containers in the basement area.",
+      "evidence": [
+        "Camera clipping through a stone wall",
+        "Player character completely obscured from view",
+        "Character movement stops",
+        "Startled tone",
+        "Fear of being trapped",
+        "Scene: Inside the basement of the building. The player character is standing in a corner or behind a wall while looting vases.",
+        "Quote: I'm getting shut in here. Hello?"
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 4,
+      "segment_label": "trading_and_inventory",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "quality",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "delight_moments": [
+    {
+      "agent_kind": "delight",
+      "source_label": "humor",
+      "absolute_seconds": 70.0,
+      "absolute_timestamp": "1:10",
+      "summary": "The game allows for emergent, consequence-free social play in camp, letting the group's natural chemistry create its own fun.",
+      "game_context": "The group decides to test their abilities on one another in a safe zone.",
+      "evidence": [
+        "Rapid selection of combat spells in radial menus",
+        "Voluntary engagement in PvP interaction",
+        "Laughter",
+        "Playful shouting",
+        "Fast-paced banter",
+        "Scene: At the campsite, the player and their friends begin using spells like Magic Missile and Acid Breath on each other.",
+        "Quote: I ain't tryna do nothin homie",
+        "Quote: He's doin some stuff",
+        "Quote: You can't take both of me on",
+        "Quote: Calm the f#ck down!"
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 0,
+      "segment_label": "campsite_interaction",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "discovery",
+      "absolute_seconds": 158.0,
+      "absolute_timestamp": "2:38",
+      "summary": "Satisfies the player's curiosity and desire for 'hidden' content, rewarded with a whole new area.",
+      "game_context": "Finding a secret entrance to a sub-level exploration zone.",
+      "evidence": [
+        "Purposeful movement toward the back of the room",
+        "Immediate interaction with the discovery",
+        "Intrigued tone",
+        "Scene: Inside a house in the Blighted Village, the player discovers a hidden wooden hatch behind some crates.",
+        "Quote: Is this your sex dungeon?",
+        "Quote: Take your clothes off"
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 0,
+      "segment_label": "blighted_village_basement",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "mastery",
+      "absolute_seconds": 218.0,
+      "absolute_timestamp": "3:38",
+      "summary": "The tension-release cycle of the physical dice roll creates a high-stakes 'gambling' rush that the player explicitly leans into.",
+      "game_context": "Passing a skill check to safely progress past a trap.",
+      "evidence": [
+        "Focused navigation of the turn-based overlay",
+        "Momentary pause during the dice spin animation",
+        "Shouting of excitement",
+        "Mimicking a meme audio cue",
+        "Scene: The player attempts to disarm a trap in the dark basement using a Sleight of Hand check.",
+        "Quote: Let's go gambling!",
+        "Quote: I can't stop winning!",
+        "Quote: I disarmed it, you're welcome"
+      ],
+      "severity_numeric": 9,
+      "source_chunk_index": 0,
+      "segment_label": "blighted_village_basement",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "progression",
+      "absolute_seconds": 258.0,
+      "absolute_timestamp": "4:18",
+      "summary": "Visual progression and the humor of 'extreme' trade-offs (selling all belongings for one item) appeals to the player's comedic style.",
+      "game_context": "Managing equipment and prioritizing aesthetics/stats.",
+      "evidence": [
+        "Spinning the character model in the inventory view",
+        "Filtering inventory to highlight the gear",
+        "Proud tone",
+        "Laughter from friends",
+        "Scene: The player opens the inventory to show off their character's new helmet, admitting they sold everything else to get it.",
+        "Quote: I sold everything I had for this helmet",
+        "Quote: I sold my underwear for it"
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 0,
+      "segment_label": "wetlands_dialogue",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "story",
+      "absolute_seconds": 298.0,
+      "absolute_timestamp": "4:58",
+      "summary": "Story choices that lead directly into action allow players to feel their emotional investment in NPCs has immediate consequences.",
+      "game_context": "Transitioning from a social dialogue into combat to protect an NPC the player likes.",
+      "evidence": [
+        "rapid entry into combat",
+        "focused target selection",
+        "protective tone",
+        "enthusiastic battle cry",
+        "Scene: Initiating a combat encounter in the wetlands to defend Auntie Ethel against two NPCs.",
+        "Quote: That's my girl Ethel dude"
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 1,
+      "segment_label": "wetlands_combat",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "progression",
+      "absolute_seconds": 460.0,
+      "absolute_timestamp": "7:40",
+      "summary": "The 'mastery' of the combat is immediately validated by 'progression' through powerful, unique magical items.",
+      "game_context": "Finding rare loot after a difficult environmental or combat navigation.",
+      "evidence": [
+        "rapid looting inputs",
+        "immediate menu inspection",
+        "triumphant tone",
+        "focused reading",
+        "Scene: Opening a wooden chest in the Druid Sanctuary area and discovering 'The Sparkle Hands' gauntlets.",
+        "Quote: Ain't nothin but a thang playa",
+        "Quote: Conductive Strikes... give me those"
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 1,
+      "segment_label": "sanctuary_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "humor",
+      "absolute_seconds": 594.0,
+      "absolute_timestamp": "9:54",
+      "summary": "The game rewards chaotic player agency with exaggerated physical comedy and high-stakes dice outcomes, creating a 'meme-worthy' social highlight.",
+      "game_context": "Passing a skill check to interact violently with a small animal NPC.",
+      "evidence": [
+        "Deliberate menu selection of aggressive action",
+        "Reaction to critical success animation (Nat 20)",
+        "Humorous visual edit showing the squirrel flying",
+        "Boisterous laughter",
+        "Triumphant shouting",
+        "Excited tone",
+        "Scene: Emerald Grove path, encountering Timber the squirrel and choosing to kick it.",
+        "Quote: I wanna kick this squirrel.",
+        "Quote: I hit a 18 on a 10... 20 on a 10, dude. This mf is going flying.",
+        "Quote: Hands on your hips like I did some shit. That's f***ing crazy."
+      ],
+      "severity_numeric": 9,
+      "source_chunk_index": 2,
+      "segment_label": "squirrel_encounter",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "mastery",
+      "absolute_seconds": 729.0,
+      "absolute_timestamp": "12:09",
+      "summary": "Revenge provides a powerful emotional payoff for the frustration of the earlier defeat and progress loss.",
+      "game_context": "Vanquishing an enemy that contributed to their previous total party wipe.",
+      "evidence": [
+        "Purposeful combo execution (Flourish/Action Surge)",
+        "Fast-paced turn processing",
+        "Music-synced editing of combat success",
+        "Relieved laughter",
+        "Aggressive shouting",
+        "Competitive focus",
+        "Scene: Druid Sanctuary, successfully landing a killing blow during the second attempt at the Kagha battle.",
+        "Quote: Let's go! Let's go!",
+        "Quote: I'm sick of his ass.",
+        "Quote: That's f***ing meta."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 2,
+      "segment_label": null,
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "progression",
+      "absolute_seconds": 734.0,
+      "absolute_timestamp": "12:14",
+      "summary": "Tangible progression (gold and unique items) validates the effort spent on the challenging encounter.",
+      "game_context": "Acquiring rewards after a high-difficulty combat encounter.",
+      "evidence": [
+        "Rapid looting inputs",
+        "Cycling through rare equipment icons",
+        "Checking gold totals",
+        "Mocking tone toward the fallen NPC",
+        "Surprised exclamation at gold count",
+        "Scene: Post-combat looting of Kagha's corpse in the Druid Sanctuary.",
+        "Quote: Loot her, loot her. Get looted pussy.",
+        "Quote: Damn, holy shit, Gale has 456 gold."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 2,
+      "segment_label": null,
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "humor",
+      "absolute_seconds": 801.0,
+      "absolute_timestamp": "13:21",
+      "summary": "The game's willingness to allow 'naked' character models creates emergent social humor that perfectly aligns with the group's chaotic chemistry.",
+      "game_context": "The aesthetic consequences of selling all equipment to afford a rare helmet.",
+      "evidence": [
+        "Purposeful rotation of the camera to highlight character nudity",
+        "Voluntary exploration of town area while mocking character model",
+        "Uncontrollable laughter",
+        "High-pitched squealing",
+        "Mocking tone",
+        "Scene: The Hollow, running through a crowd of NPCs while partially unclothed.",
+        "Expression: The player is laughing so hard they are momentarily unable to focus on navigation, smiling broadly throughout.",
+        "Quote: My penis is out...",
+        "Quote: Somebody help, somebody help!",
+        "Quote: Nobody suck it...",
+        "Quote: nooo",
+        "Quote: How was I supposed to know this was a staircase?"
+      ],
+      "severity_numeric": 9,
+      "source_chunk_index": 3,
+      "segment_label": "emerald_grove_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "progression",
+      "absolute_seconds": 945.0,
+      "absolute_timestamp": "15:45",
+      "summary": "The friction of limited resources (items Gale needs to 'consume') creates meaningful social choices and playful inter-party conflict.",
+      "game_context": "Managing high-value magical loot and narrative requirements for Gale.",
+      "evidence": [
+        "Rapid menu navigation",
+        "Equipping/Unequipping unique items (Haste Helm)",
+        "Journal update notification",
+        "Persistent laughter",
+        "Competitive banter about items",
+        "Scene: Inventory management and Gale (Wizard of Waterdeep) quest interaction.",
+        "Expression: The player is grinning and appears highly engaged in the 'item drama' between friends.",
+        "Quote: Give him the f#cking helmet that I gave you!",
+        "Quote: Are you wearing it?",
+        "Quote: Are you wearing the helmet that I gave you?",
+        "Quote: Give me back that helmet mf."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 3,
+      "segment_label": "emerald_grove_exploration",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "quality",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "combat",
+      "absolute_seconds": 1055.0,
+      "absolute_timestamp": "17:35",
+      "summary": "The tactical satisfaction of ending a fight with high-impact moves is amplified by the group's competitive and supportive social energy.",
+      "game_context": "The player and their friends successfully execute a 'combo' to wipe out the remaining traders.",
+      "evidence": [
+        "Rapid selection of Action Surge",
+        "Precise targeting of low-HP enemy",
+        "Celebratory camera zooms",
+        "Triumphant cheering",
+        "High-pitched laughter",
+        "Excited shouting",
+        "Scene: Toll House interior, concluding the combat encounter against the traders with a powerful strike.",
+        "Quote: Nice cock! Perfect!",
+        "Quote: Get em Gale!",
+        "Quote: Oh yeah... get her. Everybody's dead."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 4,
+      "segment_label": "trader_combat",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "visual_design",
+      "absolute_seconds": 1139.0,
+      "absolute_timestamp": "18:59",
+      "summary": "The dye system provides an immediate, highly rewarding visual payoff that aligns with the player's focus on character identity and 'cool factor'.",
+      "game_context": "Using a rare dye to customize the character's aesthetic after finding new armor.",
+      "evidence": [
+        "Intentional character model rotation",
+        "Repeated menu interactions to view the result",
+        "Humorous zoom-in on the new outfit",
+        "Shouting with excitement",
+        "Repeated exclamations of praise",
+        "Energetic tone",
+        "Scene: Inventory menu, applying 'Baby Blue and Gold Dye' to the character's armor.",
+        "Quote: This looks HEAT. Oh my god. IT MATCHES MY EYES!",
+        "Quote: I'm sexing myself up. Oh my god. Let's go dude, you're gonna be so hot."
+      ],
+      "severity_numeric": 9,
+      "source_chunk_index": 4,
+      "segment_label": "character_customization",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "delight",
+      "source_label": "humor",
+      "absolute_seconds": 1191.0,
+      "absolute_timestamp": "19:51",
+      "summary": "The game allows players to carry over their chaotic social choices into new narrative environments, maintaining a consistent tone of play.",
+      "game_context": "Arriving at a new major quest location while maintaining a recurring social joke.",
+      "evidence": [
+        "Voluntary continuation of the 'nudity bit'",
+        "Slow-motion cinematic arrival",
+        "Camera focus on the contrast between armored and unarmored characters",
+        "Intense group laughter",
+        "Mocking questions",
+        "High-pitched squealing",
+        "Scene: Arriving at the gates of the Goblin Camp while a companion is unclothed.",
+        "Quote: What are you doing? Why'd you take off your clothes?",
+        "Quote: Are you gonna sex them dude?"
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 4,
+      "segment_label": "goblin_camp_arrival",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "quality_issues": [
+    {
+      "agent_kind": "quality",
+      "source_label": "performance",
+      "absolute_seconds": 127.0,
+      "absolute_timestamp": "2:07",
+      "summary": "performance issue: frame drop, hitch during The 'Saving...' indicator appears on the top left, causing a momentary hitch in character animation and camera movement.",
+      "game_context": "The 'Saving...' indicator appears on the top left, causing a momentary hitch in character animation and camera movement.",
+      "evidence": [
+        "frame drop",
+        "hitch",
+        "None",
+        "Player reaction: ignored",
+        "Scene: Campsite during character social interaction"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 0,
+      "segment_label": "blighted_village_basement",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "quality",
+      "source_label": "gameplay_logic",
+      "absolute_seconds": 236.0,
+      "absolute_timestamp": "3:56",
+      "summary": "gameplay logic issue: forced turn-based mode transition during After triggering fire jets in the basement, the game automatically enters Turn-Based Mode to manage environmental hazards. The player character remains in the trap zone.",
+      "game_context": "After triggering fire jets in the basement, the game automatically enters Turn-Based Mode to manage environmental hazards. The player character remains in the trap zone.",
+      "evidence": [
+        "forced turn-based mode transition",
+        "None",
+        "Player reaction: noticed and commented",
+        "Scene: Blighted Village basement hidden dungeon near fire traps",
+        "Quote: Except I am stuck in here"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 0,
+      "segment_label": "blighted_village_basement",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "clarity",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "quality",
+      "source_label": "performance",
+      "absolute_seconds": 363.0,
+      "absolute_timestamp": "6:03",
+      "summary": "performance issue: frame drop, hitch during Entering turn-based combat with a high number of active AI units and complex environmental assets.",
+      "game_context": "Entering turn-based combat with a high number of active AI units and complex environmental assets.",
+      "evidence": [
+        "frame drop",
+        "hitch",
+        "None",
+        "Player reaction: noticed and commented",
+        "Scene: Combat initiation at the Druid Sanctuary against a Wood Woad and Ancient Mud Mephits.",
+        "Quote: The f#ck is happening?"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 1,
+      "segment_label": "sanctuary_combat",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "friction",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "quality",
+      "source_label": "gameplay_logic",
+      "absolute_seconds": 371.0,
+      "absolute_timestamp": "6:11",
+      "summary": "gameplay logic issue: AI idling, inefficient pathing during Numerous low-level AI units (Mud Mephits) taking significant processing time to execute minimal or circular pathing moves.",
+      "game_context": "Numerous low-level AI units (Mud Mephits) taking significant processing time to execute minimal or circular pathing moves.",
+      "evidence": [
+        "AI idling",
+        "inefficient pathing",
+        "None",
+        "Player reaction: noticed and commented",
+        "Scene: AI turn processing during combat at the Druid Sanctuary.",
+        "Quote: Can I not sit here and watch them all move three inches, please? Can like... why is it not... Come on.",
+        "Quote: Holy f#ck peak gameplay. My f#ckin god."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 1,
+      "segment_label": "sanctuary_combat",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "friction",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "quality",
+      "source_label": "gameplay_logic",
+      "absolute_seconds": 611.0,
+      "absolute_timestamp": "10:11",
+      "summary": "gameplay logic issue: None during Following a total party defeat, the player checks the timestamps of their previous manual and auto-saves.",
+      "game_context": "Following a total party defeat, the player checks the timestamps of their previous manual and auto-saves.",
+      "evidence": [
+        "None",
+        "None",
+        "Player reaction: noticed and commented",
+        "Scene: Menu screen after a total party wipe (Game Over) in the Druid Sanctuary.",
+        "Quote: When did we save?",
+        "Quote: An hour ago."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 2,
+      "segment_label": "squirrel_encounter",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "quality",
+      "source_label": "performance",
+      "absolute_seconds": 626.0,
+      "absolute_timestamp": "10:26",
+      "summary": "performance issue: frame drop, hitch during The player initiates a surprise attack on Kagha from stealth, transitioning the scene into turn-based combat with multiple NPCs.",
+      "game_context": "The player initiates a surprise attack on Kagha from stealth, transitioning the scene into turn-based combat with multiple NPCs.",
+      "evidence": [
+        "frame drop",
+        "hitch",
+        "None",
+        "Player reaction: ignored",
+        "Scene: Combat initiation inside the Druid Sanctuary interior against Kagha."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 2,
+      "segment_label": null,
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "quality",
+      "source_label": "gameplay_logic",
+      "absolute_seconds": 920.0,
+      "absolute_timestamp": "15:20",
+      "summary": "gameplay logic issue: Inaccurate floating UI text during The player is targeted by a teammate's Eldritch Blast, triggering a transition to turn-based mode.",
+      "game_context": "The player is targeted by a teammate's Eldritch Blast, triggering a transition to turn-based mode.",
+      "evidence": [
+        "Inaccurate floating UI text",
+        "None",
+        "Player reaction: noticed and commented",
+        "Scene: On the path outside The Hollow",
+        "Quote: you mother f*cker",
+        "Quote: Why are we in turn-based mode?"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 3,
+      "segment_label": "emerald_grove_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "quality",
+      "source_label": "performance",
+      "absolute_seconds": 920.0,
+      "absolute_timestamp": "15:20",
+      "summary": "performance issue: Animation hitch, stutter during The character model hitches significantly during the transition to turn-based mode while in the middle of a jump animation.",
+      "game_context": "The character model hitches significantly during the transition to turn-based mode while in the middle of a jump animation.",
+      "evidence": [
+        "Animation hitch",
+        "stutter",
+        "None",
+        "Player reaction: ignored",
+        "Scene: On the path outside The Hollow"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 3,
+      "segment_label": "emerald_grove_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "quality",
+      "source_label": "graphics",
+      "absolute_seconds": 960.0,
+      "absolute_timestamp": "16:00",
+      "summary": "graphics issue: pop-in, LOD flickering during Running quickly through a densely forested area near the waterfall.",
+      "game_context": "Running quickly through a densely forested area near the waterfall.",
+      "evidence": [
+        "pop-in",
+        "LOD flickering",
+        "None",
+        "Player reaction: ignored",
+        "Scene: Forest area outside The Hollow"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 3,
+      "segment_label": "emerald_grove_exploration",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "friction"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "quality",
+      "source_label": "graphics",
+      "absolute_seconds": 1111.0,
+      "absolute_timestamp": "18:31",
+      "summary": "graphics issue: Camera occlusion failure, Screen black-out during Navigating between small interior rooms in the Toll House basement; character movement triggers a ceiling/roof layer that fails to properly dither or fade, causing the camera to be blocked by black geometry.",
+      "game_context": "Navigating between small interior rooms in the Toll House basement; character movement triggers a ceiling/roof layer that fails to properly dither or fade, causing the camera to be blocked by black geometry.",
+      "evidence": [
+        "Camera occlusion failure",
+        "Screen black-out",
+        "None",
+        "Player reaction: noticed and commented",
+        "Scene: Toll House basement while looting vases in a small side room.",
+        "Quote: Hey guys, I'm getting shut in here. Hello?"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "trading_and_inventory",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "sentiment_moments": [
+    {
+      "agent_kind": "sentiment",
+      "source_label": "excited",
+      "absolute_seconds": 0.0,
+      "absolute_timestamp": "0:00",
+      "summary": "Introduction and stating game preference",
+      "game_context": "Exploration",
+      "evidence": [
+        "Trigger: Introduction and stating game preference",
+        "Visual: Exploration",
+        "Audio: Upbeat, energetic tone; calls the game his 'new favorite.'"
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 0,
+      "segment_label": "emerald_grove",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": 5,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 30.0,
+      "absolute_timestamp": "0:30",
+      "summary": "Recounting experiences with friends",
+      "game_context": "Exploration",
+      "evidence": [
+        "Trigger: Recounting experiences with friends",
+        "Visual: Exploration",
+        "Audio: Friendly, appreciative tone toward friends."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 0,
+      "segment_label": "emerald_grove",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": 3,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 62.0,
+      "absolute_timestamp": "1:02",
+      "summary": "Playful combat with friends at campsite",
+      "game_context": "Combat",
+      "evidence": [
+        "Trigger: Playful combat with friends at campsite",
+        "Visual: Combat",
+        "Audio: Laughter and banter; 'Do not push him.'"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 0,
+      "segment_label": "campsite_interaction",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 6,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 90.0,
+      "absolute_timestamp": "1:30",
+      "summary": "Character nudity/sexual humor shenanigans",
+      "game_context": "Discovery",
+      "evidence": [
+        "Trigger: Character nudity/sexual humor shenanigans",
+        "Visual: Discovery",
+        "Audio: High-pitched laughter, joking about character interactions."
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 0,
+      "segment_label": "campsite_interaction",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "clarity",
+        "verbal"
+      ],
+      "sentiment_raw_score": 8,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 120.0,
+      "absolute_timestamp": "2:00",
+      "summary": "Absurdity of the game's social mechanics",
+      "game_context": "Discovery",
+      "evidence": [
+        "Trigger: Absurdity of the game's social mechanics",
+        "Visual: Discovery",
+        "Audio: Exclaiming 'He's horny!' and laughing at camp scenes."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 0,
+      "segment_label": "blighted_village_basement",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "quality"
+      ],
+      "sentiment_raw_score": 7,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 150.0,
+      "absolute_timestamp": "2:30",
+      "summary": "Finding a hidden basement in the village",
+      "game_context": "Success",
+      "evidence": [
+        "Trigger: Finding a hidden basement in the village",
+        "Visual: Success",
+        "Audio: Focused, curious tone; 'What is this?'"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 0,
+      "segment_label": "blighted_village_basement",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 180.0,
+      "absolute_timestamp": "3:00",
+      "summary": "Surprise combat encounter with basement guardian",
+      "game_context": "Combat",
+      "evidence": [
+        "Trigger: Surprise combat encounter with basement guardian",
+        "Visual: Combat",
+        "Audio: Shocked exclamation followed by immediate laughter."
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 0,
+      "segment_label": "blighted_village_basement",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "clarity",
+        "verbal"
+      ],
+      "sentiment_raw_score": 4,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "excited",
+      "absolute_seconds": 218.0,
+      "absolute_timestamp": "3:38",
+      "summary": "Success during 'Gambling' (Dice Roll)",
+      "game_context": "Success",
+      "evidence": [
+        "Trigger: Success during 'Gambling' (Dice Roll)",
+        "Visual: Success",
+        "Audio: Shouting 'Let's go gambling!' and celebrating success."
+      ],
+      "severity_numeric": 9,
+      "source_chunk_index": 0,
+      "segment_label": "blighted_village_basement",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 9,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 250.0,
+      "absolute_timestamp": "4:10",
+      "summary": "Self-inflicted fire trap explosion",
+      "game_context": "Failure",
+      "evidence": [
+        "Trigger: Self-inflicted fire trap explosion",
+        "Visual: Failure",
+        "Audio: Self-deprecating humor; 'I'm a genius' spoken sarcastically."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 0,
+      "segment_label": "wetlands_dialogue",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 5,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "excited",
+      "absolute_seconds": 298.0,
+      "absolute_timestamp": "4:58",
+      "summary": "Engaging in combat to defend Auntie Ethel",
+      "game_context": "success",
+      "evidence": [
+        "Trigger: Engaging in combat to defend Auntie Ethel",
+        "Visual: success",
+        "Audio: Protective and enthusiastic tone; 'That's my girl Ethel dude.'"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 1,
+      "segment_label": "wetlands_combat",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 4,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "confused",
+      "absolute_seconds": 325.0,
+      "absolute_timestamp": "5:25",
+      "summary": "Wait time during turn-based combat with multiple small enemies",
+      "game_context": "stalling",
+      "evidence": [
+        "Trigger: Wait time during turn-based combat with multiple small enemies",
+        "Visual: stalling",
+        "Audio: Muttering 'The f*** is happening?' in a confused and slightly impatient tone.",
+        "Silence type: confused"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 1,
+      "segment_label": "wetlands_combat",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": -2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "frustrated",
+      "absolute_seconds": 370.0,
+      "absolute_timestamp": "6:10",
+      "summary": "Immobility and slow AI turn speeds of Mud Mephits",
+      "game_context": "stalling",
+      "evidence": [
+        "Trigger: Immobility and slow AI turn speeds of Mud Mephits",
+        "Visual: stalling",
+        "Audio: Vocalized annoyance: 'Cannot sit here and watch them all move 3 inches, please.'"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 1,
+      "segment_label": "sanctuary_combat",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "friction",
+        "quality"
+      ],
+      "sentiment_raw_score": -4,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 414.0,
+      "absolute_timestamp": "6:54",
+      "summary": "Joking about a friend's 'unsure' attack during a math-meme overlay",
+      "game_context": "exploration",
+      "evidence": [
+        "Trigger: Joking about a friend's 'unsure' attack during a math-meme overlay",
+        "Visual: exploration",
+        "Audio: Bantering laughter with friends; mocking the teammate's decision speed."
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 1,
+      "segment_label": null,
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": 4,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "neutral",
+      "absolute_seconds": 432.0,
+      "absolute_timestamp": "7:12",
+      "summary": "Character death during combat encounter",
+      "game_context": "failure",
+      "evidence": [
+        "Trigger: Character death during combat encounter",
+        "Visual: failure",
+        "Audio: Quietly resigns with 'I died,' but tone is not angry; acceptance of the outcome.",
+        "Silence type: resigned"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 1,
+      "segment_label": null,
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 465.0,
+      "absolute_timestamp": "7:45",
+      "summary": "Looting 'The Sparkle Hands' gauntlets from a wooden chest",
+      "game_context": "success",
+      "evidence": [
+        "Trigger: Looting 'The Sparkle Hands' gauntlets from a wooden chest",
+        "Visual: success",
+        "Audio: Renewed engagement; joking about 'finger blasters' name for the loot."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 1,
+      "segment_label": "sanctuary_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 6,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "excited",
+      "absolute_seconds": 515.0,
+      "absolute_timestamp": "8:35",
+      "summary": "Locating the specific tree cleft for the 'Investigate Kagha' quest.",
+      "game_context": "success",
+      "evidence": [
+        "Trigger: Locating the specific tree cleft for the 'Investigate Kagha' quest.",
+        "Visual: success",
+        "Audio: Exclaims 'Holy f*ck finally' with a tone of high relief."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 2,
+      "segment_label": null,
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "clarity",
+        "verbal"
+      ],
+      "sentiment_raw_score": 5,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "excited",
+      "absolute_seconds": 553.0,
+      "absolute_timestamp": "9:13",
+      "summary": "Natural 20 roll on kicking the squirrel Timber.",
+      "game_context": "success",
+      "evidence": [
+        "Trigger: Natural 20 roll on kicking the squirrel Timber.",
+        "Visual: success",
+        "Audio: Shouting 'Let's go!' and laughing at the exaggerated animation edit."
+      ],
+      "severity_numeric": 9,
+      "source_chunk_index": 2,
+      "segment_label": "emerald_grove_dialogue",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": 9,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 571.0,
+      "absolute_timestamp": "9:31",
+      "summary": "Discussing the moral/tactical plan to kill Kagha.",
+      "game_context": "exploration",
+      "evidence": [
+        "Trigger: Discussing the moral/tactical plan to kill Kagha.",
+        "Visual: exploration",
+        "Audio: Aggressive but playful tone: 'Are we killing this bitch?'"
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 2,
+      "segment_label": "emerald_grove_dialogue",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": 3,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "frustrated",
+      "absolute_seconds": 614.0,
+      "absolute_timestamp": "10:14",
+      "summary": "Total party wipe (Game Over) in the first Druid Sanctuary encounter.",
+      "game_context": "failure",
+      "evidence": [
+        "Trigger: Total party wipe (Game Over) in the first Druid Sanctuary encounter.",
+        "Visual: failure",
+        "Audio: Stunned silence followed by a quiet, frustrated 'Oh shit.'",
+        "Silence type: resigned"
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 2,
+      "segment_label": "squirrel_encounter",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "quality",
+        "verbal"
+      ],
+      "sentiment_raw_score": -5,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "frustrated",
+      "absolute_seconds": 618.0,
+      "absolute_timestamp": "10:18",
+      "summary": "Realizing the last manual/auto-save was 'an hour ago.'",
+      "game_context": "stalling",
+      "evidence": [
+        "Trigger: Realizing the last manual/auto-save was 'an hour ago.'",
+        "Visual: stalling",
+        "Audio: High-pitched disbelief; 'An hour of my life is gone.' Voice is genuinely strained."
+      ],
+      "severity_numeric": 9,
+      "source_chunk_index": 2,
+      "segment_label": "squirrel_encounter",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "quality",
+        "verbal"
+      ],
+      "sentiment_raw_score": -9,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 644.0,
+      "absolute_timestamp": "10:44",
+      "summary": "Recovering spirits via banter during the loading screen.",
+      "game_context": "stalling",
+      "evidence": [
+        "Trigger: Recovering spirits via banter during the loading screen.",
+        "Visual: stalling",
+        "Audio: Sarcastic humor: 'This is the fun part of Baldur's Gate.' Tone is normalizing."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 2,
+      "segment_label": "kagha_boss_fight",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 671.0,
+      "absolute_timestamp": "11:11",
+      "summary": "Planning the surprise attack for the rematch.",
+      "game_context": "exploration",
+      "evidence": [
+        "Trigger: Planning the surprise attack for the rematch.",
+        "Visual: exploration",
+        "Audio: Determined and focused; coordinating the start of the fight with friends."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 2,
+      "segment_label": "kagha_boss_fight",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "retry",
+        "verbal"
+      ],
+      "sentiment_raw_score": 3,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "confused",
+      "absolute_seconds": 700.0,
+      "absolute_timestamp": "11:40",
+      "summary": "Critical Miss on the opening surprise attack against the druids.",
+      "game_context": "failure",
+      "evidence": [
+        "Trigger: Critical Miss on the opening surprise attack against the druids.",
+        "Visual: failure",
+        "Audio: Disbelieving tone: 'Critical miss is f*cking crazy.' Engaged but annoyed."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 2,
+      "segment_label": "kagha_boss_fight",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "verbal"
+      ],
+      "sentiment_raw_score": -3,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "triumphant",
+      "absolute_seconds": 730.0,
+      "absolute_timestamp": "12:10",
+      "summary": "Successfully killing enemy druids and gaining momentum in the rematch.",
+      "game_context": "success",
+      "evidence": [
+        "Trigger: Successfully killing enemy druids and gaining momentum in the rematch.",
+        "Visual: success",
+        "Audio: Shouting 'Let's go!' and 'I'm sick of his ass' with high energy."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 2,
+      "segment_label": null,
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 7,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 755.0,
+      "absolute_timestamp": "12:35",
+      "summary": "Looting Kagha and discussing stealing gold with friends.",
+      "game_context": "success",
+      "evidence": [
+        "Trigger: Looting Kagha and discussing stealing gold with friends.",
+        "Visual: success",
+        "Audio: Amused tone; laughing about 'looting the p*ssy' and the amount of gold Gale has."
+      ],
+      "severity_numeric": 5,
+      "source_chunk_index": 3,
+      "segment_label": "emerald_grove_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": 5,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 795.0,
+      "absolute_timestamp": "13:15",
+      "summary": "In-character roleplay banter about 'holding pockets' and group gold.",
+      "game_context": "exploration",
+      "evidence": [
+        "Trigger: In-character roleplay banter about 'holding pockets' and group gold.",
+        "Visual: exploration",
+        "Audio: Bantering laughter with friends; mocking the teammate's decision to hold gold."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 3,
+      "segment_label": "emerald_grove_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 6,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 835.0,
+      "absolute_timestamp": "13:55",
+      "summary": "Engaging in character voices ('I'm hungry papa') while running through the grove.",
+      "game_context": "exploration",
+      "evidence": [
+        "Trigger: Engaging in character voices ('I'm hungry papa') while running through the grove.",
+        "Visual: exploration",
+        "Audio: High-pitched playful voice acting followed by loud group laughter."
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 3,
+      "segment_label": "emerald_grove_exploration",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 7,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "excited",
+      "absolute_seconds": 867.0,
+      "absolute_timestamp": "14:27",
+      "summary": "The comedic reveal of the player's partially naked character with a 'Naked and Afraid' title card.",
+      "game_context": "success",
+      "evidence": [
+        "Trigger: The comedic reveal of the player's partially naked character with a 'Naked and Afraid' title card.",
+        "Visual: success",
+        "Audio: Intense, breathless laughter from the entire group; player is wheezing."
+      ],
+      "severity_numeric": 9,
+      "source_chunk_index": 3,
+      "segment_label": "emerald_grove_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "clarity"
+      ],
+      "sentiment_raw_score": 9,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 905.0,
+      "absolute_timestamp": "15:05",
+      "summary": "Humorous commentary on the character's anatomy while climbing rock stairs.",
+      "game_context": "exploration",
+      "evidence": [
+        "Trigger: Humorous commentary on the character's anatomy while climbing rock stairs.",
+        "Visual: exploration",
+        "Audio: Laughing uncontrollably; 'How was I supposed to know this was a staircase?'"
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 3,
+      "segment_label": null,
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "quality"
+      ],
+      "sentiment_raw_score": 8,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 940.0,
+      "absolute_timestamp": "15:40",
+      "summary": "Friends continuing to joke about the character's nudity in the inventory screen.",
+      "game_context": "stalling",
+      "evidence": [
+        "Trigger: Friends continuing to joke about the character's nudity in the inventory screen.",
+        "Visual: stalling",
+        "Audio: Amused tone; 'Please put your c*ck away dude.'"
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 3,
+      "segment_label": "emerald_grove_exploration",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 7,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 980.0,
+      "absolute_timestamp": "16:20",
+      "summary": "Muttering about being a 'horrible guide' while navigating the Risen Road.",
+      "game_context": "progress",
+      "evidence": [
+        "Trigger: Muttering about being a 'horrible guide' while navigating the Risen Road.",
+        "Visual: progress",
+        "Audio: Self-deprecating humor; 'You are a horrible guide by the way.' Tone is light and jovial."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 3,
+      "segment_label": "party_item_management",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "clarity",
+        "verbal"
+      ],
+      "sentiment_raw_score": 6,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 992.0,
+      "absolute_timestamp": "16:32",
+      "summary": "Discovering teammate equipped the Haste Helm meant for Gale",
+      "game_context": "stalling",
+      "evidence": [
+        "Trigger: Discovering teammate equipped the Haste Helm meant for Gale",
+        "Visual: stalling",
+        "Audio: Incredulous laughter; shouting 'Give him the fucking helmet!'"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 4,
+      "segment_label": "party_item_management",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "verbal"
+      ],
+      "sentiment_raw_score": 4,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 1024.0,
+      "absolute_timestamp": "17:04",
+      "summary": "Combat initiation and teammate 'combo' callout",
+      "game_context": "success",
+      "evidence": [
+        "Trigger: Combat initiation and teammate 'combo' callout",
+        "Visual: success",
+        "Audio: High-energy focus; reacting positively to teammate's 'Lightning Charges' combo."
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 4,
+      "segment_label": "trader_combat",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": 3,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "triumphant",
+      "absolute_seconds": 1055.0,
+      "absolute_timestamp": "17:35",
+      "summary": "Victory over Trynn and celebratory meme audio",
+      "game_context": "success",
+      "evidence": [
+        "Trigger: Victory over Trynn and celebratory meme audio",
+        "Visual: success",
+        "Audio: Triumphant shouting; laughter at the 'Nice cock!' meme edit during the kill."
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 4,
+      "segment_label": "trader_combat",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "delight"
+      ],
+      "sentiment_raw_score": 8,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 1080.0,
+      "absolute_timestamp": "18:00",
+      "summary": "Crude humor regarding character nudity and 'foreskin' inspect",
+      "game_context": "exploration",
+      "evidence": [
+        "Trigger: Crude humor regarding character nudity and 'foreskin' inspect",
+        "Visual: exploration",
+        "Audio: Intense, wheezing laughter from the entire group; high-pitched amusement."
+      ],
+      "severity_numeric": 9,
+      "source_chunk_index": 4,
+      "segment_label": "risen_road_looting",
+      "confidence_score": 0.65,
+      "corroborating_agents": [
+        "verbal"
+      ],
+      "sentiment_raw_score": 9,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 1112.0,
+      "absolute_timestamp": "18:32",
+      "summary": "Frustration with being 'shut in' the vase room while looting",
+      "game_context": "stalling",
+      "evidence": [
+        "Trigger: Frustration with being 'shut in' the vase room while looting",
+        "Visual: stalling",
+        "Audio: Mildly annoyed but still laughing: 'I'm getting shut in here. Hello?'"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "trading_and_inventory",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "quality",
+        "verbal"
+      ],
+      "sentiment_raw_score": 2,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "excited",
+      "absolute_seconds": 1147.0,
+      "absolute_timestamp": "19:07",
+      "summary": "Enthusiastic reaction to Baby Blue and Gold armor dye",
+      "game_context": "success",
+      "evidence": [
+        "Trigger: Enthusiastic reaction to Baby Blue and Gold armor dye",
+        "Visual: success",
+        "Audio: Shouting with delight: 'This looks HEAT! It matches my eyes!'"
+      ],
+      "severity_numeric": 9,
+      "source_chunk_index": 4,
+      "segment_label": "character_customization",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 9,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "focused",
+      "absolute_seconds": 1172.0,
+      "absolute_timestamp": "19:32",
+      "summary": "Transition and travel toward the Goblin Camp",
+      "game_context": "progress",
+      "evidence": [
+        "Trigger: Transition and travel toward the Goblin Camp",
+        "Visual: progress",
+        "Audio: Briefly silent during loading/walking, then planning: 'Somebody's gotta fuck me.'",
+        "Silence type: focused"
+      ],
+      "severity_numeric": 3,
+      "source_chunk_index": 4,
+      "segment_label": "goblin_camp_arrival",
+      "confidence_score": 0.5,
+      "corroborating_agents": [],
+      "sentiment_raw_score": 3,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    },
+    {
+      "agent_kind": "sentiment",
+      "source_label": "amused",
+      "absolute_seconds": 1192.0,
+      "absolute_timestamp": "19:52",
+      "summary": "Arrival at Goblin Camp and Gale's nudity recurring joke",
+      "game_context": "discovery",
+      "evidence": [
+        "Trigger: Arrival at Goblin Camp and Gale's nudity recurring joke",
+        "Visual: discovery",
+        "Audio: Laughter and surprise: 'Why'd you take off your clothes?' followed by 'Are you gonna sex them dude?'"
+      ],
+      "severity_numeric": 7,
+      "source_chunk_index": 4,
+      "segment_label": "goblin_camp_arrival",
+      "confidence_score": 0.8,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ],
+      "sentiment_raw_score": 7,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "retry_moments": [
+    {
+      "agent_kind": "retry",
+      "source_label": "kagha_boss_fight",
+      "absolute_seconds": 673.0,
+      "absolute_timestamp": "11:13",
+      "summary": "2 attempts at kagha_boss_fight, outcome: still_trying",
+      "game_context": "Druid Sanctuary - Emerald Grove",
+      "evidence": [
+        "Attempt 1: died (Shock and intense frustration upon seeing the 'Game Over' screen and realizing the last save was 'an hour ago.')",
+        "Attempt 2: still_trying (Renewed determination mixed with disbelief after a critical miss on the opening attack.)",
+        "Frustration: escalating"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 2,
+      "segment_label": "kagha_boss_fight",
+      "confidence_score": 0.95,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment",
+        "verbal"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": 2,
+      "retry_quit_signal": false,
+      "retry_final_outcome": "still_trying",
+      "verbal_is_actionable": null,
+      "verbal_quote": null
+    }
+  ],
+  "verbal_moments": [
+    {
+      "agent_kind": "verbal",
+      "source_label": "praise",
+      "absolute_seconds": 0.0,
+      "absolute_timestamp": "0:00",
+      "summary": "Hello and welcome back to my new favorite game, Baldur's Gate 3.",
+      "game_context": "Running through the forest intro",
+      "evidence": [
+        "Tone: excited",
+        "Category: praise"
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 0,
+      "segment_label": "emerald_grove",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Hello and welcome back to my new favorite game, Baldur's Gate 3."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "praise",
+      "absolute_seconds": 20.0,
+      "absolute_timestamp": "0:20",
+      "summary": "I think the biggest takeaway I have is... I have a gambling problem now.",
+      "game_context": "Reflecting on the dice roll mechanics after 10 hours of play",
+      "evidence": [
+        "Tone: amused",
+        "Category: praise",
+        "Actionable: The high engagement and emotional tension provided by the D20 roll mechanics are a significant driver of player satisfaction and 'hook' value."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 0,
+      "segment_label": "emerald_grove",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "I think the biggest takeaway I have is... I have a gambling problem now."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 81.0,
+      "absolute_timestamp": "1:21",
+      "summary": "Please, please, please... yes!",
+      "game_context": "Rolling a dice for a Difficulty Class 10 check during a party interaction",
+      "evidence": [
+        "Tone: excited",
+        "Category: reaction"
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 0,
+      "segment_label": "campsite_interaction",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Please, please, please... yes!"
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 161.0,
+      "absolute_timestamp": "2:41",
+      "summary": "Is this your sex dungeon?",
+      "game_context": "Entering a dark basement area for the first time",
+      "evidence": [
+        "Tone: amused",
+        "Category: reaction"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 0,
+      "segment_label": "blighted_village_basement",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Is this your sex dungeon?"
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 168.0,
+      "absolute_timestamp": "2:48",
+      "summary": "Oh, I'm surprised. I'm surprised. Help me, I'm surprised.",
+      "game_context": "Initiating a surprise combat encounter in the basement",
+      "evidence": [
+        "Tone: excited",
+        "Category: reaction"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 0,
+      "segment_label": "blighted_village_basement",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Oh, I'm surprised. I'm surprised. Help me, I'm surprised."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 181.0,
+      "absolute_timestamp": "3:01",
+      "summary": "Uhh, I missed... oh f***.",
+      "game_context": "Missing an attack roll during turn-based combat",
+      "evidence": [
+        "Tone: resigned",
+        "Category: reaction"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 0,
+      "segment_label": "blighted_village_basement",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Uhh, I missed... oh f***."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 211.0,
+      "absolute_timestamp": "3:31",
+      "summary": "Bro gave himself a buff... sorry, I thought I could give it to you.",
+      "game_context": "Using a buff ability that only targets the self instead of a teammate",
+      "evidence": [
+        "Tone: amused",
+        "Category: narration",
+        "Actionable: Clarify self-only vs. targetable status effects in ability tooltips to prevent accidental misallocation of resources in co-op."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 0,
+      "segment_label": "blighted_village_basement",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "Bro gave himself a buff... sorry, I thought I could give it to you."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 216.0,
+      "absolute_timestamp": "3:36",
+      "summary": "Get me out of turn-based mode, sucker.",
+      "game_context": "Ending a combat encounter and waiting for the UI transition",
+      "evidence": [
+        "Tone: amused",
+        "Category: narration"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 0,
+      "segment_label": "blighted_village_basement",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Get me out of turn-based mode, sucker."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "praise",
+      "absolute_seconds": 220.0,
+      "absolute_timestamp": "3:40",
+      "summary": "Let's go gambling! I can't stop winning!",
+      "game_context": "Successfully rolling a D20 to disarm a trap",
+      "evidence": [
+        "Tone: excited",
+        "Category: praise",
+        "Actionable: The excitement generated by trap-disarming rolls confirms that environmental hazards provide positive 'mini-games' within exploration."
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 0,
+      "segment_label": "blighted_village_basement",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "Let's go gambling! I can't stop winning!"
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 232.0,
+      "absolute_timestamp": "3:52",
+      "summary": "I might be the smartest person ever.",
+      "game_context": "Looting a cocoon after navigating dungeon hazards",
+      "evidence": [
+        "Tone: amused",
+        "Category: reaction"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 0,
+      "segment_label": "blighted_village_basement",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "quality",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "I might be the smartest person ever."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "complaint",
+      "absolute_seconds": 246.0,
+      "absolute_timestamp": "4:06",
+      "summary": "Except I am stuck in here.",
+      "game_context": "Being trapped in a room after an explosion occurs while looting",
+      "evidence": [
+        "Tone: frustrated",
+        "Category: complaint",
+        "Actionable: Review physics or environmental gates in the basement to ensure looting-triggered explosions don't create perceived soft-locks or confusing pathing."
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 0,
+      "segment_label": "wetlands_dialogue",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "Except I am stuck in here."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 264.0,
+      "absolute_timestamp": "4:24",
+      "summary": "Sold everything I had for this helmet... including my clothes.",
+      "game_context": "Explaining to friends why the character is appearing partially naked in-game",
+      "evidence": [
+        "Tone: amused",
+        "Category: narration"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 0,
+      "segment_label": "wetlands_dialogue",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Sold everything I had for this helmet... including my clothes."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 280.0,
+      "absolute_timestamp": "4:40",
+      "summary": "I do f*** with that hoe though.",
+      "game_context": "Engaging in dialogue with Auntie Ethel in the Sunlit Wetlands.",
+      "evidence": [
+        "Tone: amused",
+        "Category: reaction"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 1,
+      "segment_label": "wetlands_dialogue",
+      "confidence_score": 0.6,
+      "corroborating_agents": [],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "I do f*** with that hoe though."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 301.0,
+      "absolute_timestamp": "5:01",
+      "summary": "I'm surprised Calvin saw an old lady and did not kill her on the spot.",
+      "game_context": "Commenting on a teammate's social interaction with Auntie Ethel.",
+      "evidence": [
+        "Tone: amused",
+        "Category: reaction"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 1,
+      "segment_label": "wetlands_combat",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "I'm surprised Calvin saw an old lady and did not kill her on the spot."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 321.0,
+      "absolute_timestamp": "5:21",
+      "summary": "They're dying... they're dying.",
+      "game_context": "Initiating combat with the NPCs in the Sunlit Wetlands.",
+      "evidence": [
+        "Tone: excited",
+        "Category: reaction"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 1,
+      "segment_label": "wetlands_combat",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "They're dying... they're dying."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 353.0,
+      "absolute_timestamp": "5:53",
+      "summary": "That's my girl Ethel dude.",
+      "game_context": "Defending Auntie Ethel during the Wetlands combat encounter.",
+      "evidence": [
+        "Tone: amused",
+        "Category: reaction"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 1,
+      "segment_label": "sanctuary_combat",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "friction",
+        "quality"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "That's my girl Ethel dude."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 390.0,
+      "absolute_timestamp": "6:30",
+      "summary": "She's a baddie dude.",
+      "game_context": "Selecting dialogue options to side with Auntie Ethel.",
+      "evidence": [
+        "Tone: amused",
+        "Category: reaction"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 1,
+      "segment_label": "sanctuary_combat",
+      "confidence_score": 0.6,
+      "corroborating_agents": [],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "She's a baddie dude."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 421.0,
+      "absolute_timestamp": "7:01",
+      "summary": "Maybe she can pay me in other ways.",
+      "game_context": "Humorous commentary on the reward dialogue with Auntie Ethel.",
+      "evidence": [
+        "Tone: amused",
+        "Category: reaction"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 1,
+      "segment_label": null,
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Maybe she can pay me in other ways."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "question",
+      "absolute_seconds": 430.0,
+      "absolute_timestamp": "7:10",
+      "summary": "Alright shut up... she disappears like that? You think that's normal?",
+      "game_context": "Reacting to Auntie Ethel suddenly teleporting away after the dialogue.",
+      "evidence": [
+        "Tone: confused",
+        "Category: question"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 1,
+      "segment_label": null,
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Alright shut up... she disappears like that? You think that's normal?"
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "complaint",
+      "absolute_seconds": 484.0,
+      "absolute_timestamp": "8:04",
+      "summary": "The f*** is happening? Cannot sit here and watch them all move three inches please... why is it not? Come on.",
+      "game_context": "Waiting for a large number of Mud Mephits to complete their individual movement turns during combat.",
+      "evidence": [
+        "Tone: frustrated",
+        "Category: complaint",
+        "Actionable: Accelerate AI decision-making and movement animation speed for low-priority enemies or summons to prevent turn-based pacing from inducing player boredom."
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 1,
+      "segment_label": "sanctuary_exploration",
+      "confidence_score": 0.6,
+      "corroborating_agents": [],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "The f*** is happening? Cannot sit here and watch them all move three inches please... why is it not? Come on."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 496.0,
+      "absolute_timestamp": "8:16",
+      "summary": "Holy f*** peak gameplay my f***ing god.",
+      "game_context": "Continuing to wait for environmental and enemy turns during the Mephit encounter.",
+      "evidence": [
+        "Tone: sarcastic",
+        "Category: reaction"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 1,
+      "segment_label": null,
+      "confidence_score": 0.6,
+      "corroborating_agents": [],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Holy f*** peak gameplay my f***ing god."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 502.0,
+      "absolute_timestamp": "8:22",
+      "summary": "I know you got TikTok out.",
+      "game_context": "A social comment to a teammate acknowledging that the round duration is long enough to browse other apps.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: narration"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 1,
+      "segment_label": null,
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "I know you got TikTok out."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "complaint",
+      "absolute_seconds": 515.0,
+      "absolute_timestamp": "8:35",
+      "summary": "Holy f*ck finally. Geez louise.",
+      "game_context": "Finally finding the tree cleft objective after running back and forth in the area.",
+      "evidence": [
+        "Tone: frustrated",
+        "Category: complaint",
+        "Actionable: The 'tree cleft' or similar small environmental quest markers may need better visual signposting (like a subtle glimmer or interaction prompt) when the player is within range to prevent circular pathing."
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 2,
+      "segment_label": null,
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "Holy f*ck finally. Geez louise."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "question",
+      "absolute_seconds": 519.0,
+      "absolute_timestamp": "8:39",
+      "summary": "Which way are we going?",
+      "game_context": "Navigating the rocky terrain after finding the objective.",
+      "evidence": [
+        "Tone: confused",
+        "Category: question"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 2,
+      "segment_label": null,
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "clarity",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Which way are we going?"
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 536.0,
+      "absolute_timestamp": "8:56",
+      "summary": "I wanna kick this squirrel.",
+      "game_context": "Approaching a small squirrel (Timber) with the intent to interact with it aggressively.",
+      "evidence": [
+        "Tone: amused",
+        "Category: narration"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 2,
+      "segment_label": null,
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "clarity"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "I wanna kick this squirrel."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "praise",
+      "absolute_seconds": 554.0,
+      "absolute_timestamp": "9:14",
+      "summary": "18 on a 10... 20 on a 10 dude. This mf is going flying.",
+      "game_context": "Rolling a natural 20 to kick the squirrel, leading to a comedic animation.",
+      "evidence": [
+        "Tone: excited",
+        "Category: praise"
+      ],
+      "severity_numeric": 10,
+      "source_chunk_index": 2,
+      "segment_label": "emerald_grove_dialogue",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "18 on a 10... 20 on a 10 dude. This mf is going flying."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "strategy",
+      "absolute_seconds": 569.0,
+      "absolute_timestamp": "9:29",
+      "summary": "Are we killing this bitch that killed the kid??",
+      "game_context": "Discussing the tactical plan to confront Kagha in the grove.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: strategy"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 2,
+      "segment_label": "emerald_grove_dialogue",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Are we killing this bitch that killed the kid??"
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 581.0,
+      "absolute_timestamp": "9:41",
+      "summary": "OH MY GOD.",
+      "game_context": "Reacting to the escalation of the situation or dialogue with Kagha.",
+      "evidence": [
+        "Tone: excited",
+        "Category: reaction"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 2,
+      "segment_label": "emerald_grove_dialogue",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "OH MY GOD."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 613.0,
+      "absolute_timestamp": "10:13",
+      "summary": "We'll just have to retry this.",
+      "game_context": "Recognizing that the party is about to be defeated in the Druid Sanctuary combat.",
+      "evidence": [
+        "Tone: resigned",
+        "Category: narration"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 2,
+      "segment_label": "squirrel_encounter",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "quality",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "We'll just have to retry this."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "complaint",
+      "absolute_seconds": 617.0,
+      "absolute_timestamp": "10:17",
+      "summary": "When did we save?",
+      "game_context": "Panic sets in as the party wipes and the player worries about lost progress.",
+      "evidence": [
+        "Tone: frustrated",
+        "Category: complaint",
+        "Actionable: A more frequent or strategically placed autosave trigger before major narratively-driven combat encounters (like the Kagha confrontation) would mitigate the severe momentum loss seen here."
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 2,
+      "segment_label": "squirrel_encounter",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "quality",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "When did we save?"
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 628.0,
+      "absolute_timestamp": "10:28",
+      "summary": "This is the fun part of Baldur's Gate... an hour ago... I learned nothing.",
+      "game_context": "Watching the loading screen after realizing the last save was an hour before the defeat.",
+      "evidence": [
+        "Tone: sarcastic",
+        "Category: reaction"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 2,
+      "segment_label": null,
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "quality",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "This is the fun part of Baldur's Gate... an hour ago... I learned nothing."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "complaint",
+      "absolute_seconds": 660.0,
+      "absolute_timestamp": "11:00",
+      "summary": "Critical miss is f*cking crazy.",
+      "game_context": "Missing a crucial surprise attack despite a high percentage chance, leading to immediate tactical disadvantage.",
+      "evidence": [
+        "Tone: frustrated",
+        "Category: complaint",
+        "Actionable: Player frustration with 'Critical Miss' on high-percentage surprise attacks is high; consider tutorializing how Karmic Dice affect these outcomes or providing more visual feedback on why a high-probability attack failed so significantly."
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 2,
+      "segment_label": "kagha_boss_fight",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "retry",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "Critical miss is f*cking crazy."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "praise",
+      "absolute_seconds": 705.0,
+      "absolute_timestamp": "11:45",
+      "summary": "That's f*cking meta.",
+      "game_context": "Observing a successful tactical move or interaction from a teammate during the combat replay.",
+      "evidence": [
+        "Tone: amused",
+        "Category: praise"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 2,
+      "segment_label": null,
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "friction",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "That's f*cking meta."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 736.0,
+      "absolute_timestamp": "12:16",
+      "summary": "LOOT HER.",
+      "game_context": "Instructions to teammates after finally defeating Kagha.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: narration"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 2,
+      "segment_label": null,
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "LOOT HER."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "question",
+      "absolute_seconds": 748.0,
+      "absolute_timestamp": "12:28",
+      "summary": "Can we steal that shit from him?",
+      "game_context": "Eyeing an NPC in the Hollow and considering a thievery attempt.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: question"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 2,
+      "segment_label": null,
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Can we steal that shit from him?"
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "question",
+      "absolute_seconds": 990.0,
+      "absolute_timestamp": "16:30",
+      "summary": "Do you got any other magical items?",
+      "game_context": "Managing party inventory before a combat encounter.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: question"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 4,
+      "segment_label": "party_item_management",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Do you got any other magical items?"
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 994.0,
+      "absolute_timestamp": "16:34",
+      "summary": "Are you wearing it? Are you wearing the helmet that I gave you? You're supposed to feed Gale. Give me back that helmet, mf.",
+      "game_context": "Realizing a teammate equipped a magical item intended for Gale's quest consumption.",
+      "evidence": [
+        "Tone: amused",
+        "Category: narration",
+        "Actionable: Co-op players often lose track of which items are intended for companion quests vs. gearing. Highlighting items that fulfill active companion requirements in the inventory UI could prevent accidental usage."
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "party_item_management",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "Are you wearing it? Are you wearing the helmet that I gave you? You're supposed to feed Gale. Give me back that helmet, mf."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "strategy",
+      "absolute_seconds": 1022.0,
+      "absolute_timestamp": "17:02",
+      "summary": "Please make sure I don't miss.",
+      "game_context": "Preparing for a surprise attack on Cyrel.",
+      "evidence": [
+        "Tone: focused",
+        "Category: strategy"
+      ],
+      "severity_numeric": 0,
+      "source_chunk_index": 4,
+      "segment_label": "trader_combat",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Please make sure I don't miss."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 1038.0,
+      "absolute_timestamp": "17:18",
+      "summary": "We hit her pretty f***ing hard, I'm a keep it a buck.",
+      "game_context": "Successfully landing a high-damage hit on the trader Cyrel.",
+      "evidence": [
+        "Tone: excited",
+        "Category: reaction"
+      ],
+      "severity_numeric": 8,
+      "source_chunk_index": 4,
+      "segment_label": "trader_combat",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "We hit her pretty f***ing hard, I'm a keep it a buck."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 1071.0,
+      "absolute_timestamp": "17:51",
+      "summary": "Gale's c*** is... Put Gale's f***ing pants back on.",
+      "game_context": "Social interaction with friends after removing a companion's clothing for humor.",
+      "evidence": [
+        "Tone: amused",
+        "Category: reaction"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 4,
+      "segment_label": "risen_road_looting",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Gale's c*** is... Put Gale's f***ing pants back on."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 1076.0,
+      "absolute_timestamp": "17:56",
+      "summary": "Yeah, let me get a look. Is he cut?",
+      "game_context": "Continuing humorous banter regarding the character's anatomy.",
+      "evidence": [
+        "Tone: amused",
+        "Category: reaction"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 4,
+      "segment_label": "risen_road_looting",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Yeah, let me get a look. Is he cut?"
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 1080.0,
+      "absolute_timestamp": "18:00",
+      "summary": "He's not cut... uncut.",
+      "game_context": "Concluding a series of jokes about character models.",
+      "evidence": [
+        "Tone: amused",
+        "Category: reaction"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 4,
+      "segment_label": "risen_road_looting",
+      "confidence_score": 0.75,
+      "corroborating_agents": [
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "He's not cut... uncut."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 1084.0,
+      "absolute_timestamp": "18:04",
+      "summary": "I can see his foreskin.",
+      "game_context": "Last anatomical joke before moving on to looting.",
+      "evidence": [
+        "Tone: amused",
+        "Category: reaction"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 4,
+      "segment_label": "risen_road_looting",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "friction",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "I can see his foreskin."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "narration",
+      "absolute_seconds": 1114.0,
+      "absolute_timestamp": "18:34",
+      "summary": "Anywhere else you guys wanted to check out?",
+      "game_context": "Asking the party about their next destination after looting the basement.",
+      "evidence": [
+        "Tone: neutral",
+        "Category: narration"
+      ],
+      "severity_numeric": 2,
+      "source_chunk_index": 4,
+      "segment_label": "trading_and_inventory",
+      "confidence_score": 1.0,
+      "corroborating_agents": [
+        "clarity",
+        "quality",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Anywhere else you guys wanted to check out?"
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "praise",
+      "absolute_seconds": 1139.0,
+      "absolute_timestamp": "18:59",
+      "summary": "This looks HEAT. Oh my God.",
+      "game_context": "Inspecting the character model after applying Baby Blue and Gold Dye.",
+      "evidence": [
+        "Tone: excited",
+        "Category: praise"
+      ],
+      "severity_numeric": 10,
+      "source_chunk_index": 4,
+      "segment_label": "character_customization",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "This looks HEAT. Oh my God."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "praise",
+      "absolute_seconds": 1146.0,
+      "absolute_timestamp": "19:06",
+      "summary": "God, it matches my eyes!",
+      "game_context": "Realizing the dye choice complements the Dragonborn's eye color.",
+      "evidence": [
+        "Tone: excited",
+        "Category: praise",
+        "Actionable: The high level of detail in character eyes being visible through helmets makes customization much more impactful for the player. Maintaining this visual clarity is a strong engagement driver."
+      ],
+      "severity_numeric": 10,
+      "source_chunk_index": 4,
+      "segment_label": "character_customization",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": true,
+      "verbal_quote": "God, it matches my eyes!"
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 1151.0,
+      "absolute_timestamp": "19:11",
+      "summary": "Somebody's gotta f*** me. Somebody has to.",
+      "game_context": "Humorous commentary on the character's new aesthetic.",
+      "evidence": [
+        "Tone: amused",
+        "Category: reaction"
+      ],
+      "severity_numeric": 6,
+      "source_chunk_index": 4,
+      "segment_label": "character_customization",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "Somebody's gotta f*** me. Somebody has to."
+    },
+    {
+      "agent_kind": "verbal",
+      "source_label": "reaction",
+      "absolute_seconds": 1190.0,
+      "absolute_timestamp": "19:50",
+      "summary": "What are you doing? Why'd you take off your clothes? Are you gonna sex them, dude?",
+      "game_context": "Arriving at the Goblin Camp and reacting to a teammate's naked character model.",
+      "evidence": [
+        "Tone: amused",
+        "Category: reaction"
+      ],
+      "severity_numeric": 4,
+      "source_chunk_index": 4,
+      "segment_label": "goblin_camp_arrival",
+      "confidence_score": 0.9,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ],
+      "sentiment_raw_score": null,
+      "retry_total_attempts": null,
+      "retry_quit_signal": null,
+      "retry_final_outcome": null,
+      "verbal_is_actionable": false,
+      "verbal_quote": "What are you doing? Why'd you take off your clothes? Are you gonna sex them, dude?"
+    }
+  ],
+  "top_stop_risk_drivers": [
+    "repetition",
+    "difficulty_spike",
+    "controls",
+    "ui_confusion",
+    "camera"
+  ],
+  "top_praised_features": [
+    "humor",
+    "progression",
+    "mastery",
+    "discovery",
+    "story"
+  ],
+  "top_clarity_fixes": [
+    "A clear visual indicator in the spell description or on the target's health bar that dynamically shows if the target is currently valid for the spell's HP threshold.",
+    "A more prominent explanation or tooltip popup describing the 'Surprised' condition the first time it is triggered, explaining that it consumes the first turn.",
+    "Better visual signposting of safe zones or a clearer way to see trap 'cycles' to allow for timing-based movement.",
+    "Clearer feedback or environmental storytelling if the room contains no further significant loot or secrets, preventing the player from feeling they've missed something.",
+    "Faster animation options or 'simultaneous turns' for clusters of identical minor enemies to maintain engagement during large-scale encounters."
+  ],
+  "bug_count": 10,
+  "overall_friction": "major",
+  "overall_engagement": "signature",
+  "overall_stop_risk": "medium",
+  "recommendations": [
+    "Reduce repetitive gameplay in the highest-risk gameplay beats.",
+    "Reduce difficulty spikes in the highest-risk gameplay beats.",
+    "Prioritize this communication fix: A clear visual indicator in the spell description or on the target's health bar that dynamically shows if the target is currently valid for the spell's HP threshold.",
+    "Prioritize this communication fix: A more prominent explanation or tooltip popup describing the 'Surprised' condition the first time it is triggered, explaining that it consumes the first turn.",
+    "Triage the 10 visible technical issues surfaced during the session.",
+    "Protect and expand the strongest positives: humor, progression, mastery."
+  ],
+  "avg_sentiment": 4.21,
+  "sentiment_by_segment": {
+    "emerald_grove": 4.0,
+    "campsite_interaction": 7.0,
+    "blighted_village_basement": 5.5,
+    "wetlands_dialogue": 5.0,
+    "wetlands_combat": 1.0,
+    "sanctuary_combat": -4.0,
+    "sanctuary_exploration": 6.0,
+    "emerald_grove_dialogue": 6.0,
+    "squirrel_encounter": -7.0,
+    "kagha_boss_fight": 0.67,
+    "emerald_grove_exploration": 6.8,
+    "party_item_management": 5.0,
+    "trader_combat": 5.5,
+    "risen_road_looting": 9.0,
+    "trading_and_inventory": 2.0,
+    "character_customization": 9.0,
+    "goblin_camp_arrival": 5.0
+  },
+  "total_retry_sequences": 1,
+  "first_attempt_failure_count": 1,
+  "notable_quotes": [
+    "I think the biggest takeaway I have is... I have a gambling problem now.",
+    "Bro gave himself a buff... sorry, I thought I could give it to you.",
+    "Let's go gambling! I can't stop winning!",
+    "Except I am stuck in here.",
+    "The f*** is happening? Cannot sit here and watch them all move three inches please... why is it not? Come on."
+  ],
+  "segments_encountered": [
+    "blighted_village_basement",
+    "campsite_interaction",
+    "character_customization",
+    "emerald_grove",
+    "emerald_grove_dialogue",
+    "emerald_grove_exploration",
+    "goblin_camp_arrival",
+    "kagha_boss_fight",
+    "party_item_management",
+    "risen_road_looting",
+    "sanctuary_combat",
+    "sanctuary_exploration",
+    "squirrel_encounter",
+    "trader_combat",
+    "trading_and_inventory",
+    "wetlands_combat",
+    "wetlands_dialogue"
+  ],
+  "highlights": {
+    "video_id": "a409e7d88cc2523d94dcfa7447c842e5",
+    "total_moments_analyzed": 129,
+    "highlights": [
+      {
+        "rank": 1,
+        "absolute_timestamp": "11:38",
+        "absolute_seconds": 698.0,
+        "clip_start_seconds": 688.0,
+        "clip_end_seconds": 708.0,
+        "category": "critical_friction",
+        "headline": "The loss of one hour of progress due to a party wipe and a lack of recent manual or auto-saves.",
+        "why_important": "Severity 7/10, confidence 95%",
+        "evidence": [
+          "Game Over screen",
+          "Screen fades to black",
+          "Player-added text edit displaying 'an hour ago'",
+          "Defeated tone",
+          "Disbelief"
+        ],
+        "importance_score": 15.96,
+        "corroborating_agents": [
+          "clarity",
+          "sentiment",
+          "verbal"
+        ]
+      },
+      {
+        "rank": 2,
+        "absolute_timestamp": "18:59",
+        "absolute_seconds": 1139.0,
+        "clip_start_seconds": 1129.0,
+        "clip_end_seconds": 1149.0,
+        "category": "player_feedback",
+        "headline": "This looks HEAT. Oh my God.",
+        "why_important": "Severity 10/10, confidence 90%",
+        "evidence": [
+          "Tone: excited",
+          "Category: praise"
+        ],
+        "importance_score": 14.4,
+        "corroborating_agents": [
+          "delight",
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 3,
+        "absolute_timestamp": "1:21",
+        "absolute_seconds": 81.0,
+        "clip_start_seconds": 71.0,
+        "clip_end_seconds": 91.0,
+        "category": "player_feedback",
+        "headline": "Please, please, please... yes!",
+        "why_important": "Severity 8/10, confidence 100%",
+        "evidence": [
+          "Tone: excited",
+          "Category: reaction"
+        ],
+        "importance_score": 13.68,
+        "corroborating_agents": [
+          "clarity",
+          "delight",
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 4,
+        "absolute_timestamp": "3:40",
+        "absolute_seconds": 220.0,
+        "clip_start_seconds": 210.0,
+        "clip_end_seconds": 230.0,
+        "category": "player_feedback",
+        "headline": "Let's go gambling! I can't stop winning!",
+        "why_important": "Severity 8/10, confidence 100%",
+        "evidence": [
+          "Tone: excited",
+          "Category: praise",
+          "Actionable: The excitement generated by trap-disarming rolls confirms that environmental hazards provide positive 'mini-games' within exploration."
+        ],
+        "importance_score": 13.68,
+        "corroborating_agents": [
+          "clarity",
+          "delight",
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 5,
+        "absolute_timestamp": "10:17",
+        "absolute_seconds": 617.0,
+        "clip_start_seconds": 607.0,
+        "clip_end_seconds": 627.0,
+        "category": "player_feedback",
+        "headline": "When did we save?",
+        "why_important": "Severity 8/10, confidence 100%",
+        "evidence": [
+          "Tone: frustrated",
+          "Category: complaint",
+          "Actionable: A more frequent or strategically placed autosave trigger before major narratively-driven combat encounters (like the Kagha confrontation) would mitigate the severe momentum loss seen here."
+        ],
+        "importance_score": 13.68,
+        "corroborating_agents": [
+          "clarity",
+          "quality",
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 6,
+        "absolute_timestamp": "9:14",
+        "absolute_seconds": 554.0,
+        "clip_start_seconds": 544.0,
+        "clip_end_seconds": 564.0,
+        "category": "player_feedback",
+        "headline": "18 on a 10... 20 on a 10 dude. This mf is going flying.",
+        "why_important": "Severity 10/10, confidence 75%",
+        "evidence": [
+          "Tone: excited",
+          "Category: praise"
+        ],
+        "importance_score": 11.7,
+        "corroborating_agents": [
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 7,
+        "absolute_timestamp": "6:11",
+        "absolute_seconds": 371.0,
+        "clip_start_seconds": 361.0,
+        "clip_end_seconds": 381.0,
+        "category": "bug",
+        "headline": "gameplay logic issue: AI idling, inefficient pathing during Numerous low-level AI units (Mud Mephits) taking significant",
+        "why_important": "Severity 6/10, confidence 80%",
+        "evidence": [
+          "AI idling",
+          "inefficient pathing",
+          "None",
+          "Player reaction: noticed and commented",
+          "Scene: AI turn processing during combat at the Druid Sanctuary."
+        ],
+        "importance_score": 10.56,
+        "corroborating_agents": [
+          "friction",
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 8,
+        "absolute_timestamp": "13:21",
+        "absolute_seconds": 801.0,
+        "clip_start_seconds": 791.0,
+        "clip_end_seconds": 811.0,
+        "category": "player_delight",
+        "headline": "The game's willingness to allow 'naked' character models creates emergent social humor that perfectly aligns with the gr",
+        "why_important": "Severity 9/10, confidence 65%",
+        "evidence": [
+          "Purposeful rotation of the camera to highlight character nudity",
+          "Voluntary exploration of town area while mocking character model",
+          "Uncontrollable laughter",
+          "High-pitched squealing",
+          "Mocking tone"
+        ],
+        "importance_score": 9.36,
+        "corroborating_agents": [
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 9,
+        "absolute_timestamp": "0:00",
+        "absolute_seconds": 0.0,
+        "clip_start_seconds": 0.0,
+        "clip_end_seconds": 10.0,
+        "category": "player_feedback",
+        "headline": "Hello and welcome back to my new favorite game, Baldur's Gate 3.",
+        "why_important": "Severity 8/10, confidence 75%",
+        "evidence": [
+          "Tone: excited",
+          "Category: praise"
+        ],
+        "importance_score": 9.36,
+        "corroborating_agents": [
+          "sentiment"
+        ]
+      },
+      {
+        "rank": 10,
+        "absolute_timestamp": "17:18",
+        "absolute_seconds": 1038.0,
+        "clip_start_seconds": 1028.0,
+        "clip_end_seconds": 1048.0,
+        "category": "player_feedback",
+        "headline": "We hit her pretty f***ing hard, I'm a keep it a buck.",
+        "why_important": "Severity 8/10, confidence 75%",
+        "evidence": [
+          "Tone: excited",
+          "Category: reaction"
+        ],
+        "importance_score": 9.36,
+        "corroborating_agents": [
+          "sentiment"
+        ]
+      }
+    ],
+    "one_line_verdict": "The loss of one hour of progress due to a party wipe and a lack of recent manual or auto-saves."
+  },
+  "executive": {
+    "executive_summary": "This 20-minute playtest session covered exploration of the Blighted Village basement, combat with Mud Mephits in the Sunlit Wetlands, and a major confrontation with Kagha in the Druid Sanctuary. The session transitioned from lighthearted emergent social play into a cycle of high-stakes tactical combat, ending with successful inventory management and character customization after a significant boss encounter.",
+    "key_findings": [
+      {
+        "evidence_summary": "At 10:14, the party experienced a total wipe against Kagha. Upon checking the load menu at 10:17, the player discovered the last save was from 'an hour ago.' Sentiment plummeted to -9 as the player stated, 'An hour of my life is gone.'",
+        "affected_timestamps": [
+          "10:14",
+          "10:17",
+          "10:18"
+        ],
+        "finding": "Infrequent autosave triggers before major narrative combat encounters lead to extreme progress loss and player frustration.",
+        "recommended_action": "Add a mandatory autosave trigger at the threshold of the Druid Sanctuary or upon the initiation of the Kagha confrontation dialogue.",
+        "severity": "critical"
+      },
+      {
+        "evidence_summary": "At 6:08 and 8:04, combat with numerous Mud Mephits caused significant pacing issues. The player expressed frustration with slow AI movement ('watch them move three inches') and at 8:22, admitted to checking TikTok because the turn duration was too long.",
+        "affected_timestamps": [
+          "6:08",
+          "8:04",
+          "8:22"
+        ],
+        "finding": "High enemy/summon counts with slow individual AI turn processing induce player disengagement and secondary-screen browsing.",
+        "recommended_action": "Implement simultaneous turn processing for clusters of identical low-level enemies and summons.",
+        "severity": "important"
+      },
+      {
+        "evidence_summary": "At 16:41, co-op players argued over the Haste Helm. One player equipped it while another insisted it was for the 'Wizard of Waterdeep' quest ('You're supposed to feed Gale'). This caused several minutes of menu toggling and back-and-forth inventory trading.",
+        "affected_timestamps": [
+          "16:41",
+          "16:44"
+        ],
+        "finding": "Co-op players struggle to distinguish between equippable upgrades and narrative-critical items meant for companion consumption.",
+        "recommended_action": "Add a distinct UI tag or color-coded border to items that satisfy active companion quest requirements (e.g., 'Gale-Eligible').",
+        "severity": "important"
+      },
+      {
+        "evidence_summary": "At 18:31, while looting in the Toll House basement, the camera failed to dither out the ceiling geometry, leaving the player in a black screen. The player stopped moving and asked, 'I'm getting shut in here. Hello?' reflecting perceived soft-lock anxiety.",
+        "affected_timestamps": [
+          "18:16",
+          "18:31",
+          "18:32"
+        ],
+        "finding": "Camera occlusion failure in tight vertical interiors creates player confusion and the false perception of being trapped.",
+        "recommended_action": "Audit ceiling transparency/dithering triggers in the Risen Road Toll House basement to ensure the player character remains visible.",
+        "severity": "notable"
+      }
+    ],
+    "priority_actions": [
+      "Place a mandatory autosave trigger before the Kagha confrontation dialogue starts (10:17).",
+      "Enable simultaneous AI movement turns for groups of 3+ identical small enemies like Mud Mephits (6:08).",
+      "Apply a 'Quest Item' tag to magical artifacts required for Gale's 'Wizard of Waterdeep' quest line in the shared inventory (16:41).",
+      "Fix camera occlusion logic for the Toll House basement rooms to prevent geometry black-outs (18:31).",
+      "Add a subtle visual glimmer to the 'tree cleft' quest objective to reduce circular pathing at 8:35."
+    ],
+    "cross_dimensional_insight": "The high delight scores recorded for character customization (18:59, sentiment 9) and emergent social humor (13:21, sentiment 9) acted as a critical 'frustration buffer.' Despite losing an hour of progress at 10:17, the player\u2019s deep investment in their character\u2019s aesthetic identity\u2014evidenced by the enthusiastic reaction to armor dye\u2014fueled a rapid transition back into focused engagement for the rematch.",
+    "session_health_score": 68
+  },
+  "agent_coverage": [
+    {
+      "chunk_index": 0,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    },
+    {
+      "chunk_index": 1,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    },
+    {
+      "chunk_index": 2,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    },
+    {
+      "chunk_index": 3,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": false
+    },
+    {
+      "chunk_index": 4,
+      "friction": true,
+      "clarity": true,
+      "delight": true,
+      "quality": true,
+      "sentiment": true,
+      "retry": true,
+      "verbal": true
+    }
+  ]
+}

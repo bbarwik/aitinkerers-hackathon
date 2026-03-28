@@ -1,0 +1,208 @@
+{
+  "video_id": "ba0000782bc65512be19ba5e767a71df",
+  "total_moments_analyzed": 93,
+  "highlights": [
+    {
+      "rank": 1,
+      "absolute_timestamp": "16:00",
+      "absolute_seconds": 960.0,
+      "clip_start_seconds": 950.0,
+      "clip_end_seconds": 970.0,
+      "category": "player_feedback",
+      "headline": "Okay, I do have a lyre that used to belong to a drow, that's true. I've got the spider lyre we got off Minthara. Minthar",
+      "why_important": "Severity 8/10, confidence 90%",
+      "evidence": [
+        "Tone: excited",
+        "Category: strategy",
+        "Actionable: Rewarding the player for keeping a specific unique item from a previous act (Minthara's lyre) provides a strong sense of payoff for long-term inventory management."
+      ],
+      "importance_score": 11.52,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 2,
+      "absolute_timestamp": "4:26",
+      "absolute_seconds": 266.0,
+      "clip_start_seconds": 256.0,
+      "clip_end_seconds": 276.0,
+      "category": "player_delight",
+      "headline": "Successful alignment of narrative and gameplay. The player chose her for tactical reasons, and the story immediately val",
+      "why_important": "Severity 7/10, confidence 95%",
+      "evidence": [
+        "voluntary dialogue trigger",
+        "focused camera positioning on Shadowheart",
+        "intrigued tone",
+        "Scene: Conversation with Shadowheart regarding the shadows in the camp clearing.",
+        "Quote: Oh... Shadowheart has immediately proved her value."
+      ],
+      "importance_score": 10.64,
+      "corroborating_agents": [
+        "quality",
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 3,
+      "absolute_timestamp": "12:43",
+      "absolute_seconds": 763.0,
+      "clip_start_seconds": 753.0,
+      "clip_end_seconds": 773.0,
+      "category": "player_feedback",
+      "headline": "So um, it turns out he wasn't playing with his dog. He just fed one of his own animals to the shadow curse. Oh my god...",
+      "why_important": "Severity 6/10, confidence 100%",
+      "evidence": [
+        "Tone: confused",
+        "Category: reaction"
+      ],
+      "importance_score": 10.26,
+      "corroborating_agents": [
+        "delight",
+        "quality",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 4,
+      "absolute_timestamp": "17:08",
+      "absolute_seconds": 1028.0,
+      "clip_start_seconds": 1018.0,
+      "clip_end_seconds": 1038.0,
+      "category": "player_feedback",
+      "headline": "So right, me being a bard could be very useful around here. The right song on my lyre can communicate with other members",
+      "why_important": "Severity 8/10, confidence 75%",
+      "evidence": [
+        "Tone: excited",
+        "Category: praise"
+      ],
+      "importance_score": 9.36,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 5,
+      "absolute_timestamp": "6:01",
+      "absolute_seconds": 361.0,
+      "clip_start_seconds": 351.0,
+      "clip_end_seconds": 371.0,
+      "category": "player_delight",
+      "headline": "Mastery. The game allows the player to perform 'science' on its mechanics. Discovering the exact mathematical scaling (d",
+      "why_important": "Severity 7/10, confidence 80%",
+      "evidence": [
+        "Deliberate pathing away from the party",
+        "Close monitoring of health and status UI",
+        "Rapid character swapping",
+        "Analytical tone",
+        "Methodical speech"
+      ],
+      "importance_score": 8.96,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 6,
+      "absolute_timestamp": "10:25",
+      "absolute_seconds": 625.0,
+      "clip_start_seconds": 615.0,
+      "clip_end_seconds": 635.0,
+      "category": "player_delight",
+      "headline": "This is a powerful moment of characterization that reinforces the 'evil' alignment of the cultists while providing a vis",
+      "why_important": "Severity 7/10, confidence 80%",
+      "evidence": [
+        "fixed camera perspective",
+        "uninterrupted viewing of the cutscene",
+        "disbelieving chuckle",
+        "shocked sharp inhale",
+        "Scene: A cutscene where a goblin lures a hyena into the darkness to be consumed by the curse."
+      ],
+      "importance_score": 8.96,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 7,
+      "absolute_timestamp": "1:40",
+      "absolute_seconds": 100.0,
+      "clip_start_seconds": 90.0,
+      "clip_end_seconds": 110.0,
+      "category": "player_feedback",
+      "headline": "Because he has literally shining holy light in a six-meter radius around him at all times. This is the time to break out",
+      "why_important": "Severity 6/10, confidence 90%",
+      "evidence": [
+        "Tone: excited",
+        "Category: strategy"
+      ],
+      "importance_score": 8.64,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 8,
+      "absolute_timestamp": "9:05",
+      "absolute_seconds": 545.0,
+      "clip_start_seconds": 535.0,
+      "clip_end_seconds": 555.0,
+      "category": "player_feedback",
+      "headline": "Luckily your diary is just hanging out right next to you. So okay, that's bloody convenient.",
+      "why_important": "Severity 6/10, confidence 90%",
+      "evidence": [
+        "Tone: amused",
+        "Category: reaction",
+        "Actionable: Placing quest-relevant documentation in the immediate proximity of the subject ensures narrative flow is maintained without frustrating item hunts."
+      ],
+      "importance_score": 8.64,
+      "corroborating_agents": [
+        "quality",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 9,
+      "absolute_timestamp": "18:07",
+      "absolute_seconds": 1087.0,
+      "clip_start_seconds": 1077.0,
+      "clip_end_seconds": 1097.0,
+      "category": "player_feedback",
+      "headline": "I suspect I might know what you are because yes, there was somebody that we read the diary of down in those caves under ",
+      "why_important": "Severity 6/10, confidence 90%",
+      "evidence": [
+        "Tone: analytical",
+        "Category: narration"
+      ],
+      "importance_score": 8.64,
+      "corroborating_agents": [
+        "quality",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 10,
+      "absolute_timestamp": "19:13",
+      "absolute_seconds": 1153.0,
+      "clip_start_seconds": 1143.0,
+      "clip_end_seconds": 1163.0,
+      "category": "player_feedback",
+      "headline": "Sunlight Sensitivity? I'm guessing that Will is casting effectively sunlight around him. So okay, that works for me.",
+      "why_important": "Severity 6/10, confidence 75%",
+      "evidence": [
+        "Tone: analytical",
+        "Category: strategy"
+      ],
+      "importance_score": 7.02,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    }
+  ],
+  "one_line_verdict": "Okay, I do have a lyre that used to belong to a drow, that's true. I've got the spider lyre we got off Minthara. Minthara was a True Soul, she had the same lyre. That's how you get through. It's somet"
+}

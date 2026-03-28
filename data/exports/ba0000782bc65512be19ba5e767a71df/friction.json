@@ -1,0 +1,32 @@
+[
+  {
+    "agent_kind": "friction",
+    "source_label": "other",
+    "absolute_seconds": 519.0,
+    "absolute_timestamp": "8:39",
+    "summary": "The player attempts to use a specific gameplay mechanic on a corpse that is not scripted to respond, forcing them to abandon the spell and rely on a nearby journal instead.",
+    "game_context": "Attempting to use the 'Speak with Dead' spell on a highlighted narrative corpse.",
+    "evidence": [
+      "Casting animation for 'Speak with Dead'",
+      "UI prompt appearing: 'The corpse remains silent'",
+      "Neutral but slightly sarcastic tone",
+      "Scene: Standing over the tiefling corpse (Heign) near a ruined cart.",
+      "Quote: The corpse remains silent. Let's see what you've got to say. Luckily your diary is just hanging out right next to you. So okay, that's bloody convenient."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 2,
+    "segment_label": "ruined_battlefield_exploration",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "delight",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

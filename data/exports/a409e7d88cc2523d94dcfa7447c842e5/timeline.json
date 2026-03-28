@@ -1,0 +1,852 @@
+{
+  "video_id": "a409e7d88cc2523d94dcfa7447c842e5",
+  "game_title": "Baldur's Gate 3",
+  "session_arc": "[0:00-5:00] The player starts with a positive and enthusiastic tone. This shifts into a playful and chaotic mood during the campsite combat, followed by a sense of discovery and excitement during the exploration of the hidden dungeon and the successful trap disarming. The segment ends with a mix of humor and focused engagement during the dialogue and subsequent combat encounter.\n[4:00-9:00] The player maintains a generally humorous and lighthearted tone throughout the segment, frequently joking with friends. There are brief moments of frustration with the slow pace of turn-based combat, but this is quickly replaced by excitement when finding new loot and moving towards a new objective. The segment ends on a playful and mischievous note with the encounter with the squirrel.\n[8:00-13:00] The segment starts with a lighthearted and humorous tone, especially during the item exchange and the squirrel encounter. This shifts into focused determination as they approach the Druid Sanctuary. After their defeat, there is a moment of significant frustration and disbelief over the loss of progress. The segment ends with a renewed, albeit slightly more tense, attempt to succeed in the combat encounter.\n[12:00-17:00] The segment begins with high excitement and celebration after defeating Kagha. This transitions into a sustained period of humor and playful chaos as the friends explore and interact with each other in the game world. The segment ends with focused engagement as they enter a new combat encounter.\n[16:00-20:00] The segment begins with the player in a humorous and lighthearted mood, which carries through the combat encounter. After the victory, the tone becomes even more playful and chaotic during the looting and character customization phases. The player shows high enthusiasm for their new armor color. The segment concludes with a transition into a more focused but still humorous state as they arrive at the Goblin Camp.",
+  "chunk_summaries": [
+    "The player begins by exploring Baldur's Gate 3 with friends. They engage in lighthearted combat at a campsite, explore a hidden dungeon in a village, and encounter a group of NPCs in the Sunlit Wetlands.",
+    "The player continues their journey in Baldur's Gate 3, moving from the Sunlit Wetlands toward a Druid Sanctuary. They engage in multiple combat encounters, manage their inventory, and explore the environment, often with humorous commentary and interactions with their friends.",
+    "The player continues their adventure in Baldur's Gate 3, traveling from the Sunlit Wetlands to the Emerald Grove. They engage in exploration, manage items, and participate in a major combat encounter with Kagha and other druids.",
+    "The player successfully defeats Kagha and explores the aftermath at the Druid Sanctuary. The segment transitions into a series of humorous interactions and light combat encounters between the friends as they explore the Emerald Grove and its surrounding areas.",
+    "The player and their companions conclude their time in the Risen Road area with a final combat encounter against a group of traders. Afterward, they focus on inventory management, character customization with new armor and dyes, and then travel to the Goblin Camp."
+  ],
+  "objectives": [
+    "Explore the game world and engage in social and combat interactions with friends.",
+    "Explore the Sunlit Wetlands and investigate Kagha at the Druid Sanctuary.",
+    "Confront Kagha and investigate the situation at the Emerald Grove.",
+    "Confront Kagha and explore the Emerald Grove and surrounding areas.",
+    "Conclude the Risen Road area, optimize gear, and move on to the Goblin Camp."
+  ],
+  "active_threads": [
+    "Wetlands Combat",
+    "Exploration of the Wetlands",
+    "Investigate Kagha",
+    "Squirrel Encounter",
+    "Kagha Boss Fight",
+    "Save the Refugees",
+    "Risen Road Combat",
+    "Wizard of Waterdeep",
+    "Goblin Camp Investigation"
+  ],
+  "events": [
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 0.0,
+      "absolute_timestamp": "0:00",
+      "relative_timestamp": "0:00",
+      "visual_observation": "The player's character, a Dragonborn, runs through a forest area towards a group of characters and a bear.",
+      "audio_observation": "The player provides introductory commentary about their enjoyment of the game and their initial experiences.",
+      "player_expression": null,
+      "event_description": "The player begins the session by introducing their character and the game environment.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "emerald_grove"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 62.0,
+      "absolute_timestamp": "1:02",
+      "relative_timestamp": "1:02",
+      "visual_observation": "The player and their friends are in a campsite, where they begin attacking each other in a playful manner.",
+      "audio_observation": "The player and their friends exchange banter and laughter as they engage in combat.",
+      "player_expression": null,
+      "event_description": "The group engages in friendly fire combat at their campsite, using spells and attacks.",
+      "phase_kind": "combat",
+      "significance": "notable",
+      "segment_label": "campsite_interaction"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 149.0,
+      "absolute_timestamp": "2:29",
+      "relative_timestamp": "2:29",
+      "visual_observation": "The player character enters a building and discovers a hidden hatch leading to a basement.",
+      "audio_observation": "The player and their friends talk about the area and the possibility of loot.",
+      "player_expression": null,
+      "event_description": "The player discovers and enters a hidden dungeon area within a village building.",
+      "phase_kind": "exploration",
+      "significance": "notable",
+      "segment_label": "blighted_village_basement"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 167.0,
+      "absolute_timestamp": "2:47",
+      "relative_timestamp": "2:47",
+      "visual_observation": "The player is surprised by an enemy and enters turn-based combat in the dark dungeon.",
+      "audio_observation": "The player reacts with surprise to the sudden combat encounter.",
+      "player_expression": null,
+      "event_description": "A surprise combat encounter begins as the player explores the basement.",
+      "phase_kind": "combat",
+      "significance": "notable",
+      "segment_label": "blighted_village_basement"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 214.0,
+      "absolute_timestamp": "3:34",
+      "relative_timestamp": "3:34",
+      "visual_observation": "The player uses a dice roll to attempt to disarm a trap in the dungeon.",
+      "audio_observation": "The player expresses excitement about the dice roll and the 'gambling' aspect of the game.",
+      "player_expression": null,
+      "event_description": "The player successfully disarms a trap using the game's dice rolling mechanic.",
+      "phase_kind": "other",
+      "significance": "notable",
+      "segment_label": "blighted_village_basement"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 276.0,
+      "absolute_timestamp": "4:36",
+      "relative_timestamp": "0:36",
+      "visual_observation": "Dialogue with Auntie Ethel in the Sunlit Wetlands.",
+      "audio_observation": "The player and friends engage in dialogue with Auntie Ethel, with humorous commentary and a brief clip from Smiling Friends.",
+      "player_expression": null,
+      "event_description": "The player interacts with Auntie Ethel, leading to a combat encounter.",
+      "phase_kind": "dialogue",
+      "significance": "notable",
+      "segment_label": "wetlands_dialogue"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 303.0,
+      "absolute_timestamp": "5:03",
+      "relative_timestamp": "1:03",
+      "visual_observation": "Combat scene in the Sunlit Wetlands. Xeros and allies fight against several enemies. An 'Ancient Mud Mephit' is targeted.",
+      "audio_observation": "Intense combat sounds and player commentary. The player expresses frustration with the turn-based pace.",
+      "player_expression": null,
+      "event_description": "The player engages in turn-based combat with several enemies in the Sunlit Wetlands.",
+      "phase_kind": "combat",
+      "significance": "notable",
+      "segment_label": "wetlands_combat"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 362.0,
+      "absolute_timestamp": "6:02",
+      "relative_timestamp": "2:02",
+      "visual_observation": "Xeros is at the Druid Sanctuary. They engage in combat with Ancient Mud Mephits and a Wood Woad. A humorous edit showing math symbols over a character is displayed.",
+      "audio_observation": "Combat sounds and player dialogue. The player jokes about a teammate's slow decision-making.",
+      "player_expression": null,
+      "event_description": "The party engages in a challenging combat encounter at the Druid Sanctuary.",
+      "phase_kind": "combat",
+      "significance": "notable",
+      "segment_label": "sanctuary_combat"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 463.0,
+      "absolute_timestamp": "7:43",
+      "relative_timestamp": "3:43",
+      "visual_observation": "Xeros is in the Druid Sanctuary area. They open a wooden chest and pick up items including 'The Sparkle Hands' gauntlets.",
+      "audio_observation": "The player and friends discuss the newly found items and loot.",
+      "player_expression": null,
+      "event_description": "The player loots a chest and finds new equipment after the combat.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "sanctuary_exploration"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 569.0,
+      "absolute_timestamp": "9:29",
+      "relative_timestamp": "1:29",
+      "visual_observation": "The player and their group are standing in front of Kagha at the Druid Sanctuary.",
+      "audio_observation": "The player and friends discuss their plan to confront and possibly kill Kagha.",
+      "player_expression": null,
+      "event_description": "The player group discusses their plan to kill Kagha.",
+      "phase_kind": "dialogue",
+      "significance": "notable",
+      "segment_label": "emerald_grove_dialogue"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 594.0,
+      "absolute_timestamp": "9:54",
+      "relative_timestamp": "1:54",
+      "visual_observation": "The player character, a dragonborn fighter, encounters a squirrel named Timber.",
+      "audio_observation": "The player reacts to the squirrel biting their foot and decides to kick it.",
+      "player_expression": null,
+      "event_description": "The player decides to kick the squirrel and succeeds with a natural 20 roll, resulting in a humorous and exaggerated animation.",
+      "phase_kind": "dialogue",
+      "significance": "notable",
+      "segment_label": "squirrel_encounter"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 673.0,
+      "absolute_timestamp": "11:13",
+      "relative_timestamp": "3:13",
+      "visual_observation": "A combat encounter begins inside the Druid Sanctuary against Kagha and other druids.",
+      "audio_observation": "The player and their friends express frustration as they are defeated in combat.",
+      "player_expression": null,
+      "event_description": "The player's party is defeated by Kagha and the druids, leading to a 'Game Over' screen and a realization that their last save was an hour ago.",
+      "phase_kind": "combat",
+      "significance": "pivotal",
+      "segment_label": "kagha_boss_fight"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 780.0,
+      "absolute_timestamp": "13:00",
+      "relative_timestamp": "1:00",
+      "visual_observation": "The player is exploring the Emerald Grove, interacting with NPCs, and discussing gold with their friends.",
+      "audio_observation": "The player and their friends are joking about stealing gold and their character's inventory.",
+      "player_expression": "The player is laughing and maintaining a lighthearted and humorous tone.",
+      "event_description": "The player explores the Emerald Grove and engages in humorous banter with friends about stealing gold.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "emerald_grove_exploration"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 860.0,
+      "absolute_timestamp": "14:20",
+      "relative_timestamp": "2:20",
+      "visual_observation": "The player is engaging in playful combat and using abilities on each other outside of a major encounter.",
+      "audio_observation": "The player and their friends are laughing and shouting as they playfully attack each other's characters.",
+      "player_expression": "The player is laughing and clearly enjoying the chaotic interaction with their friends.",
+      "event_description": "The player and their friends engage in humorous, non-hostile combat interactions with each other.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "emerald_grove_exploration"
+    },
+    {
+      "source_chunk_index": 3,
+      "absolute_seconds": 945.0,
+      "absolute_timestamp": "15:45",
+      "relative_timestamp": "3:45",
+      "visual_observation": "The player's character is seen without armor, and their friends are making jokes about it.",
+      "audio_observation": "The player and their friends are laughing uncontrollably and making jokes about the character's appearance.",
+      "player_expression": "The player is laughing and seems to be finding the situation highly amusing.",
+      "event_description": "The player and their friends share a prolonged moment of humor as they joke about a character's naked appearance.",
+      "phase_kind": "exploration",
+      "significance": "notable",
+      "segment_label": "emerald_grove_exploration"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 992.0,
+      "absolute_timestamp": "16:32",
+      "relative_timestamp": "0:32",
+      "visual_observation": "The group is gathered on a wooden platform. One character is wearing a helmet.",
+      "audio_observation": "The player asks about a magical helmet they gave to a companion, which was intended to be 'fed' to Gale.",
+      "player_expression": null,
+      "event_description": "A conversation occurs regarding the distribution and use of magical items within the party.",
+      "phase_kind": "dialogue",
+      "significance": "notable",
+      "segment_label": "party_item_management"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1012.0,
+      "absolute_timestamp": "16:52",
+      "relative_timestamp": "0:52",
+      "visual_observation": "The group enters the building again. A combat encounter begins with 'Cyrel', a level 4 trader.",
+      "audio_observation": "The player and their friends are excited and focused as the combat starts, with one friend calling for a 'combo'.",
+      "player_expression": null,
+      "event_description": "A combat encounter begins with the trader Cyrel inside the stone building.",
+      "phase_kind": "combat",
+      "significance": "notable",
+      "segment_label": "trader_combat"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1055.0,
+      "absolute_timestamp": "17:35",
+      "relative_timestamp": "1:35",
+      "visual_observation": "The player character defeats 'Trynn' with a powerful attack. Other enemies lie dead on the floor.",
+      "audio_observation": "The player and friends celebrate the victory, with one friend exclaiming, 'Nice cock!' in a humorous tone.",
+      "player_expression": null,
+      "event_description": "The combat encounter ends with the defeat of all enemies in the building.",
+      "phase_kind": "combat",
+      "significance": "notable",
+      "segment_label": "trader_combat"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1072.0,
+      "absolute_timestamp": "17:52",
+      "relative_timestamp": "1:52",
+      "visual_observation": "The group explores the building's basement, finding a vault door and several chests and vases.",
+      "audio_observation": "The player and friends engage in crude, humorous banter about a companion's appearance after they removed his clothing.",
+      "player_expression": null,
+      "event_description": "The group loots the building and its basement, continuing their humorous interactions.",
+      "phase_kind": "exploration",
+      "significance": "routine",
+      "segment_label": "risen_road_looting"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1126.0,
+      "absolute_timestamp": "18:46",
+      "relative_timestamp": "2:46",
+      "visual_observation": "The player is in the trade menu with 'Dammon', looking at various weapons and items.",
+      "audio_observation": "The player and friends discuss their next destination, suggesting the 'Goblin Village'.",
+      "player_expression": null,
+      "event_description": "The player interacts with a trader, managing their inventory and selling items.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "trading_and_inventory"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1139.0,
+      "absolute_timestamp": "18:59",
+      "relative_timestamp": "2:59",
+      "visual_observation": "The player applies 'Baby Blue and Gold Dye' to their armor, resulting in a vibrant new look.",
+      "audio_observation": "The player is very enthusiastic about their new armor color, shouting, 'It matches my eyes!'",
+      "player_expression": null,
+      "event_description": "The player uses a dye to change the color of their character's armor.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "character_customization"
+    },
+    {
+      "source_chunk_index": 4,
+      "absolute_seconds": 1190.0,
+      "absolute_timestamp": "19:50",
+      "relative_timestamp": "3:50",
+      "visual_observation": "The group arrives at the entrance of the 'Goblin Camp'.",
+      "audio_observation": "The player and friends are surprised and amused when one character appears to have removed their clothes again.",
+      "player_expression": null,
+      "event_description": "The group reaches the Goblin Camp area and prepares for further exploration and potential combat.",
+      "phase_kind": "exploration",
+      "significance": "pivotal",
+      "segment_label": "goblin_camp_arrival"
+    }
+  ],
+  "thread_records": [
+    {
+      "source_chunk_index": 0,
+      "thread_name": "Wetlands Combat",
+      "evidence": "The segment ends mid-combat with the NPCs in the Sunlit Wetlands.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 0,
+      "thread_name": "Exploration of the Wetlands",
+      "evidence": "The player has just arrived in the Sunlit Wetlands and has more of the area to explore.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 1,
+      "thread_name": "Investigate Kagha",
+      "evidence": "A journal update 'Investigate Kagha' appears, and the player expresses intent to find and kill her.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 1,
+      "thread_name": "Squirrel Encounter",
+      "evidence": "The segment ends just as the player character approaches a squirrel with a stated intent to interact with it.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 2,
+      "thread_name": "Kagha Boss Fight",
+      "evidence": "The player has re-initiated the combat after a previous defeat.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 2,
+      "thread_name": "Save the Refugees",
+      "evidence": "The journal update 'Save the Refugees' appears on screen after some enemies are defeated.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 3,
+      "thread_name": "Risen Road Combat",
+      "evidence": "The segment ends just as a combat encounter with a trader named Cyrel begins.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 3,
+      "thread_name": "Wizard of Waterdeep",
+      "evidence": "The player receives a journal update for 'The Wizard of Waterdeep' after interacting with their friends and their character's items.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 4,
+      "thread_name": "Goblin Camp Investigation",
+      "evidence": "The group has just arrived at the Goblin Camp at the end of the segment.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 4,
+      "thread_name": "Wizard of Waterdeep",
+      "evidence": "A journal update for this quest appeared during the party's item management.",
+      "current_status": "active"
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_index": 0,
+      "start_seconds": 0.0,
+      "end_seconds": 300.0,
+      "result": {
+        "chunk_summary": "The player begins by exploring Baldur's Gate 3 with friends. They engage in lighthearted combat at a campsite, explore a hidden dungeon in a village, and encounter a group of NPCs in the Sunlit Wetlands.",
+        "player_objective": "Explore the game world and engage in social and combat interactions with friends.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player's character, a Dragonborn, runs through a forest area towards a group of characters and a bear.",
+            "audio_observation": "The player provides introductory commentary about their enjoyment of the game and their initial experiences.",
+            "player_expression": null,
+            "event_description": "The player begins the session by introducing their character and the game environment.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "emerald_grove"
+          },
+          {
+            "relative_timestamp": "1:02",
+            "visual_observation": "The player and their friends are in a campsite, where they begin attacking each other in a playful manner.",
+            "audio_observation": "The player and their friends exchange banter and laughter as they engage in combat.",
+            "player_expression": null,
+            "event_description": "The group engages in friendly fire combat at their campsite, using spells and attacks.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "campsite_interaction"
+          },
+          {
+            "relative_timestamp": "2:29",
+            "visual_observation": "The player character enters a building and discovers a hidden hatch leading to a basement.",
+            "audio_observation": "The player and their friends talk about the area and the possibility of loot.",
+            "player_expression": null,
+            "event_description": "The player discovers and enters a hidden dungeon area within a village building.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "blighted_village_basement"
+          },
+          {
+            "relative_timestamp": "2:47",
+            "visual_observation": "The player is surprised by an enemy and enters turn-based combat in the dark dungeon.",
+            "audio_observation": "The player reacts with surprise to the sudden combat encounter.",
+            "player_expression": null,
+            "event_description": "A surprise combat encounter begins as the player explores the basement.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "blighted_village_basement"
+          },
+          {
+            "relative_timestamp": "3:34",
+            "visual_observation": "The player uses a dice roll to attempt to disarm a trap in the dungeon.",
+            "audio_observation": "The player expresses excitement about the dice roll and the 'gambling' aspect of the game.",
+            "player_expression": null,
+            "event_description": "The player successfully disarms a trap using the game's dice rolling mechanic.",
+            "phase_kind": "other",
+            "significance": "notable",
+            "segment_label": "blighted_village_basement"
+          },
+          {
+            "relative_timestamp": "4:35",
+            "visual_observation": "The player interacts with an old woman named Auntie Ethel and two men who are arguing.",
+            "audio_observation": "The player character participates in a dialogue sequence with the NPCs.",
+            "player_expression": null,
+            "event_description": "The player encounters a group of NPCs in the Sunlit Wetlands and engages in dialogue.",
+            "phase_kind": "dialogue",
+            "significance": "notable",
+            "segment_label": "sunlit_wetlands"
+          },
+          {
+            "relative_timestamp": "4:47",
+            "visual_observation": "The player's character engages in a new combat encounter with the two men from the previous dialogue.",
+            "audio_observation": "The player and their friends react to the start of the battle.",
+            "player_expression": null,
+            "event_description": "Combat begins after the dialogue encounter with the NPCs in the wetlands.",
+            "phase_kind": "combat",
+            "significance": "routine",
+            "segment_label": "sunlit_wetlands"
+          }
+        ],
+        "emotional_trajectory": "The player starts with a positive and enthusiastic tone. This shifts into a playful and chaotic mood during the campsite combat, followed by a sense of discovery and excitement during the exploration of the hidden dungeon and the successful trap disarming. The segment ends with a mix of humor and focused engagement during the dialogue and subsequent combat encounter.",
+        "pacing_breakdown": "The chunk is distributed with approximately 30% exploration, 40% combat, 20% dialogue and interaction, and 10% menu and mechanical interaction (dice rolls).",
+        "carryover_threads": [
+          {
+            "thread_name": "Wetlands Combat",
+            "evidence": "The segment ends mid-combat with the NPCs in the Sunlit Wetlands.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Exploration of the Wetlands",
+            "evidence": "The player has just arrived in the Sunlit Wetlands and has more of the area to explore.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 1,
+      "start_seconds": 240.0,
+      "end_seconds": 540.0,
+      "result": {
+        "chunk_summary": "The player continues their journey in Baldur's Gate 3, moving from the Sunlit Wetlands toward a Druid Sanctuary. They engage in multiple combat encounters, manage their inventory, and explore the environment, often with humorous commentary and interactions with their friends.",
+        "player_objective": "Explore the Sunlit Wetlands and investigate Kagha at the Druid Sanctuary.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player character, Xeros, is in a dimly lit room with other characters. A ladder and a wooden desk are visible.",
+            "audio_observation": "The player and friends are discussing looting and clothes. A humorous meme video of the Grinch looting is briefly shown.",
+            "player_expression": null,
+            "event_description": "The player character explores a room and discusses looting with friends.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "room_exploration"
+          },
+          {
+            "relative_timestamp": "0:17",
+            "visual_observation": "The character sheet for Xeros is open, showing inventory and stats.",
+            "audio_observation": "The player and friends joke about selling clothes for a helmet.",
+            "player_expression": null,
+            "event_description": "The player manages their character's inventory and equipment.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "inventory_management"
+          },
+          {
+            "relative_timestamp": "0:36",
+            "visual_observation": "Dialogue with Auntie Ethel in the Sunlit Wetlands.",
+            "audio_observation": "The player and friends engage in dialogue with Auntie Ethel, with humorous commentary and a brief clip from Smiling Friends.",
+            "player_expression": null,
+            "event_description": "The player interacts with Auntie Ethel, leading to a combat encounter.",
+            "phase_kind": "dialogue",
+            "significance": "notable",
+            "segment_label": "wetlands_dialogue"
+          },
+          {
+            "relative_timestamp": "1:03",
+            "visual_observation": "Combat scene in the Sunlit Wetlands. Xeros and allies fight against several enemies. An 'Ancient Mud Mephit' is targeted.",
+            "audio_observation": "Intense combat sounds and player commentary. The player expresses frustration with the turn-based pace.",
+            "player_expression": null,
+            "event_description": "The player engages in turn-based combat with several enemies in the Sunlit Wetlands.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "wetlands_combat"
+          },
+          {
+            "relative_timestamp": "2:02",
+            "visual_observation": "Xeros is at the Druid Sanctuary. They engage in combat with Ancient Mud Mephits and a Wood Woad. A humorous edit showing math symbols over a character is displayed.",
+            "audio_observation": "Combat sounds and player dialogue. The player jokes about a teammate's slow decision-making.",
+            "player_expression": null,
+            "event_description": "The party engages in a challenging combat encounter at the Druid Sanctuary.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "sanctuary_combat"
+          },
+          {
+            "relative_timestamp": "3:43",
+            "visual_observation": "Xeros is in the Druid Sanctuary area. They open a wooden chest and pick up items including 'The Sparkle Hands' gauntlets.",
+            "audio_observation": "The player and friends discuss the newly found items and loot.",
+            "player_expression": null,
+            "event_description": "The player loots a chest and finds new equipment after the combat.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "sanctuary_exploration"
+          },
+          {
+            "relative_timestamp": "4:32",
+            "visual_observation": "A journal update 'Investigate Kagha' appears on the screen. The player character moves across a bridge.",
+            "audio_observation": "The player and friends discuss their next objective: killing Kagha. A clip of Subway Surfers is briefly shown.",
+            "player_expression": null,
+            "event_description": "The player receives a new objective to investigate Kagha and continues exploring.",
+            "phase_kind": "exploration",
+            "significance": "pivotal",
+            "segment_label": "investigate_kagha"
+          },
+          {
+            "relative_timestamp": "4:56",
+            "visual_observation": "A red squirrel named Timber is visible. Xeros approaches it.",
+            "audio_observation": "The player says, 'I wanna kick this squirrel.'",
+            "player_expression": null,
+            "event_description": "The player encounters a squirrel and expresses a humorous intent to kick it.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "squirrel_encounter"
+          }
+        ],
+        "emotional_trajectory": "The player maintains a generally humorous and lighthearted tone throughout the segment, frequently joking with friends. There are brief moments of frustration with the slow pace of turn-based combat, but this is quickly replaced by excitement when finding new loot and moving towards a new objective. The segment ends on a playful and mischievous note with the encounter with the squirrel.",
+        "pacing_breakdown": "The segment is divided between combat (40%), exploration (35%), dialogue (15%), and menu interaction (10%). The transitions between these phases are smooth, with frequent humorous edits and memes interspersed throughout the gameplay.",
+        "carryover_threads": [
+          {
+            "thread_name": "Investigate Kagha",
+            "evidence": "A journal update 'Investigate Kagha' appears, and the player expresses intent to find and kill her.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Squirrel Encounter",
+            "evidence": "The segment ends just as the player character approaches a squirrel with a stated intent to interact with it.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 2,
+      "start_seconds": 480.0,
+      "end_seconds": 780.0,
+      "result": {
+        "chunk_summary": "The player continues their adventure in Baldur's Gate 3, traveling from the Sunlit Wetlands to the Emerald Grove. They engage in exploration, manage items, and participate in a major combat encounter with Kagha and other druids.",
+        "player_objective": "Confront Kagha and investigate the situation at the Emerald Grove.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player is walking through the Sunlit Wetlands.",
+            "audio_observation": "The player is discussing a new item (the Sparkle Hands) with their friends.",
+            "player_expression": null,
+            "event_description": "The player receives and equips a new item, the Sparkle Hands, which grants lightning charges.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "wetlands_exploration"
+          },
+          {
+            "relative_timestamp": "1:29",
+            "visual_observation": "The player and their group are standing in front of Kagha at the Druid Sanctuary.",
+            "audio_observation": "The player and friends discuss their plan to confront and possibly kill Kagha.",
+            "player_expression": null,
+            "event_description": "The player group discusses their plan to kill Kagha.",
+            "phase_kind": "dialogue",
+            "significance": "notable",
+            "segment_label": "emerald_grove_dialogue"
+          },
+          {
+            "relative_timestamp": "1:54",
+            "visual_observation": "The player character, a dragonborn fighter, encounters a squirrel named Timber.",
+            "audio_observation": "The player reacts to the squirrel biting their foot and decides to kick it.",
+            "player_expression": null,
+            "event_description": "The player decides to kick the squirrel and succeeds with a natural 20 roll, resulting in a humorous and exaggerated animation.",
+            "phase_kind": "dialogue",
+            "significance": "notable",
+            "segment_label": "squirrel_encounter"
+          },
+          {
+            "relative_timestamp": "3:13",
+            "visual_observation": "A combat encounter begins inside the Druid Sanctuary against Kagha and other druids.",
+            "audio_observation": "The player and their friends express frustration as they are defeated in combat.",
+            "player_expression": null,
+            "event_description": "The player's party is defeated by Kagha and the druids, leading to a 'Game Over' screen and a realization that their last save was an hour ago.",
+            "phase_kind": "combat",
+            "significance": "pivotal",
+            "segment_label": "kagha_boss_fight"
+          },
+          {
+            "relative_timestamp": "4:53",
+            "visual_observation": "The player character is seen attacking an NPC from behind to initiate combat.",
+            "audio_observation": "The player and friends plan a surprise attack to begin the combat again.",
+            "player_expression": null,
+            "event_description": "The player attempts to restart the battle with Kagha, but a critical miss on a surprise attack complicates the start of the fight.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "kagha_boss_fight"
+          }
+        ],
+        "emotional_trajectory": "The segment starts with a lighthearted and humorous tone, especially during the item exchange and the squirrel encounter. This shifts into focused determination as they approach the Druid Sanctuary. After their defeat, there is a moment of significant frustration and disbelief over the loss of progress. The segment ends with a renewed, albeit slightly more tense, attempt to succeed in the combat encounter.",
+        "pacing_breakdown": "The segment is divided between exploration and dialogue (40%), combat (45%), and loading/menu interaction (15%) following the game over. The transition from lighthearted exploration to challenging combat is a key feature of this chunk.",
+        "carryover_threads": [
+          {
+            "thread_name": "Kagha Boss Fight",
+            "evidence": "The player has re-initiated the combat after a previous defeat.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Save the Refugees",
+            "evidence": "The journal update 'Save the Refugees' appears on screen after some enemies are defeated.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 3,
+      "start_seconds": 720.0,
+      "end_seconds": 1020.0,
+      "result": {
+        "chunk_summary": "The player successfully defeats Kagha and explores the aftermath at the Druid Sanctuary. The segment transitions into a series of humorous interactions and light combat encounters between the friends as they explore the Emerald Grove and its surrounding areas.",
+        "player_objective": "Confront Kagha and explore the Emerald Grove and surrounding areas.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player and their companions are engaged in combat with Kagha and other druids.",
+            "audio_observation": "The player and their friends are cheering and making humorous comments as they land hits.",
+            "player_expression": "The player is visibly excited and engaged, smiling and laughing during the combat.",
+            "event_description": "Kagha is defeated in combat, and the player and their friends celebrate the victory.",
+            "phase_kind": "boss",
+            "significance": "pivotal",
+            "segment_label": "kagha_boss_fight"
+          },
+          {
+            "relative_timestamp": "0:15",
+            "visual_observation": "The player is looting Kagha's body and receiving quest updates.",
+            "audio_observation": "The player and their friends are discussing the loot and what to do next.",
+            "player_expression": "The player is focused and happy about the successful loot.",
+            "event_description": "The player loots Kagha's body and receives a quest update for 'Save the Refugees'.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "emerald_grove_exploration"
+          },
+          {
+            "relative_timestamp": "1:00",
+            "visual_observation": "The player is exploring the Emerald Grove, interacting with NPCs, and discussing gold with their friends.",
+            "audio_observation": "The player and their friends are joking about stealing gold and their character's inventory.",
+            "player_expression": "The player is laughing and maintaining a lighthearted and humorous tone.",
+            "event_description": "The player explores the Emerald Grove and engages in humorous banter with friends about stealing gold.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "emerald_grove_exploration"
+          },
+          {
+            "relative_timestamp": "2:20",
+            "visual_observation": "The player is engaging in playful combat and using abilities on each other outside of a major encounter.",
+            "audio_observation": "The player and their friends are laughing and shouting as they playfully attack each other's characters.",
+            "player_expression": "The player is laughing and clearly enjoying the chaotic interaction with their friends.",
+            "event_description": "The player and their friends engage in humorous, non-hostile combat interactions with each other.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "emerald_grove_exploration"
+          },
+          {
+            "relative_timestamp": "3:45",
+            "visual_observation": "The player's character is seen without armor, and their friends are making jokes about it.",
+            "audio_observation": "The player and their friends are laughing uncontrollably and making jokes about the character's appearance.",
+            "player_expression": "The player is laughing and seems to be finding the situation highly amusing.",
+            "event_description": "The player and their friends share a prolonged moment of humor as they joke about a character's naked appearance.",
+            "phase_kind": "exploration",
+            "significance": "notable",
+            "segment_label": "emerald_grove_exploration"
+          },
+          {
+            "relative_timestamp": "4:53",
+            "visual_observation": "The player and their friends are beginning a combat encounter with a trader.",
+            "audio_observation": "The player and their friends are discussing attacking the trader and their character's equipment.",
+            "player_expression": "The player is focused and engaged in the start of the new combat encounter.",
+            "event_description": "The player and their friends initiate a combat encounter with a trader named Cyrel.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "risen_road_combat"
+          }
+        ],
+        "emotional_trajectory": "The segment begins with high excitement and celebration after defeating Kagha. This transitions into a sustained period of humor and playful chaos as the friends explore and interact with each other in the game world. The segment ends with focused engagement as they enter a new combat encounter.",
+        "pacing_breakdown": "The segment is divided between combat (25%), exploration and dialogue (50%), and inventory management and looting (25%). The pacing is dynamic, with frequent humorous edits and transitions between different gameplay elements.",
+        "carryover_threads": [
+          {
+            "thread_name": "Risen Road Combat",
+            "evidence": "The segment ends just as a combat encounter with a trader named Cyrel begins.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Wizard of Waterdeep",
+            "evidence": "The player receives a journal update for 'The Wizard of Waterdeep' after interacting with their friends and their character's items.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 4,
+      "start_seconds": 960.0,
+      "end_seconds": 1200.0,
+      "result": {
+        "chunk_summary": "The player and their companions conclude their time in the Risen Road area with a final combat encounter against a group of traders. Afterward, they focus on inventory management, character customization with new armor and dyes, and then travel to the Goblin Camp.",
+        "player_objective": "Conclude the Risen Road area, optimize gear, and move on to the Goblin Camp.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player character, a dragonborn fighter, stands before a shabby door in a stone building.",
+            "audio_observation": "The player and their friends are engaging in humorous banter about their pathing and one friend's tendency to 'teleport away'.",
+            "player_expression": null,
+            "event_description": "The player explores the stone building and its surroundings, engaging in dialogue with their companions.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "risen_road_exploration"
+          },
+          {
+            "relative_timestamp": "0:32",
+            "visual_observation": "The group is gathered on a wooden platform. One character is wearing a helmet.",
+            "audio_observation": "The player asks about a magical helmet they gave to a companion, which was intended to be 'fed' to Gale.",
+            "player_expression": null,
+            "event_description": "A conversation occurs regarding the distribution and use of magical items within the party.",
+            "phase_kind": "dialogue",
+            "significance": "notable",
+            "segment_label": "party_item_management"
+          },
+          {
+            "relative_timestamp": "0:52",
+            "visual_observation": "The group enters the building again. A combat encounter begins with 'Cyrel', a level 4 trader.",
+            "audio_observation": "The player and their friends are excited and focused as the combat starts, with one friend calling for a 'combo'.",
+            "player_expression": null,
+            "event_description": "A combat encounter begins with the trader Cyrel inside the stone building.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "trader_combat"
+          },
+          {
+            "relative_timestamp": "1:35",
+            "visual_observation": "The player character defeats 'Trynn' with a powerful attack. Other enemies lie dead on the floor.",
+            "audio_observation": "The player and friends celebrate the victory, with one friend exclaiming, 'Nice cock!' in a humorous tone.",
+            "player_expression": null,
+            "event_description": "The combat encounter ends with the defeat of all enemies in the building.",
+            "phase_kind": "combat",
+            "significance": "notable",
+            "segment_label": "trader_combat"
+          },
+          {
+            "relative_timestamp": "1:52",
+            "visual_observation": "The group explores the building's basement, finding a vault door and several chests and vases.",
+            "audio_observation": "The player and friends engage in crude, humorous banter about a companion's appearance after they removed his clothing.",
+            "player_expression": null,
+            "event_description": "The group loots the building and its basement, continuing their humorous interactions.",
+            "phase_kind": "exploration",
+            "significance": "routine",
+            "segment_label": "risen_road_looting"
+          },
+          {
+            "relative_timestamp": "2:46",
+            "visual_observation": "The player is in the trade menu with 'Dammon', looking at various weapons and items.",
+            "audio_observation": "The player and friends discuss their next destination, suggesting the 'Goblin Village'.",
+            "player_expression": null,
+            "event_description": "The player interacts with a trader, managing their inventory and selling items.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "trading_and_inventory"
+          },
+          {
+            "relative_timestamp": "2:59",
+            "visual_observation": "The player applies 'Baby Blue and Gold Dye' to their armor, resulting in a vibrant new look.",
+            "audio_observation": "The player is very enthusiastic about their new armor color, shouting, 'It matches my eyes!'",
+            "player_expression": null,
+            "event_description": "The player uses a dye to change the color of their character's armor.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "character_customization"
+          },
+          {
+            "relative_timestamp": "3:50",
+            "visual_observation": "The group arrives at the entrance of the 'Goblin Camp'.",
+            "audio_observation": "The player and friends are surprised and amused when one character appears to have removed their clothes again.",
+            "player_expression": null,
+            "event_description": "The group reaches the Goblin Camp area and prepares for further exploration and potential combat.",
+            "phase_kind": "exploration",
+            "significance": "pivotal",
+            "segment_label": "goblin_camp_arrival"
+          }
+        ],
+        "emotional_trajectory": "The segment begins with the player in a humorous and lighthearted mood, which carries through the combat encounter. After the victory, the tone becomes even more playful and chaotic during the looting and character customization phases. The player shows high enthusiasm for their new armor color. The segment concludes with a transition into a more focused but still humorous state as they arrive at the Goblin Camp.",
+        "pacing_breakdown": "The segment is divided between exploration and dialogue (30%), combat (25%), and inventory management and character customization (45%). The pacing is relatively fast, with frequent humorous edits and transitions between different gameplay activities.",
+        "carryover_threads": [
+          {
+            "thread_name": "Goblin Camp Investigation",
+            "evidence": "The group has just arrived at the Goblin Camp at the end of the segment.",
+            "current_status": "active"
+          },
+          {
+            "thread_name": "Wizard of Waterdeep",
+            "evidence": "A journal update for this quest appeared during the party's item management.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    }
+  ]
+}

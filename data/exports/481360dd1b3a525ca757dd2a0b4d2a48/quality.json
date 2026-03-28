@@ -1,0 +1,122 @@
+[
+  {
+    "agent_kind": "quality",
+    "source_label": "graphics",
+    "absolute_seconds": 665.0,
+    "absolute_timestamp": "11:05",
+    "summary": "graphics issue: Camera clipping through stone geometry/cliffside during Occurs when the camera pans rapidly across high-elevation terrain to track the active unit during a turn transition.",
+    "game_context": "Occurs when the camera pans rapidly across high-elevation terrain to track the active unit during a turn transition.",
+    "evidence": [
+      "Camera clipping through stone geometry/cliffside",
+      "None",
+      "Player reaction: ignored",
+      "Scene: Chapel ruins during the transition between character turns in combat."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 2,
+    "segment_label": "chapel_entrance",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "performance",
+    "absolute_seconds": 881.0,
+    "absolute_timestamp": "14:41",
+    "summary": "performance issue: Frame drops, Visual stutter during The game triggers a massive chain reaction of grease and fire explosions with dozens of simultaneous particle effects and damage numbers.",
+    "game_context": "The game triggers a massive chain reaction of grease and fire explosions with dozens of simultaneous particle effects and damage numbers.",
+    "evidence": [
+      "Frame drops",
+      "Visual stutter",
+      "None",
+      "Player reaction: ignored",
+      "Scene: Dank Crypt interior during the fire trap chain reaction."
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 3,
+    "segment_label": "dank_crypt_trap",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "graphics",
+    "absolute_seconds": 887.0,
+    "absolute_timestamp": "14:47",
+    "summary": "graphics issue: Camera clipping through stone geometry during The camera pans rapidly to follow environmental effects, passing through the base of a statue and pillar. This confirms a recurring pattern noted in previous segments.",
+    "game_context": "The camera pans rapidly to follow environmental effects, passing through the base of a statue and pillar. This confirms a recurring pattern noted in previous segments.",
+    "evidence": [
+      "Camera clipping through stone geometry",
+      "None",
+      "Player reaction: not noticed",
+      "Scene: Dank Crypt room while the camera tracks the explosion chain reaction."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": "dank_crypt_trap",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "collision",
+    "absolute_seconds": 1012.0,
+    "absolute_timestamp": "16:52",
+    "summary": "collision issue: Red pop-up error text 'Can't reach destination' during The player is standing directly adjacent to or on top of a defeated NPC (Entombed Warrior) and attempts to loot it, but the game displays a pathing or interaction error.",
+    "game_context": "The player is standing directly adjacent to or on top of a defeated NPC (Entombed Warrior) and attempts to loot it, but the game displays a pathing or interaction error.",
+    "evidence": [
+      "Red pop-up error text 'Can't reach destination'",
+      "None",
+      "Player reaction: noticed and commented",
+      "Scene: Dank Crypt floor near the granite bench and a defeated Entombed Warrior.",
+      "Quote: I hit it. I hit the thing."
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 4,
+    "segment_label": "druid_grove_exploration",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

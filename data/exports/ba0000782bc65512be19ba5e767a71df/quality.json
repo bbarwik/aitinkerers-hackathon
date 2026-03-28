@@ -1,0 +1,317 @@
+[
+  {
+    "agent_kind": "quality",
+    "source_label": "animation",
+    "absolute_seconds": 186.0,
+    "absolute_timestamp": "3:06",
+    "summary": "animation issue: Character animation clipping during Astarion is in a crouched idle position near environmental geometry.",
+    "game_context": "Astarion is in a crouched idle position near environmental geometry.",
+    "evidence": [
+      "Character animation clipping",
+      "None",
+      "Player reaction: ignored",
+      "Scene: Astarion stands near a goblin corpse after returning from camp."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "shadow_cursed_lands_exploration",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "ui_rendering",
+    "absolute_seconds": 216.0,
+    "absolute_timestamp": "3:36",
+    "summary": "ui rendering issue: UI flickering, Jittery movement indicator during Player is dragging the movement path over complex, jagged rock geometry.",
+    "game_context": "Player is dragging the movement path over complex, jagged rock geometry.",
+    "evidence": [
+      "UI flickering",
+      "Jittery movement indicator",
+      "None",
+      "Player reaction: ignored",
+      "Scene: Navigating the uneven rock terrain of the Ruined Battlefield."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "shadow_cursed_lands_exploration",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "performance",
+    "absolute_seconds": 264.0,
+    "absolute_timestamp": "4:24",
+    "summary": "performance issue: Frame drop, Camera snap hitch during Rapid camera transition triggered by character selection in a dense environment.",
+    "game_context": "Rapid camera transition triggered by character selection in a dense environment.",
+    "evidence": [
+      "Frame drop",
+      "Camera snap hitch",
+      "None",
+      "Player reaction: ignored",
+      "Scene: Switching character selection from Aria to Astarion via party portraits."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "shadowheart_resistance",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "delight",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "ui_rendering",
+    "absolute_seconds": 444.0,
+    "absolute_timestamp": "7:24",
+    "summary": "ui rendering issue: Pathing UI jitter, Cursor flickering during The game's pathfinding system struggles to maintain a consistent line when the cursor moves over complex vertical terrain and collision meshes.",
+    "game_context": "The game's pathfinding system struggles to maintain a consistent line when the cursor moves over complex vertical terrain and collision meshes.",
+    "evidence": [
+      "Pathing UI jitter",
+      "Cursor flickering",
+      "None",
+      "Player reaction: ignored",
+      "Scene: Dragging the movement destination cursor through twisted tree roots near a dead ox"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": null,
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "ui_rendering",
+    "absolute_seconds": 552.0,
+    "absolute_timestamp": "9:12",
+    "summary": "ui rendering issue: Pathing UI jitter, Movement line flickering during The player is dragging the movement cursor over complex environmental geometry (large, twisted tree roots).",
+    "game_context": "The player is dragging the movement cursor over complex environmental geometry (large, twisted tree roots).",
+    "evidence": [
+      "Pathing UI jitter",
+      "Movement line flickering",
+      "None",
+      "Player reaction: ignored",
+      "Scene: Pathing along the cliffside roots in the Ruined Battlefield."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 2,
+    "segment_label": "ruined_battlefield_exploration",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "performance",
+    "absolute_seconds": 723.0,
+    "absolute_timestamp": "12:03",
+    "summary": "performance issue: Frame stutter, Camera snap hitch during The party reaches the trigger point for a cinematic interaction while the camera is actively being controlled by the player.",
+    "game_context": "The party reaches the trigger point for a cinematic interaction while the camera is actively being controlled by the player.",
+    "evidence": [
+      "Frame stutter",
+      "Camera snap hitch",
+      "None",
+      "Player reaction: ignored",
+      "Scene: Transitioning from exploration into the scripted cutscene with Warrior Gronag."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 2,
+    "segment_label": "cultist_camp",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "performance",
+    "absolute_seconds": 753.0,
+    "absolute_timestamp": "12:33",
+    "summary": "performance issue: Frame stutter, Camera snap hitch during Transitioning from a cinematic camera back to the standard isometric exploration view.",
+    "game_context": "Transitioning from a cinematic camera back to the standard isometric exploration view.",
+    "evidence": [
+      "Frame stutter",
+      "Camera snap hitch",
+      "None",
+      "Player reaction: ignored",
+      "Scene: Exiting the scripted cutscene where Gronag throws the bone to the hyena."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": "cultist_camp",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "animation",
+    "absolute_seconds": 795.0,
+    "absolute_timestamp": "13:15",
+    "summary": "animation issue: Character model clipping, Weapon clipping during Multiple party members standing in close proximity during a scripted dialogue scene.",
+    "game_context": "Multiple party members standing in close proximity during a scripted dialogue scene.",
+    "evidence": [
+      "Character model clipping",
+      "Weapon clipping",
+      "None",
+      "Player reaction: ignored",
+      "Scene: Dialogue screen with Warrior Gronag featuring the full party."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": null,
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "performance",
+    "absolute_seconds": 941.0,
+    "absolute_timestamp": "15:41",
+    "summary": "performance issue: Frame drop, Visual hitch during Triggering a new dialogue interaction immediately following movement in a fog-heavy area.",
+    "game_context": "Triggering a new dialogue interaction immediately following movement in a fog-heavy area.",
+    "evidence": [
+      "Frame drop",
+      "Visual hitch",
+      "None",
+      "Player reaction: ignored",
+      "Scene: Entering dialogue with Kansif after moving the party across the camp."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 3,
+    "segment_label": "cultist_camp_negotiation",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "performance",
+    "absolute_seconds": 1081.0,
+    "absolute_timestamp": "18:01",
+    "summary": "performance issue: Camera snap hitch, Frame stutter during The game exits a multi-character scripted cinematic and returns control to the player while rendering a high-detail creature (the Drider) and environmental fog.",
+    "game_context": "The game exits a multi-character scripted cinematic and returns control to the player while rendering a high-detail creature (the Drider) and environmental fog.",
+    "evidence": [
+      "Camera snap hitch",
+      "Frame stutter",
+      "None",
+      "Player reaction: ignored",
+      "Scene: The transition point where the cinematic dialogue with Kansif and Kar'niss ends and the game returns to the isometric exploration view.",
+      "Quote: Okay, so a big old spider abomination just showed up."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 4,
+    "segment_label": "cultist_camp",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "quality",
+    "source_label": "graphics",
+    "absolute_seconds": 1121.0,
+    "absolute_timestamp": "18:41",
+    "summary": "graphics issue: Texture pop-in, LOD snap during Opening the detailed 'Examine' panel for a complex character model while in a visually demanding environment.",
+    "game_context": "Opening the detailed 'Examine' panel for a complex character model while in a visually demanding environment.",
+    "evidence": [
+      "Texture pop-in",
+      "LOD snap",
+      "None",
+      "Player reaction: ignored",
+      "Scene: The examine window for the character 'Kar'niss' showing a high-detail 3D model on the left side of the UI.",
+      "Quote: Officially you're now a Drider."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 4,
+    "segment_label": "cultist_camp",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

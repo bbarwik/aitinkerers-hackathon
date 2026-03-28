@@ -1,0 +1,49 @@
+{
+  "video_id": "481360dd1b3a525ca757dd2a0b4d2a48",
+  "game_title": "Baldur's Gate 3",
+  "game_key": "baldur_s_gate_3",
+  "duration_seconds": 1200.0,
+  "chunk_count": 5,
+  "overall_friction": "minor",
+  "overall_engagement": "strong",
+  "overall_stop_risk": "none",
+  "bug_count": 4,
+  "avg_sentiment": 6.0,
+  "sentiment_by_segment": {
+    "intro_montage": 3.5,
+    "content_settings": 4.5,
+    "opening_cinematic": 5.0,
+    "character_creation": 8.0,
+    "nautiloid_ship": 4.0,
+    "laezel_introduction": 5.0,
+    "ravaged_beach_exploration": 5.67,
+    "druid_grove_exploration": 6.0,
+    "chapel_entrance": 4.0,
+    "chapel_refectory_combat": 6.0,
+    "chapel_cutscene": 5.0,
+    "dank_crypt_exploration": 3.0,
+    "dank_crypt_trap": 9.5,
+    "character_resurrection": 8.0,
+    "undead_skirmish": 4.0,
+    "druid_grove_dialogue": 6.5,
+    "arabella_event": 6.0
+  },
+  "total_retry_sequences": 3,
+  "first_attempt_failure_count": 3,
+  "notable_quotes": [
+    "Resources? What? What does that mean?",
+    "Can I attack you? ... you can try yeah. do it. see if it works on me.",
+    "Can you get me up though? Can you get me up?",
+    "You guys are letting me down... we were both closing the door.",
+    "What a good man Calvin... you didn't kill her?"
+  ],
+  "session_health_score": 82,
+  "priority_actions": [
+    "Update UI error strings to specify 'Action' or 'Bonus Action' instead of 'Resources'.",
+    "Optimize frame rates for the Dank Crypt sarcophagus fire trap chain reaction.",
+    "Adjust targeting hitboxes to prioritize hostile entities when models overlap in narrow doorways.",
+    "Fix camera clipping volumes at the Chapel entrance and Dank Crypt corridors.",
+    "Add a condition tooltip or tutorial prompt explaining how the 'Prone' status consumes movement points."
+  ],
+  "top_highlight": "YOOOOO! You can pick any d!ck, any balls, bro!"
+}

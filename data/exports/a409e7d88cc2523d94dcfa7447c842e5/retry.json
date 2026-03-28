@@ -1,0 +1,30 @@
+[
+  {
+    "agent_kind": "retry",
+    "source_label": "kagha_boss_fight",
+    "absolute_seconds": 673.0,
+    "absolute_timestamp": "11:13",
+    "summary": "2 attempts at kagha_boss_fight, outcome: still_trying",
+    "game_context": "Druid Sanctuary - Emerald Grove",
+    "evidence": [
+      "Attempt 1: died (Shock and intense frustration upon seeing the 'Game Over' screen and realizing the last save was 'an hour ago.')",
+      "Attempt 2: still_trying (Renewed determination mixed with disbelief after a critical miss on the opening attack.)",
+      "Frustration: escalating"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 2,
+    "segment_label": "kagha_boss_fight",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": 2,
+    "retry_quit_signal": false,
+    "retry_final_outcome": "still_trying",
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

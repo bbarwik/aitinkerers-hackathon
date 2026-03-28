@@ -1,0 +1,473 @@
+[
+  {
+    "agent_kind": "delight",
+    "source_label": "visual_design",
+    "absolute_seconds": 77.0,
+    "absolute_timestamp": "1:17",
+    "summary": "The environmental artists successfully maintained the dark, oppressive atmosphere while still making the camp feel like a distinct, safe-ish sanctuary worth inhabiting.",
+    "game_context": "The player is evaluating the visual design of the new hub area for this act.",
+    "evidence": [
+      "voluntary exploration of the camp layout",
+      "zooming camera in to see environmental details",
+      "approving tone",
+      "Scene: Campsite in the Shadow-Cursed Lands after transitioning from the main map.",
+      "Quote: This is okay, actually. I'm fine with this campsite.",
+      "Quote: It's not as nice as the mountain pass, I liked the mountain pass campsite, but yes, this is pretty good."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 0,
+    "segment_label": "campsite_management",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 100.0,
+    "absolute_timestamp": "1:40",
+    "summary": "This rewards system mastery. The player held onto a specific legendary item and party member, and seeing that preparation perfectly counter the new zone's 'Shadow Curse' mechanic creates a strong sense of competence.",
+    "game_context": "The player is applying their knowledge of game mechanics to solve an environmental hazard.",
+    "evidence": [
+      "rapid purposeful inputs during party management",
+      "careful reading of item tooltips",
+      "confident tone",
+      "Scene: Character inventory screen showing Wyll and the 'Lathander's Light' effect.",
+      "Quote: Because he is literally shining holy light in a six-meter radius around him at all times.",
+      "Quote: Like, this is the time to break out the Blood of Lathander."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 0,
+    "segment_label": "campsite_management",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "discovery",
+    "absolute_seconds": 167.0,
+    "absolute_timestamp": "2:47",
+    "summary": "High-impact environmental storytelling. By having the 'warning' NPC die immediately, the game reinforces the lethal stakes of the curse without a cutscene, keeping the player highly alert.",
+    "game_context": "Finding that an NPC died off-screen during a short resting period.",
+    "evidence": [
+      "stopping character movement abruptly to inspect the body",
+      "opening the corpse's inventory",
+      "surprised tone",
+      "Scene: The path where a Goblin Brawler was previously standing, now occupied by a corpse.",
+      "Quote: That goblin's dead. Someone killed it in the like 30 seconds we were away at camp.",
+      "Quote: This has worked out perfectly."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 0,
+    "segment_label": "shadow_cursed_lands_exploration",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "story",
+    "absolute_seconds": 266.0,
+    "absolute_timestamp": "4:26",
+    "summary": "Successful alignment of narrative and gameplay. The player chose her for tactical reasons, and the story immediately validates that choice with a unique lore revelation, deepening the connection to the companion.",
+    "game_context": "Shadowheart reveals she is uniquely resistant to the curse.",
+    "evidence": [
+      "voluntary dialogue trigger",
+      "focused camera positioning on Shadowheart",
+      "intrigued tone",
+      "Scene: Conversation with Shadowheart regarding the shadows in the camp clearing.",
+      "Quote: Oh... Shadowheart has immediately proved her value.",
+      "Quote: She's figured out something about these shadows."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 0,
+    "segment_label": "shadowheart_resistance",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "quality",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "story",
+    "absolute_seconds": 284.0,
+    "absolute_timestamp": "4:44",
+    "summary": "The player's tactical choice (bringing her for radiant magic) is immediately validated by a unique narrative advantage, creating a strong sense of payoff for party management.",
+    "game_context": "Shadowheart reveals she is less affected by the curse due to Shar's blessing.",
+    "evidence": [
+      "Voluntary dialogue trigger",
+      "Focused camera positioning",
+      "Nodding along with dialogue",
+      "Intrigued tone",
+      "Thoughtful hums",
+      "Scene: Dialogue with Shadowheart where she reveals her unique resistance to the Shadow Curse.",
+      "Expression: The player leans forward into the dialogue, looking surprised and intrigued by the revelation.",
+      "Quote: Oh... Shadowheart has immediately proved her value.",
+      "Quote: She's figured out something about these shadows... interesting.",
+      "Quote: So okay, Shadowheart, you might be able to fill us in."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 1,
+    "segment_label": "shadowheart_resistance",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 361.0,
+    "absolute_timestamp": "6:01",
+    "summary": "Mastery. The game allows the player to perform 'science' on its mechanics. Discovering the exact mathematical scaling (doubling) provides a sense of control and competence.",
+    "game_context": "The player intentionally harms a character to learn how the environment works.",
+    "evidence": [
+      "Deliberate pathing away from the party",
+      "Close monitoring of health and status UI",
+      "Rapid character swapping",
+      "Analytical tone",
+      "Methodical speech",
+      "Scene: Using Astarion to intentionally step out of the light to test the Shadow Curse damage scaling.",
+      "Expression: The player is squinting at the screen, appearing highly focused on data gathering.",
+      "Quote: Let's use you as a bit of a test ground.",
+      "Quote: So okay, you're now out of the light... one turn of Shadow Curse.",
+      "Quote: It doubles every single turn. So right, that's just going to get worse and worse."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 1,
+    "segment_label": "shadow_curse_test",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "visual_design",
+    "absolute_seconds": 461.0,
+    "absolute_timestamp": "7:41",
+    "summary": "Visual Design/Discovery. The player recognizes and praises the 'extra mile' taken by artists to make the world feel cohesive and reactive to the curse.",
+    "game_context": "Discovery of a high-detail environmental asset that reinforces the zone's horror theme.",
+    "evidence": [
+      "Zooming in on the ox model",
+      "Opening the character/corpse inspection window",
+      "Hovering over unique conditions",
+      "Impressed tone",
+      "Amused chuckle",
+      "Scene: Investigating a Shadow-Cursed Undead Ox among the wreckage of a caravan.",
+      "Expression: The player has a slight, appreciative smile while inspecting the detail of the cursed animal model.",
+      "Quote: Are you about to jump up as a zombie ox? A zombie ox... jump scare me or something?",
+      "Quote: Well done Baldur's Gate 3. You've gone to the effort of creating that ox... it's just really cool."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 1,
+    "segment_label": null,
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "discovery",
+    "absolute_seconds": 526.0,
+    "absolute_timestamp": "8:46",
+    "summary": "The journal acts as high-quality environmental storytelling, building the 'dread' factor of the zone without requiring a cinematic.",
+    "game_context": "The player finds written testimony of the psychological toll the Shadow Curse takes on ordinary people.",
+    "evidence": [
+      "full screen UI focus",
+      "slow scrolling through text",
+      "immersive reading tone",
+      "Scene: Reading the 'Refugee's Journal' found next to a fallen traveler.",
+      "Expression: The player reads the text with a somber, serious expression, fully absorbed in the atmospheric writing.",
+      "Quote: This place feels wrong. My skin is crawling, like something is watching us from the darkness."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 2,
+    "segment_label": "ruined_battlefield_exploration",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "story",
+    "absolute_seconds": 625.0,
+    "absolute_timestamp": "10:25",
+    "summary": "This is a powerful moment of characterization that reinforces the 'evil' alignment of the cultists while providing a visceral demonstration of the curse's lethality.",
+    "game_context": "A goblin warrior uses a game of fetch to 'test' the shadow curse on a hyena, demonstrating the cult's lack of empathy.",
+    "evidence": [
+      "fixed camera perspective",
+      "uninterrupted viewing of the cutscene",
+      "disbelieving chuckle",
+      "shocked sharp inhale",
+      "Scene: A cutscene where a goblin lures a hyena into the darkness to be consumed by the curse.",
+      "Expression: Wide eyes followed by a look of genuine disgust and shock at the cruelty of the goblin.",
+      "Quote: It turns out he wasn't playing with his dog. He just fed one of his own animals to the shadow curse. Oh my god... he just let it die in the shadows."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 2,
+    "segment_label": "cultist_camp",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "progression",
+    "absolute_seconds": 749.0,
+    "absolute_timestamp": "12:29",
+    "summary": "It provides a 'social stealth' option that validates the player's status and past choices (the tadpole), offering a clever alternative to combat in a high-danger zone.",
+    "game_context": "The goblin warrior mistakes the player for a True Soul, opening up a path for infiltration.",
+    "evidence": [
+      "voluntary approach to a potentially hostile camp",
+      "careful reading of dialogue options",
+      "analytical tone",
+      "steady pacing",
+      "Scene: Dialogue encounter with Warrior Gronag at the cultist camp entrance.",
+      "Expression: The player looks thoughtful, weighing the strategic benefit of deception against the hostility they just witnessed.",
+      "Quote: The True Soul... that's probably a good starting point. If we can just persuade them I'm on their side, they might be able to lead me through this area."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 2,
+    "segment_label": "cultist_camp",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "quality",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 891.0,
+    "absolute_timestamp": "14:51",
+    "summary": "The player is engaging in 'system mastery' by gathering intel on a new enemy type before entering combat with them.",
+    "game_context": "Investigating how the shadow curse changes creatures that fall to it.",
+    "evidence": [
+      "voluntary examination of non-hostile entities",
+      "hovering over resistance tooltips",
+      "analytical tone",
+      "focused hums",
+      "Scene: The player examines the stats of the recently deceased hyena, which has reanimated as a Shadow-Cursed Undead.",
+      "Expression: Squinting at the screen, looking for mechanical data.",
+      "Quote: And oh dear... when they rise they are resistant to necrotic. Gotcha.",
+      "Quote: They have less strength, reduced hit points, but can't use spell or weapon actions."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 3,
+    "segment_label": "enemy_analysis",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "progression",
+    "absolute_seconds": 963.0,
+    "absolute_timestamp": "16:03",
+    "summary": "This rewards the player for thorough looting and creates a strong sense of continuity, validating the effort spent defeating Minthara earlier.",
+    "game_context": "Realizing that loot from a previous act is the specific key to current progression.",
+    "evidence": [
+      "rapid dialogue progression",
+      "elevated camera positioning",
+      "excited pitch increase",
+      "realized tone",
+      "Scene: Kansif asks if the player brought the lyre, and the player realizes they already possess it from the Minthara encounter.",
+      "Expression: A broad, satisfied smile as the puzzle pieces of Act 2 navigation click together.",
+      "Quote: I do have a lyre!",
+      "Quote: Minthara was a True Soul, she had the same lyre. That's how you get through! It's something to do with music."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 3,
+    "segment_label": "cultist_camp_negotiation",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 1003.0,
+    "absolute_timestamp": "16:43",
+    "summary": "This rewards system mastery by allowing a specialized character build to bypass potential friction or combat through social/performance skills.",
+    "game_context": "Using Bardic Performance to summon the guide.",
+    "evidence": [
+      "voluntary addition of bonuses (Guidance)",
+      "focused cursor movement",
+      "satisfied laughter",
+      "confident tone",
+      "Scene: The dice roll screen for a Performance check using the Spider Lyre.",
+      "Expression: Confidence and amusement at their character's specialized build succeeding.",
+      "Quote: I can do that, that's absolutely fine... me being a bard could be very useful around here.",
+      "Quote: SUCCESS. 24! So right, music can keep you safe after all!"
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 4,
+    "segment_label": "summoning_the_guide",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "visual_design",
+    "absolute_seconds": 1048.0,
+    "absolute_timestamp": "17:28",
+    "summary": "The visual design of the Drider is high-impact and immediately communicates the 'abomination' lore mentioned in the dialogue.",
+    "game_context": "The arrival of Kar'niss as the party's guide.",
+    "evidence": [
+      "uninterrupted viewing of the cutscene",
+      "close-up camera focus",
+      "hushed investigative tone",
+      "Scene: Kar'niss the Drider descends from the trees in a cinematic cutscene.",
+      "Expression: A mix of surprise and mild revulsion at the character design.",
+      "Quote: Okay, so a big old spider abomination just showed up.",
+      "Quote: And also, you mentioned Lolth, which is like the drow spider god."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 4,
+    "segment_label": "summoning_the_guide",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "delight",
+    "source_label": "mastery",
+    "absolute_seconds": 1121.0,
+    "absolute_timestamp": "18:41",
+    "summary": "The transparency of the Examine tool provides a sense of control and mastery, allowing the player to prep for future interactions.",
+    "game_context": "Investigating the guide's stats to understand his role and potential threats.",
+    "evidence": [
+      "voluntary examination of non-hostile entities",
+      "hovering over resistance tooltips",
+      "focused hums",
+      "analytical tone",
+      "Scene: Examining Kar'niss's character sheet and reading the lore description.",
+      "Expression: Squinting at the screen, looking for mechanical and lore data.",
+      "Quote: Officially you're now a Drider... you did something wrong. This is like a punishment.",
+      "Quote: Sunlight sensitivity... while in sunlight, this creature has disadvantage. I'm guessing that Will is casting effectively sunlight around them?"
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 4,
+    "segment_label": "cultist_camp",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "quality",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

@@ -1,0 +1,221 @@
+{
+  "video_id": "481360dd1b3a525ca757dd2a0b4d2a48",
+  "total_moments_analyzed": 128,
+  "highlights": [
+    {
+      "rank": 1,
+      "absolute_timestamp": "3:25",
+      "absolute_seconds": 205.0,
+      "clip_start_seconds": 195.0,
+      "clip_end_seconds": 215.0,
+      "category": "player_feedback",
+      "headline": "YOOOOO! You can pick any d!ck, any balls, bro!",
+      "why_important": "Severity 10/10, confidence 100%",
+      "evidence": [
+        "Tone: excited",
+        "Category: praise"
+      ],
+      "importance_score": 19.8,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "friction",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 2,
+      "absolute_timestamp": "14:41",
+      "absolute_seconds": 881.0,
+      "clip_start_seconds": 871.0,
+      "clip_end_seconds": 891.0,
+      "category": "bug",
+      "headline": "performance issue: Frame drops, Visual stutter during The game triggers a massive chain reaction of grease and fire expl",
+      "why_important": "Severity 6/10, confidence 100%",
+      "evidence": [
+        "Frame drops",
+        "Visual stutter",
+        "None",
+        "Player reaction: ignored",
+        "Scene: Dank Crypt interior during the fire trap chain reaction."
+      ],
+      "importance_score": 14.52,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 3,
+      "absolute_timestamp": "7:40",
+      "absolute_seconds": 460.0,
+      "clip_start_seconds": 450.0,
+      "clip_end_seconds": 470.0,
+      "category": "sentiment_swing",
+      "headline": "Shoving a party member into a pit",
+      "why_important": "Severity 9/10, confidence 100%",
+      "evidence": [
+        "Trigger: Shoving a party member into a pit",
+        "Visual: Using the 'Shove' action on a friend's character, sending them flying off a ledge.",
+        "Audio: Explosive, high-volume laughter from the player and his friends.",
+        "Expression: Head thrown back slightly in laughter, eyes crinkled with genuine delight."
+      ],
+      "importance_score": 13.86,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "friction",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 4,
+      "absolute_timestamp": "16:52",
+      "absolute_seconds": 1012.0,
+      "clip_start_seconds": 1002.0,
+      "clip_end_seconds": 1022.0,
+      "category": "bug",
+      "headline": "collision issue: Red pop-up error text 'Can't reach destination' during The player is standing directly adjacent to or o",
+      "why_important": "Severity 6/10, confidence 95%",
+      "evidence": [
+        "Red pop-up error text 'Can't reach destination'",
+        "None",
+        "Player reaction: noticed and commented",
+        "Scene: Dank Crypt floor near the granite bench and a defeated Entombed Warrior.",
+        "Quote: I hit it. I hit the thing."
+      ],
+      "importance_score": 12.54,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 5,
+      "absolute_timestamp": "13:15",
+      "absolute_seconds": 795.0,
+      "clip_start_seconds": 785.0,
+      "clip_end_seconds": 805.0,
+      "category": "sentiment_swing",
+      "headline": "Stylized violence cutscene",
+      "why_important": "Severity 8/10, confidence 100%",
+      "evidence": [
+        "Trigger: Stylized violence cutscene",
+        "Visual: A slow-motion, black-and-white cinematic shows the player character delivering a lethal final blow to the unconscious Mari.",
+        "Audio: Hysterical laughter from the group as the dramatic music swells."
+      ],
+      "importance_score": 12.32,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "friction",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 6,
+      "absolute_timestamp": "11:32",
+      "absolute_seconds": 692.0,
+      "clip_start_seconds": 682.0,
+      "clip_end_seconds": 702.0,
+      "category": "player_delight",
+      "headline": "The high fidelity of the character models allows for specific aesthetic realizations that resonate with the player's per",
+      "why_important": "Severity 9/10, confidence 80%",
+      "evidence": [
+        "Stopping character movement to inspect models",
+        "Rotating the camera to get better angles of character faces",
+        "Uproarious group laughter",
+        "Enthusiastic tone",
+        "Scene: Outside the Chapel entrance, comparing a friend's character model to the 'Giga Chad' internet meme."
+      ],
+      "importance_score": 11.52,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 7,
+      "absolute_timestamp": "18:18",
+      "absolute_seconds": 1098.0,
+      "clip_start_seconds": 1088.0,
+      "clip_end_seconds": 1108.0,
+      "category": "player_delight",
+      "headline": "The abruptness and severity of the outcome caught the group off guard, leaning into their established dark humor and 'ch",
+      "why_important": "Severity 9/10, confidence 80%",
+      "evidence": [
+        "Camera focusing on the dead child on the ground",
+        "Dialogue choice history showing 'Do nothing' selection",
+        "Uproarious group laughter",
+        "Disbelieving chuckles",
+        "Scene: The Sacred Pool area immediately after Arabella is bitten and killed by the snake."
+      ],
+      "importance_score": 11.52,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 8,
+      "absolute_timestamp": "2:51",
+      "absolute_seconds": 171.0,
+      "clip_start_seconds": 161.0,
+      "clip_end_seconds": 181.0,
+      "category": "player_feedback",
+      "headline": "I'm a dragon!",
+      "why_important": "Severity 8/10, confidence 90%",
+      "evidence": [
+        "Tone: excited",
+        "Category: reaction"
+      ],
+      "importance_score": 11.52,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 9,
+      "absolute_timestamp": "5:06",
+      "absolute_seconds": 306.0,
+      "clip_start_seconds": 296.0,
+      "clip_end_seconds": 316.0,
+      "category": "player_feedback",
+      "headline": "That's cool. AHHH",
+      "why_important": "Severity 8/10, confidence 90%",
+      "evidence": [
+        "Tone: excited",
+        "Category: praise"
+      ],
+      "importance_score": 11.52,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 10,
+      "absolute_timestamp": "17:23",
+      "absolute_seconds": 1043.0,
+      "clip_start_seconds": 1033.0,
+      "clip_end_seconds": 1053.0,
+      "category": "player_feedback",
+      "headline": "Thats a cool helmet.",
+      "why_important": "Severity 8/10, confidence 90%",
+      "evidence": [
+        "Tone: excited",
+        "Category: praise"
+      ],
+      "importance_score": 11.52,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ]
+    }
+  ],
+  "one_line_verdict": "YOOOOO! You can pick any d!ck, any balls, bro!"
+}
