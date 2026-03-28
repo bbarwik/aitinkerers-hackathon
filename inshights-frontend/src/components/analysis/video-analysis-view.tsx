@@ -5,6 +5,8 @@ import { VideoPlayer, type VideoPlayerHandle } from "./video-player"
 import { TimelineBar } from "./timeline-bar"
 import { InsightsPanel } from "./insights-panel"
 import { ReportSummary } from "./report-summary"
+import { HighlightsPanel } from "./highlights-panel"
+import { ExecutiveSummaryView } from "./executive-summary"
 import type { DiscoveredVideo } from "@/hooks/use-discover"
 import type { InsightMoment, AnalysisReport } from "@/types/analysis"
 
@@ -33,12 +35,7 @@ export function VideoAnalysisView({
     return null
   }, [insights, currentTime])
 
-  const handleInsightClick = (insight: InsightMoment) => {
-    playerRef.current?.seekTo(insight.absolute_seconds)
-    playerRef.current?.play()
-  }
-
-  const handleTimelineSeek = (seconds: number) => {
+  const handleSeek = (seconds: number) => {
     playerRef.current?.seekTo(seconds)
     playerRef.current?.play()
   }
@@ -67,7 +64,7 @@ export function VideoAnalysisView({
           <InsightsPanel
             insights={insights}
             activeInsightId={activeInsight?.id ?? null}
-            onInsightClick={handleInsightClick}
+            onInsightClick={(insight) => handleSeek(insight.absolute_seconds)}
           />
         </div>
 
@@ -84,11 +81,13 @@ export function VideoAnalysisView({
               duration={duration}
               currentTime={currentTime}
               insights={insights}
-              onSeek={handleTimelineSeek}
+              onSeek={handleSeek}
             />
           </div>
 
           <div className="space-y-4 p-4 pt-2">
+            {report?.executive && <ExecutiveSummaryView summary={report.executive} />}
+            {report?.highlights && <HighlightsPanel highlights={report.highlights} onSeek={handleSeek} />}
             {report && <ReportSummary report={report} />}
 
             {insights.length === 0 && !report && (

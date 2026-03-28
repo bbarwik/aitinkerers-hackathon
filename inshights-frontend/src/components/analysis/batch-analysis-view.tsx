@@ -1,11 +1,13 @@
 import { useState } from "react"
-import { ArrowLeft, Loader2, CheckCircle2, AlertCircle, Clock, Eye } from "lucide-react"
+import { ArrowLeft, Loader2, CheckCircle2, AlertCircle, Clock, Eye, BarChart3 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 import { ProgressLog } from "@/components/progress-log"
 import { VideoAnalysisView } from "./video-analysis-view"
+import { StudyView } from "./study-view"
 import { useBatchAnalysis, type VideoAnalysisEntry } from "@/hooks/use-batch-analysis"
+import { useStudy } from "@/hooks/use-study"
 import { cn } from "@/lib/utils"
 import type { DiscoveredVideo } from "@/hooks/use-discover"
 
@@ -58,7 +60,6 @@ function BatchVideoCard({
             {formatDuration(video.duration_seconds)}
           </span>
         )}
-        {/* Status overlay */}
         {status === "processing" && (
           <div className="absolute inset-0 flex items-center justify-center bg-black/40">
             <Loader2 className="h-8 w-8 animate-spin text-white" />
@@ -87,9 +88,9 @@ function BatchVideoCard({
               {insights.length} insights
             </Badge>
           )}
-          {report && (
-            <Badge variant="outline" className="text-[10px] capitalize">
-              {report.overall_friction} friction
+          {report?.executive && (
+            <Badge variant="outline" className="text-[10px]">
+              Health: {report.executive.session_health_score}
             </Badge>
           )}
         </div>
@@ -109,13 +110,22 @@ export function BatchAnalysisView({
   onBack: () => void
 }) {
   const { status, entries, completedCount, totalCount, error, startBatch } = useBatchAnalysis()
+  const study = useStudy()
   const [selectedEntry, setSelectedEntry] = useState<VideoAnalysisEntry | null>(null)
 
   const handleStart = () => startBatch(videos)
 
+  // Derive game_key from first completed report
+  const gameKey = entries.find((e) => e.report?.game_key)?.report?.game_key ?? null
+  const batchDone = status === "done"
+  const completedEntries = entries.filter((e) => e.status === "done")
+
+  const handleStudy = () => {
+    if (gameKey) study.analyze(gameKey)
+  }
+
   // Drill into individual video analysis
   if (selectedEntry) {
-    // Find the latest entry data (state may have updated since selection)
     const latest = entries.find((e) => e.video.video_id === selectedEntry.video.video_id) ?? selectedEntry
     return (
       <VideoAnalysisView
@@ -157,11 +167,23 @@ export function BatchAnalysisView({
             <span className="text-muted-foreground">complete</span>
           </div>
         )}
-        {status === "done" && (
-          <Badge variant="secondary" className="gap-1 text-emerald-600">
-            <CheckCircle2 className="h-3 w-3" />
-            All complete
-          </Badge>
+        {batchDone && (
+          <>
+            <Badge variant="secondary" className="gap-1 text-emerald-600">
+              <CheckCircle2 className="h-3 w-3" />
+              All complete
+            </Badge>
+            {gameKey && completedEntries.length >= 2 && !study.report && (
+              <Button onClick={handleStudy} disabled={study.status === "loading"} className="gap-2">
+                {study.status === "loading" ? (
+                  <Loader2 className="h-4 w-4 animate-spin" />
+                ) : (
+                  <BarChart3 className="h-4 w-4" />
+                )}
+                Cross-Video Study
+              </Button>
+            )}
+          </>
         )}
       </div>
 
@@ -179,16 +201,27 @@ export function BatchAnalysisView({
         )}
 
         {/* Error */}
-        {error && (
+        {(error || study.error) && (
           <div className="flex items-center gap-3 rounded-lg border border-destructive/50 bg-destructive/10 p-3 text-sm text-destructive">
             <AlertCircle className="h-4 w-4 shrink-0" />
-            {error}
+            {error || study.error}
           </div>
         )}
 
         {/* Active progress log */}
         {activeProgress.length > 0 && (
           <ProgressLog messages={activeProgress} loading={status === "loading"} />
+        )}
+
+        {/* Study results */}
+        {study.report && <StudyView study={study.report} />}
+
+        {/* Study loading */}
+        {study.status === "loading" && (
+          <div className="flex items-center justify-center gap-2 rounded-xl border p-8 text-sm text-muted-foreground">
+            <Loader2 className="h-4 w-4 animate-spin" />
+            Generating cross-video study analysis...
+          </div>
         )}
 
         {/* Video grid */}

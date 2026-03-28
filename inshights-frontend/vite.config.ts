@@ -10,8 +10,23 @@ export default defineConfig({
     port: 5555,
     host: true,
     proxy: {
-      "/api": {
+      "/api/research": {
         target: "http://localhost:8000",
+        changeOrigin: true,
+        rewrite: (p) => p.replace(/^\/api/, ""),
+      },
+      "/api/videos": {
+        target: "http://localhost:8001",
+        changeOrigin: true,
+        rewrite: (p) => p.replace(/^\/api/, ""),
+      },
+      "/api/studies": {
+        target: "http://localhost:8001",
+        changeOrigin: true,
+        rewrite: (p) => p.replace(/^\/api/, ""),
+      },
+      "/api/health": {
+        target: "http://localhost:8001",
         changeOrigin: true,
         rewrite: (p) => p.replace(/^\/api/, ""),
       },

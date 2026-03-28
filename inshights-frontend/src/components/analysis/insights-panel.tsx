@@ -10,6 +10,9 @@ const AGENT_TABS: { value: AgentKind | "all"; label: string; color: string }[] =
   { value: "clarity", label: "Clarity", color: "text-amber-500" },
   { value: "delight", label: "Delight", color: "text-emerald-500" },
   { value: "quality", label: "Quality", color: "text-orange-500" },
+  { value: "sentiment", label: "Sentiment", color: "text-indigo-500" },
+  { value: "retry", label: "Retry", color: "text-purple-500" },
+  { value: "verbal", label: "Verbal", color: "text-cyan-500" },
 ]
 
 const BADGE_COLORS: Record<AgentKind, string> = {
@@ -17,6 +20,9 @@ const BADGE_COLORS: Record<AgentKind, string> = {
   clarity: "bg-amber-500/10 text-amber-500 border-amber-500/20",
   delight: "bg-emerald-500/10 text-emerald-500 border-emerald-500/20",
   quality: "bg-orange-500/10 text-orange-500 border-orange-500/20",
+  sentiment: "bg-indigo-500/10 text-indigo-500 border-indigo-500/20",
+  retry: "bg-purple-500/10 text-purple-500 border-purple-500/20",
+  verbal: "bg-cyan-500/10 text-cyan-500 border-cyan-500/20",
 }
 
 export function InsightsPanel({

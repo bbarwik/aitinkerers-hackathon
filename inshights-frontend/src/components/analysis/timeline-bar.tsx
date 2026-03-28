@@ -6,6 +6,9 @@ const MARKER_COLORS: Record<AgentKind, string> = {
   clarity: "bg-amber-500",
   delight: "bg-emerald-500",
   quality: "bg-orange-500",
+  sentiment: "bg-indigo-500",
+  retry: "bg-purple-500",
+  verbal: "bg-cyan-500",
 }
 
 export function TimelineBar({
