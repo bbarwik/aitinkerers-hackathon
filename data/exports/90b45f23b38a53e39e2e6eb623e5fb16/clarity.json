@@ -1,0 +1,135 @@
+[
+  {
+    "agent_kind": "clarity",
+    "source_label": "poor_feedback",
+    "absolute_seconds": 45.0,
+    "absolute_timestamp": "0:45",
+    "summary": "Additional loading progress feedback beyond a small icon to reassure that the process is active.",
+    "game_context": "Wait for the game to load the high-fidelity assets.",
+    "evidence": [
+      "Focus on the spinning loading icon",
+      "No change in visuals for several seconds",
+      "Worried tone",
+      "Questioning computer performance",
+      "Scene: Initial loading screen after selecting 'New Game'. Screen is completely black with a spinning load icon.",
+      "Expression: Wide-eyed stare, leans in to inspect screen, looks visibly concerned about technical failure.",
+      "Quote: Oh my god, is my computer breaking?",
+      "Quote: This is not good.",
+      "Quote: I knew the graphics would be heavy but not like this."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 0,
+    "segment_label": "initial_loading",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "friction",
+      "quality",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "confusing_ui",
+    "absolute_seconds": 280.0,
+    "absolute_timestamp": "4:40",
+    "summary": "A contextual camera snap that automatically profiles the character when side-of-head features like 'Ears' or 'Side Tattoos' are selected.",
+    "game_context": "Rotate the character model using the 'Rotate' prompt (RS) to see the profile view of the ears.",
+    "evidence": [
+      "Cycling through ear presets 01 through 18",
+      "Model's ears are obscured by hair or the frontal perspective",
+      "Camera remains static",
+      "Uncertain tone",
+      "Frustrated curiosity",
+      "Scene: The 'Ears' customization menu, where presets are being scrolled through while the camera remains locked in a default front-facing position.",
+      "Expression: Squinting at the monitor and tilting her head to the side as if trying to look around the 3D character model.",
+      "Quote: I can't even see my ears really."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 1,
+    "segment_label": "character_customization",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "friction",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "poor_feedback",
+    "absolute_seconds": 510.0,
+    "absolute_timestamp": "8:30",
+    "summary": "Clearer visual feedback or a tooltip explaining which part of the makeup style the 'Accent Color' affects.",
+    "game_context": "Understand that the accent color provides a secondary tint or sheen to certain lip styles.",
+    "evidence": [
+      "Toggling the second color slider (Accent Color) while observing the lips",
+      "Character model remains static",
+      "Uncertain tone",
+      "Interrogative inflection",
+      "Scene: Lip Makeup Color sub-menu within character customization.",
+      "Expression: Squinting slightly at the screen and tilting her head as if trying to see a subtle change.",
+      "Quote: What is up with that accent color?"
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 2,
+    "segment_label": "character_creation",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "friction",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "clarity",
+    "source_label": "confusing_ui",
+    "absolute_seconds": 542.0,
+    "absolute_timestamp": "9:02",
+    "summary": "Misleading UI grouping where 'Blemishes' (decals) are in the same menu block as standard makeup but do not share the same color-linking logic.",
+    "game_context": "Understand that specific blemish decals (like the heart shapes) have locked or independent color profiles from the general cheek makeup sliders.",
+    "evidence": [
+      "Scrolling through 'Blemish Color' while 'Cheek Makeup' (heart shapes) is selected",
+      "Hovering on color options that do not change the heart decals",
+      "Realization tone",
+      "Disappointed inflection",
+      "Scene: Cheek Makeup / Blemishes menu during character creation.",
+      "Expression: Slight frown followed by a dismissive head shake as she realizes the colors don't work the way she expected.",
+      "Quote: oh okay, I thought you could make like the hearts pink or something."
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 2,
+    "segment_label": "character_creation",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "delight",
+      "friction",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

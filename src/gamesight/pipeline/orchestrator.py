@@ -60,9 +60,13 @@ async def process_video(
     max_dur = resolved_config.max_duration_seconds
 
     if is_youtube_url(source):
+        youtube_duration_override = resolved_config.duration_seconds
+        if youtube_duration_override is None:
+            youtube_duration_override = 3600.0
         metadata = await resolve_youtube_metadata(
             source,
-            duration_seconds_override=resolved_config.duration_seconds,
+            duration_seconds_override=youtube_duration_override,
+            cookies_path=settings.youtube_cookies_path,
         )
         effective_duration = min(metadata.duration_seconds, max_dur)
         resolved_game_title = resolved_config.resolved_game_title(metadata.title)

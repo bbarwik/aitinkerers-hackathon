@@ -1,0 +1,211 @@
+{
+  "video_id": "90b45f23b38a53e39e2e6eb623e5fb16",
+  "total_moments_analyzed": 76,
+  "highlights": [
+    {
+      "rank": 1,
+      "absolute_timestamp": "0:46",
+      "absolute_seconds": 46.0,
+      "clip_start_seconds": 36.0,
+      "clip_end_seconds": 56.0,
+      "category": "player_feedback",
+      "headline": "One thing I am really looking forward to in this game is the music. That\u2019s always a huge, huge piece for me.",
+      "why_important": "Severity 8/10, confidence 100%",
+      "evidence": [
+        "Tone: excited",
+        "Category: praise"
+      ],
+      "importance_score": 15.84,
+      "corroborating_agents": [
+        "clarity",
+        "friction",
+        "quality",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 2,
+      "absolute_timestamp": "9:16",
+      "absolute_seconds": 556.0,
+      "clip_start_seconds": 546.0,
+      "clip_end_seconds": 566.0,
+      "category": "player_feedback",
+      "headline": "Let's go chrome to match her teeth. Yeah, I want to match the teeth.",
+      "why_important": "Severity 8/10, confidence 100%",
+      "evidence": [
+        "Tone: excited",
+        "Category: strategy"
+      ],
+      "importance_score": 15.84,
+      "corroborating_agents": [
+        "clarity",
+        "delight",
+        "friction",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 3,
+      "absolute_timestamp": "9:53",
+      "absolute_seconds": 593.0,
+      "clip_start_seconds": 583.0,
+      "clip_end_seconds": 600.0,
+      "category": "player_delight",
+      "headline": "The explicit and granular nature of the menu exceeds her expectations for a character creator, resulting in pure humorou",
+      "why_important": "Severity 9/10, confidence 80%",
+      "evidence": [
+        "Leaning forward to read the menu text",
+        "Toggling through genital presets",
+        "Series of shocked and amused exclamations",
+        "Continuous laughter",
+        "Scene: Character customization screen, scrolling through the 'Genitals' and 'Penis Size' sliders."
+      ],
+      "importance_score": 11.52,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 4,
+      "absolute_timestamp": "5:08",
+      "absolute_seconds": 308.0,
+      "clip_start_seconds": 298.0,
+      "clip_end_seconds": 318.0,
+      "category": "player_feedback",
+      "headline": "The lines are kind of fire.",
+      "why_important": "Severity 8/10, confidence 90%",
+      "evidence": [
+        "Tone: excited",
+        "Category: praise"
+      ],
+      "importance_score": 11.52,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 5,
+      "absolute_timestamp": "6:28",
+      "absolute_seconds": 388.0,
+      "clip_start_seconds": 378.0,
+      "clip_end_seconds": 398.0,
+      "category": "player_feedback",
+      "headline": "Ooh, yellow teeth. Chrome teeth? Chrome teeth is kind of a f***ing vibe.",
+      "why_important": "Severity 8/10, confidence 90%",
+      "evidence": [
+        "Tone: excited",
+        "Category: reaction"
+      ],
+      "importance_score": 11.52,
+      "corroborating_agents": [
+        "delight",
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 6,
+      "absolute_timestamp": "0:00",
+      "absolute_seconds": 0.0,
+      "clip_start_seconds": 0.0,
+      "clip_end_seconds": 10.0,
+      "category": "player_feedback",
+      "headline": "Hi guys! Welcome to my Cyberpunk 2077 playthrough.",
+      "why_important": "Severity 8/10, confidence 75%",
+      "evidence": [
+        "Tone: excited",
+        "Category: narration"
+      ],
+      "importance_score": 9.36,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 7,
+      "absolute_timestamp": "2:14",
+      "absolute_seconds": 134.0,
+      "clip_start_seconds": 124.0,
+      "clip_end_seconds": 144.0,
+      "category": "player_delight",
+      "headline": "The high fidelity of the Westbrook montage aligns with the player's personal aesthetic interests in fashion and cybernet",
+      "why_important": "Severity 7/10, confidence 80%",
+      "evidence": [
+        "Leaning forward toward the monitor",
+        "Intense gaze on the screen",
+        "Quick intake of breath",
+        "Focused silence",
+        "Scene: The cinematic montage shows the Westbrook district, club scenes, and the fast-paced, high-end nightlife of the wealthy."
+      ],
+      "importance_score": 8.96,
+      "corroborating_agents": [
+        "sentiment",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 8,
+      "absolute_timestamp": "7:00",
+      "absolute_seconds": 420.0,
+      "clip_start_seconds": 410.0,
+      "clip_end_seconds": 430.0,
+      "category": "player_feedback",
+      "headline": "Show me your smile girl! I love it. Okay, I'm gonna do chrome teeth.",
+      "why_important": "Severity 6/10, confidence 75%",
+      "evidence": [
+        "Tone: amused",
+        "Category: praise"
+      ],
+      "importance_score": 7.02,
+      "corroborating_agents": [
+        "sentiment"
+      ]
+    },
+    {
+      "rank": 9,
+      "absolute_timestamp": "7:45",
+      "absolute_seconds": 465.0,
+      "clip_start_seconds": 455.0,
+      "clip_end_seconds": 475.0,
+      "category": "sentiment_swing",
+      "headline": "Watching the 'punk' look come together",
+      "why_important": "Severity 6/10, confidence 80%",
+      "evidence": [
+        "Trigger: Watching the 'punk' look come together",
+        "Visual: Adjusting heavy eyeliner styles to match the multi-colored hair",
+        "Audio: Enthusiastic: 'This is looking super punk. I like it.'",
+        "Expression: Smiling, head tilted to the side in a satisfied pose"
+      ],
+      "importance_score": 6.72,
+      "corroborating_agents": [
+        "delight",
+        "verbal"
+      ]
+    },
+    {
+      "rank": 10,
+      "absolute_timestamp": "8:30",
+      "absolute_seconds": 510.0,
+      "clip_start_seconds": 500.0,
+      "clip_end_seconds": 520.0,
+      "category": "clarity_failure",
+      "headline": "Clearer visual feedback or a tooltip explaining which part of the makeup style the 'Accent Color' affects.",
+      "why_important": "Severity 3/10, confidence 95%",
+      "evidence": [
+        "Toggling the second color slider (Accent Color) while observing the lips",
+        "Character model remains static",
+        "Uncertain tone",
+        "Interrogative inflection",
+        "Scene: Lip Makeup Color sub-menu within character customization."
+      ],
+      "importance_score": 5.7,
+      "corroborating_agents": [
+        "friction",
+        "sentiment",
+        "verbal"
+      ]
+    }
+  ],
+  "one_line_verdict": "One thing I am really looking forward to in this game is the music. That\u2019s always a huge, huge piece for me."
+}

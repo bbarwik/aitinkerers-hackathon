@@ -1,0 +1,33 @@
+[
+  {
+    "agent_kind": "quality",
+    "source_label": "performance",
+    "absolute_seconds": 52.0,
+    "absolute_timestamp": "0:52",
+    "summary": "performance issue: Extended black screen during initial load during Transition from intro video to game engine loading",
+    "game_context": "Transition from intro video to game engine loading",
+    "evidence": [
+      "Extended black screen during initial load",
+      "None",
+      "Player reaction: noticed and commented",
+      "Scene: Initial loading screen after the introduction segment",
+      "Quote: Oh my god. Is my computer breaking? This isn't good.",
+      "Quote: No I knew the graphics would be heavy but not like this."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "initial_loading",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

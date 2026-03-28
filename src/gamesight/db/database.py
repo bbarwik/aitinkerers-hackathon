@@ -1,3 +1,5 @@
+from collections.abc import AsyncIterator
+from contextlib import asynccontextmanager
 from pathlib import Path
 
 import aiosqlite
@@ -68,13 +70,14 @@ async def init_db(database_path: str | Path | None = None) -> None:
 DB_BUSY_TIMEOUT_MS = 30_000
 
 
-async def get_connection(database_path: str | Path | None = None) -> aiosqlite.Connection:
+@asynccontextmanager
+async def get_connection(database_path: str | Path | None = None) -> AsyncIterator[aiosqlite.Connection]:
     resolved_path = Path(database_path or get_settings().database_path)
-    connection = await aiosqlite.connect(resolved_path)
-    connection.row_factory = aiosqlite.Row
-    await connection.execute("PRAGMA foreign_keys=ON")
-    await connection.execute(f"PRAGMA busy_timeout={DB_BUSY_TIMEOUT_MS}")
-    return connection
+    async with aiosqlite.connect(resolved_path) as connection:
+        connection.row_factory = aiosqlite.Row
+        await connection.execute("PRAGMA foreign_keys=ON")
+        await connection.execute(f"PRAGMA busy_timeout={DB_BUSY_TIMEOUT_MS}")
+        yield connection
 
 
 async def database_ready(database_path: str | Path | None = None) -> bool:

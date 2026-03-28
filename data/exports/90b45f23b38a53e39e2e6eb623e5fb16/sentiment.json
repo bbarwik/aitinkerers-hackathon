@@ -1,0 +1,582 @@
+[
+  {
+    "agent_kind": "sentiment",
+    "source_label": "excited",
+    "absolute_seconds": 5.0,
+    "absolute_timestamp": "0:05",
+    "summary": "Starting the anticipated blind playthrough",
+    "game_context": "Intro - player on camera with themed makeup",
+    "evidence": [
+      "Trigger: Starting the anticipated blind playthrough",
+      "Visual: Intro - player on camera with themed makeup",
+      "Audio: High energy, enthusiastic greeting, clear and projected voice",
+      "Expression: Smiling, wide eyes, expressive hand gestures"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 0,
+    "segment_label": "intro",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": 8,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 35.0,
+    "absolute_timestamp": "0:35",
+    "summary": "Appreciating the themed makeup",
+    "game_context": "Showing side profile of the 'cyber' facial makeup",
+    "evidence": [
+      "Trigger: Appreciating the themed makeup",
+      "Visual: Showing side profile of the 'cyber' facial makeup",
+      "Audio: Proud tone: 'I love it'",
+      "Expression: Smiling, tilting head to show makeup details"
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 0,
+    "segment_label": "initial_loading",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "clarity",
+      "verbal"
+    ],
+    "sentiment_raw_score": 7,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "confused",
+    "absolute_seconds": 55.0,
+    "absolute_timestamp": "0:55",
+    "summary": "Lengthy loading screen on a black background",
+    "game_context": "Static black screen with small loading icon",
+    "evidence": [
+      "Trigger: Lengthy loading screen on a black background",
+      "Visual: Static black screen with small loading icon",
+      "Audio: Higher pitch, nervous laughter: 'Oh my god, is my computer breaking?'",
+      "Expression: Tense mouth, eyes darting to check system status"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "opening_cinematic",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": -2,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "excited",
+    "absolute_seconds": 80.0,
+    "absolute_timestamp": "1:20",
+    "summary": "The scale and visual fidelity of Night City in the cinematic",
+    "game_context": "Cinematic wide shots of futuristic skyscrapers",
+    "evidence": [
+      "Trigger: The scale and visual fidelity of Night City in the cinematic",
+      "Visual: Cinematic wide shots of futuristic skyscrapers",
+      "Audio: Awestruck tone: 'The graphics... look at this'",
+      "Expression: Eyes wide, eyebrows raised in surprise"
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 0,
+    "segment_label": "opening_cinematic",
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": 7,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "excited",
+    "absolute_seconds": 110.0,
+    "absolute_timestamp": "1:50",
+    "summary": "Energetic music and montage during the intro",
+    "game_context": "Fast-paced montage of city life and violence",
+    "evidence": [
+      "Trigger: Energetic music and montage during the intro",
+      "Visual: Fast-paced montage of city life and violence",
+      "Audio: Laughing, exclaiming 'This is sick!'",
+      "Expression: Big smile, nodding along to the heavy music"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 0,
+    "segment_label": "difficulty_selection",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "delight"
+    ],
+    "sentiment_raw_score": 8,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "focused",
+    "absolute_seconds": 140.0,
+    "absolute_timestamp": "2:20",
+    "summary": "Reading difficulty and lifepath descriptions",
+    "game_context": "Menu navigation between Nomad, Streetkid, and Corpo",
+    "evidence": [
+      "Trigger: Reading difficulty and lifepath descriptions",
+      "Visual: Menu navigation between Nomad, Streetkid, and Corpo",
+      "Audio: Lower volume, steady pacing while reading text aloud",
+      "Expression: Leaning forward, eyes scanning the screen intently"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "lifepath_selection",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": 2,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "focused",
+    "absolute_seconds": 170.0,
+    "absolute_timestamp": "2:50",
+    "summary": "Narrative intrigue of the lifepath options",
+    "game_context": "Highlighting the Nomad path description",
+    "evidence": [
+      "Trigger: Narrative intrigue of the lifepath options",
+      "Visual: Highlighting the Nomad path description",
+      "Audio: Thoughtful tone: 'I like the idea... but Streetkid is kind of badass'",
+      "Expression: Resting chin on hand, looking contemplative"
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 0,
+    "segment_label": null,
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": 3,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "excited",
+    "absolute_seconds": 205.0,
+    "absolute_timestamp": "3:25",
+    "summary": "Choosing the Corpo lifepath",
+    "game_context": "Selecting the Corpo option in the menu",
+    "evidence": [
+      "Trigger: Choosing the Corpo lifepath",
+      "Visual: Selecting the Corpo option in the menu",
+      "Audio: Decisive: 'I think I'm going to do Corpo'",
+      "Expression: Nodding to herself, smiling at the character concept"
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 0,
+    "segment_label": "character_customization",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": 5,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 250.0,
+    "absolute_timestamp": "4:10",
+    "summary": "Initial look at the character customization depth",
+    "game_context": "Cycling through basic face presets",
+    "evidence": [
+      "Trigger: Initial look at the character customization depth",
+      "Visual: Cycling through basic face presets",
+      "Audio: Surprised: 'Wow, okay... the looks are everything'",
+      "Expression: Raised eyebrows, looking delighted by the options"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 0,
+    "segment_label": "character_customization",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": 6,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "focused",
+    "absolute_seconds": 285.0,
+    "absolute_timestamp": "4:45",
+    "summary": "Opening the hair color palette",
+    "game_context": "Browsing a large grid of vibrant color options",
+    "evidence": [
+      "Trigger: Opening the hair color palette",
+      "Visual: Browsing a large grid of vibrant color options",
+      "Audio: Curious, melodic tone while evaluating colors",
+      "Expression: Eyes darting across the grid, leaning in with genuine interest"
+    ],
+    "severity_numeric": 3,
+    "source_chunk_index": 1,
+    "segment_label": "character_customization",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "verbal"
+    ],
+    "sentiment_raw_score": 3,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "confused",
+    "absolute_seconds": 310.0,
+    "absolute_timestamp": "5:10",
+    "summary": "Limited camera control when customizing ears",
+    "game_context": "Toggling ear options while the camera remains fixed to the front",
+    "evidence": [
+      "Trigger: Limited camera control when customizing ears",
+      "Visual: Toggling ear options while the camera remains fixed to the front",
+      "Audio: Slightly annoyed but amused: 'I can't even see my ears really.'",
+      "Expression: Tilting her own head and squinting to try and see the side of the model"
+    ],
+    "severity_numeric": 1,
+    "source_chunk_index": 1,
+    "segment_label": "character_customization",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": -1,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "excited",
+    "absolute_seconds": 340.0,
+    "absolute_timestamp": "5:40",
+    "summary": "Discovering high-quality skin textures on facial scars",
+    "game_context": "Zoomed-in view of character face showing detailed skin pores and scar ridges",
+    "evidence": [
+      "Trigger: Discovering high-quality skin textures on facial scars",
+      "Visual: Zoomed-in view of character face showing detailed skin pores and scar ridges",
+      "Audio: Impressed: 'Ooh, that texture though. Oh!'",
+      "Expression: Brows raised in surprise, leaning closer to the monitor to inspect the detail"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 1,
+    "segment_label": null,
+    "confidence_score": 0.5,
+    "corroborating_agents": [],
+    "sentiment_raw_score": 6,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 370.0,
+    "absolute_timestamp": "6:10",
+    "summary": "Trying on aggressive facial tattoos",
+    "game_context": "Character model wearing a 'Sinner' tattoo across the forehead",
+    "evidence": [
+      "Trigger: Trying on aggressive facial tattoos",
+      "Visual: Character model wearing a 'Sinner' tattoo across the forehead",
+      "Audio: Approving: 'Ah yeah... sinner.'",
+      "Expression: Nodding slowly with a wide smile, clearly enjoying the aesthetic"
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 1,
+    "segment_label": "character_customization",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": 5,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "excited",
+    "absolute_seconds": 400.0,
+    "absolute_timestamp": "6:40",
+    "summary": "Discovery of gold and chrome teeth options",
+    "game_context": "V's mouth is open, showing shining metallic teeth",
+    "evidence": [
+      "Trigger: Discovery of gold and chrome teeth options",
+      "Visual: V's mouth is open, showing shining metallic teeth",
+      "Audio: Laughing: 'Chrome teeth is kind of a fucking vibe.'",
+      "Expression: Full smile, laughing, body language relaxed and energized"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 1,
+    "segment_label": "character_customization",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": 8,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "focused",
+    "absolute_seconds": 435.0,
+    "absolute_timestamp": "7:15",
+    "summary": "Deep immersion in makeup layering",
+    "game_context": "Methodically cycling through lip makeup styles (glossy, matte, etc.)",
+    "evidence": [
+      "Trigger: Deep immersion in makeup layering",
+      "Visual: Methodically cycling through lip makeup styles (glossy, matte, etc.)",
+      "Audio: Quietly humming and muttering about colors under her breath",
+      "Expression: Focused, steady gaze, minimal facial movement as she analyzes changes",
+      "Silence type: focused"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": "character_customization",
+    "confidence_score": 0.65,
+    "corroborating_agents": [
+      "verbal"
+    ],
+    "sentiment_raw_score": 2,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "excited",
+    "absolute_seconds": 465.0,
+    "absolute_timestamp": "7:45",
+    "summary": "Watching the 'punk' look come together",
+    "game_context": "Adjusting heavy eyeliner styles to match the multi-colored hair",
+    "evidence": [
+      "Trigger: Watching the 'punk' look come together",
+      "Visual: Adjusting heavy eyeliner styles to match the multi-colored hair",
+      "Audio: Enthusiastic: 'This is looking super punk. I like it.'",
+      "Expression: Smiling, head tilted to the side in a satisfied pose"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 1,
+    "segment_label": null,
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": 6,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "focused",
+    "absolute_seconds": 500.0,
+    "absolute_timestamp": "8:20",
+    "summary": "Fine-tuning specific eyeliner wing lengths",
+    "game_context": "Rapidly toggling between two similar makeup options to compare",
+    "evidence": [
+      "Trigger: Fine-tuning specific eyeliner wing lengths",
+      "Visual: Rapidly toggling between two similar makeup options to compare",
+      "Audio: Silent for a long period, breathing steadily",
+      "Expression: Extreme concentration, leaning very close to see the edge of the eye on screen",
+      "Silence type: focused"
+    ],
+    "severity_numeric": 1,
+    "source_chunk_index": 1,
+    "segment_label": "character_creation",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "verbal"
+    ],
+    "sentiment_raw_score": 1,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 530.0,
+    "absolute_timestamp": "8:50",
+    "summary": "Discovering heart-shaped cheek makeup.",
+    "game_context": "Applying a small black heart-shaped decal under the character's eye.",
+    "evidence": [
+      "Trigger: Discovering heart-shaped cheek makeup.",
+      "Visual: Applying a small black heart-shaped decal under the character's eye.",
+      "Audio: High-pitched, delighted tone: 'Ooh cute, little hearts!'",
+      "Expression: Broad smile and appreciative nodding."
+    ],
+    "severity_numeric": 7,
+    "source_chunk_index": 2,
+    "segment_label": "character_creation",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "friction",
+      "verbal"
+    ],
+    "sentiment_raw_score": 7,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "focused",
+    "absolute_seconds": 555.0,
+    "absolute_timestamp": "9:15",
+    "summary": "Selecting chrome nail color to match the character's teeth.",
+    "game_context": "Choosing the metallic chrome preset for V's nails.",
+    "evidence": [
+      "Trigger: Selecting chrome nail color to match the character's teeth.",
+      "Visual: Choosing the metallic chrome preset for V's nails.",
+      "Audio: Satisfied tone: 'Let's go chrome to match our teeth... yeah, I want to match the teeth.'",
+      "Expression: Smiling and nodding in agreement with her design choice."
+    ],
+    "severity_numeric": 5,
+    "source_chunk_index": 2,
+    "segment_label": "character_creation",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "friction",
+      "verbal"
+    ],
+    "sentiment_raw_score": 5,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "amused",
+    "absolute_seconds": 580.0,
+    "absolute_timestamp": "9:40",
+    "summary": "Discovering the nipple customization option.",
+    "game_context": "Navigating to the 'Chest' and 'Nipples' menu sections.",
+    "evidence": [
+      "Trigger: Discovering the nipple customization option.",
+      "Visual: Navigating to the 'Chest' and 'Nipples' menu sections.",
+      "Audio: Surprised laughter: 'We can customize the nips! Okay.'",
+      "Expression: Wide eyes, grinning, and leaning back slightly in amusement."
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 2,
+    "segment_label": "character_creation",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": 8,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "sentiment",
+    "source_label": "excited",
+    "absolute_seconds": 595.0,
+    "absolute_timestamp": "9:55",
+    "summary": "Navigating into explicit genital customization menus.",
+    "game_context": "Scrolling through 'Genitals' and 'Penis Size' options which are blurred on stream.",
+    "evidence": [
+      "Trigger: Navigating into explicit genital customization menus.",
+      "Visual: Scrolling through 'Genitals' and 'Penis Size' options which are blurred on stream.",
+      "Audio: Incredulous laughter and high volume: 'Bro... what?! ...Oh man!'",
+      "Expression: Eyes wide with shock, laughing uncontrollably, face turning slightly red."
+    ],
+    "severity_numeric": 10,
+    "source_chunk_index": 2,
+    "segment_label": "character_creation",
+    "confidence_score": 0.8,
+    "corroborating_agents": [
+      "delight",
+      "verbal"
+    ],
+    "sentiment_raw_score": 10,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

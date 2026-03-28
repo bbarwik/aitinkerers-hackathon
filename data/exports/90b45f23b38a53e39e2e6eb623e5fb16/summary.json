@@ -1,0 +1,37 @@
+{
+  "video_id": "90b45f23b38a53e39e2e6eb623e5fb16",
+  "game_title": "Cyberpunk 2077",
+  "game_key": "cyberpunk_2077",
+  "duration_seconds": 600.0,
+  "chunk_count": 3,
+  "overall_friction": "minor",
+  "overall_engagement": "strong",
+  "overall_stop_risk": "none",
+  "bug_count": 1,
+  "avg_sentiment": 4.95,
+  "sentiment_by_segment": {
+    "intro": 8.0,
+    "initial_loading": 7.0,
+    "opening_cinematic": 2.5,
+    "difficulty_selection": 8.0,
+    "lifepath_selection": 2.0,
+    "character_customization": 4.0,
+    "character_creation": 6.2
+  },
+  "total_retry_sequences": 0,
+  "first_attempt_failure_count": 0,
+  "notable_quotes": [
+    "Oh my god. Is my computer breaking? This isn't good.",
+    "I can't even see my ears really.",
+    "Ooh, wait. What is up with that accent color?",
+    "What is up with that accent color?"
+  ],
+  "session_health_score": 88,
+  "priority_actions": [
+    "Add animated loading assets or a percentage bar to the 0:52 transition to mitigate hardware anxiety.",
+    "Enable auto-rotation for the character creator camera when selecting side-of-head features like ears.",
+    "Clarify secondary color slider functions (Accent/Blemish) through better labeling or conditional UI visibility.",
+    "Verify that high-fidelity textures, which the player praised at 5:01, remain consistent across all customization sub-menus."
+  ],
+  "top_highlight": "One thing I am really looking forward to in this game is the music. That\u2019s always a huge, huge piece for me."
+}

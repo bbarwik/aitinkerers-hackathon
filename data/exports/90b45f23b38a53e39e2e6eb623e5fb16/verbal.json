@@ -1,0 +1,952 @@
+[
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 0.0,
+    "absolute_timestamp": "0:00",
+    "summary": "Hi guys! Welcome to my Cyberpunk 2077 playthrough.",
+    "game_context": "Introduction screen; player is on full-screen facecam.",
+    "evidence": [
+      "Tone: excited",
+      "Category: narration"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 0,
+    "segment_label": "intro",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Hi guys! Welcome to my Cyberpunk 2077 playthrough."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 46.0,
+    "absolute_timestamp": "0:46",
+    "summary": "One thing I am really looking forward to in this game is the music. That\u2019s always a huge, huge piece for me.",
+    "game_context": "Wait screen before loading into the main menu.",
+    "evidence": [
+      "Tone: excited",
+      "Category: praise"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 0,
+    "segment_label": "initial_loading",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "quality",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "One thing I am really looking forward to in this game is the music. That\u2019s always a huge, huge piece for me."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "complaint",
+    "absolute_seconds": 52.0,
+    "absolute_timestamp": "0:52",
+    "summary": "Oh my god. Is my computer breaking? This isn't good.",
+    "game_context": "Extended black screen during initial load.",
+    "evidence": [
+      "Tone: confused",
+      "Category: complaint",
+      "Actionable: Long loading times without a progress bar or dynamic visual feedback can cause user anxiety regarding hardware stability."
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 0,
+    "segment_label": "initial_loading",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "quality"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "Oh my god. Is my computer breaking? This isn't good."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 56.0,
+    "absolute_timestamp": "0:56",
+    "summary": "I knew the graphics would be heavy but not like this.",
+    "game_context": "Still on the black loading screen.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: reaction"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "opening_cinematic",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I knew the graphics would be heavy but not like this."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 142.0,
+    "absolute_timestamp": "2:22",
+    "summary": "Ooh... we get to pick our little origin story, I guess.",
+    "game_context": "Viewing the Lifepath selection screen (Nomad, Streetkid, Corpo).",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 0,
+    "segment_label": "lifepath_selection",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Ooh... we get to pick our little origin story, I guess."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 211.0,
+    "absolute_timestamp": "3:31",
+    "summary": "I guess it depends on what kind of character you're trying to go for. I wanted to choose Streetkid, but something about Corpo... I'm envisioning this character that I want to have. Like a hacker type... really stealthy, cool. So that makes sense with the Corpo.",
+    "game_context": "Comparing the descriptions of Streetkid and Corpo lifepaths.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: strategy"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 0,
+    "segment_label": "character_customization",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I guess it depends on what kind of character you're trying to go for. I wanted to choose Streetkid, but something about Corpo... I'm envisioning this character that I want to have. Like a hacker type... really stealthy, cool. So that makes sense with the Corpo."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 253.0,
+    "absolute_timestamp": "4:13",
+    "summary": "It looks like freckles and s***.",
+    "game_context": "Cycling through skin types in character customization.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "character_customization",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "It looks like freckles and s***."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 271.0,
+    "absolute_timestamp": "4:31",
+    "summary": "Wait, the pink and blue though. Pink and blue is kind of a classic.",
+    "game_context": "Reverting back to the original pink and blue hair color.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: reaction"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": "character_customization",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Wait, the pink and blue though. Pink and blue is kind of a classic."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "complaint",
+    "absolute_seconds": 279.0,
+    "absolute_timestamp": "4:39",
+    "summary": "I can't even see my ears really.",
+    "game_context": "Trying to adjust the ear settings while the camera remains fixed on the front of the head.",
+    "evidence": [
+      "Tone: confused",
+      "Category: complaint",
+      "Actionable: Automatically rotate the camera or provide explicit rotation prompts when players select small features on the side of the head like ears or side-piercings."
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 1,
+    "segment_label": "character_customization",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "I can't even see my ears really."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 283.0,
+    "absolute_timestamp": "4:43",
+    "summary": "Cute little ears. Ooh! Hold up. Cyberware.",
+    "game_context": "Navigating to the 'Cyberware' category in the facial customization menu.",
+    "evidence": [
+      "Tone: excited",
+      "Category: reaction"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 1,
+    "segment_label": "character_customization",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Cute little ears. Ooh! Hold up. Cyberware."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 296.0,
+    "absolute_timestamp": "4:56",
+    "summary": "Wait, facial tattoos. Let me switch that out. They're distracting me a little bit.",
+    "game_context": "Removing a facial tattoo to focus on the character's base features.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: strategy"
+    ],
+    "severity_numeric": 0,
+    "source_chunk_index": 1,
+    "segment_label": "character_customization",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Wait, facial tattoos. Let me switch that out. They're distracting me a little bit."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 301.0,
+    "absolute_timestamp": "5:01",
+    "summary": "That texture though. Ooh!",
+    "game_context": "Scrolling through different skin textures and finding a highly detailed one.",
+    "evidence": [
+      "Tone: excited",
+      "Category: praise"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 1,
+    "segment_label": "character_customization",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "That texture though. Ooh!"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 308.0,
+    "absolute_timestamp": "5:08",
+    "summary": "The lines are kind of fire.",
+    "game_context": "Viewing the metallic cyberware lines that wrap around the face and neck.",
+    "evidence": [
+      "Tone: excited",
+      "Category: praise"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 1,
+    "segment_label": "character_customization",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "The lines are kind of fire."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 320.0,
+    "absolute_timestamp": "5:20",
+    "summary": "Not too many choices but... I like the neck tats.",
+    "game_context": "Reviewing the available facial and neck tattoo presets.",
+    "evidence": [
+      "Tone: amused",
+      "Category: praise"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 1,
+    "segment_label": null,
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Not too many choices but... I like the neck tats."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 374.0,
+    "absolute_timestamp": "6:14",
+    "summary": "I think I'm gonna go with the simple... wait. Number two or... number three is kind of cool.",
+    "game_context": "Comparing different facial piercing options.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: strategy"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": "character_customization",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I think I'm gonna go with the simple... wait. Number two or... number three is kind of cool."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 384.0,
+    "absolute_timestamp": "6:24",
+    "summary": "I think I might go like a little bit simpler because she's coming from the corporate background.",
+    "game_context": "Justifying a conservative jewelry choice based on her character's chosen lifepath.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: strategy"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 1,
+    "segment_label": "character_customization",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I think I might go like a little bit simpler because she's coming from the corporate background."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 388.0,
+    "absolute_timestamp": "6:28",
+    "summary": "Ooh, yellow teeth. Chrome teeth? Chrome teeth is kind of a f***ing vibe.",
+    "game_context": "Discovering the different tooth customization options.",
+    "evidence": [
+      "Tone: excited",
+      "Category: reaction"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 1,
+    "segment_label": "character_customization",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Ooh, yellow teeth. Chrome teeth? Chrome teeth is kind of a f***ing vibe."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 400.0,
+    "absolute_timestamp": "6:40",
+    "summary": "I think I might do chrome teeth. That's sick.",
+    "game_context": "Selecting the chrome teeth option for her character.",
+    "evidence": [
+      "Tone: excited",
+      "Category: strategy"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 1,
+    "segment_label": "character_customization",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I think I might do chrome teeth. That's sick."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 420.0,
+    "absolute_timestamp": "7:00",
+    "summary": "Show me your smile girl! I love it. Okay, I'm gonna do chrome teeth.",
+    "game_context": "Watching the character model perform a smiling animation to test the chrome teeth.",
+    "evidence": [
+      "Tone: amused",
+      "Category: praise"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 1,
+    "segment_label": "character_customization",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Show me your smile girl! I love it. Okay, I'm gonna do chrome teeth."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "question",
+    "absolute_seconds": 434.0,
+    "absolute_timestamp": "7:14",
+    "summary": "Ooh, wait. What is up with that accent color?",
+    "game_context": "Observing how a secondary accent color slider affects the metallic sheen of the makeup.",
+    "evidence": [
+      "Tone: confused",
+      "Category: question",
+      "Actionable: Provide clearer labels for secondary color sliders (e.g., 'Metallic Gloss Color' or 'Accent Shade') to differentiate them from the primary base color."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": "character_customization",
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "Ooh, wait. What is up with that accent color?"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 442.0,
+    "absolute_timestamp": "7:22",
+    "summary": "Actually, what about lipstick?",
+    "game_context": "Navigating to the lip makeup section of the menu.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: narration"
+    ],
+    "severity_numeric": 0,
+    "source_chunk_index": 1,
+    "segment_label": "character_customization",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Actually, what about lipstick?"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 464.0,
+    "absolute_timestamp": "7:44",
+    "summary": "Wait. Ooh!",
+    "game_context": "Discovering bold, stylized eye makeup options.",
+    "evidence": [
+      "Tone: excited",
+      "Category: reaction"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 1,
+    "segment_label": null,
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Wait. Ooh!"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 479.0,
+    "absolute_timestamp": "7:59",
+    "summary": "I kind of like the cat look. What is that? Number 16?",
+    "game_context": "Identifying a specific eye makeup style that resembles cat-eye eyeliner.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: strategy"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 1,
+    "segment_label": null,
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I kind of like the cat look. What is that? Number 16?"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 488.0,
+    "absolute_timestamp": "8:08",
+    "summary": "17 is clean.",
+    "game_context": "Comparing eye makeup style 16 to style 17.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: praise"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 1,
+    "segment_label": null,
+    "confidence_score": 0.75,
+    "corroborating_agents": [
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "17 is clean."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 498.0,
+    "absolute_timestamp": "8:18",
+    "summary": "Let's just keep that for a second.",
+    "game_context": "Pausing on an eye makeup style to consider it.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: strategy"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": null,
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Let's just keep that for a second."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "question",
+    "absolute_seconds": 510.0,
+    "absolute_timestamp": "8:30",
+    "summary": "What is up with that accent color?",
+    "game_context": "Observing how a secondary accent color slider affects the metallic sheen of the makeup.",
+    "evidence": [
+      "Tone: confused",
+      "Category: question",
+      "Actionable: Provide clearer labels for secondary color sliders (e.g., 'Metallic Gloss Color' or 'Accent Shade') to differentiate them from the primary base color."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 2,
+    "segment_label": "character_creation",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": true,
+    "verbal_quote": "What is up with that accent color?"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 526.0,
+    "absolute_timestamp": "8:46",
+    "summary": "Get some blush or something.",
+    "game_context": "Navigating to the cheek makeup section of the menu.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: strategy"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 2,
+    "segment_label": "character_creation",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Get some blush or something."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 532.0,
+    "absolute_timestamp": "8:52",
+    "summary": "Ooh, cute! Little hearts.",
+    "game_context": "Finding the heart-shaped makeup markings on the cheeks.",
+    "evidence": [
+      "Tone: excited",
+      "Category: praise"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 2,
+    "segment_label": "character_creation",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Ooh, cute! Little hearts."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 537.0,
+    "absolute_timestamp": "8:57",
+    "summary": "Wait, hearts or stars? No, stars are cleaner.",
+    "game_context": "Choosing between heart-shaped and star-shaped facial markings.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: strategy"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 2,
+    "segment_label": "character_creation",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Wait, hearts or stars? No, stars are cleaner."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "narration",
+    "absolute_seconds": 548.0,
+    "absolute_timestamp": "9:08",
+    "summary": "No blemishes. She's...",
+    "game_context": "Finalizing facial blemish options.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: narration"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 2,
+    "segment_label": "character_creation",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "No blemishes. She's..."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 550.0,
+    "absolute_timestamp": "9:10",
+    "summary": "We're going to have to blur that out.",
+    "game_context": "Reacting to the character's body nudity as the camera zooms out.",
+    "evidence": [
+      "Tone: amused",
+      "Category: reaction"
+    ],
+    "severity_numeric": 4,
+    "source_chunk_index": 2,
+    "segment_label": "character_creation",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "We're going to have to blur that out."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "strategy",
+    "absolute_seconds": 556.0,
+    "absolute_timestamp": "9:16",
+    "summary": "Let's go chrome to match her teeth. Yeah, I want to match the teeth.",
+    "game_context": "Selecting chrome nail color to match the previously chosen chrome teeth.",
+    "evidence": [
+      "Tone: excited",
+      "Category: strategy"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 2,
+    "segment_label": "character_creation",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "friction",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Let's go chrome to match her teeth. Yeah, I want to match the teeth."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 569.0,
+    "absolute_timestamp": "9:29",
+    "summary": "We can customize the nips!",
+    "game_context": "Discovering specific nipple customization options in the body menu.",
+    "evidence": [
+      "Tone: excited",
+      "Category: reaction"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 2,
+    "segment_label": "character_creation",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "We can customize the nips!"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 573.0,
+    "absolute_timestamp": "9:33",
+    "summary": "Damn!",
+    "game_context": "Viewing complex full-body tattoo options.",
+    "evidence": [
+      "Tone: excited",
+      "Category: reaction"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 2,
+    "segment_label": "character_creation",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "Damn!"
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "praise",
+    "absolute_seconds": 580.0,
+    "absolute_timestamp": "9:40",
+    "summary": "I think I like this one. I like the way it wraps around and also it kind of looks like instructions or something on the back of her leg.",
+    "game_context": "Selecting a full-body tattoo and examining the detail on the legs.",
+    "evidence": [
+      "Tone: neutral",
+      "Category: praise"
+    ],
+    "severity_numeric": 6,
+    "source_chunk_index": 2,
+    "segment_label": "character_creation",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "I think I like this one. I like the way it wraps around and also it kind of looks like instructions or something on the back of her leg."
+  },
+  {
+    "agent_kind": "verbal",
+    "source_label": "reaction",
+    "absolute_seconds": 595.0,
+    "absolute_timestamp": "9:55",
+    "summary": "What! Bro... what!",
+    "game_context": "Discovering explicit genital customization options.",
+    "evidence": [
+      "Tone: excited",
+      "Category: reaction"
+    ],
+    "severity_numeric": 8,
+    "source_chunk_index": 2,
+    "segment_label": "character_creation",
+    "confidence_score": 0.9,
+    "corroborating_agents": [
+      "delight",
+      "sentiment"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": false,
+    "verbal_quote": "What! Bro... what!"
+  }
+]

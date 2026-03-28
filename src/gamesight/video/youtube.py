@@ -44,10 +44,16 @@ def extract_youtube_video_id(url: str) -> str:
     )
 
 
-def _extract_metadata_sync(url: str) -> YouTubeMetadata:
+def _extract_metadata_sync(url: str, cookies_path: str | None = None) -> YouTubeMetadata:
     if not is_youtube_url(url):
         raise ValueError("youtube_url must be a valid YouTube watch or share URL.")
-    with yt_dlp.YoutubeDL({"quiet": True, "noplaylist": True}) as downloader:
+    opts: dict[str, object] = {"quiet": True, "noplaylist": True}
+    if cookies_path:
+        from pathlib import Path
+
+        if Path(cookies_path).is_file():
+            opts["cookiefile"] = cookies_path
+    with yt_dlp.YoutubeDL(opts) as downloader:  # pyright: ignore[reportArgumentType]
         info = downloader.extract_info(url, download=False)
     duration_seconds = float(info.get("duration") or 0)
     if duration_seconds <= 0:
@@ -61,20 +67,21 @@ def _extract_metadata_sync(url: str) -> YouTubeMetadata:
     )
 
 
-async def fetch_youtube_metadata(url: str) -> YouTubeMetadata:
-    return await asyncio.to_thread(_extract_metadata_sync, url)
+async def fetch_youtube_metadata(url: str, cookies_path: str | None = None) -> YouTubeMetadata:
+    return await asyncio.to_thread(_extract_metadata_sync, url, cookies_path)
 
 
 async def resolve_youtube_metadata(
     url: str,
     *,
     duration_seconds_override: float | None,
+    cookies_path: str | None = None,
 ) -> YouTubeMetadata:
     override_duration = duration_seconds_override
     metadata: YouTubeMetadata | None = None
 
     try:
-        metadata = await fetch_youtube_metadata(url)
+        metadata = await fetch_youtube_metadata(url, cookies_path)
     except Exception as exc:
         if override_duration is None:
             raise RuntimeError(

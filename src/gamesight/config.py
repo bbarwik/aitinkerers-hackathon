@@ -53,6 +53,7 @@ class Settings(BaseSettings):
     llm_retry_delays_seconds: tuple[int, ...] = LLM_RETRY_DELAYS_SECONDS
     debug_llm: bool = Field(default=False, validation_alias="DEBUG_LLM")
     max_duration_seconds: float = Field(default=DEFAULT_MAX_DURATION_SECONDS, validation_alias="MAX_DURATION_SECONDS")
+    youtube_cookies_path: str | None = Field(default=None, validation_alias="YOUTUBE_COOKIES_PATH")
 
     @property
     def chunks_dir(self) -> Path:

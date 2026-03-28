@@ -28,7 +28,7 @@ class Repository:
         self.database_path = Path(database_path or get_settings().database_path)
 
     async def _fetch_one(self, query: str, parameters: tuple[object, ...]) -> dict[str, object] | None:
-        async with await get_connection(self.database_path) as db:
+        async with get_connection(self.database_path) as db:
             async with db.execute(query, parameters) as cursor:
                 row = await cursor.fetchone()
         return None if row is None else dict(row)
@@ -41,7 +41,7 @@ class Repository:
         source_type: str,
         filename: str,
     ) -> None:
-        async with await get_connection(self.database_path) as db:
+        async with get_connection(self.database_path) as db:
             await db.execute(
                 """
                 INSERT INTO videos (id, source, source_type, filename, duration_seconds, status, error_message)
@@ -58,7 +58,7 @@ class Repository:
             await db.commit()
 
     async def upsert_video_info(self, video: VideoInfo, *, status: str, error_message: str | None) -> None:
-        async with await get_connection(self.database_path) as db:
+        async with get_connection(self.database_path) as db:
             await db.execute(
                 """
                 INSERT INTO videos (id, source, source_type, filename, duration_seconds, status, error_message)
@@ -84,7 +84,7 @@ class Repository:
             await db.commit()
 
     async def update_video_status(self, video_id: str, *, status: str, error_message: str | None) -> None:
-        async with await get_connection(self.database_path) as db:
+        async with get_connection(self.database_path) as db:
             await db.execute(
                 "UPDATE videos SET status = ?, error_message = ? WHERE id = ?",
                 (status, error_message, video_id),
@@ -101,7 +101,7 @@ class Repository:
         agent_type: str,
         analysis: BaseModel,
     ) -> None:
-        async with await get_connection(self.database_path) as db:
+        async with get_connection(self.database_path) as db:
             await db.execute(
                 """
                 INSERT INTO chunk_analyses (
@@ -125,7 +125,7 @@ class Repository:
             await db.commit()
 
     async def save_timeline(self, video_id: str, timeline: VideoTimeline) -> None:
-        async with await get_connection(self.database_path) as db:
+        async with get_connection(self.database_path) as db:
             await db.execute(
                 """
                 INSERT INTO video_timelines (video_id, timeline_json, game_title)
@@ -139,7 +139,7 @@ class Repository:
             await db.commit()
 
     async def save_report(self, video_id: str, report: VideoReport) -> None:
-        async with await get_connection(self.database_path) as db:
+        async with get_connection(self.database_path) as db:
             await db.execute(
                 """
                 INSERT INTO video_reports (
@@ -165,7 +165,7 @@ class Repository:
             await db.commit()
 
     async def list_videos(self) -> list[StoredVideo]:
-        async with await get_connection(self.database_path) as db:
+        async with get_connection(self.database_path) as db:
             rows = await db.execute_fetchall("SELECT * FROM videos ORDER BY created_at DESC")
         return [StoredVideo.model_validate(dict(row)) for row in rows]
 
@@ -194,7 +194,7 @@ class Repository:
         return VideoReport.model_validate(payload)
 
     async def get_all_reports(self, game_key: str | None = None) -> list[VideoReport]:
-        async with await get_connection(self.database_path) as db:
+        async with get_connection(self.database_path) as db:
             if game_key:
                 rows = await db.execute_fetchall(
                     "SELECT report_json FROM video_reports WHERE json_extract(report_json, '$.game_key') = ?",
@@ -211,7 +211,7 @@ class Repository:
         return reports
 
     async def save_study_report(self, game_key: str, study: StudyReport) -> None:
-        async with await get_connection(self.database_path) as db:
+        async with get_connection(self.database_path) as db:
             await db.execute(
                 """INSERT INTO study_reports (game_key, game_title, report_json, session_count)
                    VALUES (?, ?, ?, ?)

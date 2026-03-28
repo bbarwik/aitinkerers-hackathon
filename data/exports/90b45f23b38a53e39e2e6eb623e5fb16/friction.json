@@ -1,0 +1,129 @@
+[
+  {
+    "agent_kind": "friction",
+    "source_label": "other",
+    "absolute_seconds": 52.0,
+    "absolute_timestamp": "0:52",
+    "summary": "The extended length of the black screen led the player to doubt her hardware's ability to run the game.",
+    "game_context": "The initial launch loading screen between the intro and the game title logo.",
+    "evidence": [
+      "Empty black screen",
+      "Loading icon activity",
+      "Nervous laughter",
+      "Anxious vocal tone",
+      "Scene: Static black loading screen with a small blue spinning icon in the corner while the player waits for the title to appear.",
+      "Expression: The player leans forward to inspect the monitor, eyes wide with a furrowed brow, and touches her hair nervously.",
+      "Quote: Oh my god. Is my computer breaking?",
+      "Quote: This isn't good.",
+      "Quote: I knew the graphics would be heavy but not like this."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 0,
+    "segment_label": "initial_loading",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "quality",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "camera",
+    "absolute_seconds": 280.0,
+    "absolute_timestamp": "4:40",
+    "summary": "The character creator camera does not automatically pivot to a profile view when the player selects side-facing features, creating a disconnect between the menu selection and the visual feedback.",
+    "game_context": "The player is attempting to evaluate different ear shapes on her character model.",
+    "evidence": [
+      "Cycling through ear presets 01 through 04 while the character model remains in a static forward-facing position",
+      "Uncertain vocal tone",
+      "Scene: Ear selection sub-menu within the character customization interface.",
+      "Expression: Slightly squints and tilts her head toward the screen while attempting to discern changes from a front-on perspective.",
+      "Quote: I can't even see my ears really."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 1,
+    "segment_label": "character_customization",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "ui_confusion",
+    "absolute_seconds": 510.0,
+    "absolute_timestamp": "8:30",
+    "summary": "Unclear UI feedback regarding why a specific customization slider is unavailable.",
+    "game_context": "The 'Accent Color' slider in the Lip Makeup menu is dependent on specific styles, but the UI does not explicitly explain this dependency.",
+    "evidence": [
+      "Rapidly toggling through Lip Makeup styles",
+      "Hovering over the 'Accent Color' slider while it is greyed out",
+      "Inquisitive and slightly confused tone",
+      "Scene: Lip Makeup customization sub-menu.",
+      "Expression: The player leans in slightly, brow furrowed as she watches the 'Accent Color' slider lock and unlock based on the selected lip style.",
+      "Quote: What is up with that accent color?"
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 2,
+    "segment_label": "character_creation",
+    "confidence_score": 0.95,
+    "corroborating_agents": [
+      "clarity",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  },
+  {
+    "agent_kind": "friction",
+    "source_label": "ui_confusion",
+    "absolute_seconds": 543.0,
+    "absolute_timestamp": "9:03",
+    "summary": "Expectation of more granular color control for decorative facial elements.",
+    "game_context": "The player expected independent color control for facial decorations (blemishes) that are instead tied to the primary cheek makeup color.",
+    "evidence": [
+      "Selecting the 'Heart' blemish (Cheek Makeup 12)",
+      "Scanning the color grid for a specific pink option for the hearts",
+      "Disappointed but curious tone",
+      "Scene: Cheek Makeup and Blemishes customization menu.",
+      "Expression: Slightly narrowed eyes as she tries to find a separate color toggle for the decorative heart marks.",
+      "Quote: I thought you could make like the hearts pink or something."
+    ],
+    "severity_numeric": 2,
+    "source_chunk_index": 2,
+    "segment_label": "character_creation",
+    "confidence_score": 1.0,
+    "corroborating_agents": [
+      "clarity",
+      "delight",
+      "sentiment",
+      "verbal"
+    ],
+    "sentiment_raw_score": null,
+    "retry_total_attempts": null,
+    "retry_quit_signal": null,
+    "retry_final_outcome": null,
+    "verbal_is_actionable": null,
+    "verbal_quote": null
+  }
+]

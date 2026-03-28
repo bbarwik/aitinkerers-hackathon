@@ -1,0 +1,454 @@
+{
+  "video_id": "90b45f23b38a53e39e2e6eb623e5fb16",
+  "game_title": "Cyberpunk 2077",
+  "session_arc": "[0:00-5:00] The player starts with high excitement and energy, which briefly dips into mild anxiety during a long loading screen. Once the game starts, she becomes focused and contemplative as she makes narrative and aesthetic choices for her character.\n[4:00-9:00] The player remains highly engaged and enthusiastic throughout the customization process. Her mood is primarily one of curiosity and creative satisfaction, punctuated by moments of genuine excitement when she discovers particularly 'cool' or 'slay' options like the chrome teeth or specific cyberware.\n[8:00-10:00] The player maintains a high level of creative enthusiasm throughout the first half. Her mood shifts to lighthearted amusement and genuine surprise as she discovers the more explicit and granular body customization options in the latter half.",
+  "chunk_summaries": [
+    "The player, Libby, introduces her blind playthrough of Cyberpunk 2077, showcasing her themed makeup. After a brief technical worry during the loading screen, she watches the game's opening cinematic and begins the character creation process, choosing the 'Corpo' lifepath.",
+    "Libby continues her character creation process in Cyberpunk 2077, focusing on fine-tuning her character's aesthetic. She explores a wide range of options, from skin texture and hair color to cybernetic enhancements and facial tattoos, aiming for a 'punk' look with a 'corporate' background.",
+    "Libby finalizes her character customization for 'V' in Cyberpunk 2077. She focuses on fine details like makeup, nail color, and tattoos before moving into more explicit customization options for body parts, which she reacts to with surprise and amusement."
+  ],
+  "objectives": [
+    "Start a new game of Cyberpunk 2077 and create a custom character.",
+    "Finalize the visual appearance of her character, 'V', by exploring and selecting various customization options.",
+    "Finalize character creation and aesthetic choices for V."
+  ],
+  "active_threads": [
+    "character_creation_completion"
+  ],
+  "events": [
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 0.0,
+      "absolute_timestamp": "0:00",
+      "relative_timestamp": "0:00",
+      "visual_observation": "The player is on camera, facing the microphone with Cyberpunk-themed makeup.",
+      "audio_observation": "The player introduces her playthrough and thanks her supporters.",
+      "player_expression": "The player is smiling, animated, and uses hand gestures while speaking.",
+      "event_description": "The player introduces herself and the game she's about to play.",
+      "phase_kind": "other",
+      "significance": "routine",
+      "segment_label": "intro"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 45.0,
+      "absolute_timestamp": "0:45",
+      "relative_timestamp": "0:45",
+      "visual_observation": "The screen is black with a small loading icon in the bottom left.",
+      "audio_observation": "The player expresses concern that her computer might be breaking due to the long load time.",
+      "player_expression": "The player's face is shown in a small inset; she looks slightly worried and touches her hair.",
+      "event_description": "The player waits for the game to load and shares her expectations for the game's music.",
+      "phase_kind": "loading",
+      "significance": "notable",
+      "segment_label": "initial_loading"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 60.0,
+      "absolute_timestamp": "1:00",
+      "relative_timestamp": "1:00",
+      "visual_observation": "A cinematic plays showing various scenes of Night City.",
+      "audio_observation": "A news anchor's voiceover describes the state of Night City over upbeat music.",
+      "player_expression": "The player watches intently, nodding and smiling at the visuals and music.",
+      "event_description": "The opening cinematic introduces the world of Night City.",
+      "phase_kind": "cutscene",
+      "significance": "pivotal",
+      "segment_label": "opening_cinematic"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 125.0,
+      "absolute_timestamp": "2:05",
+      "relative_timestamp": "2:05",
+      "visual_observation": "The difficulty selection menu is displayed on screen.",
+      "audio_observation": "The player discusses her choice and decides on 'Normal' difficulty.",
+      "player_expression": "The player looks thoughtful as she reads the descriptions.",
+      "event_description": "The player selects the 'Normal' difficulty level.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "difficulty_selection"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 135.0,
+      "absolute_timestamp": "2:15",
+      "relative_timestamp": "2:15",
+      "visual_observation": "The screen displays the three lifepath options: Nomad, Streetkid, and Corpo.",
+      "audio_observation": "The player reads the descriptions of each lifepath and considers which one fits her character vision.",
+      "player_expression": "The player is engaged, leaning forward and gesturing as she explains her character concept.",
+      "event_description": "The player chooses the 'Corpo' lifepath for her character.",
+      "phase_kind": "menu",
+      "significance": "pivotal",
+      "segment_label": "lifepath_selection"
+    },
+    {
+      "source_chunk_index": 0,
+      "absolute_seconds": 235.0,
+      "absolute_timestamp": "3:55",
+      "relative_timestamp": "3:55",
+      "visual_observation": "The character customization screen is shown, with a female character model.",
+      "audio_observation": "The player comments on the character's appearance and the customization options.",
+      "player_expression": "The player is focused and occasionally smiles as she makes adjustments.",
+      "event_description": "The player begins customizing her character's appearance, starting with the body type and basic presets.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "character_customization"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 283.0,
+      "absolute_timestamp": "4:43",
+      "relative_timestamp": "0:43",
+      "visual_observation": "The player is exploring 'Cyberware', 'Facial Scars', and 'Facial Tattoos' options.",
+      "audio_observation": "The player expresses excitement about the 'cyberware' and the texture of some facial scars.",
+      "player_expression": "Her eyes widen in surprise at some of the more intense scar and tattoo options.",
+      "event_description": "Libby experiments with different cybernetic implants and facial markings, aiming for a balanced look.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "character_customization"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 388.0,
+      "absolute_timestamp": "6:28",
+      "relative_timestamp": "2:28",
+      "visual_observation": "The player is looking at the 'Teeth' customization options, specifically the 'Chrome' teeth.",
+      "audio_observation": "The player reacts with excitement, saying 'chrome teeth is kind of a fucking vibe'.",
+      "player_expression": "She smiles broadly, clearly amused and pleased by the option.",
+      "event_description": "Libby decides to give her character 'chrome' teeth, finding it to be a cool aesthetic choice.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "character_customization"
+    },
+    {
+      "source_chunk_index": 1,
+      "absolute_seconds": 420.0,
+      "absolute_timestamp": "7:00",
+      "relative_timestamp": "3:00",
+      "visual_observation": "The player is adjusting 'Eye Makeup' and 'Lip Makeup' styles and colors.",
+      "audio_observation": "The player comments that she 'could do this all day' and aims for a 'super punk' but 'clean' look.",
+      "player_expression": "She is deeply concentrated, leaning in closer to the screen to see the details of the makeup.",
+      "event_description": "Libby spends considerable time fine-tuning her character's makeup, balancing punk influences with her corporate background.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "character_customization"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 530.0,
+      "absolute_timestamp": "8:50",
+      "relative_timestamp": "0:50",
+      "visual_observation": "The player is browsing 'Cheek Makeup' and 'Blemishes'.",
+      "audio_observation": "The player thinks the little hearts are 'cute'.",
+      "player_expression": "The player smiles as she discovers more decorative options.",
+      "event_description": "The player explores facial decorations, deciding on a heart-shaped cheek makeup.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "character_creation"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 555.0,
+      "absolute_timestamp": "9:15",
+      "relative_timestamp": "1:15",
+      "visual_observation": "The player navigates to the 'Nail Color' menu.",
+      "audio_observation": "The player decides to go 'chrome' to match the character's teeth.",
+      "player_expression": "The player is pleased with her decision and nods in agreement with herself.",
+      "event_description": "The player selects chrome nails to match her previously selected metallic teeth.",
+      "phase_kind": "menu",
+      "significance": "routine",
+      "segment_label": "character_creation"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 570.0,
+      "absolute_timestamp": "9:30",
+      "relative_timestamp": "1:30",
+      "visual_observation": "The player navigates through body-related menus, including chest, nipples, and body tattoos.",
+      "audio_observation": "The player laughs and says, 'We can customize the nips!'.",
+      "player_expression": "The player is visibly amused and surprised by the level of detail.",
+      "event_description": "The player explores body customization options and expresses surprise at their granularity.",
+      "phase_kind": "menu",
+      "significance": "notable",
+      "segment_label": "character_creation"
+    },
+    {
+      "source_chunk_index": 2,
+      "absolute_seconds": 590.0,
+      "absolute_timestamp": "9:50",
+      "relative_timestamp": "1:50",
+      "visual_observation": "The player navigates through genital and pubic hair customization options.",
+      "audio_observation": "The player laughs and says, 'Bro... what!'.",
+      "player_expression": "The player is surprised and amused by the explicit customization options.",
+      "event_description": "The player reacts to the inclusion of genital customization in the game's menu.",
+      "phase_kind": "menu",
+      "significance": "pivotal",
+      "segment_label": "character_creation"
+    }
+  ],
+  "thread_records": [
+    {
+      "source_chunk_index": 0,
+      "thread_name": "character_creation_completion",
+      "evidence": "The player is still in the character customization menus as the segment ends.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 1,
+      "thread_name": "character_creation_completion",
+      "evidence": "The player is still in the middle of character customization, having not yet reached the attributes or name entry screens.",
+      "current_status": "active"
+    },
+    {
+      "source_chunk_index": 2,
+      "thread_name": "character_creation_completion",
+      "evidence": "The player is still in the character creation menu at the end of the segment.",
+      "current_status": "active"
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_index": 0,
+      "start_seconds": 0.0,
+      "end_seconds": 300.0,
+      "result": {
+        "chunk_summary": "The player, Libby, introduces her blind playthrough of Cyberpunk 2077, showcasing her themed makeup. After a brief technical worry during the loading screen, she watches the game's opening cinematic and begins the character creation process, choosing the 'Corpo' lifepath.",
+        "player_objective": "Start a new game of Cyberpunk 2077 and create a custom character.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player is on camera, facing the microphone with Cyberpunk-themed makeup.",
+            "audio_observation": "The player introduces her playthrough and thanks her supporters.",
+            "player_expression": "The player is smiling, animated, and uses hand gestures while speaking.",
+            "event_description": "The player introduces herself and the game she's about to play.",
+            "phase_kind": "other",
+            "significance": "routine",
+            "segment_label": "intro"
+          },
+          {
+            "relative_timestamp": "0:45",
+            "visual_observation": "The screen is black with a small loading icon in the bottom left.",
+            "audio_observation": "The player expresses concern that her computer might be breaking due to the long load time.",
+            "player_expression": "The player's face is shown in a small inset; she looks slightly worried and touches her hair.",
+            "event_description": "The player waits for the game to load and shares her expectations for the game's music.",
+            "phase_kind": "loading",
+            "significance": "notable",
+            "segment_label": "initial_loading"
+          },
+          {
+            "relative_timestamp": "1:00",
+            "visual_observation": "A cinematic plays showing various scenes of Night City.",
+            "audio_observation": "A news anchor's voiceover describes the state of Night City over upbeat music.",
+            "player_expression": "The player watches intently, nodding and smiling at the visuals and music.",
+            "event_description": "The opening cinematic introduces the world of Night City.",
+            "phase_kind": "cutscene",
+            "significance": "pivotal",
+            "segment_label": "opening_cinematic"
+          },
+          {
+            "relative_timestamp": "2:05",
+            "visual_observation": "The difficulty selection menu is displayed on screen.",
+            "audio_observation": "The player discusses her choice and decides on 'Normal' difficulty.",
+            "player_expression": "The player looks thoughtful as she reads the descriptions.",
+            "event_description": "The player selects the 'Normal' difficulty level.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "difficulty_selection"
+          },
+          {
+            "relative_timestamp": "2:15",
+            "visual_observation": "The screen displays the three lifepath options: Nomad, Streetkid, and Corpo.",
+            "audio_observation": "The player reads the descriptions of each lifepath and considers which one fits her character vision.",
+            "player_expression": "The player is engaged, leaning forward and gesturing as she explains her character concept.",
+            "event_description": "The player chooses the 'Corpo' lifepath for her character.",
+            "phase_kind": "menu",
+            "significance": "pivotal",
+            "segment_label": "lifepath_selection"
+          },
+          {
+            "relative_timestamp": "3:55",
+            "visual_observation": "The character customization screen is shown, with a female character model.",
+            "audio_observation": "The player comments on the character's appearance and the customization options.",
+            "player_expression": "The player is focused and occasionally smiles as she makes adjustments.",
+            "event_description": "The player begins customizing her character's appearance, starting with the body type and basic presets.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "character_customization"
+          },
+          {
+            "relative_timestamp": "4:40",
+            "visual_observation": "The player is adjusting more detailed facial features like cyberware and facial scars.",
+            "audio_observation": "The player discusses the 'cyberware' and 'facial scars' options.",
+            "player_expression": "The player is concentrated on the fine details of the character's face.",
+            "event_description": "The player fine-tunes the character's facial features and cybernetic enhancements.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "character_customization"
+          }
+        ],
+        "emotional_trajectory": "The player starts with high excitement and energy, which briefly dips into mild anxiety during a long loading screen. Once the game starts, she becomes focused and contemplative as she makes narrative and aesthetic choices for her character.",
+        "pacing_breakdown": "The segment is divided between a live-action introduction (15%), a loading screen and cinematic (25%), and character creation menus (60%).",
+        "carryover_threads": [
+          {
+            "thread_name": "character_creation_completion",
+            "evidence": "The player is still in the character customization menus as the segment ends.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": false
+      }
+    },
+    {
+      "chunk_index": 1,
+      "start_seconds": 240.0,
+      "end_seconds": 540.0,
+      "result": {
+        "chunk_summary": "Libby continues her character creation process in Cyberpunk 2077, focusing on fine-tuning her character's aesthetic. She explores a wide range of options, from skin texture and hair color to cybernetic enhancements and facial tattoos, aiming for a 'punk' look with a 'corporate' background.",
+        "player_objective": "Finalize the visual appearance of her character, 'V', by exploring and selecting various customization options.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player is on the 'Set Vs Appearance' screen, scrolling through 'Skin Type' and 'Hairstyle' options.",
+            "audio_observation": "The player comments on the variety of skin types and her preference for a specific hairstyle.",
+            "player_expression": "The player is focused, occasionally smiling as she finds options she likes.",
+            "event_description": "Libby begins adjusting her character's skin type and hairstyle, eventually settling on a multi-colored bob.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "character_customization"
+          },
+          {
+            "relative_timestamp": "0:23",
+            "visual_observation": "The player opens the 'Hair Color' palette and browses through the different colors.",
+            "audio_observation": "The player considers several colors, noting that 'orange is kind of slay'.",
+            "player_expression": "She looks thoughtful and intrigued by the color choices.",
+            "event_description": "Libby explores various hair colors, eventually deciding to stick with the initial pink and blue combination.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "character_customization"
+          },
+          {
+            "relative_timestamp": "0:43",
+            "visual_observation": "The player is exploring 'Cyberware', 'Facial Scars', and 'Facial Tattoos' options.",
+            "audio_observation": "The player expresses excitement about the 'cyberware' and the texture of some facial scars.",
+            "player_expression": "Her eyes widen in surprise at some of the more intense scar and tattoo options.",
+            "event_description": "Libby experiments with different cybernetic implants and facial markings, aiming for a balanced look.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "character_customization"
+          },
+          {
+            "relative_timestamp": "2:28",
+            "visual_observation": "The player is looking at the 'Teeth' customization options, specifically the 'Chrome' teeth.",
+            "audio_observation": "The player reacts with excitement, saying 'chrome teeth is kind of a fucking vibe'.",
+            "player_expression": "She smiles broadly, clearly amused and pleased by the option.",
+            "event_description": "Libby decides to give her character 'chrome' teeth, finding it to be a cool aesthetic choice.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "character_customization"
+          },
+          {
+            "relative_timestamp": "3:00",
+            "visual_observation": "The player is adjusting 'Eye Makeup' and 'Lip Makeup' styles and colors.",
+            "audio_observation": "The player comments that she 'could do this all day' and aims for a 'super punk' but 'clean' look.",
+            "player_expression": "She is deeply concentrated, leaning in closer to the screen to see the details of the makeup.",
+            "event_description": "Libby spends considerable time fine-tuning her character's makeup, balancing punk influences with her corporate background.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "character_customization"
+          },
+          {
+            "relative_timestamp": "4:47",
+            "visual_observation": "The player is looking at the 'Cheek Makeup' options, specifically the small heart and star shapes.",
+            "audio_observation": "The player says 'cute, little hearts' while browsing the options.",
+            "player_expression": "She has a soft, appreciative smile on her face.",
+            "event_description": "Libby considers adding small decorative makeup elements to her character's cheeks.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "character_customization"
+          }
+        ],
+        "emotional_trajectory": "The player remains highly engaged and enthusiastic throughout the customization process. Her mood is primarily one of curiosity and creative satisfaction, punctuated by moments of genuine excitement when she discovers particularly 'cool' or 'slay' options like the chrome teeth or specific cyberware.",
+        "pacing_breakdown": "This entire segment is dedicated to navigating the character customization menus (100%). There is no gameplay, combat, or exploration in this chunk.",
+        "carryover_threads": [
+          {
+            "thread_name": "character_creation_completion",
+            "evidence": "The player is still in the middle of character customization, having not yet reached the attributes or name entry screens.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    },
+    {
+      "chunk_index": 2,
+      "start_seconds": 480.0,
+      "end_seconds": 600.0,
+      "result": {
+        "chunk_summary": "Libby finalizes her character customization for 'V' in Cyberpunk 2077. She focuses on fine details like makeup, nail color, and tattoos before moving into more explicit customization options for body parts, which she reacts to with surprise and amusement.",
+        "player_objective": "Finalize character creation and aesthetic choices for V.",
+        "events": [
+          {
+            "relative_timestamp": "0:00",
+            "visual_observation": "The player is in the 'Set V's Appearance' menu, adjusting 'Eye Makeup'.",
+            "audio_observation": "The player remarks that she likes 'the cat look' and '17 is clean'.",
+            "player_expression": "The player is focused and smiling, clearly enjoying the aesthetic choices.",
+            "event_description": "The player selects an eye makeup style and moves on to lip colors.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "character_creation"
+          },
+          {
+            "relative_timestamp": "0:50",
+            "visual_observation": "The player is browsing 'Cheek Makeup' and 'Blemishes'.",
+            "audio_observation": "The player thinks the little hearts are 'cute'.",
+            "player_expression": "The player smiles as she discovers more decorative options.",
+            "event_description": "The player explores facial decorations, deciding on a heart-shaped cheek makeup.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "character_creation"
+          },
+          {
+            "relative_timestamp": "1:15",
+            "visual_observation": "The player navigates to the 'Nail Color' menu.",
+            "audio_observation": "The player decides to go 'chrome' to match the character's teeth.",
+            "player_expression": "The player is pleased with her decision and nods in agreement with herself.",
+            "event_description": "The player selects chrome nails to match her previously selected metallic teeth.",
+            "phase_kind": "menu",
+            "significance": "routine",
+            "segment_label": "character_creation"
+          },
+          {
+            "relative_timestamp": "1:30",
+            "visual_observation": "The player navigates through body-related menus, including chest, nipples, and body tattoos.",
+            "audio_observation": "The player laughs and says, 'We can customize the nips!'.",
+            "player_expression": "The player is visibly amused and surprised by the level of detail.",
+            "event_description": "The player explores body customization options and expresses surprise at their granularity.",
+            "phase_kind": "menu",
+            "significance": "notable",
+            "segment_label": "character_creation"
+          },
+          {
+            "relative_timestamp": "1:50",
+            "visual_observation": "The player navigates through genital and pubic hair customization options.",
+            "audio_observation": "The player laughs and says, 'Bro... what!'.",
+            "player_expression": "The player is surprised and amused by the explicit customization options.",
+            "event_description": "The player reacts to the inclusion of genital customization in the game's menu.",
+            "phase_kind": "menu",
+            "significance": "pivotal",
+            "segment_label": "character_creation"
+          }
+        ],
+        "emotional_trajectory": "The player maintains a high level of creative enthusiasm throughout the first half. Her mood shifts to lighthearted amusement and genuine surprise as she discovers the more explicit and granular body customization options in the latter half.",
+        "pacing_breakdown": "The entire segment (100%) is spent in the character customization menus.",
+        "carryover_threads": [
+          {
+            "thread_name": "character_creation_completion",
+            "evidence": "The player is still in the character creation menu at the end of the segment.",
+            "current_status": "active"
+          }
+        ],
+        "has_high_interest_moments": true
+      }
+    }
+  ]
+}
