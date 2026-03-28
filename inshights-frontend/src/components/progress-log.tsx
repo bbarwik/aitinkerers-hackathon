@@ -12,7 +12,12 @@ export function ProgressLog({
   const bottomRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: "smooth" })
+    const el = bottomRef.current
+    if (!el) return
+    const viewport = el.closest("[data-radix-scroll-area-viewport]")
+    if (viewport) {
+      viewport.scrollTop = viewport.scrollHeight
+    }
   }, [messages.length])
 
   if (messages.length === 0) return null
