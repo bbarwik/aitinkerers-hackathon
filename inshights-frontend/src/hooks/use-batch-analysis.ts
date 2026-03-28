@@ -56,8 +56,19 @@ export function useBatchAnalysis() {
         video_id: v.video_id,
         url: v.url,
         title: v.title,
+        channel_name: v.channel_name,
         platform: v.platform,
+        duration_seconds: v.duration_seconds,
+        view_count: v.view_count,
+        published_at: v.published_at,
+        thumbnail_url: v.thumbnail_url,
       }))
+
+      console.log("=== BATCH ANALYSIS REQUEST ===")
+      console.log("Endpoint: POST /api/videos/analyze/batch/stream")
+      console.log("Total videos:", payload.length)
+      console.log("Payload:", JSON.stringify({ videos: payload }, null, 2))
+      console.table(payload.map((v) => ({ video_id: v.video_id, title: v.title, url: v.url, platform: v.platform, duration: v.duration_seconds })))
 
       const resp = await fetch("/api/videos/analyze/batch/stream", {
         method: "POST",

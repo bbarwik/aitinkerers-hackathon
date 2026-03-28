@@ -148,7 +148,8 @@ class ResearchDiscoverer:
                 await progress(f"Verification failed, keeping all candidates")
 
         # Rank with content type priority: stream/gameplay/commentary first, reviews last
-        popular = sorted(filtered, key=lambda v: (self._content_priority(v.content_type), v.view_count or 0), reverse=True)[: self.popular_limit]
+        yt_only = [v for v in filtered if v.platform.value == "youtube"]
+        popular = sorted(yt_only, key=lambda v: (self._content_priority(v.content_type), v.view_count or 0), reverse=True)[: self.popular_limit]
         recent = sorted(filtered, key=lambda v: (self._content_priority(v.content_type), v.published_at or datetime.min.replace(tzinfo=timezone.utc)), reverse=True)[: self.recent_limit]
 
         source_counts = Counter(v.platform.value for v in filtered)
