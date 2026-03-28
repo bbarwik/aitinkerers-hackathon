@@ -1,4 +1,5 @@
 import { useCallback, useRef, useState } from "react"
+import { getCachedResult, setCachedResult } from "@/lib/discover-cache"
 
 export type DiscoveredVideo = {
   platform: "youtube" | "twitch"
@@ -62,6 +63,15 @@ export function useDiscover() {
     const controller = new AbortController()
     abortRef.current = controller
 
+    // Check frontend cache first (skip on refresh)
+    if (!refresh) {
+      const cached = await getCachedResult(gameName, period, dateFrom, dateTo)
+      if (cached) {
+        setState({ status: "done", progress: [], result: { ...cached, cached: true }, error: null })
+        return
+      }
+    }
+
     setState({ status: "loading", progress: [], result: null, error: null })
 
     const body: Record<string, unknown> = { game_name: gameName, refresh, period }
@@ -102,6 +112,7 @@ export function useDiscover() {
                 progress: [...s.progress, event.message],
               }))
             } else if (event.type === "result") {
+              setCachedResult(gameName, period, dateFrom, dateTo, event.data)
               setState((s) => ({
                 ...s,
                 status: "done",
