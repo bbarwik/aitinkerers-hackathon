@@ -55,6 +55,7 @@ class AnalysisConfig(BaseModel):
 
     game_title: str | None = None
     game_genre: str = DEFAULT_GAME_GENRE
+    duration_seconds: float | None = None
     upload_concurrency: int = UPLOAD_CONCURRENCY
     chunk_concurrency: int = CHUNK_CONCURRENCY
     keep_chunk_files: bool = False
@@ -99,6 +100,38 @@ def relative_to_absolute(relative_timestamp: str, chunk_start_seconds: float) ->
     return absolute_seconds, to_mmss(absolute_seconds)
 
 
+def validate_relative_timestamp(
+    relative_timestamp: str,
+    chunk_start_seconds: float,
+    chunk_duration_seconds: float,
+) -> str:
+    stripped_timestamp = relative_timestamp.strip()
+    parts = stripped_timestamp.split(":")
+    if len(parts) not in {2, 3}:
+        raise ValueError(
+            f"Invalid timestamp {relative_timestamp!r}. Expected MM:SS or HH:MM:SS relative to the current chunk."
+        )
+    if any(not part for part in parts):
+        raise ValueError(f"Invalid timestamp {relative_timestamp!r}. Timestamp parts cannot be empty.")
+
+    parsed_seconds = parse_mmss(stripped_timestamp)
+    if parsed_seconds < 0:
+        raise ValueError(f"Invalid timestamp {relative_timestamp!r}. Relative timestamps must be non-negative.")
+
+    if parsed_seconds <= chunk_duration_seconds:
+        return to_mmss(parsed_seconds)
+
+    chunk_end_seconds = chunk_start_seconds + chunk_duration_seconds
+    if chunk_start_seconds <= parsed_seconds <= chunk_end_seconds:
+        return to_mmss(parsed_seconds - chunk_start_seconds)
+
+    raise ValueError(
+        f"Timestamp {relative_timestamp!r} is outside chunk bounds. "
+        f"Expected a chunk-relative timestamp between 00:00 and {to_mmss(chunk_duration_seconds)}, "
+        f"or an absolute timestamp between {to_mmss(chunk_start_seconds)} and {to_mmss(chunk_end_seconds)}."
+    )
+
+
 def format_list(items: Sequence[str]) -> str:
     if not items:
         return "None."
@@ -136,4 +169,5 @@ __all__ = [
     "parse_mmss",
     "relative_to_absolute",
     "to_mmss",
+    "validate_relative_timestamp",
 ]

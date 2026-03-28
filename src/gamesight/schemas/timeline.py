@@ -30,6 +30,9 @@ class TimelineChunkResult(BaseModel):
     player_objective: str = Field(description="What the player is trying to accomplish")
     events: list[TimelineMoment] = Field(description="3-8 significant moments, chronological")
     emotional_trajectory: str = Field(description="How player emotion evolves in this segment")
+    pacing_breakdown: str = Field(
+        description="How the chunk's time is distributed across gameplay phases such as menus, exploration, combat, cutscenes, or loading"
+    )
     carryover_threads: list[CarryoverThread] = Field(description="Unresolved threads for next segment")
     has_high_interest_moments: bool = Field(description="True if segment warrants detailed analysis")
 

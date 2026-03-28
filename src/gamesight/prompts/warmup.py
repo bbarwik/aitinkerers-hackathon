@@ -1,16 +1,14 @@
-WARMUP_PROMPT_TEMPLATE = """Review this gameplay segment together with the session context below.
+WARMUP_PROMPT_TEMPLATE = """Review the attached gameplay segment and all attached session context.
 
-Game: {game_title} ({game_genre})
-Session context for this segment:
-{timeline_context}
-
-Reply with four short bullets:
-- current gameplay situation
-- whether player speech is present
-- what looks most important to watch for
-- whether any prior issue continues here
+Reply with short bullets covering:
+- current gameplay state
+- current player objective
+- major carryover threads still active
+- recurring friction or clarity patterns already established
+- what will matter most for the next specialized analyses
 
 Do not perform specialized analysis yet.
+Do not ignore the earlier session context.
 """
 
 __all__ = ["WARMUP_PROMPT_TEMPLATE"]

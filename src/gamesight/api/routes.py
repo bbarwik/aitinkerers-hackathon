@@ -22,6 +22,7 @@ class AnalyzeRequest(BaseModel):
     youtube_url: str | None = None
     game_title: str | None = None
     game_genre: str = DEFAULT_GAME_GENRE
+    duration_seconds: float | None = None
 
     @model_validator(mode="after")
     def exactly_one_source(self) -> "AnalyzeRequest":
@@ -90,7 +91,11 @@ async def analyze_video(
         client,
         repository,
         source,
-        AnalysisConfig(game_title=request_model.game_title, game_genre=request_model.game_genre),
+        AnalysisConfig(
+            game_title=request_model.game_title,
+            game_genre=request_model.game_genre,
+            duration_seconds=request_model.duration_seconds,
+        ),
         video_id=video_id,
     )
     return AnalyzeResponse(video_id=video_id, status="queued")

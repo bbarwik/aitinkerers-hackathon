@@ -7,8 +7,10 @@ class QualityIssue(BaseModel):
     model_config = ConfigDict()
 
     relative_timestamp: str = Field(description="MM:SS from chunk start")
+    scene_description: str = Field(description="The environment, room, encounter, or screen where the issue appears")
     visual_symptoms: list[str] = Field(description="Clipping, T-pose, pop-in, frame drop")
     audio_symptoms: list[str] = Field(description="Missing SFX, desync. 'None' if fine")
+    verbal_feedback: list[str] = Field(description="Full direct player quotes or vocal reactions related to this issue")
     player_reaction: str = Field(description="Noticed and commented, ignored, or not noticed")
     reproduction_context: str = Field(description="What was happening: area, action, game state")
     gameplay_impact: str = Field(description="cosmetic_only, disrupted_flow, or blocked_progress")

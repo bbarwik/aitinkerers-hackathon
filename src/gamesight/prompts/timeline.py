@@ -6,6 +6,8 @@ Use all available channels:
 - Player face/body: if a facecam is visible, note facial expressions (frustration, joy, surprise, boredom), posture changes, gestures
 
 Timestamps are relative to the current chunk start (00:00).
+Every returned timestamp must be between 00:00 and {chunk_max_mmss}.
+Do not use the video's absolute session time.
 This chunk covers {start_mmss} to {end_mmss} of a {total_duration_mmss} session.
 It is segment {chunk_index} of {total_chunks}.
 
@@ -20,6 +22,7 @@ A significant moment is any point where:
 - Something unusual happens (death, achievement, discovery, bug, cutscene)
 - The player pauses, opens menus, or breaks from active play
 
+Include a pacing_breakdown describing how time in this chunk was distributed across phases such as menus, exploration, combat, loading, and cutscenes.
 Note any threads that carry into the next segment.
 """
 

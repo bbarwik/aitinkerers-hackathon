@@ -12,6 +12,13 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("source", help="Local MP4 path or YouTube URL")
     parser.add_argument("--game-title", dest="game_title", default=None, help="Optional game title override")
     parser.add_argument("--game-genre", dest="game_genre", default="unknown", help="Optional game genre label")
+    parser.add_argument(
+        "--duration-seconds",
+        dest="duration_seconds",
+        type=float,
+        default=None,
+        help="Optional source duration override, mainly for YouTube when metadata lookup fails",
+    )
     parser.add_argument("--keep-chunks", action="store_true", help="Keep local ffmpeg chunk files after analysis")
     return parser
 
@@ -28,6 +35,7 @@ async def _main() -> int:
             AnalysisConfig(
                 game_title=args.game_title,
                 game_genre=args.game_genre,
+                duration_seconds=args.duration_seconds,
                 keep_chunk_files=args.keep_chunks,
                 upload_concurrency=settings.upload_concurrency,
                 chunk_concurrency=settings.chunk_concurrency,

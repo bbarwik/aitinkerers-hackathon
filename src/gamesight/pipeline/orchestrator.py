@@ -3,6 +3,7 @@ from pathlib import Path
 from uuid import NAMESPACE_URL, uuid5
 
 import google.genai as genai
+from google.genai import types
 
 from gamesight.config import AnalysisConfig, ensure_directories, get_settings
 from gamesight.db.repository import Repository
@@ -14,7 +15,7 @@ from gamesight.pipeline.timeline_pass import run_timeline_pass
 from gamesight.schemas.enums import VideoSourceType
 from gamesight.schemas.report import ProcessedVideo
 from gamesight.schemas.video import VideoInfo
-from gamesight.video import chunk_video, compute_chunks, fetch_youtube_metadata, is_youtube_url, probe_video
+from gamesight.video import chunk_video, compute_chunks, is_youtube_url, probe_video, resolve_youtube_metadata
 
 
 def derive_video_id(source: str) -> str:
@@ -45,11 +46,14 @@ async def process_video(
     ensure_directories(settings)
     resolved_config = analysis_config or AnalysisConfig()
     video_id = derive_video_id(source)
-    uploaded_files: dict[int, object] = {}
+    uploaded_files: dict[int, types.File] = {}
     chunk_file_paths: list[str] = []
 
     if is_youtube_url(source):
-        metadata = await fetch_youtube_metadata(source)
+        metadata = await resolve_youtube_metadata(
+            source,
+            duration_seconds_override=resolved_config.duration_seconds,
+        )
         video = VideoInfo(
             video_id=video_id,
             source_type=VideoSourceType.YOUTUBE,

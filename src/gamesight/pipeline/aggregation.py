@@ -1,4 +1,5 @@
 from collections import Counter
+from typing import Final
 
 from gamesight.schemas.report import DeduplicatedAnalyses, VideoReport
 from gamesight.schemas.video import ChunkAnalysisBundle, VideoInfo, VideoTimeline
@@ -6,6 +7,17 @@ from gamesight.schemas.video import ChunkAnalysisBundle, VideoInfo, VideoTimelin
 STOP_RISK_ORDER = {"none": 0, "low": 1, "medium": 2, "high": 3}
 FRICTION_ORDER = {"minor": 0, "moderate": 1, "major": 2, "severe": 3}
 ENGAGEMENT_ORDER = {"light": 0, "clear": 1, "strong": 2, "signature": 3}
+FRICTION_SOURCE_LABELS: Final[dict[str, str]] = {
+    "difficulty_spike": "difficulty spikes",
+    "unclear_objective": "unclear objectives",
+    "controls": "control issues",
+    "camera": "camera problems",
+    "bug": "technical bugs",
+    "repetition": "repetitive gameplay",
+    "unfair_mechanic": "perceived unfair mechanics",
+    "ui_confusion": "UI confusion",
+    "other": "miscellaneous friction sources",
+}
 
 
 def _order_value(ordering: dict[str, int], value: str) -> int:
@@ -25,9 +37,11 @@ def _build_recommendations(
 ) -> list[str]:
     recommendations: list[str] = []
     for driver in stop_risk_drivers[:2]:
-        recommendations.append(f"Reduce {driver.replace('_', ' ')} friction in the highest-risk gameplay beats.")
+        label = FRICTION_SOURCE_LABELS.get(driver, driver.replace("_", " "))
+        recommendations.append(f"Reduce {label} in the highest-risk gameplay beats.")
     for clarity_fix in clarity_fixes[:2]:
-        recommendations.append(f"Prioritize this communication fix: {clarity_fix}.")
+        fix_text = clarity_fix.rstrip(".")
+        recommendations.append(f"Prioritize this communication fix: {fix_text}.")
     if bug_count > 0:
         recommendations.append(f"Triage the {bug_count} visible technical issues surfaced during the session.")
     if praised_features:

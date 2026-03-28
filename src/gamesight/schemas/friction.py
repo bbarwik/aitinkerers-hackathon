@@ -7,15 +7,21 @@ class FrictionMoment(BaseModel):
     model_config = ConfigDict()
 
     relative_timestamp: str = Field(description="MM:SS from chunk start")
+    scene_description: str = Field(description="The environment, room, encounter, or screen where the friction happens")
     visual_signals: list[str] = Field(description="Observable behavior: deaths, pausing, menu spam")
     audio_signals: list[str] = Field(description="Sighs, cursing, raised voice, defeated silence")
+    verbal_feedback: list[str] = Field(
+        description="Full direct player quotes or vocal reactions related to this moment"
+    )
     player_expression: str | None = Field(
         description="Facecam: facial expression, posture, gestures. None if no facecam visible"
     )
-    player_quote: str | None = Field(description="Direct quote if audible, else None")
     game_context: str = Field(description="What in-game element caused this")
     root_cause: str = Field(description="Why the player is frustrated")
     progress_impact: str = Field(description="How this affected momentum")
+    attempts_observed: int = Field(
+        description="How many distinct tries or retries were visible before or during this moment"
+    )
     source: FrictionSource = Field(description="The main source of frustration")
     severity: FrictionSeverity = Field(description="How severe this friction moment is")
     stop_risk: StopRisk = Field(description="Likelihood this moment makes the player stop")

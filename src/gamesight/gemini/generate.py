@@ -10,6 +10,12 @@ from gamesight.gemini.debug import log_interaction
 from gamesight.schemas.video import ChunkInfo
 
 ModelT = TypeVar("ModelT", bound=BaseModel)
+THINKING_LEVELS: dict[str, types.ThinkingLevel] = {
+    "minimal": types.ThinkingLevel.MINIMAL,
+    "low": types.ThinkingLevel.LOW,
+    "medium": types.ThinkingLevel.MEDIUM,
+    "high": types.ThinkingLevel.HIGH,
+}
 
 
 class GeminiSafetyError(RuntimeError):
@@ -66,8 +72,12 @@ def _build_generate_config(
     media_resolution: Any = None,
     thinking_level: str = "medium",
 ) -> types.GenerateContentConfig:
+    thinking_enum = THINKING_LEVELS.get(thinking_level)
+    if thinking_enum is None:
+        allowed_values = ", ".join(sorted(THINKING_LEVELS))
+        raise ValueError(f"Unsupported thinking level {thinking_level!r}. Use one of: {allowed_values}.")
     config_kwargs: dict[str, Any] = {
-        "thinking_config": types.ThinkingConfig(thinking_level=thinking_level),
+        "thinking_config": types.ThinkingConfig(thinking_level=thinking_enum),
     }
     if cached_content is not None:
         config_kwargs["cached_content"] = cached_content

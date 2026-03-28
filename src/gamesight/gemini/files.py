@@ -28,13 +28,18 @@ async def poll_file_until_active(
         if state_name == "FAILED":
             raise RuntimeError(f"Gemini file processing failed for {current_file.name}: {current_file.error}")
         await asyncio.sleep(poll_interval_seconds)
-        current_file = await client.aio.files.get(name=current_file.name)
+        current_file_name = current_file.name
+        if not current_file_name:
+            raise ValueError("Gemini file polling requires a file name, but the file reference did not include one.")
+        current_file = await client.aio.files.get(name=current_file_name)
 
 
 async def delete_file(client: genai.Client, file_ref: types.File | str | None) -> None:
     if file_ref is None:
         return
     file_name = file_ref if isinstance(file_ref, str) else file_ref.name
+    if not file_name:
+        raise ValueError("Gemini file deletion requires a file name, but the file reference did not include one.")
     await client.aio.files.delete(name=file_name)
 
 

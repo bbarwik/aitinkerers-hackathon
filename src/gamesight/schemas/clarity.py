@@ -7,12 +7,17 @@ class ClarityMoment(BaseModel):
     model_config = ConfigDict()
 
     relative_timestamp: str = Field(description="MM:SS from chunk start")
+    scene_description: str = Field(
+        description="The environment, room, interface, or screen where the confusion happens"
+    )
     visual_signals: list[str] = Field(description="Wandering, map reopening, wrong interactions")
     audio_signals: list[str] = Field(description="Questions, uncertain tone, reading UI aloud")
+    verbal_feedback: list[str] = Field(
+        description="Full direct player quotes or vocal reactions related to this moment"
+    )
     player_expression: str | None = Field(
         description="Facecam: confused look, squinting, shrugging. None if no facecam"
     )
-    player_quote: str | None = Field(description="Direct quote if audible")
     intended_behavior: str = Field(description="What the game wanted the player to do")
     actual_behavior: str = Field(description="What the player did instead")
     missing_cue: str = Field(description="What communication was missing or misleading")

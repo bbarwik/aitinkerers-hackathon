@@ -5,6 +5,7 @@ from gamesight.config import (
     FRICTION_SEVERITY_MAP,
     parse_mmss,
     relative_to_absolute,
+    validate_relative_timestamp,
 )
 from gamesight.schemas.enums import AgentKind
 from gamesight.schemas.report import CanonicalMoment, DeduplicatedAnalyses
@@ -16,18 +17,27 @@ def is_owned(relative_seconds: float, chunk: ChunkInfo) -> bool:
     return chunk.owns_from <= absolute_seconds < chunk.owns_until
 
 
+def _validated_relative_seconds(raw_timestamp: str, chunk: ChunkInfo) -> tuple[str, float]:
+    corrected_timestamp = validate_relative_timestamp(
+        raw_timestamp,
+        chunk.start_seconds,
+        chunk.duration_seconds,
+    )
+    return corrected_timestamp, parse_mmss(corrected_timestamp)
+
+
 def _canonical_from_friction(chunk: ChunkInfo, analysis: ChunkAnalysisBundle) -> list[CanonicalMoment]:
     moments: list[CanonicalMoment] = []
     for moment in analysis.friction.moments:
-        relative_seconds = parse_mmss(moment.relative_timestamp)
+        corrected_timestamp, relative_seconds = _validated_relative_seconds(moment.relative_timestamp, chunk)
         if not is_owned(relative_seconds, chunk):
             continue
-        absolute_seconds, absolute_timestamp = relative_to_absolute(moment.relative_timestamp, chunk.start_seconds)
+        absolute_seconds, absolute_timestamp = relative_to_absolute(corrected_timestamp, chunk.start_seconds)
         evidence = [*moment.visual_signals, *moment.audio_signals]
+        evidence.append(f"Scene: {moment.scene_description}")
         if moment.player_expression:
             evidence.append(f"Expression: {moment.player_expression}")
-        if moment.player_quote:
-            evidence.append(f"Quote: {moment.player_quote}")
+        evidence.extend(f"Quote: {feedback}" for feedback in moment.verbal_feedback)
         moments.append(
             CanonicalMoment(
                 agent_kind=AgentKind.FRICTION,
@@ -47,15 +57,15 @@ def _canonical_from_friction(chunk: ChunkInfo, analysis: ChunkAnalysisBundle) ->
 def _canonical_from_clarity(chunk: ChunkInfo, analysis: ChunkAnalysisBundle) -> list[CanonicalMoment]:
     moments: list[CanonicalMoment] = []
     for moment in analysis.clarity.moments:
-        relative_seconds = parse_mmss(moment.relative_timestamp)
+        corrected_timestamp, relative_seconds = _validated_relative_seconds(moment.relative_timestamp, chunk)
         if not is_owned(relative_seconds, chunk):
             continue
-        absolute_seconds, absolute_timestamp = relative_to_absolute(moment.relative_timestamp, chunk.start_seconds)
+        absolute_seconds, absolute_timestamp = relative_to_absolute(corrected_timestamp, chunk.start_seconds)
         evidence = [*moment.visual_signals, *moment.audio_signals]
+        evidence.append(f"Scene: {moment.scene_description}")
         if moment.player_expression:
             evidence.append(f"Expression: {moment.player_expression}")
-        if moment.player_quote:
-            evidence.append(f"Quote: {moment.player_quote}")
+        evidence.extend(f"Quote: {feedback}" for feedback in moment.verbal_feedback)
         moments.append(
             CanonicalMoment(
                 agent_kind=AgentKind.CLARITY,
@@ -75,15 +85,15 @@ def _canonical_from_clarity(chunk: ChunkInfo, analysis: ChunkAnalysisBundle) -> 
 def _canonical_from_delight(chunk: ChunkInfo, analysis: ChunkAnalysisBundle) -> list[CanonicalMoment]:
     moments: list[CanonicalMoment] = []
     for moment in analysis.delight.moments:
-        relative_seconds = parse_mmss(moment.relative_timestamp)
+        corrected_timestamp, relative_seconds = _validated_relative_seconds(moment.relative_timestamp, chunk)
         if not is_owned(relative_seconds, chunk):
             continue
-        absolute_seconds, absolute_timestamp = relative_to_absolute(moment.relative_timestamp, chunk.start_seconds)
+        absolute_seconds, absolute_timestamp = relative_to_absolute(corrected_timestamp, chunk.start_seconds)
         evidence = [*moment.visual_signals, *moment.audio_signals]
+        evidence.append(f"Scene: {moment.scene_description}")
         if moment.player_expression:
             evidence.append(f"Expression: {moment.player_expression}")
-        if moment.player_quote:
-            evidence.append(f"Quote: {moment.player_quote}")
+        evidence.extend(f"Quote: {feedback}" for feedback in moment.verbal_feedback)
         moments.append(
             CanonicalMoment(
                 agent_kind=AgentKind.DELIGHT,
@@ -103,11 +113,13 @@ def _canonical_from_delight(chunk: ChunkInfo, analysis: ChunkAnalysisBundle) -> 
 def _canonical_from_quality(chunk: ChunkInfo, analysis: ChunkAnalysisBundle) -> list[CanonicalMoment]:
     issues: list[CanonicalMoment] = []
     for issue in analysis.quality.issues:
-        relative_seconds = parse_mmss(issue.relative_timestamp)
+        corrected_timestamp, relative_seconds = _validated_relative_seconds(issue.relative_timestamp, chunk)
         if not is_owned(relative_seconds, chunk):
             continue
-        absolute_seconds, absolute_timestamp = relative_to_absolute(issue.relative_timestamp, chunk.start_seconds)
+        absolute_seconds, absolute_timestamp = relative_to_absolute(corrected_timestamp, chunk.start_seconds)
         evidence = [*issue.visual_symptoms, *issue.audio_symptoms, f"Player reaction: {issue.player_reaction}"]
+        evidence.append(f"Scene: {issue.scene_description}")
+        evidence.extend(f"Quote: {feedback}" for feedback in issue.verbal_feedback)
         symptom_summary = ", ".join(issue.visual_symptoms) if issue.visual_symptoms else "visible issue"
         summary = f"{issue.category.value.replace('_', ' ')} issue: {symptom_summary}"
         if issue.reproduction_context:

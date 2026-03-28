@@ -1,7 +1,14 @@
 import google.genai as genai
 from google.genai import types
 
-from gamesight.config import AnalysisConfig, TIMELINE_FPS, parse_mmss, relative_to_absolute, to_mmss
+from gamesight.config import (
+    AnalysisConfig,
+    TIMELINE_FPS,
+    parse_mmss,
+    relative_to_absolute,
+    to_mmss,
+    validate_relative_timestamp,
+)
 from gamesight.gemini.generate import build_video_part, generate_structured
 from gamesight.pipeline.dedup import is_owned
 from gamesight.prompts import TIMELINE_ANALYSIS_PROMPT, TIMELINE_SYSTEM_PROMPT
@@ -16,19 +23,22 @@ from gamesight.schemas.video import (
 )
 
 
-def render_previous_context(previous_result: TimelineChunkResult | None) -> str:
-    if previous_result is None:
+def render_accumulated_context(previous_results: list[TimelineChunkResult]) -> str:
+    if not previous_results:
         return "No previous segment context."
-    thread_lines = (
-        ", ".join(f"{thread.thread_name} ({thread.current_status})" for thread in previous_result.carryover_threads)
-        or "None"
-    )
-    return (
-        f"Previous segment summary: {previous_result.chunk_summary}\n"
-        f"Previous objective: {previous_result.player_objective}\n"
-        f"Emotional trajectory: {previous_result.emotional_trajectory}\n"
-        f"Carryover threads: {thread_lines}"
-    )
+
+    sections: list[str] = ["Previous segments:"]
+    for index, result in enumerate(previous_results, start=1):
+        thread_lines = (
+            ", ".join(f"{thread.thread_name} ({thread.current_status})" for thread in result.carryover_threads)
+            or "None"
+        )
+        sections.append(f"Segment {index} summary: {result.chunk_summary}")
+        sections.append(f"Segment {index} objective: {result.player_objective}")
+        sections.append(f"Segment {index} emotional trajectory: {result.emotional_trajectory}")
+        sections.append(f"Segment {index} pacing breakdown: {result.pacing_breakdown}")
+        sections.append(f"Segment {index} carryover threads: {thread_lines}")
+    return "\n".join(sections)
 
 
 def render_chunk_timeline_context(timeline: VideoTimeline, chunk_index: int) -> str:
@@ -44,6 +54,7 @@ def render_chunk_timeline_context(timeline: VideoTimeline, chunk_index: int) -> 
         f"Summary: {result.chunk_summary}",
         f"Objective: {result.player_objective}",
         f"Emotional trajectory: {result.emotional_trajectory}",
+        f"Pacing breakdown: {result.pacing_breakdown}",
         "Key timeline moments:",
         "\n".join(f"- {line}" for line in event_lines) if event_lines else "- None recorded",
         "Carryover threads:",
@@ -62,7 +73,7 @@ async def run_timeline_pass(
     chunk_records: list[TimelineChunkRecord] = []
     events: list[TimelineEvent] = []
     thread_records: list[TimelineThreadRecord] = []
-    previous_result: TimelineChunkResult | None = None
+    previous_results: list[TimelineChunkResult] = []
     total_chunks = len(chunks)
 
     for chunk in chunks:
@@ -71,9 +82,10 @@ async def run_timeline_pass(
             start_mmss=to_mmss(chunk.start_seconds),
             end_mmss=to_mmss(chunk.end_seconds),
             total_duration_mmss=to_mmss(video.duration_seconds),
+            chunk_max_mmss=to_mmss(chunk.duration_seconds),
             chunk_index=chunk.index + 1,
             total_chunks=total_chunks,
-            previous_context=render_previous_context(previous_result),
+            previous_context=render_accumulated_context(previous_results),
         )
         result = await generate_structured(
             client,
@@ -82,6 +94,12 @@ async def run_timeline_pass(
             system_instruction=system_prompt,
             thinking_level="low",
         )
+        for event in result.events:
+            event.relative_timestamp = validate_relative_timestamp(
+                event.relative_timestamp,
+                chunk.start_seconds,
+                chunk.duration_seconds,
+            )
         chunk_records.append(
             TimelineChunkRecord(
                 chunk_index=chunk.index,
@@ -117,14 +135,17 @@ async def run_timeline_pass(
                     current_status=thread.current_status,
                 )
             )
-        previous_result = result
+        previous_results.append(result)
 
     events.sort(key=lambda item: item.absolute_seconds)
     thread_states: dict[str, str] = {}
     for thread_record in thread_records:
         thread_states[thread_record.thread_name] = thread_record.current_status
     active_threads = [name for name, status in thread_states.items() if status != "resolved"]
-    session_arc = " ".join(record.result.emotional_trajectory for record in chunk_records)
+    session_arc = "\n".join(
+        f"[{to_mmss(record.start_seconds)}-{to_mmss(record.end_seconds)}] {record.result.emotional_trajectory}"
+        for record in chunk_records
+    )
 
     return VideoTimeline(
         video_id=video.video_id,
@@ -139,4 +160,4 @@ async def run_timeline_pass(
     )
 
 
-__all__ = ["render_chunk_timeline_context", "render_previous_context", "run_timeline_pass"]
+__all__ = ["render_accumulated_context", "render_chunk_timeline_context", "run_timeline_pass"]
