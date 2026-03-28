@@ -5,14 +5,19 @@ from typing import TypeVar
 
 import google.genai as genai
 from google.genai import errors, types
-from pydantic import BaseModel
+from pydantic import BaseModel, ValidationError
 
 from gamesight.config import (
     AnalysisConfig,
     CACHE_TTL_SECONDS,
     DEFAULT_MODEL_ID,
     MIN_CACHEABLE_CHUNK_SECONDS,
+    SENTIMENT_SCORE_MAX,
+    SENTIMENT_SCORE_MIN,
     SPECIALIST_FPS,
+    VERBAL_SENTIMENT_MAX,
+    VERBAL_SENTIMENT_MIN,
+    clamp,
     validate_relative_timestamp,
 )
 from gamesight.gemini.generate import GeminiSafetyError, build_video_part, generate_structured, generate_text
@@ -21,13 +26,19 @@ from gamesight.prompts import (
     DELIGHT_AGENT_PROMPT,
     FRICTION_AGENT_PROMPT,
     QUALITY_AGENT_PROMPT,
+    RETRY_AGENT_PROMPT,
+    SENTIMENT_AGENT_PROMPT,
     SHARED_SYSTEM_PROMPT,
+    VERBAL_AGENT_PROMPT,
     WARMUP_PROMPT_TEMPLATE,
 )
 from gamesight.schemas.clarity import ClarityChunkAnalysis
 from gamesight.schemas.delight import DelightChunkAnalysis
 from gamesight.schemas.friction import FrictionChunkAnalysis
 from gamesight.schemas.quality import QualityChunkAnalysis
+from gamesight.schemas.retry import RetryChunkAnalysis
+from gamesight.schemas.sentiment import SentimentChunkAnalysis
+from gamesight.schemas.verbal import VerbalChunkAnalysis
 from gamesight.schemas.video import ChunkAnalysisBundle, ChunkInfo, VideoTimeline
 
 SPECIALIST_MEDIA_RESOLUTION = types.MediaResolution.MEDIA_RESOLUTION_HIGH
@@ -110,6 +121,21 @@ def _conversation_with_prompt(conversation: list[types.Content], prompt: str) ->
     return [*conversation, types.Content(role="user", parts=[types.Part(text=prompt)])]
 
 
+def _clamp_sentiment_analysis(result: SentimentChunkAnalysis) -> SentimentChunkAnalysis:
+    for moment in result.moments:
+        moment.sentiment_score = int(clamp(moment.sentiment_score, SENTIMENT_SCORE_MIN, SENTIMENT_SCORE_MAX))
+    result.average_sentiment = float(
+        clamp(result.average_sentiment, float(SENTIMENT_SCORE_MIN), float(SENTIMENT_SCORE_MAX))
+    )
+    return result
+
+
+def _clamp_verbal_analysis(result: VerbalChunkAnalysis) -> VerbalChunkAnalysis:
+    for moment in result.moments:
+        moment.sentiment_score = int(clamp(moment.sentiment_score, VERBAL_SENTIMENT_MIN, VERBAL_SENTIMENT_MAX))
+    return result
+
+
 def _normalize_specialist_timestamps(
     chunk: ChunkInfo,
     *,
@@ -117,7 +143,10 @@ def _normalize_specialist_timestamps(
     clarity: ClarityChunkAnalysis,
     delight: DelightChunkAnalysis,
     quality: QualityChunkAnalysis,
-) -> None:
+    sentiment: SentimentChunkAnalysis | None = None,
+    retry: RetryChunkAnalysis | None = None,
+    verbal: VerbalChunkAnalysis | None = None,
+) -> tuple[SentimentChunkAnalysis | None, RetryChunkAnalysis | None, VerbalChunkAnalysis | None]:
     for moment in friction.moments:
         moment.relative_timestamp = validate_relative_timestamp(
             moment.relative_timestamp,
@@ -142,6 +171,47 @@ def _normalize_specialist_timestamps(
             chunk.start_seconds,
             chunk.duration_seconds,
         )
+    if sentiment:
+        try:
+            for moment in sentiment.moments:
+                moment.relative_timestamp = validate_relative_timestamp(
+                    moment.relative_timestamp,
+                    chunk.start_seconds,
+                    chunk.duration_seconds,
+                )
+        except ValueError as exc:
+            logger.warning("Discarding sentiment analysis for chunk %s due to invalid timestamps: %s", chunk.index, exc)
+            sentiment = None
+    if retry:
+        try:
+            for seq in retry.retry_sequences:
+                seq.first_attempt_timestamp = validate_relative_timestamp(
+                    seq.first_attempt_timestamp,
+                    chunk.start_seconds,
+                    chunk.duration_seconds,
+                )
+                for attempt in seq.attempts:
+                    attempt.relative_timestamp = validate_relative_timestamp(
+                        attempt.relative_timestamp,
+                        chunk.start_seconds,
+                        chunk.duration_seconds,
+                    )
+        except ValueError as exc:
+            logger.warning("Discarding retry analysis for chunk %s due to invalid timestamps: %s", chunk.index, exc)
+            retry = None
+    if verbal:
+        try:
+            for moment in verbal.moments:
+                moment.relative_timestamp = validate_relative_timestamp(
+                    moment.relative_timestamp,
+                    chunk.start_seconds,
+                    chunk.duration_seconds,
+                )
+        except ValueError as exc:
+            logger.warning("Discarding verbal analysis for chunk %s due to invalid timestamps: %s", chunk.index, exc)
+            verbal = None
+
+    return sentiment, retry, verbal
 
 
 async def _run_cached_agent(
@@ -178,6 +248,48 @@ async def _run_direct_agent(
         media_resolution=media_resolution,
         thinking_level="medium",
     )
+
+
+async def _safe_cached_agent(
+    client: genai.Client,
+    *,
+    cache_name: str,
+    conversation: list[types.Content],
+    prompt: str,
+    response_schema: type[ModelT],
+) -> ModelT | None:
+    try:
+        return await _run_cached_agent(
+            client,
+            cache_name=cache_name,
+            conversation=conversation,
+            prompt=prompt,
+            response_schema=response_schema,
+        )
+    except (GeminiSafetyError, ValidationError, ValueError) as exc:
+        logger.warning("Optional cached agent %s failed with recoverable error: %s", response_schema.__name__, exc)
+        return None
+
+
+async def _safe_direct_agent(
+    client: genai.Client,
+    *,
+    conversation: list[types.Content],
+    prompt: str,
+    response_schema: type[ModelT],
+    media_resolution: types.MediaResolution | None,
+) -> ModelT | None:
+    try:
+        return await _run_direct_agent(
+            client,
+            conversation=conversation,
+            prompt=prompt,
+            response_schema=response_schema,
+            media_resolution=media_resolution,
+        )
+    except (GeminiSafetyError, ValidationError, ValueError) as exc:
+        logger.warning("Optional direct agent %s failed with recoverable error: %s", response_schema.__name__, exc)
+        return None
 
 
 async def run_cached_specialist_pass(
@@ -253,15 +365,45 @@ async def run_cached_specialist_pass(
                 response_schema=QualityChunkAnalysis,
             ),
         )
+        sentiment, retry, verbal = await asyncio.gather(
+            _safe_cached_agent(
+                client,
+                cache_name=cache_name,
+                conversation=warmup_conversation,
+                prompt=SENTIMENT_AGENT_PROMPT,
+                response_schema=SentimentChunkAnalysis,
+            ),
+            _safe_cached_agent(
+                client,
+                cache_name=cache_name,
+                conversation=warmup_conversation,
+                prompt=RETRY_AGENT_PROMPT,
+                response_schema=RetryChunkAnalysis,
+            ),
+            _safe_cached_agent(
+                client,
+                cache_name=cache_name,
+                conversation=warmup_conversation,
+                prompt=VERBAL_AGENT_PROMPT,
+                response_schema=VerbalChunkAnalysis,
+            ),
+        )
+        if sentiment is not None:
+            sentiment = _clamp_sentiment_analysis(sentiment)
+        if verbal is not None:
+            verbal = _clamp_verbal_analysis(verbal)
     finally:
         await client.aio.caches.delete(name=cache_name)
 
-    _normalize_specialist_timestamps(
+    sentiment, retry, verbal = _normalize_specialist_timestamps(
         chunk,
         friction=friction,
         clarity=clarity,
         delight=delight,
         quality=quality,
+        sentiment=sentiment,
+        retry=retry,
+        verbal=verbal,
     )
     return ChunkAnalysisBundle(
         chunk_index=chunk.index,
@@ -269,6 +411,9 @@ async def run_cached_specialist_pass(
         clarity=clarity,
         delight=delight,
         quality=quality,
+        sentiment=sentiment,
+        retry=retry,
+        verbal=verbal,
     )
 
 
@@ -335,12 +480,42 @@ async def run_direct_specialist_pass(
             media_resolution=media_resolution,
         ),
     )
-    _normalize_specialist_timestamps(
+    sentiment, retry, verbal = await asyncio.gather(
+        _safe_direct_agent(
+            client,
+            conversation=warmup_conversation,
+            prompt=SENTIMENT_AGENT_PROMPT,
+            response_schema=SentimentChunkAnalysis,
+            media_resolution=media_resolution,
+        ),
+        _safe_direct_agent(
+            client,
+            conversation=warmup_conversation,
+            prompt=RETRY_AGENT_PROMPT,
+            response_schema=RetryChunkAnalysis,
+            media_resolution=media_resolution,
+        ),
+        _safe_direct_agent(
+            client,
+            conversation=warmup_conversation,
+            prompt=VERBAL_AGENT_PROMPT,
+            response_schema=VerbalChunkAnalysis,
+            media_resolution=media_resolution,
+        ),
+    )
+    if sentiment is not None:
+        sentiment = _clamp_sentiment_analysis(sentiment)
+    if verbal is not None:
+        verbal = _clamp_verbal_analysis(verbal)
+    sentiment, retry, verbal = _normalize_specialist_timestamps(
         chunk,
         friction=friction,
         clarity=clarity,
         delight=delight,
         quality=quality,
+        sentiment=sentiment,
+        retry=retry,
+        verbal=verbal,
     )
     return ChunkAnalysisBundle(
         chunk_index=chunk.index,
@@ -348,6 +523,9 @@ async def run_direct_specialist_pass(
         clarity=clarity,
         delight=delight,
         quality=quality,
+        sentiment=sentiment,
+        retry=retry,
+        verbal=verbal,
     )
 
 

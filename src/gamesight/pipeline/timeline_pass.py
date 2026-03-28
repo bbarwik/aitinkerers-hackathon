@@ -4,6 +4,7 @@ from google.genai import types
 from gamesight.config import (
     AnalysisConfig,
     TIMELINE_FPS,
+    normalize_segment_label,
     parse_mmss,
     relative_to_absolute,
     to_mmss,
@@ -100,6 +101,7 @@ async def run_timeline_pass(
                 chunk.start_seconds,
                 chunk.duration_seconds,
             )
+            event.segment_label = normalize_segment_label(event.segment_label) or "unknown"
         chunk_records.append(
             TimelineChunkRecord(
                 chunk_index=chunk.index,
@@ -124,6 +126,7 @@ async def run_timeline_pass(
                     event_description=event.event_description,
                     phase_kind=event.phase_kind,
                     significance=event.significance,
+                    segment_label=event.segment_label,
                 )
             )
         for thread in result.carryover_threads:

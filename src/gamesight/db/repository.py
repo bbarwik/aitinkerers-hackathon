@@ -6,6 +6,7 @@ from pydantic import BaseModel, ConfigDict
 from gamesight.config import get_settings
 from gamesight.db.database import get_connection
 from gamesight.schemas.report import VideoReport
+from gamesight.schemas.study import StudyReport
 from gamesight.schemas.video import VideoInfo, VideoTimeline
 
 
@@ -191,6 +192,45 @@ class Repository:
             raise TypeError("report_json must be stored as TEXT in SQLite.")
         payload = json.loads(report_json)
         return VideoReport.model_validate(payload)
+
+    async def get_all_reports(self, game_key: str | None = None) -> list[VideoReport]:
+        async with await get_connection(self.database_path) as db:
+            if game_key:
+                rows = await db.execute_fetchall(
+                    "SELECT report_json FROM video_reports WHERE json_extract(report_json, '$.game_key') = ?",
+                    (game_key,),
+                )
+            else:
+                rows = await db.execute_fetchall("SELECT report_json FROM video_reports")
+        reports: list[VideoReport] = []
+        for row in rows:
+            report_json = row["report_json"]
+            if not isinstance(report_json, str):
+                raise TypeError("report_json must be stored as TEXT in SQLite.")
+            reports.append(VideoReport.model_validate_json(report_json))
+        return reports
+
+    async def save_study_report(self, game_key: str, study: StudyReport) -> None:
+        async with await get_connection(self.database_path) as db:
+            await db.execute(
+                """INSERT INTO study_reports (game_key, game_title, report_json, session_count)
+                   VALUES (?, ?, ?, ?)
+                   ON CONFLICT(game_key) DO UPDATE SET
+                       game_title = excluded.game_title,
+                       report_json = excluded.report_json,
+                       session_count = excluded.session_count""",
+                (game_key, study.game_title, study.model_dump_json(), study.total_sessions),
+            )
+            await db.commit()
+
+    async def get_study_report(self, game_key: str) -> StudyReport | None:
+        row = await self._fetch_one("SELECT report_json FROM study_reports WHERE game_key = ?", (game_key,))
+        if row is None:
+            return None
+        report_json = row["report_json"]
+        if not isinstance(report_json, str):
+            raise TypeError("report_json must be stored as TEXT in SQLite.")
+        return StudyReport.model_validate_json(report_json)
 
 
 __all__ = ["Repository", "StoredVideo"]

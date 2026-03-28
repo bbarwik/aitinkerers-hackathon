@@ -1,7 +1,7 @@
 from collections import Counter
 from typing import Final
 
-from gamesight.schemas.report import DeduplicatedAnalyses, VideoReport
+from gamesight.schemas.report import ChunkAgentCoverage, DeduplicatedAnalyses, VideoReport
 from gamesight.schemas.video import ChunkAnalysisBundle, VideoInfo, VideoTimeline
 
 STOP_RISK_ORDER = {"none": 0, "low": 1, "medium": 2, "high": 3}
@@ -99,17 +99,59 @@ def build_video_report(
         bug_count=bug_count,
     )
 
+    avg_sentiment: float | None = None
+    sentiment_by_segment: dict[str, float] = {}
+    if deduplicated.sentiment_moments:
+        signed_scores: list[int] = []
+        seg_scores: dict[str, list[int]] = {}
+        for m in deduplicated.sentiment_moments:
+            if m.sentiment_raw_score is None:
+                continue
+            signed_scores.append(m.sentiment_raw_score)
+            if m.segment_label:
+                seg_scores.setdefault(m.segment_label, []).append(m.sentiment_raw_score)
+        avg_sentiment = round(sum(signed_scores) / len(signed_scores), 2) if signed_scores else None
+        sentiment_by_segment = {seg: round(sum(scores) / len(scores), 2) for seg, scores in seg_scores.items()}
+
+    total_retry_sequences = len(deduplicated.retry_moments)
+    first_attempt_failure_count = sum(
+        1 for m in deduplicated.retry_moments if m.retry_total_attempts is not None and m.retry_total_attempts > 1
+    )
+
+    actionable_verbal = [m for m in deduplicated.verbal_moments if m.verbal_is_actionable]
+    top_verbal = sorted(deduplicated.verbal_moments, key=lambda m: m.severity_numeric, reverse=True)
+    notable_quotes = [m.verbal_quote for m in (actionable_verbal or top_verbal)[:5] if m.verbal_quote]
+    segments_encountered = sorted({event.segment_label for event in timeline.events if event.segment_label})
+
+    agent_coverage = [
+        ChunkAgentCoverage(
+            chunk_index=analysis.chunk_index,
+            friction=True,
+            clarity=True,
+            delight=True,
+            quality=True,
+            sentiment=analysis.sentiment is not None,
+            retry=analysis.retry is not None,
+            verbal=analysis.verbal is not None,
+        )
+        for analysis in analyses
+    ]
+
     return VideoReport(
         video_id=video.video_id,
         filename=video.filename,
         duration_seconds=video.duration_seconds,
         chunk_count=len(analyses),
         game_title=timeline.game_title,
+        game_key=video.game_key,
         session_arc=timeline.session_arc,
         friction_moments=deduplicated.friction_moments,
         clarity_moments=deduplicated.clarity_moments,
         delight_moments=deduplicated.delight_moments,
         quality_issues=deduplicated.quality_issues,
+        sentiment_moments=deduplicated.sentiment_moments,
+        retry_moments=deduplicated.retry_moments,
+        verbal_moments=deduplicated.verbal_moments,
         top_stop_risk_drivers=top_stop_risk_drivers,
         top_praised_features=top_praised_features,
         top_clarity_fixes=top_clarity_fixes,
@@ -118,6 +160,15 @@ def build_video_report(
         overall_engagement=highest_engagement,
         overall_stop_risk=highest_stop_risk,
         recommendations=recommendations,
+        avg_sentiment=avg_sentiment,
+        sentiment_by_segment=sentiment_by_segment,
+        total_retry_sequences=total_retry_sequences,
+        first_attempt_failure_count=first_attempt_failure_count,
+        notable_quotes=notable_quotes,
+        segments_encountered=segments_encountered,
+        highlights=None,
+        executive=None,
+        agent_coverage=agent_coverage,
     )
 
 

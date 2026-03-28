@@ -13,6 +13,9 @@ class TimelineMoment(BaseModel):
     event_description: str = Field(description="What happened in one sentence")
     phase_kind: PhaseKind = Field(description="The gameplay phase for this moment")
     significance: str = Field(description="routine, notable, or pivotal")
+    segment_label: str = Field(
+        description="Short reusable snake_case label for the game area or challenge, e.g. 'bridge_jump', 'boss_dragon', 'tutorial_movement'. Reuse the same label if the player returns to the same area."
+    )
 
 
 class CarryoverThread(BaseModel):

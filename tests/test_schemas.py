@@ -19,6 +19,7 @@ def test_schema_instantiation() -> None:
         source="/tmp/video.mp4",
         filename="video.mp4",
         title="video",
+        game_key="video",
         duration_seconds=600.0,
     )
     analysis = FrictionChunkAnalysis(
@@ -26,13 +27,15 @@ def test_schema_instantiation() -> None:
         moments=[
             FrictionMoment(
                 relative_timestamp="0:10",
+                scene_description="Tutorial ledge",
                 visual_signals=["Missed jump"],
                 audio_signals=["Sigh"],
+                verbal_feedback=[],
                 player_expression=None,
-                player_quote=None,
                 game_context="Tutorial gap",
                 root_cause="The jump timing is unclear",
                 progress_impact="The player paused",
+                attempts_observed=1,
                 source=FrictionSource.UNCLEAR_OBJECTIVE,
                 severity=FrictionSeverity.MODERATE,
                 stop_risk=StopRisk.LOW,
@@ -49,6 +52,7 @@ def test_schema_instantiation() -> None:
         duration_seconds=video.duration_seconds,
         chunk_count=1,
         game_title="Demo Game",
+        game_key=video.game_key,
         session_arc="Curious then mildly frustrated",
         friction_moments=[],
         clarity_moments=[],

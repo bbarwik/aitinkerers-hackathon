@@ -53,7 +53,11 @@ def compute_chunks(
 
 
 def _chunk_video_sync(
-    input_path: str, output_dir: str, chunk_duration_seconds: int, overlap_seconds: int
+    input_path: str,
+    output_dir: str,
+    chunk_duration_seconds: int,
+    overlap_seconds: int,
+    max_duration_seconds: float | None = None,
 ) -> list[ChunkInfo]:
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
@@ -69,6 +73,8 @@ def _chunk_video_sync(
         raise RuntimeError(f"Unable to probe input video {input_path}: {stderr}") from exc
 
     duration_seconds = float(probe["format"]["duration"])
+    if max_duration_seconds is not None and max_duration_seconds > 0:
+        duration_seconds = min(duration_seconds, max_duration_seconds)
     chunks = compute_chunks(
         duration_seconds,
         source_path=input_path,
@@ -103,6 +109,7 @@ async def chunk_video(
     *,
     chunk_duration_seconds: int = CHUNK_DURATION_SECONDS,
     overlap_seconds: int = CHUNK_OVERLAP_SECONDS,
+    max_duration_seconds: float | None = None,
 ) -> list[ChunkInfo]:
     return await asyncio.to_thread(
         _chunk_video_sync,
@@ -110,6 +117,7 @@ async def chunk_video(
         str(output_dir),
         chunk_duration_seconds,
         overlap_seconds,
+        max_duration_seconds,
     )
 
 

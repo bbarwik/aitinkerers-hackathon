@@ -42,6 +42,11 @@ _SCHEMA_LABELS: dict[str, str] = {
     "ClarityChunkAnalysis": "clarity",
     "DelightChunkAnalysis": "delight",
     "QualityChunkAnalysis": "quality",
+    "SentimentChunkAnalysis": "sentiment",
+    "RetryChunkAnalysis": "retry",
+    "VerbalChunkAnalysis": "verbal",
+    "ExecutiveSummary": "executive",
+    "CrossVideoSynthesis": "study_synthesis",
 }
 
 

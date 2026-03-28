@@ -7,7 +7,10 @@ from gamesight.schemas.delight import DelightChunkAnalysis
 from gamesight.schemas.enums import PhaseKind, VideoSourceType
 from gamesight.schemas.friction import FrictionChunkAnalysis
 from gamesight.schemas.quality import QualityChunkAnalysis
+from gamesight.schemas.retry import RetryChunkAnalysis
+from gamesight.schemas.sentiment import SentimentChunkAnalysis
 from gamesight.schemas.timeline import CarryoverThread, TimelineChunkResult
+from gamesight.schemas.verbal import VerbalChunkAnalysis
 
 
 class ChunkInfo(BaseModel):
@@ -44,6 +47,7 @@ class VideoInfo(BaseModel):
     source: str
     filename: str
     title: str
+    game_key: str
     duration_seconds: float
 
     @property
@@ -64,6 +68,7 @@ class TimelineEvent(BaseModel):
     event_description: str
     phase_kind: PhaseKind
     significance: str
+    segment_label: str
 
 
 class TimelineThreadRecord(BaseModel):
@@ -106,6 +111,9 @@ class ChunkAnalysisBundle(BaseModel):
     clarity: ClarityChunkAnalysis
     delight: DelightChunkAnalysis
     quality: QualityChunkAnalysis
+    sentiment: SentimentChunkAnalysis | None = None
+    retry: RetryChunkAnalysis | None = None
+    verbal: VerbalChunkAnalysis | None = None
 
 
 class ChunkAnalysisRecord(BaseModel):
@@ -117,6 +125,9 @@ class ChunkAnalysisRecord(BaseModel):
     clarity: ClarityChunkAnalysis | None = None
     delight: DelightChunkAnalysis | None = None
     quality: QualityChunkAnalysis | None = None
+    sentiment: SentimentChunkAnalysis | None = None
+    retry: RetryChunkAnalysis | None = None
+    verbal: VerbalChunkAnalysis | None = None
 
 
 class CarryoverThreadRecord(BaseModel):

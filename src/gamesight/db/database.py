@@ -44,6 +44,14 @@ CREATE TABLE IF NOT EXISTS video_reports (
     bug_count INTEGER,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+CREATE TABLE IF NOT EXISTS study_reports (
+    game_key TEXT PRIMARY KEY,
+    game_title TEXT NOT NULL,
+    report_json TEXT NOT NULL,
+    session_count INTEGER NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
 """
 
 
@@ -57,11 +65,15 @@ async def init_db(database_path: str | Path | None = None) -> None:
         await db.commit()
 
 
+DB_BUSY_TIMEOUT_MS = 30_000
+
+
 async def get_connection(database_path: str | Path | None = None) -> aiosqlite.Connection:
     resolved_path = Path(database_path or get_settings().database_path)
     connection = await aiosqlite.connect(resolved_path)
     connection.row_factory = aiosqlite.Row
     await connection.execute("PRAGMA foreign_keys=ON")
+    await connection.execute(f"PRAGMA busy_timeout={DB_BUSY_TIMEOUT_MS}")
     return connection
 
 

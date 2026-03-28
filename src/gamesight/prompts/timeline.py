@@ -22,6 +22,8 @@ A significant moment is any point where:
 - Something unusual happens (death, achievement, discovery, bug, cutscene)
 - The player pauses, opens menus, or breaks from active play
 
+For each moment, assign a segment_label — a short, stable, reusable snake_case identifier for the game area or challenge (e.g. 'bridge_jump', 'forest_exploration', 'boss_dragon_phase1', 'tutorial_room'). If the player returns to the same area, reuse the same label. These labels must be consistent enough to match across different players' sessions of the same game. Avoid vague labels like 'gameplay', 'challenge', or 'sequence'.
+
 Include a pacing_breakdown describing how time in this chunk was distributed across phases such as menus, exploration, combat, loading, and cutscenes.
 Note any threads that carry into the next segment.
 """

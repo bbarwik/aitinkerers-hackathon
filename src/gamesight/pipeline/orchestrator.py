@@ -1,21 +1,29 @@
 import asyncio
+import logging
 from pathlib import Path
 from uuid import NAMESPACE_URL, uuid5
 
 import google.genai as genai
 from google.genai import types
 
-from gamesight.config import AnalysisConfig, ensure_directories, get_settings
+from gamesight.config import AnalysisConfig, ensure_directories, get_settings, normalize_game_key
 from gamesight.db.repository import Repository
 from gamesight.gemini.files import delete_file, upload_chunks
 from gamesight.pipeline.aggregation import build_video_report
 from gamesight.pipeline.chunk_pass import run_chunk_agents
 from gamesight.pipeline.dedup import deduplicate_moments
+from gamesight.pipeline.executive_pass import generate_executive_summary
+from gamesight.pipeline.highlights import build_highlight_reel
+from gamesight.pipeline.study import build_study_report
 from gamesight.pipeline.timeline_pass import run_timeline_pass
+from gamesight.schemas.study import StudyReport
+from gamesight.pipeline.verification import verify_moments
 from gamesight.schemas.enums import VideoSourceType
 from gamesight.schemas.report import ProcessedVideo
 from gamesight.schemas.video import VideoInfo
 from gamesight.video import chunk_video, compute_chunks, is_youtube_url, probe_video, resolve_youtube_metadata
+
+logger = logging.getLogger(__name__)
 
 
 def derive_video_id(source: str) -> str:
@@ -49,43 +57,61 @@ async def process_video(
     uploaded_files: dict[int, types.File] = {}
     chunk_file_paths: list[str] = []
 
+    max_dur = resolved_config.max_duration_seconds
+
     if is_youtube_url(source):
         metadata = await resolve_youtube_metadata(
             source,
             duration_seconds_override=resolved_config.duration_seconds,
         )
+        effective_duration = min(metadata.duration_seconds, max_dur)
+        resolved_game_title = resolved_config.resolved_game_title(metadata.title)
+        game_key = normalize_game_key(resolved_game_title)
         video = VideoInfo(
             video_id=video_id,
             source_type=VideoSourceType.YOUTUBE,
             source=source,
             filename=f"{metadata.video_id}.youtube",
-            title=metadata.title,
-            duration_seconds=metadata.duration_seconds,
+            title=resolved_game_title,
+            game_key=game_key,
+            duration_seconds=effective_duration,
         )
-        chunks = compute_chunks(metadata.duration_seconds, youtube_url=source)
+        chunks = compute_chunks(effective_duration, youtube_url=source)
     else:
         input_path = Path(source).expanduser().resolve()
         if not input_path.exists():
             raise FileNotFoundError(f"Input file does not exist: {input_path}")
         probe = await probe_video(input_path)
+        effective_duration = min(probe.duration_seconds, max_dur)
+        resolved_game_title = resolved_config.resolved_game_title(input_path.stem)
+        game_key = normalize_game_key(resolved_game_title)
         video = VideoInfo(
             video_id=video_id,
             source_type=VideoSourceType.LOCAL,
             source=str(input_path),
             filename=input_path.name,
-            title=input_path.stem,
-            duration_seconds=probe.duration_seconds,
+            title=resolved_game_title,
+            game_key=game_key,
+            duration_seconds=effective_duration,
         )
         output_dir = settings.chunks_dir / video_id
-        chunks = await chunk_video(input_path, output_dir)
+        chunks = await chunk_video(input_path, output_dir, max_duration_seconds=max_dur)
         chunk_file_paths = [chunk.file_path for chunk in chunks if chunk.file_path is not None]
         uploaded_files = await upload_chunks(client, chunks, concurrency=resolved_config.upload_concurrency)
 
     try:
         timeline = await run_timeline_pass(client, video, chunks, uploaded_files, resolved_config)
         chunk_analyses = await run_chunk_agents(client, chunks, uploaded_files, timeline, resolved_config)
-        deduplicated = deduplicate_moments(chunks, chunk_analyses)
-        report = build_video_report(video=video, timeline=timeline, analyses=chunk_analyses, deduplicated=deduplicated)
+        deduplicated = deduplicate_moments(chunks, chunk_analyses, timeline)
+        verified = verify_moments(deduplicated)
+        report = build_video_report(video=video, timeline=timeline, analyses=chunk_analyses, deduplicated=verified)
+        highlights = build_highlight_reel(video, verified)
+        report = report.model_copy(update={"highlights": highlights})
+        try:
+            executive = await generate_executive_summary(client, report, resolved_config.game_genre)
+            report = report.model_copy(update={"executive": executive})
+        except Exception:
+            logger.warning("Executive summary generation failed, continuing without it.")
         return ProcessedVideo(video=video, timeline=timeline, chunk_analyses=chunk_analyses, report=report)
     finally:
         await asyncio.gather(
@@ -108,6 +134,10 @@ async def analyze_and_store(
     video_id: str | None = None,
 ) -> ProcessedVideo:
     resolved_video_id = video_id or derive_video_id(source)
+    source_type = "youtube" if is_youtube_url(source) else "local"
+    await repository.create_pending_video(
+        video_id=resolved_video_id, source=source, source_type=source_type, filename=source,
+    )
     await repository.update_video_status(resolved_video_id, status="analyzing", error_message=None)
     try:
         processed = await process_video(client, source, analysis_config)
@@ -146,6 +176,33 @@ async def analyze_and_store(
                 agent_type="quality",
                 analysis=chunk.quality,
             )
+            if chunk.sentiment:
+                await repository.save_chunk_analysis(
+                    processed.video.video_id,
+                    chunk_index=chunk.chunk_index,
+                    chunk_start_seconds=timeline_chunk.start_seconds,
+                    chunk_end_seconds=timeline_chunk.end_seconds,
+                    agent_type="sentiment",
+                    analysis=chunk.sentiment,
+                )
+            if chunk.retry:
+                await repository.save_chunk_analysis(
+                    processed.video.video_id,
+                    chunk_index=chunk.chunk_index,
+                    chunk_start_seconds=timeline_chunk.start_seconds,
+                    chunk_end_seconds=timeline_chunk.end_seconds,
+                    agent_type="retry",
+                    analysis=chunk.retry,
+                )
+            if chunk.verbal:
+                await repository.save_chunk_analysis(
+                    processed.video.video_id,
+                    chunk_index=chunk.chunk_index,
+                    chunk_start_seconds=timeline_chunk.start_seconds,
+                    chunk_end_seconds=timeline_chunk.end_seconds,
+                    agent_type="verbal",
+                    analysis=chunk.verbal,
+                )
         await repository.save_timeline(processed.video.video_id, processed.timeline)
         await repository.save_report(processed.video.video_id, processed.report)
         return processed
@@ -154,4 +211,17 @@ async def analyze_and_store(
         raise
 
 
-__all__ = ["analyze_and_store", "derive_video_id", "process_video"]
+async def process_study(
+    client: genai.Client,
+    repository: Repository,
+    game_key: str,
+) -> StudyReport:
+    reports = await repository.get_all_reports(game_key)
+    if not reports:
+        raise ValueError(f"No completed reports found for game_key: {game_key}")
+    study = await build_study_report(client, reports, game_key)
+    await repository.save_study_report(game_key, study)
+    return study
+
+
+__all__ = ["analyze_and_store", "derive_video_id", "process_study", "process_video"]

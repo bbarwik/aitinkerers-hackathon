@@ -100,11 +100,55 @@ class AgentKind(str, enum.Enum):
     CLARITY = "clarity"
     DELIGHT = "delight"
     QUALITY = "quality"
+    SENTIMENT = "sentiment"
+    RETRY = "retry"
+    VERBAL = "verbal"
 
 
 class VideoSourceType(str, enum.Enum):
     LOCAL = "local"
     YOUTUBE = "youtube"
+
+
+class EmotionLabel(str, enum.Enum):
+    FRUSTRATED = "frustrated"
+    CONFUSED = "confused"
+    BORED = "bored"
+    NEUTRAL = "neutral"
+    FOCUSED = "focused"
+    AMUSED = "amused"
+    EXCITED = "excited"
+    TRIUMPHANT = "triumphant"
+
+
+class SilenceType(str, enum.Enum):
+    FOCUSED = "focused"
+    RESIGNED = "resigned"
+    CONFUSED = "confused"
+    TENSE = "tense"
+    IDLE = "idle"
+
+
+class VerbalCategory(str, enum.Enum):
+    COMPLAINT = "complaint"
+    PRAISE = "praise"
+    QUESTION = "question"
+    NARRATION = "narration"
+    STRATEGY = "strategy"
+    SUGGESTION = "suggestion"
+    REACTION = "reaction"
+
+
+class RetryOutcome(str, enum.Enum):
+    SUCCEEDED = "succeeded"
+    ABANDONED = "abandoned"
+    STILL_TRYING = "still_trying"
+
+
+class InsightConfidence(str, enum.Enum):
+    STRONG = "strong"
+    MODERATE = "moderate"
+    SUGGESTIVE = "suggestive"
 
 
 __all__ = [
@@ -115,9 +159,14 @@ __all__ = [
     "ClaritySeverity",
     "DelightDriver",
     "DelightStrength",
+    "EmotionLabel",
     "FrictionSeverity",
     "FrictionSource",
+    "InsightConfidence",
     "PhaseKind",
+    "RetryOutcome",
+    "SilenceType",
     "StopRisk",
+    "VerbalCategory",
     "VideoSourceType",
 ]

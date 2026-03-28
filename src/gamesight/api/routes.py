@@ -6,9 +6,12 @@ from pydantic import BaseModel, ConfigDict, model_validator
 
 from gamesight.config import AnalysisConfig, DEFAULT_GAME_GENRE, ffmpeg_available, get_settings
 from gamesight.db import Repository, database_ready
-from gamesight.pipeline import analyze_and_store, derive_video_id
+from gamesight.pipeline import analyze_and_store, derive_video_id, process_study
 from gamesight.schemas.enums import VideoSourceType
+from gamesight.schemas.executive import ExecutiveSummary
+from gamesight.schemas.highlights import HighlightReel
 from gamesight.schemas.report import VideoReport
+from gamesight.schemas.study import StudyReport
 from gamesight.schemas.video import VideoTimeline
 from gamesight.video import is_youtube_url
 
@@ -23,6 +26,7 @@ class AnalyzeRequest(BaseModel):
     game_title: str | None = None
     game_genre: str = DEFAULT_GAME_GENRE
     duration_seconds: float | None = None
+    max_duration_seconds: float | None = None
 
     @model_validator(mode="after")
     def exactly_one_source(self) -> "AnalyzeRequest":
@@ -95,6 +99,7 @@ async def analyze_video(
             game_title=request_model.game_title,
             game_genre=request_model.game_genre,
             duration_seconds=request_model.duration_seconds,
+            max_duration_seconds=request_model.max_duration_seconds or get_settings().max_duration_seconds,
         ),
         video_id=video_id,
     )
@@ -156,6 +161,58 @@ async def get_delight(video_id: str, request: Request) -> list[dict[str, object]
 async def get_quality(video_id: str, request: Request) -> list[dict[str, object]]:
     report = await get_report(video_id, request)
     return [moment.model_dump() for moment in report.quality_issues]
+
+
+@router.get("/videos/{video_id}/sentiment")
+async def get_sentiment(video_id: str, request: Request) -> list[dict[str, object]]:
+    report = await get_report(video_id, request)
+    return [moment.model_dump() for moment in report.sentiment_moments]
+
+
+@router.get("/videos/{video_id}/retry")
+async def get_retry(video_id: str, request: Request) -> list[dict[str, object]]:
+    report = await get_report(video_id, request)
+    return [moment.model_dump() for moment in report.retry_moments]
+
+
+@router.get("/videos/{video_id}/verbal")
+async def get_verbal(video_id: str, request: Request) -> list[dict[str, object]]:
+    report = await get_report(video_id, request)
+    return [moment.model_dump() for moment in report.verbal_moments]
+
+
+@router.get("/videos/{video_id}/highlights", response_model=HighlightReel)
+async def get_highlights(video_id: str, request: Request) -> HighlightReel:
+    report = await get_report(video_id, request)
+    if report.highlights is None:
+        raise HTTPException(status_code=404, detail="Highlights not found.")
+    return report.highlights
+
+
+@router.get("/videos/{video_id}/executive", response_model=ExecutiveSummary)
+async def get_executive(video_id: str, request: Request) -> ExecutiveSummary:
+    report = await get_report(video_id, request)
+    if report.executive is None:
+        raise HTTPException(status_code=404, detail="Executive summary not found.")
+    return report.executive
+
+
+@router.post("/studies/{game_key}/analyze", response_model=StudyReport)
+async def analyze_study(game_key: str, request: Request) -> StudyReport:
+    repository = _repository_from_request(request)
+    client = _client_from_request(request)
+    if client is None:
+        raise HTTPException(status_code=503, detail="Gemini client is not configured.")
+    return await process_study(client, repository, game_key)
+
+
+@router.get("/studies/{game_key}", response_model=StudyReport)
+async def get_study(game_key: str, request: Request) -> StudyReport:
+    repository = _repository_from_request(request)
+    study = await repository.get_study_report(game_key)
+    if study is None:
+        raise HTTPException(status_code=404, detail="Study report not found.")
+    return study
 
 
 @router.get("/health", response_model=HealthResponse)
