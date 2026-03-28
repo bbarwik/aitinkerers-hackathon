@@ -105,15 +105,22 @@ export function VideoCard({ video }: { video: DiscoveredVideo }) {
           </div>
 
           <div className="flex items-center justify-between">
-            {video.source_query && (
+            {video.content_type && video.content_type !== "unknown" ? (
+              <Badge variant="secondary" className="text-[10px]">
+                {video.content_type}
+              </Badge>
+            ) : video.source_query ? (
               <Badge variant="secondary" className="max-w-[70%] truncate text-[10px]">
                 {video.source_query}
               </Badge>
+            ) : (
+              <span />
             )}
             <ExternalLink className="text-muted-foreground h-3.5 w-3.5 opacity-0 transition-opacity group-hover:opacity-100" />
           </div>
         </CardContent>
       </a>
+
     </Card>
   )
 }

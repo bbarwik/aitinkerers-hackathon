@@ -4,7 +4,8 @@ import { Button } from "@/components/ui/button"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 import { ProgressLog } from "@/components/progress-log"
 import { ResultsView } from "@/components/results-view"
-import { useDiscover } from "@/hooks/use-discover"
+import { BatchAnalysisView } from "@/components/analysis/batch-analysis-view"
+import { useDiscover, type DiscoveredVideo } from "@/hooks/use-discover"
 import { Gamepad2, Search, RefreshCw, AlertCircle, Calendar, X } from "lucide-react"
 
 const PERIODS = [
@@ -14,11 +15,14 @@ const PERIODS = [
   { value: "all", label: "All time" },
 ] as const
 
+type BatchSelection = { videos: DiscoveredVideo[]; label: string }
+
 export function App() {
   const [gameName, setGameName] = useState("")
   const [period, setPeriod] = useState("month")
   const [dateFrom, setDateFrom] = useState("")
   const [dateTo, setDateTo] = useState("")
+  const [batch, setBatch] = useState<BatchSelection | null>(null)
   const { status, progress, result, error, discover, reset } = useDiscover()
 
   const handlePeriod = (value: string) => {
@@ -42,6 +46,29 @@ export function App() {
   const handleRefresh = () => {
     const name = gameName.trim()
     if (name) discover(name, true, period || "all", dateFrom || undefined, dateTo || undefined)
+  }
+
+  const handleAnalyzeBatch = (videos: DiscoveredVideo[], label: string) => {
+    setBatch({ videos, label })
+  }
+
+  // Batch analysis view — full-screen takeover
+  if (batch) {
+    return (
+      <div className="min-h-screen bg-background">
+        <header className="border-b bg-background/95 backdrop-blur">
+          <div className="flex items-center gap-2 px-4 py-3">
+            <Gamepad2 className="h-5 w-5 text-primary" />
+            <span className="text-sm font-bold tracking-tight">GameSight</span>
+          </div>
+        </header>
+        <BatchAnalysisView
+          videos={batch.videos}
+          batchLabel={batch.label}
+          onBack={() => setBatch(null)}
+        />
+      </div>
+    )
   }
 
   return (
@@ -187,7 +214,7 @@ export function App() {
         )}
 
         {/* Results */}
-        {result && <ResultsView result={result} />}
+        {result && <ResultsView result={result} onAnalyzeBatch={handleAnalyzeBatch} />}
       </main>
     </div>
   )

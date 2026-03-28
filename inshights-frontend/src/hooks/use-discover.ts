@@ -12,6 +12,7 @@ export type DiscoveredVideo = {
   published_at: string | null
   thumbnail_url: string | null
   source_query: string | null
+  content_type: string | null
 }
 
 export type DiscoveryResult = {

@@ -2,10 +2,11 @@ import { useState } from "react"
 import { Streamdown } from "streamdown"
 import { code } from "@streamdown/code"
 import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
 import { VideoCard } from "@/components/video-card"
 import { TrendingUp, Clock, Sparkles, Search, ChevronDown } from "lucide-react"
-import type { DiscoveryResult } from "@/hooks/use-discover"
+import type { DiscoveryResult, DiscoveredVideo } from "@/hooks/use-discover"
 
 function GameContext({ content }: { content: string }) {
   const [expanded, setExpanded] = useState(false)
@@ -35,9 +36,16 @@ function GameContext({ content }: { content: string }) {
   )
 }
 
-export function ResultsView({ result }: { result: DiscoveryResult }) {
+export function ResultsView({
+  result,
+  onAnalyzeBatch,
+}: {
+  result: DiscoveryResult
+  onAnalyzeBatch?: (videos: DiscoveredVideo[], label: string) => void
+}) {
   const [tab, setTab] = useState<"popular" | "recent">("popular")
   const videos = tab === "popular" ? result.popular : result.recent
+  const tabLabel = tab === "popular" ? "Most Popular" : "Most Recent"
 
   return (
     <div className="space-y-6">
@@ -80,30 +88,42 @@ export function ResultsView({ result }: { result: DiscoveryResult }) {
 
       <Separator />
 
-      {/* Tab switcher */}
-      <div className="flex gap-1 rounded-lg border p-1">
-        <button
-          onClick={() => setTab("popular")}
-          className={`flex items-center gap-2 rounded-md px-4 py-2 text-sm font-medium transition-colors ${
-            tab === "popular"
-              ? "bg-primary text-primary-foreground"
-              : "text-muted-foreground hover:text-foreground"
-          }`}
-        >
-          <TrendingUp className="h-4 w-4" />
-          Most Popular ({result.popular.length})
-        </button>
-        <button
-          onClick={() => setTab("recent")}
-          className={`flex items-center gap-2 rounded-md px-4 py-2 text-sm font-medium transition-colors ${
-            tab === "recent"
-              ? "bg-primary text-primary-foreground"
-              : "text-muted-foreground hover:text-foreground"
-          }`}
-        >
-          <Clock className="h-4 w-4" />
-          Most Recent ({result.recent.length})
-        </button>
+      {/* Tab switcher + Analyze All button */}
+      <div className="flex items-center gap-3">
+        <div className="flex gap-1 rounded-lg border p-1">
+          <button
+            onClick={() => setTab("popular")}
+            className={`flex items-center gap-2 rounded-md px-4 py-2 text-sm font-medium transition-colors ${
+              tab === "popular"
+                ? "bg-primary text-primary-foreground"
+                : "text-muted-foreground hover:text-foreground"
+            }`}
+          >
+            <TrendingUp className="h-4 w-4" />
+            Most Popular ({result.popular.length})
+          </button>
+          <button
+            onClick={() => setTab("recent")}
+            className={`flex items-center gap-2 rounded-md px-4 py-2 text-sm font-medium transition-colors ${
+              tab === "recent"
+                ? "bg-primary text-primary-foreground"
+                : "text-muted-foreground hover:text-foreground"
+            }`}
+          >
+            <Clock className="h-4 w-4" />
+            Most Recent ({result.recent.length})
+          </button>
+        </div>
+
+        {onAnalyzeBatch && videos.length > 0 && (
+          <button
+            onClick={() => onAnalyzeBatch(videos, `${result.game_name} — ${tabLabel}`)}
+            className="flex items-center gap-2 rounded-md border px-4 py-2 text-sm font-medium transition-colors hover:bg-primary hover:text-primary-foreground"
+          >
+            <Sparkles className="h-4 w-4" />
+            Analyze All {tabLabel} ({videos.length})
+          </button>
+        )}
       </div>
 
       {/* Video grid */}

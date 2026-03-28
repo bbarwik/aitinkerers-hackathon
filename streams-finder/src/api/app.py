@@ -10,6 +10,7 @@ from src.api.routes.research import router as research_router
 from src.research.discoverer import ResearchDiscoverer
 from src.research.query_generator import QueryGenerator
 from src.research.twitch_provider import TwitchProvider
+from src.research.video_verifier import VideoVerifier
 from src.research.youtube_provider import YouTubeProvider
 
 load_dotenv()
@@ -25,7 +26,10 @@ async def lifespan(app: FastAPI):
     twitch_secret = os.environ.get("TWITCH_CLIENT_SECRET")
     twitch = TwitchProvider(client_id=twitch_id, client_secret=twitch_secret) if twitch_id and twitch_secret else None
 
-    app.state.research_discoverer = ResearchDiscoverer(query_generator=query_gen, youtube=youtube, twitch=twitch)
+    verifier = VideoVerifier(client=client)
+    app.state.research_discoverer = ResearchDiscoverer(
+        query_generator=query_gen, youtube=youtube, twitch=twitch, video_verifier=verifier,
+    )
 
     yield
     client.close()

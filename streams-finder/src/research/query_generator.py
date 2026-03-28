@@ -24,19 +24,27 @@ QUERY_PROMPT = """Based on this game context:
 
 {game_context}
 
-Generate {num_queries} diverse YouTube search queries to find gameplay videos of "{game_name}".
+Generate {num_queries} diverse YouTube search queries for finding videos of people ACTUALLY PLAYING "{game_name}".
+The primary goal is streams, playthroughs, and let's plays — real gameplay with or without commentary.
 
-Cover different types:
-- General gameplay / full playthroughs
-- Specific boss fights or challenging sections
-- Blind / first-time playthroughs with reactions
-- Stream VODs and let's plays
-- No commentary gameplay (for visual analysis)
-- Recent content (current patch/season/update)
+Target content types (in priority order):
+- Streams: stream VODs, live gameplay, archived broadcasts, streaming highlights
+- Gameplay: full playthroughs, walkthroughs, boss fights, challenge runs, speedruns
+- Commentary: let's plays, blind/first-time reactions, commentary playthroughs
+- Reviews: game reviews, first impressions (secondary — include 1 query max)
 
-Use specific terms from the game context (boss names, DLC names, community slang) to make queries precise.
+Requirements:
+- Use concrete game terms from the context: bosses, modes, DLC names, locations, community slang.
+- Include intent words: gameplay, playthrough, walkthrough, let's play, stream, VOD, live, full game.
+- Prefer queries that surface full-length videos (30min+), not clips.
 
-DO NOT generate queries for: trailers, compilations, music/OST, reviews, news, tier lists, or YouTube Shorts."""
+Coverage:
+- At least 3 gameplay / playthrough / stream / VOD queries
+- At least 1 let's play or blind playthrough query
+- At least 1 query using a specific in-game term (boss name, DLC, mode) + gameplay intent
+- At most 1 review query
+
+DO NOT generate queries for: trailers, compilations, music/OST, news, patch notes, tier lists, YouTube Shorts, lore/theory videos, or "top 10" lists."""
 
 
 class QueryGenerator:

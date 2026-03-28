@@ -21,6 +21,7 @@ class DiscoveredVideo(BaseModel):
     published_at: datetime | None = None  # Always UTC-aware
     thumbnail_url: str | None = None
     source_query: str | None = None
+    content_type: str | None = None  # Populated by Gemini verification: gameplay, review, stream, commentary
 
 
 class DiscoveryResult(BaseModel):

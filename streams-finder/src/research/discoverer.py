@@ -1,6 +1,5 @@
 import asyncio
 import logging
-import re
 from collections import Counter
 from collections.abc import Callable, Coroutine
 from datetime import datetime, timedelta, timezone
@@ -8,11 +7,10 @@ from datetime import datetime, timedelta, timezone
 from .models import DiscoveredVideo, DiscoveryResult
 from .query_generator import QueryGenerator
 from .twitch_provider import TwitchProvider
+from .video_verifier import VideoVerifier
 from .youtube_provider import YouTubeProvider
 
 logger = logging.getLogger(__name__)
-
-EXCLUDE_TITLE_PATTERN = re.compile(r"\b(compilation|montage|trailer|teaser|shorts|soundtrack|cinematic)\b", re.IGNORECASE)
 
 # Type alias for progress callback: async function that takes a status message
 ProgressCallback = Callable[[str], Coroutine]
@@ -25,6 +23,7 @@ class ResearchDiscoverer:
         query_generator: QueryGenerator,
         youtube: YouTubeProvider,
         twitch: TwitchProvider | None = None,
+        video_verifier: VideoVerifier | None = None,
         min_duration: int = 600,
         max_duration: int = 7200,
         popular_limit: int = 10,
@@ -33,6 +32,7 @@ class ResearchDiscoverer:
         self.query_generator = query_generator
         self.youtube = youtube
         self.twitch = twitch
+        self.video_verifier = video_verifier
         self.min_duration = min_duration
         self.max_duration = max_duration
         self.popular_limit = popular_limit
@@ -129,14 +129,27 @@ class ResearchDiscoverer:
         if not all_videos and partial:
             raise RuntimeError(f"All discovery sources failed for '{game_name}'")
 
-        # Dedupe, filter, rank
+        # Dedupe + deterministic filters (duration, date)
         await progress(f"Processing {len(all_videos)} total candidates...")
         deduped = self._deduplicate(all_videos)
         filtered = self._filter(deduped, date_from=eff_from, date_to=eff_to)
-        await progress(f"After filtering: {len(filtered)} videos (from {len(deduped)} unique)")
+        await progress(f"After duration/date filter: {len(filtered)} videos (from {len(deduped)} unique)")
 
-        popular = sorted(filtered, key=lambda v: v.view_count or 0, reverse=True)[: self.popular_limit]
-        recent = sorted(filtered, key=lambda v: v.published_at or datetime.min.replace(tzinfo=timezone.utc), reverse=True)[: self.recent_limit]
+        # Gemini verification — classify content type, reject non-gameplay/review/stream
+        if self.video_verifier and filtered:
+            await progress(f"Verifying {len(filtered)} videos with Gemini...")
+            try:
+                filtered = await self.video_verifier.verify_batch(game_name=game_name, videos=filtered)
+                await progress(f"After verification: {len(filtered)} videos kept")
+            except Exception as e:
+                logger.warning("Video verification failed: %s — keeping all candidates", e)
+                warnings.append(f"Video verification failed: {e}")
+                partial = True
+                await progress(f"Verification failed, keeping all candidates")
+
+        # Rank with content type priority: stream/gameplay/commentary first, reviews last
+        popular = sorted(filtered, key=lambda v: (self._content_priority(v.content_type), v.view_count or 0), reverse=True)[: self.popular_limit]
+        recent = sorted(filtered, key=lambda v: (self._content_priority(v.content_type), v.published_at or datetime.min.replace(tzinfo=timezone.utc)), reverse=True)[: self.recent_limit]
 
         source_counts = Counter(v.platform.value for v in filtered)
 
@@ -170,11 +183,10 @@ class ResearchDiscoverer:
     def _filter(
         self, videos: list[DiscoveredVideo], date_from: datetime | None = None, date_to: datetime | None = None,
     ) -> list[DiscoveredVideo]:
+        """Deterministic filters only: duration and date. Content relevance handled by Gemini."""
         result: list[DiscoveredVideo] = []
         for v in videos:
             if v.duration_seconds is not None and not (self.min_duration <= v.duration_seconds <= self.max_duration):
-                continue
-            if EXCLUDE_TITLE_PATTERN.search(v.title):
                 continue
             if date_from and v.published_at and v.published_at < date_from:
                 continue
@@ -182,6 +194,11 @@ class ResearchDiscoverer:
                 continue
             result.append(v)
         return result
+
+    @staticmethod
+    def _content_priority(content_type: str | None) -> int:
+        """Higher = better. Streams/gameplay rank above reviews."""
+        return {"stream": 3, "gameplay": 3, "commentary": 2, "review": 1}.get(content_type or "", 0)
 
     @staticmethod
     def _period_cutoff(period: str) -> datetime | None:
