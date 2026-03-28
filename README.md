@@ -4,6 +4,24 @@
 
 Built at [AI Tinkerers Poland Hackathon](https://aitinkerers.org) (March 28, 2026) by team **Research.tech**.
 
+> **Note:** This was a fun side project built as a challenge in 6 hours during a hackathon. To see what we're building seriously, visit [research.tech](https://research.tech/).
+>
+> **[Live Analysis Dashboard](https://s.bbarwik.com/dashboard.html)** — see real analysis results from Baldur's Gate 3 gameplay sessions.
+
+### 🏆 UPDATE: We won 1st place at the hackathon!
+
+The entire project — all code, research, strategy, architecture diagrams, and this README — was built in a single day using AI-assisted development. Here's what it took:
+
+| Model | Calls | Input | Output | Cache Read | Cache Write | Total Tokens | Cost |
+|-------|------:|------:|-------:|-----------:|------------:|-------------:|-----:|
+| Claude Opus 4.6 | 847 | 150.9M | 1.0M | 131.2M | 19.4M | 152.0M | $214.14 |
+| Claude Haiku 4.5 | 175 | 4.8M | 76.9K | 3.9M | 805.6K | 4.9M | $1.48 |
+| GPT-5.4 | 27 | 69.7M | 750.0K | 62.8M | — | 70.5M | $80.68 |
+| GPT-5.4 Mini | 7 | 1.1M | 125.1K | 290.4K | — | 1.2M | $1.43 |
+| Gemini 3 Flash | 53 | 4.5M | 172.6K | 835.7K | — | 4.7M | $0.83 |
+| Gemini 3.1 Pro | 37 | 3.5M | 162.2K | 518.5K | — | 3.7M | $11.92 |
+| **Total** | **1,146** | **234.6M** | **2.3M** | **199.5M** | **20.3M** | **236.9M** | **$310.48** |
+
 **Hackathon Theme: Multimodal AI Agents** — GameSight is a multi-agent system where 8 specialized AI agents independently analyze gameplay video using Gemini's native multimodal capabilities (video + audio + facecam simultaneously), then cross-validate each other's findings through temporal corroboration. The agents observe three evidence channels in parallel, producing structured, evidence-backed insights that no single model call could achieve.
 
 ---
@@ -480,6 +498,11 @@ GameSight uses **three layers of verification**:
 | Cost per video | ~$0.05/min (7 agents + executive) | $$$$ per study | N/A | N/A |
 
 ---
+
+## Credits
+
+- **[Bartosz Barwikowski](https://github.com/bbarwik)** — analysis engine, 8-agent pipeline, API, database, CLI (`src/gamesight/`, `scripts/`)
+- **[Yuriy Babyak](https://github.com/yuriyward)** — video discovery service, frontend dashboard (`streams-finder/`, `inshights-frontend/`)
 
 ## License
 

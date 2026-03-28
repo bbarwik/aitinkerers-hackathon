@@ -153,12 +153,15 @@ def validate_relative_timestamp(
     if parsed_seconds < 0:
         raise ValueError(f"Invalid timestamp {relative_timestamp!r}. Relative timestamps must be non-negative.")
 
-    if parsed_seconds <= chunk_duration_seconds:
-        return to_mmss(parsed_seconds)
+    # Allow small tolerance (5s) for LLM rounding, clamp to chunk boundary
+    tolerance = 5.0
+    if parsed_seconds <= chunk_duration_seconds + tolerance:
+        return to_mmss(min(parsed_seconds, chunk_duration_seconds))
 
     chunk_end_seconds = chunk_start_seconds + chunk_duration_seconds
-    if chunk_start_seconds <= parsed_seconds <= chunk_end_seconds:
-        return to_mmss(parsed_seconds - chunk_start_seconds)
+    if chunk_start_seconds - tolerance <= parsed_seconds <= chunk_end_seconds + tolerance:
+        relative = min(max(parsed_seconds - chunk_start_seconds, 0), chunk_duration_seconds)
+        return to_mmss(relative)
 
     raise ValueError(
         f"Timestamp {relative_timestamp!r} is outside chunk bounds. "
