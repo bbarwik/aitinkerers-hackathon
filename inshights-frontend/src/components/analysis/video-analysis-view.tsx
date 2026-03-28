@@ -83,6 +83,7 @@ export function VideoAnalysisView({
           currentTime={currentTime}
           insights={insights}
           onSeek={handleSeek}
+          analyzedSeconds={report?.duration_seconds}
         />
       </div>
 
